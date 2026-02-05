@@ -1,15 +1,12 @@
 import Link from 'next/link';
+import bgImage from '../../img/diseno-figuras.png';
 
-interface HeroProps {
-  category: string;
-  title: string;
-  subtitle: string;
-}
-
-export default function Hero({ category, title, subtitle }: HeroProps) {
+export default function Hero() {
   return (
-    <section className="bg-white pt-12 pb-16 md:pt-20 md:pb-24">
-      <div className="mx-auto max-w-6xl px-6">
+    <section className="bg-white pt-12 md:pt-20">
+    
+      <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
+        
         <div className="flex flex-col items-start w-full">
           
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
@@ -20,24 +17,20 @@ export default function Hero({ category, title, subtitle }: HeroProps) {
               </svg>
               <span>Home</span>
             </Link>
-
             <ChevronRight />
-
             <Link href="/soluciones" className="hover:text-black transition-colors">
               Soluciones
             </Link>
-
             <ChevronRight />
-
-            <span className="font-medium text-gray-800">{category}</span>
+            <span className="font-medium text-gray-800">Soluciones Digitales</span>
           </nav>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-black tracking-tight mb-8 leading-tight">
-            {title}
+            Soluciones TI
           </h1>
 
-          <p className="text-lg md:text-2xl text-gray-600 font-light max-w-3xl mb-12 leading-relaxed">
-            {subtitle}
+          <p className="text-xl md:text-3xl font-light text-slate-600 max-w-3xl mb-12 leading-tight">
+            Transformamos la tecnología en valor para tu negocio.
           </p>
 
           <div className="w-full flex items-center justify-between">
@@ -59,6 +52,15 @@ export default function Hero({ category, title, subtitle }: HeroProps) {
 
         </div>
       </div>
+
+      <div className="w-full">
+        <img 
+          src={bgImage.src} 
+          alt="Diseño geométrico" 
+          className="w-full h-48 md:h-[300px] object-cover object-bottom block" 
+        />
+      </div>
+
     </section>
   );
 }
