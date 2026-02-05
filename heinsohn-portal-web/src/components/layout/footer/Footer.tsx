@@ -16,7 +16,7 @@ export default function Footer() {
           
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="" alt="icon heinsohn" />
+              <img src="https://portal.heinsohn.com.co/assets/icon/icon-512x512.png" alt="icon heinsohn" className="inline-block h-6 w-6 rounded-full sm:h-8 sm:w-8"/>
               <h3 className='text-sm font-bold tracking-wider'>HEINSOHN</h3>
             </div>
             
