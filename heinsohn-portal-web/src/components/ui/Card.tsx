@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { ReactElement } from 'react'
 
 interface CardProps {
+    icon: ReactElement,
     title: string,
     description: string,
     btn: string
 }
 
-export default function Card({title, description, btn}: CardProps) {
+export default function Card({icon,title, description, btn}: CardProps) {
   return (
     <div className='flex flex-col border border-gray-200 bg-white p-6 shadow-sm '>
-      <div className='mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-gray-100 transition-colors group-hover:bg-gray-200'>
-            <i>icono aqui</i>
+      <div className='mb-4 flex h-16 w-16 items-center justify-center '>
+            <i>{icon}</i>
       </div>
       <h3 className='mb-3 text-xl '>{title}</h3>
       <p className='mb-4 text-sm text-gray-500'>{description}</p>
