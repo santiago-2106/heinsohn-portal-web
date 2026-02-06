@@ -4,6 +4,7 @@ import bgImage from '../../img/diseno-figuras.png';
 export default function Hero() {
   return (
     <section className="bg-white pt-12 md:pt-20">
+      
     
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
         

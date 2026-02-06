@@ -18,6 +18,6 @@ export default function SolucionesLandign() {
       <ContactForm></ContactForm>
       <Footer></Footer>
       <FooterBottom></FooterBottom>
-    </div>
+      </div>
   )
 }
