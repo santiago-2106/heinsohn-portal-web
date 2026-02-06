@@ -60,7 +60,8 @@ export default function Hero() {
           className="w-full h-48 md:h-[300px] object-cover object-bottom block" 
         />
       </div>
-
+ 
+ 
     </section>
   );
 }
