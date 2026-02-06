@@ -4,6 +4,7 @@ import CardAnuncies from '../ui/CardAnuncies'
 import CardCases from '../ui/CardCases'
 import Footer from '../layout/footer/Footer'
 import FooterBottom from '../layout/footer/FooterBottom'
+import ContactForm from '../forms/ContactForm'
 
 export default function SolucionesLandign() {
   return (
@@ -11,6 +12,7 @@ export default function SolucionesLandign() {
       <Navbar></Navbar>
       <CardAnuncies></CardAnuncies>
       <CardCases></CardCases>
+      <ContactForm></ContactForm>
       <Footer></Footer>
       <FooterBottom></FooterBottom>
     </div>
