@@ -1,5 +1,6 @@
 import Image from "next/image";
 import imgEdificio from '@/src/img/edif.jpg'
+import imgOurWorking from '@/src/img/workimg.png'
 
 export default function CardCases() {
   return (
@@ -10,9 +11,9 @@ export default function CardCases() {
           Conoce Nuestro Trabajo
         </h2>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
+        <div className="grid grid-cols-1 overflow-hidden border border-gray-200 md:grid-cols-2">
 
-          <article className="flex flex-col border border-gray-200 bg-white">
+          <article className="flex flex-col bg-amber-100">
             <div className="relative h-48 w-full sm:h-56 md:h-80">
               <Image 
                 src={imgEdificio} 
@@ -23,11 +24,11 @@ export default function CardCases() {
             </div>
             
             <div className="flex flex-col gap-3 p-5 sm:p-6">
-              <p className="font-medium  text-gray-500 ">
+              <p className="font-medium text-gray-500">
                 Transformación digital en el sector financiero
               </p>
               
-              <p className="text-sm leading-relaxed text-gray-500 ">
+              <p className="text-sm leading-relaxed text-gray-500">
                 Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.
               </p>
               
@@ -36,6 +37,17 @@ export default function CardCases() {
               </a>
             </div>
           </article>
+
+          
+          <div className="relative hidden md:block">
+            <Image 
+              src={imgOurWorking} 
+              alt="Transformación digital en el sector financiero"
+              fill
+              className="object-contain"
+            />
+          </div>
+          
         </div>
       </div>
     </section>
