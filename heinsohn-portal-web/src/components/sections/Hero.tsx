@@ -1,12 +1,23 @@
+import React from 'react';
 import Link from 'next/link';
 import bgImage from '../../img/diseno-figuras.png';
 
-export default function Hero() {
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface HeroProps {
+  title: string;
+  description: string;
+  buttonText: string;
+  breadcrumb: BreadcrumbItem[];
+}
+
+export default function Hero({ title, description, buttonText, breadcrumb }: HeroProps) {
   return (
     <section className="bg-white pt-12 md:pt-20">
-    
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
-        
         <div className="flex flex-col items-start w-full">
           
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
@@ -17,25 +28,31 @@ export default function Hero() {
               </svg>
               <span>Home</span>
             </Link>
-            <ChevronRight />
-            <Link href="/soluciones" className="hover:text-black transition-colors">
-              Soluciones
-            </Link>
-            <ChevronRight />
-            <span className="font-medium text-gray-800">Soluciones Digitales</span>
+            {breadcrumb.map((item, index) => (
+              <React.Fragment key={index}>
+                <ChevronRight />
+                {item.href ? (
+                  <Link href={item.href} className="hover:text-black transition-colors">
+                    {item.label}
+                  </Link>
+                ) : (
+                  <span className="font-medium text-gray-800">{item.label}</span>
+                )}
+              </React.Fragment>
+            ))}
           </nav>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-black tracking-tight mb-8 leading-tight">
-            Soluciones TI
+            {title}
           </h1>
 
           <p className="text-xl md:text-3xl font-light text-slate-600 max-w-3xl mb-12 leading-tight">
-            Transformamos la tecnología en valor para tu negocio.
+            {description}
           </p>
 
           <div className="w-full flex items-center justify-between">
             <button className="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full transition-all hover:bg-gray-800 shadow-sm hover:shadow-md">
-              <span className="font-medium">Solicita una asesoría gratuita</span>
+              <span className="font-medium">{buttonText}</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
                 <path d="M5 12h14"/>
                 <path d="m12 5 7 7-7 7"/>
@@ -49,7 +66,6 @@ export default function Hero() {
               </svg>
             </button>
           </div>
-
         </div>
       </div>
 
@@ -60,7 +76,6 @@ export default function Hero() {
           className="w-full h-48 md:h-[300px] object-cover object-bottom block" 
         />
       </div>
-
     </section>
   );
 }
