@@ -42,7 +42,7 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
               </React.Fragment>
             ))}
           </nav>
-{/* 2. TAGS DE INFORMACIÓN (AÑOS Y CLIENTES) */}
+          <br />
           <div className="mb-8 flex flex-wrap items-center gap-3">
             
             <div className=" px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
