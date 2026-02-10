@@ -1,4 +1,4 @@
-import { dataCard } from "../data/dataCard"
+import { dataCard } from "@/src/components/data/dataCard"
 
 
 export default function Card({icon,title, description, btn}: dataCard) {

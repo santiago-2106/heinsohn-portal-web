@@ -11,9 +11,9 @@ export default function CardCases() {
           Conoce Nuestro Trabajo
         </h2>
 
-        <div className="grid grid-cols-1 overflow-hidden border border-gray-200 md:grid-cols-2">
+        <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2">
 
-          <article className="flex flex-col bg-amber-100">
+          <article className="flex flex-col border border-gray-300 bg-white">
             <div className="relative h-48 w-full sm:h-56 md:h-80">
               <Image 
                 src={imgEdificio} 
@@ -39,12 +39,12 @@ export default function CardCases() {
           </article>
 
           
-          <div className="relative hidden md:block">
+          <div className="relative hidden md:block border border-gray-200">
             <Image 
               src={imgOurWorking} 
               alt="Transformación digital en el sector financiero"
               fill
-              className="object-contain"
+              className="object-cover"
             />
           </div>
           
