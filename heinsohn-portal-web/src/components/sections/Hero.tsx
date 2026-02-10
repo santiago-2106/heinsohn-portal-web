@@ -20,6 +20,7 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
         <div className="flex flex-col items-start w-full">
           
+          {/* 1. BREADCRUMB */}
           <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
             <Link href="/" className="flex items-center gap-1 hover:text-black transition-colors">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -41,15 +42,36 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
               </React.Fragment>
             ))}
           </nav>
+{/* 2. TAGS DE INFORMACIÓN (AÑOS Y CLIENTES) */}
+          <div className="mb-8 flex flex-wrap items-center gap-3">
+            
+            <div className=" px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+              <span className="text-[#E30613] font-bold text-sm">+</span>
+              <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">
+                40 años de experiencia
+              </span>
+            </div>
+            <div className=" px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+              <span className="text-[#000000] font-bold text-sm">|</span>
+              <span className="text-[#E30613] font-bold text-sm">+</span>
+              <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">
+                1.200 clientes en LATAM
+              </span>
+            </div>
 
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-black tracking-tight mb-8 leading-tight">
+          </div>
+
+          {/* 3. TÍTULO */}
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-black tracking-tight mb-8 leading-tight uppercase">
             {title}
           </h1>
 
+          {/* 4. DESCRIPCIÓN */}
           <p className="text-xl md:text-3xl font-light text-slate-600 max-w-3xl mb-12 leading-tight">
             {description}
           </p>
 
+          {/* 5. BOTONES */}
           <div className="w-full flex items-center justify-between">
             <button className="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full transition-all hover:bg-gray-800 shadow-sm hover:shadow-md">
               <span className="font-medium">{buttonText}</span>
@@ -69,6 +91,7 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
         </div>
       </div>
 
+      {/* 6. IMAGEN INFERIOR */}
       <div className="w-full">
         <img 
           src={bgImage.src} 
@@ -82,7 +105,7 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
 
 function ChevronRight() {
   return (
-    <svg className="w-3 h-3 text-rose-500" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
+    <svg className="w-3 h-3 text-[#E30613]" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
     </svg>
   );

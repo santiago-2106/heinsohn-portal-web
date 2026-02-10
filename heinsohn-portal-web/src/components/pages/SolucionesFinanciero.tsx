@@ -6,6 +6,7 @@ import Footer from '../layout/footer/Footer'
 import FooterBottom from '../layout/footer/FooterBottom'
 import ContactForm from '../forms/ContactForm'
 import Hero from '../sections/Hero'
+import CardResult from '../ui/CardResult'
 
 export default function SolucionesFinanciero() {
   const dataFinanzas = {
@@ -30,6 +31,7 @@ export default function SolucionesFinanciero() {
       <CardAnuncies />
       <CardCases />
       <ContactForm />
+      <CardResult />
       <Footer />
       <FooterBottom />
     </div>
