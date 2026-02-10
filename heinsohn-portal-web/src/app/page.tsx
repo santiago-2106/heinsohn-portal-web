@@ -5,11 +5,11 @@ import SolucionesDigitales from "../components/pages/SolucionesDigitales";
 export default function Home() {
   return (
     <>
-      <SolucionesLandign />
+      {/*<SolucionesLandign />*/}
       <div className="my-10 border-t border-gray-100" /> 
       <SolucionesFinanciero />
       <div className="my-10 border-t border-gray-100" /> 
-      <SolucionesDigitales />
+      {/*<SolucionesDigitales />*/}
     </>
   );
 }
