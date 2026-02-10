@@ -7,6 +7,7 @@ import FooterBottom from '../layout/footer/FooterBottom'
 import ContactForm from '../forms/ContactForm'
 import Hero from '../sections/Hero'
 import CardFinal from '../ui/cardsSolutions/CardFinal'
+import Slider from '../sliders/Slider'
 
 export default function SolucionesLandign() {
   const dataTI = {
@@ -21,9 +22,6 @@ export default function SolucionesLandign() {
 
   return (
     <div>
-
-     
-
       <Navbar />
       <Hero 
         title={dataTI.title}
@@ -34,6 +32,7 @@ export default function SolucionesLandign() {
       <CardFinal />
       <CardCases />
       <ContactForm />
+      <Slider />
       <Footer />
       <FooterBottom />
     </div>

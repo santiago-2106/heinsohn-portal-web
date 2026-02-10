@@ -7,7 +7,10 @@ import FooterBottom from '../layout/footer/FooterBottom'
 import ContactForm from '../forms/ContactForm'
 import Hero from '../sections/Hero'
 import CardFinal from '../ui/cardsSolutions/CardFinal'
+
+import Slider from '../sliders/Slider'
 import CardResult from '../ui/CardResult'
+
 
 export default function SolucionesFinanciero() {
   const dataFinanzas = {
@@ -32,6 +35,8 @@ export default function SolucionesFinanciero() {
       <CardFinal />
       <CardCases />
       <ContactForm />
+
+      <Slider />
       <CardResult />
       <Footer />
       <FooterBottom />
