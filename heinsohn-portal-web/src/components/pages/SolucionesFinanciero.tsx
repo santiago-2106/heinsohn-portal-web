@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../layout/navbar/Navbar'
-import CardAnuncies from '../ui/CardAnuncies'
+import CardAnuncies from '../ui/cards gitSolutions'
 import CardCases from '../ui/CardCases'
 import Footer from '../layout/footer/Footer'
 import FooterBottom from '../layout/footer/FooterBottom'
