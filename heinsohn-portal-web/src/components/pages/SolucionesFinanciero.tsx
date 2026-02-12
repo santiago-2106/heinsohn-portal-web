@@ -9,6 +9,7 @@ import CardFinal from '../ui/cardsSolutions/CardFinal'
 
 import Slider from '../sliders/Slider'
 import CardResult from '../ui/CardResult'
+import UxImgUrl from '../forms/uploads-Img-Url/UxImgUrl'
 
 
 export default function SolucionesFinanciero() {
@@ -34,7 +35,7 @@ export default function SolucionesFinanciero() {
       <CardFinal />
       <CardCases />
       <ContactForm />
-
+      <UxImgUrl />
       <Slider />
       <CardResult />
       <Footer />
