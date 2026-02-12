@@ -7,6 +7,7 @@ import ContactForm from '../forms/ContactForm'
 import Hero from '../sections/Hero'
 import Slider from '../sliders/Slider'
 import CardResult from '../ui/CardResult'
+import UxImgUrl from '../forms/uploads-Img-Url/UxImgUrl'
 
 import { 
   financialChallengesCards, 
@@ -86,6 +87,11 @@ export default function SolucionesFinanciero() {
 
 
       <CardCases />
+
+      <ContactForm />
+      <UxImgUrl />
+
+
 
       <Slider />
 

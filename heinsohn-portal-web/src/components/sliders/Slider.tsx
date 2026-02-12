@@ -3,16 +3,19 @@
 import { cardSlider1 } from '../data/dataSlider'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper/modules'
+import { Navigation, Pagination } from 'swiper/modules'
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+
 
 export default function Slider() {
   return (
     <>
-    <section className='bg-linear-to-tr from-blue-800 to-blue-300 flex items-center min-h-screen pt-20'>
-      <div className='px-4 mx-auto sm:max-w-3xs md:max-w-4xl lg:max-w-60 xl:max-w-9/12'>
+    <section className='py-8 sm:py-12 md:py-16'>
+      <div className='mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12'>
         
         <Swiper 
-          modules={[Navigation]}
+          modules={[Navigation, Pagination]}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 1.5 },
@@ -22,41 +25,42 @@ export default function Slider() {
             prevEl: '.prev-btn',
             nextEl: '.next-btn'
           }}
-          spaceBetween={30} 
+          pagination={{
+            clickable:true,
+            el: '.custom-pagination'
+          }}
+          spaceBetween={30}           
         >
           {cardSlider1.map(item => (
             <SwiperSlide 
-              className='bg-white border border-neutral-400 p-12 rounded-[10px] flex flex-col items-center' 
+              className='flex flex-col border border-gray-300 bg-white' 
               key={item.id}
             >
               {/* Imagenes carrusel */}
-              <div className='max-w-max mx-auto mb-6'>
-                <Image 
-                  src={item.img} 
-                  alt='img' 
-                  width={150} 
-                  height={150} 
-                  className='rounded-full object-cover'
-                />
+              <div className='relative h-48 w-full sm:h-56 md:h-80'>
+                <Image src={item.img} alt='img' fill className='object-cover'/>
               </div>
               
               {/* Contenido carrusel */}
-              <div className='text-center'>
-                <h4 className='text-3xl font-semibold mb-4'>{item.title}</h4>
-                <p className='mb-4'>{item.description}</p>
-                <a href="#" className='text-blue-700 font-medium hover:underline'>{item.btn}</a>
+              <div className='flex flex-col gap-3 p-5 sm:p-6'>
+                <h4 className='font-medium text-gray-500'>{item.title}</h4>
+                <p className='text-sm leading-relaxed text-gray-500'>{item.description}</p>
+                <a href="#" className='mt-auto inline-flex items-center gap-2 text-sm font-medium transition-transform hover:translate-x-1'>{item.btn}</a>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
         {/* Navegación botones */}
-        <div className='flex items-center justify-center mt-8 gap-5'>
+        <div className='flex items-center justify-center '>
           <button className='bg-white h-12 w-12 flex items-center justify-center rounded hover:bg-neutral-200 active:bg-neutral-100 transition-colors cursor-pointer prev-btn'>
-            d
+            <ArrowCircleLeftIcon />
           </button>
+
+          <div className='custom-pagination static w-auto! flex ' />
+
           <button className='bg-white h-12 w-12 flex items-center justify-center rounded hover:bg-neutral-200 active:bg-neutral-100 transition-colors cursor-pointer next-btn'>
-            i
+            <ArrowCircleRightIcon />
           </button>
         </div>
       </div>

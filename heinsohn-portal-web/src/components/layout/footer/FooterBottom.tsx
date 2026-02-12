@@ -48,8 +48,8 @@ export default function FooterBottom() {
                 
                 <div className="grid grid-cols-1 gap-y-3 border-t border-gray-200 pt-6 text-gray-500 sm:grid-cols-3 sm:gap-x-8">
                     {
-                        politicas.map((column) => (
-                            <div className='flex flex-col gap-1 sm:items-start'>
+                        politicas.map((column, index) => (
+                            <div key={index} className='flex flex-col gap-1 sm:items-start'>
                                 {
                                     column.map((item) => (
                                         <Link key={item} href='/'>{item}</Link>
