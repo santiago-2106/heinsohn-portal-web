@@ -6,7 +6,7 @@ import FooterBottom from '../layout/footer/FooterBottom'
 import ContactForm from '../forms/ContactForm'
 import Hero from '../sections/Hero'
 import Slider from '../sliders/Slider'
-import CardResult from '../ui/CardResult'
+import CardResult from '../ui/cardsSolutions/CardResult'
 
 import { 
   financialChallengesCards, 

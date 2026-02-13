@@ -149,7 +149,6 @@ export const financialSolutionsCards: dataCard[] = [
     },
 ];
 
-// --- NUEVO ARRAY AGREGADO AL FINAL --- //
 export const experienceStatsData: dataCard[] = [
     {
         title: 'Cobertura masiva',
