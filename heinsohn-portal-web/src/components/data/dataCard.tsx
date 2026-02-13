@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 import DevicesIcon from "@mui/icons-material/Devices";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloudQueueIcon from "@mui/icons-material/CloudQueue";
@@ -26,15 +26,20 @@ import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import PieChartIcon from '@mui/icons-material/PieChart';
 
+//Iconos vista4 soluciones digitales Ing. Software
+import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
+import { ContactPageOutlined, SpeedOutlined, TimerOutlined, WebOutlined } from "@mui/icons-material";
+
 
 export interface dataCard {
     icon?: ReactNode
     title: string
-    description: string
-    btn: string
+    description: string | React.ReactNode
+    btn?: string
     items?: string[] 
 }
 
+//Informacion data card vista1 soluciones TI
 export const softwareCards: dataCard[] = [
     {icon:<DevicesIcon />, title: 'Desarrollo de aplicaciones moviles y web', description:'soluciones intuitivas para todo tip de dispositivos', btn:'ver soluciones'},
     {icon:<DisplaySettingsIcon />, title: 'Diseño y Desarrollo UX/UI', description:'interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion', btn:'Ver experiencias'},
@@ -60,6 +65,31 @@ export const strategicConsultingCards: dataCard[] = [
     {icon:<CloudSyncIcon />, title: 'Cloud y modernización de infraestructura', description:'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn:'Optimizacion en la nube'},
     {icon:<TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description:'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn:'Explorar consultoria'},
 ]
+
+//Informacion data card vista4 soluciones TI INGENIERIA DE SOFTWARE 2
+export const textModelDevelop: dataCard[] = [
+    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Staff Augmentation', description:'Integra desarrolladores especializados para fortalecer tu equipo actual. '},
+    {icon:<WebOutlined /> , title:'Project Based Development', description:'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. '},
+    {icon:<TimerOutlined /> , title:'Dedicated Teams', description:'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. '},
+]
+
+export const textoModelDevelop: dataCard[] = [
+    {icon:<SpeedOutlined /> , title:'Soluciones como producto', description:'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.'},
+    {icon:<ContactPageOutlined /> , title:'Consultoria tecnica + Implementacion', description:'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.'}
+]
+
+export const textoModelDevelop2: dataCard[] = [
+    { title:'Optimización de recursos', 
+    description:(<>
+    <span className="font-semibold text-gray-900">Al desarrollar soluciones a la medida,</span> inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas, no meses— permitiendo una respuesta ágil a las oportunidades del mercado.
+    </>)},
+    { title:'Eficiencia y retorno de la inversión ', description:(
+        <>
+        Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <span className="font-semibold text-gray-900">SAP, Salesforce,core financiero y más,</span> potenciando la eficiencia y el retorno de inversión en cada proyecto.
+        </>
+    )}
+]
+
 
 //--- DATOS SECTOR FINANCIERO ---//
 

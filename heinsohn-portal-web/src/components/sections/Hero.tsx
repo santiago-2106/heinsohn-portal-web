@@ -9,7 +9,7 @@ interface BreadcrumbItem {
 
 interface HeroProps {
   title: string;
-  description: string;
+  description: string | React.ReactNode;//Agregue react.node  para que acepte diferentes tipos de contenido y sean renderizables
   buttonText: string;
   breadcrumb: BreadcrumbItem[];
 }
