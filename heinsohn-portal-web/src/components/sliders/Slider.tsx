@@ -4,67 +4,95 @@ import { cardSlider1 } from '../data/dataSlider'
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination } from 'swiper/modules'
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft'
+import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight'
 
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
+import TextComponent from '../ui/textsComponent/TextComponent'
 
 export default function Slider() {
   return (
-    <>
-    <section className='py-8 sm:py-12 md:py-16'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12'>
-        
-        <Swiper 
+    <section className="py-12 md:py-20">
+      <div className="mx-auto max-w-7xl px-6">
+
+        <TextComponent title='Blog Destacado' />
+        <Swiper
           modules={[Navigation, Pagination]}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 1.5 },
-            1280: { slidesPerView: 2.5 }
-          }}
+          loop
+          centeredSlides
+          slidesPerView={1}
+          
           navigation={{
             prevEl: '.prev-btn',
             nextEl: '.next-btn'
           }}
           pagination={{
-            clickable:true,
+            clickable: true,
             el: '.custom-pagination'
           }}
-          spaceBetween={30}           
         >
-          {cardSlider1.map(item => (
-            <SwiperSlide 
-              className='flex flex-col border border-gray-300 bg-white' 
-              key={item.id}
-            >
-              {/* Imagenes carrusel */}
-              <div className='relative h-48 w-full sm:h-56 md:h-80'>
-                <Image src={item.img} alt='img' fill className='object-cover'/>
-              </div>
-              
-              {/* Contenido carrusel */}
-              <div className='flex flex-col gap-3 p-5 sm:p-6'>
-                <h4 className='font-medium text-gray-500'>{item.title}</h4>
-                <p className='text-sm leading-relaxed text-gray-500'>{item.description}</p>
-                <a href="#" className='mt-auto inline-flex items-center gap-2 text-sm font-medium transition-transform hover:translate-x-1'>{item.btn}</a>
+          {cardSlider1.map((item) => (
+            <SwiperSlide key={item.id}>
+              <div className="flex flex-col md:flex-row gap-8 items-stretch">
+
+                {/* Imagen lado izquierda carrusel*/}
+                <div className="hidden md:flex md:w-1/3 bg-[#f5f5f5] items-center justify-center">
+                  <img
+                    src="https://giffiles.alphacoders.com/220/220033.gif"
+                    alt="decor"
+                    className="w-36"
+                  />
+                </div>
+                <div className="w-full md:w-2/3 bg-white border border-gray-200">
+                  {/* Imagenes del carrusel */}
+                  <div className="relative h-56 md:h-80 w-full">
+                    <Image
+                      src={item.img}
+                      alt={item.title}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+                  {/* Contenido carrusel */}
+                  <div className="flex flex-col gap-4 p-6">
+                    <h4 className="text-lg md:text-xl font-medium text-gray-700">
+                      {item.title}
+                    </h4>
+
+                    <p className="text-sm text-gray-500 leading-relaxed">
+                      {item.description}
+                    </p>
+
+                    <a
+                      href="#"
+                      className="mt-auto inline-flex items-center gap-2 text-sm font-medium text-black transition-transform hover:translate-x-1"
+                    >
+                      {item.btn}
+                    </a>
+                  </div>
+
+                </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-        {/* Navegación botones */}
-        <div className='flex items-center justify-center '>
-          <button className='bg-white h-12 w-12 flex items-center justify-center rounded hover:bg-neutral-200 active:bg-neutral-100 transition-colors cursor-pointer prev-btn'>
-            <ArrowCircleLeftIcon />
+        {/* Navegacion bootnes */}
+        <div className="flex items-center justify-end-safe gap-4 mt-10">
+          <button className="prev-btn h-10 w-10 rounded-full border border-gray-300 flex items-center justify-center hover:cursor-pointer hover:bg-gray-400 transition">
+            <ArrowCircleLeftIcon fontSize="small" />
           </button>
 
-          <div className='custom-pagination static w-auto! flex ' />
+          <div className="custom-pagination static w-auto! gap-2" />
 
-          <button className='bg-white h-12 w-12 flex items-center justify-center rounded hover:bg-neutral-200 active:bg-neutral-100 transition-colors cursor-pointer next-btn'>
-            <ArrowCircleRightIcon />
+          <button className="next-btn h-10 w-10 rounded-full border border-gray-300 flex items-center justify-center hover:cursor-pointer hover:bg-gray-400 transform">
+            <ArrowCircleRightIcon fontSize="small" />
           </button>
         </div>
+
       </div>
     </section>
-    </>
   )
 }

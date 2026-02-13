@@ -33,8 +33,8 @@ import { ContactPageOutlined, SpeedOutlined, TimerOutlined, WebOutlined } from "
 
 export interface dataCard {
     icon?: ReactNode
-    title: string
-    description: string | React.ReactNode
+    title: React.ReactNode
+    description?: string | React.ReactNode
     btn?: string
     items?: string[] 
 }
@@ -90,6 +90,64 @@ export const textoModelDevelop2: dataCard[] = [
     )}
 ]
 
+export const textoSolucionDigital2: dataCard[] = [
+    {
+        title: (
+        <>
+        <span className="text-red-500">01.</span> Vision Compartida
+        </>
+    ), description:'Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">02.</span> Diseño con proposito
+        </>
+    ), description:'Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">03.</span> Construccion agil y segura
+        </>
+    ), description:'Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">04.</span> Evolucion Continua
+        </>
+    ), description:'Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. '},
+]
+
+export const SolucinesDigital6: dataCard[] = [
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Lenguajes & Frameworks (Frontend/Backend)',
+        items:['Java', 'NET', 'Python', 'Node.js', 'React', 'Angular', 'Vue.js', 'Flutter']
+    },
+
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Cloud & Arquitecturas',
+        items:['AWS', 'Microsoft AAzure', 'Google Cloud Platform', 'Kubernetes', 'Docker']
+    },
+
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Bases de datos & Big Data',
+        items:['PostgresSQL', 'MongoDB', 'Oracle', 'Microsoft SQL Server']
+    },
+
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Integraciones Empresariales & QA',
+        items:['SAP', 'Salesforce', 'Gitlab', 'Selenium']
+    },
+]
+
+
+
 
 //--- DATOS SECTOR FINANCIERO ---//
 
@@ -131,6 +189,7 @@ export const financialChallengesCards: dataCard[] = [
         btn: ''
     },
 ];
+
 
 export const financialSolutionsCards: dataCard[] = [
     {
@@ -178,6 +237,8 @@ export const financialSolutionsCards: dataCard[] = [
         btn: 'Conoce cómo optimizar tus portafolios ->'
     },
 ];
+
+
 
 // --- NUEVO ARRAY AGREGADO AL FINAL --- //
 export const experienceStatsData: dataCard[] = [
