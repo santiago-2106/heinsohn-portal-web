@@ -1,9 +1,10 @@
+import React from "react"
 import { dataCard } from "../../data/dataCard"
 import Card from "./Card"
 
 interface cardPropsInformation {
   title: string
-  description?: string 
+  description?: string | React.ReactNode
   cards?: dataCard[]
   cols?: number
   bottomText?: string 

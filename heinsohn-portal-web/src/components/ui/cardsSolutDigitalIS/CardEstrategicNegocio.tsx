@@ -2,7 +2,7 @@
 
 import FeatureCard from "@/src/components/ui/cardsSolutDigitalIS/CardFeatures"
 import TextComponent from "../textsComponent/TextComponent"
-import { TextSolucionDigtal2 } from "../../data/textComponentData/dataTextComponent"
+import { TextSolucionDigtal21 } from "../../data/textComponentData/dataTextComponent"
 
 export default function CardSoftwreGeneric() {
 
@@ -48,7 +48,7 @@ export default function CardSoftwreGeneric() {
 
   return (
    <>
-   <TextComponent title={TextSolucionDigtal2.title} description={TextSolucionDigtal2.description}/>
+   <TextComponent title={TextSolucionDigtal21.title} description={TextSolucionDigtal21.description}/>
     <section className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-3 mx-auto max-w-4xl">
       {data.map((item, index) => (
         <FeatureCard

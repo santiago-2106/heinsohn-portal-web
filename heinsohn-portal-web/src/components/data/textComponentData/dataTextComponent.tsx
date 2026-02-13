@@ -42,14 +42,40 @@ export const TextSolucionDigtal2: dataTextComponent = {
         </>
     )
 }
-
+export const TextSolucionDigtal21: dataTextComponent = {
+    title: "Cómo un desarrollo de software personalizado acelera tu estrategia de negocio  ",
+    description: (
+        <>
+       Nuestro desarrollo de software combina lo mejor de la ingeniería y la visión empresarial para crear soluciones seguras, escalables y alineadas con los objetivos de tu organización. <span className="font-semibold text-gray-800">Lo que ofrecemos</span>
+        </>
+    )
+}
 
 export const TextSolucionDigtal3: dataTextComponent = {
     title: "Resultados medibles de un software hecho a tu medida ",
     description: (
         <>
-        Invertir en software personalizado significa convertir la tecnología en una ventaja competitiva que impacta directamente en la<span className="font-semibold text-gray-800">rentabilidad y la sostenibilidad del negocio.</span> 
+        Invertir en software personalizado significa convertir la tecnología en una ventaja competitiva que impacta directamente en la <span className="font-semibold text-gray-800">rentabilidad y la sostenibilidad del negocio.</span> 
         </>
     )
 }
 
+export const TextSolucionDigtal4: dataTextComponent = {
+    title: "Más que una empresa de desarrollo de software, un aliado para tu futuro digital",
+    description: "No buscamos ser solo un proveedor, sino tu socio estratégico para construir futuro con tecnología confiable, escalable y de impacto."
+}
+
+
+export const TextSolucionDigtal5: dataTextComponent = {
+    title: "Cómo transformamos tu idea en resultados de negocio",
+    description: "Nuestro proceso combina metodología ágil, visión estratégica y foco en resultados para acompañarte desde la idea hasta la evolución continua de la solución: "
+}
+
+export const TextSolucionDigtal6: dataTextComponent = {
+    title: "El stack tecnológico detrás de nuestros proyectos de software",
+    description: (
+        <>
+        Para garantizar escalabilidad, seguridad y eficiencia, trabajamos con un stack tecnológico robusto y probado en <span className="text-gray-800 font-semibold">proyectos de alto impacto</span>
+        </>
+    )
+}

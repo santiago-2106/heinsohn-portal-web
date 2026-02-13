@@ -48,14 +48,14 @@ export const informationCard: dataCardSolutions[] = [
 
     {
         icon: DevicesIcon,
-        titles:"Basico",
+        titles:"Intermedio",
         subtitle: [
       {
         icon: DevicesIcon,
         text: "Prototipado Rapido",
         features: [
           "Angular, React",
-          "Hasta 5 flujos de 1 a 50 pantallas",
+          "Hasta 10 flujos de 1 a 100 pantallas",
         ],
       },
       {
@@ -69,23 +69,23 @@ export const informationCard: dataCardSolutions[] = [
         icon: DevicesIcon,
         text: "Tiempo",
         features: [
-          "16 horas -1 especialista UX.",
+          "32 horas -1 especialista UX.",
         ],
       },
     ],
-    price: "$500 USD",
+    price: "$1000 USD",
     },
 
     {
         icon: DevicesIcon,
-        titles:"Basico",
+        titles:"Pro",
         subtitle: [
       {
         icon: DevicesIcon,
         text: "Prototipado Rapido",
         features: [
           "Angular, React",
-          "Hasta 5 flujos de 1 a 50 pantallas",
+          "mas de 10 flujos de 101 a 200 pantallas",
         ],
       },
       {
@@ -99,10 +99,11 @@ export const informationCard: dataCardSolutions[] = [
         icon: DevicesIcon,
         text: "Tiempo",
         features: [
-          "16 horas -1 especialista UX.",
+          "48 horas -1 especialista UX.",
         ],
       },
     ],
-    price: "$500 USD",
+    price: "$2000 USD",
     }
 ]
+

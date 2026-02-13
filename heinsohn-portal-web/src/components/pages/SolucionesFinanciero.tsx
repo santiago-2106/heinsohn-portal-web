@@ -89,7 +89,7 @@ export default function SolucionesFinanciero() {
       <CardCases />
 
       <ContactForm />
-      <UxImgUrl />
+      
 
 
 
