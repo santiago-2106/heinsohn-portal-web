@@ -26,13 +26,13 @@ export default function TrustSection() {
     <>
     <TextComponent title={dataTextSolucionDigtal.title} description={dataTextSolucionDigtal.description} />
     <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 py-8 md:py-5 px-10 mx-auto max-w-4xl ">
-      {data.map((item, index) => (
+     {/*Corregir name aqui de feautrcard */} {data.map((item, index) => (
         <FeatureCard
           key={index}
           icon={<Devices />}
           description={item.description}
           variant="compact"
-        />
+        /> 
       ))}
     </section>
     <div className="flex justify-center py-8 px-4">

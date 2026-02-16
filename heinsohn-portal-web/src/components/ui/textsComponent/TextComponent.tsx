@@ -2,7 +2,7 @@ import React from "react"
 
 interface propsTextComponent {
   title: string,
-  description: string | React.ReactNode
+  description?: string | React.ReactNode
 }
 
 
