@@ -3,9 +3,8 @@ import Navbar from '../layout/navbar/Navbar'
 import Hero from '../sections/Hero'
 import UxImgUrl from '../forms/uploads-Img-Url/UxImgUrl'
 import TextComponent from '../ui/textsComponent/TextComponent'
-import { dataTextComponent, dataTextTitle } from '../data/textComponentData/dataTextComponent'
 import CardSd from '../ui/cardsSolutDigitalIS/CardSd'
-import ContactForm from '../forms/ContactForm'
+import ContactForm from '../forms/formularios/ContactForm'
 import CardCases from '../ui/cardsSolutions/CardCases'
 import Slider from '../sliders/Slider'
 import TextTeam from '../ui/textsComponent/TextTeam'
@@ -33,7 +32,6 @@ export default function SolucionDigital() {
         buttonText={dataUXConsultorias.buttonText}
         breadcrumb={dataUXConsultorias.breadcrumb} />
       <UxImgUrl />
-      <TextComponent title={dataTextComponent.title} description={dataTextComponent.description} />
       <CardSd />
       <ContactForm />
       <CardCases />

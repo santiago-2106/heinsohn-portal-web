@@ -1,5 +1,5 @@
 
-import { textModelDevelop, textoModelDevelop, textoModelDevelop2 } from '@/src/components/data/dataCard'
+import { textModelDevelop, textoModelDevelop, textoModelDevelop2 } from '@/src/components/data/DataTI'
 import { TextSolucionDigtal2, TextSolucionDigtal3 } from '@/src/components/data/textComponentData/dataTextComponent'
 import ContactForm from '@/src/components/forms/ContactForm'
 import Footer from '@/src/components/layout/footer/Footer'

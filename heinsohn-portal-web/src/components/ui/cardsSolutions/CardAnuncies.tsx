@@ -1,4 +1,5 @@
-import { dataCard } from "../../data/dataCard"
+import { dataCard } from "../../data/financiera/DataFinanciera"
+
 import Card from "./Card"
 
 interface cardPropsInformation {

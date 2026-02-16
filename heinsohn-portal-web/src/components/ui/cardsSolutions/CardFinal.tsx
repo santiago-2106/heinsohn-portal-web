@@ -1,5 +1,5 @@
 import React from 'react'
-import { softwareCards, analitycCards, enginerTeamCards, strategicConsultingCards } from '@/src/components/data/dataCard'
+import { softwareCards, analitycCards, enginerTeamCards, strategicConsultingCards } from '@/src/components/data/landingTI/dataCard'
 import CardAnuncies from '@/src/components/ui/cardsSolutions/CardAnuncies'
 
 export default function CardFinal() {

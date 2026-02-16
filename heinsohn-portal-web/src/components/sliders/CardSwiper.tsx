@@ -1,4 +1,4 @@
-import { softwareCards } from "../data/dataCard";
+import { softwareCards } from "../data/DataTI";
 import SliderSolDigital from "./SliderSolDigital";
 
 

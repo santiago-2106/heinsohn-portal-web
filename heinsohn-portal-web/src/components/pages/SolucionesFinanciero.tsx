@@ -3,17 +3,18 @@ import Navbar from '../layout/navbar/Navbar'
 import CardCases from '../ui/cardsSolutions/CardCases'
 import Footer from '../layout/footer/Footer'
 import FooterBottom from '../layout/footer/FooterBottom'
-import ContactForm from '../forms/ContactForm'
+import ContactForm from '../forms/formularios/ContactForm'
 import Hero from '../sections/Hero'
 import Slider from '../sliders/Slider'
 import CardResult from '../ui/cardsSolutions/CardResult'
 import UxImgUrl from '../forms/uploads-Img-Url/UxImgUrl'
+import preguntasFort from '../forms/formularios/PreguntForm'
 
 import { 
   financialChallengesCards, 
   financialSolutionsCards,
   experienceStatsData 
-} from '../data/dataCard'
+} from '../data/financiera/DataFinanciera'
 
 import CardAnuncies from '../ui/cardsSolutions/CardAnuncies'
 import Clientes from '../sections/clientes'
@@ -87,7 +88,7 @@ export default function SolucionesFinanciero() {
 
 
       <CardCases />
-
+      <preguntasFort/>
       <ContactForm />
       <UxImgUrl />
 

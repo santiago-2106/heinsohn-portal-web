@@ -5,7 +5,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import InputForm from "../forms/InputForms";
+import InputForm from "../InputForms";
 import imgContact from '@/src/img/contactimg.png';
 
 export default function ContactForm() {
