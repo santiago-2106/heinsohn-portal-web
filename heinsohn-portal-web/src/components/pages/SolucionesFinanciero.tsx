@@ -8,20 +8,21 @@ import Hero from '../sections/Hero'
 import Slider from '../sliders/Slider'
 import CardResult from '../ui/cardsSolutions/CardResult'
 import UxImgUrl from '../forms/uploads-Img-Url/UxImgUrl'
-import preguntasFort from '../forms/formularios/PreguntForm'
 
+// Importamos el componente de formulario (que ahora incluye el acordeón)
+import PreguntasFort from '../forms/formularios/PreguntForm'
+
+// IMPORTAMOS LA DATA
 import { 
   financialChallengesCards, 
   financialSolutionsCards,
-  experienceStatsData 
+  experienceStatsData,
+  financialFaqData // <--- Importamos la data de preguntas
 } from '../data/financiera/DataFinanciera'
 
 import CardAnuncies from '../ui/cardsSolutions/CardAnuncies'
 import Clientes from '../sections/clientes'
 import Certificaciones from '../sections/certificaciones'
-
-
-
 
 export default function SolucionesFinanciero() {
   
@@ -35,13 +36,9 @@ export default function SolucionesFinanciero() {
     ]
   };
 
-  // Textos Retos
   const introRetos = "La industria financiera en Latinoamérica vive un momento decisivo. La digitalización, la presión regulatoria y la irrupción de nuevos actores están transformando la manera en que bancos, fintechs, aseguradoras y entidades no bancarizadas operan. Estos son algunos de los retos más urgentes:";
-  
   const footerRetos = "Comprender estos desafíos es el primer paso para transformarlos en oportunidades. Por eso, contar con software especializado, seguro y escalable es clave para transformar estos desafíos en oportunidades de crecimiento";
-  
   const btnRetos = "Descubre cómo enfrentamos estos retos en LATAM";
-
 
   return (
     <div>
@@ -70,33 +67,23 @@ export default function SolucionesFinanciero() {
       
       <CardResult />
 
-      <Clientes 
-        title="Nuestra experiencia en cifras"
-      />
+      <Clientes title="Nuestra experiencia en cifras" />
 
+      <CardAnuncies title=" " cards={experienceStatsData} cols={2} />
 
-      <CardAnuncies 
-        title=" " 
-        cards={experienceStatsData} 
-        cols={2}
-      />
-
-      <Certificaciones 
-        title="Certificaciones internacionales"
-      />
-
-
+      <Certificaciones title="Certificaciones internacionales" />
 
       <CardCases />
-      <preguntasFort/>
-      <ContactForm />
-      
-
-
-
       <Slider />
-
+      
+      <PreguntasFort 
+         title="Preguntas frecuentes sobre software financiero"
+         items={financialFaqData}
+      />
+      
       <ContactForm />
+
+
       <Footer />
       <FooterBottom />
     </div>

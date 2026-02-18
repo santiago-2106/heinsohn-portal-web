@@ -1,6 +1,6 @@
 
 import React from "react"
-import { dataCard } from "../../data/dataCard"
+import { dataCard } from "../../data/landingTI/dataCard"
 import Card from "./Card"
 
 interface cardPropsInformation {

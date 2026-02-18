@@ -1,6 +1,22 @@
 import { ReactNode } from "react";
 
-// --- ICONOS FINANCIEROS ---//
+// --- ICONOS GENERALES ---
+import DevicesIcon from "@mui/icons-material/Devices";
+import DataObjectIcon from "@mui/icons-material/DataObject";
+import CloudQueueIcon from "@mui/icons-material/CloudQueue";
+import TabletMacIcon from "@mui/icons-material/TabletMac";
+import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
+import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import LocalPoliceIcon from '@mui/icons-material/LocalPolice';
+import BubbleChartIcon from '@mui/icons-material/BubbleChart';
+import SmartToyIcon from '@mui/icons-material/SmartToy';
+import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import CloudSyncIcon from '@mui/icons-material/CloudSync';
+import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
+
+// --- ICONOS FINANCIEROS ---
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import PhonelinkSetupIcon from '@mui/icons-material/PhonelinkSetup';
@@ -12,6 +28,7 @@ import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import PieChartIcon from '@mui/icons-material/PieChart';
 
+
 export interface dataCard {
     icon?: ReactNode
     title: string
@@ -20,8 +37,34 @@ export interface dataCard {
     items?: string[] 
 }
 
-// --- DATOS SECTOR FINANCIERO ---//
+// --- TUS ARRAYS ORIGINALES ---
+export const softwareCards: dataCard[] = [
+    {icon:<DevicesIcon />, title: 'Desarrollo de aplicaciones moviles y web', description:'soluciones intuitivas para todo tip de dispositivos', btn:'ver soluciones'},
+    {icon:<DisplaySettingsIcon />, title: 'Diseño y Desarrollo UX/UI', description:'interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion', btn:'Ver experiencias'},
+    {icon:<DataObjectIcon />, title: 'Desarollo de software', description:'productos a la medida de cada necesidad empresarial', btn:'Solicitar desarrollo'},
+    {icon:<CloudQueueIcon />, title: 'Desarrollo software cloud', description:'aplicaciones seguras, flexibles y con alto rendimiento en la nube.', btn:'Ver mas'},
+    {icon:<TabletMacIcon/>, title: 'Desarrollo de plataformas escalables', description:'arquitecturas prepardas para el crecimiento del negocio', btn:'Explorar'},
+    {icon:<DeveloperModeIcon />, title: 'Modernizacion de aplicaciones de software', description:'actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia', btn:'Actualizar ahora'},
+]
 
+export const analitycCards: dataCard[] = [
+    {icon:<LocalPoliceIcon/>, title: 'Business Intelligence', description:'Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.', btn:'ver BI'},
+    {icon:<SmartToyIcon />, title: 'Consultoría IA', description:'Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.', btn:'Ver experiencias'},
+    {icon:<AutoAwesomeIcon />, title: 'Soluciones de Inteligencia Artificial  y Copilot', description:'Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.', btn:'Ver soluciones IA'},
+    {icon:<BubbleChartIcon />, title: 'Machine Learning e Inteligencia Artificial', description:'Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.', btn:'Explorar IA'}, 
+]
+
+export const enginerTeamCards: dataCard[] = [
+    {icon:<AccountCircleIcon />, title: 'Staff Augmentation', description:'Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.', btn:'Ampliar equipo'},
+    {icon:<EmojiPeopleIcon />, title: 'Equipos dedicados', description:'Talento experto, enfocado en tus objetivos de negocio.', btn:'Ver talento experto'},
+]
+
+export const strategicConsultingCards: dataCard[] = [
+    {icon:<CloudSyncIcon />, title: 'Cloud y modernización de infraestructura', description:'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn:'Optimizacion en la nube'},
+    {icon:<TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description:'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn:'Explorar consultoria'},
+]
+
+// --- DATOS SECTOR FINANCIERO ---
 export const financialChallengesCards: dataCard[] = [
     {
         icon: <CreditCardIcon sx={{ fontSize: 32 }} />, 
@@ -132,5 +175,50 @@ export const experienceStatsData: dataCard[] = [
         description: 'Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en proyectos de gran escala.',
         btn: '',
         icon: null
+    },
+];
+
+// --- NUEVO: DATOS PARA PREGUNTAS FRECUENTES (FAQ) --- //
+export interface FaqItem {
+    question: string;
+    answer: string;
+}
+  
+export const financialFaqData: FaqItem[] = [
+    {
+      question: "¿Qué beneficios ofrece el software de créditos y libranzas?",
+      answer: "Nuestro software automatiza todo el ciclo de vida del crédito, desde la originación hasta el recaudo. Reduce los tiempos de aprobación, minimiza errores operativos mediante validaciones automáticas y ofrece una visión 360° del cliente para mejorar la toma de decisiones."
+    },
+    {
+      question: "¿Cómo ayuda el software de obligaciones financieras al cumplimiento normativo?",
+      answer: "La plataforma se actualiza constantemente según las regulaciones locales de cada país en LATAM. Genera reportes normativos automáticos, asegura la trazabilidad de todas las transacciones y cuenta con auditoría detallada para cumplir con los estándares de los entes de control."
+    },
+    {
+      question: "¿Qué diferencia tiene nuestro software de FICs frente a otros del mercado?",
+      answer: "A diferencia de soluciones genéricas, nuestro software está especializado en la normativa de Fondos de Inversión Colectiva. Permite el manejo de múltiples tipos de fondos, valoración diaria automatizada y un portal de autogestión para inversionistas con experiencia de usuario superior."
+    },
+    {
+      question: "¿Qué módulos cubre el Administrador de Portafolios e Inversiones – MIDAS?",
+      answer: "MIDAS es una suite integral que cubre Front Office (captura de operaciones), Middle Office (gestión de riesgos y límites) y Back Office (contabilidad, valoración y cumplimiento), asegurando una gestión de inversiones robusta y centralizada."
+    },
+    {
+      question: "¿Cómo apoya la digitalización financiera a entidades no bancarizadas?",
+      answer: "Proveemos tecnología de nivel bancario accesible para cooperativas, fondos de empleados y fintechs, permitiéndoles ofrecer productos digitales, onboarding 100% online y transacciones seguras sin necesidad de desarrollar infraestructura propia desde cero."
+    },
+    {
+      question: "¿Qué diferencia hay entre un software financiero multipaís y uno local?",
+      answer: "Una solución multipaís permite a los grupos financieros estandarizar sus operaciones en toda la región bajo una misma plataforma tecnológica, adaptándose simultáneamente a la moneda, tributación y regulación específica de cada país (Colombia, Perú, Panamá, etc.)."
+    },
+    {
+      question: "¿Las soluciones financieras cumplen con normativas internacionales?",
+      answer: "Sí, nuestras soluciones están alineadas con estándares internacionales como NIIF/IFRS, ISO 27001 en seguridad de la información y cumplen con los lineamientos de Basilea para la gestión de riesgos financieros."
+    },
+    {
+      question: "¿Qué beneficios tiene implementar software financiero en la nube?",
+      answer: "La implementación en la nube ofrece escalabilidad inmediata, reducción de costos en infraestructura física, mayor seguridad con respaldos automáticos y acceso seguro desde cualquier ubicación, facilitando el trabajo remoto y la continuidad del negocio."
+    },
+    {
+      question: "¿Este software financiero se adapta a distintos marcos regulatorios en LATAM y el Caribe?",
+      answer: "Absolutamente. Contamos con experiencia probada en Colombia, Ecuador, Perú, Panamá, Costa Rica, Honduras, El Salvador, República Dominicana, entre otros, adaptando nuestra parametrización a las leyes y prácticas de mercado locales."
     },
 ];
