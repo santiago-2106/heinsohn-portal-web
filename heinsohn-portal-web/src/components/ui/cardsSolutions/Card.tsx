@@ -1,11 +1,14 @@
 import { dataCard } from "@/src/components/data/dataCard"
 
-export default function Card({icon, title, description, btn, items}: dataCard) {
+export default function Card({icon, title, description, btn, items, alineacion='left'}: dataCard) {
+
+  const centrar = alineacion === 'center'
   
   const cleanBtnText = btn ? btn.replace(/->|→/g, '').trim() : '';
 
   return (
-    <div className='flex flex-col border border-gray-200 bg-white p-8 shadow-sm h-full hover:shadow-md transition-shadow duration-300'>
+    <div className={`flex flex-col border border-gray-200 bg-white p-8 shadow-sm h-full hover:shadow-md transition-shadow duration-300
+      ${centrar ? "items-center text-center" : ""}`}>
       
       <div className='mb-6 flex h-12 w-12 items-center justify-start text-gray-900'>
             <i className="scale-125">{icon}</i>

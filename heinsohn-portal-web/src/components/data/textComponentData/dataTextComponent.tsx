@@ -79,3 +79,65 @@ export const TextSolucionDigtal6: dataTextComponent = {
         </>
     )
 }
+
+//Informacion vista de Texto Gestion Humana
+export const textoGestionHumana: dataTextComponent = {
+    title: "Contrata soluciones a la medida, del tipo de tu organización",
+    description: (
+        <>
+        Nuestro software de nómina es ampliamente parametrizable, dinámico y flexible. Es una herramienta con <span className="text-gray-800 font-semibold">tecnología 100% web</span> que ofrece un proceso de nómina fácil, rápido y seguro
+        </>
+    )
+}
+
+export const textoGestionHumana2: dataTextComponent = {
+    title: "Outsourcing de Procesos - BPO",
+    description: (
+        <>
+       <span className="text-gray-800 font-semibold">Procesos formales de operación y personal capacitado</span> para apoyar tus métodos de atención a colaboradores, liquidación de pagos y la entrega confiable de información a terceros.
+        </>
+    )
+}
+
+export const textoGestionHumana3: dataTextComponent = {
+    title: "Somos equipo",
+    description: (
+        <>
+        El trabajo en equipo es una de nuestras principales estrategias. Estamos convencidos que el poder colectivo es la herrmienta esencial para <span className="text-gray-800 font-semibold">generar soluciones innovadoras.</span> Como grupo empresarial unimos a nuestra fuerza a grandes empresas que hoy son <span className="text-gray-800 font-semibold">nuestros aliados tecnologicos, creativos y financieros.</span> 
+        </>
+    )
+}
+
+export const textoGestionHumana4: dataTextComponent = {
+    title: "Somos Gestion",
+    description: (
+        <>
+        Creemos en la tecnologia como herramienta de transformacion de los entornos laborales. <span className="text-gray-800 font-semibold">Generamos espacios y oportunidades</span> que brinden mejores condiciones a los colaboradores
+        </>
+    )
+}
+
+//Informacion titulos y descripcions vista Pensiones
+
+export const textoPensiones1: dataTextComponent = {
+    title:'Retos del sistema de pensiones en Latinoamérica y cómo puedes gestionarlo con nuestro software ',
+    description:(
+        <>
+        El sistema de pensiones en America Latina enfrenta transformaciones que requieren <span className="text-gray-800 font-semibold">vision y tecnologia:</span>
+        </>
+    ),
+
+}
+
+export const textoPensiones2: dataTextComponent = {
+    title:'Una plataforma previsional única, modular y escalable ',
+    description:(
+        <>
+        Nuestro <span className="text-gray-800 font-semibold">software </span>previsional centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.
+        <br />
+        <span className="text-gray-800 font-semibold">Su diseño modular y parametrizable permite adaptarse a la regulación de cada país en LATAM,</span> manejar altos volúmenes operativos y garantizar trazabilidad, control y consistencia de la información a lo largo de todo el ciclo previsional
+        </>
+    ),
+
+}
+

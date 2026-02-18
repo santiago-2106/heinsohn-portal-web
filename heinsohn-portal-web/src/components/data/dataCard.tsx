@@ -36,7 +36,10 @@ export interface dataCard {
     title: React.ReactNode
     description?: string | React.ReactNode
     btn?: string
-    items?: string[] 
+    items?: string[]
+    alineacion?:'left' | 'center'
+    textoFooter?: React.ReactNode
+    
 }
 
 //Informacion data card vista1 soluciones TI
@@ -146,7 +149,18 @@ export const SolucinesDigital6: dataCard[] = [
     },
 ]
 
-
+//informacion data de vista gestion humana
+export const infoGestionHumana2: dataCard[] = [
+    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Outsourcing de administración y atención a colaboradores', description:'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.'},
+    {icon:<WebOutlined /> , title:'Procesos especiales de gestión del talento humano', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
+    {icon:<TimerOutlined /> , title:'Gestión de seguridad y salud en el trabajo', description:'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.'},
+    {icon:<TimerOutlined /> , title:'Outsourcing liquidación de pago de nómina y contratistas', description:'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.'},
+    {icon:<TimerOutlined /> , title:'Outsourcing de gestión incapacidades y reconocimientos económicos', description:'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.'},
+    {icon:<TimerOutlined /> , title:'Atención a clientes y transformación digital', description:'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.'},
+    {icon:<TimerOutlined /> , title:'Atracción, selección y planeación de la fuerza laboral', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
+    {icon:<TimerOutlined /> , title:'Consultoría', description:'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.'},
+    {icon:<TimerOutlined /> , title:'Servicios adicionales', description:'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.'},
+]
 
 
 //--- DATOS SECTOR FINANCIERO ---//
