@@ -5,7 +5,7 @@ import imgClientes from '@/src/img/clientes.png'
 
 interface ClientesProps {
   title: string
-  description?: string
+  description?: string | React.ReactNode
 }
 
 export default function Clientes({ title, description }: ClientesProps) {

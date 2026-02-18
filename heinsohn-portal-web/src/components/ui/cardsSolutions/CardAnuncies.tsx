@@ -1,15 +1,7 @@
-import React from "react"
-import { dataCard } from "../../data/dataCard"
 import Card from "./Card"
+import { cardPropsInformation } from "../../types/typeCardAnuncies";
 
-interface cardPropsInformation {
-  title: string
-  description?: string | React.ReactNode
-  cards?: dataCard[]
-  cols?: number
-  bottomText?: string 
-  bottomBtn?: string  
-}
+
 
 export default function CardAnuncies({ 
   title, 
@@ -20,11 +12,13 @@ export default function CardAnuncies({
   bottomBtn
 }: cardPropsInformation) {
 
-  const gridCols = cols === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2';
+  const gridCols = cols === 1 ? 'grid-cols-1 max-w-7xl mx-auto gap-10' 
+  : cols === 3 ? 'lg:grid-cols-3 gap-6'
+  : 'lg:grid-cols-2 gap-8';
 
   return (
     <section className='bg-white py-8 sm:py-12 md:py-16'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 md:-px-8 lg:px-12 xl:px-48 '>
+      <div className='mx-auto max-w-7xl px-4 sm:px-6 md:-px-8 lg:px-12 xl:px-48'>
         
         <div className='mb-8 sm:mb-10 md:mb-12 text-center'>
             <h2 className='text-3xl sm:text-3xl md:text-4xl text-gray-900 font-light mb-6 px-4'>
@@ -37,7 +31,7 @@ export default function CardAnuncies({
             )}
         </div>
 
-        <section className={`grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6 ${gridCols}`}>
+        <section className={`grid ${gridCols}`}>
             {
               cards.map((card, index) => (
                 <Card key={index} {...card} />
@@ -46,7 +40,7 @@ export default function CardAnuncies({
         </section>
 
         {(bottomText || bottomBtn) && (
-          <div className="mt-16 text-center">
+          <div className=" border border-gray-200">
             {bottomText && (
               <p className="mx-auto max-w-4xl text-base text-gray-600 leading-relaxed mb-8 px-4">
                 {bottomText}

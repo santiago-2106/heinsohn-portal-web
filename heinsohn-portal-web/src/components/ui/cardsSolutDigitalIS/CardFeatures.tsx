@@ -1,13 +1,5 @@
-// components/FeatureCard.tsx
+import { FeatureCardProps } from "../../types/typeCardAnuncies"
 
-import React from "react"
-
-interface FeatureCardProps {
-  icon?: React.ReactNode
-  title?: string
-  description: string
-  variant?: "large" | "compact"
-}
 
 export default function CardFeatures({icon,title, description, variant = "large"}: FeatureCardProps) {
 
