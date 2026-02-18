@@ -1,12 +1,10 @@
-
 import React from "react"
-import { dataCard } from "../../data/landingTI/dataCard"
 import Card from "./Card"
 
-interface cardPropsInformation {
+interface CardAnunciesProps {
   title: string
   description?: string | React.ReactNode
-  cards?: dataCard[]
+  cards?: any[] 
   cols?: number
   bottomText?: string 
   bottomBtn?: string  
@@ -19,7 +17,7 @@ export default function CardAnuncies({
   cols = 2,
   bottomText,
   bottomBtn
-}: cardPropsInformation) {
+}: CardAnunciesProps) {
 
   const gridCols = cols === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-2';
 
@@ -40,6 +38,8 @@ export default function CardAnuncies({
 
         <section className={`grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-6 ${gridCols}`}>
             {
+              /* Al usar spread operator {...card}, le pasamos todas las propiedades 
+                 que traiga el objeto al componente Card, sea cual sea su estructura */
               cards.map((card, index) => (
                 <Card key={index} {...card} />
               ))

@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../layout/navbar/Navbar';
 import Hero from '../sections/Hero';
-import CardAnuncies from '../ui/cardsSolutions/CardAnuncies'
+import CardAnuncies from '../ui/cardsSolutions/CardAnuncies';
 import Footer from '../layout/footer/Footer';
 import FooterBottom from '../layout/footer/FooterBottom';
 import { dataSAP } from '../data/dataSap/DataSap';

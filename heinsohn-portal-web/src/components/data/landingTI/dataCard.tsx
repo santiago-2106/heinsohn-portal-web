@@ -20,7 +20,7 @@ export interface dataCard {
     icon?: ReactNode
     title: string
     description: string
-    btn: string
+    btn: string 
     items?: string[] 
 }
 
