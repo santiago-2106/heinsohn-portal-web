@@ -55,7 +55,7 @@ export default function Hero({ title, description, buttonText, breadcrumb }: Her
               <span className="text-[#000000] font-bold text-sm">|</span>
               <span className="text-[#E30613] font-bold text-sm">+</span>
               <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">
-                1.200 clientes en LATAM
+                1.200 clientes en LATAM {/*TOCA CAMBIAR A PROPS */}
               </span>
             </div>
 

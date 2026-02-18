@@ -1,4 +1,5 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
+import { StaticImageData } from 'next/image';
 
 // --- ICONOS GENERALES ---
 import DevicesIcon from "@mui/icons-material/Devices";
@@ -16,7 +17,14 @@ import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import CloudSyncIcon from '@mui/icons-material/CloudSync';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
-// --- ICONOS FINANCIEROS ---
+// --- ICONOS QUE USABA TU COMPAÑERO (Main) ---
+import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
+import WebOutlinedIcon from '@mui/icons-material/WebOutlined';
+import TimerOutlinedIcon from '@mui/icons-material/TimerOutlined';
+import SpeedOutlinedIcon from '@mui/icons-material/SpeedOutlined';
+import ContactPageOutlinedIcon from '@mui/icons-material/ContactPageOutlined';
+
+// --- ICONOS FINANCIEROS (Tuyos) ---
 import CreditCardIcon from '@mui/icons-material/CreditCard';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import PhonelinkSetupIcon from '@mui/icons-material/PhonelinkSetup';
@@ -29,15 +37,28 @@ import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import PieChartIcon from '@mui/icons-material/PieChart';
 
 
+// ==========================================
+// INTERFAZ UNIFICADA (Aquí solucionamos el conflicto)
+// ==========================================
 export interface dataCard {
     icon?: ReactNode
-    title: string
-    description: string
-    btn: string
-    items?: string[] 
+    // Aceptamos string (tuyo) O ReactNode (compañero)
+    title: string | React.ReactNode 
+    description?: string | React.ReactNode
+    
+    // Hacemos el botón opcional para que no falle si falta
+    btn?: string 
+    btnText?: string
+    
+    items?: string[]
+    alineacion?: 'left' | 'center'
+    textoFooter?: React.ReactNode
 }
 
-// --- TUS ARRAYS ORIGINALES ---
+
+// ==========================================
+// DATOS: SECTOR TI / SOFTWARE
+// ==========================================
 export const softwareCards: dataCard[] = [
     {icon:<DevicesIcon />, title: 'Desarrollo de aplicaciones moviles y web', description:'soluciones intuitivas para todo tip de dispositivos', btn:'ver soluciones'},
     {icon:<DisplaySettingsIcon />, title: 'Diseño y Desarrollo UX/UI', description:'interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion', btn:'Ver experiencias'},
@@ -64,7 +85,104 @@ export const strategicConsultingCards: dataCard[] = [
     {icon:<TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description:'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn:'Explorar consultoria'},
 ]
 
-// --- DATOS SECTOR FINANCIERO ---
+// ==========================================
+// DATOS: MODELOS DE DESARROLLO (VISTA 4)
+// ==========================================
+export const textModelDevelop: dataCard[] = [
+    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Staff Augmentation', description:'Integra desarrolladores especializados para fortalecer tu equipo actual. '},
+    {icon:<WebOutlinedIcon /> , title:'Project Based Development', description:'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. '},
+    {icon:<TimerOutlinedIcon /> , title:'Dedicated Teams', description:'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. '},
+]
+
+export const textoModelDevelop: dataCard[] = [
+    {icon:<SpeedOutlinedIcon /> , title:'Soluciones como producto', description:'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.'},
+    {icon:<ContactPageOutlinedIcon /> , title:'Consultoria tecnica + Implementacion', description:'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.'}
+]
+
+export const textoModelDevelop2: dataCard[] = [
+    { title:'Optimización de recursos', 
+    description:(<>
+    <span className="font-semibold text-gray-900">Al desarrollar soluciones a la medida,</span> inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas, no meses— permitiendo una respuesta ágil a las oportunidades del mercado.
+    </>)},
+    { title:'Eficiencia y retorno de la inversión ', description:(
+        <>
+        Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <span className="font-semibold text-gray-900">SAP, Salesforce,core financiero y más,</span> potenciando la eficiencia y el retorno de inversión en cada proyecto.
+        </>
+    )}
+]
+
+export const textoSolucionDigital2: dataCard[] = [
+    {
+        title: (
+        <>
+        <span className="text-red-500">01.</span> Vision Compartida
+        </>
+    ), description:'Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">02.</span> Diseño con proposito
+        </>
+    ), description:'Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">03.</span> Construccion agil y segura
+        </>
+    ), description:'Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">04.</span> Evolucion Continua
+        </>
+    ), description:'Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. '},
+]
+
+export const SolucinesDigital6: dataCard[] = [
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Lenguajes & Frameworks (Frontend/Backend)',
+        items:['Java', 'NET', 'Python', 'Node.js', 'React', 'Angular', 'Vue.js', 'Flutter']
+    },
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Cloud & Arquitecturas',
+        items:['AWS', 'Microsoft AAzure', 'Google Cloud Platform', 'Kubernetes', 'Docker']
+    },
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Bases de datos & Big Data',
+        items:['PostgresSQL', 'MongoDB', 'Oracle', 'Microsoft SQL Server']
+    },
+    {
+        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title:'Integraciones Empresariales & QA',
+        items:['SAP', 'Salesforce', 'Gitlab', 'Selenium']
+    },
+]
+
+// ==========================================
+// DATOS: GESTIÓN HUMANA
+// ==========================================
+export const infoGestionHumana2: dataCard[] = [
+    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Outsourcing de administración y atención a colaboradores', description:'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.'},
+    {icon:<WebOutlinedIcon /> , title:'Procesos especiales de gestión del talento humano', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
+    {icon:<TimerOutlinedIcon /> , title:'Gestión de seguridad y salud en el trabajo', description:'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.'},
+    {icon:<TimerOutlinedIcon /> , title:'Outsourcing liquidación de pago de nómina y contratistas', description:'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.'},
+    {icon:<TimerOutlinedIcon /> , title:'Outsourcing de gestión incapacidades y reconocimientos económicos', description:'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.'},
+    {icon:<TimerOutlinedIcon /> , title:'Atención a clientes y transformación digital', description:'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.'},
+    {icon:<TimerOutlinedIcon /> , title:'Atracción, selección y planeación de la fuerza laboral', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
+    {icon:<TimerOutlinedIcon /> , title:'Consultoría', description:'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.'},
+    {icon:<TimerOutlinedIcon /> , title:'Servicios adicionales', description:'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.'},
+]
+
+
+// ==========================================
+// DATOS: SECTOR FINANCIERO (Tus datos)
+// ==========================================
 export const financialChallengesCards: dataCard[] = [
     {
         icon: <CreditCardIcon sx={{ fontSize: 32 }} />, 
@@ -178,7 +296,7 @@ export const experienceStatsData: dataCard[] = [
     },
 ];
 
-// --- NUEVO: DATOS PARA PREGUNTAS FRECUENTES (FAQ) --- //
+// --- DATOS PARA PREGUNTAS FRECUENTES (FAQ) --- //
 export interface FaqItem {
     question: string;
     answer: string;

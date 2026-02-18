@@ -1,7 +1,7 @@
 import React from "react"
 
 interface propsTextComponent {
-  title: string,
+  title?: string,
   description?: string | React.ReactNode
 }
 
