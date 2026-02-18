@@ -2,7 +2,7 @@ import TextComponent from '@/src/components/ui/textsComponent/TextComponent'
 import Card from '@/src/components/ui/cardsSolutions/Card'
 import CardAnuncies from '@/src/components/ui/cardsSolutions/CardAnuncies'
 import { TextSolucionDigtal2, TextSolucionDigtal3, TextSolucionDigtal5, TextSolucionDigtal6 } from '@/src/components/data/textComponentData/dataTextComponent'
-import { SolucinesDigital6, textModelDevelop, textoModelDevelop, textoModelDevelop2, textoSolucionDigital2 } from '@/src/components/data/dataCard'
+import { SolucinesDigital6, textModelDevelop, textoModelDevelop, textoModelDevelop2, textoSolucionDigital2 } from '@/src/components/data/financiera/DataFinanciera'
 import TecnologiaConfiable from './TecnologiaConfiable'
 import ButtonComponent from '../../ui/Button/ButtonComponent'
 

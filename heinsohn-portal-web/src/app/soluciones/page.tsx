@@ -1,10 +1,10 @@
-<<<<<<< HEAD
 
-import { textModelDevelop, textoModelDevelop, textoModelDevelop2 } from '@/src/components/data/DataTI'
+
+import { textModelDevelop, textoModelDevelop, textoModelDevelop2 } from '@/src/components/data/financiera/DataFinanciera'
 import { TextSolucionDigtal2, TextSolucionDigtal3 } from '@/src/components/data/textComponentData/dataTextComponent'
-=======
->>>>>>> origin/david-rengifo
-import ContactForm from '@/src/components/forms/ContactForm'
+
+
+import ContactForm from '@/src/components/forms/formularios/ContactForm'
 import Footer from '@/src/components/layout/footer/Footer'
 import FooterBottom from '@/src/components/layout/footer/FooterBottom'
 import Navbar from '@/src/components/layout/navbar/Navbar'

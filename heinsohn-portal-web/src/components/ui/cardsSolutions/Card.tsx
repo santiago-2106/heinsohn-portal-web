@@ -2,8 +2,8 @@ import React from "react"
 
 interface CardProps {
   icon?: React.ReactNode | any; // Acepta componentes o iconos
-  title: string;
-  description?: string;
+  title: string | React.ReactNode; //Dejarlos por el momento ver cual es mas conveniente ReactNoDE LO QUE HACE ES PASAR PROP PARA VER EL RENDERIZADO ENJSX
+  description?: string | React.ReactNode;
   btn?: string;
   items?: string[];
   alineacion?: string; 
