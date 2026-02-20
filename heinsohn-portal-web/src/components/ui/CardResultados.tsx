@@ -3,7 +3,7 @@ import type { ResultsCorporativoProps } from "@/src/components/types/typePension
 export default function CardResultados({ data }: ResultsCorporativoProps) {
   
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-10">
       <div className="mx-auto max-w-6xl px-6">
 
         <h2 className="text-center text-4xl font-light mb-8">
@@ -20,7 +20,7 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
                 {data.highlight.suffix}
               </span>
 
-              <span className="text-8xl font-light">
+              <span className="text-5xl font-light">
                 {data.highlight.value}
               </span>
             </div>
@@ -49,7 +49,7 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
                   </span>
 
                 </div>
-                <div className="flex gap-2">
+                <div className="flex flex-col gap-2">
                   <span className="flex items-center">
                     {item.icon}
                   </span>

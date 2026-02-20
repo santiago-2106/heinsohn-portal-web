@@ -12,7 +12,7 @@ export interface MetricItem {
   id: string
   value?: string 
   suffix?: string
-  description: string
+  description:React.ReactNode
 }
 
 export interface ResultsCorporativoData {
