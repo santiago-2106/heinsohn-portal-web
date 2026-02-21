@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import DevicesIcon from "@mui/icons-material/Devices";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloudQueueIcon from "@mui/icons-material/CloudQueue";
@@ -31,135 +31,159 @@ import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternate
 import { ContactPageOutlined, SpeedOutlined, TimerOutlined, WebOutlined } from "@mui/icons-material";
 
 
-export interface dataCard {
-    icon?: ReactNode
-    title: React.ReactNode
-    description?: string | React.ReactNode
-    btn?: string
-    items?: string[]
-    alineacion?:'left' | 'center'
-    textoFooter?: React.ReactNode
-    
-}
+import type { dataCard } from "@/src/components/types/cardTypes";
 
 //Informacion data card vista1 soluciones TI
 export const softwareCards: dataCard[] = [
-    {icon:<DevicesIcon />, title: 'Desarrollo de aplicaciones moviles y web', description:'soluciones intuitivas para todo tip de dispositivos', btn:'ver soluciones'},
-    {icon:<DisplaySettingsIcon />, title: 'Diseño y Desarrollo UX/UI', description:'interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion', btn:'Ver experiencias'},
-    {icon:<DataObjectIcon />, title: 'Desarollo de software', description:'productos a la medida de cada necesidad empresarial', btn:'Solicitar desarrollo'},
-    {icon:<CloudQueueIcon />, title: 'Desarrollo software cloud', description:'aplicaciones seguras, flexibles y con alto rendimiento en la nube.', btn:'Ver mas'},
-    {icon:<TabletMacIcon/>, title: 'Desarrollo de plataformas escalables', description:'arquitecturas prepardas para el crecimiento del negocio', btn:'Explorar'},
-    {icon:<DeveloperModeIcon />, title: 'Modernizacion de aplicaciones de software', description:'actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia', btn:'Actualizar ahora'},
+    { icon: <DevicesIcon />, title: 'Desarrollo de aplicaciones moviles y web', description: 'soluciones intuitivas para todo tip de dispositivos', btn: 'ver soluciones' },
+    { icon: <DisplaySettingsIcon />, title: 'Diseño y Desarrollo UX/UI', description: 'interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion', btn: 'Ver experiencias' },
+    { icon: <DataObjectIcon />, title: 'Desarollo de software', description: 'productos a la medida de cada necesidad empresarial', btn: 'Solicitar desarrollo' },
+    { icon: <CloudQueueIcon />, title: 'Desarrollo software cloud', description: 'aplicaciones seguras, flexibles y con alto rendimiento en la nube.', btn: 'Ver mas' },
+    { icon: <TabletMacIcon />, title: 'Desarrollo de plataformas escalables', description: 'arquitecturas prepardas para el crecimiento del negocio', btn: 'Explorar' },
+    { icon: <DeveloperModeIcon />, title: 'Modernizacion de aplicaciones de software', description: 'actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia', btn: 'Actualizar ahora' },
 ]
 
 export const analitycCards: dataCard[] = [
-    {icon:<LocalPoliceIcon/>, title: 'Business Intelligence', description:'Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.', btn:'ver BI'},
-    {icon:<SmartToyIcon />, title: 'Consultoría IA', description:'Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.', btn:'Ver experiencias'},
-    {icon:<AutoAwesomeIcon />, title: 'Soluciones de Inteligencia Artificial  y Copilot', description:'Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.', btn:'Ver soluciones IA'},
-    {icon:<BubbleChartIcon />, title: 'Machine Learning e Inteligencia Artificial', description:'Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.', btn:'Explorar IA'}, 
+    { icon: <LocalPoliceIcon />, title: 'Business Intelligence', description: 'Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.', btn: 'ver BI' },
+    { icon: <SmartToyIcon />, title: 'Consultoría IA', description: 'Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.', btn: 'Ver experiencias' },
+    { icon: <AutoAwesomeIcon />, title: 'Soluciones de Inteligencia Artificial  y Copilot', description: 'Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.', btn: 'Ver soluciones IA' },
+    { icon: <BubbleChartIcon />, title: 'Machine Learning e Inteligencia Artificial', description: 'Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.', btn: 'Explorar IA' },
 ]
 
 export const enginerTeamCards: dataCard[] = [
-    {icon:<AccountCircleIcon />, title: 'Staff Augmentation', description:'Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.', btn:'Ampliar equipo'},
-    {icon:<EmojiPeopleIcon />, title: 'Equipos dedicados', description:'Talento experto, enfocado en tus objetivos de negocio.', btn:'Ver talento experto'},
+    { icon: <AccountCircleIcon />, title: 'Staff Augmentation', description: 'Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.', btn: 'Ampliar equipo' },
+    { icon: <EmojiPeopleIcon />, title: 'Equipos dedicados', description: 'Talento experto, enfocado en tus objetivos de negocio.', btn: 'Ver talento experto' },
 ]
 
 export const strategicConsultingCards: dataCard[] = [
-    {icon:<CloudSyncIcon />, title: 'Cloud y modernización de infraestructura', description:'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn:'Optimizacion en la nube'},
-    {icon:<TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description:'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn:'Explorar consultoria'},
+    { icon: <CloudSyncIcon />, title: 'Cloud y modernización de infraestructura', description: 'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn: 'Optimizacion en la nube' },
+    { icon: <TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description: 'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn: 'Explorar consultoria' },
 ]
 
 //Informacion data card vista4 soluciones TI INGENIERIA DE SOFTWARE 2
 export const textModelDevelop: dataCard[] = [
-    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Staff Augmentation', description:'Integra desarrolladores especializados para fortalecer tu equipo actual. '},
-    {icon:<WebOutlined /> , title:'Project Based Development', description:'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. '},
-    {icon:<TimerOutlined /> , title:'Dedicated Teams', description:'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. '},
+    { icon: <AddPhotoAlternateOutlinedIcon />, title: 'Staff Augmentation', description: 'Integra desarrolladores especializados para fortalecer tu equipo actual. ' },
+    { icon: <WebOutlined />, title: 'Project Based Development', description: 'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. ' },
+    { icon: <TimerOutlined />, title: 'Dedicated Teams', description: 'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. ' },
 ]
 
 export const textoModelDevelop: dataCard[] = [
-    {icon:<SpeedOutlined /> , title:'Soluciones como producto', description:'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.'},
-    {icon:<ContactPageOutlined /> , title:'Consultoria tecnica + Implementacion', description:'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.'}
+    { icon: <SpeedOutlined />, title: 'Soluciones como producto', description: 'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.' },
+    { icon: <ContactPageOutlined />, title: 'Consultoria tecnica + Implementacion', description: 'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.' }
 ]
 
 export const textoModelDevelop2: dataCard[] = [
-    { title:'Optimización de recursos', 
-    description:(<>
-    <span className="font-semibold text-gray-900">Al desarrollar soluciones a la medida,</span> inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas, no meses— permitiendo una respuesta ágil a las oportunidades del mercado.
-    </>)},
-    { title:'Eficiencia y retorno de la inversión ', description:(
-        <>
-        Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <span className="font-semibold text-gray-900">SAP, Salesforce,core financiero y más,</span> potenciando la eficiencia y el retorno de inversión en cada proyecto.
-        </>
-    )}
+    {
+        title: 'Optimización de recursos',
+        description: (<>
+            <span className="font-semibold text-gray-900">Al desarrollar soluciones a la medida,</span> inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas, no meses— permitiendo una respuesta ágil a las oportunidades del mercado.
+        </>)
+    },
+    {
+        title: 'Eficiencia y retorno de la inversión ', description: (
+            <>
+                Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <span className="font-semibold text-gray-900">SAP, Salesforce,core financiero y más,</span> potenciando la eficiencia y el retorno de inversión en cada proyecto.
+            </>
+        )
+    }
 ]
 
 export const textoSolucionDigital2: dataCard[] = [
     {
         title: (
-        <>
-        <span className="text-red-500">01.</span> Vision Compartida
-        </>
-    ), description:'Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.'},
+            <>
+                <span className="text-red-500">01.</span> Vision Compartida
+            </>
+        ), description: 'Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.'
+    },
 
     {
         title: (
-        <>
-        <span className="text-red-500">02.</span> Diseño con proposito
-        </>
-    ), description:'Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.'},
+            <>
+                <span className="text-red-500">02.</span> Diseño con proposito
+            </>
+        ), description: 'Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.'
+    },
 
     {
         title: (
-        <>
-        <span className="text-red-500">03.</span> Construccion agil y segura
-        </>
-    ), description:'Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.'},
+            <>
+                <span className="text-red-500">03.</span> Construccion agil y segura
+            </>
+        ), description: 'Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.'
+    },
 
     {
         title: (
-        <>
-        <span className="text-red-500">04.</span> Evolucion Continua
-        </>
-    ), description:'Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. '},
+            <>
+                <span className="text-red-500">04.</span> Evolucion Continua
+            </>
+        ), description: 'Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. '
+    },
 ]
 
 export const SolucinesDigital6: dataCard[] = [
     {
-        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
-        title:'Lenguajes & Frameworks (Frontend/Backend)',
-        items:['Java', 'NET', 'Python', 'Node.js', 'React', 'Angular', 'Vue.js', 'Flutter']
+        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title: 'Lenguajes & Frameworks (Frontend/Backend)',
+        items: [
+            {textos:'Java'}, 
+            {textos:'NET'}, 
+            {textos:'Python'}, 
+            {textos:'Node.js'}, 
+            {textos:'React'}, 
+            {textos:'Angular'}, 
+            {textos:'Vue.js'}, 
+            {textos:'Flutter'}
+        ]
     },
 
     {
-        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
-        title:'Cloud & Arquitecturas',
-        items:['AWS', 'Microsoft AAzure', 'Google Cloud Platform', 'Kubernetes', 'Docker']
+        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title: 'Cloud & Arquitecturas',
+        items: [
+            {textos:'AWS'}, 
+            {textos:'Microsoft AAzure'}, 
+            {textos:'Google Cloud Platform'}, 
+            {textos:'Kubernetes'}, 
+            {textos:'Docker'}
+        ]
     },
 
     {
-        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
-        title:'Bases de datos & Big Data',
-        items:['PostgresSQL', 'MongoDB', 'Oracle', 'Microsoft SQL Server']
+        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title: 'Bases de datos & Big Data',
+        items: [
+            {textos:'PostgresSQL'}, 
+            {textos:'MongoDB' },
+            {textos:'Oracle'}, 
+            {textos:'Microsoft SQL Server'}
+        ]
     },
 
     {
-        icon:<RequestQuoteIcon sx={{ fontSize: 32 }} />,
-        title:'Integraciones Empresariales & QA',
-        items:['SAP', 'Salesforce', 'Gitlab', 'Selenium']
+        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title: 'Integraciones Empresariales & QA',
+        items: [
+            {textos:'SAP'}, 
+            {textos:'Salesforce'}, 
+            {textos:'Gitlab'}, 
+            {textos:'Selenium'}
+        ]
     },
 ]
 
 //informacion data de vista gestion humana
 export const infoGestionHumana2: dataCard[] = [
-    {icon:<AddPhotoAlternateOutlinedIcon /> , title:'Outsourcing de administración y atención a colaboradores', description:'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.'},
-    {icon:<WebOutlined /> , title:'Procesos especiales de gestión del talento humano', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
-    {icon:<TimerOutlined /> , title:'Gestión de seguridad y salud en el trabajo', description:'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.'},
-    {icon:<TimerOutlined /> , title:'Outsourcing liquidación de pago de nómina y contratistas', description:'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.'},
-    {icon:<TimerOutlined /> , title:'Outsourcing de gestión incapacidades y reconocimientos económicos', description:'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.'},
-    {icon:<TimerOutlined /> , title:'Atención a clientes y transformación digital', description:'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.'},
-    {icon:<TimerOutlined /> , title:'Atracción, selección y planeación de la fuerza laboral', description:'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.'},
-    {icon:<TimerOutlined /> , title:'Consultoría', description:'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.'},
-    {icon:<TimerOutlined /> , title:'Servicios adicionales', description:'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.'},
+    { icon: <AddPhotoAlternateOutlinedIcon />, title: 'Outsourcing de administración y atención a colaboradores', description: 'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.' },
+    { icon: <WebOutlined />, title: 'Procesos especiales de gestión del talento humano', description: 'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.' },
+    { icon: <TimerOutlined />, title: 'Gestión de seguridad y salud en el trabajo', description: 'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.' },
+    { icon: <TimerOutlined />, title: 'Outsourcing liquidación de pago de nómina y contratistas', description: 'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.' },
+    { icon: <TimerOutlined />, title: 'Outsourcing de gestión incapacidades y reconocimientos económicos', description: 'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.' },
+    { icon: <TimerOutlined />, title: 'Atención a clientes y transformación digital', description: 'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.' },
+    { icon: <TimerOutlined />, title: 'Atracción, selección y planeación de la fuerza laboral', description: 'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.' },
+    { icon: <TimerOutlined />, title: 'Consultoría', description: 'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.' },
+    { icon: <TimerOutlined />, title: 'Servicios adicionales', description: 'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.' },
 ]
 
 
@@ -167,39 +191,39 @@ export const infoGestionHumana2: dataCard[] = [
 
 export const financialChallengesCards: dataCard[] = [
     {
-        icon: <CreditCardIcon sx={{ fontSize: 32 }} />, 
-        title: 'Pagos digitales en auge', 
-        description: 'Más de $111 billones de transacciones digitales reportados el año pasado.', 
+        icon: <CreditCardIcon sx={{ fontSize: 32 }} />,
+        title: 'Pagos digitales en auge',
+        description: 'Más de $111 billones de transacciones digitales reportados el año pasado.',
         btn: ''
     },
     {
-        icon: <AccountBalanceIcon sx={{ fontSize: 32 }} />, 
-        title: 'Open Finance en expansión', 
-        description: 'Brasil espera 60 millones de cuentas de Open Finance, marcando tendencia.', 
+        icon: <AccountBalanceIcon sx={{ fontSize: 32 }} />,
+        title: 'Open Finance en expansión',
+        description: 'Brasil espera 60 millones de cuentas de Open Finance, marcando tendencia.',
         btn: ''
     },
     {
-        icon: <PhonelinkSetupIcon sx={{ fontSize: 32 }} />, 
-        title: 'Digitalización en Colombia', 
-        description: 'Más de 36 millones de adultos tenían productos financieros en 2024.', 
+        icon: <PhonelinkSetupIcon sx={{ fontSize: 32 }} />,
+        title: 'Digitalización en Colombia',
+        description: 'Más de 36 millones de adultos tenían productos financieros en 2024.',
         btn: ''
     },
     {
-        icon: <SecurityIcon sx={{ fontSize: 32 }} />, 
-        title: 'Ciberseguridad en primer plano', 
-        description: 'El 70% de las organizaciones priorizan la ciberseguridad ante nuevos retos.', 
+        icon: <SecurityIcon sx={{ fontSize: 32 }} />,
+        title: 'Ciberseguridad en primer plano',
+        description: 'El 70% de las organizaciones priorizan la ciberseguridad ante nuevos retos.',
         btn: ''
     },
     {
-        icon: <PsychologyIcon sx={{ fontSize: 32 }} />, 
-        title: 'IA y automatización', 
-        description: 'Reducir la intervención humana operativa para elevar la expectativa de innovación.', 
+        icon: <PsychologyIcon sx={{ fontSize: 32 }} />,
+        title: 'IA y automatización',
+        description: 'Reducir la intervención humana operativa para elevar la expectativa de innovación.',
         btn: ''
     },
     {
-        icon: <StorefrontIcon sx={{ fontSize: 32 }} />, 
-        title: 'Competencias fintech', 
-        description: 'Mañana se esperan 2.763 fintech, creando un ecosistema competitivo.', 
+        icon: <StorefrontIcon sx={{ fontSize: 32 }} />,
+        title: 'Competencias fintech',
+        description: 'Mañana se esperan 2.763 fintech, creando un ecosistema competitivo.',
         btn: ''
     },
 ];
@@ -207,46 +231,46 @@ export const financialChallengesCards: dataCard[] = [
 
 export const financialSolutionsCards: dataCard[] = [
     {
-        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />, 
-        title: 'Gestión de Créditos y Libranzas', 
+        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        title: 'Gestión de Créditos y Libranzas',
         description: 'Software de administración de créditos y libranzas que gestiona el ciclo completo: desde la solicitud hasta el pago final.',
         items: [
-            'Trazabilidad y control en cada etapa.',
-            'Escalable y parametrizable según portafolio.',
-            'Reducción de tiempos de capacitación y soporte.'
+            {textos:'Trazabilidad y control en cada etapa.'},
+            {textos:'Escalable y parametrizable según portafolio.'},
+            {textos:'Reducción de tiempos de capacitación y soporte.'}
         ],
         btn: 'Conoce la solución de Créditos y Libranzas ->'
     },
     {
-        icon: <ReceiptLongIcon sx={{ fontSize: 32 }} />, 
-        title: 'Obligaciones Financieras', 
-        description: 'Software especializado en obligaciones financieras que brinda visibilidad total del portafolio y asegura cumplimiento normativo.', 
+        icon: <ReceiptLongIcon sx={{ fontSize: 32 }} />,
+        title: 'Obligaciones Financieras',
+        description: 'Software especializado en obligaciones financieras que brinda visibilidad total del portafolio y asegura cumplimiento normativo.',
         items: [
-            'Registro y seguimiento de pagos, anticipos, reestructuraciones y novaciones.',
-            'Integración con sistemas contables y financieros.',
-            'Reportes gerenciales y normativos en PDF y Excel.'
+            {titulo:'xd', textos:'Registro y seguimiento de pagos, anticipos, reestructuraciones y novaciones.'},
+            {textos:'Integración con sistemas contables y financieros.'},
+            {textos:'Reportes gerenciales y normativos en PDF y Excel.'}
         ],
         btn: 'Explora la solución de Obligaciones Financieras ->'
     },
     {
-        icon: <FolderOpenIcon sx={{ fontSize: 32 }} />, 
-        title: 'Software para Fondos de Inversión Colectiva (FICs)', 
-        description: 'Plataforma integral para la administración de Fondos de Inversión Colectiva, diseñada para responder al crecimiento del negocio bajo normativas específicas.', 
+        icon: <FolderOpenIcon sx={{ fontSize: 32 }} />,
+        title: 'Software para Fondos de Inversión Colectiva (FICs)',
+        description: 'Plataforma integral para la administración de Fondos de Inversión Colectiva, diseñada para responder al crecimiento del negocio bajo normativas específicas.',
         items: [
-            'Multiempresa y multilenguaje.',
-            'Automatización de procesos masivos.',
-            'Movilidad y visión 360° para inversionistas.'
+            {textos:'Multiempresa y multilenguaje.'},
+            {textos:'Automatización de procesos masivos.'},
+            {textos:'Movilidad y visión 360° para inversionistas.'}
         ],
         btn: 'Descubre nuestra solución para FICs ->'
     },
     {
-        icon: <PieChartIcon sx={{ fontSize: 32 }} />, 
-        title: 'Software Administrador de Portafolios e Inversiones – MIDAS', 
-        description: 'Plataforma de gestión integral de inversiones y riesgos, que cubre desde Front Office hasta Back Office.', 
+        icon: <PieChartIcon sx={{ fontSize: 32 }} />,
+        title: 'Software Administrador de Portafolios e Inversiones – MIDAS',
+        description: 'Plataforma de gestión integral de inversiones y riesgos, que cubre desde Front Office hasta Back Office.',
         items: [
-            'Módulos especializados en riesgos de mercado, liquidez, contraparte y operativo.',
-            'Multimoneda, multiportafolio y con reportes normativos de ley.',
-            'Más de 25 años respaldando a fondos, aseguradoras y banca en LATAM.'
+            {textos:'Módulos especializados en riesgos de mercado, liquidez, contraparte y operativo.'},
+            {textos:'Multimoneda, multiportafolio y con reportes normativos de ley.'},
+            {textos:'Más de 25 años respaldando a fondos, aseguradoras y banca en LATAM.'}
         ],
         btn: 'Conoce cómo optimizar tus portafolios ->'
     },
@@ -259,8 +283,8 @@ export const experienceStatsData: dataCard[] = [
     {
         title: 'Cobertura masiva',
         description: 'Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en fondos de pensiones, FICs e inversiones.',
-        btn: '', 
-        icon: null 
+        btn: '',
+        icon: null
     },
     {
         title: 'Mercados complejos',
