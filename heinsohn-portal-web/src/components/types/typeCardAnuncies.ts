@@ -1,4 +1,4 @@
-import { dataCard } from "@/src/components/data/dataCard"
+import { dataCard } from "@/src/components/types/cardTypes"
 import React from "react"
 
 
@@ -7,9 +7,9 @@ export interface cardPropsInformation {
   title?: string
   description?: React.ReactNode
   cards?: dataCard[]
-  cols?: number
+  cols?: 1 | 2 | 3
   bottomText?: React.ReactNode
-  bottomBtn?: string  
+  bottomBtn?: string
 }
 
 

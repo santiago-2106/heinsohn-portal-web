@@ -1,11 +1,9 @@
-import { infoStaffArgumentation4 } from "@/src/components/data/dataStaffArgumentation/dataStaffArgumentation"
 import Footer from "@/src/components/layout/footer/Footer"
 import FooterBottom from "@/src/components/layout/footer/FooterBottom"
 import Navbar from "@/src/components/layout/navbar/Navbar"
 import Hero from "@/src/components/sections/Hero"
 import StaffArgumentationSection from "@/src/components/sections/section-Staff-Argumentation/StaffArgumentationSection"
 import StaffArgumentationSection2 from "@/src/components/sections/section-Staff-Argumentation/StaffArgumentationSection2"
-import SubcomponenteCardStaff from "@/src/components/ui/cardStaff/SubcomponenteCardStaff"
 
 
 export default function page() {
@@ -37,7 +35,7 @@ export default function page() {
       />
       <StaffArgumentationSection />
       <StaffArgumentationSection2 />
-      <h1 className="text-center text-5xl">PENDIENTE MAPA Y LISTA MIRAR SI USAR IMG O ALGUNA LIBRERIA PARA EL MAPA</h1>
+
       <Footer />
       <FooterBottom />
     </>
