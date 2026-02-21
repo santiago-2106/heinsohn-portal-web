@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-
-import { textModelDevelop, textoModelDevelop, textoModelDevelop2 } from '@/src/components/data/DataTI'
-import { TextSolucionDigtal2, TextSolucionDigtal3 } from '@/src/components/data/textComponentData/dataTextComponent'
-=======
->>>>>>> origin/david-rengifo
 import ContactForm from '@/src/components/forms/ContactForm'
 import Footer from '@/src/components/layout/footer/Footer'
 import FooterBottom from '@/src/components/layout/footer/FooterBottom'
@@ -14,6 +8,7 @@ import Slider from '@/src/components/sliders/Slider'
 import CardEstrategicNegocio from '@/src/components/ui/cardsSolutDigitalIS/CardEstrategicNegocio'
 import CardSoftwreGeneric from '@/src/components/ui/cardsSolutDigitalIS/CardSoftwreGeneric'
 import TetxSolutionsDigital from '@/src/components/ui/textsComponent/TetxSolutionsDigital'
+
 
 
 

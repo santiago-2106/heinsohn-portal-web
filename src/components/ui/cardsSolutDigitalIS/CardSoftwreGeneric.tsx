@@ -11,20 +11,6 @@ export default function TrustSection() {
 
   return (
     <>
-<<<<<<< HEAD
-    <TextComponent title={dataTextSolucionDigtal.title} description={dataTextSolucionDigtal.description} />
-    <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 py-8 md:py-5 px-10 mx-auto max-w-4xl ">
-     {/*Corregir name aqui de feautrcard {/*VER SI MEJOR USAR ITEM O INDEX */} {dataSoftwaregenerico.map((item, index) => (
-        <FeatureCard
-          key={index} 
-          icon={<Devices />}
-          description={item.description}
-          variant="small"
-        /> 
-      ))}
-    </section>
-    <ButtonComponent textoBtn='Solicita una consultoria'/>
-=======
       <TextComponent title={dataTextSolucionDigtal.title} description={dataTextSolucionDigtal.description} />
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 py-8 md:py-5 px-10 mx-auto max-w-4xl "> {/*ESTILOS ESTILOS */}
         {/*Corregir name aqui de feautrcard {/*VER SI MEJOR USAR ITEM O INDEX */} {dataSoftwaregenerico.map((item, index) => (
@@ -37,7 +23,6 @@ export default function TrustSection() {
         ))}
       </section>
       <ButtonComponent textoBtn='Solicita una consultoria' />
->>>>>>> origin/main
     </>
   )
 }

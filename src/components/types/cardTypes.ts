@@ -15,7 +15,7 @@ export interface dataCard {
     title: ReactNode
     description?: string | ReactNode
     btn?: string
-    items?: ItemsCard[]
+    items?: ItemsCard[],
     alineacion?: 'left' | 'center'
     textoFooter?: ReactNode
-}
+} 

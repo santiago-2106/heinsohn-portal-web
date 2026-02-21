@@ -4,7 +4,7 @@ interface CardFeaturesProps {
   icon?: React.ReactNode | any;
   title?: string;
   description?: string;
-  variant?: "large" | "small"; // Tipado específico para controlar el estilo
+  variant?: "large" | "compact"; // Tipado específico para controlar el estilo
 }
 
 export default function CardFeatures({

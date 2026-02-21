@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { dataCard } from "@/src/components/types/cardTypes";
 
 // --- ICONOS TECNOLOGÍA Y SERVICIOS --- //
 import DevicesIcon from "@mui/icons-material/Devices";
@@ -15,14 +16,6 @@ import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import CloudSyncIcon from '@mui/icons-material/CloudSync';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
-
-export interface dataCard {
-    icon?: ReactNode
-    title: string
-    description: string
-    btn: string 
-    items?: string[] 
-}
 
 // --- DATOS TECNOLOGÍA Y SERVICIOS --- //
 

@@ -1,3 +1,4 @@
+import { dataCard } from "@/src/components/types/cardTypes";
 import React, { ReactNode } from "react";
 import { StaticImageData } from 'next/image';
 
@@ -35,25 +36,6 @@ import RequestQuoteIcon from '@mui/icons-material/RequestQuote';
 import ReceiptLongIcon from '@mui/icons-material/ReceiptLong';
 import FolderOpenIcon from '@mui/icons-material/FolderOpen';
 import PieChartIcon from '@mui/icons-material/PieChart';
-
-
-// ==========================================
-// INTERFAZ UNIFICADA (Aquí solucionamos el conflicto)
-// ==========================================
-export interface dataCard {
-    icon?: ReactNode
-    // Aceptamos string (tuyo) O ReactNode (compañero)
-    title: string | React.ReactNode 
-    description?: string | React.ReactNode
-    
-    // Hacemos el botón opcional para que no falle si falta
-    btn?: string 
-    btnText?: string
-    
-    items?: any[]
-    alineacion?: 'left' | 'center'
-    textoFooter?: React.ReactNode
-}
 
 
 // ==========================================

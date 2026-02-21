@@ -12,19 +12,11 @@ export default function PensionesSection() {
       <CardResultados data={infoPensiones1} />
 
       <section className="">
-<<<<<<< HEAD
-        <CardAnuncies 
-            title={textoPensiones1.title}
-            description={textoPensiones1.description}
-            cards={infoPensiones2}
-            cols={2}
-=======
         <CardAnuncies
           title={textoPensiones1.title}
           description={textoPensiones1.description}
           cards={infoPensiones2}
           cols={2}
->>>>>>> origin/main
         />
         <TextComponent description='Con nuestras soluciones para pensiones obtienes software escalable y seguro, alineados a la regulación y pensadas para garantizar confianza y sostenibilidad.' />
         <ButtonComponent textoBtn="Explora nuestras soluciones en pensiones" />
@@ -33,11 +25,7 @@ export default function PensionesSection() {
       <CardAnuncies
         title={textoPensiones2.title}
         description={textoPensiones2.description}
-<<<<<<< HEAD
-        cards={infoPensiones4.cards} 
-=======
         {...infoPensiones4}
->>>>>>> origin/main
         cols={1}
       />
 
