@@ -118,7 +118,7 @@ export const dataSAP = {
     ) as any,
     cards: [
       { icon: TestIcons.building, title: "Heinsohn Lite ERP", description: "Ideal para pequeñas empresas que buscan orden y control.", alineacion: "center" },
-      { icon: TestIcons.house, title: "SAP Business One ERP", description: "Pensado para empresas medianas que quieren integrar todas sus áreas.", alineacion: "center" },
+      { icon: TestIcons.house, title: "SAP Bus321 iness One ERP", description: "Pensado para empresas medianas que quieren integrar todas sus áreas.", alineacion: "center" },
       { icon: TestIcons.cart, title: "Grow with SAP ERP", description: "Para empresas en crecimiento que necesitan nube, IA y escalabilidad regional.", alineacion: "center" }
     ] as dataCard[]
   },
