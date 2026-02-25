@@ -1,11 +1,11 @@
-import Navbar from '@/src/components/layout/navbar/Navbar'
-import CardCases from '@/src/components/ui/cardsSolutions/CardCases'
-import Footer from '@/src/components/layout/footer/Footer'
-import FooterBottom from '@/src/components/layout/footer/FooterBottom'
-import ContactForm from '@/src/components/forms/ContactForm'
-import Hero from '@/src/components/sections/Hero'
-import CardFinal from '@/src/components/ui/cardsSolutions/CardFinal'
-import Slider from '@/src/components/sliders/Slider'
+import Navbar from "@/src/components/layout/navbar/Navbar";
+import CardCases from "@/src/components/ui/cardsSolutions/CardCases";
+import Footer from "@/src/components/layout/footer/Footer";
+import FooterBottom from "@/src/components/layout/footer/FooterBottom";
+import ContactForm from "@/src/components/forms/formularios/ContactForm";
+import Hero from "@/src/components/sections/Hero";
+import CardFinal from "@/src/components/ui/cardsSolutions/CardFinal";
+import Slider from "@/src/components/sliders/Slider";
 
 export default function PageSolucionesTI() {
   const dataTI = {
@@ -14,14 +14,14 @@ export default function PageSolucionesTI() {
     buttonText: "Solicita una asesoría gratuita",
     breadcrumb: [
       { label: "Soluciones", href: "/soluciones" },
-      { label: "Soluciones TI" }
-    ]
+      { label: "Soluciones TI" },
+    ],
   };
 
   return (
     <div>
       <Navbar />
-      <Hero 
+      <Hero
         title={dataTI.title}
         description={dataTI.description}
         buttonText={dataTI.buttonText}
@@ -34,5 +34,5 @@ export default function PageSolucionesTI() {
       <Footer />
       <FooterBottom />
     </div>
-  )
+  );
 }

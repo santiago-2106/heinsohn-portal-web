@@ -1,17 +1,12 @@
-import type { ResultsCorporativoProps } from "@/src/components/types/typePensiones"
+import type { ResultsCorporativoProps } from "@/src/components/types/typePensiones";
 
 export default function CardResultados({ data }: ResultsCorporativoProps) {
-  
   return (
     <section className="bg-white py-10">
       <div className="mx-auto max-w-6xl px-6">
+        <h2 className="text-center text-4xl font-light mb-8">{data.title}</h2>
 
-        <h2 className="text-center text-4xl font-light mb-8">
-            {data.title}
-        </h2>
- 
         <div className="grid lg:grid-cols-2 border border-gray-200">
-
           <div className="p-12 border-r border-gray-200 flex flex-col justify-center">
             <div className="mb-6">{data.highlight.icon}</div>
 
@@ -31,7 +26,6 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
           </div>
 
           <div className="grid grid-rows-2">
-
             {data.metrics.map((item, index) => (
               <div
                 key={item.id}
@@ -40,31 +34,20 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
                 }`}
               >
                 <div className="flex items-center mb-4">
-                  <span className="text-red-500 text-7xl">
-                      {item.suffix}
-                    </span>
+                  <span className="text-red-500 text-7xl">{item.suffix}</span>
 
-                  <span className="text-6xl font-light">
-                    {item.value}
-                  </span>
-
+                  <span className="text-6xl font-light">{item.value}</span>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <span className="flex items-center">
-                    {item.icon}
-                  </span>
+                  <span className="flex items-center">{item.icon}</span>
 
-                  <p className="text-gray-500">
-                    {item.description}
-                  </p>
+                  <p className="text-gray-500">{item.description}</p>
                 </div>
               </div>
             ))}
-
           </div>
-
         </div>
       </div>
     </section>
-  )
+  );
 }

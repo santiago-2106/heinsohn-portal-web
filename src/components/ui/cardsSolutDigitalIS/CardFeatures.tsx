@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 interface CardFeaturesProps {
   icon?: React.ReactNode | any;
@@ -9,12 +9,11 @@ interface CardFeaturesProps {
 
 export default function CardFeatures({
   icon,
-  title, 
-  description, 
-  variant = "large"
+  title,
+  description,
+  variant = "large",
 }: CardFeaturesProps) {
-
-  const isLarge = variant === "large"
+  const isLarge = variant === "large";
 
   return (
     <div
@@ -24,26 +23,26 @@ export default function CardFeatures({
       `}
     >
       <div className="flex items-start gap-4">
-        
-        {icon && ( 
-          <div className={`flex-shrink-0 text-gray-900 ${isLarge ? "mt-1" : ""}`}>
-             {icon}
+        {icon && (
+          <div
+            className={`flex-shrink-0 text-gray-900 ${isLarge ? "mt-1" : ""}`}
+          >
+            {icon}
           </div>
         )}
 
         <div className="flex flex-col">
-            {title && (
-                <h3 className={`font-medium text-gray-900 ${isLarge ? "text-xl mb-3" : "text-lg mb-2"}`}>
-                  {title}
-                </h3>
-            )}
-            
-            <p className="text-sm leading-relaxed text-gray-600">
-              {description}
-            </p>
-        </div>
+          {title && (
+            <h3
+              className={`font-medium text-gray-900 ${isLarge ? "text-xl mb-3" : "text-lg mb-2"}`}
+            >
+              {title}
+            </h3>
+          )}
 
+          <p className="text-sm leading-relaxed text-gray-600">{description}</p>
+        </div>
       </div>
     </div>
-  )
+  );
 }

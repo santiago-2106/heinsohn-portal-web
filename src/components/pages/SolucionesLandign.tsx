@@ -1,13 +1,13 @@
-import React from 'react'
-import Navbar from '../layout/navbar/Navbar'
+import React from "react";
+import Navbar from "../layout/navbar/Navbar";
 
-import CardCases from '../ui/cardsSolutions/CardCases'
-import Footer from '../layout/footer/Footer'
-import FooterBottom from '../layout/footer/FooterBottom'
-import ContactForm from '../forms/formularios/ContactForm'
-import Hero from '../sections/Hero'
-import CardFinal from '../ui/cardsSolutions/CardFinal'
-import Slider from '../sliders/Slider'
+import CardCases from "../ui/cardsSolutions/CardCases";
+import Footer from "../layout/footer/Footer";
+import FooterBottom from "../layout/footer/FooterBottom";
+import ContactForm from "../forms/formularios/ContactForm";
+import Hero from "../sections/Hero";
+import CardFinal from "../ui/cardsSolutions/CardFinal";
+import Slider from "../sliders/Slider";
 
 export default function SolucionesLandign() {
   const dataTI = {
@@ -16,14 +16,14 @@ export default function SolucionesLandign() {
     buttonText: "Solicita una asesoría gratuita",
     breadcrumb: [
       { label: "Soluciones", href: "/soluciones" },
-      { label: "Soluciones TI" }
-    ]
+      { label: "Soluciones TI" },
+    ],
   };
 
   return (
     <div>
       <Navbar />
-      <Hero 
+      <Hero
         title={dataTI.title}
         description={dataTI.description}
         buttonText={dataTI.buttonText}
@@ -36,5 +36,5 @@ export default function SolucionesLandign() {
       <Footer />
       <FooterBottom />
     </div>
-  )
+  );
 }

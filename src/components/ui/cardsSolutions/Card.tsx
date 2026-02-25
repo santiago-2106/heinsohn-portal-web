@@ -1,28 +1,37 @@
-import { dataCard } from "@/src/components/types/cardTypes"
+import { dataCard } from "@/src/components/types/cardTypes";
 
 /**
  * Componente PRESENTACIONAL: solo renderiza UI basada en props.
  * NO debe contener lógica de layout/grid — eso es responsabilidad del contenedor (CardAnuncies).
  */
-export default function Card({ icon, title, description, btn, items, alineacion = 'left' }: dataCard) {
+export default function Card({
+  icon,
+  title,
+  description,
+  btn,
+  items,
+  alineacion = "left",
+}: dataCard) {
+  const centrar = alineacion === "center";
 
-  const centrar = alineacion === 'center'
-
-  const cleanBtnText = btn ? btn.replace(/->|→/g, '').trim() : '';
+  const cleanBtnText = btn ? btn.replace(/->|→/g, "").trim() : "";
 
   return (
-    <div className={`
+    <div
+      className={`
         flex flex-col border border-gray-200 bg-white p-8 md:p-10 
         shadow-sm h-full hover:shadow-md transition-shadow duration-300
         ${centrar ? "items-center text-center" : "items-start text-left"}
-      `}>
-
+      `}
+    >
       {/* ICONO / NÚMERO */}
       {icon && (
-        <div className={`
+        <div
+          className={`
           mb-6 w-full
           ${centrar ? "flex justify-center" : ""}
-        `}>
+        `}
+        >
           {icon}
         </div>
       )}
@@ -54,11 +63,16 @@ export default function Card({ icon, title, description, btn, items, alineacion 
 
                 <div className="flex flex-col">
                   {/* El subtitulo del punto */}
-                  {item.titulo && <span className="font-semibold text-gray-800 leading-relaxed">{item.titulo}</span>}
+                  {item.titulo && (
+                    <span className="font-semibold text-gray-800 leading-relaxed">
+                      {item.titulo}
+                    </span>
+                  )}
                   {/* El texto */}
-                  <span className="leading-relaxed mt-1 text-gray-800">{item.textos}</span>
+                  <span className="leading-relaxed mt-1 text-gray-800">
+                    {item.textos}
+                  </span>
                 </div>
-
               </li>
             ))}
           </ul>
@@ -82,7 +96,6 @@ export default function Card({ icon, title, description, btn, items, alineacion 
           </span>
         </a>
       )}
-
     </div>
-  )
+  );
 }

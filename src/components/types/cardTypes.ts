@@ -5,17 +5,16 @@ import { ReactNode } from "react";
  * Centralizada en types/ para ser consumida tanto por componentes como por archivos de datos.
  */
 export interface ItemsCard {
-    titulo?: string
-    textos: string
+  titulo?: string;
+  textos: string;
 }
 
-
 export interface dataCard {
-    icon?: ReactNode
-    title: ReactNode
-    description?: string | ReactNode
-    btn?: string
-    items?: ItemsCard[],
-    alineacion?: 'left' | 'center'
-    textoFooter?: ReactNode
-} 
+  icon?: ReactNode;
+  title: ReactNode;
+  description?: string | ReactNode;
+  btn?: string;
+  items?: ItemsCard[];
+  alineacion?: "left" | "center";
+  textoFooter?: ReactNode;
+}

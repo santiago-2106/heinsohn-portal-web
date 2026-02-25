@@ -1,9 +1,9 @@
-import React from "react"
-import Card from "./Card"
-import CardGrid from "../CardGrid"
+import React from "react";
+import Card from "./Card";
+import CardGrid from "../CardGrid";
 import { cardPropsInformation } from "../../types/typeCardAnuncies";
 
-type ExtendedProps = Omit<cardPropsInformation, 'title' | 'description'> & {
+type ExtendedProps = Omit<cardPropsInformation, "title" | "description"> & {
   title: string | React.ReactNode;
   description?: string | React.ReactNode;
   topBadge?: string;
@@ -20,22 +20,19 @@ export default function CardAnuncies({
   cols = 2,
   bottomText,
   bottomBtn,
-  topBadge
+  topBadge,
 }: ExtendedProps) {
-
   return (
-    <section className='bg-white py-12 md:py-16'>
-      <div className='mx-auto max-w-7xl px-6 md:px-12 xl:px-24'>
-
-        <div className='mb-12 text-center'>
-
+    <section className="bg-white py-12 md:py-16">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 xl:px-24">
+        <div className="mb-12 text-center">
           {topBadge && (
             <span className="block mx-auto w-max bg-[#111827] text-white text-[11px] font-bold px-4 py-1.5 tracking-wide mb-6">
               {topBadge}
             </span>
           )}
 
-          <h2 className='text-3xl md:text-4xl text-gray-900 font-light mb-6'>
+          <h2 className="text-3xl md:text-4xl text-gray-900 font-light mb-6">
             {title}
           </h2>
 
@@ -47,19 +44,17 @@ export default function CardAnuncies({
         </div>
 
         <CardGrid columns={cols}>
-          {
-            cards.map((card: any, index: number) => (
-              <div key={index} className="relative h-full">
-                <Card {...card} />
+          {cards.map((card: any, index: number) => (
+            <div key={index} className="relative h-full">
+              <Card {...card} />
 
-                {card.badgeRight && (
-                  <div className="absolute top-6 right-6 border border-gray-200 px-3 py-1 text-[11px] text-gray-500 font-medium bg-white">
-                    {card.badgeRight}
-                  </div>
-                )}
-              </div>
-            ))
-          }
+              {card.badgeRight && (
+                <div className="absolute top-6 right-6 border border-gray-200 px-3 py-1 text-[11px] text-gray-500 font-medium bg-white">
+                  {card.badgeRight}
+                </div>
+              )}
+            </div>
+          ))}
         </CardGrid>
 
         {(bottomText || bottomBtn) && (
@@ -80,8 +75,7 @@ export default function CardAnuncies({
             )}
           </div>
         )}
-
       </div>
     </section>
-  )
+  );
 }
