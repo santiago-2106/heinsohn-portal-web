@@ -1,0 +1,573 @@
+import { dataCard } from "@/src/types/cardTypes";
+import React, { ReactNode } from "react";
+import { StaticImageData } from "next/image";
+
+// --- ICONOS GENERALES ---
+import DevicesIcon from "@mui/icons-material/Devices";
+import DataObjectIcon from "@mui/icons-material/DataObject";
+import CloudQueueIcon from "@mui/icons-material/CloudQueue";
+import TabletMacIcon from "@mui/icons-material/TabletMac";
+import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
+import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import LocalPoliceIcon from "@mui/icons-material/LocalPolice";
+import BubbleChartIcon from "@mui/icons-material/BubbleChart";
+import SmartToyIcon from "@mui/icons-material/SmartToy";
+import AutoAwesomeIcon from "@mui/icons-material/AutoAwesome";
+import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import CloudSyncIcon from "@mui/icons-material/CloudSync";
+import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
+
+// --- ICONOS QUE USABA TU COMPAÑERO (Main) ---
+import AddPhotoAlternateOutlinedIcon from "@mui/icons-material/AddPhotoAlternateOutlined";
+import WebOutlinedIcon from "@mui/icons-material/WebOutlined";
+import TimerOutlinedIcon from "@mui/icons-material/TimerOutlined";
+import SpeedOutlinedIcon from "@mui/icons-material/SpeedOutlined";
+import ContactPageOutlinedIcon from "@mui/icons-material/ContactPageOutlined";
+
+// --- ICONOS FINANCIEROS (Tuyos) ---
+import CreditCardIcon from "@mui/icons-material/CreditCard";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
+import PhonelinkSetupIcon from "@mui/icons-material/PhonelinkSetup";
+import SecurityIcon from "@mui/icons-material/Security";
+import PsychologyIcon from "@mui/icons-material/Psychology";
+import StorefrontIcon from "@mui/icons-material/Storefront";
+import RequestQuoteIcon from "@mui/icons-material/RequestQuote";
+import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
+import FolderOpenIcon from "@mui/icons-material/FolderOpen";
+import PieChartIcon from "@mui/icons-material/PieChart";
+
+// ==========================================
+// DATOS: SECTOR TI / SOFTWARE
+// ==========================================
+export const softwareCards: dataCard[] = [
+  {
+    icon: <DevicesIcon />,
+    title: "Desarrollo de aplicaciones moviles y web",
+    description: "soluciones intuitivas para todo tip de dispositivos",
+    btn: "ver soluciones",
+  },
+  {
+    icon: <DisplaySettingsIcon />,
+    title: "Diseño y Desarrollo UX/UI",
+    description:
+      "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion",
+    btn: "Ver experiencias",
+  },
+  {
+    icon: <DataObjectIcon />,
+    title: "Desarollo de software",
+    description: "productos a la medida de cada necesidad empresarial",
+    btn: "Solicitar desarrollo",
+  },
+  {
+    icon: <CloudQueueIcon />,
+    title: "Desarrollo software cloud",
+    description:
+      "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
+    btn: "Ver mas",
+  },
+  {
+    icon: <TabletMacIcon />,
+    title: "Desarrollo de plataformas escalables",
+    description: "arquitecturas prepardas para el crecimiento del negocio",
+    btn: "Explorar",
+  },
+  {
+    icon: <DeveloperModeIcon />,
+    title: "Modernizacion de aplicaciones de software",
+    description:
+      "actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia",
+    btn: "Actualizar ahora",
+  },
+];
+
+export const analitycCards: dataCard[] = [
+  {
+    icon: <LocalPoliceIcon />,
+    title: "Business Intelligence",
+    description:
+      "Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.",
+    btn: "ver BI",
+  },
+  {
+    icon: <SmartToyIcon />,
+    title: "Consultoría IA",
+    description:
+      "Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.",
+    btn: "Ver experiencias",
+  },
+  {
+    icon: <AutoAwesomeIcon />,
+    title: "Soluciones de Inteligencia Artificial  y Copilot",
+    description:
+      "Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.",
+    btn: "Ver soluciones IA",
+  },
+  {
+    icon: <BubbleChartIcon />,
+    title: "Machine Learning e Inteligencia Artificial",
+    description:
+      "Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.",
+    btn: "Explorar IA",
+  },
+];
+
+export const enginerTeamCards: dataCard[] = [
+  {
+    icon: <AccountCircleIcon />,
+    title: "Staff Augmentation",
+    description:
+      "Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.",
+    btn: "Ampliar equipo",
+  },
+  {
+    icon: <EmojiPeopleIcon />,
+    title: "Equipos dedicados",
+    description: "Talento experto, enfocado en tus objetivos de negocio.",
+    btn: "Ver talento experto",
+  },
+];
+
+export const strategicConsultingCards: dataCard[] = [
+  {
+    icon: <CloudSyncIcon />,
+    title: "Cloud y modernización de infraestructura",
+    description:
+      "Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.",
+    btn: "Optimizacion en la nube",
+  },
+  {
+    icon: <TipsAndUpdatesIcon />,
+    title: "Consultoría estratégica para adopción digital",
+    description:
+      "Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.",
+    btn: "Explorar consultoria",
+  },
+];
+
+// ==========================================
+// DATOS: MODELOS DE DESARROLLO (VISTA 4)
+// ==========================================
+export const textModelDevelop: dataCard[] = [
+  {
+    icon: <AddPhotoAlternateOutlinedIcon />,
+    title: "Staff Augmentation",
+    description:
+      "Integra desarrolladores especializados para fortalecer tu equipo actual. ",
+  },
+  {
+    icon: <WebOutlinedIcon />,
+    title: "Project Based Development",
+    description:
+      "Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. ",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Dedicated Teams",
+    description:
+      "Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. ",
+  },
+];
+
+export const textoModelDevelop: dataCard[] = [
+  {
+    icon: <SpeedOutlinedIcon />,
+    title: "Soluciones como producto",
+    description:
+      "Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.",
+  },
+  {
+    icon: <ContactPageOutlinedIcon />,
+    title: "Consultoria tecnica + Implementacion",
+    description:
+      "Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.",
+  },
+];
+
+export const textoModelDevelop2: dataCard[] = [
+  {
+    title: "Optimización de recursos",
+    description: (
+      <>
+        <span className="font-semibold text-gray-900">
+          Al desarrollar soluciones a la medida,
+        </span>{" "}
+        inviertes solo en lo que tu empresa realmente necesita, optimizando
+        recursos y eliminando costos innecesarios. Los lanzamientos se aceleran
+        —de semanas, no meses— permitiendo una respuesta ágil a las
+        oportunidades del mercado.
+      </>
+    ),
+  },
+  {
+    title: "Eficiencia y retorno de la inversión ",
+    description: (
+      <>
+        Además, trabajas sobre plataformas preparadas para crecer contigo en
+        cualquier entorno, con resiliencia digital que garantiza continuidad
+        incluso en escenarios críticos. Todo conectado bajo un ecosistema
+        inteligente que integra{" "}
+        <span className="font-semibold text-gray-900">
+          SAP, Salesforce,core financiero y más,
+        </span>{" "}
+        potenciando la eficiencia y el retorno de inversión en cada proyecto.
+      </>
+    ),
+  },
+];
+
+export const textoSolucionDigital2: dataCard[] = [
+  {
+    title: (
+      <>
+        <span className="text-red-500">01.</span> Vision Compartida
+      </>
+    ),
+    description:
+      "Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.",
+  },
+
+  {
+    title: (
+      <>
+        <span className="text-red-500">02.</span> Diseño con proposito
+      </>
+    ),
+    description:
+      "Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.",
+  },
+
+  {
+    title: (
+      <>
+        <span className="text-red-500">03.</span> Construccion agil y segura
+      </>
+    ),
+    description:
+      "Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.",
+  },
+
+  {
+    title: (
+      <>
+        <span className="text-red-500">04.</span> Evolucion Continua
+      </>
+    ),
+    description:
+      "Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. ",
+  },
+];
+
+export const SolucinesDigital6: dataCard[] = [
+  {
+    icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+    title: "Lenguajes & Frameworks (Frontend/Backend)",
+    items: [
+      { textos: "Java" },
+      { textos: "NET" },
+      { textos: "Python" },
+      { textos: "Node.js" },
+      { textos: "React" },
+      { textos: "Angular" },
+      { textos: "Vue.js" },
+      { textos: "Flutter" },
+    ],
+  },
+  {
+    icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+    title: "Cloud & Arquitecturas",
+    items: [
+      { textos: "AWS" },
+      { textos: "Microsoft AAzure" },
+      { textos: "Google Cloud Platform" },
+      { textos: "Kubernetes" },
+      { textos: "Docker" },
+    ],
+  },
+  {
+    icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+    title: "Bases de datos & Big Data",
+    items: [
+      { textos: "PostgresSQL" },
+      { textos: "MongoDB" },
+      { textos: "Oracle" },
+      { textos: "Microsoft SQL Server" },
+    ],
+  },
+  {
+    icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+    title: "Integraciones Empresariales & QA",
+    items: [
+      { textos: "SAP" },
+      { textos: "Salesforce" },
+      { textos: "Gitlab" },
+      { textos: "Selenium" },
+    ],
+  },
+];
+
+// ==========================================
+// DATOS: GESTIÓN HUMANA
+// ==========================================
+export const infoGestionHumana2: dataCard[] = [
+  {
+    icon: <AddPhotoAlternateOutlinedIcon />,
+    title: "Outsourcing de administración y atención a colaboradores",
+    description:
+      "Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.",
+  },
+  {
+    icon: <WebOutlinedIcon />,
+    title: "Procesos especiales de gestión del talento humano",
+    description:
+      "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Gestión de seguridad y salud en el trabajo",
+    description:
+      "Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Outsourcing liquidación de pago de nómina y contratistas",
+    description:
+      "Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Outsourcing de gestión incapacidades y reconocimientos económicos",
+    description:
+      "Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Atención a clientes y transformación digital",
+    description:
+      "Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Atracción, selección y planeación de la fuerza laboral",
+    description:
+      "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Consultoría",
+    description:
+      "Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.",
+  },
+  {
+    icon: <TimerOutlinedIcon />,
+    title: "Servicios adicionales",
+    description:
+      "Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.",
+  },
+];
+
+// ==========================================
+// DATOS: SECTOR FINANCIERO (Tus datos)
+// ==========================================
+export const financialChallengesCards: dataCard[] = [
+  {
+    icon: <CreditCardIcon sx={{ fontSize: 32 }} />,
+    title: "Pagos digitales en auge",
+    description:
+      "Más de $111 billones de transacciones digitales reportados el año pasado.",
+    btn: "",
+  },
+  {
+    icon: <AccountBalanceIcon sx={{ fontSize: 32 }} />,
+    title: "Open Finance en expansión",
+    description:
+      "Brasil espera 60 millones de cuentas de Open Finance, marcando tendencia.",
+    btn: "",
+  },
+  {
+    icon: <PhonelinkSetupIcon sx={{ fontSize: 32 }} />,
+    title: "Digitalización en Colombia",
+    description:
+      "Más de 36 millones de adultos tenían productos financieros en 2024.",
+    btn: "",
+  },
+  {
+    icon: <SecurityIcon sx={{ fontSize: 32 }} />,
+    title: "Ciberseguridad en primer plano",
+    description:
+      "El 70% de las organizaciones priorizan la ciberseguridad ante nuevos retos.",
+    btn: "",
+  },
+  {
+    icon: <PsychologyIcon sx={{ fontSize: 32 }} />,
+    title: "IA y automatización",
+    description:
+      "Reducir la intervención humana operativa para elevar la expectativa de innovación.",
+    btn: "",
+  },
+  {
+    icon: <StorefrontIcon sx={{ fontSize: 32 }} />,
+    title: "Competencias fintech",
+    description:
+      "Mañana se esperan 2.763 fintech, creando un ecosistema competitivo.",
+    btn: "",
+  },
+];
+
+export const financialSolutionsCards: dataCard[] = [
+  {
+    icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+    title: "Gestión de Créditos y Libranzas",
+    description:
+      "Software de administración de créditos y libranzas que gestiona el ciclo completo: desde la solicitud hasta el pago final.",
+    items: [
+      { textos: "Trazabilidad y control en cada etapa." },
+      { textos: "Escalable y parametrizable según portafolio." },
+      { textos: "Reducción de tiempos de capacitación y soporte." },
+    ],
+    btn: "Conoce la solución de Créditos y Libranzas ->",
+  },
+  {
+    icon: <ReceiptLongIcon sx={{ fontSize: 32 }} />,
+    title: "Obligaciones Financieras",
+    description:
+      "Software especializado en obligaciones financieras que brinda visibilidad total del portafolio y asegura cumplimiento normativo.",
+    items: [
+      {
+        titulo: "xd",
+        textos:
+          "Registro y seguimiento de pagos, anticipos, reestructuraciones y novaciones.",
+      },
+      { textos: "Integración con sistemas contables y financieros." },
+      { textos: "Reportes gerenciales y normativos en PDF y Excel." },
+    ],
+    btn: "Explora la solución de Obligaciones Financieras ->",
+  },
+  {
+    icon: <FolderOpenIcon sx={{ fontSize: 32 }} />,
+    title: "Software para Fondos de Inversión Colectiva (FICs)",
+    description:
+      "Plataforma integral para la administración de Fondos de Inversión Colectiva, diseñada para responder al crecimiento del negocio bajo normativas específicas.",
+    items: [
+      { textos: "Multiempresa y multilenguaje." },
+      { textos: "Automatización de procesos masivos." },
+      { textos: "Movilidad y visión 360° para inversionistas." },
+    ],
+    btn: "Descubre nuestra solución para FICs ->",
+  },
+  {
+    icon: <PieChartIcon sx={{ fontSize: 32 }} />,
+    title: "Software Administrador de Portafolios e Inversiones – MIDAS",
+    description:
+      "Plataforma de gestión integral de inversiones y riesgos, que cubre desde Front Office hasta Back Office.",
+    items: [
+      {
+        textos:
+          "Módulos especializados en riesgos de mercado, liquidez, contraparte y operativo.",
+      },
+      {
+        textos:
+          "Multimoneda, multiportafolio y con reportes normativos de ley.",
+      },
+      {
+        textos:
+          "Más de 25 años respaldando a fondos, aseguradoras y banca en LATAM.",
+      },
+    ],
+    btn: "Conoce cómo optimizar tus portafolios ->",
+  },
+];
+
+export const experienceStatsData: dataCard[] = [
+  {
+    title: "Cobertura masiva",
+    description:
+      "Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en fondos de pensiones, FICs e inversiones.",
+    btn: "",
+    icon: null,
+  },
+  {
+    title: "Mercados complejos",
+    description:
+      "Experiencia probada en sectores altamente regulados de Colombia, Perú, Bolivia, El Salvador, Honduras, Panamá, Argentina, Uruguay, entre otros.",
+    btn: "",
+    icon: null,
+  },
+  {
+    title: "Confianza sostenida",
+    description:
+      "Más de 1.200 entidades financieras y aseguradoras activas en LATAM y el Caribe que utilizan nuestras plataformas.",
+    btn: "",
+    icon: null,
+  },
+  {
+    title: "Resultados tangibles",
+    description:
+      "Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en proyectos de gran escala.",
+    btn: "",
+    icon: null,
+  },
+];
+
+// --- DATOS PARA PREGUNTAS FRECUENTES (FAQ) --- //
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+export const financialFaqData: FaqItem[] = [
+  {
+    question: "¿Qué beneficios ofrece el software de créditos y libranzas?",
+    answer:
+      "Nuestro software automatiza todo el ciclo de vida del crédito, desde la originación hasta el recaudo. Reduce los tiempos de aprobación, minimiza errores operativos mediante validaciones automáticas y ofrece una visión 360° del cliente para mejorar la toma de decisiones.",
+  },
+  {
+    question:
+      "¿Cómo ayuda el software de obligaciones financieras al cumplimiento normativo?",
+    answer:
+      "La plataforma se actualiza constantemente según las regulaciones locales de cada país en LATAM. Genera reportes normativos automáticos, asegura la trazabilidad de todas las transacciones y cuenta con auditoría detallada para cumplir con los estándares de los entes de control.",
+  },
+  {
+    question:
+      "¿Qué diferencia tiene nuestro software de FICs frente a otros del mercado?",
+    answer:
+      "A diferencia de soluciones genéricas, nuestro software está especializado en la normativa de Fondos de Inversión Colectiva. Permite el manejo de múltiples tipos de fondos, valoración diaria automatizada y un portal de autogestión para inversionistas con experiencia de usuario superior.",
+  },
+  {
+    question:
+      "¿Qué módulos cubre el Administrador de Portafolios e Inversiones – MIDAS?",
+    answer:
+      "MIDAS es una suite integral que cubre Front Office (captura de operaciones), Middle Office (gestión de riesgos y límites) y Back Office (contabilidad, valoración y cumplimiento), asegurando una gestión de inversiones robusta y centralizada.",
+  },
+  {
+    question:
+      "¿Cómo apoya la digitalización financiera a entidades no bancarizadas?",
+    answer:
+      "Proveemos tecnología de nivel bancario accesible para cooperativas, fondos de empleados y fintechs, permitiéndoles ofrecer productos digitales, onboarding 100% online y transacciones seguras sin necesidad de desarrollar infraestructura propia desde cero.",
+  },
+  {
+    question:
+      "¿Qué diferencia hay entre un software financiero multipaís y uno local?",
+    answer:
+      "Una solución multipaís permite a los grupos financieros estandarizar sus operaciones en toda la región bajo una misma plataforma tecnológica, adaptándose simultáneamente a la moneda, tributación y regulación específica de cada país (Colombia, Perú, Panamá, etc.).",
+  },
+  {
+    question:
+      "¿Las soluciones financieras cumplen con normativas internacionales?",
+    answer:
+      "Sí, nuestras soluciones están alineadas con estándares internacionales como NIIF/IFRS, ISO 27001 en seguridad de la información y cumplen con los lineamientos de Basilea para la gestión de riesgos financieros.",
+  },
+  {
+    question:
+      "¿Qué beneficios tiene implementar software financiero en la nube?",
+    answer:
+      "La implementación en la nube ofrece escalabilidad inmediata, reducción de costos en infraestructura física, mayor seguridad con respaldos automáticos y acceso seguro desde cualquier ubicación, facilitando el trabajo remoto y la continuidad del negocio.",
+  },
+  {
+    question:
+      "¿Este software financiero se adapta a distintos marcos regulatorios en LATAM y el Caribe?",
+    answer:
+      "Absolutamente. Contamos con experiencia probada en Colombia, Ecuador, Perú, Panamá, Costa Rica, Honduras, El Salvador, República Dominicana, entre otros, adaptando nuestra parametrización a las leyes y prácticas de mercado locales.",
+  },
+];

@@ -1,15 +1,13 @@
-import SolucionesLandign from "../components/pages/SolucionesLandign";
-import SolucionesFinanciero from "../components/pages/SolucionesFinanciero";
-import SolucionesDigitales from "../components/pages/SolucionesDigitales";
-import SolucionesSAP from "../components/pages/SolucionesSAP";
+// src/app/page.tsx
+import Navbar from "@/src/components/layout/navbar/Navbar";
+import Footer from "@/src/components/layout/footer/Footer";
 
 export default function Home() {
   return (
-    <>
-      {/*<SolucionesLandign />*/}
-      {/*<SolucionesFinanciero />*/}
-      {/*<SolucionesDigitales />*/}
-      <SolucionesSAP />
-    </>
+    <main>
+      <Navbar />
+      <h1>Bienvenido al Portal Heinsohn</h1>
+      <Footer />
+    </main>
   );
 }

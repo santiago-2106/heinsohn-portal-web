@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 // Ajusta la ruta de importación según dónde tengas tu archivo de datos
-import { FaqItem } from "../../data/financiera/DataFinanciera";
+import { FaqItem } from "../../../data/financiera";
 
 // --- SUB-COMPONENTE INTERNO (Acordeón) ---
 const AccordionItem = ({

@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import InputForm from "../InputForms";
-import imgContact from "@/src/img/contactimg.png";
+// ELIMINADO: import imgContact from "@/src/img/contactimg.png";
 
 export default function ContactForm() {
   const {
@@ -20,7 +20,7 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-12 border border-gray-200 overflow-hidden">
           <div className="relative hidden md:block md:col-span-5">
             <Image
-              src={imgContact}
+              src="/img/contactimg.png" /* <-- RUTA CORREGIDA DIRECTO A PUBLIC */
               alt="contacto"
               fill
               className="object-cover"

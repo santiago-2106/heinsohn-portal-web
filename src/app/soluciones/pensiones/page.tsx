@@ -1,9 +1,9 @@
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 import Navbar from "@/src/components/layout/navbar/Navbar";
-import Hero from "@/src/components/sections/Hero";
-import PensionesSection from "@/src/components/sections/sections-Pensiones/PensionesSection";
-import PensionesSection2 from "@/src/components/sections/sections-Pensiones/PensionesSection2";
+import Hero from "@/src/components/sections/shared/hero/Hero";
+import PensionesSection from "@/src/components/sections/pensiones/PensionesSection";
+import PensionesSection2 from "@/src/components/sections/pensiones/PensionesSection2";
 
 export default function pagePensiones() {
   const infoSolucionesPension = {

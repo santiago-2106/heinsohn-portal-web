@@ -1,11 +1,11 @@
 import React from "react";
-import Hero from "@/src/components/sections/Hero";
+import Hero from "@/src/components/sections/shared/hero/Hero";
 import Navbar from "@/src/components/layout/navbar/Navbar";
-import SolucionesGestionH from "@/src/components/sections/section-Getsion-Humana/SolucionesGestionH";
-import SoluciongestionH2 from "@/src/components/sections/section-Getsion-Humana/SoluciongestionH2";
-import CardProductSection from "@/src/components/ui/cardsGestionHumana/CardProductSection";
+import SolucionesGestionH from "@/src/components/sections/gestion-humana/SolucionesGestionH";
+import SoluciongestionH2 from "@/src/components/sections/gestion-humana/SolucionGestionH2";
+import CardProductSection from "@/src/components/sections/gestion-humana/ProductSection";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
-import TextTeam from "@/src/components/ui/textsComponent/TextTeam";
+import TextTeam from "@/src/components/sections/soluciones-digitales/TeamSection";
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 
