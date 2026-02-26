@@ -1,4 +1,4 @@
-import React from "react";
+
 import DevicesIcon from "@mui/icons-material/Devices";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloudQueueIcon from "@mui/icons-material/CloudQueue";
@@ -28,10 +28,11 @@ import PieChartIcon from '@mui/icons-material/PieChart';
 
 //Iconos vista4 soluciones digitales Ing. Software
 import AddPhotoAlternateOutlinedIcon from '@mui/icons-material/AddPhotoAlternateOutlined';
-import { ContactPageOutlined, SpeedOutlined, TimerOutlined, WebOutlined } from "@mui/icons-material";
+import { AccountBalanceOutlined, AccountBalanceWalletOutlined, AccountBoxOutlined, AddReactionOutlined, BusinessCenterOutlined, CategoryOutlined, ContactPageOutlined, CoPresentOutlined, HealthAndSafetyOutlined, HubOutlined, IndeterminateCheckBoxOutlined, Inventory2Outlined, MedicationLiquidOutlined, MuseumOutlined, PermContactCalendarOutlined, PersonAddAlt1Outlined, PortraitOutlined, RoomPreferencesSharp, RoomServiceOutlined, RouterOutlined, SavingsOutlined, Speaker, SpeedOutlined, Storage, TimerOutlined, VolunteerActivismOutlined, WebOutlined, WorkOffOutlined, WorkOutlineTwoTone } from "@mui/icons-material";
 
 
 import type { dataCard } from "@/src/components/types/cardTypes";
+
 
 //Informacion data card vista1 soluciones TI
 export const softwareCards: dataCard[] = [
@@ -44,32 +45,32 @@ export const softwareCards: dataCard[] = [
 ]
 
 export const analitycCards: dataCard[] = [
-    { icon: <LocalPoliceIcon />, title: 'Business Intelligence', description: 'Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.', btn: 'ver BI' },
-    { icon: <SmartToyIcon />, title: 'Consultoría IA', description: 'Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.', btn: 'Ver experiencias' },
-    { icon: <AutoAwesomeIcon />, title: 'Soluciones de Inteligencia Artificial  y Copilot', description: 'Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.', btn: 'Ver soluciones IA' },
-    { icon: <BubbleChartIcon />, title: 'Machine Learning e Inteligencia Artificial', description: 'Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.', btn: 'Explorar IA' },
+    { icon: <LocalPoliceIcon sx={{fill: 'white', stroke: 'black'}} />, title: 'Business Intelligence', description: 'Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.', btn: 'ver BI' },
+    { icon: <SmartToyIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Consultoría IA', description: 'Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.', btn: 'Ver experiencias' },
+    { icon: <AutoAwesomeIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Soluciones de Inteligencia Artificial  y Copilot', description: 'Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.', btn: 'Ver soluciones IA' },
+    { icon: <BubbleChartIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Machine Learning e Inteligencia Artificial', description: 'Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.', btn: 'Explorar IA' },
 ]
 
 export const enginerTeamCards: dataCard[] = [
-    { icon: <AccountCircleIcon />, title: 'Staff Augmentation', description: 'Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.', btn: 'Ampliar equipo' },
-    { icon: <EmojiPeopleIcon />, title: 'Equipos dedicados', description: 'Talento experto, enfocado en tus objetivos de negocio.', btn: 'Ver talento experto' },
+    { icon: <AccountCircleIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Staff Augmentation', description: 'Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.', btn: 'Ampliar equipo' },
+    { icon: <EmojiPeopleIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Equipos dedicados', description: 'Talento experto, enfocado en tus objetivos de negocio.', btn: 'Ver talento experto' },
 ]
 
 export const strategicConsultingCards: dataCard[] = [
-    { icon: <CloudSyncIcon />, title: 'Cloud y modernización de infraestructura', description: 'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn: 'Optimizacion en la nube' },
-    { icon: <TipsAndUpdatesIcon />, title: 'Consultoría estratégica para adopción digital', description: 'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn: 'Explorar consultoria' },
+    { icon: <CloudSyncIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Cloud y modernización de infraestructura', description: 'Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.', btn: 'Optimizacion en la nube' },
+    { icon: <TipsAndUpdatesIcon sx={{fill: 'white', stroke: 'black'}}/>, title: 'Consultoría estratégica para adopción digital', description: 'Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.', btn: 'Explorar consultoria' },
 ]
 
 //Informacion data card vista4 soluciones TI INGENIERIA DE SOFTWARE 2
 export const textModelDevelop: dataCard[] = [
-    { icon: <AddPhotoAlternateOutlinedIcon />, title: 'Staff Augmentation', description: 'Integra desarrolladores especializados para fortalecer tu equipo actual. ' },
-    { icon: <WebOutlined />, title: 'Project Based Development', description: 'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. ' },
-    { icon: <TimerOutlined />, title: 'Dedicated Teams', description: 'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. ' },
+    { icon: <PersonAddAlt1Outlined />, title: 'Staff Augmentation', description: 'Integra desarrolladores especializados para fortalecer tu equipo actual. ' },
+    { icon: <CategoryOutlined />, title: 'Project Based Development', description: 'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. ' },
+    { icon: <HubOutlined />, title: 'Dedicated Teams', description: 'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. ' },
 ]
 
 export const textoModelDevelop: dataCard[] = [
     { icon: <SpeedOutlined />, title: 'Soluciones como producto', description: 'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.' },
-    { icon: <ContactPageOutlined />, title: 'Consultoria tecnica + Implementacion', description: 'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.' }
+    { icon: <CoPresentOutlined />, title: 'Consultoria tecnica + Implementacion', description: 'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.' }
 ]
 
 export const textoModelDevelop2: dataCard[] = [
@@ -124,7 +125,7 @@ export const textoSolucionDigital2: dataCard[] = [
 
 export const SolucinesDigital6: dataCard[] = [
     {
-        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        icon: <SavingsOutlined sx={{ fontSize: 32 }} />,
         title: 'Lenguajes & Frameworks (Frontend/Backend)',
         items: [
             {textos:'Java'}, 
@@ -139,7 +140,7 @@ export const SolucinesDigital6: dataCard[] = [
     },
 
     {
-        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        icon: <PortraitOutlined sx={{ fontSize: 32 }} />,
         title: 'Cloud & Arquitecturas',
         items: [
             {textos:'AWS'}, 
@@ -151,7 +152,7 @@ export const SolucinesDigital6: dataCard[] = [
     },
 
     {
-        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        icon: <AccountBalanceWalletOutlined sx={{ fontSize: 32 }} />,
         title: 'Bases de datos & Big Data',
         items: [
             {textos:'PostgresSQL'}, 
@@ -162,7 +163,7 @@ export const SolucinesDigital6: dataCard[] = [
     },
 
     {
-        icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
+        icon: <AccountBalanceOutlined sx={{ fontSize: 32 }} />,
         title: 'Integraciones Empresariales & QA',
         items: [
             {textos:'SAP'}, 
@@ -175,15 +176,15 @@ export const SolucinesDigital6: dataCard[] = [
 
 //informacion data de vista gestion humana
 export const infoGestionHumana2: dataCard[] = [
-    { icon: <AddPhotoAlternateOutlinedIcon />, title: 'Outsourcing de administración y atención a colaboradores', description: 'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.' },
-    { icon: <WebOutlined />, title: 'Procesos especiales de gestión del talento humano', description: 'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.' },
-    { icon: <TimerOutlined />, title: 'Gestión de seguridad y salud en el trabajo', description: 'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.' },
-    { icon: <TimerOutlined />, title: 'Outsourcing liquidación de pago de nómina y contratistas', description: 'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.' },
-    { icon: <TimerOutlined />, title: 'Outsourcing de gestión incapacidades y reconocimientos económicos', description: 'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.' },
-    { icon: <TimerOutlined />, title: 'Atención a clientes y transformación digital', description: 'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.' },
+    { icon: <AccountBoxOutlined />, title: 'Outsourcing de administración y atención a colaboradores', description: 'Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes.' },
+    { icon: <AddReactionOutlined />, title: 'Procesos especiales de gestión del talento humano', description: 'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.' },
+    { icon: <VolunteerActivismOutlined />, title: 'Gestión de seguridad y salud en el trabajo', description: 'Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.' },
+    { icon: <PermContactCalendarOutlined />, title: 'Outsourcing liquidación de pago de nómina y contratistas', description: 'Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.' },
+    { icon: <HealthAndSafetyOutlined />, title: 'Outsourcing de gestión incapacidades y reconocimientos económicos', description: 'Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.' },
+    { icon: <WorkOutlineTwoTone />, title: 'Atención a clientes y transformación digital', description: 'Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.' },
     { icon: <TimerOutlined />, title: 'Atracción, selección y planeación de la fuerza laboral', description: 'Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.' },
-    { icon: <TimerOutlined />, title: 'Consultoría', description: 'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.' },
-    { icon: <TimerOutlined />, title: 'Servicios adicionales', description: 'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.' },
+    { icon: <BusinessCenterOutlined />, title: 'Consultoría', description: 'Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.' },
+    { icon: <RoomServiceOutlined />, title: 'Servicios adicionales', description: 'Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.' },
 ]
 
 

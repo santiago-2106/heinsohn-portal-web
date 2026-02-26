@@ -1,15 +1,16 @@
 "use client"
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
-import ModeNightIcon from '@mui/icons-material/ModeNight';
 import Link from "next/link";
+import { ModeNightOutlined, WbSunnyOutlined } from '@mui/icons-material';
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false)
+  const [isDarkMode, setIsDarkMode] = useState(false)
 
   return (
     <header className="border-b border-gray-200 bg-white">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-360 px-8 md:px-10 xl:px-52 ">
 
         <ul className="relative flex h-20 items-center justify-between">
           <li className="flex items-center gap-4">
@@ -38,7 +39,11 @@ export default function Navbar() {
               <option>EN</option>
               <option>FRA</option>
             </select>
-            <i><ModeNightIcon /> </i>
+            
+            <button className='hover:cursor-pointer'
+            onClick={() => setIsDarkMode(!isDarkMode)}>
+              {isDarkMode ? <WbSunnyOutlined sx={{fill: '',}}/> : <ModeNightOutlined />}
+            </button>
           </li>
         </ul>
 

@@ -30,6 +30,7 @@ export default function ModelosDesarrollo() {
           cols={2}
         />
         <ButtonComponent textoBtn='Descubre cómo aumentar tu ROI con software personalizado' />
+        
         <TecnologiaConfiable />
 
         <CardAnuncies

@@ -22,23 +22,23 @@ export default function Card({ icon, title, description, btn, items, alineacion 
         {title}
       </h3>
 
-      <p className='mb-6 text-sm leading-relaxed text-gray-600'>
+      <p className="text-base font-light leading-6.5 tracking-normal">
         {description}
       </p>
 
-      <div className="flex-grow mb-6">
+      <div className="flex grow mb-6">
         {items && items.length > 0 && (
           <ul className="space-y-4">
             {items.map((item, index) => (
               <li key={index} className="flex items-start text-sm text-gray-600">
                 {/* El puntico rojo */}
-                <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-[#E30613]"></span>
+                <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex shrink-0 rounded-full bg-[#E30613]"></span>
                 
                 <div className="flex flex-col">
                   {/* El subtitulo del punto */}
-                  <span className="fonte-semibold text-gray-800 leading-relaxed">{item.titulo}</span>
+                  <span className="font-semibold text-gray-900 leading-relaxed">{item.titulo}</span>
                   {/* El texto */}
-                  <span className="leading-relaxed mt-1 text-gray-800">{item.textos}</span>
+                  <span className="leading-relaxed mt-1 text-gray-900">{item.textos}</span>
                 </div>
 
               </li>

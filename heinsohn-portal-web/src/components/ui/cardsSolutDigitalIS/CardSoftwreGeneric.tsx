@@ -16,7 +16,7 @@ export default function TrustSection() {
         {/*Corregir name aqui de feautrcard {/*VER SI MEJOR USAR ITEM O INDEX */} {dataSoftwaregenerico.map((item, index) => (
           <FeatureCard
             key={index}
-            icon={<Devices />}
+            icon={item.icon}
             description={item.description}
             variant="compact"
           />

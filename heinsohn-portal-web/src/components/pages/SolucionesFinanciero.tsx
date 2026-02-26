@@ -41,7 +41,6 @@ export default function SolucionesFinanciero() {
   
   const btnRetos = "Descubre cómo enfrentamos estos retos en LATAM";
 
-
   return (
     <div>
       <Navbar />
@@ -60,41 +59,26 @@ export default function SolucionesFinanciero() {
         bottomText={footerRetos} 
         bottomBtn={btnRetos}     
       />
-
       <CardAnuncies 
         title="Soluciones tecnológicas para créditos, fondos e inversiones" 
         cards={financialSolutionsCards} 
         cols={2}
       />
-      
       <CardResult />
-
       <Clientes 
         title="Nuestra experiencia en cifras"
       />
-
-
       <CardAnuncies 
         title=" " 
         cards={experienceStatsData} 
         cols={2}
       />
-
       <Certificaciones 
         title="Certificaciones internacionales"
       />
-
-
-
       <CardCases />
-
       <ContactForm />
-      
-
-
-
       <Slider />
-
       <ContactForm />
       <Footer />
       <FooterBottom />

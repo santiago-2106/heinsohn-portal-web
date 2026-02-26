@@ -4,6 +4,7 @@ import Navbar from "@/src/components/layout/navbar/Navbar"
 import Hero from "@/src/components/sections/Hero"
 import StaffArgumentationSection from "@/src/components/sections/section-Staff-Argumentation/StaffArgumentationSection"
 import StaffArgumentationSection2 from "@/src/components/sections/section-Staff-Argumentation/StaffArgumentationSection2"
+import Mapa from "@/src/components/ui/Map/Mapa"
 
 
 export default function page() {
@@ -35,7 +36,11 @@ export default function page() {
       />
       <StaffArgumentationSection />
       <StaffArgumentationSection2 />
-
+      <Mapa 
+      title="Tiempo promedio de vinculacion"
+      descripcion="2 a 3 semanas."
+      imgMap="/img/mapa-staff2.png"
+      />
       <Footer />
       <FooterBottom />
     </>
