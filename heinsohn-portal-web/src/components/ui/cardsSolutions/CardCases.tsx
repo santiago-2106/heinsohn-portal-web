@@ -1,18 +1,16 @@
 import Image from "next/image";
 import imgEdificio from '@/src/img/edif.jpg'
 import imgOurWorking from '@/src/img/workimg.png'
+import TextComponent from '@/src/components/ui/textsComponent/TextComponent';
 
 export default function CardCases() {
   return (
     <section className="bg-white py-8 sm:py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
 
-        <h2 className="mb-8 text-center text-2xl sm:mb-10 sm:text-3xl md:mb-12 md:text-4xl">
-          Conoce Nuestro Trabajo
-        </h2>
+        <TextComponent title="Conoce nuestro trabajo" />
 
         <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2">
-
           <article className="flex flex-col border border-gray-300 bg-white">
             <div className="relative h-48 w-full sm:h-56 md:h-80">
               <Image 
@@ -28,7 +26,7 @@ export default function CardCases() {
                 Transformación digital en el sector financiero
               </p>
               
-              <p className="text-sm leading-relaxed text-gray-500">
+              <p className=" text-sm font-light leading-6.5 ">
                 Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.
               </p>
               

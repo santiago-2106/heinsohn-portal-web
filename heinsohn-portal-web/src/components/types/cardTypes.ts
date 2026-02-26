@@ -1,11 +1,8 @@
-import { ReactNode } from "react";
+import React, { ReactNode } from "react";
 
-/**
- * Interface base para las Cards presentacionales.
- * Centralizada en types/ para ser consumida tanto por componentes como por archivos de datos.
- */
+
 export interface ItemsCard {
-    titulo?: string
+    titulo?: React.ReactNode
     textos: string
 }
 
@@ -18,4 +15,12 @@ export interface dataCard {
     items?: ItemsCard[]
     alineacion?: 'left' | 'center'
     textoFooter?: ReactNode
+}
+
+
+//IMAGEN MAPA 
+export interface propsStaffArgumentationImg {
+    title?: string
+    descripcion?:string
+    imgMap?:string
 }

@@ -9,6 +9,7 @@ import imgPc4 from '@/src/img/laptop4.png'
 import imgPc5 from '@/src/img/laptop5.png'
 import imgPc6 from '@/src/img/laptop6.png'
 import imgPc7 from '@/src/img/laptop7.png'
+import { AccountBalanceOutlined, BusinessOutlined, CastleOutlined, WarehouseOutlined } from '@mui/icons-material';
 
 
 export interface datagestionHumana {
@@ -24,7 +25,7 @@ export interface datagestionHumana {
 export const gestionHumanaInfo: datagestionHumana[] = [
     {
         
-        icon: <AccountCircleIcon />,
+        icon: <BusinessOutlined />,
         contenedor: '+500 Colaboradores',
         title: 'Grandes empresas',
         description:'Nomina para grandes empresas',
@@ -32,7 +33,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     },
       {
         
-        icon: <AccountCircleIcon />,
+        icon: <WarehouseOutlined />,
         contenedor: ' 1 a 450 colaboradores',
         title: 'Pymes',
         description:'Nomina para pequeña y mediana empresa',
@@ -40,7 +41,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     },
       {
         
-        icon: <AccountCircleIcon />,
+        icon: <CastleOutlined />,
         contenedor:'+100 colaboradores',
         title: 'Gobierno',
         description:'Soluciones para la administracion publica',

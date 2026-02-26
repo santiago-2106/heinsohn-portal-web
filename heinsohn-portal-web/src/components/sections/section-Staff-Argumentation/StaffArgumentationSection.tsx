@@ -11,7 +11,8 @@ export default function StaffArgumentationSection() {
     <section>
       {/* Antes: grid inline hardcodeado. Ahora usa CardAnuncies */}
       <CardAnuncies
-        title=""
+        title="Cuando tu equipo necesita crecer, el Staff Augmentation TI es la respuesta "
+        description='Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentation TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. Síntomas de una gestión sin staffing de TI eficiente: '
         cards={infoStaffArgumentation}
         cols={2}
       />

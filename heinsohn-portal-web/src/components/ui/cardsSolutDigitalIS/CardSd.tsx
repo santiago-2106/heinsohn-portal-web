@@ -6,9 +6,9 @@ import { informationCard } from "../../data/dataCardSolutions/dataCardSolucion";
 
 export default function CardSd() {
   return (
-    <section className='py-24'>
+    <section className='py-20'>
       <TextComponent title={dataTextCards.title} description={dataTextCards.description} />
-      <div className="mx-auto max-w-sm sm:max-w-5xl px-6">
+      <div className="mx-auto max-w-360 sm:max-w-5xl px-6">
       <div className='grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8'>
         {
           informationCard.map((card, index) =>{
@@ -17,8 +17,8 @@ export default function CardSd() {
             return(
               <article key={index} className='flex flex-col justify-between border border-gray-200 bg-white'>
                 <div className="p-8 md:p-10">
-                  <Iconos className='mb-6 text-5xl text-gray-700' />
-                  <h4 className='text-2xl font-semibold text-gray-500 mb-8'>
+                  <Iconos className='mb-6 text-5xl text-[#414158]' />
+                  <h4 className='text-2xl font-semibold text-[#414158] mb-8'>
                     {card.titles}
                   </h4>
 
@@ -29,15 +29,15 @@ export default function CardSd() {
                         return (
                         <div key={i}>
                           <div className="flex items-center gap-3 mb-3">
-                            <IconosSubtitles className="text-lg text-gray-500" />
-                            <h4 className="text-sm font-medium text-gray-800">
+                            <IconosSubtitles className="text-lg " />
+                            <h4 className="text-lg font-light text-[#414158]">
                               {item.text}
                             </h4>
                           </div>
 
-                          <ul className="ml-7 space-y-2 text-sm text-gray-500 ">
+                          <ul className="ml-7 space-y-2 text-sm text-[#414158] ">
                             {item.features.map((feature, featur) => (
-                              <li key={featur} className="flex gap-2">{feature}</li>
+                              <li key={featur} className="flex gap-2 text-[#414158] font-light">{feature}</li>
                             ))}
                           </ul>
                         </div>

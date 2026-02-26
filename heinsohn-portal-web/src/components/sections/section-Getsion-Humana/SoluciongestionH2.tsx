@@ -22,7 +22,7 @@ export default function TalentCloudSection() {
       <TextComponent title="Somos la solución en gestión, del talento humano en la nube."/>
 
       <section className="max-w-2xl mx-auto mt-">
-        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border border-gray-200">
+        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
 
           {dataInfoGestionHumana.map((item, index) => (
             <div

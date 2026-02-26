@@ -1,24 +1,20 @@
 import {
   RocketLaunchOutlined,
-  GavelOutlined,
-  LocalOfferOutlined,
-  VerifiedUserOutlined,
-  HelpOutlineOutlined,
-  RoundaboutLeftOutlined,
   AccountCircle,
   AssignmentInd,
   AccountBox,
   AddReaction,
-  FolderShared,
-  FolderSharedOutlined
+  FolderSharedOutlined,
+  FaceRetouchingNaturalOutlined,
+  BusinessCenterOutlined,
+  WorkOutlined,
+  SavingsOutlined,
+  AssignmentIndOutlined,
+  EditLocationOutlined
 } from "@mui/icons-material"
 
-import DevicesIcon from "@mui/icons-material/Devices";
+
 import DataObjectIcon from "@mui/icons-material/DataObject";
-import CloudQueueIcon from "@mui/icons-material/CloudQueue";
-import TabletMacIcon from "@mui/icons-material/TabletMac";
-import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
-import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 
 import SavingsIcon from '@mui/icons-material/Savings';
 
@@ -57,12 +53,12 @@ export const infoPensiones1: ResultsCorporativoData = {
 
 
 export const infoPensiones2: dataCard[] = [
-  { icon: <DevicesIcon />, title: 'Envejecimiento poblacional', description: 'Mas jubilados demandan procesos ágiles y sostenibles.', alineacion: 'center' },
-  { icon: <DisplaySettingsIcon />, title: 'Sostenibilidad financiera', description: 'Los déficits en sistemas de reparto impulsan la diversificación en fondos de capitalización.', alineacion: 'center' },
-  { icon: <DataObjectIcon />, title: 'Digitalización de trámites', description: 'Los afiliados esperan autogestión, trazabilidad y una experiencia 100% digital.', alineacion: 'center' },
-  { icon: <CloudQueueIcon />, title: 'Presión regulatoria', description: 'Normativas cambiantes exigen reportes confiables y actualizados.', alineacion: 'center' },
-  { icon: <TabletMacIcon />, title: 'Nómina de pensionados', description: ' El pago masivo necesita liquidación transparente y sin errores. ', alineacion: 'center' },
-  { icon: <DeveloperModeIcon />, title: 'Nuevos actores', description: 'Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio.', alineacion: 'center' },
+  { icon: <FaceRetouchingNaturalOutlined />, title: 'Envejecimiento poblacional', description: 'Mas jubilados demandan procesos ágiles y sostenibles.', alineacion: 'center' },
+  { icon: <BusinessCenterOutlined />, title: 'Sostenibilidad financiera', description: 'Los déficits en sistemas de reparto impulsan la diversificación en fondos de capitalización.', alineacion: 'center' },
+  { icon: <WorkOutlined />, title: 'Digitalización de trámites', description: 'Los afiliados esperan autogestión, trazabilidad y una experiencia 100% digital.', alineacion: 'center' },
+  { icon: <SavingsOutlined />, title: 'Presión regulatoria', description: 'Normativas cambiantes exigen reportes confiables y actualizados.', alineacion: 'center' },
+  { icon: <AssignmentIndOutlined />, title: 'Nómina de pensionados', description: ' El pago masivo necesita liquidación transparente y sin errores. ', alineacion: 'center' },
+  { icon: <EditLocationOutlined />, title: 'Nuevos actores', description: 'Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio.', alineacion: 'center' },
 ]
 
 export const infoPensiones3: dataCard[] = [

@@ -1,6 +1,5 @@
-import { dataIA, infoStaffArgumentation4, infoStaffArgumentation5, infoStaffArgumentation6 } from "../../data/dataStaffArgumentation/dataStaffArgumentation";
+import { infoStaffArgumentation4, infoStaffArgumentation5, infoStaffArgumentation6 } from "../../data/dataStaffArgumentation/dataStaffArgumentation";
 import ButtonComponent from "../../ui/Button/ButtonComponent";
-import CardGrid from "../../ui/CardGrid";
 import CardFeatures from "../../ui/cardsSolutDigitalIS/CardFeatures";
 import CardAnuncies from "../../ui/cardsSolutions/CardAnuncies";
 import SubcomponenteCardStaff from "../../ui/cardStaff/SubcomponenteCardStaff";
@@ -35,14 +34,13 @@ export default function StaffArgumentationSection2() {
       </section>
 
 
-      <article className="mt-24">
+      <article >
         <TextComponent
           title="Cómo implementamos la inteligencia artificial en tu empresa"
           description="Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento continuo:"
         />
         <SubcomponenteCardStaff information={infoStaffArgumentation5} />
       </article>
-      <SubcomponenteCardStaff information={dataIA} />
     </section>
   )
 }

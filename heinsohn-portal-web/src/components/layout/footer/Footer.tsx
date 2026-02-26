@@ -11,7 +11,7 @@ const soluciones = [
 export default function Footer() {
   return (
     <footer className='border-t border-gray-200 bg-white'>
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-6xl px-6 ">
         <div className="grid grid-cols-1 gap-10 py-12 md:grid-cols-[1fr_1.8fr_0.8fr]">
           
           <div>
@@ -20,7 +20,7 @@ export default function Footer() {
               <h3 className='text-sm font-bold tracking-wider'>HEINSOHN</h3>
             </div>
             
-            <p className='text-sm text-gray-600 leading-relaxed'>
+            <p className='text-sm text-gray-600 leading-7.5'>
               Transformando empresas a través de soluciones tecnológicas innovadoras e inteligencia artificial a la vanguardia.
             </p>
 
@@ -36,9 +36,9 @@ export default function Footer() {
 
           <nav>
             <h4 className='text-gray-500 mb-4'>Soluciones</h4>
-            <div className='grid grid-cols-2 gap-y-3 gap-x-16'>
+            <div className='grid grid-cols-2 gap-y-3 gap-x-12'>
               {soluciones.map((column, index) => (
-                <ul key={index} className='flex flex-col gap-y-3 text-sm text-gray-600'>
+                <ul key={index} className='flex flex-col gap-2 text-sm text-gray-600'>
                   {column.map((item) => (
                     <li key={item}>
                       <Link href='/'>{item}</Link>
@@ -51,7 +51,7 @@ export default function Footer() {
                         
           <nav>
             <h4 className='text-gray-500 mb-4'>Compañía</h4>
-            <ul className='flex flex-col gap-y-3 text-sm text-gray-600'>
+            <ul className='flex flex-col gap-2 text-sm text-gray-600'>
                 <li>Home</li>
                 <li>Quienes somos</li>
                 <li>Mapa de sitio</li>

@@ -16,15 +16,15 @@ export default function CardAnuncies({
 }: cardPropsInformation) {
 
   return (
-    <section className='bg-white py-8 sm:py-12 md:py-16'>
-      <div className='mx-auto max-w-7xl px-4 sm:px-6 md:-px-8 lg:px-12 xl:px-48'>
+    <section className='bg-white py-16 xl:py-20'>
+      <div className='mx-auto max-w-360 px-10 xl:px-52 space-y-12 md:space-y-10 '>
 
-        <div className='mb-8 sm:mb-10 md:mb-12 text-center'>
-          <h2 className='text-3xl sm:text-3xl md:text-4xl text-gray-900 font-light mb-6 px-4'>
+        <div className=' text-center'>
+          <h2 className='text-3xl sm:text-3xl md:text-5xl text-gray-900 font-light leading-none'>
             {title}
           </h2>
           {description && (
-            <p className="mx-auto max-w-4xl text-base text-gray-600 leading-relaxed px-4">
+            <p className="mx-auto max-w-4xl text-base text-gray-600 leading-relaxed ">
               {description}
             </p>
           )}
