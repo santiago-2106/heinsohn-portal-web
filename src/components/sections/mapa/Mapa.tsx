@@ -1,6 +1,6 @@
 import { ShowChartOutlined } from "@mui/icons-material";
-import { propsStaffArgumentationImg } from "../../types/cardTypes";
-import { paises } from "../../data/dataMapa";
+import { propsStaffArgumentationImg } from "../../../types/cardTypes";
+import { paises } from "../../../data/mapa/index";
 
 //Mover Data a un archivo aparte
 

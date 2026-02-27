@@ -18,3 +18,9 @@ export interface dataCard {
   alineacion?: "left" | "center";
   textoFooter?: ReactNode;
 }
+//IMAGEN MAPA 
+export interface propsStaffArgumentationImg {
+    title?: string
+    descripcion?:string
+    imgMap?:string
+}
