@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-// ELIMINADO: import imgCertificaciones from "@/src/img/certificacionesIn.png"; 
-
 interface CertificacionesProps {
   title: string;
 }
@@ -20,7 +18,9 @@ export default function Certificaciones({ title }: CertificacionesProps) {
         <div className="flex justify-center w-full">
           <Image
             src="/img/certificacionesIn.png" /* <-- RUTA CORREGIDA A PUBLIC */
-            width={800} /* Agregamos dimensiones para evitar errores de Next.js */
+            width={
+              800
+            } /* Agregamos dimensiones para evitar errores de Next.js */
             height={400}
             alt="Certificaciones Internacionales ISO y OHSAS"
             className="w-full max-w-3xl h-auto object-contain"
