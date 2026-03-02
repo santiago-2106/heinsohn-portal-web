@@ -55,8 +55,7 @@
   Estos colores se activan solos si el usuario usa Modo Oscuro.
 ========================================================================
 */
-@media (prefers-color-scheme: dark) {
-  :root {
+.dark {
     --theme-text-title: #E5E7EB;
     --theme-text-body: #E5E7EB;
     --theme-text-btn: #2C2C38;
@@ -70,7 +69,7 @@
     --theme-bg-menu: #4F4F62;
     --theme-bg-menu-hover: #35353C;
   }
-}
+
 
 /* ========================================================================
   4. ESTILOS BASE Y ESCALA TIPOGRÁFICA (H1440, H768, H390)

@@ -1,7 +1,7 @@
 import {
   gestionHumanaInfo,
   infoGestionHumana2,
-} from "../../../data/gestion-humana"; // ✅ Ahora sí existe
+} from "../../../data/gestion-humana"; 
 import CardGestionHumana from "../../ui/cards/CardGestionHumana";
 import TextComponent from "../../ui/typography/TextComponent";
 import {
@@ -27,7 +27,6 @@ export default function SolucionesGestionH() {
         ))}
       </div>
 
-      {/* Esta sección ya no dará error */}
       <CardAnuncies
         title={textoGestionHumana2.title}
         description={textoGestionHumana2.description}
