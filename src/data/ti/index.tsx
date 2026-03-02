@@ -21,39 +21,39 @@ import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 
 export const softwareCards: dataCard[] = [
   {
-    icon: <DevicesIcon />,
+    icon: <DevicesIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Desarrollo de aplicaciones moviles y web",
     description: "soluciones intuitivas para todo tip de dispositivos",
     btn: "ver soluciones",
   },
   {
-    icon: <DisplaySettingsIcon />,
+    icon: <DisplaySettingsIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Diseño y Desarrollo UX/UI",
     description:
       "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion",
     btn: "Ver experiencias",
   },
   {
-    icon: <DataObjectIcon />,
+    icon: <DataObjectIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Desarollo de software",
     description: "productos a la medida de cada necesidad empresarial",
     btn: "Solicitar desarrollo",
   },
   {
-    icon: <CloudQueueIcon />,
+    icon: <CloudQueueIcon sx={{ fontSize:40}}/>,
     title: "Desarrollo software cloud",
     description:
       "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
     btn: "Ver mas",
   },
   {
-    icon: <TabletMacIcon />,
+    icon: <TabletMacIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Desarrollo de plataformas escalables",
     description: "arquitecturas prepardas para el crecimiento del negocio",
     btn: "Explorar",
   },
   {
-    icon: <DeveloperModeIcon />,
+    icon: <DeveloperModeIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Modernizacion de aplicaciones de software",
     description:
       "actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia",
@@ -63,28 +63,28 @@ export const softwareCards: dataCard[] = [
 
 export const analitycCards: dataCard[] = [
   {
-    icon: <LocalPoliceIcon />,
+    icon: <LocalPoliceIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Business Intelligence",
     description:
       "Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.",
     btn: "ver BI",
   },
   {
-    icon: <SmartToyIcon />,
+    icon: <SmartToyIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Consultoría IA",
     description:
       "Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.",
     btn: "Ver experiencias",
   },
   {
-    icon: <AutoAwesomeIcon />,
+    icon: <AutoAwesomeIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Soluciones de Inteligencia Artificial y Copilot",
     description:
       "Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.",
     btn: "Ver soluciones IA",
   },
   {
-    icon: <BubbleChartIcon />,
+    icon: <BubbleChartIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Machine Learning e Inteligencia Artificial",
     description:
       "Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.",
@@ -94,14 +94,14 @@ export const analitycCards: dataCard[] = [
 
 export const enginerTeamCards: dataCard[] = [
   {
-    icon: <AccountCircleIcon />,
+    icon: <AccountCircleIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Staff Augmentation",
     description:
       "Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.",
     btn: "Ampliar equipo",
   },
   {
-    icon: <EmojiPeopleIcon />,
+    icon: <EmojiPeopleIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Equipos dedicados",
     description: "Talento experto, enfocado en tus objetivos de negocio.",
     btn: "Ver talento experto",
@@ -110,14 +110,14 @@ export const enginerTeamCards: dataCard[] = [
 
 export const strategicConsultingCards: dataCard[] = [
   {
-    icon: <CloudSyncIcon />,
+    icon: <CloudSyncIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Cloud y modernización de infraestructura",
     description:
       "Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.",
     btn: "Optimizacion en la nube",
   },
   {
-    icon: <TipsAndUpdatesIcon />,
+    icon: <TipsAndUpdatesIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Consultoría estratégica para adopción digital",
     description:
       "Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.",
