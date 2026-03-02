@@ -12,37 +12,36 @@ export default function CardGestionHumana({
   items,
 }: propsGestionHumana) {
   return (
-    // 'relative' permite posicionar la etiqueta negra "Más popular" flotando arriba
-    <section className="relative flex flex-col border border-gray-200 bg-white p-8 md:p-10 hover:shadow-lg transition-shadow duration-300 h-full">
-      {/* Etiqueta Negra Superior (Solo aparece si existe la prop 'badge') */}
+    <section className="relative flex flex-col border border-border-ui bg-bg-card-2 p-8 md:p-10 hover:shadow-lg transition-shadow duration-300 h-full">
+      {/* Etiqueta Negra Superior */}
       {badge && (
-        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#111827] text-white text-[11px] font-bold px-4 py-1.5 tracking-wide">
+        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-text-title text-bg-main text-[11px] font-bold px-4 py-1.5 tracking-wide">
           {badge}
         </div>
       )}
 
       {/* Icono Principal */}
-      <div className="mb-6 text-gray-700">{icon}</div>
+      <div className="mb-6 text-text-title">{icon}</div>
 
-      {/* Etiqueta / Contenedor (Ej: "Para pequeñas empresas") */}
+      {/* Etiqueta / Contenedor */}
       {contenedor && (
-        <div className="mb-6 self-start border border-gray-200 px-4 py-1.5 text-[11px] text-gray-600 font-semibold tracking-wide">
+        <div className="mb-6 self-start border border-border-ui px-4 py-1.5 text-[11px] text-text-body font-semibold tracking-wide">
           {contenedor}
         </div>
       )}
 
       {/* Título Principal */}
-      <h3 className="mb-4 text-2xl font-light text-gray-800">{title}</h3>
+      <h3 className="mb-4 text-2xl font-light text-text-title">{title}</h3>
 
-      {/* Subtítulo con ícono de tendencia (Ej: "Desde 1-10 licencias") */}
+      {/* Subtítulo con ícono de tendencia */}
       {subTitle && (
-        <div className="flex items-center gap-3 mb-6 text-[14px] font-bold text-gray-900">
+        <div className="flex items-center gap-3 mb-6 text-[14px] font-bold text-text-title">
           <svg
             width="20"
             height="20"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#374151"
+            stroke="currentColor"
             strokeWidth="1.5"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -55,19 +54,19 @@ export default function CardGestionHumana({
       )}
 
       {/* Descripción General */}
-      <p className="mb-8 text-sm md:text-base leading-relaxed text-gray-500 font-light">
+      <p className="mb-8 text-sm md:text-base leading-relaxed text-text-body font-light">
         {description}
       </p>
 
-      {/* Lista de características (Solo aparece si mandas un array en 'items') */}
+      {/* Lista de características */}
       {items && items.length > 0 && (
         <ul className="mb-10 flex flex-col gap-3">
           {items.map((item, index) => (
             <li
               key={index}
-              className="flex items-start gap-3 text-sm text-gray-500 font-light"
+              className="flex items-start gap-3 text-sm text-text-body font-light"
             >
-              <span className="mt-0.5 shrink-0 text-[#E30613]">
+              <span className="mt-0.5 shrink-0 text-brand-accent">
                 {/* Flecha roja */}
                 <svg
                   width="16"
@@ -93,10 +92,10 @@ export default function CardGestionHumana({
       {btnText && (
         <a
           href="#"
-          className="mt-auto group flex items-center justify-between w-max gap-4 border border-gray-200 rounded-full px-6 py-2.5 text-sm font-semibold text-gray-700 hover:border-gray-400 transition-colors"
+          className="mt-auto group flex items-center justify-between w-max gap-4 border border-border-ui rounded-full px-6 py-2.5 text-sm font-semibold text-text-title hover:border-text-body transition-colors"
         >
           {btnText}
-          <span className="text-gray-400 group-hover:translate-x-1 transition-transform">
+          <span className="text-text-body group-hover:translate-x-1 transition-transform">
             →
           </span>
         </a>
