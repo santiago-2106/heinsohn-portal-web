@@ -1,3 +1,4 @@
+import { BusinessOutlined, CastleOutlined, WarehouseOutlined } from "@mui/icons-material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 // ELIMINADO: import { StaticImageData } from "next/image";
 
@@ -16,7 +17,7 @@ export interface datagestionHumana {
 
 export const gestionHumanaInfo: datagestionHumana[] = [
   {
-    icon: <AccountCircleIcon />,
+    icon: <BusinessOutlined />,
     contenedor: "+500 Colaboradores",
     title: "Grandes empresas",
     description: "Nomina para grandes empresas",
@@ -24,7 +25,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     btn: "Ampliar Informacion",
   },
   {
-    icon: <AccountCircleIcon />,
+    icon: <WarehouseOutlined />,
     contenedor: " 1 a 450 colaboradores",
     title: "Pymes",
     description: "Nomina para pequeña y mediana empresa",
@@ -32,7 +33,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     btn: "Ampliar Informacion",
   },
   {
-    icon: <AccountCircleIcon />,
+    icon: <CastleOutlined />,
     contenedor: "+100 colaboradores",
     title: "Gobierno",
     description: "Soluciones para la administracion publica",

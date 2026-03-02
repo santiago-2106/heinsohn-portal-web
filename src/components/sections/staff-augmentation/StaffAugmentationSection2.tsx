@@ -32,14 +32,13 @@ export default function StaffArgumentationSection2() {
         </article>
       </section>
 
-      <article className="mt-24">
+      <article >
         <TextComponent
           title="Cómo implementamos la inteligencia artificial en tu empresa"
           description="Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento continuo:"
         />
         <SubcomponenteCardStaff information={infoStaffArgumentation5} />
       </article>
-      <SubcomponenteCardStaff information={dataIA} />
     </section>
   );
 }

@@ -35,14 +35,14 @@ export default function Slider() {
         >
           {cardSlider1.map((item) => (
             <SwiperSlide key={item.id}>
-              <div className="flex flex-col md:flex-row gap-8 items-stretch">
+              <div className="flex flex-col md:flex-row  items-stretch">
 
                 {/* Imagen lado izquierda carrusel*/}
                 <div className="hidden md:flex md:w-1/3 bg-[#f5f5f5] items-center justify-center">
                   <img
                     src="https://giffiles.alphacoders.com/220/220033.gif"
                     alt="decor"
-                    className="w-36"
+                    className="object-cover "
                   />
                 </div>
                 <div className="w-full md:w-2/3 bg-white border border-gray-200">
@@ -57,11 +57,11 @@ export default function Slider() {
                   </div>
                   {/* Contenido carrusel */}
                   <div className="flex flex-col gap-4 p-6">
-                    <h4 className="text-lg md:text-xl font-medium text-gray-700">
+                    <h4 className=" font-medium ">
                       {item.title}
                     </h4>
 
-                    <p className="text-sm text-gray-500 leading-relaxed">
+                    <p className="base font-light leading-6.5">
                       {item.description}
                     </p>
 

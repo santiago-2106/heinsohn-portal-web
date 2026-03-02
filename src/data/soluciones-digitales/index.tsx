@@ -1,6 +1,6 @@
 import { ElementType } from "react";
 import DevicesIcon from "@mui/icons-material/Devices";
-import { DeviceHub } from "@mui/icons-material";
+import { ArchitectureOutlined, DeviceHub, DiamondOutlined, EmojiEventsOutlined, FactCheckOutlined, GradeOutlined, LanguageOutlined, LaptopChromebookOutlined, PaymentOutlined, PersonalVideoOutlined, ShieldMoonOutlined, SpeedOutlined, UpdateOutlined } from "@mui/icons-material";
 
 export interface SubtitleItem {
   icon: ElementType;
@@ -17,7 +17,7 @@ export interface dataCardSolutions {
 
 export const informationCard: dataCardSolutions[] = [
   {
-    icon: DevicesIcon,
+    icon: GradeOutlined,
     titles: "Basico",
     subtitle: [
       {
@@ -26,12 +26,12 @@ export const informationCard: dataCardSolutions[] = [
         features: ["Angular, React", "Hasta 5 flujos de 1 a 50 pantallas"],
       },
       {
-        icon: DevicesIcon,
+        icon: FactCheckOutlined,
         text: "Prueba de uso",
         features: ["Prueba con 5 a 10 usuarios sinteticos"],
       },
       {
-        icon: DevicesIcon,
+        icon: UpdateOutlined,
         text: "Tiempo",
         features: ["16 horas -1 especialista UX."],
       },
@@ -40,7 +40,7 @@ export const informationCard: dataCardSolutions[] = [
   },
 
   {
-    icon: DevicesIcon,
+    icon: EmojiEventsOutlined,
     titles: "Intermedio",
     subtitle: [
       {
@@ -49,12 +49,12 @@ export const informationCard: dataCardSolutions[] = [
         features: ["Angular, React", "Hasta 10 flujos de 1 a 100 pantallas"],
       },
       {
-        icon: DevicesIcon,
+        icon: FactCheckOutlined,
         text: "Prueba de uso",
         features: ["Prueba con 5 a 10 usuarios sinteticos"],
       },
       {
-        icon: DevicesIcon,
+        icon: UpdateOutlined,
         text: "Tiempo",
         features: ["32 horas -1 especialista UX."],
       },
@@ -63,7 +63,7 @@ export const informationCard: dataCardSolutions[] = [
   },
 
   {
-    icon: DevicesIcon,
+    icon: DiamondOutlined,
     titles: "Pro",
     subtitle: [
       {
@@ -72,12 +72,12 @@ export const informationCard: dataCardSolutions[] = [
         features: ["Angular, React", "mas de 10 flujos de 101 a 200 pantallas"],
       },
       {
-        icon: DevicesIcon,
+        icon: FactCheckOutlined,
         text: "Prueba de uso",
         features: ["Prueba con 5 a 10 usuarios sinteticos"],
       },
       {
-        icon: DevicesIcon,
+        icon: UpdateOutlined,
         text: "Tiempo",
         features: ["48 horas -1 especialista UX."],
       },
@@ -136,25 +136,25 @@ export const dataEstrategiaNegocio = [
 export const textoSoftwareSolucionDigital = [
   {
     id: 1,
-    icon: <DeviceHub />,
+    icon: <DiamondOutlined />,
     description:
       "Certificación CMMI Nivel 5 que garantiza procesos de calidad. ",
   },
   {
     id: 2,
-    icon: <DeviceHub />,
+    icon: <SpeedOutlined />,
     description:
       "Metodologías ágiles probadas: Scrum, DevSecOps, QA Automation, UX/UI.",
   },
   {
     id: 3,
-    icon: <DeviceHub />,
+    icon: <LanguageOutlined />,
     description:
       "Cobertura internacional y alianzas estratégicas para proyectos globales.  ",
   },
   {
     id: 4,
-    icon: <DeviceHub />,
+    icon: <PersonalVideoOutlined />,
     description:
       "+200 proyectos implementados con impacto en múltiples industrias .",
   },
@@ -162,15 +162,19 @@ export const textoSoftwareSolucionDigital = [
 
 export const dataSoftwaregenerico = [
   {
+    icon: <LaptopChromebookOutlined />,
     description: "Eliminan cuellos de botella con procesos agiles.",
   },
   {
+    icon: <ArchitectureOutlined />,
     description: "Escalan sin fricciones gracias a arquitecturas modernas.",
   },
   {
+    icon: <PaymentOutlined />,
     description: "Reducen costos ocultos al reemplazar licencias ineficientes.",
   },
   {
+    icon: <ShieldMoonOutlined />,
     description: "Refuerzan la seguridad con estandares globlaes de DevSecOps.",
   },
 ];

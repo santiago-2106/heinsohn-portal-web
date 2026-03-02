@@ -45,7 +45,7 @@ export default function Card({
 
       {/* LISTA DE ITEMS */}
       {items && items.length > 0 && (
-        <div className="flex-grow mb-6 w-full">
+        <div className="flex grow mb-6 w-full">
           <ul className="space-y-4">
             {items.map((item, index) => (
               <li
@@ -54,6 +54,9 @@ export default function Card({
                   centrar ? "justify-center text-center" : ""
                 }`}
               >
+
+                <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex shrink-0 rounded-full bg-[#E30613]"></span>
+
                 <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand-accent"></span>
 
                 <div className="flex flex-col">
