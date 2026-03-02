@@ -1,14 +1,21 @@
 import {
   AccountTreeRounded,
-  AutoFixHighOutlined,
-  CloudQueueOutlined,
-  Description,
-  DevicesOutlined,
+  AddReactionOutlined,
+  ArchitectureOutlined,
+  AutoAwesomeOutlined,
+  CasesOutlined,
+  CloudSyncOutlined,
+  Diamond,
+  DiamondOutlined,
   ErrorOutlineOutlined,
   GavelOutlined,
-  Groups2Outlined,
-  ManageAccountsOutlined,
+  HelpCenterOutlined,
+  ImportantDevicesOutlined,
+  LanguageOutlined,
+  LaptopChromebookOutlined,
   PaletteOutlined,
+  PermContactCalendarOutlined,
+  PortraitOutlined,
   VerifiedOutlined,
 } from "@mui/icons-material";
 import { dataCard } from "@/src/types/cardTypes";
@@ -16,26 +23,26 @@ import SensorOccupiedOutlinedIcon from "@mui/icons-material/SensorOccupiedOutlin
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 import { ResultsCorporativoData } from "../../types/typePensiones";
 import { dataTextComponent } from "../share/textosGenerales";
-import { title } from "process";
+
 
 export const infoStaffArgumentation: dataCard[] = [
   {
-    icon: <ManageAccountsOutlined />,
+    icon: <SensorOccupiedOutlinedIcon sx={{ fontSize:40 }} />,
     title: "Procesos lentos por falta de recursos tecnicos especializados",
     alineacion: "center",
   },
   {
-    icon: <WorkOutlineOutlinedIcon />,
+    icon: <CasesOutlined sx={{ fontSize:40 }} />,
     title: "Dificultad para cubrir roles criticos o temporales",
     alineacion: "center",
   },
   {
-    icon: <Groups2Outlined />,
+    icon: <WorkOutlineOutlinedIcon sx={{ fontSize:40 }} />,
     title: "Costos elevados en contratacion y retencion de talento",
     alineacion: "center",
   },
   {
-    icon: <SensorOccupiedOutlinedIcon />,
+    icon: <ErrorOutlineOutlined sx={{ fontSize:40 }} />,//VER ICONOS AQUI
     title: "Perdida de foco estrategico por tareas administrativa",
     alineacion: "center",
   },
@@ -94,10 +101,11 @@ export const infoStaffArgumentation2: ResultsCorporativoData = {
 
 export const infoStaffArgumentation3: dataCard[] = [
   {
+    icon: <ImportantDevicesOutlined sx={{ fontSize: 40 }} />,
     title: "Desarrollo y modernización",
     items: [
       {
-        titulo: " frontend",
+        titulo: "Frontend",
         textos:
           "Implementación de interfaces modernas con React, Angular, Vue.js y Next.js.",
       },
@@ -119,6 +127,7 @@ export const infoStaffArgumentation3: dataCard[] = [
     ],
   },
   {
+    icon: <Diamond sx={{fill: 'white', stroke: 'black', fontSize: 40 }} />,
     title: "Calidad y eficiencia",
     items: [
       {
@@ -139,6 +148,7 @@ export const infoStaffArgumentation3: dataCard[] = [
     ],
   },
   {
+    icon: <CloudSyncOutlined sx={{ fill: "white", stroke: "black", fontSize: 40 }} />,
     title: "Infraestructura, nube y seguridad",
     items: [
       {
@@ -158,6 +168,7 @@ export const infoStaffArgumentation3: dataCard[] = [
     ],
   },
   {
+    icon: <PaletteOutlined sx={{fontSize:40}}/>,
     title: "Análisis, diseño y estrategia",
     items: [
       {
@@ -178,6 +189,7 @@ export const infoStaffArgumentation3: dataCard[] = [
     ],
   },
   {
+    icon: <AutoAwesomeOutlined sx={{ fontSize: 40 }} />,
     title: "Ingeniería de datos e inteligencia artificial",
     items: [
       {
@@ -203,6 +215,7 @@ export const infoStaffArgumentation3: dataCard[] = [
     ],
   },
   {
+    icon:<ArchitectureOutlined sx={{ fontSize:40 }}/>,
     title: "Liderazgo y arquitectura",
     items: [
       {
@@ -222,37 +235,37 @@ export const infoStaffArgumentation3: dataCard[] = [
 //Data informacions Por qué el Staff Augmentation TI impulsa tu negocio desde el primer día
 export const infoStaffArgumentation4 = [
   {
-    icon: <AccountTreeRounded />,
+    icon: <PortraitOutlined sx={{ fill:'red', fontSize:40  }} />,
     title: "Optimizacion de costos",
     description: "Reduce gastos administrativos y operativos. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <AddReactionOutlined sx={{ fill:'red', fontSize:40 }} />,
     title: "Contratacion agil",
     description: "Perfiles disponibles en 2 a 3 semanas. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <AccountTreeRounded sx={{ fill:'red', fontSize:40 }}/>,
     title: "Talento de primer nivel",
     description: "Especialistas validados técnica y culturalmente. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <PermContactCalendarOutlined sx={{ fill:'red', fontSize:40 }} />,
     title: "Cercania y colaboracion",
     description: "Talento en tu misma zona horaria. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <PermContactCalendarOutlined sx={{ fill:'red', fontSize:40 }} />,
     title: "Escalabilidad total:",
     description: "Amplía o reduce tu equipo según las demandas del proyecto.",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <PermContactCalendarOutlined sx={{ fill:'red', fontSize:40 }} />,
     title: "Transparencia",
     description: "Seguimiento, métricas y reportes de productividad. ",
   },
@@ -288,23 +301,23 @@ export const infoStaffArgumentation5 = [
 
 export const infoStaffArgumentation6 = [
   {
-    icon: <AccountTreeRounded />,
+    icon: <LaptopChromebookOutlined sx={{ fontSize:40 }} />,
     description: "Metodología Data-Driven 360°. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <DiamondOutlined sx={{ fontSize:40 }}/>,
     description:
       "Certificación CMMI Nivel 5 y metodologías ágiles (Scrum, OKR, Lean). ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <LanguageOutlined sx={{ fontSize:40 }} />,
     description: "Cobertura regional con sedes en LATAM y Norteamérica. ",
   },
 
   {
-    icon: <AccountTreeRounded />,
+    icon: <HelpCenterOutlined sx={{ fontSize:40 }} />,
     description: "Soporte continuo y acompañamiento operativo. ",
   },
 ];

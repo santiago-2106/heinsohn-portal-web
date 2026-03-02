@@ -1,40 +1,47 @@
-import React from "react";
-import Navbar from "@/src/components/layout/navbar/Navbar";
-import Hero from "@/src/components/sections/shared/hero/Hero";
-import CardFinal from "@/src/components/sections/ti/TiSolutionsSection";
-import CardCases from "@/src/components/sections/shared/sectioncard/SectionCases";
-import ContactForm from "@/src/components/forms/formularios/ContactForm";
-import Slider from "@/src/components/sliders/SliderBlog";
-import Footer from "@/src/components/layout/footer/Footer";
-import FooterBottom from "@/src/components/layout/footer/FooterBottom";
+import ContactForm from '@/src/components/forms/formularios/ContactForm'
+import Footer from '@/src/components/layout/footer/Footer'
+import FooterBottom from '@/src/components/layout/footer/FooterBottom'
+import Navbar from '@/src/components/layout/navbar/Navbar'
+import Hero from '@/src/components/sections/shared/hero/Hero'
+import ModelosDesarrollo from '@/src/components/sections/soluciones-digitales/ModelosDesarrollo'
+import Slider from '@/src/components/sliders/SliderBlog'
+import CardEstrategicNegocio from '@/src/components/sections/soluciones-digitales/EstrategiaNegocioSection'
+import CardSoftwreGeneric from '@/src/components/sections/soluciones-digitales/GenericSoftwareSection'
+import TetxSolutionsDigital from '@/src/components/sections/soluciones-digitales/TetxSolutionsDigital'
 
-export default function SolucionesFinanciero() {
-  const dataFinanzas = {
-    title: "Desarrollo de software a la medida ",
-    description:
-      "El desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad. Creamos soluciones únicas que se adaptan a tu negocio, con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.",
+
+
+export default function pageSdIS() {
+  const dataSolutionDigitales = {
+    title:'Desarrollo de software a la medida',
+    description: (
+      <>
+       desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad.  <span className='font-semibold'>Creamos soluciones únicas que se adaptan a tu negocio,</span> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.
+      </>
+    ),
     buttonText: "Solicita una asesoría gratuita",
     breadcrumb: [
       { label: "Soluciones", href: "/soluciones" },
-      { label: "Digitales" },
-    ],
-  };
-
+      { label: "Soluciones TI" }
+    ]
+  }
   return (
     <div>
       <Navbar />
-      <Hero
-        title={dataFinanzas.title}
-        description={dataFinanzas.description}
-        buttonText={dataFinanzas.buttonText}
-        breadcrumb={dataFinanzas.breadcrumb}
+      <Hero 
+      title={dataSolutionDigitales.title}
+      description={dataSolutionDigitales.description}
+      buttonText={dataSolutionDigitales.buttonText}
+      breadcrumb={dataSolutionDigitales.breadcrumb}
       />
-      <CardFinal />
-      <CardCases />
+      <TetxSolutionsDigital />
+      <CardSoftwreGeneric />
       <ContactForm />
+      <CardEstrategicNegocio />
+      <ModelosDesarrollo />
       <Slider />
       <Footer />
       <FooterBottom />
     </div>
-  );
+  )
 }

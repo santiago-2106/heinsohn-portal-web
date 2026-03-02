@@ -11,6 +11,12 @@ import {
   AddReaction,
   FolderShared,
   FolderSharedOutlined,
+  FaceRetouchingNaturalOutlined,
+  BusinessCenterOutlined,
+  WorkOutline,
+  SavingsOutlined,
+  AssignmentIndOutlined,
+  EditLocationAltOutlined,
 } from "@mui/icons-material";
 
 import DevicesIcon from "@mui/icons-material/Devices";
@@ -52,41 +58,41 @@ export const infoPensiones1: ResultsCorporativoData = {
 
 export const infoPensiones2: dataCard[] = [
   {
-    icon: <DevicesIcon />,
+    icon: <FaceRetouchingNaturalOutlined sx={{ fontSize:40}}/>,
     title: "Envejecimiento poblacional",
     description: "Mas jubilados demandan procesos ágiles y sostenibles.",
     alineacion: "center",
   },
   {
-    icon: <DisplaySettingsIcon />,
+    icon: <BusinessCenterOutlined sx={{ fontSize:40}}/>,
     title: "Sostenibilidad financiera",
     description:
       "Los déficits en sistemas de reparto impulsan la diversificación en fondos de capitalización.",
     alineacion: "center",
   },
   {
-    icon: <DataObjectIcon />,
+    icon: <WorkOutline sx={{ fontSize:40}}/>,
     title: "Digitalización de trámites",
     description:
       "Los afiliados esperan autogestión, trazabilidad y una experiencia 100% digital.",
     alineacion: "center",
   },
   {
-    icon: <CloudQueueIcon />,
+    icon: <SavingsOutlined sx={{ fontSize:40}}/>,
     title: "Presión regulatoria",
     description:
       "Normativas cambiantes exigen reportes confiables y actualizados.",
     alineacion: "center",
   },
   {
-    icon: <TabletMacIcon />,
+    icon: <AssignmentIndOutlined sx={{ fontSize:40}}/>,
     title: "Nómina de pensionados",
     description:
       " El pago masivo necesita liquidación transparente y sin errores. ",
     alineacion: "center",
   },
   {
-    icon: <DeveloperModeIcon />,
+    icon: <EditLocationAltOutlined sx={{ fontSize:40}}/>,
     title: "Nuevos actores",
     description:
       "Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio.",
@@ -97,7 +103,7 @@ export const infoPensiones2: dataCard[] = [
 export const infoPensiones3: dataCard[] = [
   {
     icon: (
-      <SavingsIcon sx={{ fill: "white", stroke: "black", strokeWidth: 1 }} />
+      <SavingsIcon sx={{ fill: "white", stroke: "black", fontSize:40 }} />
     ),
     title: "Módulo de Pensiones obligatorias ",
     description: (
@@ -148,7 +154,7 @@ export const infoPensiones3: dataCard[] = [
 
   {
     icon: (
-      <AccountCircle sx={{ fill: "white", stroke: "black", strokeWidth: 1 }} />
+      <AccountCircle sx={{ fill: "white", stroke: "black", fontSize:40 }} />
     ),
     title: "Módulo de Rentas vitalicias y nómina de pensionados ",
     description: (
@@ -180,15 +186,14 @@ export const infoPensiones3: dataCard[] = [
   },
   {
     icon: (
-      <SavingsIcon sx={{ fill: "white", stroke: "black", strokeWidth: 1 }} />
+      <SavingsIcon sx={{ fill: "white", stroke: "black", fontSize:40 }} />
     ),
-    title: "Modulo de Pesniones Voluntarias",
+    title: "Modulo de Pensiones Voluntarias",
     description: (
       <>
         Gestiona esquemas de ahorro previsional voluntario desde una
         lógica multifondos, flexible y orientada a la autogestión del afiliado,
-        con un conjunto completo de procesos que{" "}
-        <span className="font-semibold text-gray-800">
+        con un conjunto completo de procesos que <span className="font-semibold text-gray-800">
           Cubren la gestion finaciera, operativa y de riesgos
         </span>
       </>
@@ -216,7 +221,7 @@ export const infoPensiones3: dataCard[] = [
     ],
   },
   {
-    icon: <AccountCircle sx={{ fill: "white", stroke: "black" }} />,
+    icon: <AccountCircle sx={{ fill: "white", stroke: "black", fontSize:40 }} />,
     title: "Modulo de cesantias",
     description: (
       <>
@@ -297,7 +302,7 @@ export const infoPensiones6: ResultsCorporativoData = {
       id: "cost",
       icon: (
         <FolderSharedOutlined
-          sx={{ fontSize: 50, fill: "white", stroke: "black" }}
+          sx={{ fontSize: 40, fill: "white", stroke: "black" }}
         />
       ),
       description:
