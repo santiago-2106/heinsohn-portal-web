@@ -1,8 +1,3 @@
-//ESTA
-//INTERFAZ
-//NO SIRVE//
-//LA USE PARA PROBAR ALGO.
-
 import Image from "next/image";
 
 interface propsCertificaciones {
@@ -16,8 +11,10 @@ export default function CertificacionesInternacionales({
   descripcion,
   imagen,
 }: propsCertificaciones) {
-  // Definimos la ruta por defecto que apunta a la carpeta public
-  const defaultImage = "/img/certificacionInternaciona.png";
+  
+  // RUTA CORREGIDA: En Next.js NO se pone "public" ni "../../" para archivos de imagen.
+  // Asegúrate de que el archivo se llame exactamente así en tu carpeta public/img/
+  const defaultImage = "/img/certificacionInternacional.png"; 
 
   return (
     <section className="bg-white pt-16 pb-8">
@@ -34,14 +31,15 @@ export default function CertificacionesInternacionales({
           </p>
         )}
 
-        {/* Imagen de Logos (Fija o Dinámica) */}
+        {/* Imagen de Logos */}
         <div className="flex justify-center w-full">
-          <Image
-            src={imagen || defaultImage} /* <-- Usa la prop o la ruta de public */
-            width={1200}
-            height={600}
-            alt="Certificaciones internacionales"
+          <Image 
+            src={imagen || defaultImage} 
+            width={1200} 
+            height={600} 
+            alt="Certificaciones internacionales" 
             className="w-full max-w-6xl h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
+            priority // Ayuda a que la imagen cargue más rápido
           />
         </div>
       </div>

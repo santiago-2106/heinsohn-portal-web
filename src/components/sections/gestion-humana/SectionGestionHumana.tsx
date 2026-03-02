@@ -14,13 +14,13 @@ export default function SectionGestionHumana({
   cards,
 }: SectionProps) {
   return (
-    <section className="bg-[#fafafa] py-16 px-4">
+    <section className="bg-bg-card-1 py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
         {/* Encabezado de la sección */}
-        <h2 className="text-3xl md:text-4xl text-gray-900 font-light mb-6 max-w-3xl mx-auto">
+        <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6 max-w-3xl mx-auto">
           {title}
         </h2>
-        <p className="text-gray-500 text-base md:text-lg font-light mb-16 max-w-4xl mx-auto whitespace-pre-line leading-relaxed">
+        <p className="text-text-body text-base md:text-lg font-light mb-16 max-w-4xl mx-auto whitespace-pre-line leading-relaxed">
           {description}
         </p>
 
@@ -29,7 +29,7 @@ export default function SectionGestionHumana({
           {cards.map((card, index) => (
             <CardGestionHumana
               key={index}
-              {...card} // Le pasamos todas las propiedades a la tarjeta de una vez
+              {...card} 
             />
           ))}
         </div>
