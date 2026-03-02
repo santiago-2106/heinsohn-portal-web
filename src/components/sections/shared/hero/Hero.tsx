@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-// Hemos eliminado el import bgImage from "../../img/diseno-figuras.png"; porque ya no es necesario
 
 interface BreadcrumbItem {
   label: string;
@@ -21,25 +20,14 @@ export default function Hero({
   breadcrumb,
 }: HeroProps) {
   return (
-    <section className="bg-white pt-12 md:pt-20">
+    <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
         <div className="flex flex-col items-start w-full">
-          {/* 1. BREADCRUMB */}
-          <nav className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-            <Link
-              href="/"
-              className="flex items-center gap-1 hover:text-black transition-colors"
-            >
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+          
+          {/* BREADCRUMB */}
+          <nav className="flex items-center gap-2 text-sm text-text-body mb-8">
+            <Link href="/" className="flex items-center gap-1 hover:text-brand-accent transition-colors">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                 <polyline points="9 22 9 12 15 12 15 22" />
               </svg>
@@ -49,78 +37,57 @@ export default function Hero({
               <React.Fragment key={index}>
                 <ChevronRight />
                 {item.href ? (
-                  <Link
-                    href={item.href}
-                    className="hover:text-black transition-colors"
-                  >
+                  <Link href={item.href} className="hover:text-brand-accent transition-colors">
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="font-medium text-gray-800">
-                    {item.label}
-                  </span>
+                  <span className="font-medium text-text-title">{item.label}</span>
                 )}
               </React.Fragment>
             ))}
           </nav>
+
           <br />
+
+          {/* BADGES SUPERIORES */}
           <div className="mb-8 flex flex-wrap items-center gap-3">
-            <div className=" px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-              <span className="text-[#E30613] font-bold text-sm">+</span>
-              <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">
+            <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+              <span className="text-brand-accent font-bold text-sm">+</span>
+              <span className="text-text-body text-sm uppercase tracking-wider font-medium">
                 40 años de experiencia
               </span>
             </div>
-            <div className=" px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-              <span className="text-[#000000] font-bold text-sm">|</span>
-              <span className="text-[#E30613] font-bold text-sm">+</span>
-              <span className="text-gray-500 text-sm uppercase tracking-wider font-medium">
-                1.200 clientes en LATAM {/*TOCA CAMBIAR A PROPS */}
+            <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+              <span className="text-text-title font-bold text-sm">|</span>
+              <span className="text-brand-accent font-bold text-sm">+</span>
+              <span className="text-text-body text-sm uppercase tracking-wider font-medium">
+                1.200 clientes en LATAM 
               </span>
             </div>
           </div>
 
-          {/* 3. TÍTULO */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-black tracking-tight mb-8 leading-tight uppercase">
+          {/* TÍTULO */}
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight uppercase">
             {title}
           </h1>
 
-          {/* 4. DESCRIPCIÓN */}
-          <p className="text-xl md:text-3xl font-light text-slate-600 max-w-3xl mb-12 leading-tight">
+          {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
+          <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {description}
-          </p>
+          </div>
 
-          {/* 5. BOTONES */}
-          <div className="w-full flex items-center justify-between">
-            <button className="group flex items-center gap-3 bg-black text-white px-8 py-4 rounded-full transition-all hover:bg-gray-800 shadow-sm hover:shadow-md">
+          {/* BOTONES */}
+          <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
+            <button className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md">
               <span className="font-medium">{buttonText}</span>
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="transition-transform group-hover:translate-x-1"
-              >
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
                 <path d="M5 12h14" />
                 <path d="m12 5 7 7-7 7" />
               </svg>
             </button>
 
-            <button className="flex items-center justify-center w-12 h-12 rounded-full bg-black text-white hover:bg-gray-800 transition-colors shadow-sm hover:shadow-md">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
+            <button className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 5v14" />
                 <path d="m19 12-7 7-7-7" />
               </svg>
@@ -129,10 +96,10 @@ export default function Hero({
         </div>
       </div>
 
-      {/* 6. IMAGEN INFERIOR */}
+      {/* IMAGEN INFERIOR */}
       <div className="w-full">
         <img
-          src="/img/diseno-figuras.png" /* <-- AQUI CORREGIMOS LA RUTA DE LA IMAGEN */
+          src="/img/diseno-figuras.png"
           alt="Diseño geométrico"
           className="w-full h-48 md:h-[300px] object-cover object-bottom block"
         />
@@ -143,18 +110,8 @@ export default function Hero({
 
 function ChevronRight() {
   return (
-    <svg
-      className="w-3 h-3 text-[#E30613]"
-      fill="none"
-      viewBox="0 0 24 24"
-      strokeWidth="3"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        d="m8.25 4.5 7.5 7.5-7.5 7.5"
-      />
+    <svg className="w-3 h-3 text-brand-accent" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
+      <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
     </svg>
   );
 }
