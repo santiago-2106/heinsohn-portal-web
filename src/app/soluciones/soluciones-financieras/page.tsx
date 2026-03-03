@@ -6,22 +6,17 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import Slider from "@/src/components/sliders/SliderBlog";
 import CardResult from "@/src/components/sections/shared/sectioncard/SectionResults";
-import UxImgUrl from "@/src/components/forms/uploads-Img-Url/UxImgUrl";
-
-// Importamos el componente de formulario (que ahora incluye el acordeón)
 import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
+import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
+import Clientes from "@/src/components/sections/shared/clientes/Clientes";
+import Certificaciones from "@/src/components/sections/shared/certificaciones/Certificaciones";
 
-// IMPORTAMOS LA DATA
 import {
   financialChallengesCards,
   financialSolutionsCards,
   experienceStatsData,
   financialFaqData,
 } from "@/src/data/financiera";
-
-import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
-import Clientes from "@/src/components/sections/shared/clientes/Clientes";
-import Certificaciones from "@/src/components/sections/shared/certificaciones/Certificaciones";
 
 export default function SolucionesFinanciero() {
   const dataFinanzas = {

@@ -1,6 +1,4 @@
 import Image from "next/image";
-// ELIMINADO: import imgEdificio from "@/src/img/edif.jpg";
-// ELIMINADO: import imgOurWorking from "@/src/img/workimg.png";
 
 export default function CardCases() {
   return (

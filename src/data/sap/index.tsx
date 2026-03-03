@@ -228,9 +228,7 @@ const PartnerIcons = {
   ),
 };
 
-// ✅ SOLUCIÓN DEFINITIVA:
-// Usamos estilos en línea (style) para destruir cualquier cursiva (italic) o alineación rara
-// que tu tarjeta intente imponerle, y controlamos el tamaño para que JAMÁS se desborde.
+
 const createNumberIcon = (number: string, badgeText: string) => (
   <div className="flex flex-col">
     <span className="text-[64px] font-light text-[#E30613] leading-none mb-3">
@@ -518,4 +516,24 @@ export const dataSAP = {
       },
     ],
   },
+
+  clientesSection: {
+    description:
+      (
+        <>
+          <strong className="font-semibold text-gray-900">
+            soluciones confiables
+          </strong>{" "}
+          para empresa que marcan la diferencia.
+        </>
+      ) as any,
+  },
+};
+export const dataPorQueSAP = {
+  title: "¿Por qué SAP Business One con Heinsohn?",
+  description: (
+    <>
+      Porque Heinsohn no solo implementa SAP Business One, sino que <strong className="font-semibold text-text-title">integra nómina, gestión humana y cumplimiento legal colombiano en un solo ecosistema</strong>, con experiencia probada y acompañamiento real. Además de ser Partner Gold de SAP Business One en Colombia, realiza personalizaciones según las necesidades de cada sector y empresa, con equipo propio de desarrollo y actualizaciones constantes basadas en inteligencia artificial. <strong className="font-semibold text-text-title">Con más de 1.300 implementaciones que nos respaldan</strong>, entregamos un sistema que no compite con el ecosistema de tu empresa, sino que lo optimiza.
+    </>
+  ),
 };
