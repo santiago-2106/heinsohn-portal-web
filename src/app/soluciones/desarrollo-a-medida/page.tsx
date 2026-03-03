@@ -8,6 +8,8 @@ import Slider from '@/src/components/sliders/SliderBlog'
 import CardEstrategicNegocio from '@/src/components/sections/soluciones-digitales/EstrategiaNegocioSection'
 import CardSoftwreGeneric from '@/src/components/sections/soluciones-digitales/GenericSoftwareSection'
 import TetxSolutionsDigital from '@/src/components/sections/soluciones-digitales/TetxSolutionsDigital'
+import PreguntasFort from '@/src/components/forms/formularios/PreguntForm'
+import { dataPreguntasFrecuentes } from '@/src/data/soluciones-digitales'
 
 
 
@@ -39,6 +41,7 @@ export default function pageSdIS() {
       <ContactForm />
       <CardEstrategicNegocio />
       <ModelosDesarrollo />
+      <PreguntasFort title='Preguntas Frecuentes' items={dataPreguntasFrecuentes}/>
       <Slider />
       <Footer />
       <FooterBottom />

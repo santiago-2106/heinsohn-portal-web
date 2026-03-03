@@ -1,6 +1,7 @@
 import { ElementType } from "react";
 import DevicesIcon from "@mui/icons-material/Devices";
-import { ArchitectureOutlined, DeviceHub, DiamondOutlined, EmojiEventsOutlined, FactCheckOutlined, GradeOutlined, LanguageOutlined, LaptopChromebookOutlined, PaymentOutlined, PersonalVideoOutlined, ShieldMoonOutlined, SpeedOutlined, UpdateOutlined } from "@mui/icons-material";
+import { AddPhotoAlternateOutlined, ArchitectureOutlined, ContactPageOutlined, DeviceHub, DiamondOutlined, EmojiEventsOutlined, FactCheckOutlined, GradeOutlined, LanguageOutlined, LaptopChromebookOutlined, PaymentOutlined, PersonalVideoOutlined, RequestQuoteOutlined, ShieldMoonOutlined, SpeedOutlined, TimerOffOutlined, UpdateOutlined, WebOutlined } from "@mui/icons-material";
+import { dataCard } from "@/src/types/cardTypes";
 
 export interface SubtitleItem {
   icon: ElementType;
@@ -184,61 +185,197 @@ export const dataSoftwaregenerico = [
 // Las llenamos con datos de prueba estructurados para tu Card.tsx
 // =========================================================================
 
-export const textModelDevelop = [
-  {
-    title: "Modelo de Desarrollo Ágil",
-    description: "Entregas continuas y funcionales para adaptarnos a los cambios del mercado rápidamente.",
-  },
-  {
-    title: "Modelo Cascada (Waterfall)",
-    description: "Ideal para proyectos con requisitos fijos y alcance claramente definido desde el inicio.",
-  },
-  {
-    title: "Equipos Dedicados",
-    description: "Una extensión de tu equipo interno trabajando exclusivamente en tus objetivos tecnológicos.",
-  }
-];
+export const textModelDevelop: dataCard[] = [
+    {icon:<AddPhotoAlternateOutlined sx={{fontSize:40}}/> , title:'Staff Augmentation', description:'Integra desarrolladores especializados para fortalecer tu equipo actual. '},
+    {icon:<WebOutlined sx={{fontSize:40}}/> , title:'Project Based Development', description:'Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales. '},
+    {icon:<TimerOffOutlined sx={{fontSize:40}}/> , title:'Dedicated Teams', description:'Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización. '},
+]
 
-export const textoModelDevelop = [
-  {
-    title: "Auditoría de Código",
-    description: "Revisamos tu código fuente para identificar vulnerabilidades y oportunidades de mejora.",
-  },
-  {
-    title: "Refactorización",
-    description: "Actualizamos sistemas heredados sin interrumpir la operación de tu negocio.",
-  }
-];
+export const textoModelDevelop: dataCard[] = [
+    {icon:<SpeedOutlined sx={{fontSize:40}}/> , title:'Soluciones como producto', description:'Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura.'},
+    {icon:<ContactPageOutlined sx={{fontSize:40}}/> , title:'Consultoria tecnica + Implementacion', description:'Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados.'}
+]
 
-export const textoModelDevelop2 = [
-  {
-    title: "Integración de APIs",
-    description: "Conectamos tus sistemas existentes para que la información fluya sin problemas.",
-  },
-  {
-    title: "Migración a la Nube",
-    description: "Llevamos tu infraestructura a servidores cloud para mayor seguridad y escalabilidad.",
-  }
-];
+export const textoModelDevelop2: dataCard[] = [
+    { title:'Optimización de recursos', 
+    description:(<>
+    <span className="font-semibold text-gray-900">Al desarrollar soluciones a la medida,</span> inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas, no meses— permitiendo una respuesta ágil a las oportunidades del mercado.
+    </>)},
+    { title:'Eficiencia y retorno de la inversión ', description:(
+        <>
+        Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <span className="font-semibold text-gray-900">SAP, Salesforce,core financiero y más,</span> potenciando la eficiencia y el retorno de inversión en cada proyecto.
+        </>
+    )}
+]
 
-export const textoSolucionDigital2 = [
-  {
-    title: "Plataformas B2B",
-    description: "Desarrollo de portales transaccionales para optimizar la relación con tus proveedores.",
-  },
-  {
-    title: "E-Commerce B2C",
-    description: "Tiendas en línea robustas preparadas para manejar altos volúmenes de tráfico y ventas.",
-  }
-];
 
-export const SolucinesDigital6 = [
+export const textoSolucionDigital2: dataCard[] = [
+    {
+        title: (
+        <>
+        <span className="text-red-500">01.</span> Vision Compartida
+        </>
+    ), description:'Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">02.</span> Diseño con proposito
+        </>
+    ), description:'Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">03.</span> Construccion agil y segura
+        </>
+    ), description:'Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.'},
+
+    {
+        title: (
+        <>
+        <span className="text-red-500">04.</span> Evolucion Continua
+        </>
+    ), description:'Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. '},
+]
+
+export const SolucinesDigital6: dataCard[] = [
+    {
+        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        title:'Lenguajes & Frameworks (Frontend/Backend)',
+        items:[{textos:'Java'}, {textos:'NET'}, {textos:'Python'}, {textos:'Node.js'}, {textos:'React'}, {textos:'Angular'}, {textos:'Vue.js'}, {textos:'Flutter'}]
+    },
+
+    {
+        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        title:'Cloud & Arquitecturas',
+        items:[{textos:'AWS'}, {textos:'Microsoft AAzure'}, {textos:'Google Cloud Platform'}, {textos:'Kubernetes'}, {textos:'Docker'}]
+    },
+
+    {
+        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        title:'Bases de datos & Big Data',
+        items:[{textos:'PostgreSQL'}, {textos:'MongoDB'}, {textos:'Oracle'}, {textos:'Microsoft SQL Server'}]
+    },
+
+    {
+        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        title:'Integraciones Empresariales & QA',
+        items:[{textos:'SAP'}, {textos:'Salesforce'}, {textos:'Gitlab'}, {textos:'Selenium'}]
+    },
+]
+
+export const dataPreguntasFrecuentes = [
   {
-    title: "Inteligencia de Negocios (BI)",
-    description: "Dashboards interactivos para tomar decisiones basadas en datos en tiempo real.",
+    question: "¿Por qué elegir empresas de desarrollo de software en Colombia?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
-  {
-    title: "Automatización RPA",
-    description: "Liberamos a tu equipo de tareas repetitivas mediante robots de software eficientes.",
-  }
+    {
+    question: "¿Cuanto cuesta desarrollar software a la medida y como se calcula la inverison?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Que diferencia hay entre software estandar y software personalizado?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Cuanto tiempo toma un proyecto de desarrollo de software empresarial?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Que metodologias utilizan las empresad de desarrollo de software exitosas?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Como se asegura la calidad y la seguridad del software personalizado?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Que industrias se benefician mas del desarrollo de software personalizado?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Como se integra una solucion a la medida con sistemas ya existentes (ERP, CRM, core, bancario)?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
 ];

@@ -1,7 +1,7 @@
 export default function ButtonComponent({ textoBtn }: { textoBtn: string }) {
   return (
     <div className="flex justify-center py-8 px-4">
-      <button className="bg-black text-text-btn text-base font-medium py-4 px-10 rounded-full hover:opacity-90 transition-opacity">
+      <button className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md">
         {textoBtn}
       </button>
     </div>

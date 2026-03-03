@@ -1,4 +1,4 @@
-import { BusinessOutlined, CastleOutlined, WarehouseOutlined } from "@mui/icons-material";
+import { AccountBoxOutlined, AddReactionOutlined, BusinessCenterOutlined, BusinessOutlined, CastleOutlined, ContactPageOutlined, HistoryToggleOffOutlined, MedicationOutlined, RoomServiceOutlined, VolunteerActivismOutlined, WarehouseOutlined, WorkOutlined } from "@mui/icons-material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 // ELIMINADO: import { StaticImageData } from "next/image";
 
@@ -88,26 +88,59 @@ export const ProductsgestionHumanaInfo2: datagestionHumana[] = [
   },
 ];
 
-export const infoGestionHumana2: datagestionHumana[] = [
+export const infoGestionHumana2 = [
   {
-    icon: <AccountCircleIcon />,
-    title: "Selección Especializada",
-    description: "Encontramos el talento idóneo para tus necesidades específicas mediante procesos rigurosos.",
-    btn: "Ver servicio",
-    btnText: "Ver servicio",
+    icon: <AccountBoxOutlined sx={{fontSize:40, fill:'black', stroke:'white'}} />,
+    title: "Outsourcing de administración y atención a colaboradores",
+    description: "Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes."
   },
-  {
-    icon: <AccountCircleIcon />,
-    title: "Administración de Nómina",
-    description: "Delegue la operatividad de su nómina en expertos garantizando cumplimiento legal.",
-    btn: "Ver servicio",
-    btnText: "Ver servicio",
+
+   {
+    icon: <AddReactionOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Procesos especiales de gestión del talento humano",
+    description: "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.",
   },
-  {
-    icon: <AccountCircleIcon />,
-    title: "Consultoría HR",
-    description: "Asesoría estratégica para potenciar el capital humano de su organización.",
-    btn: "Ver servicio",
-    btnText: "Ver servicio",
+
+   {
+    icon: <VolunteerActivismOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Gestión de seguridad y salud en el trabajo",
+    description: "Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores.",
   },
+
+   {
+    icon: <ContactPageOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Outsourcing liquidación de pago de nómina y contratistas",
+    description: "Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías.",
+  },
+
+   {
+    icon: <MedicationOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Outsourcing de gestión incapacidades y reconocimientos económicos",
+    description: "Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.",
+  },
+
+   {
+    icon: <BusinessCenterOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Atención a clientes y transformación digital",
+    description: "Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.",
+  },
+
+   {
+    icon: <HistoryToggleOffOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Atracción, selección y planeación de la fuerza laboral",
+    description: "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.",
+  },
+
+   {
+    icon: <WorkOutlined sx={{fontSize:40, fill:'white', stroke:''}}/>,
+    title: "Consultoría",
+    description: "Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.",
+  },
+
+   {
+    icon: <RoomServiceOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    title: "Servicios adicionales",
+    description: "Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP.",
+  },
+  
 ];

@@ -2,20 +2,22 @@ import React from "react";
 import Link from "next/link";
 
 interface BreadcrumbItem {
-  label: string;
+  label?: string;
   href?: string;
 }
 
 interface HeroProps {
   title: string;
   description: string | React.ReactNode; 
-  buttonText: string;
+  subtitle?: React.ReactNode;
+  buttonText?: string;
   breadcrumb: BreadcrumbItem[];
 }
 
 export default function Hero({
   title,
   description,
+  subtitle,
   buttonText,
   breadcrumb,
 }: HeroProps) {
@@ -67,10 +69,13 @@ export default function Hero({
           </div>
 
           {/* TÍTULO */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight uppercase">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight ">
             {title}
           </h1>
 
+          <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
+            {subtitle}
+          </div>
           {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
           <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {description}

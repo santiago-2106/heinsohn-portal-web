@@ -6,7 +6,7 @@ import { paises } from "../../../data/mapa/index";
 
 export default function Mapa ({ title, descripcion,imgMap }: propsStaffArgumentationImg){
   return (
-    <section className="w-full bg-white py-20">
+    <section className="w-full bg-bg.main py-20">
       <div className="text-center"><ShowChartOutlined sx={{fill:'red', fontSize:70}} /></div>
 
       <div className="max-w-5xl mx-auto px-6">
@@ -32,7 +32,7 @@ export default function Mapa ({ title, descripcion,imgMap }: propsStaffArgumenta
           </div>
 
           <div>
-            <h6 className=" text-gray-500 text-3xl mb-12">
+            <h6 className=" text-text-body text-3xl mb-12">
               Cobertura
             </h6>
 
@@ -40,7 +40,7 @@ export default function Mapa ({ title, descripcion,imgMap }: propsStaffArgumenta
               {
                 paises.map((countries) => (
                     <li key={countries.id} className='flex items-center justify-between border-b border-gray-100 pb-3 '>
-                        <p className="leading-7 text-black">{countries.nombre}</p>
+                        <p className="leading-7 text-text-body">{countries.nombre}</p>
                         <img src={countries.image} alt="paises imagenes" className='inline-block h-6 w-8 rounded-md'/>
                     </li>
                 ))

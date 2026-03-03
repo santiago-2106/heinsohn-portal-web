@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="600"
+   viewBox="0 0 12 8"
+   version="1.1"
+   id="svg3"
+   sodipodi:docname="bb19bdd5-528d-416e-9bf1-847487883c45.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <title
+     id="title1">Flag of Panama</title>
+  <path
+     fill="#fff"
+     d="m0 4V0h6l6 4v4H6z"
+     id="path1" />
+  <path
+     fill="#da121a"
+     d="m6 0h6v4H6zm3 5L9.6498 7 7.9485 5.7639h2.103L8.3502 7z"
+     id="path2" />
+  <path
+     fill="#072357"
+     d="m0 4h6v4H0zm3-3 .6498 2-1.7013-1.2361h2.103L2.3502 3z"
+     id="path3" />
+</svg>

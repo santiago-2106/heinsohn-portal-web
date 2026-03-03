@@ -1,6 +1,7 @@
-import { Container, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { LinkedIn, Instagram, Facebook, YouTube } from "@mui/icons-material";
 import Link from "next/link";
+
 
 const soluciones = [
   [
@@ -19,7 +20,7 @@ const soluciones = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-white">
+    <footer className="border-t border-gray-200 bg-bg-main">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid grid-cols-1 gap-10 py-12 md:grid-cols-[1fr_1.8fr_0.8fr]">
           <div>
@@ -29,10 +30,10 @@ export default function Footer() {
                 alt="icon heinsohn"
                 className="inline-block h-6 w-6 rounded-full sm:h-8 sm:w-8"
               />
-              <h3 className="text-sm font-bold tracking-wider">HEINSOHN</h3>
+              <h3 className="text-sm font-bold text-text-body tracking-wider">HEINSOHN</h3>
             </div>
 
-            <p className="text-sm text-gray-600 leading-relaxed">
+            <p className="text-sm text-text-body leading-7.5">
               Transformando empresas a través de soluciones tecnológicas
               innovadoras e inteligencia artificial a la vanguardia.
             </p>
@@ -56,12 +57,12 @@ export default function Footer() {
           </div>
 
           <nav>
-            <h4 className="text-gray-500 mb-4">Soluciones</h4>
-            <div className="grid grid-cols-2 gap-y-3 gap-x-16">
+            <h4 className="text-text-body mb-4">Soluciones</h4>
+            <div className="grid grid-cols-2 gap-y-3 gap-x-12">
               {soluciones.map((column, index) => (
                 <ul
                   key={index}
-                  className="flex flex-col gap-y-3 text-sm text-gray-600"
+                  className="flex flex-col gap-2 text-sm text-text-body"
                 >
                   {column.map((item) => (
                     <li key={item}>
@@ -74,8 +75,8 @@ export default function Footer() {
           </nav>
 
           <nav>
-            <h4 className="text-gray-500 mb-4">Compañía</h4>
-            <ul className="flex flex-col gap-y-3 text-sm text-gray-600">
+            <h4 className="text-text-body mb-4">Compañía</h4>
+            <ul className="flex flex-col gap-2 text-sm text-text-body">
               <li>Home</li>
               <li>Quienes somos</li>
               <li>Mapa de sitio</li>

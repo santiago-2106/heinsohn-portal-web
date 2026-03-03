@@ -22,10 +22,12 @@ export default function ProductRow({ product, reverse }: ProductRowProps) {
       <div className="space-y-4">
         <h3 className="text-2xl font-medium text-text-title">{product.title}</h3>
 
-        <p className="text-text-body leading-relaxed">{product.description}</p>
+        <p className="text-text-body font-light leading-relaxed">{product.description}</p>
 
         <button className="text-sm font-medium hover:translate-x-1 transition-transform text-text-title">
-          {product.btnText}
+          {product.btnText} <span className="text-brand-accent  transition-transform duration-300 group-hover:translate-x-1 px-2 items-center">
+            →
+          </span>
         </button>
       </div>
     </div>
