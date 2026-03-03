@@ -3,7 +3,7 @@ import Navbar from "@/src/components/layout/navbar/Navbar";
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 
-// Importación de todos los componentes
+// Importación de componentes
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import SliderVentajas from "@/src/components/sliders/SliderVentajas";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
@@ -32,61 +32,52 @@ export default function PensionesVoluntarias() {
         isUppercase={false}
       />
 
-      {/* 2. VENTAJAS (CARRUSEL ANIMADO) */}
-      <SliderVentajas 
+      {/* 2. VENTAJAS */}
+      <SliderVentajas
         title={dataPensionesVoluntarias.ventajas.title}
         description={dataPensionesVoluntarias.ventajas.description}
         cards={dataPensionesVoluntarias.ventajas.cards}
       />
+      <ContactForm />
 
-      {/* 3. SERVICIOS DE GESTIÓN (CUADRÍCULA 2x2 REUTILIZANDO CARDANUNCIES) */}
-      <CardAnuncies 
+      {/* 3. SERVICIOS DE GESTIÓN */}
+      <CardAnuncies
         title={dataPensionesVoluntarias.servicios.title}
         cards={dataPensionesVoluntarias.servicios.cards}
         cols={2}
       />
 
-      {/* 4. LÍDERES #1 (COMPONENTE EXCLUSIVO) */}
-      <LideresSection 
+      {/* 4. LÍDERES #1 */}
+      <LideresSection
         title={dataPensionesVoluntarias.lideres.title}
         mainCard={dataPensionesVoluntarias.lideres.mainCard}
         gridCards={dataPensionesVoluntarias.lideres.gridCards}
       />
 
-      {/* 5. FUNCIONALIDADES (TABS INTERACTIVOS) */}
-      <FuncionalidadesSection 
+
+      {/* 5. FUNCIONALIDADES (TABS) */}
+      <FuncionalidadesSection
         title={dataPensionesVoluntarias.funcionalidades.title}
         tabs={dataPensionesVoluntarias.funcionalidades.tabs}
       />
 
       {/* 6. TEXTO CENTRADO (CTA) */}
-      <SectionCenteredText 
+      <SectionCenteredText
         title={dataPensionesVoluntarias.cta.title}
         description={dataPensionesVoluntarias.cta.description}
       />
 
-{/* 7. PREGUNTAS FRECUENTES */}
-      <div className="py-16 md:py-24 bg-bg-main">
-        <div className="max-w-4xl mx-auto px-4">
-          {/* Aquí le pasamos las propiedades obligatorias al componente */}
-          <PreguntForm 
-            title={dataPensionesVoluntarias.faq.title}
-            items={dataPensionesVoluntarias.faq.items}
-          />
-        </div>
-      </div>
+      {/* 7. PREGUNTAS FRECUENTES (Limpiado para usar el diseño propio de tu componente) */}
+      <PreguntForm
+        title={dataPensionesVoluntarias.faq.title}
+        items={dataPensionesVoluntarias.faq.items}
+      />
 
       {/* 8. BLOG DESTACADO */}
       <div className="py-16 md:py-24 bg-bg-main border-t border-border-ui">
         <h2 className="text-3xl md:text-4xl text-text-title font-light mb-12 text-center">
-          Blog destacado
         </h2>
         <SliderBlog />
-      </div>
-
-      {/* 9. FORMULARIO DE CONTACTO */}
-      <div id="contacto">
-        <ContactForm />
       </div>
 
       {/* 10. FOOTER */}

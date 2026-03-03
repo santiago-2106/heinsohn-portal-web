@@ -7,10 +7,12 @@ interface BreadcrumbItem {
 }
 
 interface HeroProps {
-  title: string;
+  title: string | React.ReactNode;
   description: string | React.ReactNode; 
   buttonText: string;
   breadcrumb: BreadcrumbItem[];
+  showBadges?: boolean;     // <-- INTERRUPTOR 1
+  isUppercase?: boolean;    // <-- INTERRUPTOR 2
 }
 
 export default function Hero({
@@ -18,6 +20,8 @@ export default function Hero({
   description,
   buttonText,
   breadcrumb,
+  showBadges = true,      // Se enciende por defecto
+  isUppercase = true,     // Se enciende por defecto
 }: HeroProps) {
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
@@ -49,29 +53,31 @@ export default function Hero({
 
           <br />
 
-          {/* BADGES SUPERIORES */}
-          <div className="mb-8 flex flex-wrap items-center gap-3">
-            <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-              <span className="text-brand-accent font-bold text-sm">+</span>
-              <span className="text-text-body text-sm uppercase tracking-wider font-medium">
-                40 años de experiencia
-              </span>
+          {/* BADGES SUPERIORES: Solo se dibujan si el interruptor está encendido */}
+          {showBadges && (
+            <div className="mb-8 flex flex-wrap items-center gap-3">
+              <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+                <span className="text-brand-accent font-bold text-sm">+</span>
+                <span className="text-text-body text-sm uppercase tracking-wider font-medium">
+                  40 años de experiencia
+                </span>
+              </div>
+              <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+                <span className="text-text-title font-bold text-sm">|</span>
+                <span className="text-brand-accent font-bold text-sm">+</span>
+                <span className="text-text-body text-sm uppercase tracking-wider font-medium">
+                  1.200 clientes en LATAM 
+                </span>
+              </div>
             </div>
-            <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-              <span className="text-text-title font-bold text-sm">|</span>
-              <span className="text-brand-accent font-bold text-sm">+</span>
-              <span className="text-text-body text-sm uppercase tracking-wider font-medium">
-                1.200 clientes en LATAM 
-              </span>
-            </div>
-          </div>
+          )}
 
-          {/* TÍTULO */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight uppercase">
+          {/* TÍTULO: Agrega la clase uppercase solo si el interruptor está encendido */}
+          <h1 className={`text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight ${isUppercase ? "uppercase" : ""}`}>
             {title}
           </h1>
 
-          {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
+          {/* DESCRIPCIÓN */}
           <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {description}
           </div>

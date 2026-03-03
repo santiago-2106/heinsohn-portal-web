@@ -24,6 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        {/* INYECTAMOS MATERIAL SYMBOLS ROUNDED AQUÍ (Esto es lo único nuevo) */}
+        <link 
+          rel="stylesheet" 
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" 
+        />
+      </head>
       {/* 4. Inyectamos la fuente en el <body> para que afecte a TODAS las vistas */}
       <body className={`${montserrat.variable} antialiased`}>
         {children}
