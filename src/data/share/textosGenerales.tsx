@@ -33,7 +33,7 @@ export const dataTextSolucionDigtal: dataTextComponent = {
       Las soluciones estándar suelen convertirse en un freno: procesos rígidos,
       costos crecientes y poca capacidad de integración. Estas limitaciones
       impactan la competitividad, reducen márgenes y frenan la innovación{" "}
-      <span className="font-semibold text-gray-800">
+      <span className="font-semibold text-text-body">
         con nuestro servicio de desarrollo de software resolvemos estos desafíos
         al crear sistemas que:
       </span>
@@ -48,7 +48,7 @@ export const TextSolucionDigtal2: dataTextComponent = {
     <>
       Cada organización se encuentra en un punto distinto de su transformación
       tecnológica. Por eso,{" "}
-      <span className="font-semibold text-gray-800">
+      <span className="font-semibold text-text-body">
         nuestros servicios de desarrollo de software a la medida
       </span>{" "}
       no siguen un único modelo, sino que se ajustan a la estrategia, recursos y
@@ -64,7 +64,7 @@ export const TextSolucionDigtal21: dataTextComponent = {
       Nuestro desarrollo de software combina lo mejor de la ingeniería y la
       visión empresarial para crear soluciones seguras, escalables y alineadas
       con los objetivos de tu organización.{" "}
-      <span className="font-semibold text-gray-800">Lo que ofrecemos</span>
+      <span className="font-semibold text-text-body">Lo que ofrecemos</span>
     </>
   ),
 };
@@ -75,7 +75,7 @@ export const TextSolucionDigtal3: dataTextComponent = {
     <>
       Invertir en software personalizado significa convertir la tecnología en
       una ventaja competitiva que impacta directamente en la{" "}
-      <span className="font-semibold text-gray-800">
+      <span className="font-semibold text-text-body">
         rentabilidad y la sostenibilidad del negocio.
       </span>
     </>
@@ -101,7 +101,7 @@ export const TextSolucionDigtal6: dataTextComponent = {
     <>
       Para garantizar escalabilidad, seguridad y eficiencia, trabajamos con
       un stack tecnológico robusto y probado en{" "}
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         proyectos de alto impacto
       </span>
     </>
@@ -115,8 +115,7 @@ export const textoGestionHumana: dataTextComponent = {
     <>
       Nuestro software de nómina es ampliamente parametrizable, dinámico y
       flexible. Es una herramienta con{" "}
-      <span className="text-gray-800 font-semibold">tecnología 100% web</span>{" "}
-      que ofrece un proceso de nómina fácil, rápido y seguro
+      <span className="text-text-body font-semibold">tecnología 100% web</span> que ofrece un proceso de nómina fácil, rápido y seguro
     </>
   ),
 };
@@ -125,7 +124,7 @@ export const textoGestionHumana2: dataTextComponent = {
   title: "Outsourcing de Procesos - BPO",
   description: (
     <>
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         Procesos formales de operación y personal capacitado
       </span>{" "}
       para apoyar tus métodos de atención a colaboradores, liquidación de pagos
@@ -140,12 +139,12 @@ export const textoGestionHumana3: dataTextComponent = {
     <>
       El trabajo en equipo es una de nuestras principales estrategias. Estamos
       convencidos que el poder colectivo es la herrmienta esencial para{" "}
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         generar soluciones innovadoras.
       </span>{" "}
       Como grupo empresarial unimos a nuestra fuerza a grandes empresas que hoy
       son{" "}
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         nuestros aliados tecnologicos, creativos y financieros.
       </span>
     </>
@@ -158,7 +157,7 @@ export const textoGestionHumana4: dataTextComponent = {
     <>
       Creemos en la tecnologia como herramienta de transformacion de los
       entornos laborales.{" "}
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         Generamos espacios y oportunidades
       </span>{" "}
       que brinden mejores condiciones a los colaboradores
@@ -175,7 +174,7 @@ export const textoPensiones1: dataTextComponent = {
     <>
       El sistema de pensiones en America Latina enfrenta transformaciones que
       requieren{" "}
-      <span className="text-gray-800 font-semibold">vision y tecnologia:</span>
+      <span className="text-text-body font-semibold">vision y tecnologia:</span>
     </>
   ),
 };
@@ -184,13 +183,13 @@ export const textoPensiones2: dataTextComponent = {
   title: "Una plataforma previsional única, modular y escalable ",
   description: (
     <>
-      Nuestro <span className="text-gray-800 font-semibold">software </span>
+      Nuestro <span className="text-text-body font-semibold">software </span>
       previsional centraliza la administración del sistema de pensiones en un
       único core tecnológico, desde el cual es posible gestionar de forma
       integrada pensiones obligatorias, pensiones voluntarias, cesantías y
       rentas vitalicias.
       <br />
-      <span className="text-gray-800 font-semibold">
+      <span className="text-text-body font-semibold">
         Su diseño modular y parametrizable permite adaptarse a la regulación de
         cada país en LATAM,
       </span>{" "}

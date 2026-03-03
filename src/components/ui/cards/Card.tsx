@@ -38,7 +38,7 @@ export default function Card({
 
       {/* DESCRIPCIÓN */}
       {description && (
-        <p className="mb-6 text-sm md:text-base leading-relaxed text-text-body">
+        <p className="mb-6 text-sm md:text-base leading-relaxed text-text-body mt-2">
           {description}
         </p>
       )}
@@ -54,10 +54,7 @@ export default function Card({
                   centrar ? "justify-center text-center" : ""
                 }`}
               >
-
                 <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex shrink-0 rounded-full bg-[#E30613]"></span>
-
-                <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex-shrink-0 rounded-full bg-brand-accent"></span>
 
                 <div className="flex flex-col">
                   {/* El subtitulo del punto */}
