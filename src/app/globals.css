@@ -1,11 +1,5 @@
 @import "tailwindcss";
 
-/* ========================================================================
-  1. VARIABLES DE TEMA (TAILWIND)
-  Aquí convertimos tus colores en clases de Tailwind.
-  Ejemplo: usarás 'bg-card-1' o 'text-title' en tus componentes.
-========================================================================
-*/
 @theme inline {
   /* 🔤 Tipografía */
   --font-sans: var(--font-montserrat), ui-sans-serif, system-ui;
@@ -13,15 +7,15 @@
   /* 🎨 Color principal (Acentuaciones) */
   --color-brand-accent: #D30034; /* Aplica para Light y Dark */
 
-  /* 📝 Color de textos */
+  /* Color de textos */
   --color-text-title: var(--theme-text-title);
   --color-text-body: var(--theme-text-body);
   --color-text-btn: var(--theme-text-btn);
 
-  /* 🖥️ Color Background */
+  /* Color Background */
   --color-bg-main: var(--theme-bg-main);
 
-  /* 🧩 Color fundamentos de la interfaz */
+  /*  Color fundamentos de la interfaz */
   --color-border-ui: var(--theme-border-ui);
   --color-area-prop: var(--theme-area-prop);
   --color-bg-card-1: var(--theme-bg-card-1);
@@ -29,19 +23,12 @@
   --color-bg-menu: var(--theme-bg-menu);
   --color-bg-menu-hover: var(--theme-bg-menu-hover);
 }
-
-/* ========================================================================
-  2. VALORES HEXADECIMALES (LIGHT MODE)
-  Estos son los colores que se verán por defecto (Modo Claro).
-========================================================================
-*/
+/* 2. VALORES HEXADECIMALES (LIGHT MODE)*/
 :root {
   --theme-text-title: #0A0A0A;
   --theme-text-body: #414158;
-  --theme-text-btn: #FFFFFF;
-  
+  --theme-text-btn: #FFFFFF; 
   --theme-bg-main: #FBFBFB;
-  
   --theme-border-ui: #D7D7D7;
   --theme-area-prop: #D7D7D7;
   --theme-bg-card-1: #EFEFEF;
@@ -49,19 +36,12 @@
   --theme-bg-menu: #EBEBEB;
   --theme-bg-menu-hover: #F5F5F5;
 }
-
-/* ========================================================================
-  3. VALORES HEXADECIMALES (DARK MODE)
-  Estos colores se activan solos si el usuario usa Modo Oscuro.
-========================================================================
-*/
+/*  3. VALORES HEXADECIMALES (DARK MODE)*/
 .dark {
     --theme-text-title: #E5E7EB;
     --theme-text-body: #E5E7EB;
     --theme-text-btn: #2C2C38;
-    
     --theme-bg-main: #0A0A0A;
-    
     --theme-border-ui: #4F4F62;
     --theme-area-prop: #4F4F62;
     --theme-bg-card-1: #16161B;
@@ -70,12 +50,7 @@
     --theme-bg-menu-hover: #35353C;
   }
 
-
-/* ========================================================================
-  4. ESTILOS BASE Y ESCALA TIPOGRÁFICA (H1440, H768, H390)
-  Aquí aplicamos los tamaños para XS (móvil), M (Tablet) y XL (Desktop)
-========================================================================
-*/
+/*  4. ESTILOS BASE Y ESCALA TIPOGRÁFICA (H1440, H768, H390)*/
 @layer base {
   body {
     /* Aplica el fondo general y el color de texto a todo el portal */

@@ -1,15 +1,9 @@
 import {
   RocketLaunchOutlined,
-  GavelOutlined,
-  LocalOfferOutlined,
-  VerifiedUserOutlined,
-  HelpOutlineOutlined,
-  RoundaboutLeftOutlined,
   AccountCircle,
   AssignmentInd,
   AccountBox,
   AddReaction,
-  FolderShared,
   FolderSharedOutlined,
   FaceRetouchingNaturalOutlined,
   BusinessCenterOutlined,
@@ -19,12 +13,9 @@ import {
   EditLocationAltOutlined,
 } from "@mui/icons-material";
 
-import DevicesIcon from "@mui/icons-material/Devices";
+
 import DataObjectIcon from "@mui/icons-material/DataObject";
-import CloudQueueIcon from "@mui/icons-material/CloudQueue";
-import TabletMacIcon from "@mui/icons-material/TabletMac";
-import DisplaySettingsIcon from "@mui/icons-material/DisplaySettings";
-import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+
 
 import SavingsIcon from "@mui/icons-material/Savings";
 

@@ -31,7 +31,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="border-b border-border-ui bg-bg-main transition-colors duration-300">
+    <header className="sticky top-0 left-0 z-50 border-b border-border-ui bg-bg-main transition-colors duration-300">
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ul className="relative flex h-20 items-center justify-between">
           
@@ -78,16 +78,16 @@ export default function Navbar() {
             {/* Selector de idioma */}
             <select className="bg-transparent text-text-title text-sm font-medium outline-none cursor-pointer">
               <option>ES</option>
-              <option className="text-black">EN</option>
-              <option className="text-black">FRA</option>
+              <option className="text-[#414158]">EN</option>
+              <option className="text-[#414158]">FRA</option>
             </select>
             
             {/* Ícono de Luna/Sol con su funcionalidad */}
             <button 
               onClick={toggleTheme} 
-              className="flex items-center justify-center text-text-title hover:text-brand-accent transition-colors ml-1"
+              className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-1"
             >
-              {isDark ? <LightModeIcon /> : <ModeNightIcon />}
+              {isDark ? <LightModeIcon sx={{color: "#F4E6A1"}}/> : <ModeNightIcon sx={{fill:'white', stroke:'black'}}/>}
             </button>
           </li>
         </ul>
@@ -95,7 +95,7 @@ export default function Navbar() {
         {/* MENÚ MÓVIL DESPLEGABLE */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out
-                      ${openMenu ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"}`}
+            ${openMenu ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"}`}
         >
           <ul className="flex flex-col gap-4 text-sm mt-2 border-t border-border-ui pt-4">
             <li>
@@ -115,15 +115,15 @@ export default function Navbar() {
               />
               <select className="bg-transparent text-text-title font-medium outline-none">
                 <option>ES</option>
-                <option className="text-black">EN</option>
-                <option className="text-black">FRA</option>
+                <option className="text-[#414158]">EN</option>
+                <option className="text-[#414158]">FRA</option>
               </select>
             </li>
 
             <li>
               <button 
                 onClick={toggleTheme}
-                className="flex items-center gap-2 text-text-title font-medium"
+                className="flex items-center gap-2 text-text-title font-medium "
               >
                 {isDark ? <LightModeIcon /> : <ModeNightIcon />}
                 {isDark ? "Cambiar a Modo Claro" : "Cambiar a Modo Oscuro"}

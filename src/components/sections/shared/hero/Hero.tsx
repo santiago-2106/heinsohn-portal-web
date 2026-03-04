@@ -2,14 +2,15 @@ import React from "react";
 import Link from "next/link";
 
 interface BreadcrumbItem {
-  label: string;
+  label?: string;
   href?: string;
 }
 
 interface HeroProps {
   title: string | React.ReactNode;
   description: string | React.ReactNode; 
-  buttonText: string;
+  subtitle?: React.ReactNode;
+  buttonText?: string;
   breadcrumb: BreadcrumbItem[];
   showBadges?: boolean;     // <-- INTERRUPTOR 1
   isUppercase?: boolean;    // <-- INTERRUPTOR 2
@@ -18,6 +19,7 @@ interface HeroProps {
 export default function Hero({
   title,
   description,
+  subtitle,
   buttonText,
   breadcrumb,
   showBadges = true,      // Se enciende por defecto
@@ -72,12 +74,12 @@ export default function Hero({
             </div>
           )}
 
-          {/* TÍTULO: Agrega la clase uppercase solo si el interruptor está encendido */}
-          <h1 className={`text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight ${isUppercase ? "uppercase" : ""}`}>
+          {/* TÍTULO */}
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight uppercase">
             {title}
           </h1>
 
-          {/* DESCRIPCIÓN */}
+          {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
           <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {description}
           </div>

@@ -24,3 +24,18 @@ export interface ResultsCorporativoData {
 export interface ResultsCorporativoProps {
   data: ResultsCorporativoData;
 }
+
+export interface FaqAnswer {
+  descriptions: string;
+  listsItems?: string[];
+}
+
+export interface FaqItem {
+  question: string;
+  answer: FaqAnswer;
+}
+
+export interface FaqSection {
+  title: string;
+  items: FaqItem[];
+}

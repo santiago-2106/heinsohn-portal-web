@@ -15,17 +15,19 @@ import ButtonComponent from "../../ui/buttons/Button";
 
 export default function SolucionesGestionH() {
   return (
-    <section className="max-w-7xl mx-auto px-2 py-12">
-      <TextComponent
-        title={textoGestionHumana.title}
-        description={textoGestionHumana.description}
-      />
+    <section className="">
+      <article className="max-w-5xl mx-auto px-6 py-8">
+        <TextComponent
+          title={textoGestionHumana.title}
+          description={textoGestionHumana.description}
+        />
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-        {gestionHumanaInfo.map((info, index) => (
-          <CardGestionHumana key={index} {...info} />
-        ))}
-      </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+          {gestionHumanaInfo.map((info, index) => (
+            <CardGestionHumana key={index} {...info} />
+          ))}
+        </div>
+      </article>
 
       <CardAnuncies
         title={textoGestionHumana2.title}

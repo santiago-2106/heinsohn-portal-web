@@ -226,10 +226,10 @@ export const dataIaTimeline = [
 ];
 
 export const dataIaFaq = [
-  { question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", answer: "La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos." },
-  { question: "¿Cómo se aplica la Inteligencia Artificial en los negocios?", answer: "Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." },
-  { question: "¿Qué es la asistencia para la inteligencia empresarial y para qué se utiliza?", answer: "Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." },
-  { question: "¿Cómo implementar IA en una empresa?", answer: "Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." },
-  { question: "¿Cuánto tarda un proyecto de IA Generativa?", answer: "Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." },
-  { question: "¿Qué beneficios concretos ofrece la IA para las empresas?", answer: "Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." }
+  { question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", answer: {descriptions:"La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos."} },
+  { question: "¿Cómo se aplica la Inteligencia Artificial en los negocios?", answer: {descriptions:"Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." } },
+  { question: "¿Qué es la asistencia para la inteligencia empresarial y para qué se utiliza?", answer: {descriptions:"Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." } },
+  { question: "¿Cómo implementar IA en una empresa?", answer: {descriptions:"Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." } },
+  { question: "¿Cuánto tarda un proyecto de IA Generativa?", answer: {descriptions:"Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." } },
+  { question: "¿Qué beneficios concretos ofrece la IA para las empresas?", answer: {descriptions:"Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." } }
 ];

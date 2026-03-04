@@ -22,8 +22,8 @@ export default function TalentCloudSection() {
     <div>
       <TextComponent title="Somos la solución en gestión, del talento humano en la nube." />
 
-      <section className="max-w-2xl mx-auto mt-4">
-        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 border border-border-ui">
+      <section className="max-w-2xl mx-auto mt-4 p-5">
+        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 ">
           {dataInfoGestionHumana.map((item, index) => (
             <div
               key={index}

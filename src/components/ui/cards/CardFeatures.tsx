@@ -25,7 +25,7 @@ export default function CardFeatures({
       <div className="flex items-start gap-4">
         {icon && (
           <div
-            className={`flex-shrink-0 text-text-title ${isLarge ? "mt-1" : ""}`}
+            className={`flex shrink-0 text-text-title ${isLarge ? "mt-1" : ""}`}
           >
             {icon}
           </div>
