@@ -6,6 +6,8 @@ import Card from "../ui/cards/Card"
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 
+//AJUSTAR ESTO MAÑANA
+
 interface cardSilderSwiper {
     title: string
     cards?: dataCard[]
