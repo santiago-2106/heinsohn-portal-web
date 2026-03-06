@@ -1,15 +1,31 @@
 import CardGrid from '../../layout/grids/CardGrid'
-import { dataCardsFeaturesLandingHGS, dataCardsLandingHGS3, dataCardsLandingHGS4, heroSlides, titleLandingHGS4, titleLandingHGS5 } from '@/src/data/landing-hgs'
+import { dataCardsFeaturesLandingHGS, dataCardsLandingHGS2, dataCardsLandingHGS3, dataCardsLandingHGS4, heroSlides, titleLandingHGS4, titleLandingHGS5 } from '@/src/data/landing-hgs'
 import CardLandingHgs from '../shared/sectioncard/CardLandingHgs'
 import TextComponent from '../../ui/typography/TextComponent'
 import CardFeatures from '../../ui/cards/CardFeatures'
 import CardAnuncies from '../shared/sectioncard/SectionAnuncies'
 import SliderHero from '../../sliders/SliderHero'
-import ButtonComponent from '../../ui/buttons/Button'
+import Card from '../../ui/cards/Card'
 
 export default function SectionLandingHgs2() {
   return (
     <section >
+          <div>
+        <TextComponent 
+        title="Nuestro portafolio de soluciones"
+        description= 'Heinsohn Human Global Solutions ofrece un ecosistema completo de soluciones para cubrir todas las necesidades de tu área de Gestión Humana:'
+        />
+
+        <CardGrid columns={2}>
+          {
+            dataCardsLandingHGS2.map((item, index) => (
+              <article key={index}>
+                <Card {...item} />
+              </article>
+            ))
+          }
+        </CardGrid>
+      </div>
       <div className='pt-28'>
         <TextComponent 
         title={titleLandingHGS4.title}

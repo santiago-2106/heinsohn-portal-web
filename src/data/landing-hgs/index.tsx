@@ -1,5 +1,5 @@
 import { dataCard } from "@/src/types/cardTypes";
-import { AccountBalanceOutlined, AddReactionOutlined, AssessmentOutlined, AssignmentIndOutlined, BusinessCenterOutlined, BusinessOutlined, CodeOutlined, InsightsOutlined, LanguageOutlined, RocketLaunchOutlined, RouteOutlined, SettingsInputComponentOutlined, ShowChartOutlined, ViewQuiltOutlined, VolunteerActivismOutlined, VrpanoOutlined, WarehouseOutlined, WorkOutlineOutlined } from "@mui/icons-material";
+import { AccountBalanceOutlined, AddReactionOutlined, AssessmentOutlined, AssignmentIndOutlined, BusinessCenterOutlined, BusinessOutlined, CodeOutlined, Diversity2Outlined, Diversity3Outlined, InsightsOutlined, LanguageOutlined, PsychologyOutlined, RocketLaunchOutlined, RouteOutlined, SettingsInputComponentOutlined, ShowChartOutlined, ViewQuiltOutlined, VolunteerActivismOutlined, VrpanoOutlined, WarehouseOutlined, WorkOutlineOutlined } from "@mui/icons-material";
 
 
 
@@ -70,8 +70,27 @@ export const titleLandingHGS5 = {
   )
 }
 
+//TITULO LANDING HGS ALIANZAS ESTRATEGICAS
+
+export const titleLandingHGS6 = {
+  title:'Alianzas estratégicas con líderes tecnológicos',
+  description: (
+    <>
+    Somos <span className="font-bold">aliados certificados</span> de los principales proveedores de tecnología del mundo, como IBM, Microsoft y otros líderes de la industria. Estas alianzas nos permiten integrar las mejores tecnologías del mercado en nuestras soluciones.
+    </>
+  )
+}
+
 //Inofrmacion landing-hgs cards soluciones para cada tipo de empresa
 export const dataLandignHGS2 = [
+  {
+    icon: <WarehouseOutlined />,
+    contenedor: " 1 a 450 colaboradores",
+    title: "Pymes",
+    description: "Nomina para pequeña y mediana empresa",
+    btnText: "Ampliar Informacion",
+    btn: "Ampliar Informacion",
+  },
   {
     icon: <BusinessOutlined />,
     contenedor: "+500 Colaboradores",
@@ -80,14 +99,7 @@ export const dataLandignHGS2 = [
     btnText: "Ampliar Informacion",
     btn: "Ampliar Informacion",
   },
-  {
-    icon: <WarehouseOutlined />,
-    contenedor: " 1 a 450 colaboradores",
-    title: "Pymes",
-    description: "Nomina para pequeña y mediana empresa",
-    btnText: "Ampliar Informacion",
-    btn: "Ampliar Informacion",
-  }
+  
 ];
 
 
@@ -314,3 +326,53 @@ export const heroSlides = [
   }
 ]
 
+
+//LINEA DE ICONOS Alianza estrategicas con lideres tecnologicos
+
+export const dataTimeLineAlianzas = [
+  {
+    title: "Soluciones de última generación",
+    description: (
+      <>
+      Nuestras plataformas incorporan tecnologías emergentes como <span className="font-bold">inteligencia artificial, Analytics avanzado, automatización de procesos y experiencia de usuario optimizada,</span> garantizando que tu empresa cuente con herramientas de vanguardia
+      </>
+    ),
+    icon: <Diversity2Outlined sx={{ fontSize: 32 }} /> 
+  },
+  {
+    title: "Experiencia comprobada",
+    description:(
+      <>
+      Con <span className="font-bold">más de 40 años</span>  en el negocio de nómina y gestión del talento humano, hemos acumulado un conocimiento profundo de las mejores prácticas, retos regulatorios y necesidades cambiantes del mercado laboral.
+      </>
+    ),
+    icon: <RocketLaunchOutlined sx={{ fontSize: 32 }} />
+  },
+  {
+    title: "Sector Privado y Público",
+    description: (
+      <>
+      Atendemos tanto al <span className="font-bold">sector privado</span> como al <span className="font-bold">sector público</span>, con soluciones especializadas para entidades gubernamentales, fondos de pensiones, empresas de servicios, retail, manufactura y más. Nuestras soluciones por <span className="font-bold">verticales de negocio</span> garantizan que cada industria reciba la funcionalidad específica que necesita.
+      </>
+    ),
+    icon: <AccountBalanceOutlined sx={{ fontSize: 32 }} /> 
+  }
+];
+
+//INFORMACION SLIDER TESTIMONIAL
+export const testimonialsSlider = [
+  {
+    companyLogo: "/img/coordinadora-logo.png",
+    companyName: "Coordinadora",
+    name: "Gustavo Alberto Gaviria",
+    role: "Jefe de Nómina Nacional",
+    text: "Heinsohn, como proveedores de software hemos tenido la confianza que el software cumple con todas las reglamentaciones legales y propias de la empresa."
+  },
+  {
+    companyLogo: "/img/fundacion-logo.png",
+    companyName: "Fundación Santa Fe",
+    name: "Camila Peñaliza Lopera",
+    role: "Gerente de Nómina",
+    text: "Felicita a Heinsohn por la calidad de sus servicios, está muy contenta con el producto y con los consultores que la asisten."
+  }
+]
