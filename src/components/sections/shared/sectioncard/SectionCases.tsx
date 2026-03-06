@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CardCases() {
   return (
-    <section className="bg-white py-8 sm:py-12 md:py-16">
+    <section className="bg-bg-main py-8 sm:py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
         <h2 className="mb-8 text-center text-2xl sm:mb-10 sm:text-3xl md:mb-12 md:text-4xl">
           Conoce Nuestro Trabajo
@@ -20,11 +20,11 @@ export default function CardCases() {
             </div>
 
             <div className="flex flex-col gap-3 p-5 sm:p-6">
-              <p className="font-medium text-gray-500">
+              <p className="font-light text-text-body ">
                 Transformación digital en el sector financiero
               </p>
 
-              <p className="text-sm leading-relaxed text-gray-500">
+              <p className="text-sm leading-relaxed font-light text-text-body">
                 Implementamos una plataforma digital a la medida que mejoró la
                 experiencia del cliente y redujo en un 40% los tiempos de
                 operación.

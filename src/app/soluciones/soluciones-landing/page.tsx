@@ -5,6 +5,7 @@ import Hero from "@/src/components/sections/shared/hero/Hero";
 import TextSections from "@/src/components/ui/typography/TextSections";
 import { dataLandignHGS } from "@/src/data/landing-hgs";
 import SectionLandingHgs from "@/src/components/sections/landing-hgs/SectionLandingHgs";
+import SectionLandingHgs2 from "@/src/components/sections/landing-hgs/SectionLandingHgs2";
 
 export default function SolucionesLandign() {
   const dataTI = {
@@ -32,6 +33,7 @@ export default function SolucionesLandign() {
       />
       <TextSections items={dataLandignHGS}/>
       <SectionLandingHgs />
+      <SectionLandingHgs2 />
       <Footer />
       <FooterBottom />
     </div>
