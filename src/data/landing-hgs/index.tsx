@@ -348,7 +348,8 @@ export const dataTimeLineAlianzas = [
     ),
     icon: <RocketLaunchOutlined sx={{ fontSize: 32 }} />
   },
-  {
+  { 
+    
     title: "Sector Privado y Público",
     description: (
       <>
