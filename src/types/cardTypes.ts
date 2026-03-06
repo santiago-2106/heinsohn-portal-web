@@ -19,8 +19,17 @@ export interface dataCard {
   textoFooter?: ReactNode;
 }
 //IMAGEN MAPA 
+export interface Countries {
+  id:number
+  nombre:ReactNode
+  image: string
+}
+
 export interface propsStaffArgumentationImg {
     title?: string
     descripcion?:string
     imgMap?:string
+    paises: Countries[]
+    showIcon?: boolean; // nuevo prop
+    showCoberturaTitle?: boolean;
 }

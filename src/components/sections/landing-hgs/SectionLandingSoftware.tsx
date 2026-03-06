@@ -23,6 +23,7 @@ export default function SectionLandingSoftware() {
         <TextSections items={dataLandignSoftwareTexts}/>
         <TextComponent title='Casos de estudio'/>
         <CardLandingSoftware items={dataCardCasosEstudio}/>
+        <TextComponent title='Informacion de interes'/>
         <SliderHero items={heroSlidesLandingSoftware}/>
       </div>
     </section>

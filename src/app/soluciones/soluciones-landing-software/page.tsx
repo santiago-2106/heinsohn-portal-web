@@ -6,8 +6,11 @@ import SectionLandingSoftware from "@/src/components/sections/landing-hgs/Sectio
 import Mapa from "@/src/components/sections/mapa/Mapa";
 import Clientes from "@/src/components/sections/shared/clientes/Clientes";
 import Hero from "@/src/components/sections/shared/hero/Hero";
+import SliderTestimonial from "@/src/components/sliders/SliderTestimonial";
 import TextComponent from "@/src/components/ui/typography/TextComponent";
+import { testimonialsSlider } from "@/src/data/landing-hgs";
 import { HeroLandingSoftware, titleLandingSoftware } from "@/src/data/landing-software";
+import { paisesLandingSoftware } from "@/src/data/mapa";
 import { dataPreguntasFrecuentes } from "@/src/data/soluciones-digitales";
 
 
@@ -31,10 +34,14 @@ export default function PageLandingSoftware () {
         title={titleLandingSoftware.title}
         description={titleLandingSoftware.description}
         />
+        <SliderTestimonial items={testimonialsSlider}/>
         <SectionLandingSoftware />
         <Mapa 
         title="La mejor solución para tu operacion multinacional"
         imgMap="/img/mapa-landing-software.png"
+        paises={paisesLandingSoftware}
+        showIcon={false}
+        showCoberturaTitle={false}
         />
         <PreguntasFort title="Preguntas frecuentes" items={dataPreguntasFrecuentes}/>
         <Footer />

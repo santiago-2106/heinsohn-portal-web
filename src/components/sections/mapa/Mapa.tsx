@@ -1,13 +1,16 @@
 import { ShowChartOutlined } from "@mui/icons-material";
 import { propsStaffArgumentationImg } from "../../../types/cardTypes";
-import { paises } from "../../../data/mapa/index";
+
 
 //Mover Data a un archivo aparte
 
-export default function Mapa ({ title, descripcion,imgMap }: propsStaffArgumentationImg){
+export default function Mapa ({ title, descripcion,imgMap, paises, showIcon, showCoberturaTitle }: propsStaffArgumentationImg){
   return (
     <section className="w-full bg-bg.main py-20">
-      <div className="text-center"><ShowChartOutlined sx={{fill:'red', fontSize:70}} /></div>
+      
+      {showIcon && ( <div className="text-center">
+        <ShowChartOutlined sx={{fill:'red', fontSize:70}} />
+      </div>)}
 
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
@@ -32,16 +35,20 @@ export default function Mapa ({ title, descripcion,imgMap }: propsStaffArgumenta
           </div>
 
           <div>
-            <h6 className=" text-text-body text-3xl mb-12">
-              Cobertura
-            </h6>
+            {
+              showCoberturaTitle && (
+              <h6 className=" text-text-body text-3xl mb-12">
+                Cobertura
+              </h6>
+              )
+            }
 
             <ul className="space-y-4">
               {
-                paises.map((countries) => (
-                    <li key={countries.id} className='flex items-center justify-between border-b border-gray-100 pb-3 '>
-                        <p className="leading-7 text-text-body">{countries.nombre}</p>
-                        <img src={countries.image} alt="paises imagenes" className='inline-block h-6 w-8 rounded-md'/>
+                paises.map((pais) => (
+                    <li key={pais.id} className='flex items-center justify-between border-b border-gray-100 pb-3 '>
+                        <p className="leading-7 text-text-body">{pais.nombre}</p>
+                        <img src={pais.image} alt="paises imagenes" className='inline-block h-6 w-8 rounded-md'/>
                     </li>
                 ))
               }

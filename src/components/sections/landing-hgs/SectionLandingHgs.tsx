@@ -1,11 +1,13 @@
-import { dataCardsLandingHGS, dataCardsLandingHGS2, dataCardsLandingHGS3, dataLandignHGS2, titleLandingHGS, titleLandingHGS2, titleLandingHGS3 } from "@/src/data/landing-hgs";
+import { dataCardsLandingHGS, dataLandignHGS2, dataTimeLineAlianzas, titleLandingHGS, titleLandingHGS2, titleLandingHGS3, titleLandingHGS6 } from "@/src/data/landing-hgs";
 import TextComponent from "../../ui/typography/TextComponent";
 import Mapa from "../mapa/Mapa";
 import CardGrid from "../../layout/grids/CardGrid";
 import CardGestionHumana from "../../ui/cards/CardGestionHumana";
 import Clientes from "../shared/clientes/Clientes";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
-import Card from "../../ui/cards/Card";
+import TimeLineLandingHgs from "./TimeLineLandingHgs";
+import { paisesPendientes } from "@/src/data/mapa";
+
 
 
 export default function SectionLandingHgs() {
@@ -14,11 +16,15 @@ export default function SectionLandingHgs() {
       <div>
         <TextComponent
         title={titleLandingHGS.title}
-        description={titleLandingHGS.description} 
+        description={titleLandingHGS.description}
+        align="left" 
         />
 
         <Mapa 
         imgMap="/img/mapa-landingHgs.png"
+        paises={paisesPendientes}
+        showIcon={false}
+        showCoberturaTitle={false}
         />
       </div>
 
@@ -49,23 +55,18 @@ export default function SectionLandingHgs() {
         cols={3}
         />
       </div>
-
       <div>
         <TextComponent 
-        title="Nuestro portafolio de soluciones"
-        description= 'Heinsohn Human Global Solutions ofrece un ecosistema completo de soluciones para cubrir todas las necesidades de tu área de Gestión Humana:'
+        title={titleLandingHGS6.title}
+        description={titleLandingHGS6.description}
         />
-
-        <CardGrid columns={2}>
-          {
-            dataCardsLandingHGS2.map((item, index) => (
-              <article key={index}>
-                <Card {...item} />
-              </article>
-            ))
-          }
-        </CardGrid>
+        <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-12">
+          <img src="/img/ibm-logo.png" alt="logo ibm" className="h-16 md:h-14 lg:h-22 w-auto object-contain"/>
+          <img src="/img/microsoft-logo.png" alt="logo microsoft" className="h-16 md:h-14 lg:h-18 w-auto object-contain"/>
+        </div>
+        <TimeLineLandingHgs informationLandingSoftware={dataTimeLineAlianzas}/>
       </div>
+      
     </section>
   )
 }
