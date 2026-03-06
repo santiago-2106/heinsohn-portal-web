@@ -1,77 +1,77 @@
 import { dataCard } from "@/src/types/cardTypes";
 import { AccountBalanceOutlined, AddReactionOutlined, AssessmentOutlined, AssignmentIndOutlined, BusinessCenterOutlined, BusinessOutlined, CodeOutlined, Diversity2Outlined, Diversity3Outlined, InsightsOutlined, LanguageOutlined, PsychologyOutlined, RocketLaunchOutlined, RouteOutlined, SettingsInputComponentOutlined, ShowChartOutlined, ViewQuiltOutlined, VolunteerActivismOutlined, VrpanoOutlined, WarehouseOutlined, WorkOutlineOutlined } from "@mui/icons-material";
-
-
-
-
+ 
+ 
+ 
+ 
 export const dataLandignHGS = [
     { titleLanding: (<>1.000<span className="text-brand-accent">+</span></>), descriptionLanding: "Empresas" },
     { titleLanding: (<>6<span className="text-brand-accent">+</span></>), descriptionLanding: "Países" },
     { titleLanding: (<>45<span className="text-brand-accent">+</span></>), descriptionLanding: "Años" },
     { titleLanding: (<>5<span className="text-brand-accent">k</span></>), descriptionLanding: "Empleados" }
 ]
-
-
+ 
+ 
 //TITULOS Y DESCRIPCIONAES LANDING HGS
-
+ 
 export const titleLandingHGS = {
-    
+   
     title:"Presencial regional",
     description: (
         <>
         Operamos en <span className="text-text-body font-bold">más de 6 países</span> de América Latina, brindando soluciones adaptadas a las regulaciones locales y las necesidades específicas de cada mercado. Nuestra expansión regional nos posiciona como el socio estratégico ideal para empresas con operaciones multinacionales.
         </>
     )
-    
+   
 }
-
+ 
 export const titleLandingHGS2 = {
-    
+   
     title:"Soluciones para cada tipo de empresa",
     description: (
         <>
        Atendemos tanto a <span className="text-text-body font-bold">PyMEs</span> como a <span className="text-text-body font-bold">grandes empresas</span> con soluciones escalables y flexibles que se adaptan al tamaño, complejidad y sector de cada organización. Ya sea que necesites gestionar 10 o 50,000 empleados, tenemos la solución perfecta para ti.
         </>
     )
-    
+   
 }
-
+ 
 export const titleLandingHGS3 = {
-    
+   
     title:"Confianza de miles de clientes",
     description: (
         <>
         Más de <span className="text-text-body font-bold">1.000 clientes en toda la región</span> confían en nosotros para gestionar su operación de nómina y talento humano. Cada día, más de 500,000 empleados utilizan nuestros servicios, respaldados por nuestra tecnología robusta y confiable.
         </>
     )
-    
+   
 }
-
+ 
 //TITULO LANDIGN SOLUCIENES EN MODALIDA OUTSORCING (BPO)
 export const titleLandingHGS4 = {
-    
+   
     title:"Soluciones en Modalida Outsorcing (BPO)",
     description: (
         <>
         Además de nuestras soluciones tecnológicas, ofrecemos servicios de <span className="text-text-body font-bold">Outsourcing especializado </span> para que puedas concentrarte en tu core business mientras nosotros nos encargamos de la operación:
         </>
     )
-    
+   
 }
-
+ 
 //TITULO LANDIGN CONTACTANOS
-
+ 
 export const titleLandingHGS5 = {
   title:'Contáctanos',
   description: (
     <>
-     hoy y descubre cómo podemos transformar tu gestión humana con soluciones que combinan <span className="text-text-body font-bold">tecnología, experiencia y alcance regional.</span> 
+     hoy y descubre cómo podemos transformar tu gestión humana con soluciones que combinan <span className="text-text-body font-bold">tecnología, experiencia y alcance regional.</span>
     </>
   )
 }
-
+ 
 //TITULO LANDING HGS ALIANZAS ESTRATEGICAS
-
+ 
 export const titleLandingHGS6 = {
   title:'Alianzas estratégicas con líderes tecnológicos',
   description: (
@@ -80,7 +80,7 @@ export const titleLandingHGS6 = {
     </>
   )
 }
-
+ 
 //Inofrmacion landing-hgs cards soluciones para cada tipo de empresa
 export const dataLandignHGS2 = [
   {
@@ -99,12 +99,12 @@ export const dataLandignHGS2 = [
     btnText: "Ampliar Informacion",
     btn: "Ampliar Informacion",
   },
-  
+ 
 ];
-
-
+ 
+ 
 //INFOMACION LANDING HGS CARDS portafolio completo
-
+ 
 export const dataCardsLandingHGS: dataCard[] = [
     {
         icon:<CodeOutlined sx={{fontSize:35, fill:'red', stroke:'white'}}/>,
@@ -125,15 +125,15 @@ export const dataCardsLandingHGS: dataCard[] = [
         alineacion:'center'
     }
 ]
-
+ 
 //Informacion cards nuestro portafolio de soluciones
-
+ 
 export const dataCardsLandingHGS2: dataCard[] = [
     {
     icon: (
       <AssignmentIndOutlined sx={{  fontSize:40 }} />
     ),
-    title: "Módulo de Pensiones obligatorias ",
+    title: "Módulo de Pensiones obligatorias ",
     description:"Gestiona el cálculo y liquidación de nómina con precisión, cumplimiento normativo y automatización completa. Nuestra solución de nómina garantiza:",
     items: [
       { textos:"Calculo preciso y automatico de compra"},
@@ -142,11 +142,11 @@ export const dataCardsLandingHGS2: dataCard[] = [
       { textos:"Autoliquidacion de aporte y parafiscales"},
       { textos:"Repostes y consultas en tiempo real"},
       { textos:"Portal empleado con autogestion"},
-      
+     
     ],
     btn:'Conoce más'
   },
-
+ 
   {
     icon:<AccountBalanceOutlined sx={{fontSize:40}}/>,
     title:'Software Nomina para Gobierno',
@@ -160,7 +160,7 @@ export const dataCardsLandingHGS2: dataCard[] = [
     ],
     btn:'Conoce más'
   },
-
+ 
   {
     icon:<AddReactionOutlined sx={{fontSize:40}}/>,
     title:'Software de Talento Humano',
@@ -173,11 +173,11 @@ export const dataCardsLandingHGS2: dataCard[] = [
         {textos:'Capactitacion y desarrollo'},
         {textos:'Gestion de tiempo y asistencia'},
         {textos:'Analitycs de talento e indicadores de RRHH'},
-        
+       
     ],
     btn:'Conoce más'
   },
-
+ 
    {
     icon:<VolunteerActivismOutlined sx={{fontSize:40}}/>,
     title:'Software seguridad y salud en el trabajo (SST)',
@@ -189,15 +189,15 @@ export const dataCardsLandingHGS2: dataCard[] = [
         {textos:'Examenes medicos ocupacionales'},
         {textos:'Capacitaciones t entrenamiento en SST'},
         {textos:'Indicadores y reportes de gestion'},
-        {textos:'Auditorias y cumplimineto normativo'},   
+        {textos:'Auditorias y cumplimineto normativo'},  
     ],
     btn: 'Conoce más'
   },
-
+ 
 ]
-
+ 
 //INFORMACION cards Soluciones en Modalidad Outsorcing (BPO)
-
+ 
 export const dataCardsLandingHGS3 = [
      {
     icon:<AssessmentOutlined sx={{fontSize:40}}/>,
@@ -213,7 +213,7 @@ export const dataCardsLandingHGS3 = [
     ],
     btn: 'Conoce más'
   },
-
+ 
     {
         icon:<WorkOutlineOutlined sx={{fontSize:40}}/>,
         title:'Outsourcing de Recobro de Incapacidades (GRE)',
@@ -224,11 +224,11 @@ export const dataCardsLandingHGS3 = [
             { textos:'Maximización de recuperación de recursos'},
             { textos:'Reducción de cartera de recobro'},
             { textos:'Reportes de gestión y recuperación'},
-            
+           
         ],
         btn: 'Conoce más'
     },
-
+ 
     {
         icon:<AssignmentIndOutlined sx={{fontSize:40}}/>,
         title:' Nómina de Pensionados',
@@ -244,7 +244,7 @@ export const dataCardsLandingHGS3 = [
         btn: 'Conoce más'
     },
 ]
-
+ 
 //INFORMACION CARDFEATURES PORQUE ELEGIR HEINSOHN HUMAN GLOBAL SOLUTIONS
 export const dataCardsFeaturesLandingHGS = [
   {
@@ -252,37 +252,37 @@ export const dataCardsFeaturesLandingHGS = [
     title: "Experiencia comprobada",
     description: "Más de 40 años liderando el mercado de soluciones de nómina y gestión humana ",
   },
-
+ 
   {
     icon:<LanguageOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Alcance regional",
     description:"Presencia en más de 6 países con conocimiento local profundo",
   },
-
+ 
   {
     icon:<ViewQuiltOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Versatilidad",
     description:"Soluciones para PyMEs y Grandes Empresas, sector privado y público ",
   },
-
+ 
   {
     icon: <BusinessCenterOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Confianza",
     description:"Más de 1,000 clientes y 500,000 usuarios diarios respaldan nuestra calidad ",
   },
-
+ 
   {
     icon: <RouteOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Flexibilidad",
     description:"Modalidades SaaS, Outsourcing o híbridas según tus necesidades ",
   },
-
+ 
   {
     icon: <InsightsOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Innovación",
     description:"Tecnología de última generación con alianzas estratégicas (IBM, Microsoft) ",
   },
-
+ 
   {
     icon: <ShowChartOutlined sx={{fill:'red',fontSize:40}}/>,
     title: "Cumplimiento",
@@ -293,11 +293,11 @@ export const dataCardsFeaturesLandingHGS = [
     title: "Especialización",
     description:"Soluciones verticales por industria y tipo de organización",
   },
-
+ 
 ];
-
+ 
 //INFORMACION DATACARDS comienza tu transformacion digital en Gestion Humana
-
+ 
 //*MIRAR DESCRIPTION O TITLE Y PORQUE */
 export const dataCardsLandingHGS4: dataCard[] = [
   {title:  'Optimizar procesos y reducir tiempos operativos'},
@@ -307,9 +307,9 @@ export const dataCardsLandingHGS4: dataCard[] = [
   {title: 'Escalar tu operación sin incrementar proporcionalmente costos'},
   {title: 'Enfocarte en tu estrategia de talento mientras nosotros gestionamos la operación'},
 ]
-
-
-
+ 
+ 
+ 
 //INFORRMACION LANDINGH HGS CARRUSEL
 export const heroSlides = [
   {
@@ -325,10 +325,10 @@ export const heroSlides = [
     image: "/img/imgSlider.png",
   }
 ]
-
-
+ 
+ 
 //LINEA DE ICONOS Alianza estrategicas con lideres tecnologicos
-
+ 
 export const dataTimeLineAlianzas = [
   {
     title: "Soluciones de última generación",
@@ -337,7 +337,7 @@ export const dataTimeLineAlianzas = [
       Nuestras plataformas incorporan tecnologías emergentes como <span className="font-bold">inteligencia artificial, Analytics avanzado, automatización de procesos y experiencia de usuario optimizada,</span> garantizando que tu empresa cuente con herramientas de vanguardia
       </>
     ),
-    icon: <Diversity2Outlined sx={{ fontSize: 32 }} /> 
+    icon: <Diversity2Outlined sx={{ fontSize: 32 }} />
   },
   {
     title: "Experiencia comprobada",
@@ -355,10 +355,10 @@ export const dataTimeLineAlianzas = [
       Atendemos tanto al <span className="font-bold">sector privado</span> como al <span className="font-bold">sector público</span>, con soluciones especializadas para entidades gubernamentales, fondos de pensiones, empresas de servicios, retail, manufactura y más. Nuestras soluciones por <span className="font-bold">verticales de negocio</span> garantizan que cada industria reciba la funcionalidad específica que necesita.
       </>
     ),
-    icon: <AccountBalanceOutlined sx={{ fontSize: 32 }} /> 
+    icon: <AccountBalanceOutlined sx={{ fontSize: 32 }} />
   }
 ];
-
+ 
 //INFORMACION SLIDER TESTIMONIAL
 export const testimonialsSlider = [
   {

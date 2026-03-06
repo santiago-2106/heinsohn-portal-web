@@ -1,95 +1,87 @@
 import React from "react";
 import Navbar from "@/src/components/layout/navbar/Navbar";
+import Hero from "@/src/components/sections/shared/hero/Hero";
+import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
-
-// Importación de todos los componentes
-import Hero from "@/src/components/sections/shared/hero/Hero";
-import SliderVentajas from "@/src/components/sliders/SliderVentajas";
-import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
-import LideresSection from "@/src/components/sections/pensiones/LideresSection";
-import FuncionalidadesSection from "@/src/components/sections/pensiones/FuncionalidadesSection";
-import SectionCenteredText from "@/src/components/sections/shared/centertext/SectionCenteredText";
-import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
-import SliderBlog from "@/src/components/sliders/SliderBlog";
+import { dataSAP, dataPorQueSAP } from "@/src/data/sap"; // <-- Importamos la nueva data
+import SectionGestionHumana from "@/src/components/sections/gestion-humana/SectionGestionHumana";
+import Clientes from "@/src/components/sections/shared/clientes/Clientes";
+import BannerFiguras from "@/src/components/sections/shared/figura/BannerFiguras";
+import TestInteractivo from "@/src/components/forms/formularios/TestInteractivo";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
+import SectionCenteredText from "@/src/components/sections/shared/centertext/SectionCenteredText"; 
 
-// Importación de la data
-import { dataPensionesVoluntarias } from "@/src/data/pensiones-voluntarias";
-
-export default function PensionesVoluntarias() {
+export default function SolucionesSAP() {
   return (
-    <div className="bg-bg-main min-h-screen transition-colors duration-300">
+    <div>
       <Navbar />
 
-      {/* 1. HERO */}
+      {/* SECCIÓN HERO */}
       <Hero
-        title={dataPensionesVoluntarias.hero.title}
-        description={dataPensionesVoluntarias.hero.description}
-        buttonText={dataPensionesVoluntarias.hero.buttonText}
-        breadcrumb={dataPensionesVoluntarias.hero.breadcrumb}
-        showBadges={false}
-        isUppercase={false}
+        title={dataSAP.hero.title}
+        description={dataSAP.hero.description}
+        buttonText={dataSAP.hero.buttonText}
+        breadcrumb={dataSAP.hero.breadcrumb}
       />
 
-      {/* 2. VENTAJAS (CARRUSEL ANIMADO) */}
-      <SliderVentajas 
-        title={dataPensionesVoluntarias.ventajas.title}
-        description={dataPensionesVoluntarias.ventajas.description}
-        cards={dataPensionesVoluntarias.ventajas.cards}
-      />
-
-      {/* 3. SERVICIOS DE GESTIÓN (CUADRÍCULA 2x2 REUTILIZANDO CARDANUNCIES) */}
-      <CardAnuncies 
-        title={dataPensionesVoluntarias.servicios.title}
-        cards={dataPensionesVoluntarias.servicios.cards}
+      {/* SECCIÓN CARDS IA */}
+      <CardAnuncies
+        title={dataSAP.aiSection.title}
+        cards={dataSAP.aiSection.cards}
         cols={2}
       />
 
-      {/* 4. LÍDERES #1 (COMPONENTE EXCLUSIVO) */}
-      <LideresSection 
-        title={dataPensionesVoluntarias.lideres.title}
-        mainCard={dataPensionesVoluntarias.lideres.mainCard}
-        gridCards={dataPensionesVoluntarias.lideres.gridCards}
+      {/* SECCIÓN: TEST INTERACTIVO ERP */}
+      <SectionGestionHumana
+        title={dataSAP.testSection.title}
+        description={dataSAP.testSection.description}
+        cards={dataSAP.testSection.cards}
       />
 
-      {/* 5. FUNCIONALIDADES (TABS INTERACTIVOS) */}
-      <FuncionalidadesSection 
-        title={dataPensionesVoluntarias.funcionalidades.title}
-        tabs={dataPensionesVoluntarias.funcionalidades.tabs}
+      {/* SECCIÓN: COMPARACIÓN DE ERP */}
+      <CardAnuncies
+        title={dataSAP.erpComparisonSection.title}
+        description={dataSAP.erpComparisonSection.description}
+        cards={dataSAP.erpComparisonSection.cards}
+        cols={3}
       />
 
-      {/* 6. TEXTO CENTRADO (CTA) */}
+      {/* SECCIÓN: POR QUÉ ELEGIR HEINSOHN (Aquí estaba el error) */}
+      <div className="bg-[#fafafa]">
+        <CardAnuncies
+          title={dataSAP.partnerSection.title}
+          description={dataSAP.partnerSection.description}
+          cards={dataSAP.partnerSection.cards}
+          topBadge={(dataSAP.partnerSection as any).topBadge}
+          cols={2}
+        />
+      </div>
+      
+      <Clientes
+        title="Compañías que confían en SAP Y Heinsohn"
+        description={dataSAP.clientesSection.description}
+      />
+      
+      <BannerFiguras />
+
+      <CardAnuncies
+        title={dataSAP.afterTestSection.title}
+        description={dataSAP.afterTestSection.description}
+        cards={dataSAP.afterTestSection.cards}
+        cols={2}
+      />
+      
+      <TestInteractivo />
+      
+      <ContactForm />
+
+      {/* AQUÍ VA NUESTRA NUEVA SECCIÓN DE TEXTO */}
       <SectionCenteredText 
-        title={dataPensionesVoluntarias.cta.title}
-        description={dataPensionesVoluntarias.cta.description}
+        title={dataPorQueSAP.title}
+        description={dataPorQueSAP.description}
       />
 
-{/* 7. PREGUNTAS FRECUENTES */}
-      <div className="py-16 md:py-24 bg-bg-main">
-        <div className="max-w-4xl mx-auto px-4">
-          {/* Aquí le pasamos las propiedades obligatorias al componente */}
-          <PreguntForm 
-            title={dataPensionesVoluntarias.faq.title}
-            items={dataPensionesVoluntarias.faq.items}
-          />
-        </div>
-      </div>
-
-      {/* 8. BLOG DESTACADO */}
-      <div className="py-16 md:py-24 bg-bg-main border-t border-border-ui">
-        <h2 className="text-3xl md:text-4xl text-text-title font-light mb-12 text-center">
-          Blog destacado
-        </h2>
-        <SliderBlog />
-      </div>
-
-      {/* 9. FORMULARIO DE CONTACTO */}
-      <div id="contacto">
-        <ContactForm />
-      </div>
-
-      {/* 10. FOOTER */}
       <Footer />
       <FooterBottom />
     </div>

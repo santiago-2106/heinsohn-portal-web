@@ -6,7 +6,7 @@ import TextSections from "@/src/components/ui/typography/TextSections";
 import { dataLandignHGS } from "@/src/data/landing-hgs";
 import SectionLandingHgs from "@/src/components/sections/landing-hgs/SectionLandingHgs";
 import SectionLandingHgs2 from "@/src/components/sections/landing-hgs/SectionLandingHgs2";
-
+ 
 export default function SolucionesLandign() {
   const dataTI = {
     title: "Human Global Solutions",
@@ -20,7 +20,7 @@ export default function SolucionesLandign() {
       { label: "Soluciones TI" },
     ],
   };
-
+ 
   return (
     <div>
       <Navbar />
