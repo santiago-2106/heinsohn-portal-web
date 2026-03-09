@@ -8,12 +8,12 @@ import "./globals.css";
 // 2. Configuramos la fuente Montserrat
 const montserrat = Montserrat({ 
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"], // Pesos de fuente disponibles
+  weight: ["300", "400", "500", "600", "700", "800", "900"], // Pesos de fuente disponibles
   variable: "--font-montserrat", // 3. Creamos la variable que lee el globals.css
 });
 
 export const metadata: Metadata = {
-  title: "Heinsohn Portal",
+  title: "Nuevo Portal Heinsohn",
   description: "Soluciones tecnológicas líderes en LATAM",
 };
 
