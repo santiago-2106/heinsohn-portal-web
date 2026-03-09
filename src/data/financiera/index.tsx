@@ -1,8 +1,5 @@
 import { dataCard } from "@/src/types/cardTypes";
-import React, { ReactNode } from "react";
-import { StaticImageData } from "next/image";
 
-// --- ICONOS GENERALES ---
 import DevicesIcon from "@mui/icons-material/Devices";
 import DataObjectIcon from "@mui/icons-material/DataObject";
 import CloudQueueIcon from "@mui/icons-material/CloudQueue";
@@ -36,6 +33,7 @@ import RequestQuoteIcon from "@mui/icons-material/RequestQuote";
 import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import FolderOpenIcon from "@mui/icons-material/FolderOpen";
 import PieChartIcon from "@mui/icons-material/PieChart";
+import { title } from "process";
 
 // ==========================================
 // DATOS: SECTOR TI / SOFTWARE
@@ -245,7 +243,7 @@ export const textoSolucionDigital2: dataCard[] = [
       </>
     ),
     description:
-      "Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.",
+      "Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint.",
   },
 
   {
@@ -255,7 +253,7 @@ export const textoSolucionDigital2: dataCard[] = [
       </>
     ),
     description:
-      "Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. ",
+      "Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante. ",
   },
 ];
 
@@ -368,7 +366,7 @@ export const infoGestionHumana2: dataCard[] = [
 ];
 
 // ==========================================
-// DATOS: SECTOR FINANCIERO (Tus datos)
+// DATOS: SECTOR FINANCIERO
 // ==========================================
 export const financialChallengesCards: dataCard[] = [
   {
@@ -415,7 +413,7 @@ export const financialChallengesCards: dataCard[] = [
   },
 ];
 
-export const financialSolutionsCards: dataCard[] = [
+export const financialSolutionsCards: dataCard[] =[
   {
     icon: <RequestQuoteIcon sx={{ fontSize: 32 }} />,
     title: "Gestión de Créditos y Libranzas",
@@ -435,7 +433,6 @@ export const financialSolutionsCards: dataCard[] = [
       "Software especializado en obligaciones financieras que brinda visibilidad total del portafolio y asegura cumplimiento normativo.",
     items: [
       {
-        titulo: "xd",
         textos:
           "Registro y seguimiento de pagos, anticipos, reestructuraciones y novaciones.",
       },
@@ -482,35 +479,30 @@ export const financialSolutionsCards: dataCard[] = [
 export const experienceStatsData: dataCard[] = [
   {
     title: "Cobertura masiva",
-    description:
-      "Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en fondos de pensiones, FICs e inversiones.",
+    description:(<>Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en <strong className="font-bold text-text-title">fondos de pensiones, FICs e inversiones.</strong></>),
     btn: "",
     icon: null,
   },
   {
     title: "Mercados complejos",
-    description:
-      "Experiencia probada en sectores altamente regulados de Colombia, Perú, Bolivia, El Salvador, Honduras, Panamá, Argentina, Uruguay, entre otros.",
+    description:(<>Experiencia probada en sectores altamente regulados de <strong className="font-bold text-text-title">Colombia, Perú, Bolivia, El Salvador, Honduras, Panamá, Argentina, Uruguay, entre otros.</strong></>),
     btn: "",
     icon: null,
   },
   {
     title: "Confianza sostenida",
-    description:
-      "Más de 1.200 entidades financieras y aseguradoras activas en LATAM y el Caribe que utilizan nuestras plataformas.",
+    description:(<><strong className="font-bold text-text-title">Más de 1.200 entidades</strong> financieras y aseguradoras activas en LATAM y el Caribe que utilizan nuestras plataformas.</>),
     btn: "",
     icon: null,
   },
   {
     title: "Resultados tangibles",
-    description:
-      "Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en proyectos de gran escala.",
+    description:(<>Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en <strong className="font-bold text-text-title">proyectos de gran escala.</strong></>),
     btn: "",
     icon: null,
   },
 ];
 
-// --- DATOS PARA PREGUNTAS FRECUENTES (FAQ) --- //
 export interface FaqItem {
   question: string;
   answer: string;
@@ -571,3 +563,54 @@ export const financialFaqData: FaqItem[] = [
       "Absolutamente. Contamos con experiencia probada en Colombia, Ecuador, Perú, Panamá, Costa Rica, Honduras, El Salvador, República Dominicana, entre otros, adaptando nuestra parametrización a las leyes y prácticas de mercado locales.",
   },
 ];
+
+// ==========================================
+// NUEVO: DATOS HERO Y RETOS (Financiera)
+// ==========================================
+
+export const dataFinanzas = {
+  title: (
+    <>
+      Soluciones para el sector <br className="hidden md:block" /> financiero
+    </>
+  ),
+  // Texto fluido sin <br> para que el contenedor lo acomode de forma natural
+  description: (
+    <>
+      Contamos con un <strong className="font-bold text-text-title">portafolio de software especializado para banca, fintechs, aseguradoras y entidades no bancarizadas</strong> que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo.
+    </>
+  ),
+  buttonText: "Solicita una asesoría gratuita",
+  breadcrumb: [
+    { label: "Soluciones", href: "/soluciones" },
+    { label: "Soluciones para el sector financiero" },
+  ],
+  badges: [
+    { 
+      prefix: "+", 
+      highlight: "40", 
+      text: "años de experiencia" 
+    },
+    { 
+      prefix: "+", 
+      highlight: "1.200", 
+      text: "clientes en LATAM" 
+    },
+  ]
+};
+export const entitiesData = {
+  title:(
+    <>Lo que enfrentan hoy las entidades<br className="hidden md:block" />financieras en la región</>
+  )
+}
+export const introRetos = {
+  description: (
+    <>
+      La industria financiera en Latinoamérica vive un momento decisivo. La digitalización, la presión regulatoria y la irrupción de nuevos actores están transformando la manera en que bancos, fintechs, aseguradoras y entidades no bancarizadas operan.<strong>Estos son algunos de los retos más urgentes:</strong>
+    </>
+  )
+}
+export const footerRetos =
+  "Comprender estos desafíos es el primer paso para transformarlos en oportunidades. Por eso, contar con software especializado, seguro y escalable es clave para transformar estos desafíos en oportunidades de crecimiento";
+
+export const btnRetos = "Descubre cómo enfrentamos estos retos en LATAM";

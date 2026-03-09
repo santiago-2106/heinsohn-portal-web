@@ -14,7 +14,7 @@ export default function CertificacionesInternacionales({
   
   // RUTA CORREGIDA: En Next.js NO se pone "public" ni "../../" para archivos de imagen.
   // Asegúrate de que el archivo se llame exactamente así en tu carpeta public/img/
-  const defaultImage = "/img/certificacionInternacional.png"; 
+  const defaultImage = "/img/certificado-internacional.png"; 
 
   return (
     <section className="bg-white pt-16 pb-8">
