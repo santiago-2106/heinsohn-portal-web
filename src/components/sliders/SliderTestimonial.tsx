@@ -52,11 +52,11 @@ export default function SliderTestimonial({ items }: TestimonialSliderProps) {
         {/* navegacin botones */}
         <div className="flex justify-center items-center gap-6 mt-8">
 
-          <button className="testimonial-prev h-12 w-12 flex items-center justify-center rounded-full border hover:bg-gray-100">
+          <button className="testimonial-prev h-12 w-12 flex items-center justify-center rounded-full border border-border-ui hover:bg-gray-100">
             <ArrowCircleLeftIcon />
           </button>
         <div className="custom-pagination static w-auto! gap-2" />
-          <button className="testimonial-next h-12 w-12 flex items-center justify-center rounded-full border hover:bg-gray-100">
+          <button className="testimonial-next h-12 w-12 flex items-center justify-center rounded-full border border-border-ui hover:bg-gray-100">
             <ArrowCircleRightIcon />
           </button>
 

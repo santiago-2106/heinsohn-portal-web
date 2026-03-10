@@ -22,6 +22,7 @@ export default function ModelosDesarrollo() {
           cards={textoModelDevelop}
           cols={2}
         />
+        <ButtonComponent textoBtn='Explora el modelo de desarrollo de software que mejor encaja con tu estrategia' />
 
         <CardAnuncies
           title={TextSolucionDigtal3.title}

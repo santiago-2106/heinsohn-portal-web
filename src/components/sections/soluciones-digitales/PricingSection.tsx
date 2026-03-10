@@ -17,11 +17,11 @@ export default function CardSd() {
             return (
               <article
                 key={index}
-                className="flex flex-col justify-between border border-gray-200 bg-white"
+                className="flex flex-col justify-between border border-border-ui bg-bg-card-2"
               >
                 <div className="p-8 md:p-10">
-                  <Iconos className="mb-6 text-5xl text-gray-700" />
-                  <h4 className="text-2xl font-semibold text-gray-500 mb-8">
+                  <Iconos className="mb-6 text-5xl text-text-body" />
+                  <h4 className="text-2xl font-semibold text-text-title mb-8">
                     {card.titles}
                   </h4>
 
@@ -30,16 +30,17 @@ export default function CardSd() {
                       const IconosSubtitles = item.icon;
                       return (
                         <div key={i}>
-                          <div className="flex items-center gap-3 mb-3">
-                            <IconosSubtitles className="text-lg text-gray-500" />
-                            <h4 className="text-sm font-medium text-gray-800">
+                          <div className="flex items-center gap-3 mb-3 ">
+                            <IconosSubtitles className="text-lg text-text-body" />
+                            <h4 className="text-sm font-medium text-text-body">
                               {item.text}
                             </h4>
                           </div>
 
-                          <ul className="ml-7 space-y-2 text-sm text-gray-500 ">
+                          <ul className="ml-7 space-y-2 text-sm text-text-body list-disc list-inside">
                             {item.features.map((feature, featur) => (
                               <li key={featur} className="flex gap-2">
+                                
                                 {feature}
                               </li>
                             ))}

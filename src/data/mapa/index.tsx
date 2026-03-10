@@ -51,45 +51,66 @@ export const paisesStaffArgumentation = [
 }
 ]
 
-export const paisesPendientes = [
+//PAISES LANDIGN HGS MAPA
+export const paisesLandingHgs = [
     
     {
-    id:1,    
-    nombre:(
-    <>
-    <span className="text-red-600">01.</span> Mexico
-    </>
-    ), image:"/bandera-mexico.svg"
-     },
-    
-    {
-    id:2,
+    id:1,
     nombre: (
         <> 
-        <span className="text-red-500">02.</span> Colombia        
+        <span className="text-red-500">01.</span> Colombia        
         </>
     ), 
     image:"/bandera-colombia.svg"
     },
+    {
+    id: 2,
+    nombre: (
+      <>
+        <span className="text-red-600">02.</span> Costa Rica
+      </>
+    ),
+    image: "/bandera-costa-rica.svg"
+  },
+   {
+    id: 3,
+    nombre: (
+      <>
+        <span className="text-red-600">03.</span> Ecuador
+      </>
+    ),
+    image: "/bandera-ecuador.svg"
+  },
+
+  {
+    id: 4,
+    nombre: (
+      <>
+        <span className="text-red-600">04.</span> Guatemala
+      </>
+    ),
+    image: "/bandera-guatemala.svg"
+  },
+  {
+    id: 5,
+    nombre: (
+      <>
+        <span className="text-red-600">05.</span> Panamá
+      </>
+    ),
+    image: "/bandera-panama.svg"
+  },
     
     {
-    id:3,
+    id:6,
     nombre:(
         <> 
-        <span className="text-red-500">03.</span> Peru        
+        <span className="text-red-500">06.</span> Peru        
         </>
     ), 
     image:"/bandera-peru.svg"
     },
 
-    {
-    id:4,
-    nombre: (
-        <> 
-        <span className="text-red-500">04.</span> Chile      
-        </>
-    ), image:"/bandera-chile.svg"
-}
 ]
 
 export const paisesLandingSoftware = [

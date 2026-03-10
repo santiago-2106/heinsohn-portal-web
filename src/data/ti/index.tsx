@@ -23,14 +23,14 @@ export const softwareCards: dataCard[] = [
   {
     icon: <DevicesIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Desarrollo de aplicaciones moviles y web",
-    description: "soluciones intuitivas para todo tip de dispositivos",
-    btn: "ver soluciones",
+    description: "soluciones intuitivas para todo tipo de dispositivos",
+    btn: "Ver soluciones",
   },
   {
     icon: <DisplaySettingsIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Diseño y Desarrollo UX/UI",
     description:
-      "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion",
+      "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversión.",
     btn: "Ver experiencias",
   },
   {
@@ -56,7 +56,7 @@ export const softwareCards: dataCard[] = [
     icon: <DeveloperModeIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
     title: "Modernizacion de aplicaciones de software",
     description:
-      "actualizacion tecnologica que prolonga la vida util y aumenta la eficiencia",
+      "actualización tecnológica que prolonga la vida útil y aumenta la eficiencia.",
     btn: "Actualizar ahora",
   },
 ];
@@ -74,7 +74,7 @@ export const analitycCards: dataCard[] = [
     title: "Consultoría IA",
     description:
       "Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.",
-    btn: "Ver experiencias",
+    btn: "Conocer más",
   },
   {
     icon: <AutoAwesomeIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,

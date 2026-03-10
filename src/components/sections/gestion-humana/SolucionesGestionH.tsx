@@ -12,6 +12,7 @@ import {
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import Clientes from "../shared/clientes/Clientes";
 import ButtonComponent from "../../ui/buttons/Button";
+import CardGrid from "../../layout/grids/CardGrid";
 
 export default function SolucionesGestionH() {
   return (
@@ -22,11 +23,11 @@ export default function SolucionesGestionH() {
           description={textoGestionHumana.description}
         />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
+        <CardGrid columns={3}>
           {gestionHumanaInfo.map((info, index) => (
             <CardGestionHumana key={index} {...info} />
           ))}
-        </div>
+        </CardGrid>
       </article>
 
       <CardAnuncies

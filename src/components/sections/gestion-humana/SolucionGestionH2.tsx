@@ -20,9 +20,14 @@ export default function TalentCloudSection() {
 
   return (
     <div>
+      <section className="flex justify-center items-center w-full mt-28 mb-12">
+        <div className="bg-black px-2 py-2 md:px-4 md:py-4 w-fit border border-border-ui">
+          <p className="text-xl tracking-tight text-center text-white">Soluciones Modulares</p>
+        </div>
+      </section>
       <TextComponent title="Somos la solución en gestión, del talento humano en la nube." />
 
-      <section className="max-w-2xl mx-auto mt-4 p-5">
+      <section className="max-w-3xl mx-auto mt-4 py-5">
         <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 ">
           {dataInfoGestionHumana.map((item, index) => (
             <div
@@ -45,28 +50,24 @@ export default function TalentCloudSection() {
                 src="/img/imgIAgestionHumana.jpg"
                 alt="IA en Recursos Humanos"
                 fill
-                className="object-cover "
+                className="object-cover brightness-50 grayscale-100"
               />
 
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-white opacity-90 group-hover:scale-110 transition-transform duration-300">
-                  <PlayCircleOutlineOutlined
-                    sx={{ fontSize: 80, color: "var(--theme-brand-accent)" }}
-                  />
+                <div className="text-brand-accent opacity-90 group-hover:scale-110 transition-transform duration-300">
+                  <PlayCircleOutlineOutlined sx={{ fontSize: 80 }}/>
                 </div>
               </div>
             </div>
             <div className="bg-text-title text-bg-main py-12 px-6 text-center">
-              <p className="text-lg md:text-xl font-light mb-4 opacity-80">
+              <p className="text-lg md:text-xl font-light mb-4 opacity-80 text-white">
                 ¡Conoce el impacto positivo que puede tener en tu empresa!
               </p>
               <a
                 href="#"
                 className="inline-flex items-center gap-2 text-sm font-semibold hover:underline decoration-brand-accent underline-offset-4"
               >
-                <PlayCircleOutlineRounded
-                  sx={{ fontSize: 20, color: "var(--theme-brand-accent)" }}
-                />
+                <PlayCircleOutlineRounded sx={{ fontSize: 20}}/>
                 <span className="uppercase tracking-widest">Descubre más</span>
               </a>
             </div>

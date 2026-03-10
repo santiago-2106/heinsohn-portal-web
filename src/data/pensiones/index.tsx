@@ -11,6 +11,7 @@ import {
   SavingsOutlined,
   AssignmentIndOutlined,
   EditLocationAltOutlined,
+  PermContactCalendarOutlined,
 } from "@mui/icons-material";
 
 
@@ -25,10 +26,10 @@ import { cardPropsInformation } from "../../types/typeCardAnuncies";
 
 export const infoPensiones1: ResultsCorporativoData = {
   highlight: {
-    icon: <RocketLaunchOutlined sx={{ fontSize: 40 }} />,
+    icon: <RocketLaunchOutlined sx={{ fontSize: 70 }} />,
     value: "30",
     suffix: "+",
-    description: "Años de experiencia",
+    description: "años de experiencia",
   },
 
   metrics: [
@@ -40,8 +41,14 @@ export const infoPensiones1: ResultsCorporativoData = {
     },
     {
       id: "cost",
-      suffix: "+",
-      value: "90.000 USD",
+      
+      value: (
+        <>
+        <span className="text-text-body text-sm md:text-xl">Gestionamos</span>
+        <br />
+        <span className="text-brand-accent">+</span> 90.000 <span className="text-sm font-bold">USD</span>
+        </>
+      ),
       description: "millones en pensiones",
     },
   ],
@@ -101,10 +108,7 @@ export const infoPensiones3: dataCard[] = [
       <>
         Gestiona el ciclo completo del afiliado,
         desde el diseño, vinculación hasta el reconocimiento y pago de la
-        pensión{" "}
-        <span className="font-semibold text-gray-800">
-          Bajo distintos regimenes y marcos normativos.
-        </span>
+        pensión, <span className="font-bold">Bajo distintos regimenes y marcos normativos.</span>
       </>
     ),
     items: [
@@ -141,6 +145,13 @@ export const infoPensiones3: dataCard[] = [
           "Visión 360° del afiliado y empleadores, brindando acceso unificado a cuentas bancarias, relaciones y estado de las obligaciones. ",
       },
     ],
+    textoFooter:(
+      <>
+      Administramos el <span className="text-brand-accent">48%</span> de las pensiones obligatorias en Colombia, que representan <span className="font-bold">USD 63 billones</span>
+      </>
+    ),
+    
+    btn:'Explora el módulo de pensiones obligatorias'
   },
 
   {
@@ -150,11 +161,8 @@ export const infoPensiones3: dataCard[] = [
     title: "Módulo de Rentas vitalicias y nómina de pensionados ",
     description: (
       <>
-        Administra la liquidación y pago periódico de rentas vitalicias y la
-        nómina de pensionados desde una{" "}
-        <span className="font-semibold text-gray-800">
-          plataforma 100 % web y altamente automatizada. 
-        </span>
+        Administra la liquidación y pago periódico de rentas vitalicias y la
+        nómina de pensionados desde una <span className="font-bold">plataforma 100 % web y altamente automatizada.</span>
       </>
     ),
     items: [
@@ -173,7 +181,9 @@ export const infoPensiones3: dataCard[] = [
         textos:
           "Se adapta a fondos de pensiones, aseguradoras y empresas de riesgos laborales, permitiéndote gestionar tanto nóminas de pensionados como rentas vitalicias en un solo lugar. ",
       },
-    ],
+    ], 
+    btnHasBorder:true,
+    btn:'Conoce el módulo de rentas vitalicias'
   },
   {
     icon: (
@@ -210,6 +220,13 @@ export const infoPensiones3: dataCard[] = [
           "Cierre operativo y financiero de los fondos con trazabilidad total. ",
       },
     ],
+    textoFooter:(
+      <>
+      Administramos el <span className="text-brand-accent">43%</span> del ahorro voluntario en Colombia, que representan <span className="font-bold">USD 5 billones</span>
+      </>
+    ),
+    
+    btn:'Descubre el módulo de pensiones voluntarias'
   },
   {
     icon: <AccountCircle sx={{ fill: "white", stroke: "black", fontSize:40 }} />,
@@ -239,35 +256,35 @@ export const infoPensiones3: dataCard[] = [
           "Reducción de costos operativos y mejora en la trazabilidad de aportes. ",
       },
     ],
+    btnHasBorder:true,
+    btn:'Explora el módulo de censatías'
   },
 ];
 
 export const infoPensiones4: cardPropsInformation = {
   cards: infoPensiones3,
-  bottomText: <>REVISAR AQUI</>,
-  bottomBtn: "xs",
 };
 
 export const informacionPensiones5: dataCard[] = [
   {
-    icon: <AccountBox sx={{ fill: "white", stroke: "red" }} />,
+    icon: <AccountBox sx={{ fill:'white',stroke:'#D30034', fontSize:35}} />,
     title: "Escala regional",
     description:
       "Presencia en El Salvador, Bolivia, Perú, Colombia, Honduras y otros países. ",
   },
   {
-    icon: <AddReaction sx={{ fill: "white", stroke: "red" }} />,
+    icon: <AddReaction sx={{ fill:'white',stroke:'#D30034', fontSize:35}} />,
     title: "Cumplimiento regulatorio",
     description: "Actualizaciones continuas ante cambios normativos. ",
   },
   {
-    icon: <DataObjectIcon />,
+    icon: <DataObjectIcon sx={{  fill:'white',stroke:'#D30034', fontSize:35 }}/>,
     title: "Escala regional comprobada y en expansión",
     description:
       "Plataforma que escala regionalmente en proceso de expansión hacia nuevos mercados como Chile, México, República Dominicana, entre otros. Acompañando el crecimiento y la evolución del negocio previsional de nuestros clientes. ",
   },
   {
-    icon: <AssignmentInd sx={{ fill: "white", stroke: "red" }} />,
+    icon: <PermContactCalendarOutlined sx={{ stroke:'#D30034', fontSize:35 }} />,
     title: "Soporte Especializado",
     description:
       "Acompañamiento en implementación y operación diaria, respaldada por un equipo de más de 200 profesionales con conocimiento del sector previsional, gestión de proyectos y procesos funcionales.  ",
@@ -301,3 +318,147 @@ export const infoPensiones6: ResultsCorporativoData = {
     },
   ],
 };
+
+//DATA PREGUNTAS FRECUENTES Soluciones Pensiones
+export const dataPreguntasFrecuentesPensiones = [
+  {
+    question: "¿Se trata de un solo software o de varias soluciones diferentes?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Qué entidades pueden utilizar este software previsional?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿El software se adapta a la regulación de cada país en LATAM?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Puedo implementar solo algunos módulos y escalar después?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿El software cubre la nómina de pensionados y los pagos masivos?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿También sirve para administrar ahorro previsional voluntario o APV?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Se puede usar para administrar cesantías desde el mismo sistema? ",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿El software es multipaís y multimoneda?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Qué tipo de acompañamiento ofrece Heinsohn?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Cómo iniciar la implementación del software previsional?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+];

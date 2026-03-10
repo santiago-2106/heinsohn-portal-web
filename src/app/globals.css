@@ -65,7 +65,7 @@
 
   h2 {
     /* H2 (primera y segunda fila de tu guía) */
-    @apply text-text-title font-semibold text-3xl md:text-4xl lg:text-5xl leading-snug;
+    @apply text-text-title font-semibold text-3xl md:text-4xl lg:text-5xl leading-snug ;
   }
 
   h3 {

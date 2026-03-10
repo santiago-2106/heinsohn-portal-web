@@ -16,13 +16,13 @@ export default function BtnImagesUrl({mode, setMode}: uploadImgUrl) {
 
 
   return (
-    <div className="mx-auto w-96 mb-8 rounded-full items-center bg-gray-100 p-1">
+    <div className="mx-auto w-96 mb-8 rounded-full items-center bg-bg-card-2 p-1">
       {Opciones.map((options) => (
         <button 
         key={options.id}
         onClick={() => setMode(options.id)}
         className={`rounded-full px-6 py-2 font-medium transition-all ${
-          mode === options.id ? 'bg-white' : 'text-gray-500'
+          mode === options.id ? 'bg-bg-card-1' : 'text-gray-500'
         }`}
         >
           {options.label}

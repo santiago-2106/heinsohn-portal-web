@@ -14,15 +14,21 @@ export default function UxImgUrl() {
 
 
   return (
-    <section className="py-20 bg-white">
-      <div className="mx-auto px-4 text-center">
-        <TextComponent 
+    <section className="py-20 bg-bg-main">
+      <TextComponent 
         title="Identifica los errores de UX que están frenando tu negocio" 
         description="Analiza la UX de tu web en  60 segundos a partir de screenshosts reales de tu sitio."
         />
+      <div className="mx-auto px-4 text-center">
+        
 
         
-        <Link href='#' className="underline font-semibold">Conoce como se ve en un diagnostico UX </Link>
+        <div>
+          <Link href='#' className="underline text-text-body">Conoce como se ve en un diagnostico UX </Link>
+          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1 px-6">
+            →
+          </span>
+        </div>
 
         
       </div>

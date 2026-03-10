@@ -56,7 +56,7 @@ export default function CardIA({
                     <li key={itemIndex} className="flex items-start text-text-body gap-3">
                       {list.type === "bullet" ? (
                         // Viñeta: Puntito rojo muy pequeñito (h-1 w-1)
-                        <span className="mt-2.5 h-1 w-1 flex-shrink-0 rounded-full bg-brand-accent"></span>
+                        <span className="mt-2.5 h-1 w-1 flex shrink-0 rounded-full bg-brand-accent"></span>
                       ) : (
                         // Viñeta: Número rojo
                         <span className="text-brand-accent font-medium">
@@ -74,7 +74,7 @@ export default function CardIA({
       )}
 
       {/* Empuja el contenido hacia abajo */}
-      <div className="flex-grow"></div>
+      <div className="flex grow"></div>
 
       {/* Texto de cierre (con su línea arriba) */}
       {footerText && (

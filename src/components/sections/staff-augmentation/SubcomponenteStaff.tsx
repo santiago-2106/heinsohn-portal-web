@@ -34,7 +34,7 @@ export default function SubcomponenteCardStaff({ information }: any) {
 
                   {/* TÍTULO Y DESCRIPCIÓN */}
                   <div>
-                    <h3 className="text-xl md:text-2xl text-text-title font-medium mb-3">
+                    <h3 className="text-xl md:text-2xl text-text-title mb-3">
                       {info.title}
                     </h3>
                     <p className="text-text-body leading-relaxed text-sm md:text-base">

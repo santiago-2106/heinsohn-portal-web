@@ -79,6 +79,10 @@ export default function Hero({
             {title}
           </h1>
 
+          <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
+            {subtitle}
+          </div>
+
           {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
           <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {description}

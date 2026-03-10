@@ -20,7 +20,7 @@ export default function CardGestionHumana({
     // Padding grande (p-8 md:p-12) para que se vea amplia.
     // Borde negro si es la del medio, borde gris si es la de los lados.
     <article 
-      className={`relative flex flex-col bg-bg-card-2 p-8 md:p-12 hover:shadow-lg transition-all duration-300 h-full ${
+      className={`relative flex flex-col bg-bg-card-2 p-8 hover:shadow-lg transition-all duration-300 h-full ${
         isMiddleCard ? "border border-text-title" : "border border-border-ui"
       }`}
     >
@@ -47,7 +47,7 @@ export default function CardGestionHumana({
       )}
 
       {/* Título Principal */}
-      <h3 className="mb-6 text-2xl lg:text-[28px] font-light text-text-title leading-[1.3]">
+      <h3 className="mb-6 text-2xl  font-light text-text-title leading-[1.3]">
         {title}
       </h3>
 
@@ -107,16 +107,16 @@ export default function CardGestionHumana({
       )}
 
       {/* Esto empuja el botón inferior siempre hacia el fondo */}
-      <div className="flex-grow"></div>
+      <div className="flex grow"></div>
 
       {/* Botón Redondeado Inferior */}
       {btnText && (
         <a
           href="#"
-          className="mt-auto group flex items-center justify-between w-max min-w-[220px] gap-6 border border-border-ui rounded-full px-7 py-3.5 text-[15px] font-medium text-text-title hover:border-text-body transition-colors"
+          className="mt-auto flex items-center gap-3 text-[14px] font-bold text-text-body"
         >
           {btnText}
-          <span className="text-text-body group-hover:translate-x-1 transition-transform duration-300">
+          <span className="text-brand-accent text-xl group-hover:translate-x-1 transition-transform">
             →
           </span>
         </a>

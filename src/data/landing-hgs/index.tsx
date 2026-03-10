@@ -1,5 +1,5 @@
 import { dataCard } from "@/src/types/cardTypes";
-import { AccountBalanceOutlined, AddReactionOutlined, AssessmentOutlined, AssignmentIndOutlined, BusinessCenterOutlined, BusinessOutlined, CodeOutlined, Diversity2Outlined, Diversity3Outlined, InsightsOutlined, LanguageOutlined, PsychologyOutlined, RocketLaunchOutlined, RouteOutlined, SettingsInputComponentOutlined, ShowChartOutlined, ViewQuiltOutlined, VolunteerActivismOutlined, VrpanoOutlined, WarehouseOutlined, WorkOutlineOutlined } from "@mui/icons-material";
+import { AccountBalanceOutlined, AddReactionOutlined, AssessmentOutlined, AssignmentIndOutlined, BusinessCenterOutlined, BusinessOutlined, CodeOutlined, DataObjectOutlined, DisplaySettingsOutlined, Diversity2Outlined, Diversity3Outlined, InsightsOutlined, LanguageOutlined, PsychologyOutlined, RocketLaunchOutlined, RouteOutlined, SettingsInputComponentOutlined, ShowChartOutlined, ViewQuiltOutlined, VolunteerActivismOutlined, VrpanoOutlined, WarehouseOutlined, WorkOutlineOutlined } from "@mui/icons-material";
  
  
  
@@ -84,7 +84,7 @@ export const titleLandingHGS6 = {
 //Inofrmacion landing-hgs cards soluciones para cada tipo de empresa
 export const dataLandignHGS2 = [
   {
-    icon: <WarehouseOutlined />,
+    icon: <WarehouseOutlined sx={{fontSize:40}}/>,
     contenedor: " 1 a 450 colaboradores",
     title: "Pymes",
     description: "Nomina para pequeña y mediana empresa",
@@ -92,7 +92,7 @@ export const dataLandignHGS2 = [
     btn: "Ampliar Informacion",
   },
   {
-    icon: <BusinessOutlined />,
+    icon: <BusinessOutlined sx={{fontSize:40}}/>,
     contenedor: "+500 Colaboradores",
     title: "Grandes empresas",
     description: "Nomina para grandes empresas",
@@ -107,13 +107,13 @@ export const dataLandignHGS2 = [
  
 export const dataCardsLandingHGS: dataCard[] = [
     {
-        icon:<CodeOutlined sx={{fontSize:35, fill:'red', stroke:'white'}}/>,
+        icon:<DataObjectOutlined sx={{fontSize:35, fill:'red', stroke:'white'}}/>,
         title:"Software como servicio (SaaS)",
         description:"Plataformas cloud modernas, seguras y siempre actualizadas.",
         alineacion:'center'
     },
     {
-        icon:<SettingsInputComponentOutlined sx={{fontSize:35, fill:'red', stroke:'white'}}/>,
+        icon:<DisplaySettingsOutlined sx={{fontSize:35, fill:'red', stroke:'white'}}/>,
         title:"Outsourcing (BPO)",
         description:"Gestión completa de nómina, administración de personal y recobro de incapacidades",
         alineacion:'center'
@@ -133,15 +133,15 @@ export const dataCardsLandingHGS2: dataCard[] = [
     icon: (
       <AssignmentIndOutlined sx={{  fontSize:40 }} />
     ),
-    title: "Módulo de Pensiones obligatorias ",
+    title: "software de Nómina ",
     description:"Gestiona el cálculo y liquidación de nómina con precisión, cumplimiento normativo y automatización completa. Nuestra solución de nómina garantiza:",
     items: [
-      { textos:"Calculo preciso y automatico de compra"},
+      { textos:"Cálculo preciso y automático de compra"},
       { textos:"Cumplimiento de legislacion laboral"},
       { textos:"Integracion con sistemas contables ERP"},
-      { textos:"Autoliquidacion de aporte y parafiscales"},
+      { textos:"Autoliquidación de aporte y parafiscales"},
       { textos:"Repostes y consultas en tiempo real"},
-      { textos:"Portal empleado con autogestion"},
+      { textos:"Portal empleado con autogestión"},
      
     ],
     btn:'Conoce más'
@@ -149,14 +149,14 @@ export const dataCardsLandingHGS2: dataCard[] = [
  
   {
     icon:<AccountBalanceOutlined sx={{fontSize:40}}/>,
-    title:'Software Nomina para Gobierno',
+    title:'Software Nómina para Gobierno',
     description: 'Solución especializada para entidades del sector público, con funcionalidades específicas para cumplir con normativas gubernamentales, gestión de planta de personal, carrera administrativa y presupuesto:',
     items: [
-        {textos:'Getsion de planta de personal y provisionalida'},
-        { textos:'Control presupuestal de nomina'},
-        {textos:'Cumplimiento normativo del sector publico'},
-        {textos:'Integracion con sistemas de contratacion estatal'},
-        { textos:'Reportes para organos de control'},
+        {textos:'Gestión de planta de personal y provisionalidad'},
+        { textos:'Control presupuestal de nómina'},
+        {textos:'Cumplimiento normativo del sector público'},
+        {textos:'Integración con sistemas de contratación estatal'},
+        { textos:'Reportes para órganos de control'},
     ],
     btn:'Conoce más'
   },
@@ -166,12 +166,12 @@ export const dataCardsLandingHGS2: dataCard[] = [
     title:'Software de Talento Humano',
     description:'Potencia la gestión completa del ciclo de vida del empleado, desde la atracción y selección hasta el desarrollo y retiro. Incluye:',
     items: [
-        {textos:'Reclutamiento y seleccion'},
+        {textos:'Reclutamiento y selección'},
         {textos:'Onboarding digital'},
-        {textos:'Gestion de desempeño y evaluaciones'},
+        {textos:'Gestión de desempeño y evaluaciones'},
         {textos:'Planes de carrera y sucesion'},
-        {textos:'Capactitacion y desarrollo'},
-        {textos:'Gestion de tiempo y asistencia'},
+        {textos:'Capacitación y desarrollo'},
+        {textos:'Gestión de tiempo y asistencia'},
         {textos:'Analitycs de talento e indicadores de RRHH'},
        
     ],
@@ -186,9 +186,9 @@ export const dataCardsLandingHGS2: dataCard[] = [
         {textos:'Gestión de riesgos y peligros'},
         {textos:'Investigacion de incidentes y accidentes'},
         {textos:'Programa de vigilancia epidemiologica'},
-        {textos:'Examenes medicos ocupacionales'},
+        {textos:'Exámenes médicos ocupacionales'},
         {textos:'Capacitaciones t entrenamiento en SST'},
-        {textos:'Indicadores y reportes de gestion'},
+        {textos:'Indicadores y reportes de gestión'},
         {textos:'Auditorias y cumplimineto normativo'},  
     ],
     btn: 'Conoce más'
@@ -248,48 +248,48 @@ export const dataCardsLandingHGS3 = [
 //INFORMACION CARDFEATURES PORQUE ELEGIR HEINSOHN HUMAN GLOBAL SOLUTIONS
 export const dataCardsFeaturesLandingHGS = [
   {
-    icon: <RocketLaunchOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <RocketLaunchOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Experiencia comprobada",
     description: "Más de 40 años liderando el mercado de soluciones de nómina y gestión humana ",
   },
  
   {
-    icon:<LanguageOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon:<LanguageOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Alcance regional",
     description:"Presencia en más de 6 países con conocimiento local profundo",
   },
  
   {
-    icon:<ViewQuiltOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon:<ViewQuiltOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Versatilidad",
     description:"Soluciones para PyMEs y Grandes Empresas, sector privado y público ",
   },
  
   {
-    icon: <BusinessCenterOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <BusinessCenterOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Confianza",
     description:"Más de 1,000 clientes y 500,000 usuarios diarios respaldan nuestra calidad ",
   },
  
   {
-    icon: <RouteOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <RouteOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Flexibilidad",
     description:"Modalidades SaaS, Outsourcing o híbridas según tus necesidades ",
   },
  
   {
-    icon: <InsightsOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <InsightsOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Innovación",
     description:"Tecnología de última generación con alianzas estratégicas (IBM, Microsoft) ",
   },
  
   {
-    icon: <ShowChartOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <ShowChartOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Cumplimiento",
     description: "Garantía de cumplimiento normativo en todos los países donde operamos ",
   },
   {
-    icon: <AssignmentIndOutlined sx={{fill:'red',fontSize:40}}/>,
+    icon: <AssignmentIndOutlined sx={{color:'#D30034',fontSize:40}}/>,
     title: "Especialización",
     description:"Soluciones verticales por industria y tipo de organización",
   },

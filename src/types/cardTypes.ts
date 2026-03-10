@@ -17,6 +17,7 @@ export interface dataCard {
   items?: ItemsCard[];
   alineacion?: "left" | "center";
   textoFooter?: ReactNode;
+  btnHasBorder?: boolean; 
 }
 //IMAGEN MAPA 
 export interface Countries {

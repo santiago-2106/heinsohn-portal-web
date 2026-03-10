@@ -6,6 +6,9 @@ import StaffArgumentationSection from "@/src/components/sections/staff-augmentat
 import StaffArgumentationSection2 from "@/src/components/sections/staff-augmentation/StaffAugmentationSection2";
 import Mapa from "@/src/components/sections/mapa/Mapa";
 import { paisesStaffArgumentation } from "@/src/data/mapa";
+import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
+import { dataPreguntasFrecuentesStaff } from "@/src/data/staff-augmentation";
+import ButtonComponent from "@/src/components/ui/buttons/Button";
 
 export default function page() {
   const infoStaffArgumentation = {
@@ -22,6 +25,22 @@ export default function page() {
           Optimiza costos, escala capacidades y acelera tus entregas con un
           modelo flexible, transparente y alineado a tus zonas horarias. 
         </span>
+
+        <ul className="flex flex-col gap-3 mt-2">
+        <li className="flex items-start gap-2">
+          <strong className=" font-bold">
+            <span className="text-brand-accent">+</span>45
+          </strong>
+          <span>
+            años de experiencia en soluciones tecnológicas empresariales.
+          </span>
+        </li>
+        <li className="flex items-start gap-2">
+          <span>
+            <span className="font-bold">Equipos</span> multidisciplinarios para integrarse a tus operaciones
+          </span>
+        </li>
+      </ul>
       </>
     ),
     buttonText: "Arma tu equipo ideal ahora",
@@ -43,11 +62,14 @@ export default function page() {
       <StaffArgumentationSection />
       <StaffArgumentationSection2 />
       <Mapa 
+      showIcon
       title="Tiempo promedio de vinculacion"
       descripcion="2 a 3 semanas."
       imgMap="/img/mapa-staff2.png"
       paises={paisesStaffArgumentation}
       />
+      <ButtonComponent textoBtn=" Empieza tu hoja de ruta AI personalizada" />
+      <PreguntForm title="Preguntas frecuentes" items={dataPreguntasFrecuentesStaff}/>
       <Footer />
       <FooterBottom />
     </>

@@ -23,7 +23,7 @@ export default function pagePensiones() {
     buttonText: "Habla con un experto en pensiones",
     breadcrumb: [
       { label: "Pensiones", href: "/pensiones" },
-      { label: "Soluciones Pensiones" },
+      { label: "Soluciones para pensiones" },
     ],
   };
 

@@ -48,6 +48,8 @@ export const infoStaffArgumentation: dataCard[] = [
   },
 ];
 
+
+//INFORMACINO TITULOS STAFF ARGUMENTATION
 export const titleStaffArgumentation1: dataTextComponent = {
   title:
     "El modelo de staffing que combina talento, agilidad y resultados medibles",
@@ -63,6 +65,37 @@ export const titleStaffArgumentation1: dataTextComponent = {
     </>
   ),
 };
+
+ {/* Informacion  Titulo staff Cuando tu equipo necesita crecer, el Staff Augmentation TI es la respuesta  */}
+export const titleStaffArgumentation2: dataTextComponent = {
+  title:
+    "Cuando tu equipo necesita crecer, el Staff Augmentation TI es la respuesta",
+  description: (
+    <>
+      Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentatio TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. 
+      
+      <br />
+      <br />
+      <span className="font-bold mt-80">Síntomas de una gestión sin staffing de TI eficiente:</span>
+    </>
+  ),
+};
+
+//Titulo Informacion Staff Argumnetation Tu aliado estratégico en Staff Augmentation
+
+export const titleStaffArgumentation3: dataTextComponent = {
+  title: 'Tu aliado estratégico en Staff Augmentation',
+   description: (
+    <>
+      Más de cuatro décadas de experiencia nos respaldan como uno de los aliados tecnológicos más sólidos en Latinoamérica. No solo te ofrecemos talento, sino un modelo de colaboración pensado para la continuidad, eficiencia y calidad.
+      
+      <br />
+      <br />
+      <span className="font-bold mt-80">Nuestro diferencial</span>
+    </>
+  ),
+}
+
 
 export const infoStaffArgumentation2: ResultsCorporativoData = {
   highlight: {
@@ -322,46 +355,148 @@ export const infoStaffArgumentation6 = [
   },
 ];
 
-//DATA DE SOLUCIONES IA
-
-export const dataIA = [
+//DATA PREGUNTAS FRECUENTES STAFF-ARGUMENTATION
+export const dataPreguntasFrecuentesStaff = [
   {
-    fase: "Fase",
-    indicador: "#1",
-    title: "Exploración (AI Brainstorming)",
-    description:
-      "Identificamos áreas donde la IA Generativa, el PLN o la visión por computadora pueden aportar valor y priorizamos los casos de uso de mayor impacto.",
+    question: "¿Se trata de un solo software o de varias soluciones diferentes?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
-
-  {
-    fase: "Fase",
-    indicador: "#2",
-    title: "Planificación (AI Blueprint)",
-    description:
-      "Definimos la hoja de ruta, los KPIs y las tecnologías adecuadas para garantizar alineación con tus objetivos. ",
+    {
+    question: "¿Qué entidades pueden utilizar este software previsional?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
-
-  {
-    fase: "Fase",
-    indicador: "#3",
-    title: "Desarrollo y Entrenamiento (Mindcrafting)",
-    description:
-      "Diseñamos, entrenamos y conectamos modelos de IA de alta precisión. ",
+    {
+    question: "¿El software se adapta a la regulación de cada país en LATAM?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
-
-  {
-    fase: "Fase",
-    indicador: "#4",
-    title: "Optimización (Tuning Lab)",
-    description:
-      "Ajustamos e integramos la solución en tus sistemas, garantizando rendimiento y adopción fluida. ",
+    {
+    question: "¿Puedo implementar solo algunos módulos y escalar después?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
-
-  {
-    fase: "Fase",
-    indicador: "#5",
-    title: "Escalabilidad y Mantenimiento Continuo.",
-    description:
-      "Acompañamos tu evolución con soporte, actualización y mejora continua.",
+    {
+    question: "¿El software cubre la nómina de pensionados y los pagos masivos?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿También sirve para administrar ahorro previsional voluntario o APV?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Se puede usar para administrar cesantías desde el mismo sistema? ",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿El software es multipaís y multimoneda?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Qué tipo de acompañamiento ofrece Heinsohn?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
+  },
+    {
+    question: "¿Cómo iniciar la implementación del software previsional?",
+    answer: {
+      descriptions:
+        "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+      listsItems: [
+        "Pagos y comercio en vehículos",
+        "Vehículo definido por software",
+        "Android Auto y sistemas embebidos",
+        "IA generativa para personalización",
+        "Vehículos e infraestructura conectados",
+      ],
+    },
   },
 ];
+
+

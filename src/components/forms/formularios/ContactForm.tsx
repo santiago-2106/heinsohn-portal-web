@@ -30,7 +30,7 @@ export default function ContactForm() {
 
           <div className="md:col-span-7 bg-bg-card-2  p-8 md:p-14">
             <h2 className="text-4xl font-light text-gray-400 mb-10">
-              Contactanos
+              Contáctanos
             </h2>
 
             <form className="space-y-10 ">
@@ -92,17 +92,17 @@ export default function ContactForm() {
                   <p>
                     He leído y acepto el{" "}
                     <Link href="#" className="text-red-400 underline:none">
-                      aviso legal y la política de privacidad.*
+                      aviso legal <span className="text-text-body">y la</span> política de privacidad.*
                     </Link>
                   </p>
                 </label>
 
-                <label className="flex items-start gap-3 text-sm text-gray-500">
+                <label className="flex items-start gap-3 text-sm text-text-body">
                   <input type="checkbox" className="mt-1 h-4 w-4" />
                   <p>Acepto recibir otras comunicaciones de Heinsohn.</p>
                 </label>
               </div>
-              <button className="rounded-full bg-text-title text-bg-main px-10 py-3 text-sm font-medium hover:bg-gray-800 transition-colors">
+              <button className="rounded-full bg-text-title text-bg-main px-10 py-3 text-sm font-medium hover:cursor-pointer">
                 Enviar
               </button>
             </form>
