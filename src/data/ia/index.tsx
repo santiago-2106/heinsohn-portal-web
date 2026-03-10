@@ -1,13 +1,12 @@
-import React from "react";
 import PaletteOutlinedIcon from "@mui/icons-material/PaletteOutlined";
 import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
 import BoltOutlinedIcon from "@mui/icons-material/BoltOutlined";
 import PersonSearchOutlinedIcon from "@mui/icons-material/PersonSearchOutlined";
 import { IACardProps } from "@/src/types/typeIA";
 
-// 1. DATA DEL HERO (Totalmente alineado a la izquierda, mismo tamaño de letra)
+// 1. DATA DEL HERO
 export const dataIaHero = {
-  title: "Soluciones de Inteligencia Artificial para empresas",
+  title: <h2 className="font-light">Soluciones de Inteligencia Artificial para empresas</h2>,
   description: (
     <div className="flex flex-col gap-6">
       <p>
@@ -17,24 +16,18 @@ export const dataIaHero = {
         aprendizaje automático, <strong>ayudamos a las empresas a automatizar procesos, 
         mejorar la eficiencia operativa y generar valor sostenible.</strong>
       </p>
-      
-      {/* ESTRUCTURA FLEXBOX: Asegura alineación perfecta y sin desorden */}
       <ul className="flex flex-col gap-3 mt-2">
         <li className="flex items-start gap-2">
           <strong className="text-text-title font-bold whitespace-nowrap">
             <span className="text-brand-accent">+</span>45
           </strong>
-          <span>
-            años de experiencia en ingeniería y tecnología empresarial
-          </span>
+          <span>años de experiencia en ingeniería y tecnología empresarial</span>
         </li>
         <li className="flex items-start gap-2">
           <strong className="text-text-title font-bold whitespace-nowrap">
             <span className="text-brand-accent">+</span>200
           </strong>
-          <span>
-            proyectos de innovación impulsados por IA y automatización
-          </span>
+          <span>proyectos de innovación impulsados por IA y automatización</span>
         </li>
       </ul>
     </div>
@@ -46,6 +39,29 @@ export const dataIaHero = {
   ],
 };
 
+// 2. TEXTOS DE LAS SECCIONES (Para limpiar el page.tsx)
+export const dataIaSections = {
+  soluciones: {
+    title: <> Soluciones en Inteligencia Artificial<br />aplicada a los desafíos reales de tu<br />negocio</>,
+    description: (
+      <>
+        <strong>Cada empresa enfrenta retos distintos.</strong> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:
+      </>
+    )
+  },
+  implementacion: {
+    title: "Cómo implementamos la inteligencia artificial en tu empresa",
+    description: "Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento continuo:",
+    buttonText: "Empieza tu hoja de ruta AI personalizada"
+  },
+  beneficios: {
+    title: "Beneficios de nuestros servicios de Inteligencia Artificial",
+    description: "Nuestras soluciones de inteligencia artificial para empresas combinan IA generativa, agentes inteligentes y automatización avanzada para crear ventajas reales y medibles:",
+  },
+  ctaFooter: "Conversa con un especialista en IA"
+};
+
+// 3. TARJETAS DE IA (Completadas según las imágenes)
 export const dataIaCards: IACardProps[] = [
   {
     id: 1,
@@ -55,14 +71,14 @@ export const dataIaCards: IACardProps[] = [
       <>
         <strong>¿Quieres implementar IA generativa pero no sabes por dónde empezar?</strong> GenAI Canvas es el punto de partida ideal para trazar una ruta estratégica, identificar oportunidades reales y validar la viabilidad técnica antes de invertir.
         <br /><br />
-        De 3 a 4 semanas exploramos contigo el qué, cómo y cuándo de la inteligencia artificial en tu organización — y convertimos la visión en un plan de acción medible y sostenible. Ideal para empresas que están explorando cómo integrar IA generativa de forma estratégica y escalable.
+        De 3 a 4 semanas exploramos contigo el qué, cómo y cuándo de la inteligencia artificial en tu organización — y convertimos la visión en un plan de acción medible y sostenible.
       </>
     ),
     lists: [
       {
         title: "Beneficios clave",
-        type: "bullet" as "bullet",
-        variant: "normal" as "normal",
+        type: "bullet",
+        variant: "normal",
         items: [
           "Oportunidades alineadas al negocio y con retorno tangible.",
           "Análisis técnico y de factibilidad para minimizar riesgos.",
@@ -71,8 +87,8 @@ export const dataIaCards: IACardProps[] = [
       },
       {
         title: "Entregables estratégicos",
-        type: "bullet" as "bullet",
-        variant: "highlighted" as "highlighted", // Esta propiedad activa la línea y el texto grande
+        type: "bullet",
+        variant: "highlighted",
         items: [
           "Mapa de oportunidades priorizadas.",
           "Informe de viabilidad técnica.",
@@ -97,7 +113,7 @@ export const dataIaCards: IACardProps[] = [
     lists: [
       {
         title: "Nuestro proceso probado",
-        type: "number" as "number",
+        type: "number",
         items: [
           "Definimos el caso y flujo operativo.",
           "Creamos el MVP de prompts y arquitectura funcional.",
@@ -107,7 +123,7 @@ export const dataIaCards: IACardProps[] = [
       },
       {
         title: "Beneficios inmediatos",
-        type: "bullet" as "bullet",
+        type: "bullet",
         items: [
           "Time-to-MVP acelerado y validación técnica temprana.",
           "Reducción de riesgo y costos de desarrollo.",
@@ -131,7 +147,7 @@ export const dataIaCards: IACardProps[] = [
     lists: [
       {
         title: "Tipos de agentes",
-        type: "bullet" as "bullet",
+        type: "bullet",
         items: [
           <><strong>Conversacionales:</strong> Atención al cliente, soporte y ventas.</>,
           <><strong>Analíticos:</strong> Interpretación de datos y generación de reportes.</>,
@@ -140,12 +156,12 @@ export const dataIaCards: IACardProps[] = [
       },
       {
         title: "Beneficios de nuestros agentes",
-        type: "bullet" as "bullet",
+        type: "bullet",
         items: [
           "Respuestas en tiempo real 24/7",
           "Reducción de costos operativos",
           "Experiencias más humanas y personalizadas",
-          "Integración total con tus sistemas empresariales",
+          "Integración total con tus sistemas empresariales"
         ],
       },
     ],
@@ -165,7 +181,7 @@ export const dataIaCards: IACardProps[] = [
     lists: [
       {
         title: "Objetivos del workshop",
-        type: "bullet" as "bullet",
+        type: "bullet",
         items: [
           "Comprender el impacto de la IA en la productividad y la estrategia empresarial.",
           "Identificar oportunidades reales de automatización y eficiencia.",
@@ -175,7 +191,7 @@ export const dataIaCards: IACardProps[] = [
       },
       {
         title: "Resultados esperados",
-        type: "bullet" as "bullet",
+        type: "bullet",
         items: [
           "Equipos más productivos y estratégicos.",
           "Mayor claridad sobre cómo integrar IA generativa en procesos clave.",
@@ -187,49 +203,69 @@ export const dataIaCards: IACardProps[] = [
   },
 ];
 
-// BENEFICIOS
+// 4. BENEFICIOS
 export const dataIaBeneficios = [
   {
     icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">01</span>,
     title: "Eficiencia y productividad ampliadas.",
-    description: "Automatiza flujos de trabajo con IA y machine learning. Los agentes inteligentes y modelos de lenguaje trabajan 24/7 para liberar a tus equipos de tareas operativas.",
+    description: "Automatiza flujos de trabajo con IA y machine learning. Los agentes inteligentes y modelos de lenguaje trabajan 24/7.",
   },
   {
     icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">02</span>,
     title: "Decisiones impulsadas por datos y predicción.",
-    description: "Aprovecha analítica avanzada y modelos generativos para tomar decisiones basadas en datos confiables y anticipar comportamientos del mercado.",
+    description: "Aprovecha analítica avanzada y modelos generativos para tomar decisiones basadas en datos confiables.",
   },
   {
     icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">03</span>,
     title: "Innovación con IA generativa aplicada.",
-    description: "Desde la ideación hasta el prototipo con GenAI Canvas y Launchpad, llevamos tus casos de uso de IA generativa a productos funcionales en semanas.",
+    description: "Desde la ideación hasta el prototipo con GenAI Canvas y Launchpad, llevamos tus casos de uso a productos funcionales.",
   },
   {
     icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">04</span>,
     title: "Escalabilidad empresarial sin fricción.",
-    description: "Nuestras soluciones de inteligencia artificial se integran con tu infraestructura cloud (Azure, AWS, GCP), asegurando crecimiento continuo y optimización de costos.",
+    description: "Nuestras soluciones se integran con tu infraestructura cloud asegurando crecimiento continuo.",
   },
   {
     colSpan: "md:col-span-2",
     icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">05</span>,
     title: "Inteligencia que evoluciona contigo.",
-    description: "Cada interacción mejora. Nuestros agentes analizan contexto y resultados para aprender, adaptarse y optimizar procesos de forma autónoma.",
+    description: "Cada interacción mejora. Nuestros agentes analizan contexto para aprender, adaptarse y optimizar procesos.",
   }
 ];
 
+// 5. TIMELINE
 export const dataIaTimeline = [
-  { fase: "Fase", indicador: "#1", title: "Exploración (AI Brainstorming)", description: "Identificamos áreas donde la IA Generativa, el PLN o la visión por computadora pueden aportar valor y priorizamos los casos de uso de mayor impacto." },
-  { fase: "Fase", indicador: "#2", title: "Planificación (AI Blueprint)", description: "Definimos la hoja de ruta, los KPIs y las tecnologías adecuadas para garantizar alineación con tus objetivos." },
-  { fase: "Fase", indicador: "#3", title: "Desarrollo y Entrenamiento (Mindcrafting)", description: "Diseñamos, entrenamos y conectamos modelos de IA de alta precisión." },
-  { fase: "Fase", indicador: "#4", title: "Optimización (Tuning Lab)", description: "Ajustamos e integramos la solución en tus sistemas, garantizando rendimiento y adopción fluida." },
-  { fase: "Fase", indicador: "#5", title: "Escalabilidad y Mantenimiento Continuo.", description: "Acompañamos tu evolución con soporte, actualización y mejora continua." }
+  { fase: "Fase", indicador: "#1", title: "Exploración", description: "Identificamos áreas donde la IA puede aportar valor." },
+  { fase: "Fase", indicador: "#2", title: "Planificación", description: "Definimos la hoja de ruta y los KPIs." },
+  { fase: "Fase", indicador: "#3", title: "Desarrollo", description: "Diseñamos y entrenamos modelos de IA de alta precisión." },
+  { fase: "Fase", indicador: "#4", title: "Optimización", description: "Ajustamos e integramos la solución en tus sistemas." },
+  { fase: "Fase", indicador: "#5", title: "Escalabilidad", description: "Soporte, actualización y mejora continua." }
 ];
 
+
 export const dataIaFaq = [
-  { question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", answer: {descriptions:"La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos."} },
-  { question: "¿Cómo se aplica la Inteligencia Artificial en los negocios?", answer: {descriptions:"Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." } },
-  { question: "¿Qué es la asistencia para la inteligencia empresarial y para qué se utiliza?", answer: {descriptions:"Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." } },
-  { question: "¿Cómo implementar IA en una empresa?", answer: {descriptions:"Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." } },
-  { question: "¿Cuánto tarda un proyecto de IA Generativa?", answer: {descriptions:"Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." } },
-  { question: "¿Qué beneficios concretos ofrece la IA para las empresas?", answer: {descriptions:"Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." } }
+  { 
+    question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", 
+    answer: {descriptions:"La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos."} 
+  },
+  { 
+    question: "¿Cómo se aplica la Inteligencia Artificial en los negocios?", 
+    answer: {descriptions:"Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." } 
+  },
+  { 
+    question: "¿Qué es la asistencia para la inteligencia empresarial y para qué se utiliza?", 
+    answer: {descriptions:"Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." } 
+  },
+  { 
+    question: "¿Cómo implementar IA en una empresa?", 
+    answer: {descriptions:"Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." } 
+  },
+  { 
+    question: "¿Cuánto tarda un proyecto de IA Generativa?", 
+    answer: {descriptions:"Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." } 
+  },
+  { 
+    question: "¿Qué beneficios concretos ofrece la IA para las empresas?", 
+    answer: {descriptions:"Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." } 
+  }
 ];

@@ -73,6 +73,24 @@ export default function Slider({data}: any) {
                     >
                       {item.btn}
                       <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
+
+                href="#"
+                className="mt-auto inline-flex items-center gap-2 text-sm font-medium transition-transform hover:translate-x-1"
+              
+                      {item.btn}
+                      <svg 
+                  className="w-4 h-4 text-brand-accent" 
+                  fill="none" 
+                  viewBox="0 0 24 24" 
+                  stroke="currentColor" 
+                  strokeWidth="2" 
+                  strokeLinecap="round" 
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              
                     </a>
                   </div>
 

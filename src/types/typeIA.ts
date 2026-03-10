@@ -10,7 +10,7 @@ export interface IAListSection {
 export interface IACardProps {
   id: number;
   icon: ReactNode;
-  title: string;
+  title: ReactNode;
   description: ReactNode;
   lists?: IAListSection[];
   footerText?: ReactNode;

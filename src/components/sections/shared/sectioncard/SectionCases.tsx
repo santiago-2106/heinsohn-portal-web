@@ -32,20 +32,42 @@ export default function CardCases({imgKnowOurWork, titleWork, descriptionWork, t
             }
 
             <div className="flex flex-col gap-3 p-5 sm:p-6">
+
               <h6 className="font-light text-text-body ">
                 {titleWork}
               </h6>
 
+              <p className="font-light text-text-body ">
+                <strong>Transformación digital en el sector financiero</strong>
+              </p>
+
+
               <p className="text-sm leading-relaxed font-light text-text-body">
                 {descriptionWork}
               </p>
-
               <a
                 href="#"
                 className="mt-auto inline-flex items-center gap-2 text-sm font-bold transition-transform hover:translate-x-1"
               >
+
                 {textBtn} 
                 <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
+
+                Conoce el caso completo
+                {/* Aquí agregamos el SVG de la flecha con tu color rojo */}
+                <svg
+                  className="w-4 h-4 text-brand-accent"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+
               </a>
             </div>
           </article>

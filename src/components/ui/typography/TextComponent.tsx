@@ -1,7 +1,7 @@
 import React from "react";
 
 interface propsTextComponent {
-  title?: string;
+  title?: React.ReactNode;
   description?: string | React.ReactNode;
   align?: 'center' | 'left'
 }

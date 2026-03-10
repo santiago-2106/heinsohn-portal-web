@@ -1,7 +1,6 @@
 import React from "react";
 import { dataCard } from "../../types/cardTypes";
 
-// --- ICONOS DE LA SECCIÓN HERO ---
 const HeroIcons = {
   lightning: (
     <svg
@@ -286,10 +285,22 @@ export const dataSAP = {
         </div>
       </div>
     ),
+      badges: [
+    { 
+      prefix: "+", 
+      highlight: "40", 
+      text: "años de experiencia" 
+    },
+    { 
+      prefix: "+", 
+      highlight: "1.300", 
+      text: "implementaciones exitosas" 
+    },
+  ]
   },
 
   aiSection: {
-    title: "Herramientas de inteligencia artificial en SAP Business One",
+    title: <>Herramientas de inteligencia artificial<br className="hidden md:block" />en SAP Business One</>,
     cards: [
       {
         icon: CardIcons.shield,
@@ -319,8 +330,7 @@ export const dataSAP = {
   },
 
   testSection: {
-    title:
-      "Test interactivo para elegir tu software ERP SAP según tus necesidades",
+    title:<>Test interactivo para elegir tu <br className="hidden md:block" />software ERP SAP según tus <br className="hidden md:block" />necesidades</>,
     description:
       "No todas las empresas necesitan el mismo tipo de ERP.\nCon este test rápido, identificamos el nivel de madurez tecnológica de tu empresa y te damos una recomendación personalizada.",
     cards: [
@@ -377,7 +387,7 @@ export const dataSAP = {
   },
 
   erpComparisonSection: {
-    title: "¿Qué ERP es mejor para PYMEs, empresas medianas o en expansión?",
+    title:<>¿Qué ERP es mejor para PYMEs,<br/> empresas medianas o en expansión?</>,
     description: (
       <div className="flex flex-col gap-1">
         <span>
@@ -417,8 +427,7 @@ export const dataSAP = {
 
   partnerSection: {
     topBadge: '"Somos más que un proveedor: somos tu equipo ERP."',
-    title:
-      "¿Por qué elegir Heinsohn como partner de ERP SAP en Colombia y Latam?",
+    title:<>"¿Por qué elegir Heinsohn como partner<br/> de ERP SAP en Colombia y Latam?"</>,
     description:
       "No somos solo un proveedor de software. Somos tu aliado estratégico en la transformación digital de tu empresa.",
     cards: [
@@ -479,7 +488,7 @@ export const dataSAP = {
   },
 
   afterTestSection: {
-    title: "¿Qué recibirás después del test de ERP SAP?",
+    title:<>"¿Qué recibirás después del test de ERP<br/>SAP?"</>,
     description: (
       <>
         Al completar nuestro test interactivo, obtienes acceso inmediato a
@@ -530,7 +539,7 @@ export const dataSAP = {
   },
 };
 export const dataPorQueSAP = {
-  title: "¿Por qué SAP Business One con Heinsohn?",
+  title:<>"¿Por qué SAP Business One con <br className="hidden md:block" />Heinsohn?"</>,
   description: (
     <>
       Porque Heinsohn no solo implementa SAP Business One, sino que <strong className="font-semibold text-text-title">integra nómina, gestión humana y cumplimiento legal colombiano en un solo ecosistema</strong>, con experiencia probada y acompañamiento real. Además de ser Partner Gold de SAP Business One en Colombia, realiza personalizaciones según las necesidades de cada sector y empresa, con equipo propio de desarrollo y actualizaciones constantes basadas en inteligencia artificial. <strong className="font-semibold text-text-title">Con más de 1.300 implementaciones que nos respaldan</strong>, entregamos un sistema que no compite con el ecosistema de tu empresa, sino que lo optimiza.

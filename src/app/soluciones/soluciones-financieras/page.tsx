@@ -10,32 +10,22 @@ import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 import Clientes from "@/src/components/sections/shared/clientes/Clientes";
 import Certificaciones from "@/src/components/sections/shared/certificaciones/Certificaciones";
+import CertificacionesInternacionales from "@/src/components/sections/shared/certificaciones/CertificacionesInternacionales";
 
+// Importamos TODA la data desde tu archivo centralizado
 import {
   financialChallengesCards,
   financialSolutionsCards,
   experienceStatsData,
   financialFaqData,
+  dataFinanzas,
+  introRetos,
+  footerRetos,
+  btnRetos,
+  entitiesData,
 } from "@/src/data/financiera";
 
 export default function SolucionesFinanciero() {
-  const dataFinanzas = {
-    title: "Soluciones para el Sector Financiero",
-    description:
-      "Contamos con un portafolio de software especializado para banca, fintechs aseguradoras y entidades no bancarizadas que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo.",
-    buttonText: "Solicita una asesoría gratuita",
-    breadcrumb: [
-      { label: "Soluciones", href: "/soluciones" },
-      { label: "Soluciones para el sector financiero" },
-    ],
-  };
-
-  const introRetos =
-    "La industria financiera en Latinoamérica vive un momento decisivo. La digitalización, la presión regulatoria y la irrupción de nuevos actores están transformando la manera en que bancos, fintechs, aseguradoras y entidades no bancarizadas operan. Estos son algunos de los retos más urgentes:";
-  const footerRetos =
-    "Comprender estos desafíos es el primer paso para transformarlos en oportunidades. Por eso, contar con software especializado, seguro y escalable es clave para transformar estos desafíos en oportunidades de crecimiento";
-  const btnRetos = "Descubre cómo enfrentamos estos retos en LATAM";
-
   return (
     <div>
       <Navbar />
@@ -44,11 +34,13 @@ export default function SolucionesFinanciero() {
         description={dataFinanzas.description}
         buttonText={dataFinanzas.buttonText}
         breadcrumb={dataFinanzas.breadcrumb}
+        badges={dataFinanzas.badges} // <-- Pasamos los badges por props
+        isUppercase={false}          // <-- Apagamos las mayúsculas forzadas del título
       />
 
       <CardAnuncies
-        title="Lo que enfrentan hoy las entidades financieras en la región"
-        description={introRetos}
+        title ={entitiesData.title}
+        description={introRetos.description}
         cards={financialChallengesCards}
         cols={3}
         bottomText={footerRetos}
@@ -56,7 +48,9 @@ export default function SolucionesFinanciero() {
       />
 
       <CardAnuncies
-        title="Soluciones tecnológicas para créditos, fondos e inversiones"
+        title={
+      <>Soluciones tecnológicas para créditos,<br className="hidden md:block" />fondos e inversiones</>
+    }
         cards={financialSolutionsCards}
         cols={2}
       />
@@ -67,17 +61,19 @@ export default function SolucionesFinanciero() {
 
       <CardAnuncies title=" " cards={experienceStatsData} cols={2} />
 
-      <Certificaciones title="Certificaciones internacionales" />
+      <CertificacionesInternacionales title="Certificaciones internacionales" />
 
       <CardCases />
       <Slider />
 
       <PreguntasFort
         title="Preguntas frecuentes sobre software financiero"
-        items={financialFaqData}
+        items={financialFaqData as any} // <-- Solución al conflicto de tipos de FaqAnswer
       />
 
-      <ContactForm />
+      <ContactForm  title={
+      <>Transforma la gestion<br className="hidden md:block" />financiera de tu empresa</>
+    }/>
 
       <Footer />
       <FooterBottom />

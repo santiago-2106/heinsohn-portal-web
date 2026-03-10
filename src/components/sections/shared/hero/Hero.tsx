@@ -6,14 +6,20 @@ interface BreadcrumbItem {
   href?: string;
 }
 
+export interface BadgeItem {
+  prefix?: string;
+  highlight?: string;
+  text: string;
+}
+
 interface HeroProps {
   title: string | React.ReactNode;
   description: string | React.ReactNode; 
   subtitle?: React.ReactNode;
   buttonText?: string;
   breadcrumb: BreadcrumbItem[];
-  showBadges?: boolean;     // <-- INTERRUPTOR 1
-  isUppercase?: boolean;    // <-- INTERRUPTOR 2
+  badges?: BadgeItem[];     // <-- Prop dinámica para los badges
+  isUppercase?: boolean; 
 }
 
 export default function Hero({
@@ -22,8 +28,8 @@ export default function Hero({
   subtitle,
   buttonText,
   breadcrumb,
-  showBadges = true,      // Se enciende por defecto
-  isUppercase = true,     // Se enciende por defecto
+  badges,
+  isUppercase = true,
 }: HeroProps) {
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
@@ -55,29 +61,41 @@ export default function Hero({
 
           <br />
 
-          {/* BADGES SUPERIORES: Solo se dibujan si el interruptor está encendido */}
-          {showBadges && (
+{/* BADGES DINÁMICOS */}
+          {badges && badges.length > 0 && (
             <div className="mb-8 flex flex-wrap items-center gap-3">
-              <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-                <span className="text-brand-accent font-bold text-sm">+</span>
-                <span className="text-text-body text-sm uppercase tracking-wider font-medium">
-                  40 años de experiencia
-                </span>
-              </div>
-              <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-                <span className="text-text-title font-bold text-sm">|</span>
-                <span className="text-brand-accent font-bold text-sm">+</span>
-                <span className="text-text-body text-sm uppercase tracking-wider font-medium">
-                  1.200 clientes en LATAM 
-                </span>
-              </div>
+              {badges.map((badge, index) => (
+                <React.Fragment key={index}>
+                  <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
+                    {/* El símbolo + */}
+                    {badge.prefix && (
+                      <span className="text-brand-accent font-bold text-sm">{badge.prefix}</span>
+                    )}
+                    
+                    <span className="text-text-body text-sm uppercase tracking-wider font-medium">
+                      {/* El número en rojo */}
+                      {badge.highlight && (
+                        <span className="text-brand-accent">{badge.highlight} </span>
+                      )}
+                      {/* El resto del texto en gris */}
+                      {badge.text}
+                    </span>
+                  </div>
+                  
+                  {/* El separador | */}
+                  {index < badges.length - 1 && (
+                    <span className="text-text-title font-bold text-sm">|</span>
+                  )}
+                </React.Fragment>
+              ))}
             </div>
           )}
 
           {/* TÍTULO */}
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight uppercase">
+          <h1 className={`text-5xl md:text-6xl lg:text-7xl font-light text-text-title tracking-tight mb-8 leading-tight ${isUppercase ? 'uppercase' : ''}`}>
             {title}
           </h1>
+
 
           <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
             {subtitle}
@@ -85,6 +103,9 @@ export default function Hero({
 
           {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
           <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
+          {/* DESCRIPCIÓN */}
+          <div className="text-lg md:text-xl font-light text-text-body max-w-5xl mb-12 leading-relaxed">
+
             {description}
           </div>
 
@@ -116,6 +137,7 @@ export default function Hero({
           className="w-full h-48 md:h-[300px] object-cover object-bottom block"
         />
       </div>
+    </div>
     </section>
   );
 }

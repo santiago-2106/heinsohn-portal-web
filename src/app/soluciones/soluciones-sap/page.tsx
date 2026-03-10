@@ -23,6 +23,7 @@ export default function SolucionesSAP() {
         description={dataSAP.hero.description}
         buttonText={dataSAP.hero.buttonText}
         breadcrumb={dataSAP.hero.breadcrumb}
+        badges={dataSAP.hero.badges}
       />
 
       {/* SECCIÓN CARDS IA */}
@@ -74,7 +75,7 @@ export default function SolucionesSAP() {
       
       <TestInteractivo />
       
-      <ContactForm />
+      <ContactForm title={<>Contáctanos</>} />
 
       {/* AQUÍ VA NUESTRA NUEVA SECCIÓN DE TEXTO */}
       <SectionCenteredText 

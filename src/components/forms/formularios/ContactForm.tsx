@@ -1,14 +1,18 @@
-//Actuazlizacion formulario con react hook from
 
 "use client";
-
+import react from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import InputForm from "../InputForms";
-// ELIMINADO: import imgContact from "@/src/img/contactimg.png";
 
-export default function ContactForm() {
+// 1. DEFINIMOS LA INTERFAZ PARA LAS PROPS
+interface ContactFormProps {
+  title: React.ReactNode; // Es opcional (?) para que no te marque error si no lo pasas
+}
+
+// 2. RECIBIMOS LA PROP 'title' CON UN VALOR POR DEFECTO
+export default function ContactForm({ title = "Contáctanos" }: ContactFormProps) {
   const {
     register,
     formState: { errors },
@@ -20,7 +24,7 @@ export default function ContactForm() {
         <div className="grid grid-cols-1 md:grid-cols-12 border border-gray-200 overflow-hidden">
           <div className="relative hidden md:block md:col-span-5">
             <Image
-              src="/img/contactimg.png" /* <-- RUTA CORREGIDA DIRECTO A PUBLIC */
+              src="/img/contactimg.png"
               alt="contacto"
               fill
               className="object-cover"
@@ -29,8 +33,12 @@ export default function ContactForm() {
           </div>
 
           <div className="md:col-span-7 bg-bg-card-2  p-8 md:p-14">
+            {/* 3. REEMPLAZAMOS EL TEXTO QUEMADO POR LA PROP */}
             <h2 className="text-4xl font-light text-gray-400 mb-10">
+
               Contáctanos
+
+              {title}
             </h2>
 
             <form className="space-y-10 ">
