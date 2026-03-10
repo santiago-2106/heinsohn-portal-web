@@ -15,7 +15,8 @@ import {
   dataIaCards, 
   dataIaBeneficios, 
   dataIaTimeline, 
-  dataIaFaq 
+  dataIaFaq,
+  dataIaSections 
 } from "@/src/data/ia";
 
 export default function SolucionesIA() {
@@ -24,22 +25,13 @@ export default function SolucionesIA() {
       <Navbar />
       
       {/* 1. HERO */}
-      <Hero
-        title={dataIaHero.title}
-        description={dataIaHero.description}
-        buttonText={dataIaHero.buttonText}
-        breadcrumb={dataIaHero.breadcrumb}
-      />
+      <Hero {...dataIaHero} />
 
-      {/* 2. SOLUCIONES Y DESAFÍOS (Tarjetas Complejas de IA) */}
+      {/* 2. SOLUCIONES Y DESAFÍOS */}
       <section className="py-16 bg-bg-main border-t border-border-ui">
         <TextComponent
-          title="Soluciones en Inteligencia Artificial aplicada a los desafíos reales de tu negocio"
-          description={
-            <>
-              <strong>Cada empresa enfrenta retos distintos.</strong> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:
-            </>
-          }
+          title={dataIaSections.soluciones.title}
+          description={dataIaSections.soluciones.description}
         />
         <div className="px-4 sm:px-6 lg:px-8 mt-12 max-w-7xl mx-auto">
           {dataIaCards.map((card) => (
@@ -48,31 +40,32 @@ export default function SolucionesIA() {
         </div>
       </section>
 
-      {/* 4. CÓMO IMPLEMENTAMOS (Timeline) */}
+      {/* 3. CÓMO IMPLEMENTAMOS (Timeline) */}
       <section className="py-16">
         <TextComponent
-          title="Cómo implementamos la inteligencia artificial en tu empresa"
-          description="Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento continuo:"
+          title={dataIaSections.implementacion.title}
+          description={dataIaSections.implementacion.description}
         />
         <SubcomponenteCardStaff information={dataIaTimeline} />
-        <Button textoBtn="Empieza tu hoja de ruta AI personalizada" />
+        <div className="flex justify-center mt-8">
+          <Button textoBtn={dataIaSections.implementacion.buttonText} />
+        </div>
       </section>
 
-      {/* 3. BENEFICIOS (Card 05 será horizontal y rectangular gracias al colSpan) */}
+      {/* 4. BENEFICIOS */}
       <SectionAnuncies 
-        title="Beneficios de nuestros servicios de Inteligencia Artificial"
-        description="Nuestras soluciones de inteligencia artificial para empresas combinan IA generativa, agentes inteligentes y automatización avanzada para crear ventajas reales y medibles:"
+        title={dataIaSections.beneficios.title}
+        description={dataIaSections.beneficios.description}
         cards={dataIaBeneficios}
         cols={2}
       />
 
-
-      {/* 5. PREGUNTAS FRECUENTES (Usando tu componente real con colores adaptados) */}
+      {/* 5. PREGUNTAS FRECUENTES */}
       <PreguntForm title="Preguntas frecuentes" items={dataIaFaq} />
       
-      {/* Botón inferior separado con fondo correcto */}
+      {/* BOTÓN INFERIOR */}
       <div className="bg-bg-main pb-16 flex justify-center transition-colors duration-300">
-         <Button textoBtn="Conversa con un especialista en penciones" />
+         <Button textoBtn={dataIaSections.ctaFooter} />
       </div>
 
       <Footer />

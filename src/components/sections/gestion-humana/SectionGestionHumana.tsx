@@ -3,7 +3,7 @@ import CardGestionHumana from "@/src/components/ui/cards/CardGestionHumana";
 import { propsGestionHumana } from "../../../types/typesGestionHumana";
 
 interface SectionProps {
-  title: string;
+  title: string | React.ReactNode;
   description: string | React.ReactNode;
   cards: propsGestionHumana[];
 }
