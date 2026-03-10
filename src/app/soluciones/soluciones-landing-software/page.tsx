@@ -34,7 +34,6 @@ export default function PageLandingSoftware () {
         title={titleLandingSoftware.title}
         description={titleLandingSoftware.description}
         />
-        <SliderTestimonial items={testimonialsSlider}/>
         <SectionLandingSoftware />
         <Mapa 
         title="La mejor solución para tu operacion multinacional"

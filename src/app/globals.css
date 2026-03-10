@@ -63,9 +63,9 @@
     @apply text-text-title font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight;
   }
 
- h2 {
-    /* Cambiamos font-semibold por font-normal para quitar la negrita */
-    @apply text-text-title font-normal text-3xl md:text-4xl lg:text-5xl leading-snug;
+  h2 {
+    /* H2 (primera y segunda fila de tu guía) */
+    @apply text-text-title font-semibold text-3xl md:text-4xl lg:text-5xl leading-snug;
   }
 
   h3 {

@@ -55,8 +55,12 @@ export default function CardIA({
                   {list.items.map((item, itemIndex) => (
                     <li key={itemIndex} className="flex items-start text-text-body gap-4">
                       {list.type === "bullet" ? (
+
+                        // Viñeta: Puntito rojo muy pequeñito (h-1 w-1)
+                        
                         // Ajuste visual del puntito rojo para que quede alineado con el texto
                         <span className="mt-2.5 h-1 w-1 flex-shrink-0 rounded-full bg-brand-accent"></span>
+
                       ) : (
                         <span className="text-brand-accent font-medium">
                           {itemIndex + 1}.
@@ -72,8 +76,12 @@ export default function CardIA({
         </div>
       )}
 
+
+      {/* Empuja el contenido hacia abajo */}
+      <div className="flex grow"></div>
+
       {/* Espaciador para empujar el botón al final */}
-      <div className="flex-grow"></div>
+     
 
       {/* Texto de cierre (Footer de la carta) */}
       {footerText && (

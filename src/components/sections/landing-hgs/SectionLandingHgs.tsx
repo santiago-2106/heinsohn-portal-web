@@ -6,7 +6,7 @@ import CardGestionHumana from "../../ui/cards/CardGestionHumana";
 import Clientes from "../shared/clientes/Clientes";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import TimeLineLandingHgs from "./TimeLineLandingHgs";
-import { paisesPendientes } from "@/src/data/mapa";
+import { paisesLandingHgs } from "@/src/data/mapa";
 
 
 
@@ -14,6 +14,7 @@ export default function SectionLandingHgs() {
   return (
     <section>
       <div>
+        {/*informacion Presencial regional */}
         <TextComponent
         title={titleLandingHGS.title}
         description={titleLandingHGS.description}
@@ -22,13 +23,14 @@ export default function SectionLandingHgs() {
 
         <Mapa 
         imgMap="/img/mapa-landingHgs.png"
-        paises={paisesPendientes}
+        paises={paisesLandingHgs}
         showIcon={false}
         showCoberturaTitle={false}
         />
       </div>
 
       <div>
+        {/*informacion Soluciones para cada tipo de empresa */}
         <TextComponent
         title={titleLandingHGS2.title}
         description={titleLandingHGS2.description} 
@@ -47,7 +49,7 @@ export default function SectionLandingHgs() {
         title={titleLandingHGS3.title}
         description={titleLandingHGS3.description}
         />
-
+        {/*Informacion Portafolio completo */}
         <CardAnuncies 
         title="Portafolio completo"
         description="Ofecemos una oferta integral que combina"
@@ -55,7 +57,9 @@ export default function SectionLandingHgs() {
         cols={3}
         />
       </div>
+
       <div>
+        {/*Informacion Alianzas estratégicas con líderes tecnológicos */}
         <TextComponent 
         title={titleLandingHGS6.title}
         description={titleLandingHGS6.description}

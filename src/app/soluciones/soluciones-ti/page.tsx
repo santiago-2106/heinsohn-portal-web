@@ -6,6 +6,8 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import CardFinal from "@/src/components/sections/ti/TiSolutionsSection";
 import Slider from "@/src/components/sliders/SliderBlog";
+import { dataCardKnowOurWork } from "@/src/data/soluciones-digitales";
+import { cardSlider1 } from "@/src/data/share/slider";
 
 export default function PageSolucionesTI() {
   const dataTI = {
@@ -28,8 +30,8 @@ export default function PageSolucionesTI() {
         breadcrumb={dataTI.breadcrumb}
       />
       <CardFinal />
-      <CardCases />
-      <Slider />
+      <CardCases {...dataCardKnowOurWork}/>
+      <Slider data={cardSlider1}/>
       <ContactForm />
       <Footer />
       <FooterBottom />

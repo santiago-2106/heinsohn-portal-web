@@ -10,7 +10,8 @@ import Card from '../../ui/cards/Card'
 export default function SectionLandingHgs2() {
   return (
     <section >
-          <div>
+        <div>
+          {/*INFORMACION LANDING SOFTWARE NUESTRO PORTAFOLIO DE SOLUCIONES */}
         <TextComponent 
         title="Nuestro portafolio de soluciones"
         description= 'Heinsohn Human Global Solutions ofrece un ecosistema completo de soluciones para cubrir todas las necesidades de tu área de Gestión Humana:'
@@ -27,6 +28,7 @@ export default function SectionLandingHgs2() {
         </CardGrid>
       </div>
       <div className='pt-28'>
+        {/*INFORMACION Soluciones en Modalida Outsorcing (BPO) */}
         <TextComponent 
         title={titleLandingHGS4.title}
         description={titleLandingHGS4.description}
@@ -43,6 +45,7 @@ export default function SectionLandingHgs2() {
       </div>
 
       <div className='pt-28'>
+        {/*INFORMACION ¿Por que elegir Heinsohn HUman Global Solutions?*/}
         <TextComponent title='¿Por que elegir Heinsohn HUman Global Solutions?'/>
         <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-4xl">
             {
@@ -54,6 +57,7 @@ export default function SectionLandingHgs2() {
       </div>
 
       <div >
+        {/*INFORMACION Comienza tu transformación digital en Gestión Humana */}
         <CardAnuncies 
         title='Comienza tu transformación digital en Gestión Humana'
         description='En Heinsohn Human Global Solutions entendemos que tu talento humano es el activo más valioso de tu organización. Por eso, ponemos a tu disposición nuestro ecosistema completo de soluciones tecnológicas y servicios especializados para que puedas:'

@@ -1,5 +1,6 @@
-import { AccountBoxOutlined, AddReactionOutlined, BusinessCenterOutlined, BusinessOutlined, CastleOutlined, ContactPageOutlined, HistoryToggleOffOutlined, MedicationOutlined, RoomServiceOutlined, VolunteerActivismOutlined, WarehouseOutlined, WorkOutlined } from "@mui/icons-material";
+import { AccountBoxOutlined, AddReactionOutlined, BusinessCenterOutlined, BusinessOutlined, CalendarMonthOutlined, CastleOutlined, ContactPageOutlined, HistoryToggleOffOutlined, MedicalInformationOutlined, MedicationOutlined, RoomServiceOutlined, VolunteerActivismOutlined, WarehouseOutlined, WorkOutlined, WorkOutlineOutlined } from "@mui/icons-material";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import { ReactNode } from "react";
 // ELIMINADO: import { StaticImageData } from "next/image";
 
 // ✅ CORRECCIÓN DE RUTAS: Ya no importamos, usaremos strings directos a /public/img/
@@ -8,7 +9,7 @@ import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 export interface datagestionHumana {
   icon?: React.ReactNode;
   title: string;
-  description: string;
+  description: ReactNode;
   image?: string; // ✅ CAMBIO: De StaticImageData a string
   contenedor?: React.ReactNode;
   btnText: string;
@@ -17,7 +18,7 @@ export interface datagestionHumana {
 
 export const gestionHumanaInfo: datagestionHumana[] = [
   {
-    icon: <BusinessOutlined />,
+    icon: <BusinessOutlined sx={{fontSize:35 }}/>,
     contenedor: "+500 Colaboradores",
     title: "Grandes empresas",
     description: "Nomina para grandes empresas",
@@ -25,7 +26,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     btn: "Ampliar Informacion",
   },
   {
-    icon: <WarehouseOutlined />,
+    icon: <WarehouseOutlined sx={{fontSize:35 }}/>,
     contenedor: " 1 a 450 colaboradores",
     title: "Pymes",
     description: "Nomina para pequeña y mediana empresa",
@@ -33,7 +34,7 @@ export const gestionHumanaInfo: datagestionHumana[] = [
     btn: "Ampliar Informacion",
   },
   {
-    icon: <CastleOutlined />,
+    icon: <CastleOutlined sx={{fontSize:35 }}/>,
     contenedor: "+100 colaboradores",
     title: "Gobierno",
     description: "Soluciones para la administracion publica",
@@ -45,46 +46,74 @@ export const gestionHumanaInfo: datagestionHumana[] = [
 // Productos gestión Humana - RUTAS ACTUALIZADAS A /public/img/
 export const ProductsgestionHumanaInfo2: datagestionHumana[] = [
   {
-    title: "Software de nomina",
-    description: "Contamos con un ​software de nómina inteligente​ para el pago y liquidación de nómina.",
-    btnText: "Conocer mas",
-    image: "/img/laptpo1.png", // ✅ Ruta directa
+    title: "Software de nómina",
+    description: (
+      <>
+      Contamos con un software de <span className="font-bold">nómina inteligente</span> para el pago y liquidación de nómina.
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptpo1.png", 
   },
   {
     title: "Solucion pago a contratistas",
-    description: "Estamos a la vanguardia. Afrontamos los nuevos retos del mercado desarrollando soluciones acordes al cambio constante del mundo.",
-    btnText: "Conocer mas",
-    image: "/img/laptop2.png", // ✅ Ruta directa
+    description: (
+      <>
+      <span className="font-bold"> Estamos a la vanguardia. </span> Afrontamos los nuevos retos del mercado desarrollando soluciones acordes al cambio constante del mundo.
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptop2.png", 
   },
   {
     title: "Seguridad y salud en el trabajo",
-    description: "Permite la implementacion, mantenimiento y control del sistema de gestion de seguridad y slaud en el trabajo",
-    btnText: "Conocer mas",
-    image: "/img/laptop3.png", // ✅ Ruta directa
+    description: (
+      <>
+      Permite la <span className="font-bold">implementacion, mantenimiento y control</span> del sistema de gestion de seguridad y slaud en el trabajo.
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptop3.png", 
   },
   {
     title: "Software de nomina",
-    description: "Permite la administracion integral del recurso humano de tu organizacion",
-    btnText: "Conocer mas",
-    image: "/img/laptop4.png", // ✅ Ruta directa
+    description: (
+      <>
+      Permite la administracion integral del recurso humano de <span className="font-bold">tu organización.</span>
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptop4.png", 
   },
   {
     title: "Soluciones de nomina y gestion humana par Gobierno",
-    description: "Facilita los proceso, seguimientos y evaluaciones de la organizacion y de ares de talento humano",
-    btnText: "Conocer mas",
-    image: "/img/laptop5.png", // ✅ Ruta directa
+    description: (
+      <>
+      Facilita los proceso, seguimientos y evaluaciones de la organizacion y de ares de <span className="font-bold">talento humano.</span>
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptop5.png", 
   },
   {
     title: "Gestion de reconocimiento economicos",
-    description: "Aumenta tus ingresos recuperando el dinero de incapacidades y licencias de tus colaboradores",
-    btnText: "Conocer mas",
-    image: "/img/laptop6.png", // ✅ Ruta directa
+    description: (
+      <>
+      <span className="font-bold">Aumenta tus ingresos</span> recuperando el dinero de incapacidades y licencias de tus colaboradores.
+      </>
+    ),
+    btnText: "Conocer más",
+    image: "/img/laptop6.png", 
   },
   {
-    title: "Nomina Emax",
-    description: "Toda la experiencia de Heinsohn en una solucion 100% digital, ideal para la pequeña grab empresa!",
-    btnText: "Conocer mas",
-    image: "/img/laptop7.png", // ✅ Ruta directa
+    title: "Nómina Emax",
+    description:(
+      <>
+      Toda la experiencia de Heinsohn en una solución <span className="font-bold">100% digital</span>, ideal para la pequeña grab empresa!
+      </>
+    ) ,
+    btnText: "Conocer más",
+    image: "/img/laptop7.png", 
   },
 ];
 
@@ -114,13 +143,13 @@ export const infoGestionHumana2 = [
   },
 
    {
-    icon: <MedicationOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    icon: <MedicalInformationOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
     title: "Outsourcing de gestión incapacidades y reconocimientos económicos",
     description: "Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación.",
   },
 
    {
-    icon: <BusinessCenterOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
+    icon: <WorkOutlineOutlined sx={{fontSize:40, fill:'black', stroke:'white'}}/>,
     title: "Atención a clientes y transformación digital",
     description: "Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias.",
   },
@@ -132,7 +161,7 @@ export const infoGestionHumana2 = [
   },
 
    {
-    icon: <WorkOutlined sx={{fontSize:40, fill:'white', stroke:''}}/>,
+    icon: <WorkOutlined sx={{fontSize:40, fill:'white', stroke:'black'}}/>,
     title: "Consultoría",
     description: "Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.",
   },

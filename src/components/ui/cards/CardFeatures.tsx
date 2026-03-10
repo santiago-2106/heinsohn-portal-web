@@ -5,6 +5,7 @@ interface CardFeaturesProps {
   title?: string;
   description?: string;
   variant?: "large" | "compact"; 
+  iconPosition?: 'top' | 'left'
 }
 
 export default function CardFeatures({
@@ -12,8 +13,11 @@ export default function CardFeatures({
   title,
   description,
   variant = "large",
+  iconPosition ='top'
 }: CardFeaturesProps) {
   const isLarge = variant === "large";
+
+  const isIconTop = iconPosition === 'top'
 
   return (
     <div
@@ -22,10 +26,10 @@ export default function CardFeatures({
         ${isLarge ? "p-8" : "p-4"}
       `}
     >
-      <div className="flex items-start gap-4">
+      <div className={`flex ${isIconTop ? "flex-col" : "flex-row items-start"} gap-4`}>
         {icon && (
           <div
-            className={`flex shrink-0 text-text-title ${isLarge ? "mt-1" : ""}`}
+            className={`flex shrink-0 text-text-title pt-3 ${isIconTop ? "mt-1" : "py-8"}`}
           >
             {icon}
           </div>
@@ -34,13 +38,13 @@ export default function CardFeatures({
         <div className="flex flex-col">
           {title && (
             <h3
-              className={`font-medium text-text-title ${isLarge ? "text-xl mb-3" : "text-lg mb-2"}`}
+              className={`font-medium text-text-title mt-3 ${isLarge ? "text-xl mb-3" : "text-lg mb-2"}`}
             >
               {title}
             </h3>
           )}
 
-          <p className="text-sm leading-relaxed text-text-body">{description}</p>
+          <p className=" leading-relaxed text-text-body p-1">{description}</p>
         </div>
       </div>
     </div>

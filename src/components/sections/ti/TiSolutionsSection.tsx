@@ -16,12 +16,12 @@ export default function CardFinal() {
       />
 
       <CardAnuncies
-        title="Analitica de datos e inteligencia artificial"
+        title="Analítica de datos e inteligencia artificial"
         cards={analitycCards}
       />
 
       <CardAnuncies
-        title="Ingenieria extendida y equipos dedicados"
+        title="Ingeniería extendida y equipos dedicados"
         cards={enginerTeamCards}
       />
 

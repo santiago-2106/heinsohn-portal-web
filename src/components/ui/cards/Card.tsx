@@ -7,6 +7,8 @@ export default function Card({
   btn,
   items,
   alineacion = "left",
+  textoFooter,
+  btnHasBorder
 }: dataCard) {
   const centrar = alineacion === "center";
   const cleanBtnText = btn ? btn.replace(/->|→/g, "").trim() : "";
@@ -50,11 +52,11 @@ export default function Card({
             {items.map((item, index) => (
               <li
                 key={index}
-                className={`flex items-start text-sm text-text-body ${
+                className={`flex items-start  text-text-body ${
                   centrar ? "justify-center text-center" : ""
                 }`}
               >
-                <span className="mr-3 mt-1.5 h-1.5 w-1.5 flex shrink-0 rounded-full bg-[#E30613]"></span>
+                <span className="mr-3 mt-3.5 h-1.5 w-1.5 flex shrink-0 rounded-full bg-[#E30613]"></span>
 
                 <div className="flex flex-col">
                   {/* El subtitulo del punto */}
@@ -74,8 +76,18 @@ export default function Card({
         </div>
       )}
 
+      {/*YA ESTABA REALIZAOD NO HABIA VISTO LA MANERA EN LLAMRLO PERO YA QUEDO */}
+      {
+        textoFooter && (
+          <div className="border-t border-border-ui pt-8 mb-8 min-w-full">
+            <p className="text-text-body leading-relaxed">{textoFooter}</p>
+          </div>
+        )
+      }
+
       {/* BOTÓN */}
       {btn && (
+        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : ""}>
         <a
           href="/"
           className={`
@@ -90,6 +102,7 @@ export default function Card({
             →
           </span>
         </a>
+        </div>
       )}
     </div>
   );

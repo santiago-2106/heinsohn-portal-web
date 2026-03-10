@@ -6,10 +6,13 @@ export interface dataTextComponent {
 }
 
 //Informacion data comonentes cartas  soluciones digitale ingenieria de software vista1
-export const dataTextComponent: dataTextComponent = {
+export const dataTextDesarrolloUx: dataTextComponent = {
   title: "Diseñamos experiencias memorables",
-  description:
-    "En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio, logrando mayor satisfacción y eficiencia en cada interacción.",
+  description:(
+    <>
+    En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <span className="font-bold">Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</span> logrando mayor satisfacción y eficiencia en cada interacción.
+    </>
+  ),
 };
 
 export const dataTextCards: dataTextComponent = {
@@ -152,7 +155,7 @@ export const textoGestionHumana3: dataTextComponent = {
 };
 
 export const textoGestionHumana4: dataTextComponent = {
-  title: "Somos Gestion",
+  title: "Somos Gestión",
   description: (
     <>
       Creemos en la tecnologia como herramienta de transformacion de los
@@ -179,7 +182,7 @@ export const textoPensiones1: dataTextComponent = {
   ),
 };
 
-export const textoPensiones2: dataTextComponent = {
+export const textoPensiones2 = {
   title: "Una plataforma previsional única, modular y escalable ",
   description: (
     <>
@@ -189,7 +192,7 @@ export const textoPensiones2: dataTextComponent = {
       integrada pensiones obligatorias, pensiones voluntarias, cesantías y
       rentas vitalicias.
       <br />
-      <span className="text-text-body font-semibold">
+      <span className="text-text-body font-bold">
         Su diseño modular y parametrizable permite adaptarse a la regulación de
         cada país en LATAM,
       </span>{" "}

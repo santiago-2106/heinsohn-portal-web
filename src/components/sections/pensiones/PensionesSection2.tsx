@@ -1,6 +1,8 @@
 import CertificacionesInternacionales from "@/src/components/sections/shared/certificaciones/CertificacionesInternacionales";
 import TextComponent from "../../ui/typography/TextComponent";
 import ButtonComponent from "../../ui/buttons/Button";
+import PreguntForm from "../../forms/formularios/PreguntForm";
+import { dataPreguntasFrecuentesPensiones } from "@/src/data/pensiones";
 
 export default function PensionesSection2() {
   return (
@@ -27,6 +29,11 @@ export default function PensionesSection2() {
         /> 
         <ButtonComponent textoBtn=" Conversa con un especialista en pensiones" /> 
       </div> 
+
+      <div>
+        <PreguntForm title='Preguntas frecuentes' items={dataPreguntasFrecuentesPensiones}/>
+        <ButtonComponent textoBtn=" Conversa con un especialista en pensiones" /> 
+      </div>
     </section>
   );
 }

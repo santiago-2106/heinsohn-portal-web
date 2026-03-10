@@ -27,8 +27,9 @@ export default function page() {
     buttonText: "solicita una asesoria gratuita",
     breadcrumb: [
       { label: "soluciones", href: "/gestion-humana" },
-      { label: "Soluciones Gestion Humana" },
+      { label: "HGS - Gestión Humana" },
     ],
+    
   };
 
   return (
@@ -39,6 +40,8 @@ export default function page() {
         description={infoGestionHumanaHero.description}
         buttonText={infoGestionHumanaHero.buttonText}
         breadcrumb={infoGestionHumanaHero.breadcrumb}
+        
+        
       />
       <SolucionesGestionH />
       <SoluciongestionH2 />

@@ -96,8 +96,16 @@ export default function Hero({
             {title}
           </h1>
 
+
+          <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
+            {subtitle}
+          </div>
+
+          {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
+          <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
           {/* DESCRIPCIÓN */}
           <div className="text-lg md:text-xl font-light text-text-body max-w-5xl mb-12 leading-relaxed">
+
             {description}
           </div>
 
@@ -129,6 +137,7 @@ export default function Hero({
           className="w-full h-48 md:h-[300px] object-cover object-bottom block"
         />
       </div>
+    </div>
     </section>
   );
 }

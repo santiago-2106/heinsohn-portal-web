@@ -13,7 +13,7 @@ export default function CardTestiomanialLandingS({ item }: TestimonialCardProps)
         className="h-8 mx-auto object-contain"
       />
 
-      <span className="border px-3 py-1 text-sm mx-auto">
+      <span className="border border-border-ui px-3 py-1 text-sm mx-auto">
         {item.companyName}
       </span>
 

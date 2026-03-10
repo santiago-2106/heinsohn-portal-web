@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-export default function CardCases() {
+export interface propsKnowOurWork{
+  imgKnowOurWork: string
+  titleWork:string
+  descriptionWork: string
+  textBtn: string
+}
+
+export default function CardCases({imgKnowOurWork, titleWork, descriptionWork, textBtn}: propsKnowOurWork) {
   return (
     <section className="bg-bg-main py-8 sm:py-12 md:py-16">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
@@ -9,30 +16,43 @@ export default function CardCases() {
         </h2>
 
         <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2">
-          <article className="flex flex-col border border-gray-300 bg-white">
-            <div className="relative h-48 w-full sm:h-56 md:h-80">
-              <Image
-                src="/img/edif.jpg" /* <-- RUTA CORREGIDA */
-                alt="Transformación digital en el sector financiero"
-                fill
-                className="object-cover"
-              />
-            </div>
+          <article className="flex flex-col border border-border-ui bg-bg-card-2">
+            {
+              imgKnowOurWork && (
+                <div className="relative h-48 w-full sm:h-56 md:h-80">
+                  <Image
+                    src={imgKnowOurWork} 
+                    alt="Transformación digital en el sector financiero"
+                    fill
+                    priority
+                    className="object-cover brightness-90 grayscale-100 "
+                  />
+                </div>
+              )
+            }
 
             <div className="flex flex-col gap-3 p-5 sm:p-6">
+
+              <h6 className="font-light text-text-body ">
+                {titleWork}
+              </h6>
+
               <p className="font-light text-text-body ">
                 <strong>Transformación digital en el sector financiero</strong>
               </p>
 
+
               <p className="text-sm leading-relaxed font-light text-text-body">
-                Implementamos una plataforma digital a la medida que mejoró la
-                experiencia del cliente y redujo en un 40% los tiempos de
-                operación.
+                {descriptionWork}
               </p>
               <a
                 href="#"
-                className="mt-auto inline-flex items-center gap-2 text-sm font-medium transition-transform hover:translate-x-1"
+                className="mt-auto inline-flex items-center gap-2 text-sm font-bold transition-transform hover:translate-x-1"
               >
+
+                {textBtn} 
+                <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
+
                 Conoce el caso completo
                 {/* Aquí agregamos el SVG de la flecha con tu color rojo */}
                 <svg
@@ -47,6 +67,7 @@ export default function CardCases() {
                   <path d="M5 12h14" />
                   <path d="m12 5 7 7-7 7" />
                 </svg>
+
               </a>
             </div>
           </article>

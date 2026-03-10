@@ -1,6 +1,6 @@
 import { ElementType } from "react";
 import DevicesIcon from "@mui/icons-material/Devices";
-import { AddPhotoAlternateOutlined, ArchitectureOutlined, ContactPageOutlined, DeviceHub, DiamondOutlined, EmojiEventsOutlined, FactCheckOutlined, GradeOutlined, LanguageOutlined, LaptopChromebookOutlined, PaymentOutlined, PersonalVideoOutlined, RequestQuoteOutlined, ShieldMoonOutlined, SpeedOutlined, TimerOffOutlined, UpdateOutlined, WebOutlined } from "@mui/icons-material";
+import { AccountBalanceOutlined, AccountBalanceWalletOutlined, AddPhotoAlternateOutlined, ArchitectureOutlined, AutoAwesomeOutlined, ContactlessOutlined, ContactPageOutlined, DataArrayOutlined, DeviceHub, DiamondOutlined, EmojiEventsOutlined, FactCheckOutlined, GradeOutlined, LanguageOutlined, LaptopChromebookOutlined, PaymentOutlined, PersonalVideoOutlined, RecordVoiceOverOutlined, RequestQuoteOutlined, SavingsOutlined, SensorsOutlined, ShieldMoonOutlined, SpeedOutlined, TimerOffOutlined, UpdateOutlined, WebOutlined } from "@mui/icons-material";
 import { dataCard } from "@/src/types/cardTypes";
 
 export interface SubtitleItem {
@@ -23,7 +23,7 @@ export const informationCard: dataCardSolutions[] = [
     subtitle: [
       {
         icon: DevicesIcon,
-        text: "Prototipado Rapido",
+        text: "Prototipo Rapido",
         features: ["Angular, React", "Hasta 5 flujos de 1 a 50 pantallas"],
       },
       {
@@ -46,7 +46,7 @@ export const informationCard: dataCardSolutions[] = [
     subtitle: [
       {
         icon: DevicesIcon,
-        text: "Prototipado Rapido",
+        text: "Prototipo Rapido",
         features: ["Angular, React", "Hasta 10 flujos de 1 a 100 pantallas"],
       },
       {
@@ -69,7 +69,7 @@ export const informationCard: dataCardSolutions[] = [
     subtitle: [
       {
         icon: DevicesIcon,
-        text: "Prototipado Rapido",
+        text: "Prototipo Rapido",
         features: ["Angular, React", "mas de 10 flujos de 101 a 200 pantallas"],
       },
       {
@@ -87,6 +87,24 @@ export const informationCard: dataCardSolutions[] = [
   },
 ];
 
+//data soluciones Cards conoce nuestro trabajo
+
+export const dataCardKnowOurWork ={
+  imgKnowOurWork: "/img/edif.jpg",
+  titleWork:'Transformación digital en el sector financiero',
+  descriptionWork: 'Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.',
+  textBtn: 'Conoce el caso completo'
+} 
+
+export const dataCardKnowOurWork2 ={
+  imgKnowOurWork: "/img/imgWorkKnow.jpg",
+  titleWork:'Transformación de una plataforma de servicios de salud',
+  descriptionWork: 'Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...',
+  textBtn: 'Descubre cómo lo hicimos'
+} 
+
+
+//TEXTOS DE CARDS E INFORMACION DESARROLLO A LA MEDIDA NO DEBERIA ESTAR AQUI
 export const dataEstrategiaNegocio = [
   {
     title: "Diseño centrado en el usuario (UX/UI)",
@@ -137,25 +155,25 @@ export const dataEstrategiaNegocio = [
 export const textoSoftwareSolucionDigital = [
   {
     id: 1,
-    icon: <DiamondOutlined />,
+    icon: <DiamondOutlined sx={{ fontSize: 40 }}/>,
     description:
       "Certificación CMMI Nivel 5 que garantiza procesos de calidad. ",
   },
   {
     id: 2,
-    icon: <SpeedOutlined />,
+    icon: <SpeedOutlined sx={{ fontSize: 40 }}/>,
     description:
       "Metodologías ágiles probadas: Scrum, DevSecOps, QA Automation, UX/UI.",
   },
   {
     id: 3,
-    icon: <LanguageOutlined />,
+    icon: <LanguageOutlined sx={{ fontSize: 40 }}/>,
     description:
       "Cobertura internacional y alianzas estratégicas para proyectos globales.  ",
   },
   {
     id: 4,
-    icon: <PersonalVideoOutlined />,
+    icon: <PersonalVideoOutlined sx={{ fontSize: 40 }}/>,
     description:
       "+200 proyectos implementados con impacto en múltiples industrias .",
   },
@@ -163,27 +181,33 @@ export const textoSoftwareSolucionDigital = [
 
 export const dataSoftwaregenerico = [
   {
-    icon: <LaptopChromebookOutlined />,
+    icon: <LaptopChromebookOutlined sx={{fontSize:35}}/>,
     description: "Eliminan cuellos de botella con procesos agiles.",
   },
   {
-    icon: <ArchitectureOutlined />,
+    icon: <ArchitectureOutlined sx={{fontSize:35}}/>,
     description: "Escalan sin fricciones gracias a arquitecturas modernas.",
   },
   {
-    icon: <PaymentOutlined />,
+    icon: <PaymentOutlined sx={{fontSize:35}}/>,
     description: "Reducen costos ocultos al reemplazar licencias ineficientes.",
   },
   {
-    icon: <ShieldMoonOutlined />,
+    icon: <ShieldMoonOutlined sx={{fontSize:40}}/>,
     description: "Refuerzan la seguridad con estandares globlaes de DevSecOps.",
   },
 ];
+
+
+
 
 // =========================================================================
 // AQUÍ ESTÁN LAS VARIABLES FALTANTES PARA QUE COMPILE TU VISTA
 // Las llenamos con datos de prueba estructurados para tu Card.tsx
 // =========================================================================
+
+
+
 
 export const textModelDevelop: dataCard[] = [
     {icon:<AddPhotoAlternateOutlined sx={{fontSize:40}}/> , title:'Staff Augmentation', description:'Integra desarrolladores especializados para fortalecer tu equipo actual. '},
@@ -208,7 +232,7 @@ export const textoModelDevelop2: dataCard[] = [
     )}
 ]
 
-
+//AQUI?
 export const textoSolucionDigital2: dataCard[] = [
     {
         title: (
@@ -241,25 +265,25 @@ export const textoSolucionDigital2: dataCard[] = [
 
 export const SolucinesDigital6: dataCard[] = [
     {
-        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        icon:<SavingsOutlined sx={{ fontSize: 40 }} />,
         title:'Lenguajes & Frameworks (Frontend/Backend)',
         items:[{textos:'Java'}, {textos:'NET'}, {textos:'Python'}, {textos:'Node.js'}, {textos:'React'}, {textos:'Angular'}, {textos:'Vue.js'}, {textos:'Flutter'}]
     },
 
     {
-        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        icon:<RecordVoiceOverOutlined sx={{ fontSize: 40 }} />,
         title:'Cloud & Arquitecturas',
         items:[{textos:'AWS'}, {textos:'Microsoft AAzure'}, {textos:'Google Cloud Platform'}, {textos:'Kubernetes'}, {textos:'Docker'}]
     },
 
     {
-        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        icon:<AccountBalanceWalletOutlined sx={{ fontSize: 40 }} />,
         title:'Bases de datos & Big Data',
         items:[{textos:'PostgreSQL'}, {textos:'MongoDB'}, {textos:'Oracle'}, {textos:'Microsoft SQL Server'}]
     },
 
     {
-        icon:<RequestQuoteOutlined sx={{ fontSize: 32 }} />,
+        icon:<AccountBalanceOutlined sx={{ fontSize: 40 }} />,
         title:'Integraciones Empresariales & QA',
         items:[{textos:'SAP'}, {textos:'Salesforce'}, {textos:'Gitlab'}, {textos:'Selenium'}]
     },

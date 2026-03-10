@@ -14,9 +14,9 @@ export default function HeaderSeparador({
           <h2 className="text-text-body text-lg md:text-xl font-light whitespace-nowrap uppercase tracking-wide">
             {title1}
           </h2>
-          <span role="presentation" className="flex-1 h-px bg-border-ui" />
+          <span role="presentation" className="flex-1 h-px bg-border-ui mt-20" />
 
-          <span aria-hidden="true" className="text-text-body text-sm">
+          <span aria-hidden="true" className="text-text-body text-sm mt-20">
             ↓
           </span>
         </section>
@@ -25,8 +25,8 @@ export default function HeaderSeparador({
           <h2 className="text-text-body text-lg md:text-xl font-light whitespace-nowrap uppercase tracking-wide">
             {title2}
           </h2>
-          <span role="presentation" className="flex-1 h-px bg-border-ui" />
-          <span aria-hidden="true" className="text-text-body text-sm">
+          <span role="presentation" className="flex-1 h-px bg-border-ui mt-20" />
+          <span aria-hidden="true" className="text-text-body text-sm mt-20">
             ↓
           </span>
         </section>

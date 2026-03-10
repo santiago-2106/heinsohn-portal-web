@@ -10,6 +10,7 @@ import CardSoftwreGeneric from '@/src/components/sections/soluciones-digitales/G
 import TetxSolutionsDigital from '@/src/components/sections/soluciones-digitales/TetxSolutionsDigital'
 import PreguntasFort from '@/src/components/forms/formularios/PreguntForm'
 import { dataPreguntasFrecuentes } from '@/src/data/soluciones-digitales'
+import { cardSlider2 } from '@/src/data/share/slider'
 
 
 
@@ -18,13 +19,14 @@ export default function pageSdIS() {
     title:'Desarrollo de software a la medida',
     description: (
       <>
-       desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad.  <span className='font-semibold'>Creamos soluciones únicas que se adaptan a tu negocio,</span> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.
+      El desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad.  <span className='font-bold'>Creamos soluciones únicas que se adaptan a tu negocio,</span> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.
       </>
     ),
     buttonText: "Solicita una asesoría gratuita",
     breadcrumb: [
       { label: "Soluciones", href: "/soluciones" },
-      { label: "Soluciones TI" }
+      { label: "Soluciones TI" },
+      {label: 'Desarrollo de software a la medida'}
     ]
   }
   return (
@@ -42,7 +44,7 @@ export default function pageSdIS() {
       <CardEstrategicNegocio />
       <ModelosDesarrollo />
       <PreguntasFort title='Preguntas Frecuentes' items={dataPreguntasFrecuentes}/>
-      <Slider />
+      <Slider data={cardSlider2}/>
       <Footer />
       <FooterBottom />
     </div>
