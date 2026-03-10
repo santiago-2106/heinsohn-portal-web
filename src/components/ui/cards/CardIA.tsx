@@ -17,17 +17,17 @@ export default function CardIA({
       {/* Icono */}
       <div className="mb-6 text-text-title">{icon}</div>
 
-      {/* Título principal */}
-      <h3 className="mb-6 text-2xl md:text-3xl font-light text-text-title">
+      {/* Título principal de la carta */}
+      <h1 className="mb-6 text-2xl md:text-3xl font-light text-text-title">
         {title}
-      </h3>
+      </h1>
 
-      {/* Descripción */}
+      {/* Descripción principal */}
       <div className="mb-8 text-text-body leading-relaxed">
         {description}
       </div>
 
-      {/* Listas (Beneficios, Entregables) */}
+      {/* Listas (Beneficios, Entregables, etc.) */}
       {lists && lists.length > 0 && (
         <div className="flex flex-col gap-8 mb-8">
           {lists.map((list, listIndex) => {
@@ -36,29 +36,28 @@ export default function CardIA({
             return (
               <div 
                 key={listIndex} 
-                // Si es "highlighted", le pone la línea arriba y un padding
                 className={isHighlighted ? "border-t border-border-ui pt-8" : ""}
               >
                 {list.title && (
                   <h4 
-                    className={`mb-4 ${
+                    className={`mb-4 text-lg md:text-xl ${
                       isHighlighted 
-                        ? "text-xl md:text-2xl font-light text-text-body" // Texto grande y delgado
-                        : "font-semibold text-text-title"                 // Texto pequeño y negrita
+                        ? "font-light text-text-body" 
+                        : "font-medium text-text-title"
                     }`}
                   >
                     {list.title}
                   </h4>
                 )}
                 
-                <ul className="space-y-3">
+                {/* AQUI ESTA LA CORRECCIÓN: Agregamos pl-4 (padding left) para mover toda la lista a la derecha */}
+                <ul className="space-y-3 pl-4 md:pl-5">
                   {list.items.map((item, itemIndex) => (
-                    <li key={itemIndex} className="flex items-start text-text-body gap-3">
+                    <li key={itemIndex} className="flex items-start text-text-body gap-4">
                       {list.type === "bullet" ? (
-                        // Viñeta: Puntito rojo muy pequeñito (h-1 w-1)
+                        // Ajuste visual del puntito rojo para que quede alineado con el texto
                         <span className="mt-2.5 h-1 w-1 flex-shrink-0 rounded-full bg-brand-accent"></span>
                       ) : (
-                        // Viñeta: Número rojo
                         <span className="text-brand-accent font-medium">
                           {itemIndex + 1}.
                         </span>
@@ -73,10 +72,10 @@ export default function CardIA({
         </div>
       )}
 
-      {/* Empuja el contenido hacia abajo */}
+      {/* Espaciador para empujar el botón al final */}
       <div className="flex-grow"></div>
 
-      {/* Texto de cierre (con su línea arriba) */}
+      {/* Texto de cierre (Footer de la carta) */}
       {footerText && (
         <div className="border-t border-border-ui pt-8 mb-8">
           <p className="text-text-body leading-relaxed">
@@ -85,7 +84,7 @@ export default function CardIA({
         </div>
       )}
 
-      {/* Botón final (con línea arriba opcional) */}
+      {/* Botón de acción */}
       <div className={btnHasBorder ? "border-t border-border-ui pt-8" : ""}>
         <a
           href={btnHref}
