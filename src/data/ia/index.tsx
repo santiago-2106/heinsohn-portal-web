@@ -242,8 +242,7 @@ export const dataIaTimeline = [
   { fase: "Fase", indicador: "#5", title: "Escalabilidad", description: "Soporte, actualización y mejora continua." }
 ];
 
-// 6. FAQ
-// 6. FAQ
+
 export const dataIaFaq = [
   { 
     question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", 
