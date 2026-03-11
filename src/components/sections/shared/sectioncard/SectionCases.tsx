@@ -1,81 +1,77 @@
 import Image from "next/image";
 
-export interface propsKnowOurWork{
-  imgKnowOurWork: string
-  titleWork:string
-  descriptionWork: string
-  textBtn: string
+// 1. AÑADIMOS subtitleWork A LA INTERFAZ
+export interface propsKnowOurWork {
+  imgKnowOurWork: string;
+  titleWork: string;
+  subtitleWork?: string; // Lo hacemos opcional por si alguna vista no lo tiene
+  descriptionWork: string;
+  textBtn: string;
 }
 
-export default function CardCases({imgKnowOurWork, titleWork, descriptionWork, textBtn}: propsKnowOurWork) {
+export default function CardCases({
+  imgKnowOurWork,
+  titleWork,
+  subtitleWork, // 2. RECIBIMOS LA PROP
+  descriptionWork,
+  textBtn,
+}: propsKnowOurWork) {
   return (
-    <section className="bg-bg-main py-8 sm:py-12 md:py-16">
+    <section className="bg-bg-main py-8 sm:py-12 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
-        <h2 className="mb-8 text-center text-2xl sm:mb-10 sm:text-3xl md:mb-12 md:text-4xl">
+        <h2 className="mb-8 text-center text-2xl font-semibold text-text-title sm:mb-10 sm:text-3xl md:mb-12 md:text-4xl">
           Conoce Nuestro Trabajo
         </h2>
 
         <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2">
-          <article className="flex flex-col border border-border-ui bg-bg-card-2">
-            {
-              imgKnowOurWork && (
-                <div className="relative h-48 w-full sm:h-56 md:h-80">
-                  <Image
-                    src={imgKnowOurWork} 
-                    alt="Transformación digital en el sector financiero"
-                    fill
-                    priority
-                    className="object-cover brightness-90 grayscale-100 "
-                  />
-                </div>
-              )
-            }
+          <article className="flex flex-col border border-border-ui bg-bg-card-2 transition-shadow duration-300 hover:shadow-md">
+            {imgKnowOurWork && (
+              <div className="relative h-48 w-full sm:h-56 md:h-80">
+                <Image
+                  src={imgKnowOurWork}
+                  alt={titleWork || "Caso de éxito"}
+                  fill
+                  priority
+                  className="object-cover brightness-90 grayscale-[50%]"
+                />
+              </div>
+            )}
 
-            <div className="flex flex-col gap-3 p-5 sm:p-6">
+            <div className="flex flex-col gap-3 p-5 sm:p-8 grow">
+              {/* Título Principal de la tarjeta */}
+              <h6 className="font-medium text-text-title text-xl mb-2">{titleWork}</h6>
 
-              <h6 className="font-light text-text-body ">
-                {titleWork}
-              </h6>
+              {/* 3. RENDERIZAMOS LA PROP DINÁMICA (Si existe) */}
+              {subtitleWork && (
+                <p className="font-semibold text-text-body text-sm uppercase tracking-wide">
+                  {subtitleWork}
+                </p>
+              )}
 
-              <p className="font-light text-text-body ">
-                <strong>Transformación digital en el sector financiero</strong>
-              </p>
-
-
-              <p className="text-sm leading-relaxed font-light text-text-body">
+              {/* Descripción */}
+              <p className="text-base leading-relaxed font-light text-text-body">
                 {descriptionWork}
               </p>
+              
+              {/* Botón con Google Symbols */}
               <a
                 href="#"
-                className="mt-auto inline-flex items-center gap-2 text-sm font-bold transition-transform hover:translate-x-1"
+                aria-label={`Leer más sobre: ${titleWork}`}
+                className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-text-title transition-colors hover:text-brand-accent group"
               >
-
-                {textBtn} 
-                <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
-
-                Conoce el caso completo
-                {/* Aquí agregamos el SVG de la flecha con tu color rojo */}
-                <svg
-                  className="w-4 h-4 text-brand-accent"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
-
+                {textBtn}
+                <span aria-hidden="true" className="material-symbols-rounded text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
+                  arrow_forward
+                </span>
               </a>
             </div>
           </article>
 
-          <div className="relative hidden md:block border border-gray-200">
+          {/* Imagen Lateral Decorativa */}
+          <div className="relative hidden md:block border border-border-ui border-l-0">
             <Image
-              src="/img/workimg.png" /* <-- RUTA CORREGIDA */
-              alt="Transformación digital en el sector financiero"
+              src="/img/workimg.png"
+              alt="Decoración de caso de éxito"
               fill
               className="object-cover"
             />

@@ -19,47 +19,7 @@ import TipsAndUpdatesIcon from "@mui/icons-material/TipsAndUpdates";
 
 // --- DATOS TECNOLOGÍA Y SERVICIOS --- //
 
-export const softwareCards: dataCard[] = [
-  {
-    icon: <DevicesIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
-    title: "Desarrollo de aplicaciones moviles y web",
-    description: "soluciones intuitivas para todo tipo de dispositivos",
-    btn: "Ver soluciones",
-  },
-  {
-    icon: <DisplaySettingsIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
-    title: "Diseño y Desarrollo UX/UI",
-    description:
-      "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversión.",
-    btn: "Ver experiencias",
-  },
-  {
-    icon: <DataObjectIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
-    title: "Desarollo de software",
-    description: "productos a la medida de cada necesidad empresarial",
-    btn: "Solicitar desarrollo",
-  },
-  {
-    icon: <CloudQueueIcon sx={{ fontSize:40}}/>,
-    title: "Desarrollo software cloud",
-    description:
-      "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
-    btn: "Ver mas",
-  },
-  {
-    icon: <TabletMacIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
-    title: "Desarrollo de plataformas escalables",
-    description: "arquitecturas prepardas para el crecimiento del negocio",
-    btn: "Explorar",
-  },
-  {
-    icon: <DeveloperModeIcon sx={{fill: 'white', stroke: 'black', fontSize:40}}/>,
-    title: "Modernizacion de aplicaciones de software",
-    description:
-      "actualización tecnológica que prolonga la vida útil y aumenta la eficiencia.",
-    btn: "Actualizar ahora",
-  },
-];
+
 
 export const analitycCards: dataCard[] = [
   {

@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image"; // IMPORTANTE PARA RENDIMIENTO
 
 interface BreadcrumbItem {
   label?: string;
@@ -18,7 +19,7 @@ interface HeroProps {
   subtitle?: React.ReactNode;
   buttonText?: string;
   breadcrumb: BreadcrumbItem[];
-  badges?: BadgeItem[];     // <-- Prop dinámica para los badges
+  badges?: BadgeItem[];     
   isUppercase?: boolean; 
 }
 
@@ -29,17 +30,17 @@ export default function Hero({
   buttonText,
   breadcrumb,
   badges,
-  isUppercase = true,
+  isUppercase = false, 
 }: HeroProps) {
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
         <div className="flex flex-col items-start w-full">
           
-          {/* BREADCRUMB */}
-          <nav className="flex items-center gap-2 text-sm text-text-body mb-8">
-            <Link href="/" className="flex items-center gap-1 hover:text-brand-accent transition-colors">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+          {/* BREADCRUMB (Accesibilidad mejorada) */}
+          <nav aria-label="Miga de pan" className="flex items-center gap-2 text-sm text-text-body mb-8">
+            <Link href="/" className="flex items-center gap-1 hover:text-brand-accent transition-colors" aria-label="Ir a la página de inicio">
+              <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
                 <polyline points="9 22 9 12 15 12 15 22" />
               </svg>
@@ -53,38 +54,30 @@ export default function Hero({
                     {item.label}
                   </Link>
                 ) : (
-                  <span className="font-medium text-text-title">{item.label}</span>
+                  <span className="font-medium text-text-title" aria-current="page">{item.label}</span>
                 )}
               </React.Fragment>
             ))}
           </nav>
 
-          <br />
-
-{/* BADGES DINÁMICOS */}
+          {/* BADGES DINÁMICOS */}
           {badges && badges.length > 0 && (
             <div className="mb-8 flex flex-wrap items-center gap-3">
               {badges.map((badge, index) => (
                 <React.Fragment key={index}>
                   <div className="px-4 py-1.5 rounded-full inline-flex items-center gap-1.5">
-                    {/* El símbolo + */}
                     {badge.prefix && (
                       <span className="text-brand-accent font-bold text-sm">{badge.prefix}</span>
                     )}
-                    
                     <span className="text-text-body text-sm uppercase tracking-wider font-medium">
-                      {/* El número en rojo */}
                       {badge.highlight && (
                         <span className="text-brand-accent">{badge.highlight} </span>
                       )}
-                      {/* El resto del texto en gris */}
                       {badge.text}
                     </span>
                   </div>
-                  
-                  {/* El separador | */}
                   {index < badges.length - 1 && (
-                    <span className="text-text-title font-bold text-sm">|</span>
+                    <span aria-hidden="true" className="text-text-title font-bold text-sm">|</span>
                   )}
                 </React.Fragment>
               ))}
@@ -96,55 +89,63 @@ export default function Hero({
             {title}
           </h1>
 
+          {/* SUBTÍTULO */}
+          {subtitle && (
+            <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
+              {subtitle}
+            </div>
+          )}
 
-          <div className="text-xl md:text-4xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
-            {subtitle}
-          </div>
-
-          {/* DESCRIPCIÓN (Contenedor div para no romper listas internas) */}
-          <div className="text-xl md:text-2xl font-light text-text-body max-w-4xl mb-12 leading-relaxed">
           {/* DESCRIPCIÓN */}
           <div className="text-lg md:text-xl font-light text-text-body max-w-5xl mb-12 leading-relaxed">
-
             {description}
           </div>
 
-          {/* BOTONES */}
-          <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
-            <button className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md">
-              <span className="font-medium">{buttonText}</span>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
-                <path d="M5 12h14" />
-                <path d="m12 5 7 7-7 7" />
-              </svg>
-            </button>
+          {/* BOTONES (Accesibilidad: aria-label agregado) */}
+          {buttonText && (
+            <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
+              <button 
+                className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md"
+                aria-label={buttonText}
+              >
+                <span className="font-medium">{buttonText}</span>
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
+                  <path d="M5 12h14" />
+                  <path d="m12 5 7 7-7 7" />
+                </svg>
+              </button>
 
-            <button className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 5v14" />
-                <path d="m19 12-7 7-7-7" />
-              </svg>
-            </button>
-          </div>
+              <button 
+                aria-label="Más opciones" 
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md"
+              >
+                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M12 5v14" />
+                  <path d="m19 12-7 7-7-7" />
+                </svg>
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* IMAGEN INFERIOR */}
-      <div className="w-full">
-        <img
+      {/* IMAGEN INFERIOR OPTIMIZADA (Next Image) */}
+      <div className="w-full relative h-48 md:h-[300px]">
+        <Image
           src="/img/diseno-figuras.png"
-          alt="Diseño geométrico"
-          className="w-full h-48 md:h-[300px] object-cover object-bottom block"
+          alt="Diseño geométrico decorativo"
+          fill
+          priority // Le dice a Google que es crítica para LCP
+          className="object-cover object-bottom"
         />
       </div>
-    </div>
     </section>
   );
 }
 
 function ChevronRight() {
   return (
-    <svg className="w-3 h-3 text-brand-accent" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
+    <svg aria-hidden="true" className="w-3 h-3 text-brand-accent" fill="none" viewBox="0 0 24 24" strokeWidth="3" stroke="currentColor">
       <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
     </svg>
   );

@@ -12,7 +12,7 @@ interface ContactFormProps {
 }
 
 // 2. RECIBIMOS LA PROP 'title' CON UN VALOR POR DEFECTO
-export default function ContactForm({ title = "Contáctanos" }: ContactFormProps) {
+export default function ContactForm({ title = "" }: ContactFormProps) {
   const {
     register,
     formState: { errors },

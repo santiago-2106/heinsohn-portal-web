@@ -1,3 +1,4 @@
+import { dataCard } from "@/src/types/cardTypes";
 import React from "react";
 
 export interface dataTextComponent {
@@ -5,29 +6,188 @@ export interface dataTextComponent {
   description: string | React.ReactNode;
 }
 
-//Informacion data comonentes cartas  soluciones digitale ingenieria de software vista1
+// =========================================================================
+// VISTA: CONSULTORÍA UX-UI (ORDEN CRONOLÓGICO)
+// =========================================================================
+
+// 1. HERO
+export const dataUXConsultorias = {
+  title: <>Consultoría UX-UI Diseño y desarrollo de<br/> experiencias de usuario</>,
+  description:(
+    <>
+      <span className="font-bold text-text-title">Creamos experiencias digitales</span> centradas en las personas, con interfaces funcionales, atractivas y accesibles.
+    </>
+  ),
+  buttonText: "Solicita una asesoría gratuita",
+  breadcrumb: [
+    { label: "Soluciones", href: "/soluciones-digitales" },
+    { label: "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario" },
+  ],
+};
+
+// 2. TEXTO INTRODUCTORIO
 export const dataTextDesarrolloUx: dataTextComponent = {
   title: "Diseñamos experiencias memorables",
   description:(
     <>
-    En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <span className="font-bold">Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</span> logrando mayor satisfacción y eficiencia en cada interacción.
+      En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <span className="font-bold text-text-title">Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</span> logrando mayor satisfacción y eficiencia en cada interacción.
     </>
   ),
 };
 
+// 3. TARJETAS DE OFERTAS / PRICING
 export const dataTextCards: dataTextComponent = {
   title: "Nuestras Ofertas",
   description:
     "Elige el plan que mejor se adapte a las necesidades de tu empresa. Diseñamos tres paquetes con diferentes alcances y precios, pensados para brindarte flexibilidad, escalabilidad y el acompañamiento ideal en cada etapa de tu crecimiento.",
 };
 
+// 4. TEXTO DEL EQUIPO
 export const dataTextTitle: dataTextComponent = {
   title: "La voz de nuestro Equipo",
   description:
     "El diseño va más allá de lo visual, se trata de entender profundamente al usuario y traducir sus necesidades en experiencias digitales que les hagan la vida más fácil. Ese es nuestro propósito en cada proyecto.",
 };
 
-//Informacion data comonentes cartas soluciones digitale ingenieria de software vista2
+// =========================================================================
+// OTRAS SECCIONES (Precios y Casos de Éxito)
+// =========================================================================
+export const informationCard = [
+  {
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
+        family_star
+      </span>
+    ),
+    titles: "Basico",
+    subtitle: [
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            sync_saved_locally
+          </span>
+        ),
+        text: "Prototipo Rapido",
+        features: ["Angular, React", "Hasta 5 flujos de 1 a 50 pantallas"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            display_settings
+          </span>
+        ),
+        text: "Prueba de uso",
+        features: ["Prueba con 5 a 10 usuarios sinteticos"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            acute
+          </span>
+        ),
+        text: "Tiempo",
+        features: ["16 horas -1 especialista UX."],
+      },
+    ],
+    price: "$500 USD",
+  },
+  {
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
+        crown
+      </span>
+    ),
+    titles: "Intermedio",
+    subtitle: [
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            sync_saved_locally
+          </span>
+        ),
+        text: "Prototipo Rapido",
+        features: ["Angular, React", "Hasta 10 flujos de 1 a 100 pantallas"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            display_settings
+          </span>
+        ),
+        text: "Prueba de uso",
+        features: ["Prueba con 5 a 10 usuarios sinteticos"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            acute
+          </span>
+        ),
+        text: "Tiempo",
+        features: ["32 horas -1 especialista UX."],
+      },
+    ],
+    price: "$1000 USD",
+  },
+  {
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
+        diamond
+      </span>
+    ),
+    titles: "Pro",
+    subtitle: [
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            sync_saved_locally
+          </span>
+        ),
+        text: "Prototipo Rapido",
+        features: ["Angular, React", "mas de 10 flujos de 101 a 200 pantallas"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            display_settings
+          </span>
+        ),
+        text: "Prueba de uso",
+        features: ["Prueba con 5 a 10 usuarios sinteticos"],
+      },
+      {
+        icon: (
+          <span className="material-symbols-rounded text-text-title" style={{ fontSize: "20px" }}>
+            acute
+          </span>
+        ),
+        text: "Tiempo",
+        features: ["48 horas -1 especialista UX."],
+      },
+    ],
+    price: "$2000 USD",
+  },
+];
+
+export const dataCardKnowOurWork = {
+  imgKnowOurWork: "/img/edif.jpg",
+  titleWork: "Transformación digital en el sector financiero",
+  descriptionWork:
+    "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+  textBtn: "Conoce el caso completo",
+};
+
+export const dataCardKnowOurWork2 = {
+  imgKnowOurWork: "/img/imgWorkKnow.jpg",
+  titleWork: "Transformación de una plataforma de servicios de salud",
+  descriptionWork:
+    "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+  textBtn: "Descubre cómo lo hicimos",
+};
+
+// =========================================================================
+// VISTA: SOLUCIONES DIGITALES / INGENIERÍA DE SOFTWARE
+// =========================================================================
 export const dataTextSolucionDigtal: dataTextComponent = {
   title:
     "El verdadero freno no está en tu equipo, sino en un software genérico",
@@ -46,7 +206,7 @@ export const dataTextSolucionDigtal: dataTextComponent = {
 
 export const TextSolucionDigtal2: dataTextComponent = {
   title:
-    "Modelos de desarrollo que se adaptan a la madurez digital de tu empresa ",
+    "Modelos de desarrollo que se adaptan a la madurez digital de tu empresa ",
   description: (
     <>
       Cada organización se encuentra en un punto distinto de su transformación
@@ -61,7 +221,7 @@ export const TextSolucionDigtal2: dataTextComponent = {
 };
 export const TextSolucionDigtal21: dataTextComponent = {
   title:
-    "Cómo un desarrollo de software personalizado acelera tu estrategia de negocio  ",
+    "Cómo un desarrollo de software personalizado acelera tu estrategia de negocio  ",
   description: (
     <>
       Nuestro desarrollo de software combina lo mejor de la ingeniería y la
@@ -73,7 +233,7 @@ export const TextSolucionDigtal21: dataTextComponent = {
 };
 
 export const TextSolucionDigtal3: dataTextComponent = {
-  title: "Resultados medibles de un software hecho a tu medida ",
+  title: "Resultados medibles de un software hecho a tu medida ",
   description: (
     <>
       Invertir en software personalizado significa convertir la tecnología en
@@ -95,15 +255,15 @@ export const TextSolucionDigtal4: dataTextComponent = {
 export const TextSolucionDigtal5: dataTextComponent = {
   title: "Cómo transformamos tu idea en resultados de negocio",
   description:
-    "Nuestro proceso combina metodología ágil, visión estratégica y foco en resultados para acompañarte desde la idea hasta la evolución continua de la solución: ",
+    "Nuestro proceso combina metodología ágil, visión estratégica y foco en resultados para acompañarte desde la idea hasta la evolución continua de la solución: ",
 };
 
 export const TextSolucionDigtal6: dataTextComponent = {
-  title: "El stack tecnológico detrás de nuestros proyectos de software",
+  title: "El stack tecnológico detrás de nuestros proyectos de software",
   description: (
     <>
       Para garantizar escalabilidad, seguridad y eficiencia, trabajamos con
-      un stack tecnológico robusto y probado en{" "}
+      un stack tecnológico robusto y probado en{" "}
       <span className="text-text-body font-semibold">
         proyectos de alto impacto
       </span>
@@ -111,7 +271,9 @@ export const TextSolucionDigtal6: dataTextComponent = {
   ),
 };
 
-//Informacion vista de Texto Gestion Humana
+// =========================================================================
+// VISTA: GESTIÓN HUMANA
+// =========================================================================
 export const textoGestionHumana: dataTextComponent = {
   title: "Contrata soluciones a la medida, del tipo de tu organización",
   description: (
@@ -168,11 +330,12 @@ export const textoGestionHumana4: dataTextComponent = {
   ),
 };
 
-//Informacion titulos y descripcions vista Pensiones
-
+// =========================================================================
+// VISTA: PENSIONES
+// =========================================================================
 export const textoPensiones1: dataTextComponent = {
   title:
-    "Retos del sistema de pensiones en Latinoamérica y cómo puedes gestionarlo con nuestro software ",
+    "Retos del sistema de pensiones en Latinoamérica y cómo puedes gestionarlo con nuestro software ",
   description: (
     <>
       El sistema de pensiones en America Latina enfrenta transformaciones que
@@ -183,13 +346,13 @@ export const textoPensiones1: dataTextComponent = {
 };
 
 export const textoPensiones2 = {
-  title: "Una plataforma previsional única, modular y escalable ",
+  title: "Una plataforma previsional única, modular y escalable ",
   description: (
     <>
       Nuestro <span className="text-text-body font-semibold">software </span>
       previsional centraliza la administración del sistema de pensiones en un
-      único core tecnológico, desde el cual es posible gestionar de forma
-      integrada pensiones obligatorias, pensiones voluntarias, cesantías y
+      único core tecnológico, desde el cual es posible gestionar de forma
+      integrada pensiones obligatorias, pensiones voluntarias, cesantías y
       rentas vitalicias.
       <br />
       <span className="text-text-body font-bold">
@@ -201,3 +364,32 @@ export const textoPensiones2 = {
     </>
   ),
 };
+// =========================================================================
+// 4. DATA TARJETAS DE SOFTWARE (SliderSolDigital)
+// =========================================================================
+export const softwareCards: dataCard[] = [
+  {
+    icon: <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>devices</span>,
+    title: "Desarrollo de aplicaciones moviles y web",
+    description: "soluciones intuitivas para todo tipo de dispositivos",
+    btn: "Ver soluciones",
+  },
+  {
+    icon: <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>data_object</span>,
+    title: "Desarollo de software",
+    description: "productos a la medida de cada necesidad empresarial",
+    btn: "Solicitar desarrollo",
+  },
+  {
+    icon: <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>cloud_queue</span>,
+    title: "Desarrollo software cloud",
+    description: "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
+    btn: "Ver mas",
+  },
+  {
+    icon: <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>developer_mode</span>,
+    title: "Modernizacion de aplicaciones de software",
+    description: "actualización tecnológica que prolonga la vida útil y aumenta la eficiencia.",
+    btn: "Actualizar ahora",
+  },
+];

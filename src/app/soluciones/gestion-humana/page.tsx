@@ -47,7 +47,7 @@ export default function page() {
       <SoluciongestionH2 />
       <CardProductSection />
       <TextTeam />
-      <ContactForm />
+      <ContactForm title={undefined} />
       <Footer />
       <FooterBottom />
     </div>
