@@ -3,7 +3,7 @@ import TextComponent from "@/src/components/ui/typography/TextComponent";
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import { Devices } from "@mui/icons-material";
 import ButtonComponent from "../../ui/buttons/Button";
-import { dataSoftwaregenerico } from "../../../data/soluciones-digitales";
+import { dataSoftwaregenerico } from "../../../data/desarrollo-a-medida";
 
 export default function TrustSection() {
   return (

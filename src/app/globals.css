@@ -15,7 +15,7 @@
   /* Color Background */
   --color-bg-main: var(--theme-bg-main);
 
-  /*  Color fundamentos de la interfaz */
+  /* Color fundamentos de la interfaz */
   --color-border-ui: var(--theme-border-ui);
   --color-area-prop: var(--theme-area-prop);
   --color-bg-card-1: var(--theme-bg-card-1);
@@ -36,7 +36,7 @@
   --theme-bg-menu: #EBEBEB;
   --theme-bg-menu-hover: #F5F5F5;
 }
-/*  3. VALORES HEXADECIMALES (DARK MODE)*/
+/* 3. VALORES HEXADECIMALES (DARK MODE)*/
 .dark {
     --theme-text-title: #E5E7EB;
     --theme-text-body: #E5E7EB;
@@ -50,7 +50,7 @@
     --theme-bg-menu-hover: #35353C;
   }
 
-/*  4. ESTILOS BASE Y ESCALA TIPOGRÁFICA (H1440, H768, H390)*/
+/* 4. ESTILOS BASE Y ESCALA TIPOGRÁFICA (H1440, H768, H390)*/
 @layer base {
   body {
     /* Aplica el fondo general y el color de texto a todo el portal */
@@ -60,7 +60,7 @@
   /* 📰 Headings (H1, H2, H3) */
   h1 {
     /* Color de títulos. Tamaños: XS(4xl), M(5xl), XL(6xl/7xl) */
-    @apply text-text-title font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight;
+    @apply text-text-title font-bold text-4xl md:text-5xl lg:text-6xl tracking-tight ;
   }
 
   h2 {
@@ -108,4 +108,35 @@
   .text-body-big {
     @apply text-text-body text-lg md:text-xl lg:text-2xl leading-relaxed font-light;
   }
+}
+
+/* ========================================================================
+  6. CONFIGURACIÓN GOOGLE MATERIAL SYMBOLS (AGREGADO NUEVO)
+========================================================================
+*/
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+  /* 👇 AQUÍ ESTÁ LA MAGIA: Cambiamos 24px por inherit 👇 */
+  font-size: inherit; 
+  
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Soporte para renderizado suave en navegadores */
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 24;
 }

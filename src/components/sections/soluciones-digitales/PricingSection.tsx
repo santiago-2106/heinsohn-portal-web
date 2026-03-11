@@ -1,6 +1,6 @@
 import TextComponent from "../../ui/typography/TextComponent";
 import { dataTextCards } from "../../../data/share/textosGenerales";
-import { informationCard } from "../../../data/soluciones-digitales";
+import { informationCard } from "../../../data/desarrollo-a-medida";
 
 export default function CardSd() {
   return (

@@ -6,7 +6,7 @@ import { IACardProps } from "@/src/types/typeIA";
 
 // 1. DATA DEL HERO
 export const dataIaHero = {
-  title: <h2 className="font-light">Soluciones de Inteligencia Artificial para empresas</h2>,
+  title: "Soluciones de Inteligencia Artificial para empresas",
   description: (
     <div className="flex flex-col gap-6">
       <p>

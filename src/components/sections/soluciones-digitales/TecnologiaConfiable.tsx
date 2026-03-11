@@ -2,7 +2,7 @@ import CardFeatures from '../../ui/cards/CardFeatures'
 import ButtonComponent from '../../ui/buttons/Button'
 import TextComponent from '../../ui/typography/TextComponent'
 import { TextSolucionDigtal4 } from '../../../data/share/textosGenerales'
-import { textoSoftwareSolucionDigital } from '../../../data/soluciones-digitales'
+import { textoSoftwareSolucionDigital } from '../../../data/desarrollo-a-medida'
 
 
 export default function TecnologiaConfiable() {

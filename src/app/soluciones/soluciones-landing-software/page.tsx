@@ -11,7 +11,7 @@ import TextComponent from "@/src/components/ui/typography/TextComponent";
 import { testimonialsSlider } from "@/src/data/landing-hgs";
 import { HeroLandingSoftware, titleLandingSoftware } from "@/src/data/landing-software";
 import { paisesLandingSoftware } from "@/src/data/mapa";
-import { dataPreguntasFrecuentes } from "@/src/data/soluciones-digitales";
+import { dataPreguntasFrecuentes } from "@/src/data/desarrollo-a-medida";
 
 
 
