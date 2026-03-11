@@ -32,7 +32,7 @@ export default function PageSolucionesTI() {
       <CardFinal />
       <CardCases {...dataCardKnowOurWork}/>
       <Slider data={cardSlider1}/>
-      <ContactForm />
+      <ContactForm title/>
       <Footer />
       <FooterBottom />
     </div>
