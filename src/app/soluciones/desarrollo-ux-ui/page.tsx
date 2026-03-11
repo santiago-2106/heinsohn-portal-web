@@ -13,7 +13,7 @@ import FooterBottom from "@/src/components//layout/footer/FooterBottom";
 import SliderSolDigital from "@/src/components/sliders/SliderCards";
 import { softwareCards } from "@/src/data/ti";
 import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
-import { dataCardKnowOurWork, dataCardKnowOurWork2 } from "@/src/data/soluciones-digitales";
+import { dataCardKnowOurWork, dataCardKnowOurWork2 } from "@/src/data/desarrollo-a-medida";
 import { cardSlider1, cardSlider2 } from "@/src/data/share/slider";
 
 export default function SolucionDigital() {
