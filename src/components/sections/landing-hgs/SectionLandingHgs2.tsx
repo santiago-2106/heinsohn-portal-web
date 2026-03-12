@@ -1,5 +1,5 @@
 import CardGrid from '../../layout/grids/CardGrid'
-import { dataCardsFeaturesLandingHGS, dataCardsLandingHGS2, dataCardsLandingHGS3, dataCardsLandingHGS4, heroSlides, titleLandingHGS4, titleLandingHGS5 } from '@/src/data/landing-hgs'
+import { dataCardsFeaturesLandingHGS, dataCardsLandingHGS2, dataCardsLandingHGS3, dataCardsLandingHGS4, heroSlides, titleLandingHGS4, titleLandingHGS5 } from '@/src/data/soluciones/landing-hgs'
 import CardLandingHgs from '../shared/sectioncard/CardLandingHgs'
 import TextComponent from '../../ui/typography/TextComponent'
 import CardFeatures from '../../ui/cards/CardFeatures'

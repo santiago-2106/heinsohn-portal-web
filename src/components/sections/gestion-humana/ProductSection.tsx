@@ -1,8 +1,8 @@
 import React from "react";
-import { ProductsgestionHumanaInfo2 } from "../../../data/gestion-humana";
+import { ProductsgestionHumanaInfo2 } from "../../../data/soluciones/gestion-humana";
 import ProductRow from "../../ui/cards/CardProductRow";
 import TextComponent from "../../ui/typography/TextComponent";
-import { textoGestionHumana4 } from "../../../data/share/textosGenerales";
+import { textoGestionHumana4 } from "../../../data/soluciones/share/textosGenerales";
 import CertificacionesInternacionales from "../shared/certificaciones/CertificacionesInternacionales";
 
 export default function CardProductSection() {

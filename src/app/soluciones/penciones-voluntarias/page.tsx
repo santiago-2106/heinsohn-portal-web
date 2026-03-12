@@ -13,7 +13,7 @@ import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
 import SliderBlog from "@/src/components/sliders/SliderBlog";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
 
-import { dataPensionesVoluntarias } from "@/src/data/pensiones-voluntarias";
+import { dataPensionesVoluntarias } from "@/src/data/soluciones/pensiones-voluntarias";
 
 // ✅ SOLUCIÓN DEFINITIVA: Declaramos los datos exactos aquí mismo.
 // Así forzamos a TypeScript a leer el objeto con { descriptions: "" }

@@ -21,7 +21,7 @@ import {
 import { dataCard } from "@/src/types/cardTypes";
 import SensorOccupiedOutlinedIcon from "@mui/icons-material/SensorOccupiedOutlined";
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
-import { ResultsCorporativoData } from "../../types/typePensiones";
+import { ResultsCorporativoData } from "../../../types/typePensiones";
 import { dataTextComponent } from "../share/textosGenerales";
 
 

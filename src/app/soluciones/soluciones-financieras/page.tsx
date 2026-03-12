@@ -23,7 +23,7 @@ import {
   footerRetos,
   btnRetos,
   entitiesData,
-} from "@/src/data/financiera";
+} from "@/src/data/soluciones/financiera";
 
 export default function SolucionesFinanciero() {
   return (

@@ -1,4 +1,4 @@
-import { dataTextTitle } from "../../../data/share/textosGenerales";
+import { dataTextTitle } from "../../../data/soluciones/share/textosGenerales";
 import TextComponent from "../../ui/typography/TextComponent";
 
 export default function TextTeam() {

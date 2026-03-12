@@ -1,14 +1,14 @@
 import {
   gestionHumanaInfo,
   infoGestionHumana2,
-} from "../../../data/gestion-humana"; 
+} from "../../../data/soluciones/gestion-humana"; 
 import CardGestionHumana from "../../ui/cards/CardGestionHumana";
 import TextComponent from "../../ui/typography/TextComponent";
 import {
   textoGestionHumana,
   textoGestionHumana2,
   textoGestionHumana3,
-} from "../../../data/share/textosGenerales";
+} from "../../../data/soluciones/share/textosGenerales";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import Clientes from "../shared/clientes/Clientes";
 import ButtonComponent from "../../ui/buttons/Button";

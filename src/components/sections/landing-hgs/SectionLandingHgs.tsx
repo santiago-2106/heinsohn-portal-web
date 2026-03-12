@@ -1,4 +1,4 @@
-import { dataCardsLandingHGS, dataLandignHGS2, dataTimeLineAlianzas, titleLandingHGS, titleLandingHGS2, titleLandingHGS3, titleLandingHGS6 } from "@/src/data/landing-hgs";
+import { dataCardsLandingHGS, dataLandignHGS2, dataTimeLineAlianzas, titleLandingHGS, titleLandingHGS2, titleLandingHGS3, titleLandingHGS6 } from "@/src/data/soluciones/landing-hgs";
 import TextComponent from "../../ui/typography/TextComponent";
 import Mapa from "../mapa/Mapa";
 import CardGrid from "../../layout/grids/CardGrid";
@@ -6,7 +6,7 @@ import CardGestionHumana from "../../ui/cards/CardGestionHumana";
 import Clientes from "../shared/clientes/Clientes";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import TimeLineLandingHgs from "./TimeLineLandingHgs";
-import { paisesLandingHgs } from "@/src/data/mapa";
+import { paisesLandingHgs } from "@/src/data/soluciones/mapa";
 
 
 

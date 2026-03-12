@@ -9,6 +9,7 @@ import TextTeam from "@/src/components/sections/soluciones-digitales/TeamSection
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 
+
 export default function page() {
   const infoGestionHumanaHero = {
     title: "HGS - Gestión Humana",

@@ -1,9 +1,9 @@
-import { dataTextSolucionDigtal } from "@/src/data/share/textosGenerales";
+import { dataTextSolucionDigtal } from "@/src/data/soluciones/share/textosGenerales";
 import TextComponent from "@/src/components/ui/typography/TextComponent";
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import { Devices } from "@mui/icons-material";
 import ButtonComponent from "../../ui/buttons/Button";
-import { dataSoftwaregenerico } from "../../../data/desarrollo-a-medida";
+import { dataSoftwaregenerico } from "../../../data/soluciones/desarrollo-a-medida";
 
 export default function TrustSection() {
   return (

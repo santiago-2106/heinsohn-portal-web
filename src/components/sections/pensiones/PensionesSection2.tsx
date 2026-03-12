@@ -2,7 +2,7 @@ import CertificacionesInternacionales from "@/src/components/sections/shared/cer
 import TextComponent from "../../ui/typography/TextComponent";
 import ButtonComponent from "../../ui/buttons/Button";
 import PreguntForm from "../../forms/formularios/PreguntForm";
-import { dataPreguntasFrecuentesPensiones } from "@/src/data/pensiones";
+import { dataPreguntasFrecuentesPensiones } from "@/src/data/soluciones/pensiones";
 
 export default function PensionesSection2() {
   return (

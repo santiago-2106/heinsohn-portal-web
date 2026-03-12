@@ -4,7 +4,7 @@ import Hero from "@/src/components/sections/shared/hero/Hero";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
-import { dataSAP, dataPorQueSAP } from "@/src/data/sap"; // <-- Importamos la nueva data
+import { dataSAP, dataPorQueSAP } from "@/src/data/soluciones/sap"; // <-- Importamos la nueva data
 import SectionGestionHumana from "@/src/components/sections/gestion-humana/SectionGestionHumana";
 import Clientes from "@/src/components/sections/shared/clientes/Clientes";
 import BannerFiguras from "@/src/components/sections/shared/figura/BannerFiguras";

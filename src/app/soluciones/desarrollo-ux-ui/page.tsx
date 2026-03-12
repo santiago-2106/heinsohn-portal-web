@@ -21,9 +21,9 @@ import {
   dataUXConsultorias, 
   dataTextDesarrolloUx, 
   dataCardKnowOurWork2 
-} from "@/src/data/share/textosGenerales";
-import { cardSlider2 } from "@/src/data/share/slider";
-import { softwareCards } from "@/src/data/share/textosGenerales";
+} from "@/src/data/soluciones/share/textosGenerales";
+import { cardSlider2 } from "@/src/data/soluciones/share/slider";
+import { softwareCards } from "@/src/data/soluciones/share/textosGenerales";
 
 // Optimización SEO y Web Vitals
 export const metadata: Metadata = {

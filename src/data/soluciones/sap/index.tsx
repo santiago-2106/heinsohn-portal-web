@@ -1,5 +1,5 @@
 import React from "react";
-import { dataCard } from "../../types/cardTypes";
+import { dataCard } from "../../../types/cardTypes";
 
 const HeroIcons = {
   lightning: (

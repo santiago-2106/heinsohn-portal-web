@@ -1,7 +1,7 @@
 import TextComponent from '@/src/components/ui/typography/TextComponent'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
-import { TextSolucionDigtal2, TextSolucionDigtal3, TextSolucionDigtal5, TextSolucionDigtal6 } from '@/src/data/share/textosGenerales'
-import { SolucinesDigital6, textModelDevelop, textoModelDevelop, textoModelDevelop2, textoSolucionDigital2 } from '@/src/data/desarrollo-a-medida'
+import { TextSolucionDigtal2, TextSolucionDigtal3, TextSolucionDigtal5, TextSolucionDigtal6 } from '@/src/data/soluciones/share/textosGenerales'
+import { SolucinesDigital6, textModelDevelop, textoModelDevelop, textoModelDevelop2, textoSolucionDigital2 } from '@/src/data/soluciones/desarrollo-a-medida'
 import TecnologiaConfiable from './TecnologiaConfiable'
 import ButtonComponent from '../../ui/buttons/Button'
 

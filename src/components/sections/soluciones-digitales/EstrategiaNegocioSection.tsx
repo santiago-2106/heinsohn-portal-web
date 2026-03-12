@@ -1,8 +1,8 @@
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import TextComponent from "../../ui/typography/TextComponent";
-import { TextSolucionDigtal21 } from "../../../data/share/textosGenerales";
+import { TextSolucionDigtal21 } from "../../../data/soluciones/share/textosGenerales";
 import ButtonComponent from "../../ui/buttons/Button";
-import { dataEstrategiaNegocio } from "../../../data/desarrollo-a-medida";
+import { dataEstrategiaNegocio } from "../../../data/soluciones/desarrollo-a-medida";
 
 export default function CardSoftwreGeneric() {
   return (

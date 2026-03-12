@@ -3,7 +3,7 @@ import Footer from "@/src/components/layout/footer/Footer";
 import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import TextSections from "@/src/components/ui/typography/TextSections";
-import { dataLandignHGS } from "@/src/data/landing-hgs";
+import { dataLandignHGS } from "@/src/data/soluciones/landing-hgs";
 import SectionLandingHgs from "@/src/components/sections/landing-hgs/SectionLandingHgs";
 import SectionLandingHgs2 from "@/src/components/sections/landing-hgs/SectionLandingHgs2";
  
