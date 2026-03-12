@@ -1,5 +1,5 @@
 import React from "react";
-import { datagestionHumana } from "../data/gestion-humana";
+import { datagestionHumana } from "../data/soluciones/gestion-humana";
 
 export interface propsGestionHumana {
   icon?: React.ReactNode;

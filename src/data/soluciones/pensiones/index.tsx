@@ -20,9 +20,9 @@ import DataObjectIcon from "@mui/icons-material/DataObject";
 
 import SavingsIcon from "@mui/icons-material/Savings";
 
-import { ResultsCorporativoData } from "../../types/typePensiones";
+import { ResultsCorporativoData } from "../../../types/typePensiones";
 import { dataCard } from "@/src/types/cardTypes";
-import { cardPropsInformation } from "../../types/typeCardAnuncies";
+import { cardPropsInformation } from "../../../types/typeCardAnuncies";
 
 export const infoPensiones1: ResultsCorporativoData = {
   highlight: {

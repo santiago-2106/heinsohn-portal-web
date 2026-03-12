@@ -4,7 +4,7 @@ import {
   infoStaffArgumentation3,
   titleStaffArgumentation1,
   titleStaffArgumentation2,
-} from "../../../data/staff-augmentation";
+} from "../../../data/soluciones/staff-augmentation";
 import ButtonComponent from "../../ui/buttons/Button";
 import CardResultados from "../shared/sectioncard/CardResultados";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";

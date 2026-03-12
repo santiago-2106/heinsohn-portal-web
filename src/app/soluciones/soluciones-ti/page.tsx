@@ -6,8 +6,8 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import CardFinal from "@/src/components/sections/ti/TiSolutionsSection";
 import Slider from "@/src/components/sliders/SliderBlog";
-import { dataCardKnowOurWork } from "@/src/data/desarrollo-a-medida";
-import { cardSlider1 } from "@/src/data/share/slider";
+import { dataCardKnowOurWork } from "@/src/data/soluciones/desarrollo-a-medida";
+import { cardSlider1 } from "@/src/data/soluciones/share/slider";
 
 export default function PageSolucionesTI() {
   const dataTI = {

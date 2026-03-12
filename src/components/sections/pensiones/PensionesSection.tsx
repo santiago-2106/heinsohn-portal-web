@@ -5,11 +5,11 @@ import {
   infoPensiones4,
   infoPensiones6,
   informacionPensiones5,
-} from "../../../data/pensiones";
+} from "../../../data/soluciones/pensiones";
 import {
   textoPensiones1,
   textoPensiones2,
-} from "../../../data/share/textosGenerales";
+} from "../../../data/soluciones/share/textosGenerales";
 import ButtonComponent from "../../ui/buttons/Button";
 import CardResultados from "../shared/sectioncard/CardResultados";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";

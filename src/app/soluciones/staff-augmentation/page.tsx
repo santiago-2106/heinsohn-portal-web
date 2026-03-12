@@ -5,9 +5,9 @@ import Hero from "@/src/components/sections/shared/hero/Hero";
 import StaffArgumentationSection from "@/src/components/sections/staff-augmentation/StaffAugmentationSection";
 import StaffArgumentationSection2 from "@/src/components/sections/staff-augmentation/StaffAugmentationSection2";
 import Mapa from "@/src/components/sections/mapa/Mapa";
-import { paisesStaffArgumentation } from "@/src/data/mapa";
+import { paisesStaffArgumentation } from "@/src/data/soluciones/mapa";
 import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
-import { dataPreguntasFrecuentesStaff } from "@/src/data/staff-augmentation";
+import { dataPreguntasFrecuentesStaff } from "@/src/data/soluciones/staff-augmentation";
 import ButtonComponent from "@/src/components/ui/buttons/Button";
 
 export default function page() {

@@ -1,12 +1,12 @@
 import React from 'react'
 import TextComponent from '../../ui/typography/TextComponent'
 import CardFeatures from '../../ui/cards/CardFeatures'
-import { dataCardCasosEstudio, dataCardLandingSoftware, dataLandignSoftwareTexts, heroSlidesLandingSoftware } from '@/src/data/landing-software'
+import { dataCardCasosEstudio, dataCardLandingSoftware, dataLandignSoftwareTexts, heroSlidesLandingSoftware } from '@/src/data/soluciones/landing-software'
 import TextSections from '../../ui/typography/TextSections'
 import CardLandingSoftware from '../shared/sectioncard/CardLandingSoftware'
 import SliderHero from '../../sliders/SliderHero'
 import SliderTestimonial from '../../sliders/SliderTestimonial'
-import { testimonialsSlider } from '@/src/data/landing-hgs'
+import { testimonialsSlider } from '@/src/data/soluciones/landing-hgs'
 
 export default function SectionLandingSoftware() {
   return (

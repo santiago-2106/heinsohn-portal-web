@@ -8,10 +8,10 @@ import Clientes from "@/src/components/sections/shared/clientes/Clientes";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import SliderTestimonial from "@/src/components/sliders/SliderTestimonial";
 import TextComponent from "@/src/components/ui/typography/TextComponent";
-import { testimonialsSlider } from "@/src/data/landing-hgs";
-import { HeroLandingSoftware, titleLandingSoftware } from "@/src/data/landing-software";
-import { paisesLandingSoftware } from "@/src/data/mapa";
-import { dataPreguntasFrecuentes } from "@/src/data/desarrollo-a-medida";
+import { testimonialsSlider } from "@/src/data/soluciones/landing-hgs";
+import { HeroLandingSoftware, titleLandingSoftware } from "@/src/data/soluciones/landing-software";
+import { paisesLandingSoftware } from "@/src/data/soluciones/mapa";
+import { dataPreguntasFrecuentes } from "@/src/data/soluciones/desarrollo-a-medida";
 
 
 

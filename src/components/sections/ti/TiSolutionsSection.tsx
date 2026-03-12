@@ -4,7 +4,7 @@ import {
   analitycCards,
   enginerTeamCards,
   strategicConsultingCards,
-} from "@/src/data/ti";
+} from "@/src/data/soluciones/ti";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 
 export default function CardFinal() {

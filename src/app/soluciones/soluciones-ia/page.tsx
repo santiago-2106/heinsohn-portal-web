@@ -17,7 +17,7 @@ import {
   dataIaTimeline, 
   dataIaFaq,
   dataIaSections 
-} from "@/src/data/ia";
+} from "@/src/data/soluciones/ia";
 
 export default function SolucionesIA() {
   return (
