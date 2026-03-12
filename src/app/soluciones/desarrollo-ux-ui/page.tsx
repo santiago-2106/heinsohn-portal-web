@@ -34,11 +34,11 @@ export const metadata: Metadata = {
 
 export default function SolucionDigital() {
   return (
-    <div className="flex flex-col min-h-screen bg-bg-main">
-      <Navbar />
+    <>
+      
       
       {/* Contenedor Semántico Principal para SEO */}
-      <main className="flex-grow">
+      <main>
         
         {/* 1. HERO */}
         <Hero
@@ -80,8 +80,6 @@ export default function SolucionDigital() {
         
       </main>
       
-      <Footer />
-      <FooterBottom />
-    </div>
+    </>
   );
 }

@@ -4,6 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./globals.css";
+import Navbar from "../components/layout/navbar/Navbar";
+import Footer from "../components/layout/footer/Footer";
+import FooterBottom from "../components/layout/footer/FooterBottom";
 
 const montserrat = Montserrat({ 
   subsets: ["latin"],
@@ -45,7 +48,15 @@ export default function RootLayout({
       </head>
       {/* Mantenemos tu clase y variable de fuente intacta */}
       <body className={`${montserrat.variable} antialiased`}>
-        {children}
+        <div className="flex flex-col min-h-screen bg-bg-main">
+          <Navbar />
+          <main>
+            {children}
+          </main>
+          <Footer />
+          <FooterBottom />
+        </div>
+        
       </body>
     </html>
   );

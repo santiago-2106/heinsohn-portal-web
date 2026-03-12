@@ -18,7 +18,6 @@ import { dataPreguntasFrecuentes } from "@/src/data/desarrollo-a-medida";
 export default function PageLandingSoftware () {
     return (
         <>
-        <Navbar />
         <Hero 
         title={HeroLandingSoftware.title}
         subtitle={HeroLandingSoftware.subtitle}
@@ -43,8 +42,7 @@ export default function PageLandingSoftware () {
         showCoberturaTitle={false}
         />
         <PreguntasFort title="Preguntas frecuentes" items={dataPreguntasFrecuentes}/>
-        <Footer />
-        <FooterBottom />
+
         </>
     )
 }

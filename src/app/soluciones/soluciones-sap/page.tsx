@@ -15,7 +15,7 @@ import SectionCenteredText from "@/src/components/sections/shared/centertext/Sec
 export default function SolucionesSAP() {
   return (
     <div>
-      <Navbar />
+
 
       {/* SECCIÓN HERO */}
       <Hero
@@ -82,9 +82,6 @@ export default function SolucionesSAP() {
         title={dataPorQueSAP.title}
         description={dataPorQueSAP.description}
       />
-
-      <Footer />
-      <FooterBottom />
     </div>
   );
 }

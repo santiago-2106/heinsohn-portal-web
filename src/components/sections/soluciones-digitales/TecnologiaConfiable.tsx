@@ -16,6 +16,7 @@ export default function TecnologiaConfiable() {
             <CardFeatures 
                 key={cardInfo.id}
                 {...cardInfo}
+                iconPosition='left'
                 />
               ))
             }
