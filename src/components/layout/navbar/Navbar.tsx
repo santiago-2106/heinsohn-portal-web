@@ -5,10 +5,33 @@ import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Link from "next/link";
 import Image from "next/image";
+import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
   const [isDark, setIsDark] = useState(false);
+
+//INTERNACIALIZACION IDIOMAS
+  const t = useTranslations('navbar')
+
+//Internacializacion Con el select
+  const router = useRouter()
+  const pathName = usePathname()
+
+  const currentLocale = useLocale()
+
+  const changeLanguaje = (newLocale: string) => {
+  const segments = pathName.split("/");
+
+  segments[1] = newLocale; // reemplaza solo el locale
+
+  const newPath = segments.join("/");
+
+  router.push(newPath);
+};
+
+
 
   // Revisa si el tema oscuro ya estaba activo al cargar la página
   useEffect(() => {
@@ -41,7 +64,7 @@ export default function Navbar() {
             <button 
               onClick={() => setOpenMenu(!openMenu)}
               className="text-text-title flex items-center justify-center"
-              aria-label="Abrir menu"
+              aria-label={t("openMenu")}
             >
               <MenuIcon />
             </button>
@@ -68,7 +91,7 @@ export default function Navbar() {
               href="/" 
               className="rounded-full bg-text-title text-bg-main px-4 py-2 sm:px-5 sm:text-sm font-medium hover:opacity-80 transition-opacity"
             >
-              Contacto
+              {t("contact")}
             </Link>
 
             {/* Bandera de Colombia (Ahora es rectangular con rounded-sm) */}
@@ -81,10 +104,13 @@ export default function Navbar() {
             />
 
             {/* Selector de idioma */}
-            <select className="bg-transparent text-text-title text-sm font-medium outline-none cursor-pointer">
-              <option>ES</option>
-              <option className="text-[#414158]">EN</option>
-              <option className="text-[#414158]">FRA</option>
+            <select className="bg-transparent text-text-title rounded-lg text-sm font-medium outline-none cursor-pointer"
+            onChange={e => changeLanguaje(e.target.value)}
+            value={currentLocale}
+            >
+              <option value="col">COL</option>
+              <option value='es'>ES</option>
+              <option value='en'>EN</option>
             </select>
             
             {/* Ícono de Luna/Sol con su funcionalidad */}
@@ -109,7 +135,7 @@ export default function Navbar() {
                 href="/" 
                 className="inline-block rounded-full bg-text-title text-bg-main px-6 py-2 font-medium"
               >
-                Contacto
+                {t("contact")}
               </Link>
             </li>
 
@@ -132,10 +158,10 @@ export default function Navbar() {
               <button 
                 onClick={toggleTheme}
                 className="flex items-center gap-2 text-text-title font-medium"
-                aria-label="Cambiar modo luz responsive"
+                aria-label={isDark ? t("themeLight") : t("themeDark")}
               >
                 {isDark ? <LightModeIcon /> : <ModeNightIcon />}
-                {isDark ? "Cambiar a Modo Claro" : "Cambiar a Modo Oscuro"}
+                {isDark ? t("themeLight") : t("themeDark")}
               </button>
             </li>
           </ul>

@@ -2,6 +2,7 @@ import { IconButton } from "@mui/material";
 import { LinkedIn, Instagram, Facebook, YouTube } from "@mui/icons-material";
 import Link from "next/link";
 import Image from "next/image";
+import { getTranslations } from "next-intl/server";
 
 
 const soluciones = [
@@ -19,7 +20,13 @@ const soluciones = [
   ],
 ];
 
-export default function Footer() {
+export default async function Footer() {
+  const t = await getTranslations("footer")
+
+  const soluciones = t.raw("solutions")
+  const company = t.raw("company")
+
+
   return (
     <footer className="border-t border-border-ui bg-bg-main">
       <div className="mx-auto max-w-6xl px-6">
@@ -37,8 +44,7 @@ export default function Footer() {
             </div>
 
             <p className="text-sm text-text-body leading-7.5">
-              Transformando empresas a través de soluciones tecnológicas
-              innovadoras e inteligencia artificial a la vanguardia.
+              {t("description")}
             </p>
 
             <div className="mt-4 flex gap-2">
@@ -60,9 +66,9 @@ export default function Footer() {
           </div>
 
           <nav>
-            <h4 className="text-text-body mb-4">Soluciones</h4>
+            <h4 className="text-text-body mb-4">{t("solutionsTitle")}</h4>
             <div className="grid grid-cols-2 gap-y-3 gap-x-12">
-              {soluciones.map((column, index) => (
+              {soluciones.map((column: string[], index: number) => (
                 <ul
                   key={index}
                   className="flex flex-col gap-2 text-sm text-text-body"
@@ -78,12 +84,13 @@ export default function Footer() {
           </nav>
 
           <nav>
-            <h4 className="text-text-body mb-4">Compañía</h4>
+            <h4 className="text-text-body mb-4">{t("companyTitle")}</h4>
             <ul className="flex flex-col gap-2 text-sm text-text-body">
-              <li>Home</li>
-              <li>Quienes somos</li>
-              <li>Mapa de sitio</li>
-              <li>Contacto</li>
+              {
+                company.map((item: string) => (
+                  <li key={item}>{item}</li>
+                ))
+              }
             </ul>
           </nav>
         </div>

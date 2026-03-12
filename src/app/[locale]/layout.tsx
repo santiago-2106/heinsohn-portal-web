@@ -3,10 +3,13 @@ import { Montserrat } from "next/font/google";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./globals.css";
-import Navbar from "../components/layout/navbar/Navbar";
-import Footer from "../components/layout/footer/Footer";
-import FooterBottom from "../components/layout/footer/FooterBottom";
+import "../globals.css";
+import Navbar from "@/src/components/layout/navbar/Navbar";
+import Footer from "@/src/components/layout/footer/Footer";
+import FooterBottom from "@/src/components/layout/footer/FooterBottom";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { routing } from "@/src/i18n/routing";
+import { notFound } from "next/navigation";
 
 const montserrat = Montserrat({ 
   subsets: ["latin"],
@@ -33,13 +36,19 @@ export const metadata: Metadata = {
   }
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+//INTERNALIZACION PARA TRADUCIR LAS VISTAS
+type Props = {
+  children:React.ReactNode;
+  params: Promise<{locale: string}>
+}
+
+export default async function RootLayout ({children, params} : Props){
+  const { locale } = await params
+
+  if(!hasLocale(routing.locales, locale)) return notFound()
+
   return (
-    <html lang="es">
+    <html lang={locale}>
       <head>
         <link 
           rel="stylesheet" 
@@ -48,6 +57,7 @@ export default function RootLayout({
       </head>
       {/* Mantenemos tu clase y variable de fuente intacta */}
       <body className={`${montserrat.variable} antialiased`}>
+        <NextIntlClientProvider>
         <div className="flex flex-col min-h-screen bg-bg-main">
           <Navbar />
           <main>
@@ -56,7 +66,7 @@ export default function RootLayout({
           <Footer />
           <FooterBottom />
         </div>
-        
+        </NextIntlClientProvider>
       </body>
     </html>
   );
