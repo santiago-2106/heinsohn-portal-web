@@ -25,11 +25,11 @@ export default function CardFeatures({
         ${isLarge ? "p-8" : "p-6"}
       `}
     >
-      <div className={`flex ${isIconTop ? "flex-col" : "flex-row items-start"} gap-5`}>
+      <div className={`flex ${isIconTop ? "flex-col items-center" : "flex-row items-center"} gap-5`}>
         
         {/* CONTENEDOR DEL ÍCONO CORREGIDO: Libre de restricciones de altura */}
         {icon && (
-          <div className="flex shrink-0 text-text-title items-center justify-center">
+          <div className="flex shrink-0 text-text-title items-center justify-center py-4">
             {icon}
           </div>
         )}

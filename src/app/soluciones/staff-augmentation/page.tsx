@@ -52,7 +52,6 @@ export default function page() {
 
   return (
     <>
-      <Navbar />
       <Hero
         title={infoStaffArgumentation.title}
         description={infoStaffArgumentation.description}
@@ -70,8 +69,7 @@ export default function page() {
       />
       <ButtonComponent textoBtn=" Empieza tu hoja de ruta AI personalizada" />
       <PreguntForm title="Preguntas frecuentes" items={dataPreguntasFrecuentesStaff}/>
-      <Footer />
-      <FooterBottom />
+
     </>
   );
 }

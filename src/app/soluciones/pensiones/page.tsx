@@ -29,7 +29,7 @@ export default function pagePensiones() {
 
   return (
     <div>
-      <Navbar />
+
       <Hero
         title={infoSolucionesPension.title}
         description={infoSolucionesPension.description}
@@ -38,8 +38,7 @@ export default function pagePensiones() {
       />
       <PensionesSection />
       <PensionesSection2 />
-      <Footer />
-      <FooterBottom />
+
     </div>
   );
 }

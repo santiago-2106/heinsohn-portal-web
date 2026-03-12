@@ -34,7 +34,7 @@ export default function page() {
 
   return (
     <div>
-      <Navbar />
+
       <Hero
         title={infoGestionHumanaHero.title}
         description={infoGestionHumanaHero.description}
@@ -48,8 +48,7 @@ export default function page() {
       <CardProductSection />
       <TextTeam />
       <ContactForm title={undefined} />
-      <Footer />
-      <FooterBottom />
+
     </div>
   );
 }

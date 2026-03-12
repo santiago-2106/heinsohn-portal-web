@@ -28,7 +28,6 @@ import {
 export default function SolucionesFinanciero() {
   return (
     <div>
-      <Navbar />
       <Hero
         title={dataFinanzas.title}
         description={dataFinanzas.description}
@@ -75,8 +74,6 @@ export default function SolucionesFinanciero() {
       <>Transforma la gestion<br className="hidden md:block" />financiera de tu empresa</>
     }/>
 
-      <Footer />
-      <FooterBottom />
     </div>
   );
 }

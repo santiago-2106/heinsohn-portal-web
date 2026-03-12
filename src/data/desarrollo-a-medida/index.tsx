@@ -538,3 +538,21 @@ export const dataPreguntasFrecuentes = [
   },
 ];
 
+
+
+export const dataCardKnowOurWork = {
+  imgKnowOurWork: "/img/edif.jpg",
+  titleWork: "Transformación digital en el sector financiero",
+  descriptionWork:
+    "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+  textBtn: "Conoce el caso completo",
+};
+
+export const dataCardKnowOurWork2 = {
+  imgKnowOurWork: "/img/imgWorkKnow.jpg",
+  titleWork: "Transformación de una plataforma de servicios de salud",
+  descriptionWork:
+    "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+  textBtn: "Descubre cómo lo hicimos",
+};
+

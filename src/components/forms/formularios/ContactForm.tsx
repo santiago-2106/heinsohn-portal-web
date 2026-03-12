@@ -95,11 +95,11 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
               </div>
 
               <div className="space-y-4">
-                <label className="flex items-start gap-3 text-sm text-gray-500">
+                <label className="flex items-start gap-3 text-sm text-text-body">
                   <input type="checkbox" className="mt-1 h-4 w-4" />
                   <p>
                     He leído y acepto el{" "}
-                    <Link href="#" className="text-red-400 underline:none">
+                    <Link href="#" className="text-brand-accent underline:none">
                       aviso legal <span className="text-text-body">y la</span> política de privacidad.*
                     </Link>
                   </p>

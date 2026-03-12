@@ -23,7 +23,7 @@ export default function SolucionesLandign() {
  
   return (
     <div>
-      <Navbar />
+
       <Hero
         title={dataTI.title}
         subtitle={dataTI.subtitle}
@@ -34,8 +34,7 @@ export default function SolucionesLandign() {
       <TextSections items={dataLandignHGS}/>
       <SectionLandingHgs />
       <SectionLandingHgs2 />
-      <Footer />
-      <FooterBottom />
+
     </div>
   );
 }

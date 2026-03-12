@@ -48,7 +48,7 @@ const faqItemsSeguros = [
 export default function PensionesVoluntarias() {
   return (
     <div className="bg-bg-main min-h-screen transition-colors duration-300">
-      <Navbar />
+
 
       <Hero
         title={dataPensionesVoluntarias.hero.title}
@@ -102,8 +102,6 @@ export default function PensionesVoluntarias() {
         <SliderBlog />
       </div>
 
-      <Footer />
-      <FooterBottom />
     </div>
   );
 }

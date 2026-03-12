@@ -30,12 +30,7 @@ export const metadata: Metadata = {
 
 export default function DesarrolloAMedidaPage() {
   return (
-    <div className="flex flex-col min-h-screen bg-bg-main">
-      <Navbar />
-      
-      {/* Etiqueta main para que Google lea correctamente la estructura */}
-      <main className="flex-grow">
-        
+    <>  
         {/* 1. HERO */}
         <Hero 
           title={dataHeroDesarrolloAMedida.title}
@@ -66,14 +61,9 @@ export default function DesarrolloAMedidaPage() {
           title='Preguntas Frecuentes' 
           items={dataPreguntasFrecuentes}
         />
-        
+
         {/* 8. SLIDER BLOG */}
         <Slider data={cardSlider2} />
-        
-      </main>
-      
-      <Footer />
-      <FooterBottom />
-    </div>
+    </>
   )
 }

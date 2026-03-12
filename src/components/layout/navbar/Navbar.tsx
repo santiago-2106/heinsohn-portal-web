@@ -4,6 +4,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -32,7 +33,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 left-0 z-50 border-b border-border-ui bg-bg-main transition-colors duration-300">
-      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <ul className="relative flex h-20 items-center justify-between">
           
           {/* LADO IZQUIERDO: Menú y Logo (Mantenemos tu diseño original) */}
@@ -40,6 +41,7 @@ export default function Navbar() {
             <button 
               onClick={() => setOpenMenu(!openMenu)}
               className="text-text-title flex items-center justify-center"
+              aria-label="Abrir menu"
             >
               <MenuIcon />
             </button>
@@ -48,10 +50,11 @@ export default function Navbar() {
               href="/"
               className="flex items-center gap-2 font-semibold text-text-title absolute left-1/2 -translate-x-1/2 md:static md:translate-x-0 tracking-wide"
             >
-              <img
-                src="https://portal.heinsohn.com.co/assets/icon/icon-512x512.png"
+              <Image
+                src="/icon-heinsonh.svg"
                 alt="img logo"
-                className="inline-block h-6 w-6 rounded-full sm:h-8 sm:w-8"
+                width={30}
+                height={30}
               />
               HEINSOHN
             </Link>
@@ -69,10 +72,12 @@ export default function Navbar() {
             </Link>
 
             {/* Bandera de Colombia (Ahora es rectangular con rounded-sm) */}
-            <img
-              src="https://media.istockphoto.com/id/472331329/es/vector/bandera-de-colombia.jpg?s=1024x1024&w=is&k=20&c=ysoJC62S104d7hPJygDxujRP9_WPpqN5yrMRw1Bb8WE="
-              alt="img colombia"
-              className="inline-block w-7 h-5 rounded-sm object-cover border border-border-ui shadow-sm"
+            <Image
+                src="/bandera-colombia.svg"
+                alt="img colombia"
+                width={40}
+                height={40}
+              className="inline-block rounded-sm object-cover border border-border-ui shadow-sm"
             />
 
             {/* Selector de idioma */}
@@ -85,7 +90,8 @@ export default function Navbar() {
             {/* Ícono de Luna/Sol con su funcionalidad */}
             <button 
               onClick={toggleTheme} 
-              className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-1"
+              className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-12 px-6"
+              aria-label="Cambiar modo luz"
             >
               {isDark ? <LightModeIcon sx={{color: "#F4E6A1"}}/> : <ModeNightIcon sx={{fill:'white', stroke:'black'}}/>}
             </button>
@@ -108,22 +114,25 @@ export default function Navbar() {
             </li>
 
             <li className="flex items-center gap-3">
-              <img
-                src="https://media.istockphoto.com/id/472331329/es/vector/bandera-de-colombia.jpg?s=1024x1024&w=is&k=20&c=ysoJC62S104d7hPJygDxujRP9_WPpqN5yrMRw1Bb8WE="
+              <Image
+                src="/bandera-colombia.svg"
                 alt="img colombia"
-                className="inline-block w-7 h-5 rounded-sm object-cover border border-border-ui shadow-sm"
+                width={40}
+                height={40}
+                className="inline-block  rounded-sm object-cover border border-border-ui shadow-sm"
               />
+              <label>COL</label>
               <select className="bg-transparent text-text-title font-medium outline-none">
-                <option>ES</option>
-                <option className="text-[#414158]">EN</option>
-                <option className="text-[#414158]">FRA</option>
+                <option className="text-text-body">ES</option>
+                <option className="text-text-body">EN</option>
               </select>
             </li>
 
             <li>
               <button 
                 onClick={toggleTheme}
-                className="flex items-center gap-2 text-text-title font-medium "
+                className="flex items-center gap-2 text-text-title font-medium"
+                aria-label="Cambiar modo luz responsive"
               >
                 {isDark ? <LightModeIcon /> : <ModeNightIcon />}
                 {isDark ? "Cambiar a Modo Claro" : "Cambiar a Modo Oscuro"}

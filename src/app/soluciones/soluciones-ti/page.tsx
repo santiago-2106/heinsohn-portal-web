@@ -22,7 +22,6 @@ export default function PageSolucionesTI() {
 
   return (
     <div>
-      <Navbar />
       <Hero
         title={dataTI.title}
         description={dataTI.description}
@@ -33,8 +32,6 @@ export default function PageSolucionesTI() {
       <CardCases {...dataCardKnowOurWork}/>
       <Slider data={cardSlider1}/>
       <ContactForm title/>
-      <Footer />
-      <FooterBottom />
     </div>
   );
 }

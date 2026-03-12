@@ -32,7 +32,7 @@ export default function CardCases({
                   alt={titleWork || "Caso de éxito"}
                   fill
                   priority
-                  className="object-cover brightness-90 grayscale-[50%]"
+                  className="object-cover brightness-90 grayscale-100"
                 />
               </div>
             )}

@@ -22,7 +22,7 @@ import {
 export default function SolucionesIA() {
   return (
     <div className="bg-bg-main min-h-screen">
-      <Navbar />
+
       
       {/* 1. HERO */}
       <Hero {...dataIaHero} />
@@ -68,8 +68,6 @@ export default function SolucionesIA() {
          <Button textoBtn={dataIaSections.ctaFooter} />
       </div>
 
-      <Footer />
-      <FooterBottom />
     </div>
   );
 }

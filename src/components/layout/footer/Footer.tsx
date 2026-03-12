@@ -1,6 +1,7 @@
 import { IconButton } from "@mui/material";
 import { LinkedIn, Instagram, Facebook, YouTube } from "@mui/icons-material";
 import Link from "next/link";
+import Image from "next/image";
 
 
 const soluciones = [
@@ -20,15 +21,17 @@ const soluciones = [
 
 export default function Footer() {
   return (
-    <footer className="border-t border-gray-200 bg-bg-main">
+    <footer className="border-t border-border-ui bg-bg-main">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid grid-cols-1 gap-10 py-12 md:grid-cols-[1fr_1.8fr_0.8fr]">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img
-                src="https://portal.heinsohn.com.co/assets/icon/icon-512x512.png"
+              <Image
+                src="/icon-heinsonh.svg"
                 alt="icon heinsohn"
-                className="inline-block h-6 w-6 rounded-full sm:h-8 sm:w-8"
+                width={30}
+                height={30}
+                
               />
               <h3 className="text-sm font-bold text-text-body tracking-wider">HEINSOHN</h3>
             </div>
