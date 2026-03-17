@@ -11,6 +11,101 @@
       "fr": "FR"
     }
   },
+  
+  "software": {
+    "title": "Software Engineering and Digital Product Development",
+    "softwareCards": [
+      {
+        "title": "Mobile and Web Application Development",
+        "description": "Intuitive solutions for all types of devices",
+        "btn": "View solutions"
+      },
+      {
+        "title": "UX/UI Design and Development",
+        "description": "User-centered interfaces designed to improve experience and conversion",
+        "btn": "View experiences"
+      },
+      {
+        "title": "Software Development",
+        "description": "Custom-built products tailored to each business need",
+        "btn": "Request development"
+      },
+      {
+        "title": "Cloud Software Development",
+        "description": "Secure, flexible, high-performance cloud applications",
+        "btn": "Learn more"
+      },
+      {
+        "title": "Scalable Platform Development",
+        "description": "Architectures designed for business growth",
+        "btn": "Explore"
+      },
+      {
+        "title": "Software Application Modernization",
+        "description": "Technology upgrades that extend lifecycle and increase efficiency",
+        "btn": "Upgrade now"
+      }
+    ]
+  },
+
+  "analytics": {
+    "title": "Data Analytics and Artificial Intelligence",
+    "analitycCards": [
+      {
+        "title": "Business Intelligence",
+        "description": "Boost your growth with BI solutions that provide clear visualizations and predictive analytics.",
+        "btn": "View BI"
+      },
+      {
+        "title": "AI Consulting",
+        "description": "Expert guidance to integrate artificial intelligence into your business strategy.",
+        "btn": "Learn more"
+      },
+      {
+        "title": "Artificial Intelligence and Copilot Solutions",
+        "description": "AI and Copilot solutions that enhance efficiency and intelligent automation.",
+        "btn": "View AI solutions"
+      },
+      {
+        "title": "Machine Learning and Artificial Intelligence",
+        "description": "Predictive algorithms that transform data into insights to optimize business processes.",
+        "btn": "Explore AI"
+      }
+    ]
+  },
+
+  "enginerTeams":{
+    "title": "Extended engineering and dedicated teams",
+    "enginerTeamCards": [
+      {
+        "title": "Staff Augmentation",
+        "description": "Expand your team with technology experts who integrate flexibly into your projects.",
+        "btn": "Expand team"
+      },
+      {
+        "title": "Dedicated Teams",
+        "description": "Expert talent focused on achieving your business goals.",
+        "btn": "View expert talent"
+      }
+    ]
+  },
+
+  "strategicConsulting":{
+    "title": "Strategic consulting",
+    "strategicConsultingCards": [
+      {
+        "title": "Cloud and Infrastructure Modernization",
+        "description": "We support companies in their transition to the cloud, optimizing costs while ensuring scalability, security, and business continuity.",
+        "btn": "Cloud optimization"
+      },
+      {
+        "title": "Strategic Consulting for Digital Adoption",
+        "description": "We guide the integration of new technologies into business models, generating tangible value and accelerating innovation.",
+        "btn": "Explore consulting"
+      }
+    ]
+  },
+
   "footer": {
     "description": "Transforming companies through innovative technological solutions and cutting-edge artificial intelligence.",
     "solutionsTitle": "Solutions",

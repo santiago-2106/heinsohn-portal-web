@@ -56,7 +56,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 left-0 z-50 border-b border-border-ui bg-bg-main transition-colors duration-300">
-      <nav className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <ul className="relative flex h-20 items-center justify-between">
           
           {/* LADO IZQUIERDO: Menú y Logo (Mantenemos tu diseño original) */}
@@ -66,7 +66,9 @@ export default function Navbar() {
               className="text-text-title flex items-center justify-center"
               aria-label={t("openMenu")}
             >
-              <MenuIcon />
+              <span className="material-symbols-rounded" style={{fontSize: "38px" }}>
+                notes
+              </span>
             </button>
 
             <Link
@@ -116,7 +118,7 @@ export default function Navbar() {
             {/* Ícono de Luna/Sol con su funcionalidad */}
             <button 
               onClick={toggleTheme} 
-              className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-12 px-6"
+              className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-10"
               aria-label="Cambiar modo luz"
             >
               {isDark ? <LightModeIcon sx={{color: "#F4E6A1"}}/> : <ModeNightIcon sx={{fill:'white', stroke:'black'}}/>}

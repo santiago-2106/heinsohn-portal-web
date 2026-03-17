@@ -1,33 +1,54 @@
-import React from "react";
 import {
-  softwareCards,
-  analitycCards,
-  enginerTeamCards,
   strategicConsultingCards,
+  softwareIcons,
+  analitycIcons,
+  enginerTeamscIcons,
+  strategicIcons,
 } from "@/src/data/soluciones/ti";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
+import { useTranslations } from "next-intl";
+
 
 export default function CardFinal() {
+
+  const t = useTranslations()
+
+  function traductionCards (cardsTraduction: string, icons:any[]) {
+    return t.raw(cardsTraduction).map((itemsCards: any, index:number) => (
+      {
+        ...itemsCards,
+        icon: icons[index]
+      }
+    ))
+  }
+
+  const softwareCards = traductionCards("software.softwareCards", softwareIcons)
+  const analitycCards = traductionCards("analytics.analitycCards", analitycIcons)
+  const enginerCards = traductionCards("enginerTeams.enginerTeamCards", enginerTeamscIcons)
+  const strategiCards = traductionCards("strategicConsulting.strategicConsultingCards", strategicIcons)
+
+  
+
   return (
     <>
       <CardAnuncies
-        title="Ingenieria de software y Desarrollo de productos Digitales"
-        cards={softwareCards}
+      title={t("software.title")}
+      cards={softwareCards}
       />
 
       <CardAnuncies
-        title="Analítica de datos e inteligencia artificial"
-        cards={analitycCards}
+      title={t("analytics.title")}
+      cards={analitycCards}
       />
 
       <CardAnuncies
-        title="Ingeniería extendida y equipos dedicados"
-        cards={enginerTeamCards}
+        title={t("enginerTeams.title")}
+        cards={enginerCards}
       />
 
       <CardAnuncies
-        title="Consultoria estrategica"
-        cards={strategicConsultingCards}
+        title={t("strategicConsulting.title")}
+        cards={strategiCards}
       />
     </>
   );
