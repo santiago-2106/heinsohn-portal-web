@@ -11,6 +11,101 @@
       "fr": "FRA"
     }
   },
+  
+  "software": {
+    "title": "Ingeniería de software y desarrollo de productos digitales",
+    "softwareCards": [
+      {
+        "title": "Desarrollo de aplicaciones móviles y web",
+        "description": "Soluciones intuitivas para todo tipo de dispositivos",
+        "btn": "Ver soluciones"
+      },
+      {
+        "title": "Diseño y desarrollo UX/UI",
+        "description": "Interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversión",
+        "btn": "Ver experiencias"
+      },
+      {
+        "title": "Desarrollo de software",
+        "description": "Productos a la medida de cada necesidad empresarial",
+        "btn": "Solicitar desarrollo"
+      },
+      {
+        "title": "Desarrollo de software cloud",
+        "description": "Aplicaciones seguras, flexibles y con alto rendimiento en la nube",
+        "btn": "Ver más"
+      },
+      {
+        "title": "Desarrollo de plataformas escalables",
+        "description": "Arquitecturas preparadas para el crecimiento del negocio",
+        "btn": "Explorar"
+      },
+      {
+        "title": "Modernización de aplicaciones de software",
+        "description": "Actualización tecnológica que prolonga la vida útil y aumenta la eficiencia",
+        "btn": "Actualizar ahora"
+      }
+    ]
+  },
+
+  "analytics": {
+    "title": "Analítica de datos e inteligencia artificial",
+    "analitycCards": [
+      {
+        "title": "Business Intelligence",
+        "description": "Impulsa tu crecimiento con soluciones de BI que ofrecen visualizaciones claras y análisis predictivos.",
+        "btn": "Ver BI"
+      },
+      {
+        "title": "Consultoría IA",
+        "description": "Asesoramiento experto para integrar la inteligencia artificial en tu estrategia de negocio.",
+        "btn": "Conocer más"
+      },
+      {
+        "title": "Soluciones de Inteligencia Artificial y Copilot",
+        "description": "Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.",
+        "btn": "Ver soluciones IA"
+      },
+      {
+        "title": "Machine Learning e Inteligencia Artificial",
+        "description": "Algoritmos predictivos que convierten datos en insights para optimizar procesos empresariales.",
+        "btn": "Explorar IA"
+      }
+    ]
+  },
+
+  "enginerTeams":{
+    "title": "Ingeniería extendida y equipos dedicados",
+    "enginerTeamCards": [
+      {
+        "title": "Staff Augmentation",
+        "description": "Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.",
+        "btn": "Ampliar equipo"
+      },
+      {
+        "title": "Equipos dedicados",
+        "description": "Talento experto, enfocado en tus objetivos de negocio.",
+        "btn": "Ver talento experto"
+      }
+    ]
+  },
+
+  "strategicConsulting":{
+    "title":"Consultoria Estrategica",
+    "strategicConsultingCards": [
+      {
+        "title": "Cloud y modernización de infraestructura",
+        "description": "Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.",
+        "btn": "Optimización en la nube"
+      },
+      {
+        "title": "Consultoría estratégica para adopción digital",
+        "description": "Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.",
+        "btn": "Explorar consultoría"
+      }
+    ]
+  },
+
   "footer": {
     "description": "Transformando empresas a través de soluciones tecnológicas innovadoras e inteligencia artificial a la vanguardia.",
     "solutionsTitle": "Soluciones",

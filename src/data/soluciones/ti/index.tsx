@@ -1,5 +1,6 @@
 import React from "react";
 import { dataCard } from "@/src/types/cardTypes"; // Ajusta esta ruta si es diferente
+import { ReactNode } from "react";
 
 // =========================================================================
 // 1. DATA DEL HERO (Soluciones TI)
@@ -18,6 +19,35 @@ export const dataTI = {
 // =========================================================================
 
 
+
+
+export const softwareIcons: ReactNode[] = [
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>devices</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>display_settings</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>data_object</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>cloud_queue</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>tablet_mac</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>code_blocks</span>
+];
+
+export const analitycIcons: ReactNode[] = [
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>local_police</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>robot_2</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>auto_awesome</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>bubble_chart</span>,
+]
+
+export const enginerTeamscIcons: ReactNode[] = [
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>account_circle</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>person_raised_hand</span>,
+]
+
+export const strategicIcons: ReactNode[] = [
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>cloud_sync</span>,
+  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>tips_and_updates</span>,
+]
+
+//LA DATA SE MOVIO AL JSON LA DEJO POR SI ENCONTRAMOS OTRA SOLUCION PARA TRADUCIRLA
 export const softwareCards: dataCard[] = [
   {
     icon: <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>devices</span>, 

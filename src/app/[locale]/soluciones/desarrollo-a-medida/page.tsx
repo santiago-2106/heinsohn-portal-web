@@ -17,9 +17,9 @@ import Slider from '@/src/components/sliders/SliderBlog'
 import { 
   dataHeroDesarrolloAMedida,
   dataPreguntasFrecuentes
-} from '@/src/data/desarrollo-a-medida' 
+} from '@/src/data/soluciones/desarrollo-a-medida' 
 
-import { cardSlider2 } from '@/src/data/share/slider'
+import { cardSlider2 } from '@/src/data/soluciones/share/slider'
 
 // Configuración de Metadatos para SEO y Web Vitals
 export const metadata: Metadata = {
