@@ -21,6 +21,7 @@ interface HeroProps {
   breadcrumb: BreadcrumbItem[];
   badges?: BadgeItem[];     
   isUppercase?: boolean; 
+  showImage?: boolean; // 1. NUEVA PROP: Controla si se muestra la imagen
 }
 
 export default function Hero({
@@ -31,6 +32,7 @@ export default function Hero({
   breadcrumb,
   badges,
   isUppercase = false, 
+  showImage = true, // 2. VALOR POR DEFECTO: Si no le pasas nada, sí muestra la imagen
 }: HeroProps) {
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
@@ -101,44 +103,45 @@ export default function Hero({
             {description}
           </div>
 
-          {/* BOTONES (Accesibilidad: aria-label agregado) */}
+          {/* BOTONES */}
           {buttonText && (
             <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
               <button 
-                className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md"
+                className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md cursor-pointer"
                 aria-label={buttonText}
               >
                 <span className="font-medium">{buttonText}</span>
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="transition-transform group-hover:translate-x-1">
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
+                <span aria-hidden="true" className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1">
+                  arrow_forward
+                </span>
               </button>
 
               <button 
                 aria-label="Más opciones" 
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md"
+                className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md cursor-pointer"
               >
-                <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                  <path d="M12 5v14" />
-                  <path d="m19 12-7 7-7-7" />
-                </svg>
+                <span aria-hidden="true" className="material-symbols-rounded text-lg">
+                  arrow_downward
+                </span>
               </button>
             </div>
           )}
         </div>
       </div>
 
-      {/* IMAGEN INFERIOR OPTIMIZADA (Next Image) */}
-      <div className="w-full relative h-48 md:h-[300px]">
-        <Image
-          src="/img/diseno-figuras.png"
-          alt="Diseño geométrico decorativo"
-          fill
-          priority // Le dice a Google que es crítica para LCP
-          className="object-cover object-bottom"
-        />
-      </div>
+      {/* 3. CONDICIONAL: Solo pinta la imagen si showImage es true */}
+      {showImage && (
+        <div className="w-full relative h-48 md:h-[300px]">
+          <Image
+            src="/img/diseno-figuras.png"
+            alt="Diseño geométrico decorativo"
+            fill
+            priority // Le dice a Google que es crítica para LCP
+            className="object-cover object-bottom"
+          />
+        </div>
+      )}
+      
     </section>
   );
 }
