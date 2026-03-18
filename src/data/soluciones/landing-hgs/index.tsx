@@ -232,6 +232,7 @@ export const dataCardsFeaturesLandingHGS = [
     title: "Alcance regional",
     description: "Presencia en más de 6 países con conocimiento local profundo",
   },
+  
   {
     icon: <span className="material-symbols-rounded text-brand-accent" style={{ fontSize: "40px" }}>amp_stories</span>,
     title: "Versatilidad",
