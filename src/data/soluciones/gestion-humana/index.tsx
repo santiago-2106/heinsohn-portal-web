@@ -166,7 +166,7 @@ export const infoGestionHumana2 = [
     description: "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones.",
   },
   {
-    icon: <span className="material-symbols-rounded  p-1 rounded-full font-light" style={{ fontSize: "32px" }}>card_travel</span>,
+    icon: <span className="material-symbols-rounded  p-1 rounded-full font-light" style={{ fontSize: "32px" }}>business_center</span>,
     title: "Consultoría",
     description: "Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”.",
   },
