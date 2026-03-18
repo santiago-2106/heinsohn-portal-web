@@ -10,12 +10,31 @@ import 'swiper/css/pagination'
 
 import TextComponent from '../ui/typography/TextComponent'
 
-export default function Slider({data}: any) {
+// 1. Tipamos correctamente la data para no usar 'any'
+export interface BlogItem {
+  id?: string | number;
+  img?: string;
+  title: string;
+  description: string;
+  btn?: string;
+}
+
+export interface SliderBlogProps {
+  title?: string;
+  data?: BlogItem[];
+}
+
+export default function Slider({ title = "Blog Destacado", data }: SliderBlogProps) {
+  
+  // 2. EL SEGURO DE VIDA: Si no hay data o el arreglo está vacío, no pintamos nada.
+  if (!data || data.length === 0) return null;
+
   return (
-    <section className="py-12 md:py-16">
+    <section className="py-12 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-6">
 
-        <TextComponent title='Blog Destacado' />
+        {/* Título dinámico */}
+        <TextComponent title={title} />
         
         <Swiper
           modules={[Navigation, Pagination]}
@@ -31,7 +50,7 @@ export default function Slider({data}: any) {
             el: '.custom-pagination'
           }}
         >
-          {data && data.map((item: any, index: number) => (
+          {data.map((item, index) => (
             <SwiperSlide key={item.id || index}>
               <div className="flex flex-col md:flex-row items-stretch">
 
@@ -54,7 +73,7 @@ export default function Slider({data}: any) {
                       alt={`Imagen destacada de ${item.title}`}
                       fill
                       sizes="(max-width: 768px) 100vw, 66vw"
-                      className="object-cover brightness-90 grayscale-100"
+                      className="object-cover brightness-90 grayscale-[50%]"
                     />
                   </div>
 
@@ -71,7 +90,7 @@ export default function Slider({data}: any) {
                     <a
                       href="#"
                       aria-label={`Leer artículo completo sobre: ${item.title}`}
-                      className="mt-auto inline-flex w-max items-center gap-2 text-sm font-medium text-text-body transition-colors group"
+                      className="mt-auto inline-flex w-max items-center gap-2 text-sm font-medium text-text-body transition-colors hover:text-brand-accent group"
                     >
                       {item.btn || "Leer mas"}
                       <span aria-hidden="true" className="material-symbols-rounded text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
@@ -86,7 +105,7 @@ export default function Slider({data}: any) {
           ))}
         </Swiper>
 
-        {/* Controles de Navegación del Carrusel (Accesibilidad agregada) */}
+        {/* Controles de Navegación del Carrusel */}
         <div className="flex items-center justify-end gap-4 mt-10">
           <button 
             aria-label="Ver noticia anterior"

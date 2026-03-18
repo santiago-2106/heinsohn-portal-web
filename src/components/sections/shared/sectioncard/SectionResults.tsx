@@ -1,121 +1,116 @@
 import React from "react";
-import RocketLaunchOutlinedIcon from "@mui/icons-material/RocketLaunchOutlined";
-import GavelOutlinedIcon from "@mui/icons-material/GavelOutlined";
-import LocalOfferOutlinedIcon from "@mui/icons-material/LocalOfferOutlined";
-import VerifiedUserOutlinedIcon from "@mui/icons-material/VerifiedUserOutlined";
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
+import Link from "next/link";
 
-export default function CardResults() {
+// --- INTERFACES DE PROPS ---
+export interface BenefitItem {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+}
+
+export interface MainStatItem {
+  icon: React.ReactNode;
+  title: string;
+  prefix: string;
+  number: string;
+  text: string;
+}
+
+export interface CardResultsProps {
+  title: string | React.ReactNode;
+  mainStat: MainStatItem;
+  benefits: BenefitItem[];
+  button: {
+    text: string;
+    href: string;
+  };
+}
+
+export default function CardResults({ title, mainStat, benefits, button }: CardResultsProps) {
   return (
-    <section className="bg-white py-16 sm:py-20 md:py-24">
+    <section className="bg-bg-main py-16 sm:py-20 md:py-24 transition-colors duration-300">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-        <h2 className="mb-16 text-center text-3xl font-light text-gray-900 sm:text-4xl md:text-5xl leading-tight">
-          Resultados que demuestran nuestra <br className="hidden md:block" />
-          experiencia en el sector financiero
+        
+        {/* TÍTULO PRINCIPAL */}
+        <h2 className="mb-16 text-center text-3xl font-light text-text-title sm:text-4xl md:text-5xl leading-tight">
+          {title}
         </h2>
 
-        <div className="border border-gray-200 bg-white grid grid-cols-1 lg:grid-cols-12">
+        <div className="border border-border-ui bg-bg-card-2 grid grid-cols-1 lg:grid-cols-12 transition-colors duration-300">
           
           {/* ========================================== */}
           {/* COLUMNA IZQUIERDA: Experiencia Comprobada  */}
           {/* ========================================== */}
-          <div className="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-gray-200">
+          <div className="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-border-ui">
             <div className="h-full flex flex-col p-10 lg:p-12">
-          
-
-              {/* 👇 AQUÍ CONTROLAS EL ESPACIO EN BLANCO 👇 */}
-              {/* 'mt-auto' empuja esto hacia abajo. 'pt-24' y 'lg:pt-32' fuerzan un espacio mínimo. */}
               <div className="mt-auto pt-24 lg:pt-40">
-                  {/* Parte Superior: Icono y Título */}
-              <div>
-                <div className="mb-5 text-gray-900">
-                  <RocketLaunchOutlinedIcon
-                    sx={{ fontSize: 40, strokeWidth: 1.5 }}
-                  />
+                
+                {/* Ícono y Título de la estadística */}
+                <div>
+                  <div className="mb-5 text-text-title">
+                    {mainStat.icon}
+                  </div>
+                  <h3 className="text-2xl font-normal text-text-title">
+                    {mainStat.title}
+                  </h3>
                 </div>
-                <h3 className="text-2xl font-normal text-gray-900">
-                  Experiencia comprobada
-                </h3>
-              </div>
+                
+                {/* Número Grande */}
                 <div className="flex items-start mb-3">
-                  <span className="text-[#E30613] text-6xl md:text-7xl font-light leading-none mr-1 mt-2">
-                    +
+                  <span className="text-brand-accent text-6xl md:text-7xl font-light leading-none mr-1 mt-2">
+                    {mainStat.prefix}
                   </span>
-                  <span className="text-gray-900 text-8xl md:text-9xl font-normal leading-none tracking-tight">
-                    40
+                  <span className="text-text-title text-8xl md:text-9xl font-normal leading-none tracking-tight">
+                    {mainStat.number}
                   </span>
                 </div>
-                <p className="text-gray-600 text-lg font-light leading-relaxed max-w-xs mt-4">
-                  años desarrollando software financiero en LATAM.
+                
+                {/* Descripción del número */}
+                <p className="text-text-body text-lg font-light leading-relaxed max-w-xs mt-4">
+                  {mainStat.text}
                 </p>
+
               </div>
-              
             </div>
           </div>
 
           {/* ========================================== */}
-          {/* COLUMNA DERECHA: 4 Tarjetas de Beneficios  */}
+          {/* COLUMNA DERECHA: Tarjetas de Beneficios  */}
           {/* ========================================== */}
           <div className="lg:col-span-7 grid grid-cols-1 md:grid-cols-2">
-            <div className="p-8 md:p-10 border-b md:border-r border-gray-200 flex flex-col items-start hover:bg-gray-50 transition-colors">
-              <div className="mb-5 text-gray-900">
-                <GavelOutlinedIcon sx={{ fontSize: 32 }} />
+            {benefits.map((item, index) => (
+              <div 
+                key={index} 
+                className={`p-8 md:p-10 flex flex-col items-start hover:bg-bg-menu-hover transition-colors duration-300
+                  ${index === 0 ? "border-b md:border-r border-border-ui" : ""}
+                  ${index === 1 ? "border-b border-border-ui" : ""}
+                  ${index === 2 ? "border-b md:border-b-0 md:border-r border-border-ui" : ""}
+                `}
+              >
+                <div className="mb-5 text-text-title">
+                  {item.icon}
+                </div>
+                <h3 className="text-lg font-normal text-text-title mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-sm text-text-body font-light leading-relaxed">
+                  {item.description}
+                </p>
               </div>
-              <h3 className="text-lg font-normal text-gray-900 mb-2">
-                Cumplimiento normativo
-              </h3>
-              <p className="text-sm text-gray-600 font-light leading-relaxed">
-                Respuesta ágil a cambios regulatorios.
-              </p>
-            </div>
-
-            <div className="p-8 md:p-10 border-b border-gray-200 flex flex-col items-start hover:bg-gray-50 transition-colors">
-              <div className="mb-5 text-gray-900">
-                <LocalOfferOutlinedIcon sx={{ fontSize: 32 }} />
-              </div>
-              <h3 className="text-lg font-normal text-gray-900 mb-2">
-                Reducción de costos
-              </h3>
-              <p className="text-sm text-gray-600 font-light leading-relaxed">
-                Procesos automatizados que optimizan recursos.
-              </p>
-            </div>
-
-            <div className="p-8 md:p-10 border-b md:border-b-0 md:border-r border-gray-200 flex flex-col items-start hover:bg-gray-50 transition-colors">
-              <div className="mb-5 text-gray-900">
-                <VerifiedUserOutlinedIcon sx={{ fontSize: 32 }} />
-              </div>
-              <h3 className="text-lg font-normal text-gray-900 mb-2">
-                Escalabilidad y seguridad
-              </h3>
-              <p className="text-sm text-gray-600 font-light leading-relaxed">
-                Arquitectura 100% web, en nube o local.
-              </p>
-            </div>
-
-            <div className="p-8 md:p-10 flex flex-col items-start hover:bg-gray-50 transition-colors">
-              <div className="mb-5 text-gray-900">
-                <HelpOutlineOutlinedIcon sx={{ fontSize: 32 }} />
-              </div>
-              <h3 className="text-lg font-normal text-gray-900 mb-2">
-                Soporte especializado
-              </h3>
-              <p className="text-sm text-gray-600 font-light leading-relaxed">
-                Acompañamiento en implementación y operación.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
 
-        {/* Botón Inferior */}
+        {/* BOTÓN INFERIOR */}
         <div className="mt-16 flex justify-center">
-          <a
-            href="/contacto"
-            className="bg-[#111827] text-white text-base font-medium py-4 px-10 rounded-full hover:bg-black transition-colors shadow-lg"
+          <Link
+            href={button.href}
+            className="bg-text-title text-bg-main text-base font-medium py-4 px-10 rounded-full hover:opacity-80 transition-opacity shadow-lg"
           >
-            Habla con un especialista sobre tu gestión financiera
-          </a>
+            {button.text}
+          </Link>
         </div>
+        
       </div>
     </section>
   );

@@ -1,18 +1,19 @@
-import Navbar from "@/src/components/layout/navbar/Navbar";
-import CardCases from "@/src/components/sections/shared/sectioncard/SectionCases";
-import Footer from "@/src/components/layout/footer/Footer";
-import FooterBottom from "@/src/components/layout/footer/FooterBottom";
-import ContactForm from "@/src/components/forms/formularios/ContactForm";
-import Hero from "@/src/components/sections/shared/hero/Hero";
-import Slider from "@/src/components/sliders/SliderBlog";
-import CardResult from "@/src/components/sections/shared/sectioncard/SectionResults";
-import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
-import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
-import Clientes from "@/src/components/sections/shared/clientes/Clientes";
-import Certificaciones from "@/src/components/sections/shared/certificaciones/Certificaciones";
-import CertificacionesInternacionales from "@/src/components/sections/shared/certificaciones/CertificacionesInternacionales";
+import type { Metadata } from "next";
 
-// Importamos TODA la data desde tu archivo centralizado
+// Componentes
+import Hero from "@/src/components/sections/shared/hero/Hero";
+import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
+import CardResult from "@/src/components/sections/shared/sectioncard/SectionResults";
+import Clientes from "@/src/components/sections/shared/clientes/Clientes";
+import CertificacionesInternacionales from "@/src/components/sections/shared/certificaciones/CertificacionesInternacionales";
+import CardCases from "@/src/components/sections/shared/sectioncard/SectionCases";
+import Slider from "@/src/components/sliders/SliderBlog";
+import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
+import ContactForm from "@/src/components/forms/formularios/ContactForm";
+import { dataResultadosFinanciera } from "@/src/data/soluciones/financiera";
+import { cardSlider1 } from "@/src/data/soluciones/share/slider";
+
+// Data Centralizada
 import {
   financialChallengesCards,
   financialSolutionsCards,
@@ -23,22 +24,31 @@ import {
   footerRetos,
   btnRetos,
   entitiesData,
+  dataCasosFinanciera,
+  titlesFinanciera // <-- Importamos los nuevos títulos centralizados
 } from "@/src/data/soluciones/financiera";
+
+// Optimización SEO
+export const metadata: Metadata = {
+  title: "Soluciones Sector Financiero | Heinsohn",
+  description: "Software especializado para banca, fintechs y aseguradoras. Administra créditos, obligaciones financieras, fondos de inversión y portafolios en LATAM.",
+  robots: "index, follow",
+};
 
 export default function SolucionesFinanciero() {
   return (
-    <div>
+    <>
       <Hero
         title={dataFinanzas.title}
         description={dataFinanzas.description}
         buttonText={dataFinanzas.buttonText}
         breadcrumb={dataFinanzas.breadcrumb}
-        badges={dataFinanzas.badges} // <-- Pasamos los badges por props
-        isUppercase={false}          // <-- Apagamos las mayúsculas forzadas del título
+        badges={dataFinanzas.badges} 
+        isUppercase={false}          
       />
 
       <CardAnuncies
-        title ={entitiesData.title}
+        title={entitiesData.title}
         description={introRetos.description}
         cards={financialChallengesCards}
         cols={3}
@@ -47,33 +57,34 @@ export default function SolucionesFinanciero() {
       />
 
       <CardAnuncies
-        title={
-      <>Soluciones tecnológicas para créditos,<br className="hidden md:block" />fondos e inversiones</>
-    }
+        title={titlesFinanciera.soluciones}
         cards={financialSolutionsCards}
         cols={2}
       />
 
-      <CardResult />
+      {/* Si CardResult lleva data, deberías pasarla igual, por ahora lo dejamos como está */}
+     <CardResult {...dataResultadosFinanciera} />
 
-      <Clientes title="Nuestra experiencia en cifras" />
+      <Clientes title={titlesFinanciera.clientes} />
 
-      <CardAnuncies title=" " cards={experienceStatsData} cols={2} />
-
-      <CertificacionesInternacionales title="Certificaciones internacionales" />
-
-      <CardCases />
-      <Slider />
-
-      <PreguntasFort
-        title="Preguntas frecuentes sobre software financiero"
-        items={financialFaqData as any} // <-- Solución al conflicto de tipos de FaqAnswer
+      <CardAnuncies 
+        title={titlesFinanciera.statsVacio} 
+        cards={experienceStatsData} 
+        cols={2} 
       />
 
-      <ContactForm  title={
-      <>Transforma la gestion<br className="hidden md:block" />financiera de tu empresa</>
-    }/>
+      <CertificacionesInternacionales title={titlesFinanciera.certificaciones} />
 
-    </div>
+      <CardCases {...dataCasosFinanciera} />
+      
+      <Slider title="blog destacado" data={cardSlider1} />
+
+      <PreguntasFort
+        title={titlesFinanciera.faq}
+        items={financialFaqData as any} 
+      />
+
+      <ContactForm title={titlesFinanciera.contacto}/>
+    </>
   );
 }
