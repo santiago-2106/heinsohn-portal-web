@@ -2,11 +2,11 @@
 
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation, Pagination } from "swiper/modules"
-import ArrowCircleLeftIcon from "@mui/icons-material/ArrowCircleLeft"
-import ArrowCircleRightIcon from "@mui/icons-material/ArrowCircleRight"
 import CardTestiomanialLandingS from "../sections/shared/sectioncard/CardTestiomanialLandingS"
 
-
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/pagination'
 
 interface TestimonialItem {
   companyLogo: string
@@ -21,15 +21,16 @@ interface TestimonialSliderProps {
 }
 
 export default function SliderTestimonial({ items }: TestimonialSliderProps) {
+  if (!items || items.length === 0) return null;
+
   return (
     <section className="py-8 sm:py-12 md:py-16 w-full">
-
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
 
         <Swiper
           modules={[Navigation, Pagination]}
-          centeredSlides={true}
-         breakpoints={{
+          centerInsufficientSlides={true} /* <-- Esto centra las cartas cuando son solo 2 */
+          breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1280: { slidesPerView: 3 },
@@ -38,32 +39,40 @@ export default function SliderTestimonial({ items }: TestimonialSliderProps) {
             prevEl: '.testimonial-prev',
             nextEl: '.testimonial-next'
           }}
+          pagination={{
+            clickable: true,
+            el: '.custom-pagination' // <-- Llama a tus estilos de puntitos alargados
+          }}
           spaceBetween={20}
         >
 
           {items.map((item, index) => (
-            <SwiperSlide key={index} className="flex justify-center items-stretch ">
+            <SwiperSlide key={index} className="flex justify-center items-stretch">
               <CardTestiomanialLandingS item={item} />
             </SwiperSlide>
           ))}
 
         </Swiper>
 
-        {/* navegacin botones */}
-        <div className="flex justify-center items-center gap-6 mt-8">
+        {/* CONTROLES EXACTOS A TU IMAGEN (PERO CENTRADOS) */}
+        <div className="flex justify-center items-center gap-6 mt-10 w-full">
 
-          <button className="testimonial-prev h-12 w-12 flex items-center justify-center rounded-full border border-border-ui hover:bg-gray-100">
-            <ArrowCircleLeftIcon />
+          {/* Flecha Izquierda */}
+          <button className="testimonial-prev h-12 w-12 flex items-center justify-center rounded-full border border-gray-200 text-gray-500 hover:bg-gray-50 transition cursor-pointer">
+            <span aria-hidden="true" className="material-symbols-rounded" style={{ fontWeight: 300 }}>arrow_back</span>
           </button>
-        <div className="custom-pagination static w-auto! gap-2" />
-          <button className="testimonial-next h-12 w-12 flex items-center justify-center rounded-full border border-border-ui hover:bg-gray-100">
-            <ArrowCircleRightIcon />
+
+          {/* Los puntitos (El CSS global de tu proyecto hace que el activo sea alargado) */}
+          <div className="custom-pagination !w-auto flex justify-center items-center gap-2" />
+
+          {/* Flecha Derecha */}
+          <button className="testimonial-next h-12 w-12 flex items-center justify-center rounded-full border border-gray-200 text-gray-500 hover:bg-gray-50 transition cursor-pointer">
+            <span aria-hidden="true" className="material-symbols-rounded" style={{ fontWeight: 300 }}>arrow_forward</span>
           </button>
 
         </div>
 
       </div>
-
     </section>
   )
 }
