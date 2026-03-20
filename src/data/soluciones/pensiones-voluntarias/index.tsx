@@ -60,15 +60,15 @@ export const dataPensionesVoluntarias = {
   },
 
   servicios: {
-    title: "Servicios de gestión para los Fondos de Pensiones que nos diferencia de la competencia",
+    title: <>Servicios de gestión para los Fondos de <br/>Pensiones que nos diferencia de la <br/>competencia</>,
     cards: [
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>hub</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>linked_services</span>,
         title: "Cobertura integral",
         description: "Nuestra plataforma abarca todos los aspectos de la gestión de fondos de pensiones, garantizando una solución integral.",
       },
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>person</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>palette</span>,
         title: "Diseño centrado en el usuario",
         description: "Diseñado con la comodidad y la eficiencia del usuario en mente, nuestro software ofrece navegación intuitiva y soporte integral.",
       },
@@ -78,7 +78,7 @@ export const dataPensionesVoluntarias = {
         description: "Actualizamos continuamente nuestra plataforma para incorporar las últimas tecnologías y abordar las necesidades emergentes del mercado.",
       },
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>support_agent</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "32px" }}>contact_support</span>,
         title: "Soporte dedicado",
         description: "Benefíciate de un soporte al cliente permanente y capacitado para maximizar el valor de nuestra solución.",
       }
@@ -98,7 +98,7 @@ export const dataPensionesVoluntarias = {
     },
     gridCards: [
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>verified</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>star_shine</span>,
         title: "Experiencia comprobada",
         description: (
           <>
@@ -107,7 +107,7 @@ export const dataPensionesVoluntarias = {
         ),
       },
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>leaderboard</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>thumbs_up_double</span>,
         title: "Alto impacto",
         description: (
           <>
@@ -116,7 +116,7 @@ export const dataPensionesVoluntarias = {
         ),
       },
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>groups</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>south_america</span>,
         title: "Amplia adopción",
         description: (
           <>
@@ -125,7 +125,7 @@ export const dataPensionesVoluntarias = {
         ),
       },
       {
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>public</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px" }}>language</span>,
         title: "Cobertura regional",
         description: (
           <>
@@ -142,7 +142,7 @@ export const dataPensionesVoluntarias = {
       {
         id: "voluntarias",
         label: "Pensiones Voluntarias",
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>manage_accounts</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>ar_on_you</span>,
         items: [
           {
             title: "Ahorro voluntario e inversión personalizada",
@@ -171,7 +171,7 @@ export const dataPensionesVoluntarias = {
       {
         id: "obligatorias",
         label: "Pensiones Obligatorias",
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>account_balance</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>things_to_do</span>,
         items: [
           {
             title: "Control estricto de aportes",
@@ -188,7 +188,7 @@ export const dataPensionesVoluntarias = {
       {
         id: "cesantias",
         label: "Cesantías",
-        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>workspace_premium</span>,
+        icon: <span className="material-symbols-rounded text-inherit" style={{ fontSize: "24px", fontVariationSettings: "'FILL' 0, 'wght' 300" }}>diamond</span>,
         items: [
           {
             title: "Gestión ágil de retiros",
@@ -224,34 +224,51 @@ export const dataPensionesVoluntarias = {
     )
   },
 
-  // ¡AQUÍ ESTÁ CORREGIDO! Cambiamos title->question y description->answer
   faq: {
     title: "Preguntas frecuentes",
     items: [
       {
         question: "¿Qué diferencia hay entre pensiones obligatorias y voluntarias en LATAM?",
-        answer: "Las pensiones obligatorias son exigidas por ley y se deducen del salario del trabajador, mientras que las voluntarias son aportes adicionales que el individuo decide hacer para mejorar su retiro."
+        answer: { descriptions: "Las pensiones obligatorias son exigidas por ley y se deducen del salario del trabajador, mientras que las voluntarias son aportes adicionales que el individuo decide hacer para mejorar su retiro." }
       },
       {
         question: "¿Cómo digitalizar el sistema de pensiones en mi entidad financiera?",
-        answer: "A través de nuestra plataforma integral, puedes migrar tus bases de datos, automatizar la gestión de aportes y ofrecer una interfaz moderna a tus afiliados en tiempo récord."
+        answer: { descriptions: "A través de nuestra plataforma integral, puedes migrar tus bases de datos, automatizar la gestión de aportes y ofrecer una interfaz moderna a tus afiliados en tiempo récord." }
       },
       {
         question: "¿Este software sirve para administrar el ahorro para el retiro?",
-        answer: "Sí, la plataforma cuenta con módulos especializados para la administración, inversión y cálculo de rendimientos de los ahorros para el retiro."
+        answer: { descriptions: "Sí, la plataforma cuenta con módulos especializados para la administración, inversión y cálculo de rendimientos de los ahorros para el retiro." }
       },
       {
         question: "¿Funciona también para el ahorro previsional voluntario (APV)?",
-        answer: "Absolutamente, nuestro software está diseñado para manejar esquemas de APV, ajustándose a los beneficios tributarios y normativas de cada país."
+        answer: { descriptions: "Absolutamente, nuestro software está diseñado para manejar esquemas de APV, ajustándose a los beneficios tributarios y normativas de cada país." }
       },
       {
         question: "¿Se puede usar para administrar jubilaciones?",
-        answer: "Sí, el sistema gestiona el ciclo completo, desde la etapa de acumulación hasta la etapa de desacumulación y pago de las mesadas pensionales o jubilaciones."
+        answer: { descriptions: "Sí, el sistema gestiona el ciclo completo, desde la etapa de acumulación hasta la etapa de desacumulación y pago de las mesadas pensionales o jubilaciones." }
       },
       {
         question: "¿El software es multipaís y multimoneda?",
-        answer: "Así es. Nuestra solución está diseñada para operar en diferentes países de LATAM, soportando múltiples monedas y adaptándose a las regulaciones locales de cada región."
+        answer: { descriptions: "Así es. Nuestra solución está diseñada para operar en diferentes países de LATAM, soportando múltiples monedas y adaptándose a las regulaciones locales de cada región." }
       }
     ]
-  }
+  },
+
+  // ✅ NUEVA DATA AÑADIDA PARA QUE FUNCIONE EL SLIDER DEL BLOG
+  blogs: [
+    {
+      id: 1,
+      title: "La innovación como motor de transformación digital",
+      description: "Descubre cómo las organizaciones están utilizando nuestras soluciones para lograr mayor eficiencia, competitividad y crecimiento sostenible.",
+      img: "/img/imgSlider.png",
+      btn: "Leer más"
+    },
+    {
+      id: 2,
+      title: "Impactos de la reforma laboral en Colombia",
+      description: "Análisis detallado de los principales cambios introducidos por la reforma laboral y su impacto directo en la gestión de nómina, prestaciones sociales.",
+      img: "/img/noticias-interes.jpg",
+      btn: "Leer más"
+    }
+  ]
 };

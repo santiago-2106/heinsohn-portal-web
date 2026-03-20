@@ -1,10 +1,4 @@
 import type { Metadata } from "next";
-
-// Componentes de Layout
-import Navbar from "@/src/components/layout/navbar/Navbar";
-import Footer from "@/src/components/layout/footer/Footer";
-import FooterBottom from "@/src/components/layout/footer/FooterBottom";
-
 // Componentes de la Vista
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import UxImgUrl from "@/src/components/forms/uploads-Img-Url/UxImgUrl";
@@ -16,7 +10,6 @@ import Slider from "@/src/components/sliders/SliderBlog";
 import TextTeam from "@/src/components/sections/soluciones-digitales/TeamSection";
 import SliderSolDigital from "@/src/components/sliders/SliderCards";
 
-// Data centralizada y ordenada importada (CORRECCIÓN: Todo en una sola línea y sin .txs)
 import { 
   dataUXConsultorias, 
   dataTextDesarrolloUx, 
