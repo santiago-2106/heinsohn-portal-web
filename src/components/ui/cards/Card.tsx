@@ -29,7 +29,9 @@ export default function Card({
           ${centrar ? "flex justify-center" : ""}
         `}
         >
-          {icon}
+          <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
+            {icon}
+          </span>
         </div>
       )}
 

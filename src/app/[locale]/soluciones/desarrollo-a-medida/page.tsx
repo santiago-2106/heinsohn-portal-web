@@ -1,7 +1,4 @@
 import type { Metadata } from "next";
-import Navbar from '@/src/components/layout/navbar/Navbar'
-import Footer from '@/src/components/layout/footer/Footer'
-import FooterBottom from '@/src/components/layout/footer/FooterBottom'
 
 // Componentes de la vista
 import Hero from '@/src/components/sections/shared/hero/Hero'
@@ -15,11 +12,13 @@ import Slider from '@/src/components/sliders/SliderBlog'
 
 // Data Importada (Cronológica)
 import { 
-  dataHeroDesarrolloAMedida,
-  dataPreguntasFrecuentes
+  cardSliderWork,
+  dataHeroDesarrolloAMedida1,
+  preguntasDesarrolloAMedida
 } from '@/src/data/soluciones/desarrollo-a-medida' 
 
 import { cardSlider2 } from '@/src/data/soluciones/share/slider'
+import { useTranslations } from "next-intl";
 
 // Configuración de Metadatos para SEO y Web Vitals
 export const metadata: Metadata = {
@@ -29,15 +28,19 @@ export const metadata: Metadata = {
 };
 
 export default function DesarrolloAMedidaPage() {
+  
+  const t = useTranslations("desarrolloAMedida");
+
+const heroDesarrolloAMedidaHero = dataHeroDesarrolloAMedida1 (t);
+
+const preguntasFrecuentesDesarrolloAMedida = preguntasDesarrolloAMedida(t)
+
+const sliderDesarrolloAMedida = cardSliderWork(t)
+
   return (
     <>  
         {/* 1. HERO */}
-        <Hero 
-          title={dataHeroDesarrolloAMedida.title}
-          description={dataHeroDesarrolloAMedida.description}
-          buttonText={dataHeroDesarrolloAMedida.buttonText}
-          breadcrumb={dataHeroDesarrolloAMedida.breadcrumb}
-        />
+        <Hero {...heroDesarrolloAMedidaHero}/>
         
         {/* 2. MÉTRICAS */}
         <section aria-label="Nuestra experiencia">
@@ -45,7 +48,7 @@ export default function DesarrolloAMedidaPage() {
         </section>
 
         {/* 3. BENEFICIOS */}
-        <CardSoftwreGeneric />
+        <CardSoftwreGeneric/>
         
         {/* 4. FORMULARIO DE ENGAGEMENT */}
         <ContactForm title=" ¿Tienes un proyecto en mente?" />
@@ -59,11 +62,11 @@ export default function DesarrolloAMedidaPage() {
         {/* 7. PREGUNTAS FRECUENTES */}
         <PreguntasFort 
           title='Preguntas Frecuentes' 
-          items={dataPreguntasFrecuentes}
+          items={preguntasFrecuentesDesarrolloAMedida}
         />
 
         {/* 8. SLIDER BLOG */}
-        <Slider data={cardSlider2} />
+        <Slider data={sliderDesarrolloAMedida} />
     </>
   )
 }

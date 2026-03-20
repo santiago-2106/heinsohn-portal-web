@@ -1,0 +1,351 @@
+{
+  "pensiones": {
+    "infoSolucionesPension": {
+      "title": "Pension solutions",
+      "description": "Our software <span className=\"font-semibold\">is designed for pension funds, insurers, and financial institutions looking to transform their management.</span> With our platforms, you can manage severance, mandatory and voluntary pensions, and settle life annuities with full traceability, efficiency, and regulatory compliance.",
+      "buttonText": "Talk to a pension expert",
+      "breadcrumb": [
+        {
+          "label": "Pensions"
+        },
+        {
+          "label": "Pension solutions"
+        }
+      ]
+    },
+    "infoPensiones1": {
+      "highlight": {
+        "value": "30",
+        "description": "years of experience"
+      },
+      "metrics": [
+        {
+          "value": "12",
+          "description": "million affiliates managed in Colombia and LATAM"
+        },
+        {
+          "value": "<span className=\"text-text-body text-sm md:text-xl\">We manage</span><br /><span className=\"text-brand-accent\">+</span> 90,000 <span className=\"text-sm font-bold\">USD</span>",
+          "description": "millions in pensions"
+        }
+      ]
+    },
+    "infoPensiones2": [
+      {
+        "title": "Aging population",
+        "description": "More retirees demand agile and sustainable processes."
+      },
+      {
+        "title": "Financial sustainability",
+        "description": "Deficits in pay-as-you-go systems drive diversification into capitalization funds."
+      },
+      {
+        "title": "Process digitalization",
+        "description": "Affiliates expect self-management, traceability, and a 100% digital experience."
+      },
+      {
+        "title": "Regulatory pressure",
+        "description": "Changing regulations require reliable and updated reports."
+      },
+      {
+        "title": "Pensioner payroll",
+        "description": "Mass payments require transparent and error-free settlement."
+      },
+      {
+        "title": "New actors",
+        "description": "Insurers and multi-funds intensify competition and raise service standards."
+      }
+    ],
+    "infoPensiones3": [
+      {
+        "title": "Mandatory Pensions Module",
+        "description": "Manages the complete cycle of the affiliate, from design, affiliation to recognition and payment of the pension, <span className=\"font-bold\">Under different regimes and regulatory frameworks.</span>",
+        "items": [
+          {
+            "textos": "Administration of affiliations, employment history, and contributions"
+          },
+          {
+            "textos": "Settlement of pensions in capitalization, pay-as-you-go, or mixed schemes."
+          },
+          {
+            "textos": "Management of news, transfers, withdrawals, and status changes."
+          },
+          {
+            "textos": "Integrated pensioner payroll, with massive processes and total control."
+          },
+          {
+            "textos": "Regulatory parameterization per country and continuous update to regulatory changes."
+          },
+          {
+            "textos": "Integration with regulatory, accounting, and collection systems."
+          },
+          {
+            "textos": "Generation of executive and detailed reports"
+          },
+          {
+            "textos": "Designed with user experience in mind for greater ease of use."
+          },
+          {
+            "textos": "360° view of the affiliate and employers, providing unified access to bank accounts, relationships, and obligation status."
+          }
+        ],
+        "textoFooter": "We manage <span className=\"text-brand-accent\">48%</span> of mandatory pensions in Colombia, representing <span className=\"font-bold\">USD 63 billion</span>",
+        "btn": "Explore the mandatory pensions module"
+      },
+      {
+        "title": "Life Annuities and Pensioner Payroll Module",
+        "description": "Manages the settlement and periodic payment of life annuities and pensioner payroll from a <span className=\"font-bold\">100% web and highly automated platform.</span>",
+        "items": [
+          {
+            "textos": "Automatic settlement of life annuities."
+          },
+          {
+            "textos": "Management of survivorships, substitutions, and temporalities."
+          },
+          {
+            "textos": "Mass processes for calculation and dispersion of payments."
+          },
+          {
+            "textos": "Notifications to the pensioner about payments and adjustments."
+          },
+          {
+            "textos": "Integrated document manager for auditing and traceability."
+          },
+          {
+            "textos": "Electronic dossier, notifications, integration with document manager, upload component, and file generation."
+          },
+          {
+            "textos": "Adapts to pension funds, insurers, and occupational risk companies, allowing you to manage both pensioner payrolls and life annuities in one place."
+          }
+        ],
+        "btn": "Discover the life annuities module"
+      },
+      {
+        "title": "Voluntary Pensions Module",
+        "description": "Manages voluntary pension savings schemes from a multi-fund logic, flexible and aimed at affiliate self-management, with a complete set of processes that <span className=\"font-semibold text-gray-800\">Cover financial, operational, and risk management</span>",
+        "items": [
+          {
+            "textos": "Administration of periodic and extraordinary contributions."
+          },
+          {
+            "textos": "Mobility between funds according to the affiliate's risk profile."
+          },
+          {
+            "textos": "Comprehensive management of affiliates, people, and accounts."
+          },
+          {
+            "textos": "Financial management, valuation, and risk control associated with the funds."
+          },
+          {
+            "textos": "Management of tax benefits in accordance with local regulations."
+          },
+          {
+            "textos": "Self-management portals for affiliates and employers."
+          },
+          {
+            "textos": "Regulatory, accounting, and collective contribution reports."
+          },
+          {
+            "textos": "Operational and financial closing of the funds with full traceability."
+          }
+        ],
+        "textoFooter": "We manage <span className=\"text-brand-accent\">43%</span> of voluntary savings in Colombia, representing <span className=\"font-bold\">USD 5 billion</span>",
+        "btn": "Discover the voluntary pensions module"
+      },
+      {
+        "title": "Severance Module",
+        "description": "<span className=\"font-semibold text-gray-800\">Administrates comprehensive severance management</span> with high operational volumes and strict regulatory controls, from the same pension core covering affiliate management to fund calculations and legally permitted withdrawals.",
+        "items": [
+          {
+            "textos": "Management of partial and total withdrawals according to legal causals."
+          },
+          {
+            "textos": "Massive settlement, transfer, and payment processes."
+          },
+          {
+            "textos": "Multi-fund administration with additional benefits."
+          },
+          {
+            "textos": "Integration with payroll, collection systems, and accounting."
+          },
+          {
+            "textos": "Reduction of operational costs and improvement in contribution traceability."
+          }
+        ],
+        "btn": "Explore the severance module"
+      }
+    ],
+    "informacionPensiones5": [
+      {
+        "title": "Regional Scale",
+        "description": "Presence in El Salvador, Bolivia, Peru, Colombia, Honduras, and other countries."
+      },
+      {
+        "title": "Regulatory compliance",
+        "description": "Continuous updates to regulatory changes."
+      },
+      {
+        "title": "Proven and expanding regional scale",
+        "description": "Platform scaling regionally, expanding into new markets such as Chile, Mexico, Dominican Republic, among others. Supporting the growth and evolution of our clients' pension business."
+      },
+      {
+        "title": "Specialized Support",
+        "description": "Support in implementation and daily operation, backed by a team of over 200 professionals with knowledge of the pension sector, project management, and functional processes."
+      }
+    ],
+    "infoPensiones6": {
+      "highlight": {
+        "value": "40%",
+        "description": "of the Colombian mandatory pension market supported by our solutions."
+      },
+      "metrics": [
+        {
+          "value": "30",
+          "description": "30 years of innovation in the pension sector"
+        },
+        {
+          "description": "High volumes with millions of monthly transactions in pensioner payroll settlement."
+        }
+      ]
+    },
+    "dataPreguntasFrecuentesPensiones": [
+      {
+        "question": "Is it a single software or multiple different solutions?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What entities can use this pension software?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does the software adapt to the regulation of each LATAM country?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Can I implement only a few modules and scale later?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does the software cover pensioner payroll and mass payments?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does it also work to manage voluntary pension savings or APV?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Can it be used to manage severance pay from the same system?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Is the software multi-country and multi-currency?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What kind of support does Heinsohn offer?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How to start implementing the pension software?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "Payments and commerce in vehicles",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      }
+    ],
+    "textoPensiones1": {
+      "title": "Challenges of the pension system in Latin America and how you can manage it with our software",
+      "description": "The pension system in Latin America faces transformations that require <span className=\"text-text-body font-semibold\">vision and technology:</span>"
+    },
+    "textoPensiones2": {
+      "title": "A unique, modular and scalable pension platform",
+      "description": "Our pension <span className=\"text-text-body font-semibold\">software </span> centralizes the administration of the pension system in a single technological core, from which it is possible to integratedly manage mandatory pensions, voluntary pensions, severance pay, and life annuities.<br /><span className=\"text-text-body font-bold\">Its modular and parameterizable design allows it to adapt to the regulations of each country in LATAM,</span> handle high operational volumes, and guarantee traceability, control, and consistency of information throughout the entire pension cycle"
+    }
+  }
+}

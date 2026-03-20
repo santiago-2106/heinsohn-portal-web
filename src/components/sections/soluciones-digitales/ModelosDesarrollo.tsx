@@ -1,54 +1,61 @@
-import TextComponent from '@/src/components/ui/typography/TextComponent'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
-import { TextSolucionDigtal2, TextSolucionDigtal3, TextSolucionDigtal5, TextSolucionDigtal6 } from '@/src/data/soluciones/share/textosGenerales'
-import { SolucinesDigital6, textModelDevelop, textoModelDevelop, textoModelDevelop2, textoSolucionDigital2 } from '@/src/data/soluciones/desarrollo-a-medida'
 import TecnologiaConfiable from './TecnologiaConfiable'
 import ButtonComponent from '../../ui/buttons/Button'
+import { useTranslations } from 'next-intl'
+import { richText } from '@/src/hooks/helper/richText'
+
 
 export default function ModelosDesarrollo() {
+
+  const t = useTranslations("desarrolloAMedida");
+
   return (
     <div>
       <section>
-        <TextComponent title={TextSolucionDigtal2.title} description={TextSolucionDigtal2.description} />
 
+        {/*TITULO, DESCRIPCION, BUTTION DE: CARDS MODELOS DE DESARROLLO */}
         <CardAnuncies
-          title=""
-          cards={textModelDevelop}
+          title={t("titles.ModelosDesarrollo.title")}
+          description={t.rich("titles.ModelosDesarrollo.description", richText)}
+          cards={t.raw("cardModeloDesarrollo1")}
           cols={3}
         />
-
         <CardAnuncies
           title=""
-          cards={textoModelDevelop}
+          cards={t.raw("cardModeloDesarrollo2")}
           cols={2}
         />
-        <ButtonComponent textoBtn='Explora el modelo de desarrollo de software que mejor encaja con tu estrategia' />
+        <ButtonComponent textoBtn={t("textBtn.textoBtn3")} />
 
+        {/*TITULO, DESCRIPCION, BUTTION DE: CARDS RESULTADOS MEDIBLES */}
         <CardAnuncies
-          title={TextSolucionDigtal3.title}
-          description={TextSolucionDigtal3.description}
-          cards={textoModelDevelop2}
+          title={t("titles.ResultadosMedibles.title")}
+          description={t.rich("titles.ResultadosMedibles.description", richText)}
+          cards={t.raw("cardResultadosMedibles")}
           cols={2}
         />
-        <ButtonComponent textoBtn='Descubre cómo aumentar tu ROI con software personalizado' />
+        <ButtonComponent textoBtn={t("textBtn.textoBtn4")} />
+
+        {/*TITULO, DESCRIPCION, BUTTION DE: CARDS ALIADO PARA FUTURO DIGITAL */}
         <TecnologiaConfiable />
 
+        {/*TITULO, DESCRIPCION, BUTTION DE: CARDS TRANSFORMAR IDEA EN RESULTADOS DE NEGOCIO */}
         <CardAnuncies
-          title={TextSolucionDigtal5.title}
-          description={TextSolucionDigtal5.description}
-          cards={textoSolucionDigital2}
+          title={t("titles.IdeaNegocio.title")}
+          description={t("titles.IdeaNegocio.description")}
+          cards={t.raw("cardsIdeaNegocio")}
           cols={2}
         />
-        <ButtonComponent textoBtn='Empieza tu proyecto hoy con una sesión de descubrimiento' />
+        <ButtonComponent textoBtn={t("textBtn.textoBtn6")} />
 
+        {/*TITULO, DESCRIPCION, BUTTION DE: CARDS STACK TECNOLOGICO */}
         <CardAnuncies
-          title={TextSolucionDigtal6.title}
-          description={TextSolucionDigtal6.description}
-          cards={SolucinesDigital6}
+          title={t("titles.StackTecnologico.title")}
+          description={t.rich("titles.StackTecnologico.description", richText)}
+          cards={t.raw("cardsStackTecnologico")}
           cols={2}
         />
-
-        <ButtonComponent textoBtn='Descubre cómo nuestras tecnologías pueden acelerar tu proyecto' />
+        <ButtonComponent textoBtn={t("textBtn.textoBtn7")} />
       </section>
     </div>
   )

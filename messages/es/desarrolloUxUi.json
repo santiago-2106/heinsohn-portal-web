@@ -1,0 +1,108 @@
+{
+  "desarrolloUxUi": {
+    "dataUXConsultorias": {
+      "title": "Consultoría UX-UI Diseño y desarrollo de<br/> experiencias de usuario",
+      "description": "<span className=\"font-bold text-text-title\">Creamos experiencias digitales</span> centradas en las personas, con interfaces funcionales, atractivas y accesibles.",
+      "buttonText": "Solicita una asesoría gratuita",
+      "breadcrumb": [
+        { "label": "Soluciones" },
+        { "label": "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario" }
+      ]
+    },
+    "dataTextDesarrolloUx": {
+      "title": "Diseñamos experiencias memorables",
+      "description": "En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <span className=\"font-bold text-text-title\">Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</span> logrando mayor satisfacción y eficiencia en cada interacción."
+    },
+    "dataTextCards": {
+      "title": "Nuestras Ofertas",
+      "description": "Elige el plan que mejor se adapte a las necesidades de tu empresa. Diseñamos tres paquetes con diferentes alcances y precios, pensados para brindarte flexibilidad, escalabilidad y el acompañamiento ideal en cada etapa de tu crecimiento."
+    },
+    "dataTextTitle": {
+      "title": "La voz de nuestro Equipo",
+      "description": "El diseño va más allá de lo visual, se trata de entender profundamente al usuario y traducir sus necesidades en experiencias digitales que les hagan la vida más fácil. Ese es nuestro propósito en cada proyecto."
+    },
+    "informationCard": [
+      {
+        "titles": "Basico",
+        "subtitle": [
+          {
+            "text": "Prototipo Rapido",
+            "features": ["Angular, React", "Hasta 5 flujos de 1 a 50 pantallas"]
+          },
+          {
+            "text": "Prueba de uso",
+            "features": ["Prueba con 5 a 10 usuarios sinteticos"]
+          },
+          {
+            "text": "Tiempo",
+            "features": ["16 horas -1 especialista UX."]
+          }
+        ],
+        "price": "$500 USD"
+      },
+      {
+        "titles": "Intermedio",
+        "subtitle": [
+          {
+            "text": "Prototipo Rapido",
+            "features": ["Angular, React", "Hasta 10 flujos de 1 a 100 pantallas"]
+          },
+          {
+            "text": "Prueba de uso",
+            "features": ["Prueba con 5 a 10 usuarios sinteticos"]
+          },
+          {
+            "text": "Tiempo",
+            "features": ["32 horas -1 especialista UX."]
+          }
+        ],
+        "price": "$1000 USD"
+      },
+      {
+        "titles": "Pro",
+        "subtitle": [
+          {
+            "text": "Prototipo Rapido",
+            "features": ["Angular, React", "mas de 10 flujos de 101 a 200 pantallas"]
+          },
+          {
+            "text": "Prueba de uso",
+            "features": ["Prueba con 5 a 10 usuarios sinteticos"]
+          },
+          {
+            "text": "Tiempo",
+            "features": ["48 horas -1 especialista UX."]
+          }
+        ],
+        "price": "$2000 USD"
+      }
+    ],
+    "dataCardKnowOurWork2": {
+      "titleWork": "Transformación de una plataforma de servicios de salud",
+      "descriptionWork": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+      "textBtn": "Descubre cómo lo hicimos"
+    },
+    "softwareCards": [
+      {
+        "title": "Desarrollo de aplicaciones moviles y web",
+        "description": "soluciones intuitivas para todo tipo de dispositivos",
+        "btn": "Ver soluciones"
+      },
+      {
+        "title": "Desarollo de software",
+        "description": "productos a la medida de cada necesidad empresarial",
+        "btn": "Solicitar desarrollo"
+      },
+      {
+        "title": "Desarrollo software cloud",
+        "description": "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
+        "btn": "Ver mas"
+      },
+      {
+        "title": "Modernizacion de aplicaciones de software",
+        "description": "actualización tecnológica que prolonga la vida útil y aumenta la eficiencia.",
+        "btn": "Actualizar ahora"
+      }
+    ]
+  }
+}

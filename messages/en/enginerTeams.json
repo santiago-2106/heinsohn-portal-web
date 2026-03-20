@@ -1,0 +1,17 @@
+{
+  "enginerTeams": {
+    "title": "Extended engineering and dedicated teams",
+    "enginerTeamCards": [
+      {
+        "title": "Staff Augmentation",
+        "description": "Expand your team with technology experts who integrate flexibly into your projects.",
+        "btn": "Expand team"
+      },
+      {
+        "title": "Dedicated Teams",
+        "description": "Expert talent focused on achieving your business goals.",
+        "btn": "View expert talent"
+      }
+    ]
+  }
+}

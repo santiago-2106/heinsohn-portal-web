@@ -1,0 +1,14 @@
+{
+    "navbar": {
+    "openMenu": "Abrir menú",
+    "contact": "Contacto",
+    "country": "COL",
+    "themeLight": "Cambiar a modo claro",
+    "themeDark": "Cambiar a modo oscuro",
+    "language": {
+      "es": "ES",
+      "en": "EN",
+      "fr": "FRA"
+    }
+  }
+}

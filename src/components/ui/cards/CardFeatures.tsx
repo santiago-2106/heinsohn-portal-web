@@ -30,7 +30,7 @@ export default function CardFeatures({
         {/* CONTENEDOR DEL ÍCONO CORREGIDO: Libre de restricciones de altura */}
         {icon && (
           <div className="flex shrink-0 text-text-title items-center justify-center py-4">
-            {icon}
+            <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>{icon}</span>
           </div>
         )}
 

@@ -1,0 +1,27 @@
+{
+    "footer": {
+    "description": "Transforming companies through innovative technological solutions and cutting-edge artificial intelligence.",
+    "solutionsTitle": "Solutions",
+    "companyTitle": "Company",
+    "solutions": [
+      [
+        "Digital transformation services",
+        "Human management and payroll",
+        "Government solutions",
+        "Outsourcing solutions"
+      ],
+      [
+        "Pension sector solutions",
+        "Financial sector solutions",
+        "SAP solutions",
+        "OHS solutions"
+      ]
+    ],
+    "company": [
+      "Home",
+      "About us",
+      "Sitemap",
+      "Contact"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "contactForm": {
+    "title": "Contáctanos",
+    "fields": {
+      "fullName": "Nombre completo *",
+      "corporateEmail": "Correo corporativo *",
+      "company": "Nombre de la empresa *",
+      "website": "URL del sitio web *",
+      "email": "Correo *",
+      "phone": "Número de teléfono de WhatsApp *",
+      "employees": "Rango Número de empleados *"
+    },
+    "checkbox": {
+      "legal": "He leído y acepto el <red>aviso legal</red> y la <red>política de privacidad.*</red>",
+      "communications": "Acepto recibir otras comunicaciones de Heinsohn."
+    },
+    "button": "Enviar"
+  }
+}

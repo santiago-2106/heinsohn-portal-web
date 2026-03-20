@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import InputForm from "../InputForms";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 // 1. DEFINIMOS LA INTERFAZ PARA LAS PROPS
 interface ContactFormProps {
@@ -17,6 +19,9 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
     register,
     formState: { errors },
   } = useForm();
+
+  const t = useTranslations("contactForm")
+
 
   return (
     <section className="bg-bg-main py-12 md:py-20">
@@ -35,10 +40,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
           <div className="md:col-span-7 bg-bg-card-2  p-8 md:p-14">
             {/* 3. REEMPLAZAMOS EL TEXTO QUEMADO POR LA PROP */}
             <h2 className="text-4xl font-light text-gray-400 mb-10">
-
-              Contáctanos
-
-              {title}
+              {t("title")}
             </h2>
 
             <form className="space-y-10 ">
@@ -46,37 +48,37 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                 <div className="md:col-span-2">
                   <InputForm
                     id="fullName"
-                    label="Nombre completo *"
+                    label={t("fields.fullName")}
                     formregister={register("fullName")}
                   />
                 </div>
 
                 <InputForm
                   id="corporateEmail"
-                  label="Correo corporativo *"
+                  label={t("fields.corporateEmail")}
                   type="email"
                   formregister={register("corporateEmail")}
                 />
                 <InputForm
                   id="company"
-                  label="Nombre de la empresa *"
+                  label={t("fields.company")}
                   formregister={register("company")}
                 />
                 <InputForm
                   id="website"
-                  label="URL del sitio web *"
+                  label={t("fields.website")}
                   formregister={register("website")}
                 />
                 <InputForm
                   id="email"
-                  label="Correo *"
+                  label={t("fields.email")}
                   type="email"
                   formregister={register("email")}
                 />
 
                 <InputForm
                   id="phone"
-                  label="Número de teléfono de WhatsApp *"
+                  label={t("fields.phone")}
                   type="tel"
                   formregister={register("phone")}
                 />
@@ -88,30 +90,27 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                     defaultValue=""
                   >
                     <option value="" disabled>
-                      Rango Número de empleados *
+                      {t("fields.employees")}
                     </option>
                   </select>
                 </div>
               </div>
 
               <div className="space-y-4">
-                <label className="flex items-start gap-3 text-sm text-text-body">
+                <label className="flex items-start gap-3 text-sm text-text-body" aria-label="politicas de privacidad">
                   <input type="checkbox" className="mt-1 h-4 w-4" />
                   <p>
-                    He leído y acepto el{" "}
-                    <Link href="#" className="text-brand-accent underline:none">
-                      aviso legal <span className="text-text-body">y la</span> política de privacidad.*
-                    </Link>
+                    {t.rich("checkbox.legal", richText)}
                   </p>
                 </label>
 
                 <label className="flex items-start gap-3 text-sm text-text-body">
-                  <input type="checkbox" className="mt-1 h-4 w-4" />
-                  <p>Acepto recibir otras comunicaciones de Heinsohn.</p>
+                  <input type="checkbox" className="mt-1 h-4 w-4" aria-label="comunicaciones-heinsohn"/>
+                  <p>{t("checkbox.communications")}</p>
                 </label>
               </div>
               <button className="rounded-full bg-text-title text-bg-main px-10 py-3 text-sm font-medium hover:cursor-pointer">
-                Enviar
+                {t("button")}
               </button>
             </form>
           </div>

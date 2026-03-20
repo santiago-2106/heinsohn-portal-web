@@ -1,0 +1,114 @@
+{
+  "solucionesTi": {
+    "dataHeroSolucionesTI": {
+      "title": "IT Solutions",
+      "description": "We transform technology into value for your business.",
+      "buttonText": "Request a free consultation",
+      "breadcrumb": [
+        { "label": "Solutions" },
+        { "label": "IT Solutions" }
+      ]
+    },
+   
+    "titlesSolucionesTi": {
+      "title1": "Software Engineering and Digital Product Development",
+      "title2": "Data Analytics and Artificial Intelligence",
+      "title3": "Extended Engineering and Dedicated Teams",
+      "title4": "Strategic Consulting"
+      
+    },
+
+    "cardssIngenieriaSoftware": [
+      {
+        "icon": "devices",
+        "title": "Mobile and web app development",
+        "description": "intuitive solutions for all types of devices",
+        "btn": "view solutions"
+      },
+      {
+        "icon": "display_settings",
+        "title": "UX/UI Design and Development",
+        "description": "user-centric interfaces, designed to improve experience and conversion",
+        "btn": "View experiences"
+      },
+      {
+        "icon": "data_object",
+        "title": "Software development",
+        "description": "tailor-made products for every business need",
+        "btn": "Request development"
+      },
+      {
+        "icon": "cloud_queue",
+        "title": "Cloud software development",
+        "description": "secure, flexible, and high-performance applications in the cloud.",
+        "btn": "See more"
+      },
+      {
+        "icon": "tablet_mac",
+        "title": "Scalable platforms development",
+        "description": "architectures prepared for business growth",
+        "btn": "Explore"
+      },
+      {
+        "icon": "code_blocks",
+        "title": "Software applications modernization",
+        "description": "technological update that prolongs useful life and increases efficiency",
+        "btn": "Update now"
+      }
+    ],
+    "cardsAnalitycIA": [
+      {
+        "icon":"local_police",
+        "title": "Business Intelligence",
+        "description": "Drive your growth with BI solutions that offer clear visualizations and predictive analytics.",
+        "btn": "view BI"
+      },
+      {
+        "icon":"robot_2",
+        "title": "AI Consulting",
+        "description": "Expert advice to integrate artificial intelligence into your business strategy.",
+        "btn": "Learn more"
+      },
+      {
+        "icon":"auto_awesome",
+        "title": "Artificial Intelligence and Copilot Solutions",
+        "description": "AI and Copilot solutions that enhance efficiency and intelligent automation.",
+        "btn": "View AI solutions"
+      },
+      {
+        "icon":"bubble_chart",
+        "title": "Machine Learning and Artificial Intelligence",
+        "description": "Predictive algorithms that turn data into insights to optimize business processes.",
+        "btn": "Explore AI"
+      }
+    ],
+    "cardsIngenieriaExtendida": [
+      {
+        "icon":"account_circle",
+        "title": "Staff Augmentation",
+        "description": "Expand your team with technology experts, integrating them flexibly into your projects.",
+        "btn": "Expand team"
+      },
+      {
+        "icon":"person_raised_hand",
+        "title": "Dedicated teams",
+        "description": "Expert talent, focused on your business goals.",
+        "btn": "View expert talent"
+      }
+    ],
+    "cardsConsultoriaEstrategica": [
+      {
+        "icon":"cloud_sync",
+        "title": "Cloud and infrastructure modernization",
+        "description": "We accompany companies in their transition to the cloud, optimizing costs and ensuring scalability, security, and business continuity.",
+        "btn": "Cloud optimization"
+      },
+      {
+        "icon":"tips_and_updates",
+        "title": "Strategic consulting for digital adoption",
+        "description": "We guide the integration of new technologies within business models, generating tangible value and accelerating innovation.",
+        "btn": "Explore consulting"
+      }
+    ]
+  }
+}
