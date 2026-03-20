@@ -1,0 +1,183 @@
+{
+  "desarrolloAMedida": {
+    "dataHeroDesarrolloAMedida": {
+      "title": "Desarrollo de software a la medida",
+      "description": "El desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad. Creamos soluciones únicas que se adaptan a tu negocio,<bold> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.</bold>",
+      "buttonText": "Solicita una asesoría gratuita",
+      "breadcrumb": [
+        { "label": "Soluciones" },
+        { "label": "Soluciones TI" },
+        { "label": "Desarrollo de software a la medida" }
+      ]
+    },
+
+    "titles": {
+      "softwareGenerico": {
+        "title": "El verdadero freno no está en tu equipo, sino en un software genérico",
+        "description": "Las soluciones estándar suelen convertirse en un freno: procesos rígidos, costos crecientes y poca capacidad de integración. Estas limitaciones impactan la competitividad, reducen márgenes y frenan la innovación. <bold>Con nuestro servicio de desarrollo de software resolvemos estos desafíos al crear sistemas que:</bold>"
+      },
+      "dataEstrategiaNegocio": {
+        "title": "Cómo un desarrollo de software personalizado acelera tu estrategia de negocio",
+        "description": "Nuestro desarrollo de software combina lo mejor de la ingeniería y la visión empresarial para crear soluciones seguras, escalables y alineadas con los objetivos de tu organización.<bold> Lo que ofrecemos:</bold>"
+      },
+      "ModelosDesarrollo": {
+        "title": "Modelos de desarrollo que se adaptan a la madurez digital de tu empresa",
+        "description": "Cada organización se encuentra en un punto distinto de su transformación tecnológica. Por eso, <bold>nuestros servicios de desarrollo de software a la medida</bold> no siguen un único modelo, sino que se ajustan a la estrategia, recursos y tiempos de tu negocio"
+      },
+      "ResultadosMedibles": {
+        "title": "Resultados medibles de un software hecho a tu medida",
+        "description": "Invertir en software personalizado significa convertir la tecnología en una ventaja competitiva que impacta directamente en la <bold>rentabilidad y la sostenibilidad del negocio.</bold>"
+      },
+      "AliadoFuturoDigital": {
+        "title": "Más que una empresa de desarrollo de software, un aliado para tu futuro digital",
+        "description": "No buscamos ser solo un proveedor, sino tu socio estratégico para construir futuro con tecnología confiable, escalable y de impacto."
+      },
+      "IdeaNegocio": {
+        "title": "Cómo transformamos tu idea en resultados de negocio",
+        "description": "Nuestro proceso combina metodología ágil, visión estratégica y foco en resultados para acompañarte desde la idea hasta la evolución continua de la solución:"
+      },
+      "StackTecnologico": {
+        "title": "El stack tecnológico detrás de nuestros proyectos de software",
+        "description": "Para garantizar escalabilidad, seguridad y eficiencia, trabajamos con un stack tecnológico robusto y probado en <bold>proyectos de alto impacto</bold>"
+      }
+    },
+
+    "dataSoftwaregenerico": [
+      {"icon":"computer", "description": "Eliminan cuellos de botella con procesos agiles." },
+      {"icon":"architecture", "description": "Escalan sin fricciones gracias a arquitecturas modernas." },
+      {"icon":"edit_note", "description": "Reducen costos ocultos al reemplazar licencias ineficientes." },
+      {"icon":"arming_countdown", "description": "Refuerzan la seguridad con estándares globales de DevSecOps." }
+    ],
+
+    "textBtn": {
+      "textoBtn1": "Solicita una consultoría" ,
+      "textoBtn2": "Conversa con un consultor y evalua tu proximo MVP" ,
+      "textoBtn3": "Explora el modelo de desarrollo de software que mejor encaja con tu estrategia" ,
+      "textoBtn4": "Descubre cómo aumentar tu ROI con software personalizado" ,
+      "textoBtn5": "Agenda una llamada estratégica con nuestro equipo de expertos" ,
+      "textoBtn6": "Empieza tu proyecto hoy con una sesíon de descubrimiento" ,
+      "textoBtn7": "Descubre cómo nuestras tecnologías pueden acelerar tu proyecto" 
+    },
+
+    "dataEstrategiaNegocio": [
+      { "title": "Diseño centrado en el usuario (UX/UI)", "description": "Validamos MVPs desde la primera iteración para asegurar claridad de producto." },
+      { "title": "Arquitecturas modernas", "description": "Microservicios, Cloud y Serverless que garantizan flexibilidad y escalabilidad en el tiempo." },
+      { "title": "Industrialización con IA", "description": "Aplicamos Inteligencia Artificial en codificación y QA para reducir tiempos de entrega y errores." },
+      { "title": "DevSecOps integrado", "description": "Seguridad, calidad y automatización presentes en todo el ciclo de desarrollo." },
+      { "title": "Soporte multicloud", "description": "Experiencia con Azure, AWS y Google Cloud para proyectos en cualquier entorno." },
+      { "title": "Integración abierta", "description": "Conectamos tu software con ERP, CRM, Core bancario y plataformas como SAP o Salesforce." },
+      { "title": "Testing automatizado y QA continuo", "description": "Menos riesgos, mayor confiabilidad en la operación crítica." },
+      { "title": "Metodologías ágiles y tradicionales", "description": "Adaptamos el marco de trabajo a la cultura y necesidades de cada cliente." },
+      { "title": "Equipo especializado", "description": "Arquitectos, desarrolladores, DevOps, QA, BI y UX/UI que trabajan como una extensión de tu organización." }
+    ],
+
+    "cardModeloDesarrollo1": [
+      {"icon":"deployed_code_account", "title": "Staff Augmentation", "description": "Integra desarrolladores especializados para fortalecer tu equipo actual." },
+      {"icon":"category_search", "title": "Project Based Development", "description": "Entregas con alcance definido: Discovery, construcción de MVP y evoluciones incrementales." },
+      {"icon":"workspaces", "title": "Dedicated Teams", "description": "Conformamos células ágiles multidisciplinarias (PM, Devs, QA, UX) que trabajan como una extensión de tu organización." }
+    ],
+
+    "cardModeloDesarrollo2": [
+      { "icon":"motion_blur", "title": "Soluciones como producto", "description": "Paquetes cerrados para necesidades específicas de negocio, listos para implementarse de forma rápida y segura." },
+      {"icon":"contacts", "title": "Consultoría técnica + Implementación", "description": "Asesoría estratégica acompañada de la ejecución, ideal para proyectos de alto impacto o entornos regulados." }
+    ],
+
+    "cardResultadosMedibles": [
+
+      { "title": "Optimización de recursos", "description": "<bold>Al desarrollar soluciones a la medida</bold>, inviertes solo en lo que tu empresa realmente necesita, optimizando recursos y eliminando costos innecesarios. Los lanzamientos se aceleran —de semanas,no meses— permitiendo una respuesta ágil a las oportunidades del mercado." },
+      { "title": "Eficiencia y retorno de la inversión", "description": "Además, trabajas sobre plataformas preparadas para crecer contigo en cualquier entorno, con resiliencia digital que garantiza continuidad incluso en escenarios críticos. Todo conectado bajo un ecosistema inteligente que integra <bold>SAP, Salesforce, core financiero y más,</bold> potenciando la eficiencia y el retorno de inversión en cada proyecto." }
+    ],
+
+    "cardsIdeaNegocio": [
+      { "title": "<red>01.</red> Visión Compartida", "description": "Alineamos objetivos de negocio y retos tecnológicos en una fase de descubrimiento estratégica. Aquí definimos metas claras y medibles para asegurar que el proyecto aporte valor desde el primer día." },
+      { "title": "<red>02.</red> Diseño con propósito", "description": "Creamos prototipos UX/UI y definimos la arquitectura más adecuada, garantizando usabilidad, escalabilidad y alineación con tus operaciones actuales y futuras." },
+      { "title": "<red>03.</red> Construcción ágil y segura", "description": "Desarrollamos con equipos multidisciplinarios, prácticas DevSecOps y QA automatizado, asegurando entregas rápidas y de alta calidad en cada sprint." },
+      { "title": "<red>04</red>. Evolución Continua", "description": "Acompañamos el despliegue, soporte y escalamiento de la solución para que siga aportando valor en un entorno de negocio cambiante." }
+    ],
+
+    "cardsStackTecnologico": [
+      {"icon":"savings", "title": "Lenguajes & Frameworks (Frontend/Backend)", "items": [{ "textos": "Java" }, { "textos": "NET" }, { "textos": "Python" }, { "textos": "Node.js" }, { "textos": "React" }, { "textos": "Angular" }, { "textos": "Vue.js" }, { "textos": "Flutter" }] },
+      {"icon":"background_replace", "title": "Cloud & Arquitecturas", "items": [{ "textos": "AWS" }, { "textos": "Microsoft Azure" }, { "textos": "Google Cloud Platform" }, { "textos": "Kubernetes" }, { "textos": "Docker" }] },
+      {"icon":"account_balance_wallet", "title": "Bases de datos & Big Data", "items": [{ "textos": "PostgreSQL" }, { "textos": "MongoDB" }, { "textos": "Oracle" }, { "textos": "Microsoft SQL Server" }] },
+      {"icon":"account_balance", "title": "Integraciones Empresariales & QA", "items": [{ "textos": "SAP" }, { "textos": "Salesforce" }, { "textos": "Gitlab" }, { "textos": "Selenium" }] }
+    ],
+
+    "cardsFuturoDigital": [
+      {"icon":"diamond_shine", "description": "Certificación CMMI Nivel 5 que garantiza procesos de calidad." },
+      {"icon":"motion_blur", "description": "Metodologías ágiles probadas: Scrum, DevSecOps, QA Automation, UX/UI." },
+      {"icon":"language", "description": "Cobertura internacional y alianzas estratégicas para proyectos globales." },
+      {"icon":"sync_saved_locally", "description": "+200 proyectos implementados con impacto en múltiples industrias." }
+    ],
+
+    "dataPreguntasFrecuentes": [
+      {
+        "question": "¿Por qué elegir empresas de desarrollo de software en Colombia?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Cuánto cuesta desarrollar software a la medida y cómo se calcula la inversión?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Qué diferencia hay entre software estándar y software personalizado?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Cuánto tiempo toma un proyecto de desarrollo de software empresarial?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Qué metodologías utilizan las empresas de desarrollo de software exitosas?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Cómo se asegura la calidad y la seguridad del software personalizado?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Qué industrias se benefician más del desarrollo de software personalizado?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      },
+      {
+        "question": "¿Cómo se integra una solución a la medida con sistemas ya existentes (ERP, CRM, core bancario)?",
+        "answer": {
+          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y desbloquean nuevas oportunidades de negocio.",
+          "listsItems": ["Pagos y comercio en vehículos", "Vehículo definido por software", "Android Auto y sistemas embebidos", "IA generativa para personalización", "Vehículos e infraestructura conectados"]
+        }
+      }
+    ],
+    "dataCardKnowOurWork": {
+      "imgKnowOurWork": "/img/edif.jpg",
+      "titleWork": "Transformación digital en el sector financiero",
+      "descriptionWork": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+      "textBtn": "Conoce el caso completo"
+    },
+    "dataCardKnowOurWork2": {
+      "imgKnowOurWork": "/img/imgWorkKnow.jpg",
+      "titleWork": "Transformación de una plataforma de servicios de salud",
+      "descriptionWork": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+      "textBtn": "Descubre cómo lo hicimos"
+    }
+  }
+}

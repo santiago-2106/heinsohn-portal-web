@@ -1,0 +1,214 @@
+{
+  "landingHgs": {
+    "pageStrings": {
+      "heroTitle": "Human Global Solutions",
+      "heroSubtitle": "<>A <span className=\"text-brand-accent\">heinsohn</span> company</>",
+      "heroDescription": "<><span className=\"font-semibold\">Heinsohn Human Global Solutions</span> is the leading company in <span className=\"font-semibold\">Payroll and Human Management</span> solutions in the region, with over <span className=\"font-semibold\">45 years of experience</span> transforming how organizations manage their human talent. As part of the Heinsohn business group, we are a <span className=\"font-semibold\">technology-based company</span> that combines innovation, deep business knowledge, and regional reach to offer next-generation solutions.</>",
+      "btnAsesoria": "Request a free consultation"
+    },
+    "dataLandignHGS": [
+      { "titleLanding": "<>1,000<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Companies" },
+      { "titleLanding": "<>6<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Countries" },
+      { "titleLanding": "<>45<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Years" },
+      { "titleLanding": "<>5<span className=\"text-brand-accent\">k</span></>", "descriptionLanding": "Employees" }
+    ],
+    "titleLandingHGS": {
+      "title": "Regional presence",
+      "description": "<>We operate in <span className=\"text-text-body font-bold\">more than 6 countries</span> in Latin America, providing solutions tailored to local regulations and the specific needs of each market. Our regional expansion positions us as the ideal strategic partner for companies with multinational operations.</>"
+    },
+    "titleLandingHGS2": {
+      "title": "Solutions for every type of company",
+      "description": "<>We serve both <span className=\"text-text-body font-bold\">SMEs</span> and <span className=\"text-text-body font-bold\">large companies</span> with scalable and flexible solutions that adapt to the size, complexity, and sector of each organization. Whether you need to manage 10 or 50,000 employees, we have the perfect solution for you.</>"
+    },
+    "titleLandingHGS3": {
+      "title": "Trusted by thousands of customers",
+      "description": "<>More than <span className=\"text-text-body font-bold\">1,000 clients throughout the region</span> trust us to manage their payroll and human talent operations. Every day, more than 500,000 employees use our services, backed by our robust and reliable technology.</>"
+    },
+    "titleLandingHGS4": {
+      "title": "Outsourcing Solutions (BPO)",
+      "description": "<>In addition to our technological solutions, we offer specialized <span className=\"text-text-body font-bold\">Outsourcing services</span> so you can focus on your core business while we take care of the operation:</>"
+    },
+    "titleLandingHGS5": {
+      "title": "Contact us",
+      "description": "<>today and discover how we can transform your human management with solutions that combine <span className=\"text-text-body font-bold\">technology, experience, and regional reach.</span></>"
+    },
+    "titleLandingHGS6": {
+      "title": "Strategic alliances with technology leaders",
+      "description": "<>We are <span className=\"font-bold\">certified partners</span> of the world's leading technology providers, such as IBM, Microsoft, and other industry leaders. These alliances allow us to integrate the best market technologies into our solutions.</>"
+    },
+    "dataLandignHGS2": [
+      {
+        "contenedor": " 1 to 450 collaborators",
+        "title": "SMEs",
+        "description": "Payroll for small and medium-sized enterprises",
+        "btnText": "Expand Information",
+        "btn": "Expand Information"
+      },
+      {
+        "contenedor": "+500 Collaborators",
+        "title": "Large companies",
+        "description": "Payroll for large companies",
+        "btnText": "Expand Information",
+        "btn": "Expand Information"
+      }
+    ],
+    "dataCardsLandingHGS": [
+      {
+        "title": "Software as a Service (SaaS)",
+        "description": "Modern, secure, and always updated cloud platforms.",
+        "alineacion": "center"
+      },
+      {
+        "title": "Outsourcing (BPO)",
+        "description": "Complete payroll management, personnel administration, and disability recovery",
+        "alineacion": "center"
+      },
+      {
+        "title": "Technology developments",
+        "description": "Customized solutions and integrations with enterprise systems",
+        "alineacion": "center"
+      }
+    ],
+    "dataCardsLandingHGS2": [
+      {
+        "title": "Payroll Software",
+        "description": "Manage payroll calculation and liquidation with precision, regulatory compliance, and complete automation. Our payroll solution guarantees:",
+        "items": [
+          { "textos": "Accurate and automated purchase calculation" },
+          { "textos": "Compliance with labor legislation" },
+          { "textos": "Integration with ERP accounting systems" },
+          { "textos": "Self-assessment of contributions and parafiscals" },
+          { "textos": "Real-time reports and queries" },
+          { "textos": "Employee portal with self-management" }
+        ],
+        "btn": "Learn more"
+      },
+      {
+        "title": "Government Payroll Software",
+        "description": "Specialized solution for public sector entities, with specific functionalities to comply with government regulations, workforce management, administrative career, and budget:",
+        "items": [
+          { "textos": "Workforce and temporality management" },
+          { "textos": "Payroll budget control" },
+          { "textos": "Public sector regulatory compliance" },
+          { "textos": "Integration with state contracting systems" },
+          { "textos": "Reports for control agencies" }
+        ],
+        "btn": "Learn more"
+      },
+      {
+        "title": "Human Talent Software",
+        "description": "Powers the complete management of the employee lifecycle, from attraction and selection to development and retirement. It includes:",
+        "items": [
+          { "textos": "Recruitment and selection" },
+          { "textos": "Digital onboarding" },
+          { "textos": "Performance management and evaluations" },
+          { "textos": "Career and succession plans" },
+          { "textos": "Training and development" },
+          { "textos": "Time and attendance management" },
+          { "textos": "Talent analytics and HR indicators" }
+        ],
+        "btn": "Learn more"
+      },
+      {
+        "title": "Occupational Health and Safety (OHS) Software",
+        "description": "Comprehensively manage your Occupational Health and Safety Management System in accordance with ISO 45001 standards and local and international regulations:",
+        "items": [
+          { "textos": "Risk and hazard management" },
+          { "textos": "Incident and accident investigation" },
+          { "textos": "Epidemiological surveillance program" },
+          { "textos": "Occupational medical examinations" },
+          { "textos": "OHS training and coaching" },
+          { "textos": "Management indicators and reports" },
+          { "textos": "Auditing and regulatory compliance" }
+        ],
+        "btn": "Learn more"
+      }
+    ],
+    "dataCardsLandingHGS3": [
+      {
+        "title": "Payroll and Personnel Administration Outsourcing",
+        "description": "Outsource the entire payroll and personnel administration operation with our BPO service:",
+        "items": [
+          { "textos": "Complete payroll settlement" },
+          { "textos": "Affiliations and updates with entities" },
+          { "textos": "Document and archive management" },
+          { "textos": "Response to employee inquiries" },
+          { "textos": "Guaranteed regulatory compliance" },
+          { "textos": "Management and operational reports" }
+        ],
+        "btn": "Learn more"
+      },
+      {
+        "title": "Disability Recovery Outsourcing (GRE)",
+        "description": "Maximize the recovery of resources for disabilities and licenses with our specialized Recovery Management service:",
+        "items": [
+          { "textos": "Integral management of the recovery process" },
+          { "textos": "Monitoring with EPS and ARL" },
+          { "textos": "Maximization of resource recovery" },
+          { "textos": "Reduction of recovery portfolio" },
+          { "textos": "Management and recovery reports" }
+        ],
+        "btn": "Learn more"
+      },
+      {
+        "title": "Pensioners Payroll",
+        "description": "Specialized solution for Pension Funds, Compensation Funds, and entities that manage pension allowances:",
+        "items": [
+          { "textos": "Liquidation of pension allowances" },
+          { "textos": "Management of pensioner news" },
+          { "textos": "Survival control" },
+          { "textos": "Calculation of retroactive and adjustments" },
+          { "textos": "Regulatory compliance in the pension sector" },
+          { "textos": "Integration with actuarial systems" }
+        ],
+        "btn": "Learn more"
+      }
+    ],
+    "dataCardsFeaturesLandingHGS": [
+      { "title": "Proven experience", "description": "Over 40 years leading the payroll and human management solutions market " },
+      { "title": "Regional scope", "description": "Presence in over 6 countries with deep local knowledge" },
+      { "title": "Versatility", "description": "Solutions for SMEs and Large Companies, private and public sector " },
+      { "title": "Trust", "description": "Over 1,000 clients and 500,000 daily users support our quality " },
+      { "title": "Flexibility", "description": "SaaS, Outsourcing, or hybrid modalities according to your needs " },
+      { "title": "Innovation", "description": "Latest generation technology with strategic alliances (IBM, Microsoft) " },
+      { "title": "Compliance", "description": "Guaranteed regulatory compliance in all countries where we operate " },
+      { "title": "Specialization", "description": "Vertical solutions by industry and organization type" }
+    ],
+    "dataCardsLandingHGS4": [
+      { "title": "Optimize processes and reduce operational times" },
+      { "title": "Ensure regulatory compliance in all your operating countries" },
+      { "title": "Make data-driven decisions with advanced analytics" },
+      { "title": "Improve your employees' experience" },
+      { "title": "Scale your operation without a proportional increase in costs" },
+      { "title": "Focus on your talent strategy while we manage the operation" }
+    ],
+    "dataTimeLineAlianzas": [
+      {
+        "title": "Next-generation solutions",
+        "description": "<>Our platforms incorporate emerging technologies such as <span className=\"font-bold\">artificial intelligence, advanced Analytics, process automation, and optimized user experience,</span> ensuring your company has cutting-edge tools</>"
+      },
+      {
+        "title": "Proven experience",
+        "description": "<>With <span className=\"font-bold\">over 40 years</span> in the payroll and human talent management business, we have accumulated deep knowledge of best practices, regulatory challenges, and the changing needs of the labor market.</>"
+      },
+      {
+        "title": "Private and Public Sector",
+        "description": "<>We serve both the <span className=\"font-bold\">private sector</span> and the <span className=\"font-bold\">public sector</span>, with specialized solutions for government entities, pension funds, service companies, retail, manufacturing, and more. Our <span className=\"font-bold\">business vertical</span> solutions ensure each industry receives the specific functionality it needs.</>"
+      }
+    ],
+    "testimonialsSlider": [
+      {
+        "companyName": "Coordinadora",
+        "name": "Gustavo Alberto Gaviria",
+        "role": "National Payroll Manager",
+        "text": "Heinsohn, as software providers we have had the confidence that the software complies with all legal and company-specific regulations."
+      },
+      {
+        "companyName": "Fundación Santa Fe",
+        "name": "Camila Peñaliza Lopera",
+        "role": "Payroll Manager",
+        "text": "Congratulates Heinsohn for the quality of its services, is very happy with the product and with the consultants who assist her."
+      }
+    ]
+  }
+}

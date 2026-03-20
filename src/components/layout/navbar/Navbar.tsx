@@ -7,10 +7,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
+import { useTheme } from "@/src/hooks/useTheme";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
-  const [isDark, setIsDark] = useState(false);
+  
+  const {isDark, toggleTheme} = useTheme()
 
 //INTERNACIALIZACION IDIOMAS
   const t = useTranslations('navbar')
@@ -30,29 +32,6 @@ export default function Navbar() {
 
   router.push(newPath);
 };
-
-
-
-  // Revisa si el tema oscuro ya estaba activo al cargar la página
-  useEffect(() => {
-    if (localStorage.getItem("theme") === "dark") {
-      document.documentElement.classList.add("dark");
-      setIsDark(true);
-    }
-  }, []);
-
-  // Función para alternar entre Claro y Oscuro
-  const toggleTheme = () => {
-    if (isDark) {
-      document.documentElement.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-      setIsDark(false);
-    } else {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-      setIsDark(true);
-    }
-  };
 
   return (
     <header className="sticky top-0 left-0 z-50 border-b border-border-ui bg-bg-main transition-colors duration-300">

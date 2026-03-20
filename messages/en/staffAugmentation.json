@@ -1,0 +1,365 @@
+{
+  "staffAugmentation": {
+    "infoStaffArgumentationHero": {
+      "title": "IT Staff Augmentation",
+      "description": "<>Strengthen your operations with our staff augmentation service designed based on experience, analysis, and understanding of your business. At Heinsohn, we have technical teams customized to your goals, integrating experts in software development, QA, data, architecture, and artificial intelligence. <br /><span className=\"font-semibold text-gary-800\">Optimize costs, scale capabilities, and accelerate your deliveries with a flexible, transparent model aligned to your time zones. </span><ul className=\"flex flex-col gap-3 mt-2\"><li className=\"flex items-start gap-2\"><strong className=\" font-bold\"><span className=\"text-brand-accent\">+</span>45</strong><span>years of experience in enterprise technological solutions.</span></li><li className=\"flex items-start gap-2\"><span><span className=\"font-bold\">Multidisciplinary</span> teams to integrate into your operations</span></li></ul></>",
+      "buttonText": "Build your ideal team now",
+      "breadcrumb": [
+        {
+          "label": "staff argumentation"
+        },
+        {
+          "label": "staff argumentation solutions"
+        }
+      ]
+    },
+    "infoStaffArgumentation": [
+      {
+        "title": "Slow processes due to lack of specialized technical resources",
+        "alineacion": "center"
+      },
+      {
+        "title": "Difficulty covering critical or temporary roles",
+        "alineacion": "center"
+      },
+      {
+        "title": "High recruitment and talent retention costs",
+        "alineacion": "center"
+      },
+      {
+        "title": "Loss of strategic focus due to administrative tasks",
+        "alineacion": "center"
+      }
+    ],
+    "titleStaffArgumentation1": {
+      "title": "The staffing model that combines talent, agility, and measurable results",
+      "description": "<>Our specialized IT service is designed so you can access the profiles you need with efficiency and methodological support. <span className=\"font-semibold text-gray-800\">We take care of the entire cycle:</span> from talent identification and validation to their integration and continuous support in your operations.</>"
+    },
+    "titleStaffArgumentation2": {
+      "title": "When your team needs to grow, IT Staff Augmentation is the answer",
+      "description": "<>Companies need to scale with agility and precision, but traditional recruitment is often slow and costly. Our IT Staff Augmentation model allows you to strengthen your team without resorting to traditional outsourcing schemes. <br /><br /><span className=\"font-bold mt-80\">Symptoms of management without efficient IT staffing:</span></>"
+    },
+    "titleStaffArgumentation3": {
+      "title": "Your strategic partner in Staff Augmentation",
+      "description": "<>Over four decades of experience back us as one of the most solid technological allies in Latin America. We not only offer talent but a collaboration model designed for continuity, efficiency, and quality.<br /><br /><span className=\"font-bold mt-80\">Our differential</span></>"
+    },
+    "infoStaffArgumentation2": {
+      "highlight": {
+        "value": "IT Staff Augmentation",
+        "description": "you incorporate specialized talent that works under your direction and processes, with selection, hiring, and administrative management support from Heinsohn."
+      },
+      "metrics": [
+        {
+          "id": "compliance",
+          "description": "<>Nearshore <br />(LATAM, same time zones).</>"
+        },
+        {
+          "id": "cost",
+          "description": "100% remote or hybrid depending on required location."
+        }
+      ]
+    },
+    "infoStaffArgumentation3": [
+      {
+        "title": "Development and modernization",
+        "items": [
+          {
+            "titulo": "Frontend",
+            "textos": "Implementation of modern interfaces with React, Angular, Vue.js, and Next.js."
+          },
+          {
+            "titulo": "Backend development",
+            "textos": "Construction of services and APIs with Java (Spring Boot), Node.js, Python (FastAPI/Django), and .NET Core."
+          },
+          {
+            "titulo": "Full stack development",
+            "textos": "Comprehensive implementation with stacks like MERN, MEAN, and Java + React/Angular combinations."
+          },
+          {
+            "titulo": "Mobile development",
+            "textos": "Native and hybrid mobile applications with Swift, Kotlin, React Native, and Flutter."
+          }
+        ]
+      },
+      {
+        "title": "Quality and efficiency",
+        "items": [
+          {
+            "titulo": "Test automation",
+            "textos": "Design and execution of automated tests with Playwright, Cypress, Selenium, and Appium."
+          },
+          {
+            "titulo": "Test engineering",
+            "textos": "Construction of robust, scalable, and maintainable testing frameworks."
+          },
+          {
+            "titulo": "Functional and technical testing",
+            "textos": "Functional, regression, performance (JMeter), and security testing."
+          }
+        ]
+      },
+      {
+        "title": "Infrastructure, cloud, and security",
+        "items": [
+          {
+            "titulo": "Cloud services",
+            "textos": "Implementation and management in AWS, Azure, and Google Cloud."
+          },
+          {
+            "titulo": "Automation and operations",
+            "textos": "Orchestration and continuous deployment with Kubernetes, Terraform, Docker, and continuous integration."
+          },
+          {
+            "titulo": "Cybersecurity",
+            "textos": "Security embedded in development, access management, regulatory compliance, and penetration testing."
+          }
+        ]
+      },
+      {
+        "title": "Analysis, design, and strategy",
+        "items": [
+          {
+            "titulo": "Product and experience design",
+            "textos": "Definition of digital products and user-centric experiences with Figma and Adobe XD."
+          },
+          {
+            "titulo": "Agile project management",
+            "textos": "Project management using agile methodologies and collaborative frameworks."
+          },
+          {
+            "titulo": "Business analysis",
+            "textos": "Gathering, documentation, and validation of technical and functional requirements."
+          }
+        ]
+      },
+      {
+        "title": "Data engineering and artificial intelligence",
+        "items": [
+          {
+            "titulo": "Data engineering",
+            "textos": "Design of data architectures and processing with Snowflake, Databricks, dbt, Apache Airflow, and Spark."
+          },
+          {
+            "titulo": "Artificial intelligence and generative models",
+            "textos": "Solution development with language models, vector databases, and RAG architectures."
+          },
+          {
+            "titulo": "Machine learning",
+            "textos": "Construction, training, and deployment of models with MLOps, PyTorch, TensorFlow, and Scikit-learn."
+          },
+          {
+            "titulo": "Analytics and visualization",
+            "textos": "Business intelligence and advanced analytics with Power BI and Tableau."
+          }
+        ]
+      },
+      {
+        "title": "Leadership and architecture",
+        "items": [
+          {
+            "titulo": "Technology architecture",
+            "textos": "Definition of software, cloud, and data architectures for enterprise solutions."
+          },
+          {
+            "titulo": "Search for technology leadership",
+            "textos": "Incorporation of technical leaders in strategic technology management roles."
+          }
+        ]
+      }
+    ],
+    "infoStaffArgumentation4": [
+      {
+        "title": "Cost optimization",
+        "description": "Reduce administrative and operational expenses."
+      },
+      {
+        "title": "Agile hiring",
+        "description": "Profiles available in 2 to 3 weeks."
+      },
+      {
+        "title": "Top-tier talent",
+        "description": "Technically and culturally validated specialists."
+      },
+      {
+        "title": "Proximity and collaboration",
+        "description": "Talent in your own time zone."
+      },
+      {
+        "title": "Full scalability:",
+        "description": "Expand or shrink your team according to project demands."
+      },
+      {
+        "title": "Transparency",
+        "description": "Tracking, metrics, and productivity reports."
+      }
+    ],
+    "infoStaffArgumentation5": [
+      {
+        "indicador": "01",
+        "title": "Needs Assessment",
+        "description": "We understand your context and required profiles."
+      },
+      {
+        "indicador": "02",
+        "title": "Selection and validation",
+        "description": "We pre-select and technically evaluate candidates."
+      },
+      {
+        "indicador": "03",
+        "title": "Formalization",
+        "description": "Transparent agreements and full support in hiring."
+      },
+      {
+        "indicador": "04",
+        "title": "Execution",
+        "description": "The team integrates into your operations with constant monitoring."
+      }
+    ],
+    "infoStaffArgumentation6": [
+      {
+        "description": "360° Data-Driven Methodology."
+      },
+      {
+        "description": "CMMI Level 5 certification and agile methodologies (Scrum, OKR, Lean)."
+      },
+      {
+        "description": "Regional coverage with headquarters in LATAM and North America."
+      },
+      {
+        "description": "Continuous support and operational guidance."
+      }
+    ],
+    "dataPreguntasFrecuentesStaff": [
+      {
+        "question": "Is it a single software or several different solutions?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What entities can use this pension software?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does the software adapt to each country's regulations in LATAM?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Can I implement only some modules and scale later?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does the software cover pensioner payroll and mass payments?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Does it also work to manage voluntary pension savings or APV?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Can it be used to manage severance pay from the same system?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Is the software multi-country and multi-currency?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What type of support does Heinsohn offer?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How to start implementing the pension software?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences connecting drivers with their vehicles while unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      }
+    ]
+  }
+}

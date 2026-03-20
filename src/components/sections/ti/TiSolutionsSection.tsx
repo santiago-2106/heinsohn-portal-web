@@ -1,55 +1,37 @@
-import {
-  strategicConsultingCards,
-  softwareIcons,
-  analitycIcons,
-  enginerTeamscIcons,
-  strategicIcons,
-} from "@/src/data/soluciones/ti";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 import { useTranslations } from "next-intl";
 
 
 export default function CardFinal() {
 
-  const t = useTranslations()
-
-  function traductionCards (cardsTraduction: string, icons:any[]) {
-    return t.raw(cardsTraduction).map((itemsCards: any, index:number) => (
-      {
-        ...itemsCards,
-        icon: icons[index]
-      }
-    ))
-  }
-
-  const softwareCards = traductionCards("software.softwareCards", softwareIcons)
-  const analitycCards = traductionCards("analytics.analitycCards", analitycIcons)
-  const enginerCards = traductionCards("enginerTeams.enginerTeamCards", enginerTeamscIcons)
-  const strategiCards = traductionCards("strategicConsulting.strategicConsultingCards", strategicIcons)
-
+  const t = useTranslations("solucionesTi")
   
-
   return (
     <>
+      {/*CARDS SOLUCIONES TI: Ingeniería de software y Desarrollo de productos Digitales  */}
       <CardAnuncies
-      title={t("software.title")}
-      cards={softwareCards}
+      title={t("titlesSolucionesTi.title1")}
+      cards={t.raw("cardssIngenieriaSoftware")}
+      />
+      {/*CARDS SOLUCIONES TI: Analítica de datos e inteligencia artificial  */}
+      <CardAnuncies
+      title={t("titlesSolucionesTi.title2")}
+      cards={t.raw("cardsAnalitycIA")}
       />
 
+      {/*CARDS SOLUCIONES TI: Ingeniería extendida y equipos dedicados  */}
       <CardAnuncies
-      title={t("analytics.title")}
-      cards={analitycCards}
+      title={t("titlesSolucionesTi.title3")}
+      cards={t.raw("cardsIngenieriaExtendida")}
       />
 
+      {/*CARDS SOLUCIONES TI: Consultoria estratégica  */}
       <CardAnuncies
-        title={t("enginerTeams.title")}
-        cards={enginerCards}
+      title={t("titlesSolucionesTi.title4")}
+      cards={t.raw("cardsConsultoriaEstrategica")}
       />
 
-      <CardAnuncies
-        title={t("strategicConsulting.title")}
-        cards={strategiCards}
-      />
+      
     </>
   );
 }

@@ -1,0 +1,332 @@
+{
+  "desarrolloAMedida": {
+    "dataHeroDesarrolloAMedida": {
+      "title": "Custom Software Development",
+      "description": "Custom software development is the key for companies to advance with agility, security, and scalability.<bold>We create unique solutions tailored to your business,</bold> with the experience and knowledge that positions us as one of the leading software development companies in Colombia and LATAM.",
+      "buttonText": "Request a free consultation",
+      "breadcrumb": [
+        { "label": "Solutions" },
+        { "label": "IT Solutions" },
+        { "label": "Custom software development" }
+      ]
+    },
+    "titles": {
+      "softwareGenerico": {
+        "title": "The real problem isn't your equipment, but generic software.",
+        "description": "Standard solutions often become a hindrance: rigid processes, rising costs, and limited integration capabilities. These limitations impact competitiveness, reduce margins, and stifle innovation. <bold>With our software development service, we address these challenges by creating systems that:</bold>"
+      },
+      "dataEstrategiaNegocio": {
+        "title": "How custom software development accelerates your business strategy",
+        "description": "Our software development combines the best of engineering and business acumen to create secure, scalable solutions aligned with your organization's goals. <bold>What we offer:</bold>"
+      },
+      "ModelosDesarrollo": {
+        "title": "Development models that adapt to your company's digital maturity",
+        "description": "WHERE organización se encuentra en un punto distinto de su transformación tecnológica. Por eso, <bold>nuestros servicios de desarrollo de software a la medida</bold> no siguen un único modelo, sino que se ajustan a la estrategia, recursos y tiempos de tu negocio"
+      },
+      "ResultadosMedibles": {
+        "title": "Measurable results from software tailored to your needs.",
+        "description": "Investing in custom software means turning technology into a competitive advantage that directly impacts the <bold>profitability and sustainability of the business.</bold>"
+      },
+      "AliadoFuturoDigital": {
+        "title": "More than a software development company, an ally for your digital future",
+        "description": "We don't just want to be a supplier, but your strategic partner to build the future with reliable, scalable, and impactful technology."
+      },
+      "IdeaNegocio": {
+        "title": "How we transform your idea into business results",
+        "description": "Our process combines agile methodology, strategic vision, and a focus on results to guide you from the initial idea to the continuous evolution of your solution:"
+      },
+      "StackTecnologico": {
+        "title": "The technology stack behind our software projects",
+        "description": "To ensure scalability, security, and efficiency, we work with a robust technology stack proven in <bold>high-impact projects.</bold>"
+      }
+    },
+    "textBtn": { 
+      "textoBtn1": "Request a consultation",
+      "textoBtn2": "Talk to a consultant and evaluate your next MVP" ,
+      "textoBtn3": "Explore the software development model that best fits your strategy" ,
+      "textoBtn4": "Discover how to increase your ROI with custom software" ,
+      "textoBtn5": "Schedule a strategy call with our team of experts" ,
+      "textoBtn6": "Start your project today with a discovery session" ,
+      "textoBtn7": "Discover how our technologies can accelerate your project" 
+  },
+    "dataSoftwaregenerico": [
+      {"icon":"computer", "description": "Eliminate bottlenecks with agile processes." },
+      {"icon":"architecture", "description": "Scale seamlessly thanks to modern architectures." },
+      {"icon":"edit_note", "description": "Reduce hidden costs by replacing inefficient licenses." },
+      {"icon":"arming_countdown", "description": "Reinforce security with global DevSecOps standards." }
+    ],
+    "dataEstrategiaNegocio": [
+      {
+        "title": "User-centric design (UX/UI)",
+        "description": "We validate MVPs from the first iteration to ensure product clarity."
+      },
+      {
+        "title": "Modern Architectures",
+        "description": "Microservices, Cloud, and Serverless that guarantee flexibility and scalability over time."
+      },
+      {
+        "title": "Industrialization with AI",
+        "description": "We apply Artificial Intelligence in coding and QA to reduce delivery times and errors."
+      },
+      {
+        "title": "Integrated DevSecOps",
+        "description": "Security, quality, and automation present throughout the development cycle."
+      },
+      {
+        "title": "Multicloud Support",
+        "description": "Experience with Azure, AWS, and Google Cloud for projects in any environment."
+      },
+      {
+        "title": "Open Integration",
+        "description": "We connect your software with ERP, CRM, Core Banking, and platforms like SAP or Salesforce."
+      },
+      {
+        "title": "Automated Testing and Continuous QA",
+        "description": "Fewer risks, greater reliability in critical operations."
+      },
+      {
+        "title": "Agile and Traditional Methodologies",
+        "description": "We adapt the framework to the culture and needs of each client."
+      },
+      {
+        "title": "Specialized Team",
+        "description": "Architects, developers, DevOps, QA, BI, and UX/UI who work as an extension of your organization."
+      }
+    ],
+
+    "cardModeloDesarrollo1": [
+      {
+        "icon":"deployed_code_account",
+        "title": "Staff Augmentation",
+        "description": "Integrate specialized developers to strengthen your current team."
+      },
+      {
+        "icon":"category_search",
+        "title": "Project Based Development",
+        "description": "Deliveries with defined scope: Discovery, MVP construction, and incremental evolutions."
+      },
+      {
+        "icon":"workspaces",
+        "title": "Dedicated Teams",
+        "description": "We form agile multidisciplinary cells (PM, Devs, QA, UX) that work as an extension of your organization."
+      }
+    ],
+
+    "cardModeloDesarrollo2": [
+      {
+        "icon":"motion_blur",
+        "title": "Solutions as a Product",
+        "description": "Closed packages for specific business needs, ready to be implemented quickly and securely."
+      },
+      {
+        "icon":"contacts",
+        "title": "Technical Consulting + Implementation",
+        "description": "Strategic advice accompanied by execution, ideal for high-impact projects or regulated environments."
+      }
+    ],
+
+    "cardResultadosMedibles": [
+       {
+        "title": "Resource Optimization",
+        "description": "<bold>By developing custom solutions,</bold> you invest only in what your company truly needs, optimizing resources and eliminating unnecessary costs. Launches are accelerated—taking weeks, not months—enabling an agile response to market opportunities."
+      },
+      {
+        "title": "Efficiency and ROI",
+        "description": "Furthermore, you work on platforms built to grow with you in any environment, with digital resilience that guarantees continuity even in critical scenarios. Everything is connected under an intelligent ecosystem that integrates <bold>SAP, Salesforce, financial cores, and more,</bold> boosting efficiency and return on investment in every project."
+      }
+    ],
+
+    "cardsIdeaNegocio": [
+      {
+        "title": "<red>01.</red> Shared Vision",
+        "description": "We align business objectives and technological challenges in a strategic discovery phase. Here we define clear and measurable goals to ensure the project adds value from day one."
+      },
+      {
+        "title": "<red>02.</red> Purposeful Design",
+        "description": "We create UX/UI prototypes and define the most appropriate architecture, ensuring usability, scalability, and alignment with your current and future operations."
+      },
+      {
+        "title": "<red>03.</red> Agile and Secure Construction",
+        "description": "We develop with multidisciplinary teams, DevSecOps practices, and automated QA, ensuring fast and high-quality deliveries in every sprint."
+      },
+      {
+        "title": "<red>04.</red> Continuous Evolution",
+        "description": "We accompany the deployment, support, and scaling of the solution so it continues to add value in a changing business environment."
+      }
+    ],
+
+    "cardsStackTecnologico": [
+      {
+        "icon":"savings",
+        "title": "Languages & Frameworks (Frontend/Backend)",
+        "items": [
+          { "textos": "Java" },
+          { "textos": "NET" },
+          { "textos": "Python" },
+          { "textos": "Node.js" },
+          { "textos": "React" },
+          { "textos": "Angular" },
+          { "textos": "Vue.js" },
+          { "textos": "Flutter" }
+        ]
+      },
+      {
+        "icon":"background_replace",
+        "title": "Cloud & Architectures",
+        "items": [
+          { "textos": "AWS" },
+          { "textos": "Microsoft Azure" },
+          { "textos": "Google Cloud Platform" },
+          { "textos": "Kubernetes" },
+          { "textos": "Docker" }
+        ]
+      },
+      {
+        "icon":"account_balance_wallet",
+        "title": "Databases & Big Data",
+        "items": [
+          { "textos": "PostgreSQL" },
+          { "textos": "MongoDB" },
+          { "textos": "Oracle" },
+          { "textos": "Microsoft SQL Server" }
+        ]
+      },
+      {
+        "icon":"account_balance",
+        "title": "Business Integrations & QA",
+        "items": [
+          { "textos": "SAP" },
+          { "textos": "Salesforce" },
+          { "textos": "Gitlab" },
+          { "textos": "Selenium" }
+        ]
+      }
+    ],
+
+    "cardsFuturoDigital": [
+      {"icon":"diamond_shine", "description": "CMMI Level 5 certification guaranteeing quality processes." },
+      {"icon":"motion_blur", "description": "Proven agile methodologies: Scrum, DevSecOps, QA Automation, UX/UI." },
+      {"icon":"language", "description": "International coverage and strategic alliances for global projects." },
+      {"icon":"sync_saved_locally", "description": "+200 projects implemented with impact across multiple industries." }
+    ],
+
+    "dataPreguntasFrecuentes": [
+      {
+        "question": "Why choose software development companies in Colombia?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How much does custom software development cost and how is the investment calculated?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What is the difference between off-the-shelf and custom software?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How long does a corporate software development project take?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "What methodologies do successful software development companies use?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How is the quality and security of custom software ensured?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Which industries benefit most from custom software development?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "How is a custom solution integrated with existing systems (ERP, CRM, core banking)?",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles and unlock new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      }
+    ],
+    "dataCardKnowOurWork": {
+      "imgKnowOurWork": "/img/edif.jpg",
+      "titleWork": "Digital Transformation in the Financial Sector",
+      "descriptionWork": "We implemented a custom digital platform that improved customer experience and reduced operation times by 40%.",
+      "textBtn": "Read the full case"
+    },
+    "dataCardKnowOurWork2": {
+      "imgKnowOurWork": "/img/imgWorkKnow.jpg",
+      "titleWork": "Transformation of a Healthcare Services Platform",
+      "descriptionWork": "We designed a new digital experience for a healthcare platform, improving navigation, reorganizing flows...",
+      "textBtn": "Discover how we did it"
+    }
+  }
+}

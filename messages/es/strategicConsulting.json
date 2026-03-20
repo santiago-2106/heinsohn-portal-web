@@ -1,0 +1,17 @@
+{
+  "strategicConsulting": {
+    "title": "Consultoria Estrategica",
+    "strategicConsultingCards": [
+      {
+        "title": "Cloud y modernización de infraestructura",
+        "description": "Acompañamos a las empresas en su transición a la nube, optimizando costos y asegurando escalabilidad, seguridad y continuidad del negocio.",
+        "btn": "Optimización en la nube"
+      },
+      {
+        "title": "Consultoría estratégica para adopción digital",
+        "description": "Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.",
+        "btn": "Explorar consultoría"
+      }
+    ]
+  }
+}
