@@ -8,9 +8,10 @@ import Slider from "@/src/components/sliders/SliderBlog";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
 
 // Importación de Datos
-import { dataTI } from "@/src/data/soluciones/ti/index"; // <- Asegúrate de que apunte a tu nueva ruta
+import { dataHeroSolucionesTi1,} from "@/src/data/soluciones/ti/index"; // <- Asegúrate de que apunte a tu nueva ruta
 import { dataCardKnowOurWork } from "@/src/data/soluciones/desarrollo-a-medida"; // O donde lo hayas dejado
 import { cardSlider1 } from "@/src/data/soluciones/share/slider";
+import { useTranslations } from "next-intl";
 
 // Optimización SEO y Web Vitals
 export const metadata: Metadata = {
@@ -20,21 +21,15 @@ export const metadata: Metadata = {
 };
 
 export default function PageSolucionesTI() {
+  const t = useTranslations("solucionesTi")
+  const heroSolucionesTi = dataHeroSolucionesTi1(t)
+
   return (
     <>
-      <Hero
-        title={dataTI.title}
-        description={dataTI.description}
-        buttonText={dataTI.buttonText}
-        breadcrumb={dataTI.breadcrumb}
-      />
-      
+      <Hero {...heroSolucionesTi}/>
       <CardFinal />
-      
       <CardCases {...dataCardKnowOurWork} />
-      
       <Slider data={cardSlider1} />
-      
       <ContactForm title={undefined} />
     </>
   );

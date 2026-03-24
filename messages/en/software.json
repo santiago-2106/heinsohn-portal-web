@@ -1,0 +1,37 @@
+{
+  "software": {
+    "title": "Software Engineering and Digital Product Development",
+    "softwareCards": [
+      {
+        "title": "Mobile and Web Application Development",
+        "description": "Intuitive solutions for all types of devices",
+        "btn": "View solutions"
+      },
+      {
+        "title": "UX/UI Design and Development",
+        "description": "User-centered interfaces designed to improve experience and conversion",
+        "btn": "View experiences"
+      },
+      {
+        "title": "Software Development",
+        "description": "Custom-built products tailored to each business need",
+        "btn": "Request development"
+      },
+      {
+        "title": "Cloud Software Development",
+        "description": "Secure, flexible, high-performance cloud applications",
+        "btn": "Learn more"
+      },
+      {
+        "title": "Scalable Platform Development",
+        "description": "Architectures designed for business growth",
+        "btn": "Explore"
+      },
+      {
+        "title": "Software Application Modernization",
+        "description": "Technology upgrades that extend lifecycle and increase efficiency",
+        "btn": "Upgrade now"
+      }
+    ]
+  }
+}

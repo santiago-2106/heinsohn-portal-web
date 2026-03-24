@@ -33,6 +33,9 @@ export const metadata: Metadata = {
     title: "Nuevo Portal Heinsohn",
     description: "Soluciones tecnológicas líderes en LATAM",
     type: "website",
+  },
+  other: {
+    google:"notranslate"
   }
 };
 

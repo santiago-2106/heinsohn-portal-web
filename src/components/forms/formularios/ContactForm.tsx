@@ -1,9 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { useForm } from "react-hook-form";
 import InputForm from "../InputForms";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export interface ContactFormProps {
   title?: React.ReactNode;
@@ -14,6 +15,9 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
     register,
     formState: { errors },
   } = useForm();
+
+  const t = useTranslations("contactForm")
+
 
   return (
     <section className="bg-bg-main py-12 md:py-20">
@@ -32,13 +36,14 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
             />
           </div>
 
-          {/* Ajuste de padding para móvil: p-6 sm:p-8 md:p-14 */}
           <div className="w-full md:col-span-7 bg-bg-card-2 p-6 sm:p-8 md:p-14">
-            
-            {/* Ajuste de texto: 3xl en móvil, 4xl en escritorio */}
+            {/* 3. REEMPLAZAMOS EL TEXTO QUEMADO POR LA PROP */}
             <h2 className="text-3xl md:text-4xl font-light text-gray-400 mb-10">
-              {title}
+              {t("title")}
             </h2>
+
+          {/* Ajuste de padding para móvil: p-6 sm:p-8 md:p-14 */}
+          <div >
 
             <form className="space-y-10 ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-10 ">
@@ -46,40 +51,40 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                 <div className="md:col-span-2">
                   <InputForm
                     id="fullName"
-                    label="Nombre completo *"
+                    label={t("fields.fullName")}
                     formregister={register("fullName")}
                   />
                 </div>
 
                 <InputForm
                   id="corporateEmail"
-                  label="Correo corporativo *"
+                  label={t("fields.corporateEmail")}
                   type="email"
                   formregister={register("corporateEmail")}
                 />
                 
                 <InputForm
                   id="company"
-                  label="Nombre de la empresa *"
+                  label={t("fields.company")}
                   formregister={register("company")}
                 />
                 
                 <InputForm
                   id="website"
-                  label="URL del sitio web *"
+                  label={t("fields.website")}
                   formregister={register("website")}
                 />
                 
                 <InputForm
                   id="email"
-                  label="Correo *"
+                  label={t("fields.email")}
                   type="email"
                   formregister={register("email")}
                 />
 
                 <InputForm
                   id="phone"
-                  label="Número de teléfono de WhatsApp *"
+                  label={t("fields.phone")}
                   type="tel"
                   formregister={register("phone")}
                 />
@@ -91,7 +96,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                     defaultValue=""
                   >
                     <option value="" disabled>
-                      Rango Número de empleados *
+                      {t("fields.employees")}
                     </option>
                     {/* Puedes agregar las opciones de número de empleados aquí */}
                   </select>
@@ -102,26 +107,24 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                 <label className="flex items-start gap-3 text-sm text-text-body">
                   {/* Agregado shrink-0 para que el checkbox no se deforme si el texto es muy largo */}
                   <input type="checkbox" className="mt-1 h-4 w-4 shrink-0" />
+
                   <p>
-                    He leído y acepto el{" "}
-                    <Link href="#" className="text-brand-accent underline:none">
-                      aviso legal <span className="text-text-body">y la</span> política de privacidad.*
-                    </Link>
+                    {t.rich("checkbox.legal", richText)}
                   </p>
                 </label>
 
                 <label className="flex items-start gap-3 text-sm text-text-body">
-                  <input type="checkbox" className="mt-1 h-4 w-4 shrink-0" />
-                  <p>Acepto recibir otras comunicaciones de Heinsohn.</p>
+                  <input type="checkbox" className="mt-1 h-4 w-4" aria-label="comunicaciones-heinsohn"/>
+                  <p>{t("checkbox.communications")}</p>
                 </label>
               </div>
-              
-              <button className="rounded-full bg-text-title text-bg-main px-10 py-3 text-sm font-medium hover:cursor-pointer hover:opacity-80 transition-opacity">
-                solicitar una demo personalizada
-              </button>
+              <button className="rounded-full bg-text-title text-bg-main px-10 py-3 text-sm font-medium hover:cursor-pointer">
+                {t("button")}
+               </button> 
             </form>
           </div>
         </div>
+      </div>
       </div>
     </section>
   );

@@ -1,26 +1,38 @@
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import TextComponent from "../../ui/typography/TextComponent";
-import { TextSolucionDigtal21 } from "../../../data/soluciones/share/textosGenerales";
 import ButtonComponent from "../../ui/buttons/Button";
-import { dataEstrategiaNegocio } from "../../../data/soluciones/desarrollo-a-medida";
+import { data_EstrategiaNegocio, getButtons, titlesDesarrolloAMedida } from "@/src/data/soluciones/desarrollo-a-medida";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
+import { useCard } from "@/src/hooks/useCard";
+
 
 export default function CardSoftwreGeneric() {
+
+  const t = useTranslations("desarrolloAMedida")
+
+
+  const DesarrolloAlaMedidaUX= t.raw("dataEstrategiaNegocio")
+
+  const cardsDesarrolloAMedida = useCard(DesarrolloAlaMedidaUX)
+
+
   return (
     <>
-      <TextComponent
-        title={TextSolucionDigtal21.title}
-        description={TextSolucionDigtal21.description}
+      <TextComponent 
+      title={t("titles.dataEstrategiaNegocio.title")}
+      description={t.rich("titles.dataEstrategiaNegocio.description", richText)}
       />
       <section className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-3 mx-auto max-w-5xl">
-        {dataEstrategiaNegocio.map((item, index) => (
+        {cardsDesarrolloAMedida.map((item,) => (
           <FeatureCard
-            key={index}
+            key={item.id}
             title={item.title}
             description={item.description}
           />
         ))}
       </section>
-      <ButtonComponent textoBtn="Conversa con un consultor y evalua tu proximo MVP" />
+      <ButtonComponent textoBtn={t("textBtn.textoBtn2")} />
     </>
   );
 }

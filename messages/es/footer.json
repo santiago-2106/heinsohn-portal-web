@@ -1,0 +1,27 @@
+{
+    "footer": {
+    "description": "Transformando empresas a través de soluciones tecnológicas innovadoras e inteligencia artificial a la vanguardia.",
+    "solutionsTitle": "Soluciones",
+    "companyTitle": "Compañía",
+    "solutions": [
+      [
+        "Servicios de transformación digital",
+        "Gestión humana y nómina",
+        "Soluciones para gobierno",
+        "Soluciones de outsourcing"
+      ],
+      [
+        "Soluciones sector pensiones",
+        "Soluciones sector financiero",
+        "Soluciones SAP",
+        "Soluciones en SST"
+      ]
+    ],
+    "company": [
+      "Home",
+      "Quiénes somos",
+      "Mapa de sitio",
+      "Contacto"
+    ]
+  }
+}

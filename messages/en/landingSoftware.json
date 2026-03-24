@@ -1,0 +1,42 @@
+{
+  "landingSoftware": {
+    "HeroLandingSoftware": {
+      "title": "Payroll and settlement software for all sectors",
+      "subtitle": "<>Reduce human error by <span className=\"text-brand-accent\">40%</span> </>",
+      "description": "<>With Heinsohn payroll you will find a strategic payroll software that provides compliance with electronic payroll to the DIAN.<br /><br />Our payroll software automates salary calculations, generates precise reports, ensures compliance with legal and tax obligations, and optimizes administrative personnel management processes.</>",
+      "buttonText": "Request an exclusive demo",
+      "breadCrumb": [
+        { "label": "Landing Software" },
+        { "label": "Payroll and settlement software for all sectors" }
+      ]
+    },
+    "titleLandingSoftware": {
+      "title": "Avoid errors due to manual processes in payroll settlement.",
+      "description": "<>About <span className=\"text-brand-accent font-bold\">60%</span> of companies waste excessive time or report critical inefficiencies due to manual payroll management. These manual processes are the main source of errors in salary, deduction, and tax calculations.</>"
+    },
+    "dataCardLandingSoftware": [
+      { "title": "Information on Power BI dashboards" },
+      { "title": "DIAN electronic payroll" },
+      { "title": "100% Web payroll solutions" },
+      { "title": "Self-management for employees" },
+      { "title": "Endorsed by UGPP" },
+      { "title": "Vacation module" },
+      { "title": "Cost distribution" },
+      { "title": "Accounting interface" },
+      { "title": "Over 500 clients use our payroll software" },
+      { "title": "+40 years of experience in payroll solutions" }
+    ],
+    "dataLandignSoftwareTexts": [
+      { "titleLanding": "13", "descriptionLanding": "Countries present" },
+      { "titleLanding": "<>48<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Years of experience" },
+      { "titleLanding": "<>100<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Web platforms" },
+      { "titleLanding": "<>95<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Satisfaction" }
+    ],
+    "dataCardCasosEstudio": [
+      {
+        "title": "Digital transformation in the financial sector",
+        "description": "We implemented a custom digital platform that improved customer experience and reduced operating times by 40%."
+      }
+    ]
+  }
+}

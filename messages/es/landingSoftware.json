@@ -1,0 +1,42 @@
+{
+  "landingSoftware": {
+    "HeroLandingSoftware": {
+      "title": "Software de nómina y planilla para todos los sectores",
+      "subtitle": "<>Reduce el error humano en un <span className=\"text-brand-accent\">40%</span> </>",
+      "description": "<>Con Heinsohn nómina encontrarás un software de nómina estratégico que brinda cumplimiento a la nómina electrónica frente a la DIAN.<br /><br />Nuestro software de nómina automatiza los cálculos salariales, genera reportes precisos, garantiza el cumplimiento de obligaciones legales y fiscales, y optimiza los procesos administrativos de gestión del personal.</>",
+      "buttonText": "Solicita una demo exclusiva",
+      "breadCrumb": [
+        { "label": "Landing Software" },
+        { "label": "Software de nómina y planilla para todos los sectores" }
+      ]
+    },
+    "titleLandingSoftware": {
+      "title": "Evita errores por procesos manuales en la liquidación de nómina.",
+      "description": "<>Cerca del <span className=\"text-brand-accent font-bold\">60%</span> de las empresas pierden tiempo excesivo o reportan ineficiencias críticas debido a la gestión manual de la nómina. Estos procesos manuales son la fuente principal de errores en cálculos de salarios, deducciones e impuestos.</>"
+    },
+    "dataCardLandingSoftware": [
+      { "title": "Información en tableros Power BI" },
+      { "title": "Nomina electrónica Dian" },
+      { "title": "Soluciones de nómina 100% Web" },
+      { "title": "Autogestión para los colaboradores" },
+      { "title": "Avalado por la UGPP" },
+      { "title": "Módulo de vacaciones" },
+      { "title": "Distribución de costos" },
+      { "title": "Interfaz contable" },
+      { "title": "+ de 500 clientes utilizan nuestro software de nomina" },
+      { "title": "+40 años de experiencia en soluciones de nomina" }
+    ],
+    "dataLandignSoftwareTexts": [
+      { "titleLanding": "13", "descriptionLanding": "Presencia paises" },
+      { "titleLanding": "<>48<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Años de experiencia" },
+      { "titleLanding": "<>100<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Plataformas web" },
+      { "titleLanding": "<>95<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Satisfaccion" }
+    ],
+    "dataCardCasosEstudio": [
+      {
+        "title": "Transformación digital en el sector financiero",
+        "description": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación."
+      }
+    ]
+  }
+}

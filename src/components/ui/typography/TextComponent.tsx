@@ -2,9 +2,10 @@ import React from "react";
 
 interface propsTextComponent {
   title?: React.ReactNode;
-  description?: string | React.ReactNode;
+  description?:React.ReactNode;
   align?: 'center' | 'left'
 }
+
 
 export default function TextComponent({
   title,

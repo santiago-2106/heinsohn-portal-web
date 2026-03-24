@@ -1,0 +1,156 @@
+{
+  "financiera": {
+    "pageStrings": {
+      "solucionesTitulo": "<>Technological solutions for credits,<br className=\"hidden md:block\" />funds and investments</>",
+      "experienciaTitulo": "Our experience in numbers",
+      "certificacionesTitulo": "International certifications",
+      "faqTitulo": "Frequently asked questions about financial software",
+      "contactoTitulo": "<>Transform the financial<br className=\"hidden md:block\" />management of your company</>"
+    },
+    "dataFinanzas": {
+      "title": "<> Solutions for the financial <br className=\"hidden md:block\" /> sector </>",
+      "description": "<> We have a <strong className=\"font-bold text-text-title\">specialized software portfolio for banking, fintechs, insurers, and non-bank entities</strong> that seek to lead the digital transformation of the financial sector in LATAM. Our solutions allow managing credits, financial obligations, investment funds, and portfolios with total efficiency, security, and regulatory compliance. </>",
+      "buttonText": "Request a free consultation",
+      "breadcrumb": [
+        { "label": "Solutions" },
+        { "label": "Solutions for the financial sector" }
+      ],
+      "badges": [
+        { "prefix": "+", "highlight": "40", "text": "years of experience" },
+        { "prefix": "+", "highlight": "1,200", "text": "clients in LATAM" }
+      ]
+    },
+    "entitiesData": {
+      "title": "<>What financial entities in the region<br className=\"hidden md:block\" />face today</>"
+    },
+    "introRetos": {
+      "description": "<>The financial industry in Latin America is experiencing a decisive moment. Digitalization, regulatory pressure, and the irruption of new actors are transforming the way banks, fintechs, insurers, and non-bank entities operate.<strong>These are some of the most urgent challenges:</strong></>"
+    },
+    "footerRetos": "Understanding these challenges is the first step to turning them into opportunities. Therefore, having specialized, secure, and scalable software is key to transforming these challenges into growth opportunities",
+    "btnRetos": "Discover how we face these challenges in LATAM",
+    "financialChallengesCards": [
+      {
+        "title": "Digital payments on the rise",
+        "description": "More than $111 billion in digital transactions reported last year."
+      },
+      {
+        "title": "Open Finance expanding",
+        "description": "Brazil expects 60 million Open Finance accounts, setting a trend."
+      },
+      {
+        "title": "Digitalization in Colombia",
+        "description": "More than 36 million adults had financial products in 2024."
+      },
+      {
+        "title": "Cybersecurity at the forefront",
+        "description": "70% of organizations prioritize cybersecurity against new challenges."
+      },
+      {
+        "title": "AI and automation",
+        "description": "Reduce operational human intervention to raise the expectation of innovation."
+      },
+      {
+        "title": "Fintech competencies",
+        "description": "Tomorrow, 2,763 fintechs are expected, creating a competitive ecosystem."
+      }
+    ],
+    "financialSolutionsCards": [
+      {
+        "title": "Credit and Payroll Loans Management",
+        "description": "Credit and payroll loan administration software that manages the complete cycle: from the application to the final payment.",
+        "items": [
+          { "textos": "Traceability and control at each stage." },
+          { "textos": "Scalable and parameterizable according to portfolio." },
+          { "textos": "Reduction in training and support times." }
+        ],
+        "btn": "Get to know the Credit and Payroll Loans solution ->"
+      },
+      {
+        "title": "Financial Obligations",
+        "description": "Specialized software in financial obligations that provides total portfolio visibility and ensures regulatory compliance.",
+        "items": [
+          { "textos": "Record and tracking of payments, advances, restructurings, and novations." },
+          { "textos": "Integration with accounting and financial systems." },
+          { "textos": "Management and regulatory reports in PDF and Excel." }
+        ],
+        "btn": "Explore the Financial Obligations solution ->"
+      },
+      {
+        "title": "Software for Collective Investment Funds (FICs)",
+        "description": "Comprehensive platform for the administration of Collective Investment Funds, designed to respond to business growth under specific regulations.",
+        "items": [
+          { "textos": "Multi-company and multi-language." },
+          { "textos": "Automation of massive processes." },
+          { "textos": "Mobility and 360° vision for investors." }
+        ],
+        "btn": "Discover our solution for FICs ->"
+      },
+      {
+        "title": "Portfolio and Investment Administrator Software – MIDAS",
+        "description": "Comprehensive investment and risk management platform, covering from Front Office to Back Office.",
+        "items": [
+          { "textos": "Specialized modules in market, liquidity, counterparty, and operational risks." },
+          { "textos": "Multi-currency, multi-portfolio, and with statutory regulatory reports." },
+          { "textos": "More than 25 years backing funds, insurers, and banking in LATAM." }
+        ],
+        "btn": "Learn how to optimize your portfolios ->"
+      }
+    ],
+    "experienceStatsData": [
+      {
+        "title": "Massive coverage",
+        "description": "<>Our solutions support the administration of millions of affiliates and billions of dollars in assets in <strong className=\"font-bold text-text-title\">pension funds, FICs, and investments.</strong></>"
+      },
+      {
+        "title": "Complex markets",
+        "description": "<>Proven experience in highly regulated sectors in <strong className=\"font-bold text-text-title\">Colombia, Peru, Bolivia, El Salvador, Honduras, Panama, Argentina, Uruguay, among others.</strong></>"
+      },
+      {
+        "title": "Sustained trust",
+        "description": "<><strong className=\"font-bold text-text-title\">More than 1,200 financial</strong> entities and active insurers in LATAM and the Caribbean that use our platforms.</>"
+      },
+      {
+        "title": "Tangible results",
+        "description": "<>Reduction of operational costs, improvements in traceability and regulatory compliance in <strong className=\"font-bold text-text-title\">large-scale projects.</strong></>"
+      }
+    ],
+    "financialFaqData": [
+      {
+        "question": "What benefits does the credit and payroll loan software offer?",
+        "answer": "Our software automates the entire credit lifecycle, from origination to collection. It reduces approval times, minimizes operational errors through automatic validations, and offers a 360° view of the customer to improve decision-making."
+      },
+      {
+        "question": "How does the financial obligations software help with regulatory compliance?",
+        "answer": "The platform is constantly updated according to local regulations in each country in LATAM. It generates automatic regulatory reports, ensures the traceability of all transactions, and has a detailed audit to comply with the standards of control entities."
+      },
+      {
+        "question": "What difference does our FICs software have compared to others on the market?",
+        "answer": "Unlike generic solutions, our software is specialized in the regulations of Collective Investment Funds. It allows handling multiple types of funds, automated daily valuation, and a self-management portal for investors with a superior user experience."
+      },
+      {
+        "question": "What modules does the Portfolio and Investment Administrator – MIDAS cover?",
+        "answer": "MIDAS is a comprehensive suite covering Front Office (operations capture), Middle Office (risk and limit management), and Back Office (accounting, valuation, and compliance), ensuring robust and centralized investment management."
+      },
+      {
+        "question": "How does financial digitalization support unbanked entities?",
+        "answer": "We provide accessible bank-level technology for cooperatives, employee funds, and fintechs, enabling them to offer digital products, 100% online onboarding, and secure transactions without needing to build their own infrastructure from scratch."
+      },
+      {
+        "question": "What is the difference between multi-country and local financial software?",
+        "answer": "A multi-country solution allows financial groups to standardize operations across the region under a single technological platform, simultaneously adapting to the specific currency, taxation, and regulation of each country (Colombia, Peru, Panama, etc.)."
+      },
+      {
+        "question": "Do the financial solutions comply with international regulations?",
+        "answer": "Yes, our solutions are aligned with international standards such as IFRS, ISO 27001 in information security, and comply with Basel guidelines for financial risk management."
+      },
+      {
+        "question": "What are the benefits of implementing financial software in the cloud?",
+        "answer": "Cloud implementation offers immediate scalability, reduced physical infrastructure costs, greater security with automatic backups, and secure access from any location, facilitating remote work and business continuity."
+      },
+      {
+        "question": "Does this financial software adapt to different regulatory frameworks in LATAM and the Caribbean?",
+        "answer": "Absolutely. We have proven experience in Colombia, Ecuador, Peru, Panama, Costa Rica, Honduras, El Salvador, Dominican Republic, among others, adapting our parameterization to local laws and market practices."
+      }
+    ]
+  }
+}

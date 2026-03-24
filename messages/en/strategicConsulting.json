@@ -1,0 +1,17 @@
+{
+  "strategicConsulting": {
+    "title": "Strategic consulting",
+    "strategicConsultingCards": [
+      {
+        "title": "Cloud and Infrastructure Modernization",
+        "description": "We support companies in their transition to the cloud, optimizing costs while ensuring scalability, security, and business continuity.",
+        "btn": "Cloud optimization"
+      },
+      {
+        "title": "Strategic Consulting for Digital Adoption",
+        "description": "We guide the integration of new technologies into business models, generating tangible value and accelerating innovation.",
+        "btn": "Explore consulting"
+      }
+    ]
+  }
+}

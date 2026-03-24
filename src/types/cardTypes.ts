@@ -11,7 +11,7 @@ export interface ItemsCard {
 
 export interface dataCard {
   icon?: ReactNode;
-  title: ReactNode;
+  title?: ReactNode;
   description?: string | ReactNode;
   btn?: string;
   items?: ItemsCard[];
