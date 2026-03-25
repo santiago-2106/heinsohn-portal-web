@@ -245,6 +245,7 @@ export const dataIaBeneficios = [
     description: "Automatiza flujos de trabajo con IA y machine learning. Los agentes inteligentes y modelos de lenguaje trabajan 24/7 para liberar a tus equipos de tareas operativas.",
   },
   {
+    
     icon: (
         <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
             02
