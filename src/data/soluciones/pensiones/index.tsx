@@ -22,56 +22,81 @@ export const infoSolucionesPension = {
   ],
 };
 
-// 2. DATA MÉTRICAS 1
+// 2. DATA MÉTRICAS 1 (Ajustado con JSX para forzar tamaños sin tocar el componente)
 export const infoPensiones1 = {
   highlight: {
     icon: (
       <span
         className="material-symbols-rounded text-text-title font-light"
-        style={{ fontSize: "70px" }}
+        style={{ fontSize: "80px" }} // Un poco más grande para igualar la imagen
       >
         rocket_launch
       </span>
     ),
-    value: "30",
-    suffix: "+",
-    description: "años de experiencia",
+    // Anulamos el 'suffix' del componente y armamos el número completo aquí
+    value: (
+      <div className="flex items-baseline mt-2">
+        <span className="text-brand-accent text-5xl md:text-7xl font-light mr-1">+</span>
+        <span className="text-text-title text-7xl md:text-[90px] font-light leading-none tracking-tight">30</span>
+      </div>
+    ),
+    description: (
+      <div className="text-5xl md:text-6xl text-text-body font-light leading-tight mt-2">
+        años de <br className="hidden md:block" /> experiencia
+      </div>
+    ),
   },
   metrics: [
     {
       id: "compliance",
-      value: "12",
-      suffix: "+",
-      description: "millones de afiliados administrados en Colombia y Latam",
+      value: (
+        <div className="flex items-baseline">
+          <span className="text-brand-accent text-4xl md:text-6xl font-light mr-1">+</span>
+          <span className="text-text-title text-6xl md:text-[75px] font-light leading-none tracking-tight">12</span>
+        </div>
+      ),
+      description: (
+        <span className="text-sm md:text-base text-text-body font-light">
+          millones de afiliados administrados en Colombia y Latam
+        </span>
+      ),
     },
     {
       id: "cost",
       value: (
-        <>
-          <span className="text-text-body text-sm md:text-xl">Gestionamos</span>
-          <br />
-          <span className="text-brand-accent">+</span> 90.000{" "}
-          <span className="text-sm font-bold">USD</span>
-        </>
+        <div className="flex flex-col">
+          {/* La palabra "Gestionamos" forzada arriba del número */}
+          <span className="text-text-body text-base md:text-lg font-light mb-1">
+            Gestionamos
+          </span>
+          <div className="flex items-baseline">
+            <span className="text-brand-accent text-4xl md:text-6xl font-light mr-1">+</span>
+            <span className="text-text-title text-5xl md:text-[70px] font-light leading-none tracking-tight">90.000</span>
+            <span className="text-text-title text-sm md:text-base font-bold ml-2">USD</span>
+          </div>
+        </div>
       ),
-      description: "millones en pensiones",
+      description: (
+        <span className="text-sm md:text-base text-text-body font-light">
+          millones en pensiones
+        </span>
+      ),
     },
   ],
 };
-
 // 3. DATA DESAFÍOS DEL SECTOR
 export const textoDesafios = {
   title: (
     <>
       Retos del sistema de pensiones en <br />
-      Latinoamérica y cómo puedes <br />
-      gestionarlo con nuestro software 
+      Latinoamérica y cómo puedes <br />
+      gestionarlo con nuestro software 
     </>
   ),
   description: (
     <>
       El sistema de pensiones en América Latina enfrenta transformaciones que
-      requieren <strong>visión y tecnología:</strong>
+      requieren <strong className="font-semibold text-text-title">visión y tecnología:</strong>
     </>
   ),
 };
@@ -83,7 +108,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        face_retouching_natural
+        ar_on_you
       </span>
     ),
     title: "Envejecimiento poblacional",
@@ -96,7 +121,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        business_center
+        trip
       </span>
     ),
     title: "Sostenibilidad financiera",
@@ -110,7 +135,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        work
+        card_travel
       </span>
     ),
     title: "Digitalización de trámites",
@@ -124,7 +149,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        savings
+        money_bag
       </span>
     ),
     title: "Presión regulatoria",
@@ -138,7 +163,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        assignment_ind
+        article_person
       </span>
     ),
     title: "Nómina de pensionados",
@@ -152,7 +177,7 @@ export const infoPensiones2 = [
         className="material-symbols-rounded text-text-title font-light"
         style={{ fontSize: "40px" }}
       >
-        edit_location_alt
+        nest_found_savings
       </span>
     ),
     title: "Nuevos actores",
@@ -164,11 +189,15 @@ export const infoPensiones2 = [
 
 // 4. DATA MÓDULOS DE SOLUCIONES
 export const textoModulos = {
-  title: (<>Una plataforma previsional única, <br className="hidden md:block" />
-      modular y escalable</>
+  title: (
+    <div className="text-left w-full">
+      Una plataforma previsional única, <br className="hidden md:block" />
+      modular y escalable
+    </div>
   ),
   description: (
-    <div className="text-left w-full">
+    
+    <div className="text-left w-full !max-w-full !mx-0">
       Nuestro <strong className="font-semibold text-text-title">software previsional</strong> centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.
       <br />
       <br />
@@ -363,7 +392,7 @@ export const infoPensiones3 = [
   },
 ];
 
-// 5. DATA POR QUÉ ELEGIRNOS (Íconos oscuros o de acento según pediste)
+// 5. DATA POR QUÉ ELEGIRNOS
 export const textoDiferenciadores = {
   title: <> Lo que nos hace diferentes en la <br/>gestión pensional</>,
 };
@@ -422,7 +451,7 @@ export const informacionPensiones5 = [
   },
 ];
 
-// 6. DATA RESULTADOS 2
+// 6. DATA RESULTADOS 2 (Ajustado con JSX para forzar diseño idéntico a la imagen)
 export const textoResultados2 = {
   title: "Lo que nos hace diferentes en la gestión empresarial",
 };
@@ -432,48 +461,67 @@ export const infoPensiones6 = {
     icon: (
       <span
         className="material-symbols-rounded text-text-title font-light"
-        style={{ fontSize: "40px" }}
+        style={{ fontSize: "80px" }}
       >
         rocket_launch
       </span>
     ),
-    value: "40%",
-    description:
-      "del mercado colombiano en pensiones obligatorias soportado con nuestras soluciones.",
+    // Separamos el "40" (negro) y el "%" (rojo)
+    value: (
+      <div className="flex items-baseline mt-2">
+        <span className="text-text-title text-7xl md:text-[90px] font-light leading-none tracking-tight">40</span>
+        <span className="text-brand-accent text-5xl md:text-7xl font-light ml-1">%</span>
+      </div>
+    ),
+    description: (
+      <div className="text-base md:text-lg text-text-body font-light leading-relaxed mt-4">
+        del mercado colombiano en pensiones<br className="hidden md:block" /> obligatorias soportado con nuestras<br className="hidden md:block" /> soluciones.
+      </div>
+    ),
   },
   metrics: [
     {
       id: "compliance",
-      value: "30",
-      suffix: "+",
-      description: "30 años de innovacion en el sector previsional",
+      // Separamos el "+" (rojo) y el "30" (negro)
+      value: (
+        <div className="flex items-baseline">
+          <span className="text-brand-accent text-4xl md:text-6xl font-light mr-1">+</span>
+          <span className="text-text-title text-6xl md:text-[75px] font-light leading-none tracking-tight">30</span>
+        </div>
+      ),
+      description: (
+        <span className="text-sm md:text-base text-text-body font-light">
+          30 años de innovación en el sector previsional.
+        </span>
+      ),
     },
     {
       id: "cost",
-      icon: (
-        <span
-          className="material-symbols-rounded text-text-title font-light"
-          style={{ fontSize: "40px" }}
-        >
-          folder_shared
-        </span>
+      // Forzamos el ícono y el texto a estar en la misma fila (flex) para igualar el diseño
+      value: (
+        <div className="flex items-center gap-5 mt-4">
+          <span
+            className="material-symbols-rounded text-text-title font-light shrink-0"
+            style={{ fontSize: "90px" }}
+          >
+            article_person
+          </span>
+          <p className="text-sm md:text-base text-text-body font-light leading-relaxed m-0 text-left">
+            Altos volúmenes con millones de transacciones mensuales en liquidación de nómina de pensionados.
+          </p>
+        </div>
       ),
-      description:
-        "Altos volúmenes con millones de transacciones mensuales en liquidación de nómina de pensionados.",
+      description: <></>, // Dejamos esto vacío porque ya acomodamos el texto junto al ícono arriba
     },
   ],
 };
 
-// 7. DATA PREGUNTAS FRECUENTES (Estructura correcta)
+// 7. DATA PREGUNTAS FRECUENTES (Textos planos para evitar errores TS)
 export const dataPreguntasFrecuentesPensiones = [
   {
-    question: "¿Se trata de un solo software o de varias soluciones diferentes?",
+    question: "¿Se trata de un solo software o de varias soluciones diferentes? ",
     answer: {
-      descriptions: (
-        <>
-          Nuestra plataforma es <strong className="font-semibold text-text-title">integral y modular.</strong> Esto significa que, aunque funciona sobre un único core tecnológico, puedes implementar solo los módulos que tu entidad necesite (ej. solo Cesantías o solo Pensiones Obligatorias) y escalarlos en el futuro.
-        </>
-      ),
+      descriptions: "Nuestra plataforma es integral y modular. Esto significa que, aunque funciona sobre un único core tecnológico, puedes implementar solo los módulos que tu entidad necesite (ej. solo Cesantías o solo Pensiones Obligatorias) y escalarlos en el futuro.",
     },
   },
   {
@@ -490,23 +538,51 @@ export const dataPreguntasFrecuentesPensiones = [
     },
   },
   {
-    question: "¿El software se adapta a la normativa de mi país?",
+    question: "¿El software se adapta a la regulación de cada país en LATAM? ",
     answer: {
-      descriptions: (
-        <>
-          Sí. El sistema es <strong className="font-semibold text-text-title">altamente parametrizable.</strong> Contamos con experiencia en múltiples países de LATAM, lo que nos permite configurar reglas de negocio, fórmulas de liquidación y reportes regulatorios específicos para cada jurisdicción.
-        </>
-      ),
+      descriptions: "Sí. El sistema es altamente parametrizable. Contamos con experiencia en múltiples países de LATAM, lo que nos permite configurar reglas de negocio, fórmulas de liquidación y reportes regulatorios específicos para cada jurisdicción.",
     },
   },
   {
-    question: "¿Cómo garantizan la seguridad de la información de los afiliados?",
+    question: " ¿Puedo implementar solo algunos módulos y escalar después? ",
     answer: {
-      descriptions: (
-        <>
-          Contamos con certificaciones internacionales y protocolos de <strong className="font-semibold text-text-title">ciberseguridad de última generación,</strong> incluyendo encriptación de datos, auditoría de procesos (trazabilidad total) y cumplimiento con las leyes de protección de datos personales en la región.
-        </>
-      ),
+      descriptions: "",
+    },
+  },
+    {
+    question: " ¿El software cubre la nómina de pensionados y los pagos masivos? ",
+    answer: {
+      descriptions: "",
+    },
+  },
+   {
+    question: "  ¿También sirve para administrar ahorro previsional voluntario o APV? ",
+    answer: {
+      descriptions: "",
+    },
+  },
+   {
+    question: " ¿Se puede usar para administrar cesantías desde el mismo sistema?  ",
+    answer: {
+      descriptions: "",
+    },
+  },
+   {
+    question: " ¿El software es multipaís y multimoneda?  ",
+    answer: {
+      descriptions: "",
+    },
+  },
+   {
+    question: " ¿Qué tipo de acompañamiento ofrece Heinsohn?  ",
+    answer: {
+      descriptions: "",
+    },
+  },
+   {
+    question: " ¿Cómo iniciar la implementación del software previsional?  ",
+    answer: {
+      descriptions: "",
     },
   },
 ];
