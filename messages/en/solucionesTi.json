@@ -14,7 +14,8 @@
       "title1": "Software Engineering and Digital Product Development",
       "title2": "Data Analytics and Artificial Intelligence",
       "title3": "Extended Engineering and Dedicated Teams",
-      "title4": "Strategic Consulting"
+      "title4": "Strategic Consulting",
+      "title5": "Learn about our work"
       
     },
 
@@ -109,6 +110,33 @@
         "description": "We guide the integration of new technologies within business models, generating tangible value and accelerating innovation.",
         "btn": "Explore consulting"
       }
+    ],
+
+    "cardConoceNuestroTrabajo": {
+      "imgKnowOurWork": "/img/edif.jpg",
+      "titleWork": "Digital transformation in the financial sector",
+      "descriptionWork": "We implemented a custom digital platform that improved customer experience and reduced operational times by 40%.",
+      "textBtn": "View the full case"
+    },
+
+    "sliderSolucionesTi": {
+    "title": "Featured Blog",
+    "items": [
+      {
+        "id": 1,
+        "img": "/img/imgSlider.png",
+        "title": "Innovation as a driver of digital transformation",
+        "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+        "btn": "Read more"
+      },
+      {
+        "id": 2,
+        "img": "/img/slider2Blog.jpg",
+        "title": "UX trends shaping the future of digital design",
+        "description": "Explore how personalization, inclusive design, and microinteractions are changing the way...",
+        "btn": "Read more"
+      }
     ]
+  }
   }
 }

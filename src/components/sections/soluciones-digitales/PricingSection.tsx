@@ -1,17 +1,33 @@
 import TextComponent from "../../ui/typography/TextComponent";
-import { dataTextCards } from "../../../data/soluciones/share/textosGenerales";
-import { informationCard } from "../../../data/soluciones/share/textosGenerales";
+import { useTranslations } from "next-intl";
+
+type FeatureItem = {
+  text: string
+  features: string[]
+  icon?: string
+}
+
+type CardItem = {
+  titles: string
+  subtitle: FeatureItem[]
+  price: string
+  icon?: string
+}
 
 export default function CardSd() {
+  const t = useTranslations("desarrolloUxUi")
+
+  const cardsOfertas = t.raw("informationCard") as CardItem[]
+
   return (
     <section className="py-24 transition-colors duration-300">
       <TextComponent
-        title={dataTextCards.title}
-        description={dataTextCards.description}
+        title={t("titleNuestrasOfertas.title")}
+        description={t("titleNuestrasOfertas.description")}
       />
       <div className="mx-auto max-w-sm sm:max-w-5xl px-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-          {informationCard.map((card, index) => {
+          {cardsOfertas.map((card, index) => {
             return (
               <article
                 key={index}
@@ -19,7 +35,7 @@ export default function CardSd() {
               >
                 <div className="p-8 md:p-10">
                   {/* Ícono principal */}
-                  <div className="mb-6 flex text-text-body">{card.icon}</div>
+                  <span className="material-symbols-rounded text-text-title font-light mb-6" style={{ fontSize: "48px" }}>{card.icon}</span>
 
                   <h4 className="text-2xl font-semibold text-text-title mb-8">
                     {card.titles}
@@ -31,9 +47,9 @@ export default function CardSd() {
                         <div key={i}>
                           <div className="flex items-center gap-3 mb-3">
                             {/* Sub-ícono */}
-                            <div className="flex items-center justify-center text-text-body">
+                            <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "25px" }}>
                               {item.icon}
-                            </div>
+                            </span>
 
                             <h4 className="text-sm font-medium text-text-body">
                               {item.text}

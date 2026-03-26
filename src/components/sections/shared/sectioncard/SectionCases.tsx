@@ -1,7 +1,9 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 // 1. AÑADIMOS subtitleWork A LA INTERFAZ
 export interface propsKnowOurWork {
+  title: string
   imgKnowOurWork: string;
   titleWork: string;
   subtitleWork?: string; // Lo hacemos opcional por si alguna vista no lo tiene
@@ -10,17 +12,20 @@ export interface propsKnowOurWork {
 }
 
 export default function CardCases({
+  title,
   imgKnowOurWork,
   titleWork,
   subtitleWork, // 2. RECIBIMOS LA PROP
   descriptionWork,
   textBtn,
 }: propsKnowOurWork) {
+
+  const t = useTranslations("desarrolloUxUi")
   return (
     <section className="bg-bg-main py-8 sm:py-12 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
         <h2 className="mb-8 text-center text-2xl font-semibold text-text-title sm:mb-10 sm:text-3xl md:mb-12 md:text-4xl">
-          Conoce Nuestro Trabajo
+          {title}
         </h2>
 
         <div className="grid grid-cols-1 overflow-hidden md:grid-cols-2">

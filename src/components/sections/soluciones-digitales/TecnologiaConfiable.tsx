@@ -1,7 +1,6 @@
 import CardFeatures from '../../ui/cards/CardFeatures'
 import ButtonComponent from '../../ui/buttons/Button'
 import TextComponent from '../../ui/typography/TextComponent'
-import { cardFuturoDigital,  titlesDesarrolloAMedida } from '../../../data/soluciones/desarrollo-a-medida'
 import { useTranslations } from 'next-intl'
 import { useCard } from '@/src/hooks/useCard'
 

@@ -27,6 +27,8 @@ import {
   dataCasosFinanciera,
   titlesFinanciera // <-- Importamos los nuevos títulos centralizados
 } from "@/src/data/soluciones/financiera";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -36,36 +38,39 @@ export const metadata: Metadata = {
 };
 
 export default function SolucionesFinanciero() {
+
+  const t = useTranslations("financiera")
+
   return (
     <>
       <Hero
-        title={dataFinanzas.title}
-        description={dataFinanzas.description}
-        buttonText={dataFinanzas.buttonText}
-        breadcrumb={dataFinanzas.breadcrumb}
-        badges={dataFinanzas.badges} 
+        title={t("dataHeroFinanzas.title")}
+        description={t.rich("dataHeroFinanzas.description", richText)}
+        buttonText={t("dataHeroFinanzas.buttonText")}
+        breadcrumb={t.raw("dataHeroFinanzas.breadcrumb")}
+        badges={t.raw("dataHeroFinanzas.badges")} //PENDIENTE A UN CAMBIO IGUAL QUE LAS CARDS
         isUppercase={false}          
       />
 
       <CardAnuncies
-        title={entitiesData.title}
-        description={introRetos.description}
-        cards={financialChallengesCards}
+        title={t("titlesFinanciera.EntidadesFinancierasRegion.title")}
+        description={t.rich("titlesFinanciera.EntidadesFinancierasRegion.description", richText)}
+        cards={t.raw("cardsEntidadesFinancieras")}
         cols={3}
-        bottomText={footerRetos}
-        bottomBtn={btnRetos}
+        bottomText={t("titlesFinanciera.EntidadesFinancierasRegion.footerRetos")}
+        bottomBtn={t("titlesFinanciera.EntidadesFinancierasRegion.btnRetos")}
       />
 
       <CardAnuncies
-        title={titlesFinanciera.soluciones}
-        cards={financialSolutionsCards}
+        title={t("titlesFinanciera.SolucionesTecnologicas.title")}
+        cards={t.raw("cardsSolucionesTecnologicas")}
         cols={2}
       />
 
       {/* Si CardResult lleva data, deberías pasarla igual, por ahora lo dejamos como está */}
-     <CardResult {...dataResultadosFinanciera} />
+     <CardResult {...t.raw("cardResultados")} />
 
-      <Clientes title={titlesFinanciera.clientes} />
+      <Clientes title={t("titlesFinanciera.ExperienciaCifras.title")} />
 
       <CardAnuncies 
         title={titlesFinanciera.statsVacio} 
@@ -73,18 +78,21 @@ export default function SolucionesFinanciero() {
         cols={2} 
       />
 
-      <CertificacionesInternacionales title={titlesFinanciera.certificaciones} />
+      <CertificacionesInternacionales title={t("titlesFinanciera.CertificacionesInternacionales.title")} />
 
-      <CardCases {...dataCasosFinanciera} />
+      <CardCases {...t.raw("cardConoceNuestroTrabajo")} />
       
-      <Slider title="blog destacado" data={cardSlider1} />
-
-      <PreguntasFort
-        title={titlesFinanciera.faq}
-        items={financialFaqData as any} 
+      <Slider 
+       title={t("sliderBlogDestacadoFinanciera.title")}
+        data={t.raw("sliderBlogDestacadoFinanciera.items")}
       />
 
-      <ContactForm title={titlesFinanciera.contacto}/>
+      <PreguntasFort
+        title={t("titlesFinanciera.preguntasFrecuentes.title")}
+        items={t.raw("preguntasFrecuentesLista")} 
+      />
+
+      <ContactForm title={t("titlesFinanciera.ContactForm.title")}/>
     </>
   );
 }

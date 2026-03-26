@@ -1,4 +1,4 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Card from "../../../ui/cards/Card";
 import CardGrid from "../../../layout/grids/CardGrid";
 import { cardPropsInformation } from "../../../../types/typeCardAnuncies";
@@ -6,7 +6,7 @@ import { cardPropsInformation } from "../../../../types/typeCardAnuncies";
 type ExtendedProps = Omit<cardPropsInformation, "title" | "description"> & {
   title: string | React.ReactNode;
   description?: string | React.ReactNode;
-  topBadge?: string;
+  topBadge?: ReactNode;
 };
 
 export default function CardAnuncies({

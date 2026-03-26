@@ -15,6 +15,7 @@ interface CarouselSplitItem {
   description: string
   image: string
   reverse?: boolean
+  btnTextSlider?:string
 }
 
 interface CarouselSplitHeroProps {
@@ -62,9 +63,12 @@ export default function SliderHero({ items }: CarouselSplitHeroProps) {
                     {item.description}
                   </p>
 
-                  <button className="text-brand-accent font-medium flex items-center gap-2 mt-2">
-                    Leer más →
-                  </button>
+                  <button className="text-text-body font-medium flex items-center gap-2 mt-2 hover:translate-x-1 hover:cursor-pointer">
+                    <span>{item.btnTextSlider}</span>
+                    <span className="text-brand-accent group-hover:translate-x-1">
+                        →
+                    </span>
+                </button>
                 </div>
               </div>
             </SwiperSlide>

@@ -37,7 +37,7 @@ export default function CardGestionHumana({
       {isMiddleCard && <div className="mt-4"></div>}
 
       {/* Icono Principal (Alineado a la izquierda, con margen grande) */}
-      <div className="mb-8 text-text-title">{icon}</div>
+       <span className="material-symbols-rounded text-text-title font-light mb-6" style={{ fontSize: "48px" }}>{icon}</span>
 
       {/* Etiqueta / Contenedor ("Para empresas medianas") */}
       {contenedor && (

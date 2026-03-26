@@ -1,7 +1,6 @@
 import TextComponent from "@/src/components/ui/typography/TextComponent";
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import ButtonComponent from "../../ui/buttons/Button";
-import { data_softwareGenerico,  getButtons, titlesDesarrolloAMedida } from "../../../data/soluciones/desarrollo-a-medida";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
 import { useCard } from "@/src/hooks/useCard";

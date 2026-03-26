@@ -1,16 +1,17 @@
 {
   "gestionHumana": {
-    "infoGestionHumanaHero": {
+    "dataHeroGestionHumana": {
       "title": "HGS - Gestión Humana",
-      "description": "Una compañía de <span className=\"font-semibold\">servicios en gestión del talento humano,</span> que crea impacto positivo con soluciones tecnológicas, <span className=\"font-semibold\">servicios de asesoría y operación.</span>",
+      "description": "Una compañía de <bold>servicios en gestión del talento humano,</bold> que crea impacto positivo con soluciones tecnológicas, <bold>servicios de asesoría y operación.</bold>",
       "buttonText": "solicita una asesoria gratuita",
       "breadcrumb": [
         { "label": "soluciones" },
         { "label": "HGS - Gestión Humana" }
       ]
     },
-    "gestionHumanaInfo": [
+    "cardsContrataSoluciones": [
       {
+        "icon":"business",
         "contenedor": "+500 Colaboradores",
         "title": "Grandes empresas",
         "description": "Nomina para grandes empresas",
@@ -18,6 +19,7 @@
         "btn": "Ampliar Informacion"
       },
       {
+        "icon":"warehouse",
         "contenedor": " 1 a 450 colaboradores",
         "title": "Pymes",
         "description": "Nomina para pequeña y mediana empresa",
@@ -25,6 +27,7 @@
         "btn": "Ampliar Informacion"
       },
       {
+        "icon":"things_to_do",
         "contenedor": "+100 colaboradores",
         "title": "Gobierno",
         "description": "Soluciones para la administracion publica",
@@ -32,96 +35,145 @@
         "btn": "Ampliar Informacion"
       }
     ],
-    "ProductsgestionHumanaInfo2": [
+
+     "ProductosgestionHumana": [
+    {
+      "title": "Software de nómina",
+      "description": "Contamos con un software de <strong>nómina inteligente</strong> para el pago y liquidación de nómina.",
+      "btnText": "Conocer más",
+      "image": "/img/laptpo1.png"
+    },
+    {
+      "title": "Solución pago a contratistas",
+      "description": "<strong>Estamos a la vanguardia.</strong> Afrontamos los nuevos retos del mercado desarrollando soluciones acordes al cambio constante del mundo.",
+      "btnText": "Conocer más",
+      "image": "/img/laptop2.png"
+    },
+    {
+      "title": "Seguridad y salud en el trabajo",
+      "description": "Permite la <strong>implementación, mantenimiento y control</strong> del sistema de gestión de seguridad y salud en el trabajo.",
+      "btnText": "Conocer más",
+      "image": "/img/laptop3.png"
+    },
+    {
+      "title": "Software de nómina",
+      "description": "Permite la administración integral del recurso humano de <strong>tu organización.</strong>",
+      "btnText": "Conocer más",
+      "image": "/img/laptop4.png"
+    },
+    {
+      "title": "Soluciones de nómina y gestión humana para Gobierno",
+      "description": "Facilita los procesos, seguimientos y evaluaciones de la organización y áreas de <strong>talento humano.</strong>",
+      "btnText": "Conocer más",
+      "image": "/img/laptop5.png"
+    },
+    {
+      "title": "Gestión de reconocimientos económicos",
+      "description": "<strong>Aumenta tus ingresos</strong> recuperando el dinero de incapacidades y licencias de tus colaboradores.",
+      "btnText": "Conocer más",
+      "image": "/img/laptop6.png"
+    },
+    {
+      "title": "Nómina Emax",
+      "description": "Toda la experiencia de Heinsohn en una solución <strong>100% digital</strong>, ideal para la pequeña gran empresa.",
+      "btnText": "Conocer más",
+      "image": "/img/laptop7.png"
+    }
+  ],
+
+    "cardsOutsourcingBPO": [
       {
-        "title": "Software de nómina",
-        "description": "Contamos con un software de <span className=\"font-bold\">nómina inteligente</span> para el pago y liquidación de nómina.",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Solucion pago a contratistas",
-        "description": "<span className=\"font-bold\"> Estamos a la vanguardia. </span> Afrontamos los nuevos retos del mercado desarrollando soluciones acordes al cambio constante del mundo.",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Seguridad y salud en el trabajo",
-        "description": "Permite la <span className=\"font-bold\">implementacion, mantenimiento y control</span> del sistema de gestion de seguridad y slaud en el trabajo.",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Software de nomina",
-        "description": "Permite la administracion integral del recurso humano de <span className=\"font-bold\">tu organización.</span>",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Soluciones de nomina y gestion humana par Gobierno",
-        "description": "Facilita los proceso, seguimientos y evaluaciones de la organizacion y de ares de <span className=\"font-bold\">talento humano.</span>",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Gestion de reconocimiento economicos",
-        "description": "<span className=\"font-bold\">Aumenta tus ingresos</span> recuperando el dinero de incapacidades y licencias de tus colaboradores.",
-        "btnText": "Conocer más"
-      },
-      {
-        "title": "Nómina Emax",
-        "description": "Toda la experiencia de Heinsohn en una solución <span className=\"font-bold\">100% digital</span>, ideal para la pequeña grab empresa!",
-        "btnText": "Conocer más"
-      }
-    ],
-    "infoGestionHumana2": [
-      {
+        "icon":"account_box",
         "title": "Outsourcing de administración y atención a colaboradores",
         "description": "Entendemos las necesidades de los colaboradores, por ello nuestro equipo realiza un acompañamiento constante a nuestros clientes."
       },
       {
+        "icon":"add_reaction",
         "title": "Procesos especiales de gestión del talento humano",
         "description": "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones."
       },
       {
+        "icon":"digital_wellbeing",
         "title": "Gestión de seguridad y salud en el trabajo",
         "description": "Creamos un modelo estratégico que reúne a los mejores profesionales del sector, para realizar la planeación de las acciones correspondientes en la seguridad y salud de los trabajadores."
       },
       {
+        "icon":"perm_contact_calendar",
         "title": "Outsourcing liquidación de pago de nómina y contratistas",
         "description": "Realizamos todos los procesos de liquidación, auditoría y ejecución de pagos de nómina para los empleados que requieran las compañías."
       },
       {
+        "icon":"admin_meds",
         "title": "Outsourcing de gestión incapacidades y reconocimientos económicos",
         "description": "Manejo de giros, compra de cartera, desembolsos, legalización de créditos y generación de documentos como cartas de aprobación."
       },
       {
+        "icon":"enterprise",
         "title": "Atención a clientes y transformación digital",
         "description": "Nuestros clientes son la fuente de nuestra transformación. Cada reto propuesto es el combustible que nos impulsa a crecer y crear nuevas estrategias."
       },
       {
+        "icon":"acute",
         "title": "Atracción, selección y planeación de la fuerza laboral",
         "description": "Enfocamos nuestro esfuerzo en conseguir los mejores talentos para las compañías, realizando procesos de selección y toda la gestión de talento que requieran las organizaciones."
       },
       {
+        "icon":"business_center",
         "title": "Consultoría",
         "description": "Acompañamos a las organizaciones en iniciativas enfocadas en lograr “las personas correctas”, “haciendo las cosas correctas”, “logrando los resultados deseados”."
       },
       {
+        "icon":"concierge",
         "title": "Servicios adicionales",
         "description": "Modelos de flexibilización, conciliaciones contables, asesorías tributarias en retención en la fuente y legales referentes a contratos, asesorías y auditorías en UGPP."
       }
     ],
-    "textoGestionHumana": {
+
+    "titlesGestionHumana": {
+      "titleGestionHumana1": {
       "title": "Contrata soluciones a la medida, del tipo de tu organización",
-      "description": "Nuestro software de nómina es ampliamente parametrizable, dinámico y flexible. Es una herramienta con <span className=\"text-text-body font-semibold\">tecnología 100% web</span> que ofrece un proceso de nómina fácil, rápido y seguro"
+      "description": "Nuestro software de nómina es ampliamente parametrizable, dinámico y flexible. Es una herramienta con <bold>tecnología 100% web</bold> que ofrece un proceso de nómina fácil, rápido y seguro"
     },
-    "textoGestionHumana2": {
+    "titleGestionHumana2": {
       "title": "Outsourcing de Procesos - BPO",
-      "description": "<span className=\"text-text-body font-semibold\">Procesos formales de operación y personal capacitado</span> para apoyar tus métodos de atención a colaboradores, liquidación de pagos y la entrega confiable de información a terceros."
+      "description": "<bold>Procesos formales de operación y personal capacitado</bold> para apoyar tus métodos de atención a colaboradores, liquidación de pagos y la entrega confiable de información a terceros."
     },
-    "textoGestionHumana3": {
+    "titleGestionHumana3": {
       "title": "Somos equipo",
-      "description": "El trabajo en equipo es una de nuestras principales estrategias. Estamos convencidos que el poder colectivo es la herrmienta esencial para <span className=\"text-text-body font-semibold\">generar soluciones innovadoras.</span> Como grupo empresarial unimos a nuestra fuerza a grandes empresas que hoy son <span className=\"text-text-body font-semibold\">nuestros aliados tecnologicos, creativos y financieros.</span>"
+      "description": "El trabajo en equipo es una de nuestras principales estrategias. Estamos convencidos que el poder colectivo es la herrmienta esencial para <bold>generar soluciones innovadoras.</bold> Como grupo empresarial unimos a nuestra fuerza a grandes empresas que hoy son <bold>nuestros aliados tecnologicos, creativos y financieros.</bold>"
     },
-    "textoGestionHumana4": {
+    "titleGestionHumana4": {
+      "title": "Somos la solución en gestión, del talento humano en la nube."
+
+    },
+    "titleGestionHumana5": {
+      "title": "Optimiza Procesos de rescursos humanos con inteligencia artificial"
+      
+    },
+    "titleGestionHumana6": {
+      "title": "Productos"
+    },
+    "titleGestionHumana7": {
       "title": "Somos Gestión",
-      "description": "Creemos en la tecnologia como herramienta de transformacion de los entornos laborales. <span className=\"text-text-body font-semibold\">Generamos espacios y oportunidades</span> que brinden mejores condiciones a los colaboradores"
+      "description": "Creemos en la tecnologia como herramienta de transformacion de los entornos laborales. <bold>Generamos espacios y oportunidades</bold> que brinden mejores condiciones a los colaboradores"
+    },
+    "titleGestionHumana8": {
+      "title": "Certificaciones Internacionales"
     }
+    },
+    
+    "buttonGestionHumana": "Habla con un experto",
+
+    "cardInfoGestionHumana": [
+    { "description": "Organizaciones" },
+    { "description": "Bienestar" },
+    { "description": "Nómina / planilla" },
+    { "description": "Gestión de incapacidades" },
+    { "description": "Seguridad y salud en el trabajo" },
+    { "description": "Evaluación de desempeño" },
+    { "description": "Desempeño profesional" },
+    { "description": "Turnos y tiempos extras" },
+    { "description": "Soluciones de gobierno" }
+  ]
   }
 }

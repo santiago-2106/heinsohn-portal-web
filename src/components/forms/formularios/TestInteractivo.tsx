@@ -93,6 +93,9 @@ export default function TestInteractivo({
                     <div key={index} className="relative border-b border-border-ui pb-1">
                       <label className="block text-text-body mb-0.5 text-[13px] md:text-[14px] transition-colors">
                         {field.label}
+                        {field.required && (
+                          <span className="text-brand-accent"> *</span>
+                        )}
                       </label>
                       <input
                         type="text"

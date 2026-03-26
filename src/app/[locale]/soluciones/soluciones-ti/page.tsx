@@ -22,15 +22,23 @@ export const metadata: Metadata = {
 
 export default function PageSolucionesTI() {
   const t = useTranslations("solucionesTi")
+  const tContacto = useTranslations("contactForm")
+
   const heroSolucionesTi = dataHeroSolucionesTi1(t)
 
   return (
     <>
-      <Hero {...heroSolucionesTi}/>
+      <Hero {...t.raw("dataHeroSolucionesTI")}/>
       <CardFinal />
-      <CardCases {...dataCardKnowOurWork} />
-      <Slider data={cardSlider1} />
-      <ContactForm title={undefined} />
+      <CardCases 
+      title={t("titlesSolucionesTi.title5")}
+      {...t.raw("cardConoceNuestroTrabajo")}
+      />
+      <Slider 
+      title={t("sliderSolucionesTi.title")}
+      data={t.raw("sliderSolucionesTi.items")}
+      />
+      <ContactForm title={tContacto("title")} />
     </>
   );
 }

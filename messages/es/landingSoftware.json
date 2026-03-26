@@ -1,37 +1,133 @@
 {
   "landingSoftware": {
-    "HeroLandingSoftware": {
+    "dataHeroLandingSoftware": {
       "title": "Software de nómina y planilla para todos los sectores",
-      "subtitle": "<>Reduce el error humano en un <span className=\"text-brand-accent\">40%</span> </>",
-      "description": "<>Con Heinsohn nómina encontrarás un software de nómina estratégico que brinda cumplimiento a la nómina electrónica frente a la DIAN.<br /><br />Nuestro software de nómina automatiza los cálculos salariales, genera reportes precisos, garantiza el cumplimiento de obligaciones legales y fiscales, y optimiza los procesos administrativos de gestión del personal.</>",
+      "subtitle": "Reduce el error humano en un <red>40%</red>",
+      "description": "Con Heinsohn nómina encontrarás un software de nómina estratégico que brinda cumplimiento a la nómina electrónica frente a la DIAN.<br /><br />Nuestro software de nómina automatiza los cálculos salariales, genera reportes precisos, garantiza el cumplimiento de obligaciones legales y fiscales, y optimiza los procesos administrativos de gestión del personal.",
       "buttonText": "Solicita una demo exclusiva",
-      "breadCrumb": [
+      "breadcrumb": [
         { "label": "Landing Software" },
         { "label": "Software de nómina y planilla para todos los sectores" }
       ]
     },
-    "titleLandingSoftware": {
-      "title": "Evita errores por procesos manuales en la liquidación de nómina.",
-      "description": "<>Cerca del <span className=\"text-brand-accent font-bold\">60%</span> de las empresas pierden tiempo excesivo o reportan ineficiencias críticas debido a la gestión manual de la nómina. Estos procesos manuales son la fuente principal de errores en cálculos de salarios, deducciones e impuestos.</>"
+
+    "titlesLandingSoftware": {
+      "titleLandingSoftware1": {
+        "title": "Clientes",
+        "description": "Organizaciones líderes que confían en nuestras soluciones para transformar sus operaciones y alcanzar nuevos niveles de excelencia."
+      },
+
+      "titleLandingSoftware2": {
+        "title": "Evita errores por procesos manuales en la liquidación de nómina.",
+        "description": "<>Cerca del <red>60%</red> de las empresas pierden tiempo excesivo o reportan ineficiencias críticas debido a la gestión manual de la nómina. Estos procesos manuales son la fuente principal de errores en cálculos de salarios, deducciones e impuestos."
+      },
+       "titleLandingSoftware3": {
+        "title": "Esto dicen nuestros clientes de software de nómina"
+      },
+      "titleLandingSoftware4": {
+        "title": "Casos de estudio"
+      },
+      "titleLandingSoftware5": {
+        "title": "Informacion de interes"
+      },
+      "titleMapaLandingSoftware": {
+        "title": "La mejor solución para tu operacion multinacional"
+      },
+
+      "titlePreguntasFrecuentes": {
+        "title": "Preguntas Frecuentes"
+      }
     },
-    "dataCardLandingSoftware": [
-      { "title": "Información en tableros Power BI" },
-      { "title": "Nomina electrónica Dian" },
-      { "title": "Soluciones de nómina 100% Web" },
-      { "title": "Autogestión para los colaboradores" },
-      { "title": "Avalado por la UGPP" },
-      { "title": "Módulo de vacaciones" },
-      { "title": "Distribución de costos" },
-      { "title": "Interfaz contable" },
-      { "title": "+ de 500 clientes utilizan nuestro software de nomina" },
-      { "title": "+40 años de experiencia en soluciones de nomina" }
+
+    "cardsBeneficionLandignSoftware": [
+      {"icon":"monitoring", "description": "Información en tableros Power BI" },
+      {"icon":"article_person", "description": "Nomina electrónica Dian" },
+      {"icon":"devices_other", "description": "Soluciones de nómina 100% Web" },
+      {"icon":"person_raised_hand", "description": "Autogestión para los colaboradores" },
+      {"icon":"add_task", "description": "Avalado por la UGPP" },
+      {"icon":"beach_access", "description": "Módulo de vacaciones" },
+      {"icon":"receipt_long", "description": "Distribución de costos" },
+      {"icon":"data_object", "description": "Interfaz contable" },
+      {"icon":"business_center", "description": "+ de 500 clientes utilizan nuestro software de nomina" },
+      {"icon":"rocket_launch", "description": "+40 años de experiencia en soluciones de nomina" }
     ],
     "dataLandignSoftwareTexts": [
       { "titleLanding": "13", "descriptionLanding": "Presencia paises" },
-      { "titleLanding": "<>48<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Años de experiencia" },
-      { "titleLanding": "<>100<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Plataformas web" },
-      { "titleLanding": "<>95<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Satisfaccion" }
+      { "titleLanding": "48","prefix": "+", "descriptionLanding": "Años de experiencia" },
+      { "titleLanding": "100","prefix": "%", "descriptionLanding": "Plataformas web" },
+      { "titleLanding": "95", "prefix": "%","descriptionLanding": "Satisfaccion" }
     ],
+
+    "sliderLandingSoftware": [
+      {
+      "companyLogo": "/img/coordinadora-logo.png",
+      "companyName": "Coordinadora",
+      "name": "Gustavo Alberto Gaviria",
+      "role": "Jefe de Nómina Nacional",
+      "text": "Heinsohn, como proveedores de software, nos ha brindado la confianza de que el sistema cumple con todas las reglamentaciones legales y las necesidades propias de la empresa."
+      },
+      {
+      "companyLogo": "/img/fundacion-logo.png",
+      "companyName": "Fundación Santa Fe",
+      "name": "Camila Peñaliza Lopera",
+      "role": "Gerente de Nómina",
+      "text": "Felicita a Heinsohn por la calidad de sus servicios; está muy contenta con el producto y con los consultores que la acompañan."
+      }
+    ],
+
+    "cardsCasosEstudio": [{
+      "title": "Transformación digital en el sector financiero",
+      "description": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+      "image": "/img/edif.jpg",
+      "btnTextos":"Conoce el caso completo"
+    }],
+
+    "sliderLandingSoftware2": [
+    {
+      "id": 1,
+      "title": "La innovación como motor de transformación digital",
+      "description": "Descubre cómo las organizaciones están utilizando nuestras soluciones para lograr mayor eficiencia, competitividad y crecimiento sostenible.",
+      "image": "/img/imgSlider.png",
+      "reverse": true,
+      "btnTextSlider": "Leer más"
+    },
+    {
+      "id": 2,
+      "title": "Impactos de la reforma laboral en Colombia",
+      "description": "Análisis detallado de los principales cambios introducidos por la reforma laboral y su impacto directo en la gestión de nómina y prestaciones sociales.",
+      "image": "/img/noticias-interes.jpg",
+      "reverse": true,
+      "btnTextSlider": "Leer más"
+    }
+  ],
+
+  "preguntasFrecuentesLista": [
+    {
+      "question": "¿Qué beneficios ofrece un software de nómina para mi empresa?",
+      "answer": "Un software de nómina automatiza el cálculo de salarios, reduce errores operativos, asegura el cumplimiento normativo y mejora la eficiencia en la gestión del talento humano, permitiendo a tu empresa ahorrar tiempo y recursos."
+    },
+    {
+      "question": "¿Cómo puedo elegir el mejor software de nómina para mi empresa?",
+      "answer": "Debes evaluar factores como el tamaño de tu empresa, cumplimiento legal, facilidad de uso, capacidad de integración con otros sistemas y soporte técnico. Un buen software debe adaptarse a tus necesidades actuales y futuras."
+    },
+    {
+      "question": "¿Es seguro almacenar información confidencial en un software de nómina?",
+      "answer": "Sí, siempre que el software cumpla con estándares de seguridad como cifrado de datos, control de accesos y respaldo de información. Las soluciones modernas garantizan la protección de datos sensibles de empleados y empresa."
+    },
+    {
+      "question": "¿Qué implica la nómina electrónica?",
+      "answer": "La nómina electrónica es un sistema digital obligatorio en algunos países que permite reportar los pagos de nómina a las entidades fiscales, garantizando transparencia, trazabilidad y cumplimiento tributario."
+    },
+    {
+      "question": "¿Cuándo debo empezar a usar la nómina electrónica?",
+      "answer": "Debes implementarla según el calendario establecido por la autoridad fiscal de tu país. Es recomendable adoptarla lo antes posible para evitar sanciones y optimizar los procesos internos."
+    },
+    {
+      "question": "¿Puedo utilizar Heinsohn para gestionar mi nómina electrónica?",
+      "answer": "Sí, Heinsohn ofrece soluciones especializadas que permiten gestionar la nómina electrónica de forma eficiente, cumpliendo con la normativa vigente y facilitando la integración con otros procesos empresariales."
+    }
+  ],
+
     "dataCardCasosEstudio": [
       {
         "title": "Transformación digital en el sector financiero",
