@@ -16,6 +16,8 @@ const createNumberIcon = (number: string, badgeText: string) => (
   </div>
 );
 
+export default createNumberIcon;
+
 // ==========================================
 // 2. DATA PRINCIPAL: SOLUCIONES SAP
 // ==========================================

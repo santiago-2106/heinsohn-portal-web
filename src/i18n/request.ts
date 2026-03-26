@@ -16,6 +16,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const contactForm = (await import(`../../messages/${locale}/contactForm.json`)).default;
   const strategicConsulting = (await import(`../../messages/${locale}/strategicConsulting.json`)).default;
   const desarrolloAMedida = (await import(`../../messages/${locale}/desarrolloAMedida.json`)).default;
+  const desarrollo_UX_UI= (await import(`../../messages/${locale}/desarrolloUxUi.json`)).default;
+  const solucionesFinancieras= (await import(`../../messages/${locale}/financiera.json`)).default;
+  const solucionesSap= (await import(`../../messages/${locale}/solucionesSap.json`)).default;
+  const gestionHumana= (await import(`../../messages/${locale}/gestionHumana.json`)).default;
+  const landingSoftware= (await import(`../../messages/${locale}/landingSoftware.json`)).default;
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
   return {
     locale,
@@ -25,6 +30,11 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...contactForm,
       ...strategicConsulting,
       ...desarrolloAMedida,
+      ...desarrollo_UX_UI,
+      ...solucionesFinancieras,
+      ...solucionesSap,
+      ...gestionHumana,
+      ...landingSoftware,
       ...footer,
       ...navbar
     }

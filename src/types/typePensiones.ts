@@ -26,13 +26,13 @@ export interface ResultsCorporativoProps {
 }
 
 export interface FaqAnswer {
-  descriptions: string;
+  descriptions: string; //Luego quitarlo o dejarlo
   listsItems?: string[];
 }
 
 export interface FaqItem {
   question: string;
-  answer: FaqAnswer;
+  answer: FaqAnswer; //Mirar luego cambiar por string para algo
 }
 
 export interface FaqSection {

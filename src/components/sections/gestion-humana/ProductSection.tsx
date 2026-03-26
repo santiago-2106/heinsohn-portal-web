@@ -4,22 +4,28 @@ import ProductRow from "../../ui/cards/CardProductRow";
 import TextComponent from "../../ui/typography/TextComponent";
 import { textoGestionHumana4 } from "../../../data/soluciones/share/textosGenerales";
 import CertificacionesInternacionales from "../shared/certificaciones/CertificacionesInternacionales";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export default function CardProductSection() {
+  const t = useTranslations("gestionHumana")
+
+  const productosCards = t.raw("ProductosgestionHumana")
+
   return (
     <section className="py-20">
       <div className="mx-auto max-w-5xl px-10 space-y-32">
-        <TextComponent title="Productos" />
-        {ProductsgestionHumanaInfo2.map((item, index) => (
+        <TextComponent title={t("titlesGestionHumana.titleGestionHumana6.title")}/>
+        {productosCards.map((item:any, index:number) => (
           <ProductRow key={index} product={item} reverse={index % 2 !== 0} />
         ))}
       </div>
       <div className="mt-36">
         <TextComponent
-          title={textoGestionHumana4.title}
-          description={textoGestionHumana4.description}
+          title={t("titlesGestionHumana.titleGestionHumana7.title")}
+          description={t.rich("titlesGestionHumana.titleGestionHumana7.description", richText)}
         />
-        <CertificacionesInternacionales title="Certificaciones Internacionales" />
+        <CertificacionesInternacionales title={t("titlesGestionHumana.titleGestionHumana8.title")} />
       </div>
     </section>
   );

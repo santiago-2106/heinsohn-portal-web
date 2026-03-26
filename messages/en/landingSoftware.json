@@ -1,37 +1,135 @@
 {
   "landingSoftware": {
-    "HeroLandingSoftware": {
+    "dataHeroLandingSoftware": {
       "title": "Payroll and settlement software for all sectors",
-      "subtitle": "<>Reduce human error by <span className=\"text-brand-accent\">40%</span> </>",
-      "description": "<>With Heinsohn payroll you will find a strategic payroll software that provides compliance with electronic payroll to the DIAN.<br /><br />Our payroll software automates salary calculations, generates precise reports, ensures compliance with legal and tax obligations, and optimizes administrative personnel management processes.</>",
+      "subtitle": "Reduce human error by <red>40%</red> ",
+      "description": "With Heinsohn payroll you will find a strategic payroll software that provides compliance with electronic payroll to the DIAN.<br /><br />Our payroll software automates salary calculations, generates precise reports, ensures compliance with legal and tax obligations, and optimizes administrative personnel management processes.",
       "buttonText": "Request an exclusive demo",
-      "breadCrumb": [
+      "breadcrumb": [
         { "label": "Landing Software" },
         { "label": "Payroll and settlement software for all sectors" }
       ]
     },
-    "titleLandingSoftware": {
-      "title": "Avoid errors due to manual processes in payroll settlement.",
-      "description": "<>About <span className=\"text-brand-accent font-bold\">60%</span> of companies waste excessive time or report critical inefficiencies due to manual payroll management. These manual processes are the main source of errors in salary, deduction, and tax calculations.</>"
+
+    "titlesLandingSoftware": {
+      "titleLandingSoftware1": {
+        "title": "Clients",
+        "description": "Leading organizations that rely on our solutions to transform their operations and reach new levels of excellence."
+      },
+      
+      "titleLandingSoftware2": {
+        "title": "Avoid errors due to manual processes in payroll settlement.",
+        "description": "About <red>60%</red> of companies waste excessive time or report critical inefficiencies due to manual payroll management. These manual processes are the main source of errors in salary, deduction, and tax calculations."
+      },
+      "titleLandingSoftware3": {
+        "title": "This is what our payroll software customers are saying"
+      },
+      "titleLandingSoftware4": {
+        "title": "Case studies"
+      },
+      "titleLandingSoftware5": {
+        "title": "Information of interest"
+      },
+       "titleMapaLandingSoftware": {
+        "title": "The best solution for your multinational operation"
+      },
+
+      "titlePreguntasFrecuentes": {
+        "title": "Frequently Asked Questions"
+      }
     },
-    "dataCardLandingSoftware": [
-      { "title": "Information on Power BI dashboards" },
-      { "title": "DIAN electronic payroll" },
-      { "title": "100% Web payroll solutions" },
-      { "title": "Self-management for employees" },
-      { "title": "Endorsed by UGPP" },
-      { "title": "Vacation module" },
-      { "title": "Cost distribution" },
-      { "title": "Accounting interface" },
-      { "title": "Over 500 clients use our payroll software" },
-      { "title": "+40 years of experience in payroll solutions" }
+
+    "cardsBeneficionLandignSoftware": [
+      { "icon":"monitoring", "description": "Information on Power BI dashboards" },
+      { "icon":"article_person", "description": "DIAN electronic payroll" },
+      { "icon":"devices_other", "description": "100% Web payroll solutions" },
+      { "icon":"person_raised_hand", "description": "Self-management for employees" },
+      { "icon":"add_task", "description": "Endorsed by UGPP" },
+      { "icon":"beach_access", "description": "Vacation module" },
+      { "icon":"receipt_long", "description": "Cost distribution" },
+      { "icon":"data_object", "description": "Accounting interface" },
+      { "icon":"business_center", "description": "Over 500 clients use our payroll software" },
+      { "icon":"rocket_launch", "description": "+40 years of experience in payroll solutions" }
     ],
     "dataLandignSoftwareTexts": [
       { "titleLanding": "13", "descriptionLanding": "Countries present" },
-      { "titleLanding": "<>48<span className=\"text-brand-accent\">+</span></>", "descriptionLanding": "Years of experience" },
-      { "titleLanding": "<>100<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Web platforms" },
-      { "titleLanding": "<>95<span className=\"text-brand-accent\">%</span></>", "descriptionLanding": "Satisfaction" }
+      { "titleLanding": "48","prefix": "+", "descriptionLanding": "Years of experience" },
+      { "titleLanding": "100","prefix": "%", "descriptionLanding": "Web platforms" },
+      { "titleLanding": "95", "prefix": "%", "descriptionLanding": "Satisfaction" }
     ],
+
+    "sliderLandingSoftware": [
+      {
+      "companyLogo": "/img/coordinadora-logo.png",
+      "companyName": "Coordinadora",
+      "name": "Gustavo Alberto Gaviria",
+      "role": "National Payroll Manager",
+      "text": "Heinsohn, as a software provider, has given us confidence that the system complies with all legal regulations and the company's specific requirements."
+      },
+      {
+      "companyLogo": "/img/fundacion-logo.png",
+      "companyName": "Fundación Santa Fe",
+      "name": "Camila Peñaliza Lopera",
+      "role": "Payroll Manager",
+      "text": "She congratulates Heinsohn for the quality of its services and is very satisfied with the product and the consultants supporting her."
+      }
+    ],
+
+    "cardsCasosEstudio": [
+      {
+    "id": 1,
+    "title": "Digital transformation in the financial sector",
+    "description": "We implemented a custom digital platform that improved customer experience and reduced operational times by 40%.",
+    "image": "/img/edif.jpg",
+    "btnTextos":"Learn about the full case"
+  }],
+
+  "sliderLandingSoftware2": [
+    {
+      "id": 1,
+      "title": "Innovation as a driver of digital transformation",
+      "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+      "image": "/img/imgSlider.png",
+      "reverse": true,
+      "btnTextSlider": "Read more"
+    },
+    {
+      "id": 2,
+      "title": "Impact of labor reform in Colombia",
+      "description": "A detailed analysis of the main changes introduced by the labor reform and its direct impact on payroll management and employee benefits.",
+      "image": "/img/noticias-interes.jpg",
+      "reverse": true,
+      "btnTextSlider": "Read more"
+    }
+  ],
+
+  "preguntasFrecuentesLista": [
+    {
+      "question": "What benefits does payroll software offer for my company?",
+      "answer": "Payroll software automates salary calculations, reduces operational errors, ensures regulatory compliance, and improves efficiency in human resource management, helping your company save time and resources."
+    },
+    {
+      "question": "How can I choose the best payroll software for my company?",
+      "answer": "You should evaluate factors such as company size, legal compliance, ease of use, integration capabilities with other systems, and technical support. A good solution should adapt to your current and future needs."
+    },
+    {
+      "question": "Is it safe to store confidential information in payroll software?",
+      "answer": "Yes, as long as the software complies with security standards such as data encryption, access control, and backups. Modern solutions ensure the protection of sensitive employee and company data."
+    },
+    {
+      "question": "What does electronic payroll imply?",
+      "answer": "Electronic payroll is a digital system, mandatory in some countries, that allows companies to report payroll payments to tax authorities, ensuring transparency, traceability, and tax compliance."
+    },
+    {
+      "question": "When should I start using electronic payroll?",
+      "answer": "You must implement it according to the schedule established by your country's tax authority. It is recommended to adopt it as soon as possible to avoid penalties and optimize internal processes."
+    },
+    {
+      "question": "Can I use Heinsohn to manage my electronic payroll?",
+      "answer": "Yes, Heinsohn provides specialized solutions that allow you to efficiently manage electronic payroll, comply with current regulations, and integrate with other business processes."
+    }
+  ],
+
     "dataCardCasosEstudio": [
       {
         "title": "Digital transformation in the financial sector",

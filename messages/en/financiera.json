@@ -7,9 +7,10 @@
       "faqTitulo": "Frequently asked questions about financial software",
       "contactoTitulo": "<>Transform the financial<br className=\"hidden md:block\" />management of your company</>"
     },
-    "dataFinanzas": {
-      "title": "<> Solutions for the financial <br className=\"hidden md:block\" /> sector </>",
-      "description": "<> We have a <strong className=\"font-bold text-text-title\">specialized software portfolio for banking, fintechs, insurers, and non-bank entities</strong> that seek to lead the digital transformation of the financial sector in LATAM. Our solutions allow managing credits, financial obligations, investment funds, and portfolios with total efficiency, security, and regulatory compliance. </>",
+
+    "dataHeroFinanzas": {
+      "title": "Solutions for the financial sector ",
+      "description": "We have a <bold>specialized software portfolio for banking, fintechs, insurers, and non-bank entities</bold> that seek to lead the digital transformation of the financial sector in LATAM. Our solutions allow managing credits, financial obligations, investment funds, and portfolios with total efficiency, security, and regulatory compliance. ",
       "buttonText": "Request a free consultation",
       "breadcrumb": [
         { "label": "Solutions" },
@@ -17,45 +18,70 @@
       ],
       "badges": [
         { "prefix": "+", "highlight": "40", "text": "years of experience" },
-        { "prefix": "+", "highlight": "1,200", "text": "clients in LATAM" }
+        { "prefix": "+", "highlight": "1.200", "text": "clients in LATAM" }
       ]
     },
-    "entitiesData": {
-      "title": "<>What financial entities in the region<br className=\"hidden md:block\" />face today</>"
+
+    "titlesFinanciera": {
+      "EntidadesFinancierasRegion": {
+        "title": "What financial entities in the region face today",
+        "description": "The financial industry in Latin America is experiencing a decisive moment. Digitalization, regulatory pressure, and the irruption of new actors are transforming the way banks, fintechs, insurers, and non-bank entities operate. <bold>These are some of the most urgent challenges:</bold>",
+        "footerRetos": "Understanding these challenges is the first step to turning them into opportunities. Therefore, having specialized, secure, and scalable software is key to transforming these challenges into growth opportunities",
+        "btnRetos": "Discover how we face these challenges in LATAM"
+      },
+      "SolucionesTecnologicas": {
+        "title": "Technological solutions for loans, funds and investments"
+      },
+     "ExperienciaCifras": {
+        "title": "Our experience in numbers"
+      },
+      "CertificacionesInternacionales": {
+        "title": "International certifications"
+      },
+      "preguntasFrecuentes": {
+        "title": "Frequently Asked Questions"
+      },
+       "ContactForm": {
+        "title": "Transform your company's financial management"
+      }
     },
-    "introRetos": {
-      "description": "<>The financial industry in Latin America is experiencing a decisive moment. Digitalization, regulatory pressure, and the irruption of new actors are transforming the way banks, fintechs, insurers, and non-bank entities operate.<strong>These are some of the most urgent challenges:</strong></>"
-    },
-    "footerRetos": "Understanding these challenges is the first step to turning them into opportunities. Therefore, having specialized, secure, and scalable software is key to transforming these challenges into growth opportunities",
-    "btnRetos": "Discover how we face these challenges in LATAM",
-    "financialChallengesCards": [
+
+      "cardsEntidadesFinancieras":[
       {
-        "title": "Digital payments on the rise",
+        "icon":"credit_card",
+        "title":"Digital payments on the rise",
         "description": "More than $111 billion in digital transactions reported last year."
       },
       {
+        "icon":"add_shopping_cart",
         "title": "Open Finance expanding",
         "description": "Brazil expects 60 million Open Finance accounts, setting a trend."
       },
       {
+        "icon":"card_travel",
         "title": "Digitalization in Colombia",
         "description": "More than 36 million adults had financial products in 2024."
       },
       {
+        "icon":"add_moderator",
         "title": "Cybersecurity at the forefront",
         "description": "70% of organizations prioritize cybersecurity against new challenges."
       },
       {
+        "icon":"robot_2",
         "title": "AI and automation",
         "description": "Reduce operational human intervention to raise the expectation of innovation."
       },
       {
+        "icon":"price_change",
         "title": "Fintech competencies",
         "description": "Tomorrow, 2,763 fintechs are expected, creating a competitive ecosystem."
       }
     ],
-    "financialSolutionsCards": [
+
+    "cardsSolucionesTecnologicas": [
       {
+        "icon": "car_tag",
         "title": "Credit and Payroll Loans Management",
         "description": "Credit and payroll loan administration software that manages the complete cycle: from the application to the final payment.",
         "items": [
@@ -66,6 +92,7 @@
         "btn": "Get to know the Credit and Payroll Loans solution ->"
       },
       {
+        "icon": "finance_chip",
         "title": "Financial Obligations",
         "description": "Specialized software in financial obligations that provides total portfolio visibility and ensures regulatory compliance.",
         "items": [
@@ -76,6 +103,7 @@
         "btn": "Explore the Financial Obligations solution ->"
       },
       {
+        "icon": "folder_code",
         "title": "Software for Collective Investment Funds (FICs)",
         "description": "Comprehensive platform for the administration of Collective Investment Funds, designed to respond to business growth under specific regulations.",
         "items": [
@@ -86,6 +114,7 @@
         "btn": "Discover our solution for FICs ->"
       },
       {
+        "icon": "price_change",
         "title": "Portfolio and Investment Administrator Software – MIDAS",
         "description": "Comprehensive investment and risk management platform, covering from Front Office to Back Office.",
         "items": [
@@ -96,25 +125,93 @@
         "btn": "Learn how to optimize your portfolios ->"
       }
     ],
-    "experienceStatsData": [
+
+ 
+  "cardResultados": {
+    "title": "Results that demonstrate our experience in the financial sector",
+    "mainStat": {
+      "icon": "rocket_launch",
+      "title": "Proven experience",
+      "prefix": "+",
+      "number": "40",
+      "text": "years developing financial software in LATAM."
+    },
+    "benefits": [
+      {
+        "icon": "gavel",
+        "title": "Regulatory compliance",
+        "description": "Agile response to regulatory changes."
+      },
+      {
+        "icon": "local_offer",
+        "title": "Cost reduction",
+        "description": "Automated processes that optimize resources."
+      },
+      {
+        "icon": "local_police",
+        "title": "Scalability and security",
+        "description": "100% web-based architecture, cloud or on-premise."
+      },
+      {
+        "icon": "error",
+        "title": "Specialized support",
+        "description": "Support throughout implementation and operation."
+      }
+    ],
+    "button": {
+      "text": "Talk to a specialist about your financial management",
+      "href": "/contact"
+    }
+  },
+
+    "cardsExperienciaCifras": [
       {
         "title": "Massive coverage",
-        "description": "<>Our solutions support the administration of millions of affiliates and billions of dollars in assets in <strong className=\"font-bold text-text-title\">pension funds, FICs, and investments.</strong></>"
+        "description": "Our solutions support the administration of millions of affiliates and billions of dollars in assets in <bold>pension funds, FICs, and investments.</bold>"
       },
       {
         "title": "Complex markets",
-        "description": "<>Proven experience in highly regulated sectors in <strong className=\"font-bold text-text-title\">Colombia, Peru, Bolivia, El Salvador, Honduras, Panama, Argentina, Uruguay, among others.</strong></>"
+        "description": "Proven experience in highly regulated sectors in <bold>Colombia, Peru, Bolivia, El Salvador, Honduras, Panama, Argentina, Uruguay, among others.</bold>"
       },
       {
         "title": "Sustained trust",
-        "description": "<><strong className=\"font-bold text-text-title\">More than 1,200 financial</strong> entities and active insurers in LATAM and the Caribbean that use our platforms.</>"
+        "description": "<bold>More than 1,200 financial</bold> entities and active insurers in LATAM and the Caribbean that use our platforms."
       },
       {
         "title": "Tangible results",
-        "description": "<>Reduction of operational costs, improvements in traceability and regulatory compliance in <strong className=\"font-bold text-text-title\">large-scale projects.</strong></>"
+        "description": "Reduction of operational costs, improvements in traceability and regulatory compliance in <bold>large-scale projects.</bold>"
       }
     ],
-    "financialFaqData": [
+
+    "cardConoceNuestroTrabajo": {
+      "imgKnowOurWork":"/img/edif.jpg",
+      "title":"Learn about our work",
+      "titleWork": "Banking Success Story",
+      "descriptionWork": "We implemented a comprehensive solution that reduced response times by 40%.",
+      "textBtn": "Read full case"
+    },
+
+  "sliderBlogDestacadoFinanciera": {
+    "title": "Featured Blog",
+    "items": [
+      {
+        "id": 1,
+        "img": "/img/imgSlider.png",
+        "title": "Innovation as a driver of digital transformation",
+        "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+        "btn": "Read more"
+      },
+      {
+        "id": 2,
+        "img": "/img/slider2Blog.jpg",
+        "title": "UX trends shaping the future of digital design",
+        "description": "Explore how personalization, inclusive design, and microinteractions are changing the way...",
+        "btn": "Read more"
+      }
+    ]
+  },
+
+    "preguntasFrecuentesLista": [
       {
         "question": "What benefits does the credit and payroll loan software offer?",
         "answer": "Our software automates the entire credit lifecycle, from origination to collection. It reduces approval times, minimizes operational errors through automatic validations, and offers a 360° view of the customer to improve decision-making."

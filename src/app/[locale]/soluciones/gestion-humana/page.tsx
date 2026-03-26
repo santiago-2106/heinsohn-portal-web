@@ -9,7 +9,8 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 import TextTeam from "@/src/components/sections/soluciones-digitales/TeamSection";
 
 // Data Centralizada
-import { infoGestionHumanaHero } from "@/src/data/soluciones/gestion-humana";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -19,13 +20,16 @@ export const metadata: Metadata = {
 };
 
 export default function GestionHumanaPage() {
+
+  const t = useTranslations("gestionHumana")
+
   return (
     <>
       <Hero
-        title={infoGestionHumanaHero.title}
-        description={infoGestionHumanaHero.description}
-        buttonText={infoGestionHumanaHero.buttonText}
-        breadcrumb={infoGestionHumanaHero.breadcrumb}
+        title={t("dataHeroGestionHumana.title")}
+        description={t.rich("dataHeroGestionHumana.description", richText)}
+        buttonText={t("dataHeroGestionHumana.buttonText")}
+        breadcrumb={t.raw("dataHeroGestionHumana.breadcrumb")}
         showImage={false}
       />
       

@@ -1,39 +1,71 @@
 {
   "desarrolloUxUi": {
-    "dataUXConsultorias": {
-      "title": "Consultoría UX-UI Diseño y desarrollo de<br/> experiencias de usuario",
-      "description": "<span className=\"font-bold text-text-title\">Creamos experiencias digitales</span> centradas en las personas, con interfaces funcionales, atractivas y accesibles.",
+    "dataHeroDesarrolloUX": {
+      "title": "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario",
+      "description": "<bold>Creamos experiencias digitales</bold> centradas en las personas, con interfaces funcionales, atractivas y accesibles.",
       "buttonText": "Solicita una asesoría gratuita",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario" }
       ]
     },
-    "dataTextDesarrolloUx": {
-      "title": "Diseñamos experiencias memorables",
-      "description": "En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <span className=\"font-bold text-text-title\">Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</span> logrando mayor satisfacción y eficiencia en cada interacción."
+
+    "titleIdentificaErrores": {
+      "title": "Identifica los errores de UX que están frenando tu negocio",
+      "description": "Analiza la UX de tu web en  <bold>60 segundos</bold> a partir de screenshosts reales de tu sitio.",
+      "subtitle": "Conoce como se ve en un diagnostico UX"
     },
-    "dataTextCards": {
+
+    "btnImagesUrl": {
+      "upload": "Cargar imágenes",
+      "url": "Proporcionar URL"
+    },
+
+  "uploadImgsUrl": {
+    "upload": {
+      "title": "Arrastra o <upload>carga las imágenes</upload> de tu web aquí",
+      "formats": "Aceptamos imágenes en JPG, PNG o WEBP, con un peso máximo de 5 MB por archivo.",
+      "cta": "Iniciar análisis"
+    },
+      "url": {
+        "placeholder": "Ingresa la URL de tu sitio web",
+        "cta": "Analizar sitio"
+      }
+    },
+
+    "titleDiseñoExperiencias": {
+      "title": "Diseñamos experiencias memorables",
+      "description": "En Heinsohn combinamos diseño estratégico, investigación de usuarios y tecnología para crear productos digitales que realmente conectan con las personas. <bold>Nuestro enfoque UX/UI garantiza soluciones intuitivas, usables y alineadas con los objetivos de negocio,</bold> logrando mayor satisfacción y eficiencia en cada interacción."
+    },
+    "titleNuestrasOfertas": {
       "title": "Nuestras Ofertas",
       "description": "Elige el plan que mejor se adapte a las necesidades de tu empresa. Diseñamos tres paquetes con diferentes alcances y precios, pensados para brindarte flexibilidad, escalabilidad y el acompañamiento ideal en cada etapa de tu crecimiento."
     },
-    "dataTextTitle": {
+    "titleVozNuestroEquipo": {
       "title": "La voz de nuestro Equipo",
       "description": "El diseño va más allá de lo visual, se trata de entender profundamente al usuario y traducir sus necesidades en experiencias digitales que les hagan la vida más fácil. Ese es nuestro propósito en cada proyecto."
     },
+    "liderUxHeinsohn": {
+      "description": "Lider UX en Heinsohn"
+    },
+
     "informationCard": [
       {
+        "icon":"family_star",
         "titles": "Basico",
         "subtitle": [
           {
+            "icon":"sync_saved_locally",
             "text": "Prototipo Rapido",
             "features": ["Angular, React", "Hasta 5 flujos de 1 a 50 pantallas"]
           },
           {
+            "icon":"display_settings",
             "text": "Prueba de uso",
             "features": ["Prueba con 5 a 10 usuarios sinteticos"]
           },
           {
+            "icon":"acute",
             "text": "Tiempo",
             "features": ["16 horas -1 especialista UX."]
           }
@@ -41,17 +73,21 @@
         "price": "$500 USD"
       },
       {
+        "icon":"crown",
         "titles": "Intermedio",
         "subtitle": [
           {
+            "icon":"sync_saved_locally",
             "text": "Prototipo Rapido",
             "features": ["Angular, React", "Hasta 10 flujos de 1 a 100 pantallas"]
           },
           {
+            "icon":"display_settings",
             "text": "Prueba de uso",
             "features": ["Prueba con 5 a 10 usuarios sinteticos"]
           },
           {
+            "icon":"acute",
             "text": "Tiempo",
             "features": ["32 horas -1 especialista UX."]
           }
@@ -59,17 +95,21 @@
         "price": "$1000 USD"
       },
       {
+        "icon":"diamond",
         "titles": "Pro",
         "subtitle": [
           {
+            "icon":"sync_saved_locally",
             "text": "Prototipo Rapido",
             "features": ["Angular, React", "mas de 10 flujos de 101 a 200 pantallas"]
           },
           {
+            "icon":"display_settings",
             "text": "Prueba de uso",
             "features": ["Prueba con 5 a 10 usuarios sinteticos"]
           },
           {
+            "icon":"acute",
             "text": "Tiempo",
             "features": ["48 horas -1 especialista UX."]
           }
@@ -77,32 +117,69 @@
         "price": "$2000 USD"
       }
     ],
-    "dataCardKnowOurWork2": {
+    "cardConoceNuestroTrabajo": {
+      "title":"Conoce nuestro trabajo",
       "titleWork": "Transformación de una plataforma de servicios de salud",
       "descriptionWork": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
       "textBtn": "Descubre cómo lo hicimos"
     },
-    "softwareCards": [
-      {
-        "title": "Desarrollo de aplicaciones moviles y web",
-        "description": "soluciones intuitivas para todo tipo de dispositivos",
-        "btn": "Ver soluciones"
-      },
-      {
-        "title": "Desarollo de software",
-        "description": "productos a la medida de cada necesidad empresarial",
-        "btn": "Solicitar desarrollo"
-      },
-      {
-        "title": "Desarrollo software cloud",
-        "description": "aplicaciones seguras, flexibles y con alto rendimiento en la nube.",
-        "btn": "Ver mas"
-      },
-      {
-        "title": "Modernizacion de aplicaciones de software",
-        "description": "actualización tecnológica que prolonga la vida útil y aumenta la eficiencia.",
-        "btn": "Actualizar ahora"
-      }
-    ]
+
+    
+    "sliderBlogDestacado": {
+      "title": "Blog Destacado",
+      "items": [
+        {
+          "id": 1,
+          "img": "/img/slider2Blog.jpg",
+          "title": "Tendencias UX que marca el futuro del diseño digital",
+          "description": "Explora cómo la personalización, el diseño inclusivo y las microinteracciones están cambiando la forma en que las...",
+          "btn": "Leer más"
+        },
+        {
+          "id": 2,
+          "img": "/img/imgSlider.png",
+          "title": "La innovación como motor de transformación digital",
+          "description": "Descubre como las organizaciones estan utilizando nuestras soluciones para lograr mayor eficiencia, competividad y crecimiento sostenible.",
+          "btn": "Leer más"
+        },
+        {
+          "id": 3,
+          "img": "/img/imgSlider.png",
+          "title": "La innovación como motor de transformación digital",
+          "description": "Descubre como las organizaciones estan utilizando nuestras soluciones para lograr mayor eficiencia, competividad y crecimiento sostenible",
+          "btn": "Leer más"
+        }
+      ]
+    },
+    
+    "sliderProductosRelacionados": {
+      "title": "Productos relacionados",
+      "cards": [
+        {
+          "icon": "devices",
+          "title": "Desarrollo de aplicaciones móviles y web",
+          "description": "Soluciones intuitivas para todo tipo de dispositivos",
+          "btn": "Ver soluciones"
+        },
+        {
+          "icon": "data_object",
+          "title": "Desarrollo de software",
+          "description": "Productos personalizados adaptados a cada necesidad del negocio",
+          "btn": "Solicitar desarrollo"
+        },
+        {
+          "icon": "cloud_queue",
+          "title": "Desarrollo de software en la nube",
+          "description": "Aplicaciones seguras, flexibles y de alto rendimiento en la nube",
+          "btn": "Saber más"
+        },
+        {
+          "icon": "developer_mode",
+          "title": "Modernización de aplicaciones de software",
+          "description": "Actualización tecnológica que extiende la vida útil y mejora la eficiencia",
+          "btn": "Actualizar ahora"
+        }
+      ]
+    }
   }
 }
