@@ -2,15 +2,15 @@ import React from "react";
 
 export interface HighlightCorporativo {
   icon?: React.ReactNode;
-  value: string;
+  value: React.ReactNode;
   suffix?: string;
-  description: string;
+  description: React.ReactNode;
 }
 
 export interface MetricItem {
   icon?: React.ReactNode;
   id: string;
-  value?: string;
+  value?: React.ReactNode;
   suffix?: string;
   description: React.ReactNode;
 }

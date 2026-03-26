@@ -7,6 +7,11 @@ type ExtendedProps = Omit<cardPropsInformation, "title" | "description"> & {
   title: string | React.ReactNode;
   description?: string | React.ReactNode;
   topBadge?: ReactNode;
+
+  topBadge?: string;
+  // Añadimos esta propiedad opcional para controlar la alineación a futuro
+  alignHeader?: "left" | "center"; 
+
 };
 
 export default function CardAnuncies({
@@ -17,42 +22,42 @@ export default function CardAnuncies({
   bottomText,
   bottomBtn,
   topBadge,
+  alignHeader = "center", // Si no se le pasa nada, por defecto centra (no rompe otras vistas)
 }: ExtendedProps) {
+  
+  // Condicionamos las clases dependiendo de lo que se elija
+  const alignClass = alignHeader === "left" ? "text-left items-start" : "text-center items-center";
+  const descClass = alignHeader === "left" ? "w-full" : "mx-auto max-w-3xl";
+
   return (
     <section className="bg-bg-main py-12 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-7xl px-6 md:px-12 xl:px-24">
         
-        {/* ENCABEZADO DE LA SECCIÓN */}
-        <div className="mb-12 text-center">
+        {/* ENCABEZADO DE LA SECCIÓN (Ahora es flexible) */}
+        <div className={`mb-12 flex flex-col ${alignClass}`}>
           {topBadge && (
-            <span className="block mx-auto w-max bg-text-title text-bg-main text-[11px] font-bold px-4 py-1.5 tracking-wide mb-6">
+            <span className="block w-max bg-text-title text-bg-main text-[11px] font-bold px-4 py-1.5 tracking-wide mb-6">
               {topBadge}
             </span>
           )}
 
-          <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6">
+          <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6 w-full">
             {title}
           </h2>
 
           {description && (
-            <div className="mx-auto max-w-3xl text-base text-text-body leading-relaxed">
+            <div className={`text-base text-text-body leading-relaxed ${descClass}`}>
               {description}
             </div>
           )}
         </div>
 
-        {/* GRILLA DE TARJETAS (Usando tu CardGrid original) */}
+        {/* GRILLA DE TARJETAS */}
         <CardGrid columns={cols}>
           {cards.map((card: any, index: number) => {
-            
             return (
-              /* AQUÍ ESTÁ LA SOLUCIÓN:
-                 Le pasamos la clase card.colSpan al div padre para que se estire (md:col-span-2).
-                 No necesitamos alterar la tarjeta por dentro, el componente Card original ya pone el 05 arriba.
-              */
               <div key={index} className={`relative h-full ${card.colSpan || ""}`}>
                 
-                {/* DISEÑO NORMAL Y ÚNICO PARA TODAS LAS CARDS */}
                 <Card {...card} />
 
                 {/* Badge opcional superior derecho */}

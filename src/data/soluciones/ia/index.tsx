@@ -1,8 +1,5 @@
-import PaletteOutlinedIcon from "@mui/icons-material/PaletteOutlined";
-import Inventory2OutlinedIcon from "@mui/icons-material/Inventory2Outlined";
-import BoltOutlinedIcon from "@mui/icons-material/BoltOutlined";
-import PersonSearchOutlinedIcon from "@mui/icons-material/PersonSearchOutlined";
-import { IACardProps } from "@/src/types/typeIA";
+import React from "react";
+import { IACardProps } from "@/src/types/typeIA"; // Mantengo tu interfaz original
 
 // 1. DATA DEL HERO
 export const dataIaHero = {
@@ -11,9 +8,9 @@ export const dataIaHero = {
     <div className="flex flex-col gap-6">
       <p>
         Creamos soluciones de inteligencia artificial diseñadas para acelerar la
-        transformación digital de tu negocio. <strong>A través de IA generativa</strong>, 
+        transformación digital de tu negocio. <strong className="font-semibold text-text-title">A través de IA generativa</strong>, 
         procesamiento de lenguaje natural (PLN), visión por computadora y 
-        aprendizaje automático, <strong>ayudamos a las empresas a automatizar procesos, 
+        aprendizaje automático, <strong className="font-semibold text-text-title">ayudamos a las empresas a automatizar procesos, 
         mejorar la eficiencia operativa y generar valor sostenible.</strong>
       </p>
       <ul className="flex flex-col gap-3 mt-2">
@@ -39,14 +36,21 @@ export const dataIaHero = {
   ],
 };
 
-// 2. TEXTOS DE LAS SECCIONES (Para limpiar el page.tsx)
+// 2. TEXTOS DE LAS SECCIONES (DESCRIPCIONES ALINEADAS A LA IZQUIERDA CON DIV W-FULL)
 export const dataIaSections = {
   soluciones: {
-    title: <> Soluciones en Inteligencia Artificial<br />aplicada a los desafíos reales de tu<br />negocio</>,
+    title: (
+      <div className="text-left w-full">
+        Soluciones en Inteligencia Artificial<br className="hidden lg:block"/>
+        aplicada a los desafíos reales de tu<br className="hidden lg:block"/>
+        negocio
+      </div>
+    ),
     description: (
-      <>
-        <strong>Cada empresa enfrenta retos distintos.</strong> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:
-      </>
+      // Envolvemos en div text-left y w-full para forzar la alineación izquierda
+      <div className="text-left w-full mt-4">
+        <strong className="font-semibold text-text-title">Cada empresa enfrenta retos distintos.</strong> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:
+      </div>
     )
   },
   implementacion: {
@@ -55,21 +59,35 @@ export const dataIaSections = {
     buttonText: "Empieza tu hoja de ruta AI personalizada"
   },
   beneficios: {
-    title: "Beneficios de nuestros servicios de Inteligencia Artificial",
-    description: "Nuestras soluciones de inteligencia artificial para empresas combinan IA generativa, agentes inteligentes y automatización avanzada para crear ventajas reales y medibles:",
+    title: (
+      <div className="text-left w-full">
+        Beneficios de nuestros servicios de<br className="hidden lg:block"/>
+        Inteligencia Artificial
+      </div>
+    ),
+    description: (
+      // Envolvemos en div text-left y w-full para forzar la alineación izquierda
+      <div className="text-left w-full mt-4">
+        Nuestras soluciones de inteligencia artificial para empresas combinan IA generativa, agentes inteligentes y automatización avanzada para crear ventajas reales y medibles:
+      </div>
+    ),
   },
   ctaFooter: "Conversa con un especialista en IA"
 };
 
-// 3. TARJETAS DE IA (Completadas según las imágenes)
+// 3. TARJETAS DE IA
 export const dataIaCards: IACardProps[] = [
   {
     id: 1,
-    icon: <PaletteOutlinedIcon sx={{ fontSize: 40 }} />,
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "60px" }}>
+        palette
+      </span>
+    ),
     title: "GenAI Canvas: IA generativa con diseño estratégico y viabilidad",
     description: (
       <>
-        <strong>¿Quieres implementar IA generativa pero no sabes por dónde empezar?</strong> GenAI Canvas es el punto de partida ideal para trazar una ruta estratégica, identificar oportunidades reales y validar la viabilidad técnica antes de invertir.
+        <strong className="font-semibold text-text-title">¿Quieres implementar IA generativa pero no sabes por dónde empezar?</strong> GenAI Canvas es el punto de partida ideal para trazar una ruta estratégica, identificar oportunidades reales y validar la viabilidad técnica antes de invertir.
         <br /><br />
         De 3 a 4 semanas exploramos contigo el qué, cómo y cuándo de la inteligencia artificial en tu organización — y convertimos la visión en un plan de acción medible y sostenible.
       </>
@@ -101,11 +119,15 @@ export const dataIaCards: IACardProps[] = [
   },
   {
     id: 2,
-    icon: <Inventory2OutlinedIcon sx={{ fontSize: 40 }} />,
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "60px" }}>
+        deployed_code_account
+      </span>
+    ),
     title: "GenAI Launchpad: Prototipado End-to-End",
     description: (
       <>
-        <strong>¿Tienes un caso de uso de IA generativa y quieres validarlo rápidamente?</strong> GenAI Launchpad te lleva del concepto al prototipo funcional en solo 5 semanas. Creamos MVPs reales, listos para pruebas, iteración y escalamiento.
+        <strong className="font-semibold text-text-title">¿Tienes un caso de uso de IA generativa y quieres validarlo rápidamente?</strong> GenAI Launchpad te lleva del concepto al prototipo funcional en solo 5 semanas. Creamos MVPs reales, listos para pruebas, iteración y escalamiento.
         <br /><br />
         Diseñado para equipos que buscan agilidad sin comprometer calidad técnica, este programa combina ingeniería, orquestación y validación de resultados.
       </>
@@ -137,11 +159,15 @@ export const dataIaCards: IACardProps[] = [
   },
   {
     id: 3,
-    icon: <BoltOutlinedIcon sx={{ fontSize: 40 }} />,
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "60px" }}>
+        bolt
+      </span>
+    ),
     title: "Agentes Inteligentes, la nueva fuerza laboral digital",
     description: (
       <>
-        Nuestros AI Agents combinan <strong>capacidades de lenguaje, razonamiento y acción para ejecutar tareas autónomas</strong> en áreas críticas del negocio.
+        Nuestros AI Agents combinan <strong className="font-semibold text-text-title">capacidades de lenguaje, razonamiento y acción para ejecutar tareas autónomas</strong> en áreas críticas del negocio.
       </>
     ),
     lists: [
@@ -149,9 +175,9 @@ export const dataIaCards: IACardProps[] = [
         title: "Tipos de agentes",
         type: "bullet",
         items: [
-          <><strong>Conversacionales:</strong> Atención al cliente, soporte y ventas.</>,
-          <><strong>Analíticos:</strong> Interpretación de datos y generación de reportes.</>,
-          <><strong>Operativos:</strong> Ejecución de tareas internas, integraciones o alertas automáticas.</>,
+          <><strong className="font-semibold text-text-title">Conversacionales:</strong> Atención al cliente, soporte y ventas.</>,
+          <><strong className="font-semibold text-text-title">Analíticos:</strong> Interpretación de datos y generación de reportes.</>,
+          <><strong className="font-semibold text-text-title">Operativos:</strong> Ejecución de tareas internas, integraciones o alertas automáticas.</>,
         ],
       },
       {
@@ -169,11 +195,15 @@ export const dataIaCards: IACardProps[] = [
   },
   {
     id: 4,
-    icon: <PersonSearchOutlinedIcon sx={{ fontSize: 40 }} />,
+    icon: (
+      <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "60px" }}>
+        group_search
+      </span>
+    ),
     title: "Executive AI Workshop: Prepara a tu equipo para adoptar la inteligencia artificial",
     description: (
       <>
-        La adopción de inteligencia artificial comienza con las personas. <strong>Nuestro AI Workshop está diseñado para equipos directivos y líderes empresariales que buscan comprender el potencial real de la IA y aplicarlo estratégicamente en su día a día.</strong>
+        La adopción de inteligencia artificial comienza con las personas. <strong className="font-semibold text-text-title">Nuestro AI Workshop está diseñado para equipos directivos y líderes empresariales que buscan comprender el potencial real de la IA y aplicarlo estratégicamente en su día a día.</strong>
         <br /><br />
         En solo 4 horas, combinamos teoría práctica, demostraciones y ejercicios interactivos con herramientas como ChatGPT, Copilot y Azure OpenAI para activar una mentalidad data & AI-driven en tu organización.
       </>
@@ -203,36 +233,56 @@ export const dataIaCards: IACardProps[] = [
   },
 ];
 
-// 4. BENEFICIOS
+// 4. BENEFICIOS (Números grandes, rojos y súper delgados como en la imagen)
 export const dataIaBeneficios = [
   {
-    icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">01</span>,
+    icon: (
+        <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
+            01
+        </div>
+    ),
     title: "Eficiencia y productividad ampliadas.",
-    description: "Automatiza flujos de trabajo con IA y machine learning. Los agentes inteligentes y modelos de lenguaje trabajan 24/7.",
+    description: "Automatiza flujos de trabajo con IA y machine learning. Los agentes inteligentes y modelos de lenguaje trabajan 24/7 para liberar a tus equipos de tareas operativas.",
   },
   {
-    icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">02</span>,
+    
+    icon: (
+        <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
+            02
+        </div>
+    ),
     title: "Decisiones impulsadas por datos y predicción.",
-    description: "Aprovecha analítica avanzada y modelos generativos para tomar decisiones basadas en datos confiables.",
+    description: "Aprovecha analítica avanzada y modelos generativos para tomar decisiones basadas en datos confiables y anticipar comportamientos del mercado.",
   },
   {
-    icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">03</span>,
+    icon: (
+        <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
+            03
+        </div>
+    ),
     title: "Innovación con IA generativa aplicada.",
-    description: "Desde la ideación hasta el prototipo con GenAI Canvas y Launchpad, llevamos tus casos de uso a productos funcionales.",
+    description: "Desde la ideación hasta el prototipo con GenAI Canvas y Launchpad, llevamos tus casos de uso de IA generativa a productos funcionales en semanas.",
   },
   {
-    icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">04</span>,
+    icon: (
+        <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
+            04
+        </div>
+    ),
     title: "Escalabilidad empresarial sin fricción.",
-    description: "Nuestras soluciones se integran con tu infraestructura cloud asegurando crecimiento continuo.",
+    description: "Nuestras soluciones de inteligencia artificial se integran con tu infraestructura cloud (Azure, AWS, GCP), asegurando crecimiento continuo y optimización de costos.",
   },
   {
     colSpan: "md:col-span-2",
-    icon: <span className="text-brand-accent text-5xl md:text-6xl font-light">05</span>,
+    icon: (
+        <div className="text-[60px] md:text-[75px] font-thin text-brand-accent leading-none mb-4">
+            05
+        </div>
+    ),
     title: "Inteligencia que evoluciona contigo.",
-    description: "Cada interacción mejora. Nuestros agentes analizan contexto para aprender, adaptarse y optimizar procesos.",
+    description: "Cada interacción mejora. Nuestros agentes analizan contexto y resultados para aprender, adaptarse y optimizar procesos de forma autónoma.",
   }
 ];
-
 // 5. TIMELINE
 export const dataIaTimeline = [
   { fase: "Fase", indicador: "#1", title: "Exploración", description: "Identificamos áreas donde la IA puede aportar valor." },
@@ -242,30 +292,30 @@ export const dataIaTimeline = [
   { fase: "Fase", indicador: "#5", title: "Escalabilidad", description: "Soporte, actualización y mejora continua." }
 ];
 
-
+// 6. PREGUNTAS FRECUENTES (Textos planos para evitar errores TS)
 export const dataIaFaq = [
   { 
     question: "¿Qué son los servicios de Inteligencia Artificial Generativa?", 
-    answer: {descriptions:"La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos."} 
+    answer: {descriptions: "La IA generativa es una rama de la inteligencia artificial que se enfoca en crear contenido nuevo a partir de patrones aprendidos en grandes volúmenes de datos."} 
   },
   { 
     question: "¿Cómo se aplica la Inteligencia Artificial en los negocios?", 
-    answer: {descriptions:"Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." } 
+    answer: {descriptions: "Se aplica en la automatización de procesos, análisis predictivo, atención al cliente mediante agentes conversacionales y personalización de experiencias." } 
   },
   { 
     question: "¿Qué es la asistencia para la inteligencia empresarial y para qué se utiliza?", 
-    answer: {descriptions:"Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." } 
+    answer: {descriptions: "Es el uso de IA para interpretar datos complejos del negocio y generar reportes o insights que ayuden a los líderes a tomar mejores decisiones." } 
   },
   { 
     question: "¿Cómo implementar IA en una empresa?", 
-    answer: {descriptions:"Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." } 
+    answer: {descriptions: "Comenzando con un caso de uso claro, validando su viabilidad mediante un prototipo (MVP) y luego escalándolo progresivamente al resto de la organización." } 
   },
   { 
     question: "¿Cuánto tarda un proyecto de IA Generativa?", 
-    answer: {descriptions:"Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." } 
+    answer: {descriptions: "Depende del alcance. Con nuestros programas como GenAI Launchpad, puedes tener un prototipo funcional (MVP) en tan solo 5 semanas." } 
   },
   { 
     question: "¿Qué beneficios concretos ofrece la IA para las empresas?", 
-    answer: {descriptions:"Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." } 
+    answer: {descriptions: "Reducción de costos operativos, mayor rapidez en la atención, toma de decisiones basada en datos precisos y liberación de tiempo para tareas estratégicas." } 
   }
 ];
