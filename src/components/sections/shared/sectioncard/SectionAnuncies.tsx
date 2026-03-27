@@ -8,7 +8,6 @@ type ExtendedProps = Omit<cardPropsInformation, "title" | "description"> & {
   description?: string | React.ReactNode;
   topBadge?: ReactNode;
 
-  topBadge?: string;
   // Añadimos esta propiedad opcional para controlar la alineación a futuro
   alignHeader?: "left" | "center"; 
 

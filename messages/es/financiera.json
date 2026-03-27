@@ -52,32 +52,38 @@
       {
         "icon":"credit_card",
         "title": "Pagos digitales en auge",
-        "description": "Más de $111 billones de transacciones digitales reportados el año pasado."
+        "description": "Más de 650 millones de transacciones al mes con billeteras y pagos sin contacto.",
+        "alineacion":"center"
       },
       {
         "icon":"add_shopping_cart",
         "title": "Open Finance en expansión",
-        "description": "Brasil espera 60 millones de cuentas de Open Finance, marcando tendencia."
+        "description": "Brasil supera 9 millones de usuarios bajo este modelo, abriendo camino en personalización y transparencia.",
+        "alineacion":"center"
       },
       {
         "icon":"card_travel",
         "title": "Digitalización en Colombia",
-        "description": "Más de 36 millones de adultos tenían productos financieros en 2024."
+        "description": "Más de 20 millones de usuarios en Transfiya y 299 millones de transferencias inmediatas en 2024 (+294% vs. 2023).",
+        "alineacion":"center"
       },
       {
         "icon":"add_moderator",
         "title": "Ciberseguridad en primer plano",
-        "description": "El 70% de las organizaciones priorizan la ciberseguridad ante nuevos retos."
+        "description": "El 67,5% de las organizaciones la identifica como su mayor riesgo.",
+        "alineacion":"center"
       },
       {
         "icon":"robot_2",
         "title": "IA y automatización",
-        "description": "Reducir la intervención humana operativa para elevar la expectativa de innovación."
+        "description": "Desde la detección de fraudes hasta la atención al cliente, elevan las expectativas de inmediatez.",
+        "alineacion":"center"
       },
       {
         "icon":"price_change",
         "title": "Competencias fintech",
-        "description": "Mañana se esperan 2.763 fintech, creando un ecosistema competitivo."
+        "description": "México ya supera las 700 fintech activas, intensificando la innovación y la presión competitiva.",
+        "alineacion":"center"
       }
     ],
 

@@ -1,6 +1,19 @@
 import React from "react";
 import { IACardProps } from "@/src/types/typeIA"; // Mantengo tu interfaz original
 
+
+const NumberIcon = (number: string,) => (
+  <div className="flex flex-col">
+    <span className="text-[20px] md:text-[45px] font-light text-brand-accent  mb-4">
+      {number}
+    </span>
+  </div>
+);
+
+export default NumberIcon;
+
+
+
 // 1. DATA DEL HERO
 export const dataIaHero = {
   title: "Soluciones de Inteligencia Artificial para empresas",

@@ -46,38 +46,44 @@
       }
     },
 
-      "cardsEntidadesFinancieras":[
-      {
-        "icon":"credit_card",
-        "title":"Digital payments on the rise",
-        "description": "More than $111 billion in digital transactions reported last year."
-      },
-      {
-        "icon":"add_shopping_cart",
-        "title": "Open Finance expanding",
-        "description": "Brazil expects 60 million Open Finance accounts, setting a trend."
-      },
-      {
-        "icon":"card_travel",
-        "title": "Digitalization in Colombia",
-        "description": "More than 36 million adults had financial products in 2024."
-      },
-      {
-        "icon":"add_moderator",
-        "title": "Cybersecurity at the forefront",
-        "description": "70% of organizations prioritize cybersecurity against new challenges."
-      },
-      {
-        "icon":"robot_2",
-        "title": "AI and automation",
-        "description": "Reduce operational human intervention to raise the expectation of innovation."
-      },
-      {
-        "icon":"price_change",
-        "title": "Fintech competencies",
-        "description": "Tomorrow, 2,763 fintechs are expected, creating a competitive ecosystem."
-      }
-    ],
+    "cardsEntidadesFinancieras": [
+    {
+      "icon": "credit_card",
+      "title": "Digital payments on the rise",
+      "description": "More than 650 million transactions per month using wallets and contactless payments.",
+      "alineacion": "center"
+    },
+    {
+      "icon": "add_shopping_cart",
+      "title": "Expanding Open Finance",
+      "description": "Brazil exceeds 9 million users under this model, leading the way in personalization and transparency.",
+      "alineacion": "center"
+    },
+    {
+      "icon": "card_travel",
+      "title": "Digitalization in Colombia",
+      "description": "Over 20 million users on Transfiya and 299 million immediate transfers in 2024 (+294% vs. 2023).",
+      "alineacion": "center"
+    },
+    {
+      "icon": "add_moderator",
+      "title": "Cybersecurity in the spotlight",
+      "description": "67.5% of organizations identify it as their greatest risk.",
+      "alineacion": "center"
+    },
+    {
+      "icon": "robot_2",
+      "title": "AI and automation",
+      "description": "From fraud detection to customer service, they are raising expectations for immediacy.",
+      "alineacion": "center"
+    },
+    {
+      "icon": "price_change",
+      "title": "Fintech competition",
+      "description": "Mexico already exceeds 700 active fintechs, intensifying innovation and competitive pressure.",
+      "alineacion": "center"
+    }
+  ],
 
     "cardsSolucionesTecnologicas": [
       {

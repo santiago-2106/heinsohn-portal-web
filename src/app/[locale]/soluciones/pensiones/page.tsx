@@ -9,94 +9,98 @@ import ButtonComponent from "@/src/components/ui/buttons/Button";
 import CertificacionesInternacionales from "@/src/components/sections/shared/certificaciones/CertificacionesInternacionales";
 import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
 
-// 2. IMPORTAMOS LA DATA
-import { 
-  infoSolucionesPension,
-  infoPensiones1,
-  textoDesafios,
-  infoPensiones2,
-  textoModulos,
-  infoPensiones3,
-  textoDiferenciadores,
-  informacionPensiones5,
-  textoResultados2,
-  infoPensiones6,
-  dataPreguntasFrecuentesPensiones
-} from "@/src/data/soluciones/pensiones/index";
+// 2. INTERNACIONALIZACIÓN
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export default function PagePensiones() {
+
+  const t = useTranslations("pensiones")
+
   return (
     <main className="bg-bg-main min-h-screen transition-colors duration-300">
       
+      {/* 1. HERO */}
       <Hero
-        title={infoSolucionesPension.title}
-        description={infoSolucionesPension.description}
-        buttonText={infoSolucionesPension.buttonText}
-        breadcrumb={infoSolucionesPension.breadcrumb}
+        title={t("dataHeroPensiones.title")}
+        description={t.rich("dataHeroPensiones.description", richText)}
+        buttonText={t("dataHeroPensiones.buttonText")}
+        breadcrumb={t.raw("dataHeroPensiones.breadcrumb")}
         showImage={true} 
       />
       
-      <CardResultados data={infoPensiones1} />
+      {/* 2. MÉTRICAS 1 */}
+      <CardResultados data={t.raw("cardsPensiones1")} />
 
+      {/* 3. RETOS DEL SISTEMA */}
       <CardAnuncies
-        title={textoDesafios.title}
-        description={textoDesafios.description}
-        cards={infoPensiones2}
+        title={t.rich("titlesPensiones.titlePensiones1.title", richText)}
+        description={t.rich("titlesPensiones.titlePensiones1.description", richText)}
+        cards={t.raw("cardsPensiones2")}
         cols={2}
       />
 
+      {/* 4. TEXTO COMPLEMENTARIO */}
       <TextComponent 
-        description="Con nuestras soluciones para pensiones obtienes software escalable y seguro, alineados a la regulación y pensadas para garantizar confianza y sostenibilidad." 
+        description={t("titlesPensiones.titlePensiones2.description")}
       />
       
-      {/* Botón centrado limpiamente */}
+      {/* 5. BOTÓN CTA */}
       <center className="mb-12">
-        <ButtonComponent textoBtn="Explora nuestras soluciones en pensiones" />
+        <ButtonComponent textoBtn={t("buttonsPensiones.buttonPensiones1")} />
       </center>
 
+      {/* 6. MÓDULOS DE SOLUCIONES */}
       <CardAnuncies
-  title={textoModulos.title}
-  description={textoModulos.description}
-  cards={infoPensiones3}
-  cols={1}
-  alignHeader="left" // <--- Agrega esta línea para liberar las restricciones
-/>
+        title={t.rich("titlesPensiones.titlePensiones3.title", richText)}
+        description={t.rich("titlesPensiones.titlePensiones3.description", richText)}
+        cards={t.raw("cardPensiones3")}
+        cols={1}
+        alignHeader="left"
+      />
 
+      {/* 7. DIFERENCIADORES */}
       <CardAnuncies
-        title={textoDiferenciadores.title}
-        cards={informacionPensiones5}
+        title={t.rich("titlesPensiones.titlePensiones4.title", richText)}
+        cards={t.raw("informacionPensiones5")}
         cols={2}
       />
 
-      <TextComponent title={textoResultados2.title} />
+      {/* 8. RESULTADOS 2 - TÍTULO */}
+      <TextComponent title={t("titlesPensiones.titlePensiones5.title")} />
       
-      <CardResultados data={infoPensiones6} />
+      {/* 9. MÉTRICAS 2 */}
+      <CardResultados data={t.raw("infoPensiones6")} />
 
+      {/* 10. CERTIFICACIONES */}
       <CertificacionesInternacionales 
-        title="Certificaciones Internacionales" 
+        title={t("titlesPensiones.titlePensiones6.title")} 
         imagen="/img/certificacionInternacional2.png" 
       />
 
+      {/* 11. TEXTO RESPALDO */}
       <TextComponent 
-        description="Sin compromiso | Respaldo en +7 Países | +12 millones de afiliados administrativos" 
+        description={t("titlesPensiones.titlePensiones7.description")} 
       />
 
+      {/* 12. CTA FINAL */}
       <TextComponent 
-        title="Moderniza la gestión de tu sistema de pensiones" 
-        description="Transforma la administración de pensiones en tu entidad y asegura cumplimiento en cada auditoría" 
+        title={t("titlesPensiones.titlePensiones8.title")} 
+        description={t("titlesPensiones.titlePensiones8.description")} 
       /> 
       
       <center className="mb-12">
-        <ButtonComponent textoBtn="Conversa con un especialista en pensiones" /> 
+        <ButtonComponent textoBtn={t("buttonsPensiones.buttonPensiones2")} /> 
       </center>
 
+      {/* 13. PREGUNTAS FRECUENTES */}
       <PreguntForm 
-        title="Preguntas frecuentes" 
-        items={dataPreguntasFrecuentesPensiones}
+        title={t("titlesPensiones.PreguntasFrecuentes.title")}
+        items={t.raw("dataPreguntasFrecuentesPensiones")}
       />
       
       <center className="my-12">
-        <ButtonComponent textoBtn="Conversa con un especialista en pensiones" /> 
+        <ButtonComponent textoBtn={t("buttonsPensiones.buttonPensiones3")} /> 
       </center>
 
     </main>

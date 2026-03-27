@@ -11,14 +11,8 @@ import PreguntasFort from '@/src/components/forms/formularios/PreguntForm'
 import Slider from '@/src/components/sliders/SliderBlog'
 
 // Data Importada (Cronológica)
-import { 
-  cardSliderWork,
-  dataHeroDesarrolloAMedida1,
-  preguntasDesarrolloAMedida
-} from '@/src/data/soluciones/desarrollo-a-medida' 
-
-import { cardSlider2 } from '@/src/data/soluciones/share/slider'
 import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 // Configuración de Metadatos para SEO y Web Vitals
 export const metadata: Metadata = {
@@ -30,17 +24,16 @@ export const metadata: Metadata = {
 export default function DesarrolloAMedidaPage() {
   
   const t = useTranslations("desarrolloAMedida");
-
-const heroDesarrolloAMedidaHero = dataHeroDesarrolloAMedida1 (t);
-
-const preguntasFrecuentesDesarrolloAMedida = preguntasDesarrolloAMedida(t)
-
-const sliderDesarrolloAMedida = cardSliderWork(t)
-
+  
   return (
     <>  
         {/* 1. HERO */}
-        <Hero {...heroDesarrolloAMedidaHero}/>
+        <Hero 
+        title={t("dataHeroDesarrolloAMedida.title")}
+        description={t.rich("dataHeroDesarrolloAMedida.description", richText)}
+        buttonText={t("dataHeroDesarrolloAMedida.buttonText")}
+        breadcrumb={t.raw("dataHeroDesarrolloAMedida.breadcrumb")}
+        />
         
         {/* 2. MÉTRICAS */}
         <section aria-label="Nuestra experiencia">
@@ -51,7 +44,7 @@ const sliderDesarrolloAMedida = cardSliderWork(t)
         <CardSoftwreGeneric/>
         
         {/* 4. FORMULARIO DE ENGAGEMENT */}
-        <ContactForm title=" ¿Tienes un proyecto en mente?" />
+        <ContactForm title={t("titles.titleContactForm.title")} />
         
         {/* 5. ESTRATEGIA */}
         <CardEstrategicNegocio />
@@ -61,12 +54,14 @@ const sliderDesarrolloAMedida = cardSliderWork(t)
         
         {/* 7. PREGUNTAS FRECUENTES */}
         <PreguntasFort 
-          title='Preguntas Frecuentes' 
-          items={preguntasFrecuentesDesarrolloAMedida}
+          title={t("titles.PreguntasFrecuentes.title")} 
+          items={t.raw("dataPreguntasFrecuentes")}
         />
 
         {/* 8. SLIDER BLOG */}
-        <Slider data={sliderDesarrolloAMedida} />
+        <Slider 
+        title={t("sliderDesarrolloAlaMedida.title")}
+        data={t.raw("sliderDesarrolloAlaMedida.items")} />
     </>
   )
 }
