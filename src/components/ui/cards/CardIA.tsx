@@ -15,7 +15,7 @@ export default function CardIA({
     <article className="flex flex-col border border-border-ui bg-bg-card-2 p-8 md:p-12 shadow-sm mb-8 w-full max-w-5xl mx-auto transition-colors duration-300 h-full">
       
       {/* Icono */}
-      <div className="mb-6 text-text-title">{icon}</div>
+      <div className="material-symbols-rounded mb-6 text-text-title" style={{fontSize:"48px"}}>{icon}</div>
 
       {/* Título principal de la carta */}
       <h1 className="mb-6 text-2xl md:text-3xl font-light text-text-title">

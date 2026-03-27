@@ -3,11 +3,15 @@ import TecnologiaConfiable from './TecnologiaConfiable'
 import ButtonComponent from '../../ui/buttons/Button'
 import { useTranslations } from 'next-intl'
 import { richText } from '@/src/hooks/helper/richText'
+import mapRich from '@/src/hooks/mapRich'
 
 
 export default function ModelosDesarrollo() {
 
   const t = useTranslations("desarrolloAMedida");
+
+  const cardResultadosMedibles = mapRich(t,"cardResultadosMedibles")
+  const cardIdeaNegocio = mapRich(t,"cardsIdeaNegocio")
 
   return (
     <div>
@@ -31,7 +35,7 @@ export default function ModelosDesarrollo() {
         <CardAnuncies
           title={t("titles.ResultadosMedibles.title")}
           description={t.rich("titles.ResultadosMedibles.description", richText)}
-          cards={t.raw("cardResultadosMedibles")}
+          cards={cardResultadosMedibles}
           cols={2}
         />
         <ButtonComponent textoBtn={t("textBtn.textoBtn4")} />
@@ -43,7 +47,7 @@ export default function ModelosDesarrollo() {
         <CardAnuncies
           title={t("titles.IdeaNegocio.title")}
           description={t("titles.IdeaNegocio.description")}
-          cards={t.raw("cardsIdeaNegocio")}
+          cards={cardIdeaNegocio}
           cols={2}
         />
         <ButtonComponent textoBtn={t("textBtn.textoBtn6")} />

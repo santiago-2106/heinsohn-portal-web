@@ -1,91 +1,113 @@
 {
   "pensionesVoluntarias": {
     "hero": {
-      "title": "Software for Voluntary <br className=\"hidden md:block\" /> Pension Management",
-      "description": "<div className=\"flex flex-col gap-6 max-w-[800px]\"><p className=\"text-base md:text-lg\">Our voluntary pension management software is a <strong className=\"font-semibold text-text-title\">comprehensive solution</strong> designed for voluntary pension fund operators and/or voluntary savings in <strong className=\"font-semibold text-text-title\">Latin America.</strong></p><p className=\"text-base md:text-lg\">With a customer-centric and sustainability-focused approach, we offer a robust platform that facilitates the <strong className=\"font-semibold text-text-title\">efficient administration of funds</strong> and provides transparency and traceability in all operations.</p></div>",
+      "title": "Software for Voluntary Pension Management",
+      "description": "Our voluntary pension management software is a <bold>comprehensive solution</bold> designed for voluntary pension fund operators and/or voluntary savings in <bold>Latin America.</bold> <br></br> <br></br>With a customer-centric and sustainability-focused approach, we offer a robust platform that facilitates the <bold>efficient administration of funds</bold> and provides transparency and traceability in all operations.",
       "buttonText": "Learn more",
       "breadcrumb": [
         { "label": "Solutions" },
         { "label": "Pension solutions" }
       ]
     },
+
     "ventajas": {
       "title": "Advantages of our Pension Fund Software",
       "description": "Regulatory changes with the rapid implementation of updates on our platform, ensuring compliance with constantly evolving regulations.",
       "cards": [
         {
+          "icon": "psychology",
           "title": "Evolves alongside the market",
           "description": "Significantly reduces operational and IT costs with optimized processes and massive automation on our platform."
         },
         {
+          "icon": "tune",
           "title": "Configuration",
           "description": "Easily adjust business rules, commissions, and fund types without the need for additional development."
         },
         {
+          "icon": "sync",
           "title": "Multi-fund support",
           "description": "Manage multiple portfolios and risk profiles from a single secure and unified interface."
         },
         {
+          "icon": "cloud",
           "title": "Cutting-edge technology",
           "description": "Modern and secure architecture, hosted in the cloud to ensure continuous availability and scalability."
         },
         {
+          "icon": "public",
           "title": "Mobility and accessibility",
           "description": "Access fund information from any device with our 100% responsive platform."
         }
       ]
     },
+
+    "contactFormTitle": "Contact Us",
+
     "servicios": {
-      "title": "Management services for Pension Funds that differentiate us from the competition",
+      "title": "Management services for Pension Funds<br></br>that differentiate us from the<br></br>competition",
       "cards": [
         {
+          "icon": "linked_services",
           "title": "Comprehensive coverage",
           "description": "Our platform covers all aspects of pension fund management, ensuring a comprehensive solution."
         },
         {
+          "icon": "palette",
           "title": "User-centric design",
           "description": "Designed with user comfort and efficiency in mind, our software offers intuitive navigation and full support."
         },
         {
+          "icon": "lightbulb",
           "title": "Continuous innovation",
           "description": "We continuously update our platform to incorporate the latest technologies and address emerging market needs."
         },
         {
+          "icon": "contact_support",
           "title": "Dedicated support",
           "description": "Benefit from permanent and trained customer support to maximize the value of our solution."
         }
       ]
     },
+
     "lideres": {
       "title": "Why choose us as your partner for Pension and Severance Fund management",
       "mainCard": {
+        "icon": "rocket_launch",
         "title": "Industry Leaders",
-        "description": "We are the <strong className=\"font-semibold text-text-title\">number 1 company</strong> in Colombia, South and Central America as a provider of world-class technological solutions."
+        "description": "We are the <bold>number 1 company</bold> in Colombia, South and Central America as a provider of world-class technological solutions."
       },
       "gridCards": [
         {
+          "icon": "star_shine",
           "title": "Proven experience",
-          "description": "In Colombia, we are the only provider in the voluntary pension sector with an effective and secure system that manages <strong className=\"font-semibold text-text-title\">58% of affiliates.</strong>"
+          "description": "In Colombia, we are the only provider in the voluntary pension sector with an effective and secure system that manages <bold>58% of affiliates.</bold>"
         },
         {
+          "icon": "thumbs_up_double",
           "title": "High impact",
-          "description": "Our pension software currently covers <strong className=\"font-semibold text-text-title\">50%</strong> of pension fund administrators in El Salvador, <strong className=\"font-semibold text-text-title\">100%</strong> of the market in Bolivia, and over <strong className=\"font-semibold text-text-title\">50%</strong> of the Colombian market."
+          "description": "Our pension software currently covers <bold>50%</bold> of pension fund administrators in El Salvador, <bold>100%</bold> of the market in Bolivia, and over <bold>50%</bold> of the Colombian market."
         },
         {
+          "icon": "south_america",
           "title": "Wide adoption",
-          "description": "<strong className=\"font-semibold text-text-title\">40%</strong> of mandatory pension affiliates in Colombia are managed with our pension software."
+          "description": "<bold>40%</bold> of mandatory pension affiliates in Colombia are managed with our pension software."
         },
         {
+          "icon": "language",
           "title": "Regional coverage",
-          "description": "We have implemented projects in <strong className=\"font-semibold text-text-title\">El Salvador, Bolivia, Argentina, Peru, Uruguay, and Mexico.</strong>"
+          "description": "We have implemented projects in <bold>El Salvador, Bolivia, Argentina, Peru, Uruguay, and Mexico.</bold>"
         }
       ]
     },
+
     "funcionalidades": {
       "title": "Software functionalities for comprehensive pension fund management",
       "tabs": [
         {
+          "id": "voluntarias",
           "label": "Voluntary Pensions",
+          "icon": "ar_on_you",
           "items": [
             {
               "title": "Voluntary savings and personalized investment",
@@ -108,10 +130,13 @@
               "description": "Streamlines and simplifies repetitive and high-volume tasks through automation, improving efficiency and accuracy in management."
             }
           ],
-          "btnText": "Learn more about voluntary pensions"
+          "btnText": "Learn more about voluntary pensions",
+          "btnLink": "#"
         },
         {
+          "id": "obligatorias",
           "label": "Mandatory Pensions",
+          "icon": "things_to_do",
           "items": [
             {
               "title": "Strict contribution control",
@@ -122,10 +147,13 @@
               "description": "Automatic generation of formats required by government oversight entities."
             }
           ],
-          "btnText": "Learn more about mandatory pensions"
+          "btnText": "Learn more about mandatory pensions",
+          "btnLink": "#"
         },
         {
+          "id": "cesantias",
           "label": "Severance Pay",
+          "icon": "diamond",
           "items": [
             {
               "title": "Agile withdrawal management",
@@ -136,39 +164,66 @@
               "description": "Specialized module for the daily settlement of interest and financial yields on portfolios."
             }
           ],
-          "btnText": "Learn more about severance pay"
+          "btnText": "Learn more about severance pay",
+          "btnLink": "#"
         }
       ]
     },
+
     "cta": {
       "title": "Optimize the digital transformation of pension funds now",
-      "description": "<div className=\"flex flex-col items-center justify-center\"><p className=\"mb-10 text-[15px] md:text-[17px] text-text-body font-light leading-relaxed text-center\">Optimize the digital transformation of pension funds now<br/><strong className=\"font-semibold text-text-title\">Ready to take pension management to the next level?</strong> Discover how our comprehensive solution can simplify your processes, ensure regulatory compliance, and improve customer experience.<br/><br/>Contact us today for a <strong className=\"font-semibold text-text-title\">customized demonstration</strong> and begin the digital transformation of your pension fund!</p><a href=\"#contacto\" className=\"bg-text-title text-bg-main px-8 py-3.5 rounded-full font-medium hover:opacity-80 transition-opacity\">Learn more</a></div>"
+      "description": "<bold>Ready to take pension management to the next level?</bold> Discover how our comprehensive solution can simplify your processes, ensure regulatory compliance, and improve customer experience.<br></br> <br></br>Contact us today for a <bold>customized demonstration</bold> and begin the digital transformation of your pension fund!",
+      "buttonText": "Learn more"
     },
-    "faqItemsSeguros": [
-      {
-        "question": "What is the difference between mandatory and voluntary pensions in LATAM?",
-        "answer": { "descriptions": "Mandatory pensions are required by law and are deducted from the worker's salary, while voluntary pensions are additional contributions an individual chooses to make for better retirement." }
-      },
-      {
-        "question": "How do I digitize the pension system in my financial institution?",
-        "answer": { "descriptions": "Through our comprehensive platform, you can migrate your databases, automate contribution management, and provide a modern interface to your affiliates in record time." }
-      },
-      {
-        "question": "Does this software work for managing retirement savings?",
-        "answer": { "descriptions": "Yes, the platform has specialized modules for the administration, investment, and yield calculation of retirement savings." }
-      },
-      {
-        "question": "Does it also work for voluntary pension savings (APV)?",
-        "answer": { "descriptions": "Absolutely, our software is designed to handle APV schemes, adapting to the tax benefits and regulations of each country." }
-      },
-      {
-        "question": "Can it be used to manage retirements?",
-        "answer": { "descriptions": "Yes, the system manages the complete cycle, from the accumulation phase to the decumulation phase and payment of pension installments or retirements." }
-      },
-      {
-        "question": "Is the software multi-country and multi-currency?",
-        "answer": { "descriptions": "That's right. Our solution is designed to operate in multiple LATAM countries, supporting multiple currencies, and adapting to the local regulations of each region." }
-      }
-    ]
+
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is the difference between mandatory and voluntary pensions in LATAM?",
+          "answer": { "descriptions": "Mandatory pensions are required by law and are deducted from the worker's salary, while voluntary pensions are additional contributions an individual chooses to make for better retirement." }
+        },
+        {
+          "question": "How do I digitize the pension system in my financial institution?",
+          "answer": { "descriptions": "Through our comprehensive platform, you can migrate your databases, automate contribution management, and provide a modern interface to your affiliates in record time." }
+        },
+        {
+          "question": "Does this software work for managing retirement savings?",
+          "answer": { "descriptions": "Yes, the platform has specialized modules for the administration, investment, and yield calculation of retirement savings." }
+        },
+        {
+          "question": "Does it also work for voluntary pension savings (APV)?",
+          "answer": { "descriptions": "Absolutely, our software is designed to handle APV schemes, adapting to the tax benefits and regulations of each country." }
+        },
+        {
+          "question": "Can it be used to manage retirements?",
+          "answer": { "descriptions": "Yes, the system manages the complete cycle, from the accumulation phase to the decumulation phase and payment of pension installments or retirements." }
+        },
+        {
+          "question": "Is the software multi-country and multi-currency?",
+          "answer": { "descriptions": "That's right. Our solution is designed to operate in multiple LATAM countries, supporting multiple currencies, and adapting to the local regulations of each region." }
+        }
+      ]
+    },
+
+    "sliderBlog": {
+      "title": "Featured Blog",
+      "items": [
+        {
+          "id": 1,
+          "title": "Innovation as a driver of digital transformation",
+          "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+          "img": "/img/imgSlider.png",
+          "btn": "Read more"
+        },
+        {
+          "id": 2,
+          "title": "Impacts of labor reform in Colombia",
+          "description": "Detailed analysis of the main changes introduced by the labor reform and their direct impact on payroll management, social benefits.",
+          "img": "/img/noticias-interes.jpg",
+          "btn": "Read more"
+        }
+      ]
+    }
   }
 }

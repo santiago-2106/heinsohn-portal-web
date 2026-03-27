@@ -2,17 +2,22 @@
   "solucionesIa": {
     "dataIaHero": {
       "title": "Artificial Intelligence Solutions for Companies",
-      "description": "<div className=\"flex flex-col gap-6\"><p>We create artificial intelligence solutions designed to accelerate the digital transformation of your business. <strong>Through generative AI</strong>, natural language processing (NLP), computer vision, and machine learning, <strong>we help companies automate processes, improve operational efficiency, and generate sustainable value.</strong></p><ul className=\"flex flex-col gap-3 mt-2\"><li className=\"flex items-start gap-2\"><strong className=\"text-text-title font-bold whitespace-nowrap\"><span className=\"text-brand-accent\">+</span>45</strong><span>years of experience in engineering and business technology</span></li><li className=\"flex items-start gap-2\"><strong className=\"text-text-title font-bold whitespace-nowrap\"><span className=\"text-brand-accent\">+</span>200</strong><span>innovation projects driven by AI and automation</span></li></ul></div>",
+      "description": "We create artificial intelligence solutions designed to accelerate the digital transformation of your business. <bold>Through generative AI</bold>, natural language processing (NLP), computer vision, and machine learning, <bold>we help companies automate processes, improve operational efficiency, and generate sustainable value.</bold>",
+      "heroStats": [
+        { "prefix": "+", "value": "45", "text": "years of experience in engineering and business technology" },
+        { "prefix": "+", "value": "200", "text": "innovation projects driven by AI and automation" }
+      ],
       "buttonText": "Start now with an AI discovery session",
       "breadcrumb": [
         { "label": "Solutions" },
         { "label": "Artificial Intelligence Solutions for Companies" }
       ]
     },
+
     "dataIaSections": {
       "soluciones": {
-        "title": "<> Artificial Intelligence Solutions<br />applied to the real challenges of your<br />business</>",
-        "description": "<><strong>Every company faces different challenges.</strong> Our AI solutions combine personalization, scalability, and automation to solve the specific problems of your operation:</>"
+        "title": "Artificial Intelligence Solutions<br></br>applied to the real challenges of your<br></br>business",
+        "description": "<bold>Every company faces different challenges.</bold> Our AI solutions combine personalization, scalability, and automation to solve the specific problems of your operation:"
       },
       "implementacion": {
         "title": "How we implement artificial intelligence in your company",
@@ -20,18 +25,26 @@
         "buttonText": "Start your personalized AI roadmap"
       },
       "beneficios": {
-        "title": "Benefits of our Artificial Intelligence services",
+        "title": "Benefits of our Artificial Intelligence<br></br>services",
         "description": "Our enterprise artificial intelligence solutions combine generative AI, intelligent agents, and advanced automation to create real and measurable advantages:"
+      },
+      "PreguntasFrecuentes": {
+        "title": "Frequently Asked Questions"
       },
       "ctaFooter": "Talk to an AI specialist"
     },
+
     "dataIaCards": [
       {
+        "id": 1,
+        "icon": "palette",
         "title": "GenAI Canvas: Generative AI with strategic design and feasibility",
-        "description": "<><strong>You want to implement generative AI but don't know where to start?</strong> GenAI Canvas is the ideal starting point to chart a strategic route, identify real opportunities, and validate technical feasibility before investing.<br /><br />For 3 to 4 weeks we explore with you the what, how, and when of artificial intelligence in your organization — and we turn the vision into a measurable and sustainable action plan.</>",
+        "description": "<bold>Want to implement generative AI but don't know where to start?</bold> GenAI Canvas is the ideal starting point to chart a strategic route, identify real opportunities, and validate technical feasibility before investing.<br/><br/>For 3 to 4 weeks we explore with you the what, how, and when of artificial intelligence in your organization — and we turn the vision into a measurable and sustainable action plan.",
         "lists": [
           {
             "title": "Key benefits",
+            "type": "bullet",
+            "variant": "normal",
             "items": [
               "Opportunities aligned with the business and with tangible return.",
               "Technical and feasibility analysis to minimize risks.",
@@ -40,6 +53,8 @@
           },
           {
             "title": "Strategic deliverables",
+            "type": "bullet",
+            "variant": "highlighted",
             "items": [
               "Map of prioritized opportunities.",
               "Technical feasibility report.",
@@ -51,11 +66,14 @@
         "btnText": "Request your strategic session with GenAI Canvas"
       },
       {
+        "id": 2,
+        "icon": "deployed_code_account",
         "title": "GenAI Launchpad: End-to-End Prototyping",
-        "description": "<><strong>Do you have a generative AI use case and want to validate it quickly?</strong> GenAI Launchpad takes you from concept to functional prototype in just 5 weeks. We create real MVPs, ready for testing, iteration, and scaling.<br /><br />Designed for teams seeking agility without compromising technical quality, this program combines engineering, orchestration, and results validation.</>",
+        "description": "<bold>Do you have a generative AI use case and want to validate it quickly?</bold> GenAI Launchpad takes you from concept to functional prototype in just 5 weeks. We create real MVPs, ready for testing, iteration, and scaling.<br></br><br></br>Designed for teams seeking agility without compromising technical quality, this program combines engineering, orchestration, and results validation.",
         "lists": [
           {
             "title": "Our proven process",
+            "type": "number",
             "items": [
               "We define the case and operational flow.",
               "We create the MVP of prompts and functional architecture.",
@@ -65,6 +83,7 @@
           },
           {
             "title": "Immediate benefits",
+            "type": "bullet",
             "items": [
               "Accelerated Time-to-MVP and early technical validation.",
               "Reduction of risk and development costs.",
@@ -77,19 +96,23 @@
         "btnText": "Book your session with the GenAI Launchpad team"
       },
       {
+        "id": 3,
+        "icon": "bolt",
         "title": "Intelligent Agents, the new digital workforce",
-        "description": "<>Our AI Agents combine <strong>language, reasoning, and action capabilities to execute autonomous tasks</strong> in critical business areas.</>",
+        "description": "Our AI Agents combine <bold>language, reasoning, and action capabilities to execute autonomous tasks</bold> in critical business areas.",
         "lists": [
           {
             "title": "Types of agents",
+            "type": "bullet",
             "items": [
-              "<><strong>Conversational:</strong> Customer service, support, and sales.</>",
-              "<><strong>Analytical:</strong> Data interpretation and report generation.</>",
-              "<><strong>Operational:</strong> Execution of internal tasks, integrations, or automatic alerts.</>"
+              "<bold>Conversational:</bold> Customer service, support, and sales.",
+              "<bold>Analytical:</bold> Data interpretation and report generation.",
+              "<bold>Operational:</bold> Execution of internal tasks, integrations, or automatic alerts."
             ]
           },
           {
             "title": "Benefits of our agents",
+            "type": "bullet",
             "items": [
               "Real-time responses 24/7",
               "Reduction of operational costs",
@@ -101,11 +124,14 @@
         "btnText": "Learn how intelligent agents can transform your operation"
       },
       {
+        "id": 4,
+        "icon": "group_search",
         "title": "Executive AI Workshop: Prepare your team to adopt artificial intelligence",
-        "description": "<>The adoption of artificial intelligence starts with people. <strong>Our AI Workshop is designed for management teams and business leaders who seek to understand the real potential of AI and apply it strategically in their daily lives.</strong><br /><br />In just 4 hours, we combine practical theory, demonstrations, and interactive exercises with tools like ChatGPT, Copilot, and Azure OpenAI to activate a data & AI-driven mindset in your organization.</>",
+        "description": "The adoption of artificial intelligence starts with people. <bold>Our AI Workshop is designed for management teams and business leaders who seek to understand the real potential of AI and apply it strategically in their daily lives.</bold><br></br>In just 4 hours, we combine practical theory, demonstrations, and interactive exercises with tools like ChatGPT, Copilot, and Azure OpenAI to activate a data & AI-driven mindset in your organization.",
         "lists": [
           {
             "title": "Workshop objectives",
+            "type": "bullet",
             "items": [
               "Understand the impact of AI on productivity and business strategy.",
               "Identify real opportunities for automation and efficiency.",
@@ -115,6 +141,7 @@
           },
           {
             "title": "Expected outcomes",
+            "type": "bullet",
             "items": [
               "More productive and strategic teams.",
               "Greater clarity on how to integrate generative AI into key processes.",
@@ -125,35 +152,69 @@
         "btnText": "Request your Workshop and accelerate AI adoption in your company"
       }
     ],
+
     "dataIaBeneficios": [
       {
+        "number": "01",
         "title": "Expanded efficiency and productivity.",
-        "description": "Automate workflows with AI and machine learning. Intelligent agents and language models work 24/7."
+        "description": "Automate workflows with AI and machine learning. Intelligent agents and language models work 24/7 to free your teams from operational tasks."
       },
       {
+        "number": "02",
         "title": "Data-driven decisions and prediction.",
-        "description": "Leverage advanced analytics and generative models to make decisions based on reliable data."
+        "description": "Leverage advanced analytics and generative models to make decisions based on reliable data and anticipate market behaviors."
       },
       {
+        "number": "03",
         "title": "Innovation with applied generative AI.",
-        "description": "From ideation to prototype with GenAI Canvas and Launchpad, we turn your use cases into functional products."
+        "description": "From ideation to prototype with GenAI Canvas and Launchpad, we turn your generative AI use cases into functional products in weeks."
       },
       {
+        "number": "04",
         "title": "Frictionless enterprise scalability.",
-        "description": "Our solutions integrate with your cloud infrastructure ensuring continuous growth."
+        "description": "Our artificial intelligence solutions integrate with your cloud infrastructure (Azure, AWS, GCP), ensuring continuous growth and cost optimization."
       },
       {
+        "number": "05",
+        "colSpan": "md:col-span-2",
         "title": "Intelligence that evolves with you.",
-        "description": "Every interaction improves. Our agents analyze context to learn, adapt, and optimize processes."
+        "description": "Every interaction improves. Our agents analyze context and results to learn, adapt, and optimize processes autonomously."
       }
     ],
+
     "dataIaTimeline": [
-      { "fase": "Phase", "indicador": "#1", "title": "Exploration", "description": "We identify areas where AI can add value." },
-      { "fase": "Phase", "indicador": "#2", "title": "Planning", "description": "We define the roadmap and KPIs." },
-      { "fase": "Phase", "indicador": "#3", "title": "Development", "description": "We design and train highly accurate AI models." },
-      { "fase": "Phase", "indicador": "#4", "title": "Optimization", "description": "We adjust and integrate the solution into your systems." },
-      { "fase": "Phase", "indicador": "#5", "title": "Scalability", "description": "Support, update, and continuous improvement." }
-    ],
+    {
+      "fase": "Phase",
+      "indicador": "#1",
+      "title": "Exploration (AI Brainstorming)",
+      "description": "We identify areas where Generative AI, NLP, or computer vision can provide value and prioritize high-impact use cases."
+    },
+    {
+      "fase": "Phase",
+      "indicador": "#2",
+      "title": "Planning (AI Blueprint)",
+      "description": "We define the roadmap, KPIs, and appropriate technologies to ensure alignment with your objectives."
+    },
+    {
+      "fase": "Phase",
+      "indicador": "#3",
+      "title": "Development and Training (Mindcrafting)",
+      "description": "We design, train, and connect high-precision AI models."
+    },
+    {
+      "fase": "Phase",
+      "indicador": "#4",
+      "title": "Optimization (Tuning Lab)",
+      "description": "We adjust and integrate the solution into your systems, ensuring performance and smooth adoption."
+    },
+    {
+      "fase": "Phase",
+      "indicador": "#5",
+      "title": "Scalability and Continuous Maintenance",
+      "description": "We support your evolution with assistance, updates, and continuous improvement."
+    }
+  ],
+
     "dataIaFaq": [
       {
         "question": "What are Generative Artificial Intelligence services?",

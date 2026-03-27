@@ -20,6 +20,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const solucionesFinancieras= (await import(`../../messages/${locale}/financiera.json`)).default;
   const solucionesSap= (await import(`../../messages/${locale}/solucionesSap.json`)).default;
   const gestionHumana= (await import(`../../messages/${locale}/gestionHumana.json`)).default;
+  const pensiones= (await import(`../../messages/${locale}/pensiones.json`)).default;
+  const pensionesVoluntarias= (await import(`../../messages/${locale}/pensionesVoluntarias.json`)).default;
+  const solucionesIA= (await import(`../../messages/${locale}/solucionesIa.json`)).default;
   const landingSoftware= (await import(`../../messages/${locale}/landingSoftware.json`)).default;
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
   return {
@@ -34,6 +37,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...solucionesFinancieras,
       ...solucionesSap,
       ...gestionHumana,
+      ...pensiones,
+      ...pensionesVoluntarias,
+      ...solucionesIA,
       ...landingSoftware,
       ...footer,
       ...navbar

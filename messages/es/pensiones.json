@@ -1,179 +1,179 @@
 {
   "pensiones": {
-    "infoSolucionesPension": {
+    "dataHeroPensiones": {
       "title": "Soluciones para pensiones",
-      "description": "Nuestro software <span className=\"font-semibold\">está diseñado para fondos de pensiones, aseguradoras y entidades financieras que buscan transformar su gestión</span> Con nuestras plataformas puedes administrar cesantías, pensiones obligatorias y voluntarias, y liquidar rentas vitalicias con total trazabilidad, eficiencia y cumplimiento normativo.",
+      "description": "Nuestro software <bold>está diseñado para fondos de pensiones, aseguradoras y entidades financieras que buscan transformar su gestión.</bold> Con nuestras plataformas puedes administrar cesantías, pensiones obligatorias y voluntarias, y liquidar rentas vitalicias con total trazabilidad, eficiencia y cumplimiento normativo.",
       "buttonText": "Habla con un experto en pensiones",
       "breadcrumb": [
-        {
-          "label": "Pensiones"
-        },
-        {
-          "label": "Soluciones para pensiones"
-        }
+        { "label": "Pensiones" },
+        { "label": "Soluciones para pensiones" }
       ]
     },
-    "infoPensiones1": {
+
+    "titlesPensiones": {
+      "titlePensiones1": {
+        "title": "Retos del sistema de pensiones en <br/>Latinoamérica y cómo puedes <br/>gestionarlo con nuestro software",
+        "description": "El sistema de pensiones en América Latina enfrenta transformaciones que requieren <bold>visión y tecnología:</bold>"
+      },
+      "titlePensiones2": {
+        "description": "Con nuestras soluciones para pensiones obtienes software escalable y seguro, alineados a la regulación y pensadas para garantizar confianza y sostenibilidad."
+      },
+      "titlePensiones3": {
+        "title": "Una plataforma previsional única,<br/>modular y escalable",
+        "description": "Nuestro <bold>software previsional</bold> centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.<br/><br/><bold>Su diseño modular y parametrizable permite adaptarse a la regulación de cada país en LATAM,</bold> manejar altos volúmenes operativos y garantizar trazabilidad, control y consistencia de la información a lo largo de todo el ciclo previsional."
+      },
+      "titlePensiones4": {
+        "title": "Lo que nos hace diferentes en la <br/>gestión pensional"
+      },
+      "titlePensiones5": {
+        "title": "Lo que nos hace diferentes en la gestión empresarial"
+      },
+      "titlePensiones6": {
+        "title": "Certificaciones Internacionales"
+      },
+      "titlePensiones7": {
+        "description": "Sin compromiso | Respaldo en +7 Países | +12 millones de afiliados administrativos"
+      },
+      "titlePensiones8": {
+        "title": "Moderniza la gestión de tu sistema de pensiones",
+        "description": "Transforma la administración de pensiones en tu entidad y asegura cumplimiento en cada auditoría"
+      },
+      "PreguntasFrecuentes": {
+        "title": "Preguntas frecuentes"
+      }
+    },
+
+    "buttonsPensiones": {
+      "buttonPensiones1": "Explora nuestras soluciones en pensiones",
+      "buttonPensiones2": "Conversa con un especialista en pensiones",
+      "buttonPensiones3": "Conversa con un especialista en pensiones"
+    },
+
+    "cardsPensiones1": {
       "highlight": {
+        "icon": "rocket_launch",
+        "suffix": "+",
         "value": "30",
         "description": "años de experiencia"
       },
       "metrics": [
         {
+          "suffix": "+",
           "value": "12",
           "description": "millones de afiliados administrados en Colombia y Latam"
         },
         {
-          "value": "<span className=\"text-text-body text-sm md:text-xl\">Gestionamos</span><br /><span className=\"text-brand-accent\">+</span> 90.000 <span className=\"text-sm font-bold\">USD</span>",
+          "value": "Gestionamos <br/>+90.000 <bold>USD</bold>",
           "description": "millones en pensiones"
         }
       ]
     },
-    "infoPensiones2": [
+
+    "cardsPensiones2": [
       {
+        "icon": "ar_on_you",
         "title": "Envejecimiento poblacional",
-        "description": "Mas jubilados demandan procesos ágiles y sostenibles."
+        "description": "Mas jubilados demandan procesos ágiles y sostenibles.",
+        "alineacion": "center"
       },
       {
+        "icon": "trip",
         "title": "Sostenibilidad financiera",
-        "description": "Los déficits en sistemas de reparto impulsan la diversificación en fondos de capitalización."
+        "description": "Los déficits en sistemas de reparto impulsan la diversificación en fondos de capitalización.",
+        "alineacion": "center"
       },
       {
+        "icon": "card_travel",
         "title": "Digitalización de trámites",
-        "description": "Los afiliados esperan autogestión, trazabilidad y una experiencia 100% digital."
+        "description": "Los afiliados esperan autogestión, trazabilidad y una experiencia 100% digital.",
+        "alineacion": "center"
       },
       {
+        "icon": "money_bag",
         "title": "Presión regulatoria",
-        "description": "Normativas cambiantes exigen reportes confiables y actualizados."
+        "description": "Normativas cambiantes exigen reportes confiables y actualizados.",
+        "alineacion": "center"
       },
       {
+        "icon": "article_person",
         "title": "Nómina de pensionados",
-        "description": "El pago masivo necesita liquidación transparente y sin errores."
+        "description": "El pago masivo necesita liquidación transparente y sin errores.",
+        "alineacion": "center"
       },
       {
+        "icon": "nest_found_savings",
         "title": "Nuevos actores",
-        "description": "Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio."
+        "description": "Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio.",
+        "alineacion": "center"
       }
     ],
-    "infoPensiones3": [
+
+    "cardPensiones3": [
       {
+        "icon": "savings",
         "title": "Módulo de Pensiones obligatorias",
-        "description": "Gestiona el ciclo completo del afiliado, desde el diseño, vinculación hasta el reconocimiento y pago de la pensión, <span className=\"font-bold\">Bajo distintos regimenes y marcos normativos.</span>",
+        "description": "Gestiona el ciclo completo del afiliado, desde el diseño, vinculación hasta el reconocimiento y pago de la pensión, <bold>Bajo distintos regimenes y marcos normativos.</bold>",
         "items": [
-          {
-            "textos": "Administración de afiliaciones, historia laboral y cotizaciones"
-          },
-          {
-            "textos": "Liquidación de pensiones en esquemas de capitalización, reparto o mixtos."
-          },
-          {
-            "textos": "Gestión de novedades, traslados, retiros y cambios de estado."
-          },
-          {
-            "textos": "Nómina de pensionados integrada, con procesos masivos y control total."
-          },
-          {
-            "textos": "Parametrización normativa por país y actualización continua ante cambios regulatorios."
-          },
-          {
-            "textos": "Integración con sistemas regulatorios, contables y de recaudo."
-          },
-          {
-            "textos": "Generación de reportes ejecutivos y detallados"
-          },
-          {
-            "textos": "Diseñado pensando en la experiencia del usuario para una mayor facilidad de uso."
-          },
-          {
-            "textos": "Visión 360° del afiliado y empleadores, brindando acceso unificado a cuentas bancarias, relaciones y estado de las obligaciones."
-          }
+          { "textos": "Administración de afiliaciones, historia laboral y cotizaciones" },
+          { "textos": "Liquidación de pensiones en esquemas de capitalización, reparto o mixtos." },
+          { "textos": "Gestión de novedades, traslados, retiros y cambios de estado." },
+          { "textos": "Nómina de pensionados integrada, con procesos masivos y control total." },
+          { "textos": "Parametrización normativa por país y actualización continua ante cambios regulatorios." },
+          { "textos": "Integración con sistemas regulatorios, contables y de recaudo." },
+          { "textos": "Generación de reportes ejecutivos y detallados" },
+          { "textos": "Diseñado pensando en la experiencia del usuario para una mayor facilidad de uso." },
+          { "textos": "Visión 360° del afiliado y empleadores, brindando acceso unificado a cuentas bancarias, relaciones y estado de las obligaciones." }
         ],
-        "textoFooter": "Administramos el <span className=\"text-brand-accent\">48%</span> de las pensiones obligatorias en Colombia, que representan <span className=\"font-bold\">USD 63 billones</span>",
+        "textoFooter": "Administramos el 48% de las pensiones obligatorias en Colombia, que representan USD 63 billones",
         "btn": "Explora el módulo de pensiones obligatorias"
       },
       {
+        "icon": "account_circle",
         "title": "Módulo de Rentas vitalicias y nómina de pensionados",
-        "description": "Administra la liquidación y pago periódico de rentas vitalicias y la nómina de pensionados desde una <span className=\"font-bold\">plataforma 100 % web y altamente automatizada.</span>",
+        "description": "Administra la liquidación y pago periódico de rentas vitalicias y la nómina de pensionados desde una <bold>plataforma 100 % web y altamente automatizada.</bold>",
         "items": [
-          {
-            "textos": "Liquidación automática de rentas vitalicias."
-          },
-          {
-            "textos": "Gestión de sobrevivencias, sustituciones y temporalidades."
-          },
-          {
-            "textos": "Procesos masivos de cálculo y dispersión de pagos."
-          },
-          {
-            "textos": "Notificaciones al pensionado sobre pagos y ajustes."
-          },
-          {
-            "textos": "Gestor documental integrado para auditoría y trazabilidad."
-          },
-          {
-            "textos": "Expediente electrónico, notificaciones, integración con gestor documental, componente de cargue y generación de archivos."
-          },
-          {
-            "textos": "Se adapta a fondos de pensiones, aseguradoras y empresas de riesgos laborales, permitiéndote gestionar tanto nóminas de pensionados como rentas vitalicias en un solo lugar."
-          }
+          { "textos": "Liquidación automática de rentas vitalicias." },
+          { "textos": "Gestión de sobrevivencias, sustituciones y temporalidades." },
+          { "textos": "Procesos masivos de cálculo y dispersión de pagos." },
+          { "textos": "Notificaciones al pensionado sobre pagos y ajustes." },
+          { "textos": "Gestor documental integrado para auditoría y trazabilidad." },
+          { "textos": "Expediente electrónico, notificaciones, integración con gestor documental, componente de cargue y generación de archivos." },
+          { "textos": "Se adapta a fondos de pensiones, aseguradoras y empresas de riesgos laborales, permitiéndote gestionar tanto nóminas de pensionados como rentas vitalicias en un solo lugar." }
         ],
         "btn": "Conoce el módulo de rentas vitalicias"
       },
       {
+        "icon": "savings",
         "title": "Modulo de Pensiones Voluntarias",
-        "description": "Gestiona esquemas de ahorro previsional voluntario desde una lógica multifondos, flexible y orientada a la autogestión del afiliado, con un conjunto completo de procesos que <span className=\"font-semibold text-gray-800\">Cubren la gestion finaciera, operativa y de riesgos</span>",
+        "description": "Gestiona esquemas de ahorro previsional voluntario desde una lógica multifondos, flexible y orientada a la autogestión del afiliado, con un conjunto completo de procesos que <bold>Cubren la gestion finaciera, operativa y de riesgos</bold>",
         "items": [
-          {
-            "textos": "Administración de aportes periódicos y extraordinarios."
-          },
-          {
-            "textos": "Movilidad entre fondos según perfil de riesgo del afiliado."
-          },
-          {
-            "textos": "Gestión integral de afiliados, personas y cuentas."
-          },
-          {
-            "textos": "Gestión financiera, valoración y control de riesgos asociados a los fondos."
-          },
-          {
-            "textos": "Gestión de beneficios tributarios conforme a la normativa local."
-          },
-          {
-            "textos": "Portales de autogestión para afiliados y empleadores."
-          },
-          {
-            "textos": "Reportes regulatorios, contables y de aportes colectivos."
-          },
-          {
-            "textos": "Cierre operativo y financiero de los fondos con trazabilidad total."
-          }
+          { "textos": "Administración de aportes periódicos y extraordinarios." },
+          { "textos": "Movilidad entre fondos según perfil de riesgo del afiliado." },
+          { "textos": "Gestión integral de afiliados, personas y cuentas." },
+          { "textos": "Gestión financiera, valoración y control de riesgos asociados a los fondos." },
+          { "textos": "Gestión de beneficios tributarios conforme a la normativa local." },
+          { "textos": "Portales de autogestión para afiliados y empleadores." },
+          { "textos": "Reportes regulatorios, contables y de aportes colectivos." },
+          { "textos": "Cierre operativo y financiero de los fondos con trazabilidad total." }
         ],
-        "textoFooter": "Administramos el <span className=\"text-brand-accent\">43%</span> del ahorro voluntario en Colombia, que representan <span className=\"font-bold\">USD 5 billones</span>",
+        "textoFooter": "Administramos el 43% del ahorro voluntario en Colombia, que representan USD 5 billones",
         "btn": "Descubre el módulo de pensiones voluntarias"
       },
       {
+        "icon": "account_circle",
         "title": "Modulo de cesantias",
-        "description": "<span className=\"font-semibold text-gray-800\">Administra la gestion integral de cesantias</span> con altos volúmenes operativos y estrictos controles normativos, desde un mismo core previsional abarcando desde la gestión de afiliados hasta el cálculo de fondos y los retiros permitidos por ley.",
+        "description": "<bold>Administra la gestion integral de cesantias</bold> con altos volúmenes operativos y estrictos controles normativos, desde un mismo core previsional abarcando desde la gestión de afiliados hasta el cálculo de fondos y los retiros permitidos por ley.",
         "items": [
-          {
-            "textos": "Gestión de retiros parciales y totales según causales legales."
-          },
-          {
-            "textos": "Procesos masivos de liquidación, traslados y pagos."
-          },
-          {
-            "textos": "Administración multifondos con beneficios adicionales."
-          },
-          {
-            "textos": "Integración con nómina, sistemas de recaudo y contabilidad."
-          },
-          {
-            "textos": "Reducción de costos operativos y mejora en la trazabilidad de aportes."
-          }
+          { "textos": "Gestión de retiros parciales y totales según causales legales." },
+          { "textos": "Procesos masivos de liquidación, traslados y pagos." },
+          { "textos": "Administración multifondos con beneficios adicionales." },
+          { "textos": "Integración con nómina, sistemas de recaudo y contabilidad." },
+          { "textos": "Reducción de costos operativos y mejora en la trazabilidad de aportes." }
         ],
-        "btn": "Explora el módulo de censatías"
+        "btn": "Explora el módulo de cesantías"
       }
     ],
+
     "informacionPensiones5": [
       {
         "title": "Escala regional",
@@ -192,6 +192,7 @@
         "description": "Acompañamiento en implementación y operación diaria, respaldada por un equipo de más de 200 profesionales con conocimiento del sector previsional, gestión de proyectos y procesos funcionales."
       }
     ],
+
     "infoPensiones6": {
       "highlight": {
         "value": "40%",
@@ -207,145 +208,75 @@
         }
       ]
     },
+
     "dataPreguntasFrecuentesPensiones": [
       {
         "question": "¿Se trata de un solo software o de varias soluciones diferentes?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Nuestra plataforma es integral y modular. Esto significa que, aunque funciona sobre un único core tecnológico, puedes implementar solo los módulos que tu entidad necesite (ej. solo Cesantías o solo Pensiones Obligatorias) y escalarlos en el futuro."
         }
       },
       {
         "question": "¿Qué entidades pueden utilizar este software previsional?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+          "descriptions": "Nuestra solución está diseñada para:",
           "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
+            "Administradoras de Fondos de Pensiones (AFP) públicas y privadas.",
+            "Compañías de Seguros de Vida (Rentas Vitalicias).",
+            "Entidades gubernamentales de previsión social.",
+            "Fondos de Cesantías.",
+            "Empresas con regímenes pensionales propios o especiales."
           ]
         }
       },
       {
         "question": "¿El software se adapta a la regulación de cada país en LATAM?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. El sistema es altamente parametrizable. Contamos con experiencia en múltiples países de LATAM, lo que nos permite configurar reglas de negocio, fórmulas de liquidación y reportes regulatorios específicos para cada jurisdicción."
         }
       },
       {
         "question": "¿Puedo implementar solo algunos módulos y escalar después?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. La arquitectura modular permite activar solo los módulos necesarios e incorporar nuevos a medida que tu operación lo requiera, sin necesidad de migrar ni rediseñar."
         }
       },
       {
         "question": "¿El software cubre la nómina de pensionados y los pagos masivos?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. El módulo de Rentas Vitalicias y Nómina de Pensionados permite liquidar, calcular y dispersar pagos masivos de forma automatizada, con control total y trazabilidad."
         }
       },
       {
         "question": "¿También sirve para administrar ahorro previsional voluntario o APV?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. El módulo de Pensiones Voluntarias gestiona esquemas de ahorro previsional voluntario con lógica multifondos, movilidad entre fondos, beneficios tributarios y portales de autogestión."
         }
       },
       {
-        "question": "¿Se puede usar para administrar cesantías desde el mismo sistema? ",
+        "question": "¿Se puede usar para administrar cesantías desde el mismo sistema?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. El módulo de Cesantías opera sobre el mismo core previsional, permitiendo gestionar retiros, liquidaciones masivas, traslados e integración con nómina y contabilidad."
         }
       },
       {
         "question": "¿El software es multipaís y multimoneda?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Sí. La plataforma está diseñada para operar en múltiples países de LATAM con parametrización normativa por jurisdicción y soporte multimoneda."
         }
       },
       {
         "question": "¿Qué tipo de acompañamiento ofrece Heinsohn?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Ofrecemos acompañamiento integral: desde la consultoría inicial y la implementación, hasta el soporte operativo diario, respaldado por un equipo de más de 200 profesionales especializados en el sector previsional."
         }
       },
       {
         "question": "¿Cómo iniciar la implementación del software previsional?",
         "answer": {
-          "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
-          "listsItems": [
-            "Pagos y comercio en vehículos",
-            "Vehículo definido por software",
-            "Android Auto y sistemas embebidos",
-            "IA generativa para personalización",
-            "Vehículos e infraestructura conectados"
-          ]
+          "descriptions": "Puedes agendar una sesión con nuestro equipo de expertos para evaluar tus necesidades, definir el alcance del proyecto y planificar la implementación paso a paso."
         }
       }
-    ],
-    "textoPensiones1": {
-      "title": "Retos del sistema de pensiones en Latinoamérica y cómo puedes gestionarlo con nuestro software ",
-      "description": "El sistema de pensiones en America Latina enfrenta transformaciones que requieren <span className=\"text-text-body font-semibold\">vision y tecnologia:</span>"
-    },
-    "textoPensiones2": {
-      "title": "Una plataforma previsional única, modular y escalable ",
-      "description": "Nuestro <span className=\"text-text-body font-semibold\">software </span> previsional centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.<br /><span className=\"text-text-body font-bold\">Su diseño modular y parametrizable permite adaptarse a la regulación de cada país en LATAM,</span> manejar altos volúmenes operativos y garantizar trazabilidad, control y consistencia de la información a lo largo de todo el ciclo previsional"
-    }
+    ]
   }
 }

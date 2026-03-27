@@ -39,6 +39,12 @@
       "StackTecnologico": {
         "title": "El stack tecnológico detrás de nuestros proyectos de software",
         "description": "Para garantizar escalabilidad, seguridad y eficiencia, trabajamos con un stack tecnológico robusto y probado en <bold>proyectos de alto impacto</bold>"
+      },
+      "PreguntasFrecuentes":{
+        "title":"Preguntas Frecuentes"
+      },
+      "titleContactForm":{
+        "title":"¿Tienes un proyecto en mente?"
       }
     },
 
@@ -167,17 +173,23 @@
         }
       }
     ],
-    "dataCardKnowOurWork": {
-      "imgKnowOurWork": "/img/edif.jpg",
-      "titleWork": "Transformación digital en el sector financiero",
-      "descriptionWork": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
-      "textBtn": "Conoce el caso completo"
+
+    "sliderDesarrolloAlaMedida":{
+      "title":"Blog destacado",
+    "items":[{
+      "id":1,
+      "img": "/img/edif.jpg",
+      "title": "Transformación digital en el sector financiero",
+      "description": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+      "btn": "Conoce el caso completo"
     },
-    "dataCardKnowOurWork2": {
-      "imgKnowOurWork": "/img/imgWorkKnow.jpg",
-      "titleWork": "Transformación de una plataforma de servicios de salud",
-      "descriptionWork": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
-      "textBtn": "Descubre cómo lo hicimos"
+    {
+      "id":2,
+      "img": "/img/imgWorkKnow.jpg",
+      "title": "Transformación de una plataforma de servicios de salud",
+      "description": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+      "btn": "Descubre cómo lo hicimos"
+    }]
     }
   }
 }

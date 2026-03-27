@@ -8,7 +8,7 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
 
         <div className="grid lg:grid-cols-2 border border-border-ui">
           <div className="p-6 md:p-10 lg:p-12 border-r border-border-ui flex flex-col justify-center">
-            <div className="mb-6">{data.highlight.icon}</div>
+            <div className="material-symbols-rounded text-text-title font-light">{data.highlight.icon}</div>
 
             <div className="flex items-center mb-4">
               <span className="text-2xl md:text-3xl lg:text-5xl text-brand-accent">

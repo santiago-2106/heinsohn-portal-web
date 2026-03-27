@@ -29,6 +29,7 @@ import {
 } from "@/src/data/soluciones/financiera";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
+import mapRich from "@/src/hooks/mapRich";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -40,6 +41,8 @@ export const metadata: Metadata = {
 export default function SolucionesFinanciero() {
 
   const t = useTranslations("financiera")
+
+  const cardsFinanzas = mapRich(t,"cardsExperienciaCifras")
 
   return (
     <>
@@ -74,7 +77,7 @@ export default function SolucionesFinanciero() {
 
       <CardAnuncies 
         title={titlesFinanciera.statsVacio} 
-        cards={experienceStatsData} 
+        cards={cardsFinanzas} 
         cols={2} 
       />
 

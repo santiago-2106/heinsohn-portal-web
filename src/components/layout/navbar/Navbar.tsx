@@ -30,7 +30,7 @@ export default function Navbar() {
 
   const newPath = segments.join("/");
 
-  router.push(newPath);
+  router.push(newPath, {scroll:false});
 };
 
   return (

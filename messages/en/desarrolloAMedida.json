@@ -2,7 +2,7 @@
   "desarrolloAMedida": {
     "dataHeroDesarrolloAMedida": {
       "title": "Custom Software Development",
-      "description": "Custom software development is the key for companies to advance with agility, security, and scalability.<bold>We create unique solutions tailored to your business,</bold> with the experience and knowledge that positions us as one of the leading software development companies in Colombia and LATAM.",
+      "description": "Custom software development is the key for companies to advance with agility, security, and scalability.<bold> We create unique solutions tailored to your business,</bold> with the experience and knowledge that positions us as one of the leading software development companies in Colombia and LATAM.",
       "buttonText": "Request a free consultation",
       "breadcrumb": [
         { "label": "Solutions" },
@@ -21,7 +21,7 @@
       },
       "ModelosDesarrollo": {
         "title": "Development models that adapt to your company's digital maturity",
-        "description": "WHERE organización se encuentra en un punto distinto de su transformación tecnológica. Por eso, <bold>nuestros servicios de desarrollo de software a la medida</bold> no siguen un único modelo, sino que se ajustan a la estrategia, recursos y tiempos de tu negocio"
+        "description": "Your organization is at a different stage in its technological transformation. Therefore, <bold>our custom software development services</bold> don't follow a single model, but rather adapt to your business's strategy, resources, and timeline."
       },
       "ResultadosMedibles": {
         "title": "Measurable results from software tailored to your needs.",
@@ -38,6 +38,12 @@
       "StackTecnologico": {
         "title": "The technology stack behind our software projects",
         "description": "To ensure scalability, security, and efficiency, we work with a robust technology stack proven in <bold>high-impact projects.</bold>"
+      },
+      "PreguntasFrecuentes":{
+        "title":"Frequently Asked Questions"
+      },
+      "titleContactForm":{
+        "title":"Do you have a project in mind?"
       }
     },
     "textBtn": { 
@@ -316,17 +322,25 @@
         }
       }
     ],
-    "dataCardKnowOurWork": {
-      "imgKnowOurWork": "/img/edif.jpg",
-      "titleWork": "Digital Transformation in the Financial Sector",
-      "descriptionWork": "We implemented a custom digital platform that improved customer experience and reduced operation times by 40%.",
-      "textBtn": "Read the full case"
-    },
-    "dataCardKnowOurWork2": {
-      "imgKnowOurWork": "/img/imgWorkKnow.jpg",
-      "titleWork": "Transformation of a Healthcare Services Platform",
-      "descriptionWork": "We designed a new digital experience for a healthcare platform, improving navigation, reorganizing flows...",
-      "textBtn": "Discover how we did it"
+
+    "sliderDesarrolloAlaMedida":{
+    "title": "Destacated Blogs",
+     "items":[
+      {
+        "id":1,
+        "img": "/img/edif.jpg",
+        "title": "Digital Transformation in the Financial Sector",
+        "description": "We implemented a custom digital platform that improved customer experience and reduced operation times by 40%.",
+        "btn": "Read the full case"
+      },
+      {
+        "id":2,
+        "img": "/img/imgWorkKnow.jpg",
+        "title": "Transformation of a Healthcare Services Platform",
+        "description": "We designed a new digital experience for a healthcare platform, improving navigation, reorganizing flows...",
+        "btn": "Discover how we did it"
+      }
+    ]
     }
   }
 }
