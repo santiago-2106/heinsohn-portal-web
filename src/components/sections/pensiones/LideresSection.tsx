@@ -19,7 +19,7 @@ interface LideresSectionProps {
 export default function LideresSection({ title, mainCard, gridCards }: LideresSectionProps) {
   return (
     <section className="bg-bg-main py-16 md:py-24 transition-colors duration-300">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-248.5 px-4 sm:px-6 lg:px-0 flex flex-col">
         
         <h2 className="text-3xl md:text-4xl lg:text-[40px] text-text-title font-light mb-12 lg:mb-16 text-center max-w-4xl mx-auto leading-tight">
           {title}
@@ -29,7 +29,7 @@ export default function LideresSection({ title, mainCard, gridCards }: LideresSe
           
           {/* LADO IZQUIERDO: #1 */}
           <div className="w-full lg:w-[35%] p-8 lg:p-12 border-b lg:border-b-0 lg:border-r border-border-ui flex flex-col justify-center items-start">
-            <div className="text-text-title mb-6">
+            <div className="text-text-title mb-6 material-symbols-rounded" style={{fontSize:"32px"}}>
               {mainCard.icon}
             </div>
             
@@ -57,7 +57,7 @@ export default function LideresSection({ title, mainCard, gridCards }: LideresSe
                   ${index % 2 === 0 ? "md:border-r border-border-ui" : ""}
                 `}
               >
-                <div className="text-text-title mb-5">
+                <div className="text-text-title mb-5 material-symbols-rounded">
                   {card.icon}
                 </div>
                 <h4 className="text-[18px] md:text-[20px] font-light text-text-title mb-4">

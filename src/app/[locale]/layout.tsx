@@ -10,6 +10,7 @@ import FooterBottom from "@/src/components/layout/footer/FooterBottom";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { routing } from "@/src/i18n/routing";
 import { notFound } from "next/navigation";
+import { getMessages } from "next-intl/server";
 
 const montserrat = Montserrat({ 
   subsets: ["latin"],
@@ -50,6 +51,8 @@ export default async function RootLayout ({children, params} : Props){
 
   if(!hasLocale(routing.locales, locale)) return notFound()
 
+    const messages = await getMessages()
+
   return (
     <html lang={locale}>
       <head>
@@ -60,15 +63,13 @@ export default async function RootLayout ({children, params} : Props){
       </head>
       {/* Mantenemos tu clase y variable de fuente intacta */}
       <body className={`${montserrat.variable} antialiased`}>
-        <NextIntlClientProvider>
-        <div className="flex flex-col min-h-screen bg-bg-main">
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Navbar />
           <main>
             {children}
           </main>
           <Footer />
           <FooterBottom />
-        </div>
         </NextIntlClientProvider>
       </body>
     </html>

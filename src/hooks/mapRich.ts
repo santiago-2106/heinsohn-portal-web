@@ -5,7 +5,7 @@ const mapRich = (t: any, key: string) => {
   const items = t.raw(key);
 
   return items.map((_: any, i: number) => ({
-    title: t(`${key}.${i}.title`),
+    title: t.rich(`${key}.${i}.title`,richText),
     description: t.rich(`${key}.${i}.description`, richText)
   }));
 };

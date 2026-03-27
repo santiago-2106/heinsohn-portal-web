@@ -10,61 +10,74 @@ import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
 import SliderBlog from "@/src/components/sliders/SliderBlog";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
 
-import { dataPensionesVoluntarias } from "@/src/data/soluciones/pensiones-voluntarias";
+// Internacionalización
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export default function PensionesVoluntarias() {
+
+  const t = useTranslations("pensionesVoluntarias");
+
   return (
     <div className="bg-bg-main min-h-screen transition-colors duration-300">
 
+      {/* 1. HERO */}
       <Hero
-        title={dataPensionesVoluntarias.hero.title}
-        description={dataPensionesVoluntarias.hero.description}
-        buttonText={dataPensionesVoluntarias.hero.buttonText}
-        breadcrumb={dataPensionesVoluntarias.hero.breadcrumb}
+        title={t.rich("hero.title", richText)}
+        description={t.rich("hero.description", richText)}
+        buttonText={t("hero.buttonText")}
+        breadcrumb={t.raw("hero.breadcrumb")}
         isUppercase={false}
-        showImage={false} // <-- IMAGEN DEL HERO APAGADA
+        showImage={false}
       />
 
+      {/* 2. VENTAJAS */}
       <SliderVentajas
-        title={dataPensionesVoluntarias.ventajas.title}
-        description={dataPensionesVoluntarias.ventajas.description}
-        cards={dataPensionesVoluntarias.ventajas.cards}
+        title={t("ventajas.title")}
+        description={t("ventajas.description")}
+        cards={t.raw("ventajas.cards")}
       />
       
-      <ContactForm title="Contáctanos"/>
+      {/* 3. FORMULARIO DE CONTACTO */}
+      <ContactForm title={t("contactFormTitle")} />
 
+      {/* 4. SERVICIOS */}
       <CardAnuncies
-        title={dataPensionesVoluntarias.servicios.title}
-        cards={dataPensionesVoluntarias.servicios.cards}
+        title={t.rich("servicios.title", richText)}
+        cards={t.raw("servicios.cards")}
         cols={2}
       />
 
+      {/* 5. LÍDERES */}
       <LideresSection
-        title={dataPensionesVoluntarias.lideres.title}
-        mainCard={dataPensionesVoluntarias.lideres.mainCard}
-        gridCards={dataPensionesVoluntarias.lideres.gridCards}
+        title={t("lideres.title")}
+        mainCard={t.raw("lideres.mainCard")}
+        gridCards={t.raw("lideres.gridCards")}
       />
 
+      {/* 6. FUNCIONALIDADES */}
       <FuncionalidadesSection
-        title={dataPensionesVoluntarias.funcionalidades.title}
-        tabs={dataPensionesVoluntarias.funcionalidades.tabs}
+        title={t("funcionalidades.title")}
+        tabs={t.raw("funcionalidades.tabs")}
       />
 
+      {/* 7. CTA */}
       <SectionCenteredText
-        title={dataPensionesVoluntarias.cta.title}
-        description={dataPensionesVoluntarias.cta.description}
+        title={t("cta.title")}
+        description={t.rich("cta.description", richText)}
       />
 
+      {/* 8. PREGUNTAS FRECUENTES */}
       <PreguntForm
-        title={dataPensionesVoluntarias.faq.title}
-        items={dataPensionesVoluntarias.faq.items}
+        title={t("faq.title")}
+        items={t.raw("faq.items")}
       />
 
+      {/* 9. SLIDER BLOG */}
       <div className="py-16 md:py-24 bg-bg-main border-t border-border-ui">
-        {/* ✅ PASAMOS LA DATA AL SLIDER PARA QUE APAREZCA */}
         <SliderBlog 
-          title="Blog destacado" 
-          data={dataPensionesVoluntarias.blogs} 
+          title={t("sliderBlog.title")} 
+          data={t.raw("sliderBlog.items")} 
         />
       </div>
 

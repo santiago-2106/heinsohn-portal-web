@@ -30,7 +30,7 @@ export default function FuncionalidadesSection({ title, tabs }: FuncionalidadesS
 
   return (
     <section className="bg-bg-main py-16 md:py-24 transition-colors duration-300">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-[1006px] px-4 sm:px-6 lg:px-8">
         
         {/* Título Principal Centrado */}
         <h2 className="text-3xl md:text-4xl lg:text-[40px] text-text-title font-light mb-12 lg:mb-16 text-center max-w-4xl mx-auto leading-tight">
@@ -41,7 +41,7 @@ export default function FuncionalidadesSection({ title, tabs }: FuncionalidadesS
         <div className="flex flex-col lg:flex-row gap-6 lg:gap-10">
           
           {/* LADO IZQUIERDO: Pestañas */}
-          <div className="w-full lg:w-[35%] flex flex-col gap-4">
+          <div className="w-full flex flex-col gap-4">
             {tabs.map((tab) => {
               const isActive = activeTabId === tab.id;
               
@@ -57,7 +57,7 @@ export default function FuncionalidadesSection({ title, tabs }: FuncionalidadesS
                   `}
                 >
                   <div className="flex items-center gap-4">
-                    <div className={`${isActive ? "text-text-title" : "text-text-body group-hover:text-text-title"} transition-colors flex items-center`}>
+                    <div className={`${isActive ? "text-text-title" : "text-text-body group-hover:text-text-title"} transition-colors flex items-center material-symbols-rounded`}>
                       {tab.icon}
                     </div>
                     <span className={`text-[15px] md:text-[17px] font-light transition-colors ${

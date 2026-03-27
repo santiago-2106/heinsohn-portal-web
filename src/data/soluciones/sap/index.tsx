@@ -5,7 +5,7 @@ import { title } from "process";
 // ==========================================
 // 1. FUNCIÓN AUXILIAR PARA ÍCONOS NUMÉRICOS
 // ==========================================
-const createNumberIcon = (number: string, badgeText: string) => (
+const createNumberIcon = (number: string, badgeText?: string) => (
   <div className="flex flex-col">
     <span className="text-[64px] font-light text-brand-accent leading-none mb-3">
       {number}

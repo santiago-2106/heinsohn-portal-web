@@ -74,11 +74,11 @@ export default function SliderVentajas({ title, description, cards }: SliderVent
                 }`}>
 
                   {/* Ícono (Cambia de color y tamaño dependiendo si está activa) */}
-                  <div className={`transition-all duration-500 ${
+                  <div className={`material-symbols-rounded transition-all duration-500 ${
                     isActive 
                       ? "text-brand-accent mb-6 [&>svg]:w-12 [&>svg]:h-12" // Rojo, grande, arriba
                       : "text-text-body mb-4 [&>svg]:w-8 [&>svg]:h-8"      // Gris, pequeño, abajo
-                  }`}>
+                  }`} style={{fontSize:"80px"}}>
                     {card.icon}
                   </div>
 

@@ -24,8 +24,6 @@ export default function PageSolucionesTI() {
   const t = useTranslations("solucionesTi")
   const tContacto = useTranslations("contactForm")
 
-  const heroSolucionesTi = dataHeroSolucionesTi1(t)
-
   return (
     <>
       <Hero {...t.raw("dataHeroSolucionesTI")}/>
