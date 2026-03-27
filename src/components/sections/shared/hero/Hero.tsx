@@ -149,7 +149,7 @@ export default function Hero({
                 <span className="font-medium">{buttonText}</span>
                 <span
                   aria-hidden="true"
-                  className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1"
+                  className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1 hover:opacity-0"
                 >
                   arrow_forward
                 </span>
@@ -161,7 +161,7 @@ export default function Hero({
               >
                 <span
                   aria-hidden="true"
-                  className="material-symbols-rounded text-lg"
+                  className="material-symbols-rounded text-lg hover:translate-y-6"
                 >
                   arrow_downward
                 </span>

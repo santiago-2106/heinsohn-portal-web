@@ -17,6 +17,8 @@ import {
 } from "@/src/data/soluciones/share/textosGenerales";
 import { cardSlider2 } from "@/src/data/soluciones/share/slider";
 import { softwareCards } from "@/src/data/soluciones/share/textosGenerales";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 // Optimización SEO y Web Vitals
 export const metadata: Metadata = {
@@ -26,6 +28,9 @@ export const metadata: Metadata = {
 };
 
 export default function SolucionDigital() {
+
+  const t = useTranslations("desarrolloUxUi")
+
   return (
     <>
       
@@ -35,10 +40,10 @@ export default function SolucionDigital() {
         
         {/* 1. HERO */}
         <Hero
-          title={dataUXConsultorias.title}
-          description={dataUXConsultorias.description}
-          buttonText={dataUXConsultorias.buttonText}
-          breadcrumb={dataUXConsultorias.breadcrumb}
+          title={t("dataHeroDesarrolloUX.title")}
+          description={t.rich("dataHeroDesarrolloUX.description", richText)}
+          buttonText={t("dataHeroDesarrolloUX.buttonText")}
+          breadcrumb={t.raw("dataHeroDesarrolloUX.breadcrumb")}
         />
         
         {/* 2. INTERACTIVIDAD UX */}
@@ -46,8 +51,8 @@ export default function SolucionDigital() {
         
         {/* 3. TEXTO INTRODUCTORIO */}
         <TextComponent
-          title={dataTextDesarrolloUx.title}
-          description={dataTextDesarrolloUx.description}
+          title={t("titleDiseñoExperiencias.title")}
+          description={t.rich("titleDiseñoExperiencias.description", richText)}
         />
         
         {/* 4. PLANES / PRICING */}
@@ -57,18 +62,26 @@ export default function SolucionDigital() {
         <ContactForm title="" />
         
         {/* 6. CASOS DE ESTUDIO */}
-        <CardCases {...dataCardKnowOurWork2}/>
+        <CardCases 
+        title={t("cardConoceNuestroTrabajo.title")}
+        imgKnowOurWork="/img/imgWorkKnow.jpg"
+        titleWork={t("cardConoceNuestroTrabajo.titleWork")}
+        descriptionWork={t("cardConoceNuestroTrabajo.descriptionWork")}
+        textBtn={t("cardConoceNuestroTrabajo.textBtn")}
+        />
         
         {/* 7. SLIDER DEL BLOG */}
-        <Slider data={cardSlider2}/>
+        <Slider 
+        title={t("sliderBlogDestacado.title")}
+        data={t.raw("sliderBlogDestacado.items")}/>
         
         {/* 8. SECCIÓN DEL EQUIPO */}
         <TextTeam />
         
         {/* 9. PRODUCTOS RELACIONADOS */}
         <SliderSolDigital 
-          title="Productos relacionados" 
-          cards={softwareCards}
+          title={t("sliderProductosRelacionados.title")} 
+          cards={t.raw("sliderProductosRelacionados.cards")}
         />
         
       </main>

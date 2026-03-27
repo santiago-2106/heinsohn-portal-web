@@ -1,7 +1,6 @@
 import FeatureCard from "@/src/components/ui/cards/CardFeatures";
 import TextComponent from "../../ui/typography/TextComponent";
 import ButtonComponent from "../../ui/buttons/Button";
-import { data_EstrategiaNegocio, getButtons, titlesDesarrolloAMedida } from "@/src/data/soluciones/desarrollo-a-medida";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
 import { useCard } from "@/src/hooks/useCard";
@@ -11,11 +10,9 @@ export default function CardSoftwreGeneric() {
 
   const t = useTranslations("desarrolloAMedida")
 
-
   const DesarrolloAlaMedidaUX= t.raw("dataEstrategiaNegocio")
 
   const cardsDesarrolloAMedida = useCard(DesarrolloAlaMedidaUX)
-
 
   return (
     <>

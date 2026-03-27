@@ -7,9 +7,10 @@
       "faqTitulo": "Preguntas frecuentes sobre software financiero",
       "contactoTitulo": "<>Transforma la gestion<br className=\"hidden md:block\" />financiera de tu empresa</>"
     },
-    "dataFinanzas": {
-      "title": "<> Soluciones para el sector <br className=\"hidden md:block\" /> financiero </>",
-      "description": "<> Contamos con un <strong className=\"font-bold text-text-title\">portafolio de software especializado para banca, fintechs, aseguradoras y entidades no bancarizadas</strong> que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo. </>",
+
+    "dataHeroFinanzas": {
+      "title": "Soluciones para el sector financiero ",
+      "description": "Contamos con un <bold>portafolio de software especializado para banca, fintechs, aseguradoras y entidades no bancarizadas</bold> que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo. ",
       "buttonText": "Solicita una asesoría gratuita",
       "breadcrumb": [
         { "label": "Soluciones" },
@@ -17,45 +18,72 @@
       ],
       "badges": [
         { "prefix": "+", "highlight": "40", "text": "años de experiencia" },
-        { "prefix": "+", "highlight": "1.200", "text": "clientes en LATAM" }
+        { "prefix": "+", "highlight": "40", "text": "clientes en LATAM" }
       ]
     },
-    "entitiesData": {
-      "title": "<>Lo que enfrentan hoy las entidades<br className=\"hidden md:block\" />financieras en la región</>"
+
+    "titlesFinanciera": {
+      "EntidadesFinancierasRegion": {
+        "title": "Lo que enfrentan hoy las entidades financieras en la región",
+        "description": "La industria financiera en Latinoamérica vive un momento decisivo. La digitalización, la presión regulatoria y la irrupción de nuevos actores están transformando la manera en que bancos, fintechs, aseguradoras y entidades no bancarizadas operan. <bold>Estos son algunos de los retos más urgentes:</bold>",
+        "footerRetos": "Comprender estos desafíos es el primer paso para transformarlos en oportunidades. Por eso, contar con software especializado, seguro y escalable es clave para transformar estos desafíos en oportunidades de crecimiento",
+        "btnRetos": "Descubre cómo enfrentamos estos retos en LATAM"
+      },
+      "SolucionesTecnologicas": {
+        "title": "Soluciones tecnológicas para créditos, fondos e inversiones"
+      },
+      "ExperienciaCifras": {
+        "title": "Nuestra experiencia en cifras"
+      },
+      
+      "CertificacionesInternacionales": {
+        "title": "Certificaciones internacionales"
+      },
+      "preguntasFrecuentes": {
+        "title": "Preguntas Frecuentes"
+      },
+      "ContactForm": {
+        "title": "Transforma la gestión financiera de tu empresa"
+      }
     },
-    "introRetos": {
-      "description": "<>La industria financiera en Latinoamérica vive un momento decisivo. La digitalización, la presión regulatoria y la irrupción de nuevos actores están transformando la manera en que bancos, fintechs, aseguradoras y entidades no bancarizadas operan.<strong>Estos son algunos de los retos más urgentes:</strong></>"
-    },
-    "footerRetos": "Comprender estos desafíos es el primer paso para transformarlos en oportunidades. Por eso, contar con software especializado, seguro y escalable es clave para transformar estos desafíos en oportunidades de crecimiento",
-    "btnRetos": "Descubre cómo enfrentamos estos retos en LATAM",
-    "financialChallengesCards": [
+
+    
+    "cardsEntidadesFinancieras": [
       {
+        "icon":"credit_card",
         "title": "Pagos digitales en auge",
         "description": "Más de $111 billones de transacciones digitales reportados el año pasado."
       },
       {
+        "icon":"add_shopping_cart",
         "title": "Open Finance en expansión",
         "description": "Brasil espera 60 millones de cuentas de Open Finance, marcando tendencia."
       },
       {
+        "icon":"card_travel",
         "title": "Digitalización en Colombia",
         "description": "Más de 36 millones de adultos tenían productos financieros en 2024."
       },
       {
+        "icon":"add_moderator",
         "title": "Ciberseguridad en primer plano",
         "description": "El 70% de las organizaciones priorizan la ciberseguridad ante nuevos retos."
       },
       {
+        "icon":"robot_2",
         "title": "IA y automatización",
         "description": "Reducir la intervención humana operativa para elevar la expectativa de innovación."
       },
       {
+        "icon":"price_change",
         "title": "Competencias fintech",
         "description": "Mañana se esperan 2.763 fintech, creando un ecosistema competitivo."
       }
     ],
-    "financialSolutionsCards": [
+
+    "cardsSolucionesTecnologicas": [
       {
+        "icon": "car_tag",
         "title": "Gestión de Créditos y Libranzas",
         "description": "Software de administración de créditos y libranzas que gestiona el ciclo completo: desde la solicitud hasta el pago final.",
         "items": [
@@ -66,6 +94,7 @@
         "btn": "Conoce la solución de Créditos y Libranzas ->"
       },
       {
+        "icon": "finance_chip",
         "title": "Obligaciones Financieras",
         "description": "Software especializado en obligaciones financieras que brinda visibilidad total del portafolio y asegura cumplimiento normativo.",
         "items": [
@@ -76,6 +105,7 @@
         "btn": "Explora la solución de Obligaciones Financieras ->"
       },
       {
+        "icon": "folder_code",
         "title": "Software para Fondos de Inversión Colectiva (FICs)",
         "description": "Plataforma integral para la administración de Fondos de Inversión Colectiva, diseñada para responder al crecimiento del negocio bajo normativas específicas.",
         "items": [
@@ -86,6 +116,7 @@
         "btn": "Descubre nuestra solución para FICs ->"
       },
       {
+        "icon": "price_change",
         "title": "Software Administrador de Portafolios e Inversiones – MIDAS",
         "description": "Plataforma de gestión integral de inversiones y riesgos, que cubre desde Front Office hasta Back Office.",
         "items": [
@@ -96,25 +127,94 @@
         "btn": "Conoce cómo optimizar tus portafolios ->"
       }
     ],
-    "experienceStatsData": [
+
+    
+    "cardResultados": {
+      "title": "Resultados que demuestran nuestra experiencia en el sector financiero",
+      "mainStat": {
+        "icon": "rocket_launch",
+        "title": "Experiencia comprobada",
+        "prefix": "+",
+        "number": "40",
+        "text": "años desarrollando software financiero en LATAM."
+      },
+      "benefits": [
+        {
+          "icon": "gavel",
+          "title": "Cumplimiento normativo",
+          "description": "Respuesta ágil a cambios regulatorios."
+        },
+        {
+          "icon": "local_offer",
+          "title": "Reducción de costos",
+          "description": "Procesos automatizados que optimizan recursos."
+        },
+        {
+          "icon": "local_police",
+          "title": "Escalabilidad y seguridad",
+          "description": "Arquitectura 100% web, en nube o local."
+        },
+        {
+          "icon": "error",
+          "title": "Soporte especializado",
+          "description": "Acompañamiento en implementación y operación."
+        }
+      ],
+      "button": {
+        "text": "Habla con un especialista sobre tu gestión financiera",
+        "href": "/contacto"
+      }
+    },
+
+    "cardsExperienciaCifras": [
       {
         "title": "Cobertura masiva",
-        "description": "<>Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en <strong className=\"font-bold text-text-title\">fondos de pensiones, FICs e inversiones.</strong></>"
+        "description": "Nuestras soluciones soportan la administración de millones de afiliados y billones de dólares en activos en <bold>fondos de pensiones, FICs e inversiones.</bold>"
       },
       {
         "title": "Mercados complejos",
-        "description": "<>Experiencia probada en sectores altamente regulados de <strong className=\"font-bold text-text-title\">Colombia, Perú, Bolivia, El Salvador, Honduras, Panamá, Argentina, Uruguay, entre otros.</strong></>"
+        "description": "Experiencia probada en sectores altamente regulados de <bold>Colombia, Perú, Bolivia, El Salvador, Honduras, Panamá, Argentina, Uruguay, entre otros </bold>"
       },
       {
         "title": "Confianza sostenida",
-        "description": "<><strong className=\"font-bold text-text-title\">Más de 1.200 entidades</strong> financieras y aseguradoras activas en LATAM y el Caribe que utilizan nuestras plataformas.</>"
+        "description": "<bold>Más de 1.200 entidades</bold> financieras y aseguradoras activas en LATAM y el Caribe que utilizan nuestras plataformas."
       },
       {
         "title": "Resultados tangibles",
-        "description": "<>Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en <strong className=\"font-bold text-text-title\">proyectos de gran escala.</strong></>"
+        "description": "Reducción de costos operativos, mejoras en trazabilidad y cumplimiento normativo en <bold>proyectos de gran escala.</bold>"
       }
     ],
-    "financialFaqData": [
+
+    "cardConoceNuestroTrabajo": {
+      "imgKnowOurWork":"/img/edif.jpg",
+      "title":"Conoce nuestro trabajo",
+      "titleWork": "Caso de Éxito en Banca",
+      "descriptionWork": "Implementamos una solución integral que redujo los tiempos de respuesta en un 40%.",
+      "textBtn": "Leer caso completo"
+    },
+
+    
+    "sliderBlogDestacadoFinanciera": {
+      "title": "Blog Destacado",
+      "items": [
+        {
+          "id": 1,
+          "img": "/img/imgSlider.png",
+          "title": "La innovación como motor de transformación digital",
+          "description": "Descubre como las organizaciones estan utilizando nuestras soluciones para lograr mayor eficiencia, competividad y crecimiento sostenible.",
+          "btn": "Leer más"
+        },
+         {
+          "id": 2,
+          "img": "/img/slider2Blog.jpg",
+          "title": "Tendencias UX que marca el futuro del diseño digital",
+          "description": "Explora cómo la personalización, el diseño inclusivo y las microinteracciones están cambiando la forma en que las...",
+          "btn": "Leer más"
+        }
+      ]
+    },
+
+    "preguntasFrecuentesLista": [
       {
         "question": "¿Qué beneficios ofrece el software de créditos y libranzas?",
         "answer": "Nuestro software automatiza todo el ciclo de vida del crédito, desde la originación hasta el recaudo. Reduce los tiempos de aprobación, minimiza errores operativos mediante validaciones automáticas y ofrece una visión 360° del cliente para mejorar la toma de decisiones."

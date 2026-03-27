@@ -1,16 +1,17 @@
 {
   "gestionHumana": {
-    "infoGestionHumanaHero": {
+    "dataHeroGestionHumana": {
       "title": "HGS - Human Management",
-      "description": "A company providing <span className=\"font-semibold\">human talent management services,</span> that creates positive impact with technological solutions, <span className=\"font-semibold\">consulting and operations services.</span>",
+      "description": "A company providing <bold>human talent management services,</bold> that creates positive impact with technological solutions, <bold>consulting and operations services.</bold>",
       "buttonText": "request a free consultation",
       "breadcrumb": [
         { "label": "solutions" },
         { "label": "HGS - Human Management" }
       ]
     },
-    "gestionHumanaInfo": [
+    "cardsContrataSoluciones": [
       {
+        "icon":"business",
         "contenedor": "+500 Employees",
         "title": "Large enterprises",
         "description": "Payroll for large enterprises",
@@ -18,6 +19,7 @@
         "btn": "More Information"
       },
       {
+        "icon":"warehouse",
         "contenedor": " 1 to 450 employees",
         "title": "SMEs",
         "description": "Payroll for small and medium-sized enterprises",
@@ -25,6 +27,7 @@
         "btn": "More Information"
       },
       {
+        "icon":"things_to_do",
         "contenedor": "+100 employees",
         "title": "Government",
         "description": "Solutions for public administration",
@@ -32,96 +35,144 @@
         "btn": "More Information"
       }
     ],
-    "ProductsgestionHumanaInfo2": [
+
+    "ProductosgestionHumana": [
+    {
+      "title": "Payroll Software",
+      "description": "We provide an <strong>intelligent payroll</strong> solution for payroll processing and settlement.",
+      "btnText": "Learn more",
+      "image": "/img/laptpo1.png"
+    },
+    {
+      "title": "Contractor Payment Solution",
+      "description": "<strong>We stay ahead.</strong> We face new market challenges by developing solutions aligned with the constant changes in the world.",
+      "btnText": "Learn more",
+      "image": "/img/laptop2.png"
+    },
+    {
+      "title": "Occupational Health and Safety",
+      "description": "Enables the <strong>implementation, maintenance, and control</strong> of occupational health and safety management systems.",
+      "btnText": "Learn more",
+      "image": "/img/laptop3.png"
+    },
+    {
+      "title": "Payroll Software",
+      "description": "Provides comprehensive management of <strong>your organization's</strong> human resources.",
+      "btnText": "Learn more",
+      "image": "/img/laptop4.png"
+    },
+    {
+      "title": "Payroll and HR Solutions for Government",
+      "description": "Facilitates processes, tracking, and evaluation of organizational and <strong>human talent</strong> areas.",
+      "btnText": "Learn more",
+      "image": "/img/laptop5.png"
+    },
+    {
+      "title": "Economic Benefits Management",
+      "description": "<strong>Increase your revenue</strong> by recovering money from employee leaves and licenses.",
+      "btnText": "Learn more",
+      "image": "/img/laptop6.png"
+    },
+    {
+      "title": "Emax Payroll",
+      "description": "All Heinsohn's experience in a <strong>100% digital</strong> solution, ideal for small and growing companies.",
+      "btnText": "Learn more",
+      "image": "/img/laptop7.png"
+    }
+  ],
+    "cardsOutsourcingBPO": [
       {
-        "title": "Payroll Software",
-        "description": "We have <span className=\"font-bold\">smart payroll</span> software for payroll payment and settlement.",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Contractor Payment Solution",
-        "description": "<span className=\"font-bold\"> We are at the forefront. </span> We face the new challenges of the market by developing solutions aligned with the constant changes in the world.",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Occupational Health and Safety",
-        "description": "Allows the <span className=\"font-bold\">implementation, maintenance, and control</span> of the occupational health and safety management system.",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Payroll Software",
-        "description": "Allows the comprehensive administration of human resources in <span className=\"font-bold\">your organization.</span>",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Payroll and Human Management Solutions for Government",
-        "description": "Facilitates processes, tracking, and evaluations of the organization and <span className=\"font-bold\">human talent</span> areas.",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Management of Economic Recognitions",
-        "description": "<span className=\"font-bold\">Increase your income</span> by recovering money from employee incapacities and licenses.",
-        "btnText": "Learn more"
-      },
-      {
-        "title": "Emax Payroll",
-        "description": "All Heinsohn's experience in a <span className=\"font-bold\">100% digital</span> solution, ideal for small enterprises!",
-        "btnText": "Learn more"
-      }
-    ],
-    "infoGestionHumana2": [
-      {
+        "icon":"account_box",
         "title": "Outsourcing of Administration and Employee Support",
         "description": "We understand employees' needs, which is why our team provides constant support to our clients."
       },
       {
+        "icon":"add_reaction",
         "title": "Special Human Talent Management Processes",
         "description": "We focus our efforts on finding the best talent for companies, conducting selection processes and all the talent management an organization may require."
       },
       {
+        "icon":"digital_wellbeing",
         "title": "Occupational Health and Safety Management",
         "description": "We create a strategic model that brings together the best professionals in the sector to plan appropriate actions for workers' health and safety."
       },
       {
+        "icon":"perm_contact_calendar",
         "title": "Payroll and Contractor Payment Automation Outsourcing",
         "description": "We run all payroll settlement, auditing, and execution processes for employees as required by the companies."
       },
       {
+        "icon":"admin_meds",
         "title": "Outsourcing of Incapacities and Economic Recognitions Management",
         "description": "Handling of money transfers, portfolio purchases, disbursements, credit legalization, and generation of documents such as approval letters."
       },
       {
+        "icon":"enterprise",
         "title": "Customer Service and Digital Transformation",
         "description": "Our clients are the source of our transformation. Each challenge proposed is the fuel that drives us to grow and create new strategies."
       },
       {
+        "icon":"acute",
         "title": "Attraction, Selection, and Workforce Planning",
         "description": "We focus our efforts on finding the best talent for companies, conducting selection processes and all the talent management organizations may require."
       },
       {
+        "icon":"business_center",
         "title": "Consulting",
         "description": "We support organizations in initiatives aimed at ensuring \"the right people,\" are \"doing the right things,\" and \"achieving the desired results.\""
       },
       {
+        "icon":"concierge",
         "title": "Additional Services",
         "description": "Flexibility models, accounting reconciliations, tax advice regarding withholding, and legal guidance concerning contracts, UGPP advising, and audits."
       }
     ],
-    "textoGestionHumana": {
+
+    "titlesGestionHumana":{
+      "titleGestionHumana1": {
       "title": "Hire custom solutions, fit for your organization",
-      "description": "Our payroll software is highly customizable, dynamic, and flexible. It is a tool with <span className=\"text-text-body font-semibold\">100% web technology</span> that offers an easy, fast, and secure payroll process."
+      "description": "Our payroll software is highly customizable, dynamic, and flexible. It is a tool with <bold>100% web technology</bold> that offers an easy, fast, and secure payroll process."
     },
-    "textoGestionHumana2": {
+    "titleGestionHumana2": {
       "title": "Business Process Outsourcing - BPO",
-      "description": "<span className=\"text-text-body font-semibold\">Formal operational processes and trained personnel</span> to support your methods for attending to employees, payment calculation, and the reliable delivery of information to third parties."
+      "description": "<bold>Formal operational processes and trained personnel</bold> to support your methods for attending to employees, payment calculation, and the reliable delivery of information to third parties."
     },
-    "textoGestionHumana3": {
+    "titleGestionHumana3": {
       "title": "We are a team",
-      "description": "Teamwork is one of our main strategies. We are convinced that collective power is the essential tool to <span className=\"text-text-body font-semibold\">create innovative solutions.</span> As a business group, we join forces with large companies that are today <span className=\"text-text-body font-semibold\">our technological, creative, and financial partners.</span>"
+      "description": "Teamwork is one of our main strategies. We are convinced that collective power is the essential tool to <bold>create innovative solutions.</bold> As a business group, we join forces with large companies that are today <bold>our technological, creative, and financial partners.</bold>"
     },
-    "textoGestionHumana4": {
+    "titleGestionHumana4": {
+      "title": "We are the solution for managing human talent in the cloud."
+
+    },
+    "titleGestionHumana5": {
+      "title": "Optimize human resources processes with artificial intelligence"
+      
+    },
+    "titleGestionHumana6": {
+      "title": "Products"
+    },
+    "titleGestionHumana7": {
       "title": "We are Management",
-      "description": "We believe in technology as a tool for transforming work environments. <span className=\"text-text-body font-semibold\">We generate spaces and opportunities</span> that provide better conditions for employees."
+      "description": "We believe in technology as a tool for transforming work environments. <bold>We generate spaces and opportunities</bold> that provide better conditions for employees."
+    },
+    "titleGestionHumana8": {
+      "title": "International Certifications"
     }
+    },
+    "buttonGestionHumana":"Talk to an expert",
+
+    "cardInfoGestionHumana": [
+    { "description": "Organizations" },
+    { "description": "Well-being" },
+    { "description": "Payroll" },
+    { "description": "Disability management" },
+    { "description": "Occupational health and safety" },
+    { "description": "Performance evaluation" },
+    { "description": "Professional development" },
+    { "description": "Shifts and overtime" },
+    { "description": "Government solutions" }
+  ]
+    
   }
 }

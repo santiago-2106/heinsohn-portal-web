@@ -47,9 +47,9 @@ export default function CardResults({ title, mainStat, benefits, button }: CardR
                 
                 {/* Ícono y Título de la estadística */}
                 <div>
-                  <div className="mb-5 text-text-title">
+                  <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
                     {mainStat.icon}
-                  </div>
+                  </span>
                   <h3 className="text-2xl font-normal text-text-title">
                     {mainStat.title}
                   </h3>
@@ -87,9 +87,9 @@ export default function CardResults({ title, mainStat, benefits, button }: CardR
                   ${index === 2 ? "border-b md:border-b-0 md:border-r border-border-ui" : ""}
                 `}
               >
-                <div className="mb-5 text-text-title">
+                <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
                   {item.icon}
-                </div>
+                </span>
                 <h3 className="text-lg font-normal text-text-title mb-2">
                   {item.title}
                 </h3>

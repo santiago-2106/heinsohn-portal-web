@@ -13,36 +13,50 @@ import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import Clientes from "../shared/clientes/Clientes";
 import ButtonComponent from "../../ui/buttons/Button";
 import CardGrid from "../../layout/grids/CardGrid";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export default function SolucionesGestionH() {
+
+  const t = useTranslations("gestionHumana")
+
+  const cardsGestionhumana = t.raw("cardsContrataSoluciones")
+
   return (
     <section className="">
       <article className="max-w-5xl mx-auto px-6 py-8">
         <TextComponent
-          title={textoGestionHumana.title}
-          description={textoGestionHumana.description}
+          title={t("titlesGestionHumana.titleGestionHumana1.title")}
+          description={t.rich("titlesGestionHumana.titleGestionHumana1.description", richText)}
         />
 
         <CardGrid columns={3}>
-          {gestionHumanaInfo.map((info, index) => (
-            <CardGestionHumana key={index} {...info} />
+          {cardsGestionhumana.map((info:any, index:number) => (
+            <CardGestionHumana 
+            key={index}
+            icon={info.icon}
+            contenedor={info.contenedor}
+            title={info.title}
+            description={info.description}
+            btnText={info.btnText} />
           ))}
         </CardGrid>
       </article>
-
+      
+      {/*CARDS  Outsourcing de Procesos - BPO */}
       <CardAnuncies
-        title={textoGestionHumana2.title}
-        description={textoGestionHumana2.description}
-        cards={infoGestionHumana2}
+        title={t("titlesGestionHumana.titleGestionHumana2.title")}
+        description={t.rich("titlesGestionHumana.titleGestionHumana2.description", richText)}
+        cards={t.raw("cardsOutsourcingBPO")}
         cols={3}
       />
 
       <div>
         <Clientes
-          title={textoGestionHumana3.title}
-          description={textoGestionHumana3.description}
+          title={t("titlesGestionHumana.titleGestionHumana3.title")}
+          description={t.rich("titlesGestionHumana.titleGestionHumana3.description", richText)}
         />
-        <ButtonComponent textoBtn="Habla con un experto" />
+        <ButtonComponent textoBtn={t("buttonGestionHumana")} />
       </div>
     </section>
   );

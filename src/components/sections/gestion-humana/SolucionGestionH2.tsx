@@ -4,19 +4,14 @@ import {
   PlayCircleOutlineOutlined,
   PlayCircleOutlineRounded,
 } from "@mui/icons-material";
+import { useTranslations } from "next-intl";
 
 export default function TalentCloudSection() {
-  const dataInfoGestionHumana = [
-    { description: "Organizaciones" },
-    { description: "Bienestar" },
-    { description: "Nómina / planilla" },
-    { description: "Gestión de incapacidades" },
-    { description: "Seguridad y salud en el trabajo" },
-    { description: "Evaluación de desempeño" },
-    { description: "Desempeño profesional" },
-    { description: "Turnos y tiempos extras" },
-    { description: "Soluciones de gobierno" },
-  ];
+
+  const t = useTranslations("gestionHumana")
+
+
+  const dataInfoGestionHumana = t.raw("cardInfoGestionHumana")
 
   return (
     <div>
@@ -25,11 +20,11 @@ export default function TalentCloudSection() {
           <p className="text-xl tracking-tight text-center text-white">Soluciones Modulares</p>
         </div>
       </section>
-      <TextComponent title="Somos la solución en gestión, del talento humano en la nube." />
+      <TextComponent title={t("titlesGestionHumana.titleGestionHumana4.title")} />
 
       <section className="max-w-3xl mx-auto mt-4 py-5">
         <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 ">
-          {dataInfoGestionHumana.map((item, index) => (
+          {dataInfoGestionHumana.map((item:any, index:number) => (
             <div
               key={index}
               className="border border-border-ui flex items-center justify-center text-center p-7"
@@ -42,7 +37,7 @@ export default function TalentCloudSection() {
 
       <section>
         <article className="mt-10 mb-10 w-full max-w-4xl mx-auto px-4">
-          <TextComponent title="Optimiza Procesos de rescursos humanos con inteligencia artificial" />
+          <TextComponent title={t("titlesGestionHumana.titleGestionHumana5.title")} />
 
           <div className="relative mt-12 overflow-hidden cursor-pointer group">
             <div className="relative aspect-video w-full">

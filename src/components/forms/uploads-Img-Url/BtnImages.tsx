@@ -1,4 +1,5 @@
 
+import { useTranslations } from "next-intl"
 import { cargarImgUrl } from "./UxImgUrl"
 
 interface uploadImgUrl {
@@ -6,26 +7,29 @@ interface uploadImgUrl {
     setMode: (mode: cargarImgUrl) => void
 }
 
-
 export default function BtnImagesUrl({mode, setMode}: uploadImgUrl) {
 
+  const t = useTranslations("desarrolloUxUi")
+
   const Opciones = [
-    {id: 'upload', label:'Cargar Imagenes'},
-    {id:'url', label:'Proporcionar Url'}
+    {id: 'upload', icon:'upload'},
+    {id:'url', icon:'link'}
   ] as const
 
-
   return (
-    <div className="mx-auto w-96 mb-8 rounded-full items-center bg-bg-card-2 p-1">
+    <div className="mx-auto w-fit mb-8 rounded-full flex items-center bg-bg-card-2 p-1">
       {Opciones.map((options) => (
         <button 
         key={options.id}
         onClick={() => setMode(options.id)}
-        className={`rounded-full px-6 py-2 font-medium transition-all ${
-          mode === options.id ? 'bg-bg-card-1' : 'text-gray-500'
+        className={`m-1 flex items-center rounded-full px-2 py-2 font-medium transition-all hover:cursor-pointer ${
+          mode === options.id ? 'bg-bg-card-1' : 'text-text-body'
         }`}
         >
-          {options.label}
+          <span className="material-symbols-rounded">
+            {options.icon}
+          </span>
+          {t(`btnImagesUrl.${options.id}`)}
         </button>
       ))}
     </div>

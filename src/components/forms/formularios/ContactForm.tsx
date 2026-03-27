@@ -39,7 +39,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
           <div className="w-full md:col-span-7 bg-bg-card-2 p-6 sm:p-8 md:p-14">
             {/* 3. REEMPLAZAMOS EL TEXTO QUEMADO POR LA PROP */}
             <h2 className="text-3xl md:text-4xl font-light text-gray-400 mb-10">
-              {t("title")}
+              {title}
             </h2>
 
           {/* Ajuste de padding para móvil: p-6 sm:p-8 md:p-14 */}

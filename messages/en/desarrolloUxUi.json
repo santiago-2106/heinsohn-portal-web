@@ -1,39 +1,70 @@
 {
   "desarrolloUxUi": {
-    "dataUXConsultorias": {
-      "title": "UX-UI Consulting Design and development of<br/> user experiences",
-      "description": "<span className=\"font-bold text-text-title\">We create digital experiences</span> centered on people, with functional, attractive, and accessible interfaces.",
+    "dataHeroDesarrolloUX": {
+      "title": "UX-UI Consulting Design and development of user experiences",
+      "description": "<bold>We create digital experiences</bold> centered on people, with functional, attractive, and accessible interfaces.",
       "buttonText": "Request a free consultation",
       "breadcrumb": [
         { "label": "Solutions" },
         { "label": "UX-UI Consulting Design and development of user experiences" }
       ]
     },
-    "dataTextDesarrolloUx": {
-      "title": "We design memorable experiences",
-      "description": "At Heinsohn we combine strategic design, user research, and technology to create digital products that truly connect with people. <span className=\"font-bold text-text-title\">Our UX/UI approach guarantees intuitive, usable solutions aligned with business objectives,</span> achieving greater satisfaction and efficiency in every interaction."
+
+    "titleIdentificaErrores": {
+      "title": "Identify the UX mistakes that are holding your business back",
+      "description": "Analyze your website's UX in <bold>60 seconds</bold> using real screenshots from your site.",
+      "subtitle":"See what it looks like in a UX diagnostic"
     },
-    "dataTextCards": {
+
+    "btnImagesUrl": {
+     "upload": "Upload Images",
+      "url": "Provide URL"
+    },
+
+    "uploadImgsUrl": {
+      "upload": {
+        "title": "Drag or <upload>upload your website</upload> images here",
+        "formats": "We accept JPG, PNG, or WEBP images, with a maximum size of 5 MB per file.",
+        "cta": "Start analysis"
+      },
+      "url": {
+        "placeholder": "Enter your website URL",
+        "cta": "Analyze site"
+      }
+    },
+
+    "titleDiseñoExperiencias": {
+      "title": "We design memorable experiences",
+      "description": "At Heinsohn we combine strategic design, user research, and technology to create digital products that truly connect with people. <bold>Our UX/UI approach guarantees intuitive, usable solutions aligned with business objectives,</bold> achieving greater satisfaction and efficiency in every interaction."
+    },
+    "titleNuestrasOfertas": {
       "title": "Our Offers",
       "description": "Choose the plan that best suits your company's needs. We designed three packages with different scopes and prices, intended to provide flexibility, scalability, and the ideal support at each stage of your growth."
     },
-    "dataTextTitle": {
+    "titleVozNuestroEquipo": {
       "title": "The Voice of our Team",
       "description": "Design goes beyond the visual, it is about deeply understanding the user and translating their needs into digital experiences that make their lives easier. That is our purpose in every project."
     },
+    "liderUxHeinsohn": {
+      "description": "UX Lead at Heinsohn"
+    },
     "informationCard": [
       {
+        "icon":"family_star",
         "titles": "Basic",
         "subtitle": [
           {
+            "icon":"sync_saved_locally",
             "text": "Rapid Prototype",
             "features": ["Angular, React", "Up to 5 flows from 1 to 50 screens"]
           },
           {
+            "icon":"display_settings",
             "text": "Usability Testing",
             "features": ["Testing with 5 to 10 synthetic users"]
           },
           {
+            "icon":"acute",
             "text": "Time",
             "features": ["16 hours - 1 UX specialist."]
           }
@@ -41,17 +72,21 @@
         "price": "$500 USD"
       },
       {
+        "icon":"crown",
         "titles": "Intermediate",
         "subtitle": [
           {
+            "icon":"sync_saved_locally",
             "text": "Rapid Prototype",
             "features": ["Angular, React", "Up to 10 flows from 1 to 100 screens"]
           },
           {
+            "icon":"display_settings",
             "text": "Usability Testing",
             "features": ["Testing with 5 to 10 synthetic users"]
           },
           {
+            "icon":"acute",
             "text": "Time",
             "features": ["32 hours - 1 UX specialist."]
           }
@@ -59,17 +94,21 @@
         "price": "$1000 USD"
       },
       {
+        "icon":"diamond",
         "titles": "Pro",
         "subtitle": [
           {
+            "icon":"display_settings",
             "text": "Rapid Prototype",
             "features": ["Angular, React", "More than 10 flows from 101 to 200 screens"]
           },
           {
+            "icon":"display_settings",
             "text": "Usability Testing",
             "features": ["Testing with 5 to 10 synthetic users"]
           },
           {
+            "icon":"acute",
             "text": "Time",
             "features": ["48 hours - 1 UX specialist."]
           }
@@ -77,32 +116,68 @@
         "price": "$2000 USD"
       }
     ],
-    "dataCardKnowOurWork2": {
+
+    "cardConoceNuestroTrabajo": {
+      "title": "Learn about our work",
       "titleWork": "Transformation of a Healthcare Services Platform",
       "descriptionWork": "We designed a new digital experience for a healthcare platform, improving navigation, reorganizing flows...",
       "textBtn": "Discover how we did it"
     },
-    "softwareCards": [
-      {
+
+    "sliderBlogDestacado": {
+      "title": "Featured Blog",
+      "items": [
+        {
+          "id": 1,
+          "img": "/img/slider2Blog.jpg",
+          "title": "UX trends that are shaping the future of digital design",
+          "description": "Explore how personalization, inclusive design, and microinteractions are changing the way we...",
+          "btn": "Read more"
+        },
+        {
+          "id": 2,
+          "img": "/img/imgSlider.png",
+          "title": "Innovation as an engine of digital transformation",
+          "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+          "btn": "Read more"
+        },
+        {
+          "id": 3,
+          "img": "/img/imgSlider.png",
+          "title": "Innovation as an engine of digital transformation",
+          "description": "Discover how organizations are using our solutions to achieve greater efficiency, competitiveness, and sustainable growth.",
+          "btn": "Read more"
+        }
+      ]
+    },
+
+    "sliderProductosRelacionados": {
+      "title": "Related Products",
+      "cards": [{
+        "icon":"devices",
         "title": "Mobile and Web Application Development",
         "description": "Intuitive solutions for all types of devices",
         "btn": "View solutions"
       },
       {
+        "icon":"data_object",
         "title": "Software Development",
         "description": "Custom products tailored to each business need",
         "btn": "Request development"
       },
       {
+        "icon":"cloud_queue",
         "title": "Cloud Software Development",
         "description": "Secure, flexible, high-performance applications in the cloud.",
         "btn": "Learn more"
       },
       {
+        "icon":"developer_mode",
         "title": "Software Application Modernization",
         "description": "Technological update that extends the useful life and increases efficiency.",
         "btn": "Update now"
       }
     ]
+    }
   }
 }

@@ -14,7 +14,8 @@
       "title1": "Ingeniería de software y Desarrollo de productos Digitales",
       "title2": "Analítica de datos e inteligencia artificial",
       "title3": "Ingeniería extendida y equipos dedicados",
-      "title4": "Consultoria estratégica"
+      "title4": "Consultoria estratégica",
+      "title5": "Conoce nuestro trabajo"
       
     },
     "cardssIngenieriaSoftware": [
@@ -108,8 +109,36 @@
         "description": "Guiamos la integración de nuevas tecnologías dentro de los modelos de negocio, generando valor tangible y acelerando la innovación.",
         "btn": "Explorar consultoria"
       }
-    ]
+    ],
 
+    
+  "cardConoceNuestroTrabajo": {
+    "imgKnowOurWork": "/img/edif.jpg",
+    "titleWork": "Transformación digital en el sector financiero",
+    "descriptionWork": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+    "textBtn": "Conoce el caso completo"
+  },
+
+
+    "sliderSolucionesTi": {
+      "title": "Blog Destacado",
+      "items": [
+        {
+          "id": 1,
+          "img": "/img/imgSlider.png",
+          "title": "La innovación como motor de transformación digital",
+          "description": "Descubre como las organizaciones estan utilizando nuestras soluciones para lograr mayor eficiencia, competividad y crecimiento sostenible.",
+          "btn": "Leer más"
+        },
+         {
+          "id": 2,
+          "img": "/img/slider2Blog.jpg",
+          "title": "Tendencias UX que marca el futuro del diseño digital",
+          "description": "Explora cómo la personalización, el diseño inclusivo y las microinteracciones están cambiando la forma en que las...",
+          "btn": "Leer más"
+        }
+      ]
+    }
   
   }
 }

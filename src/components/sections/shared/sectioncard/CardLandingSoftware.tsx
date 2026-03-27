@@ -2,6 +2,7 @@ interface CardLandingSoftwareItem {
     title: string
     description: string
     image: string
+    btnTextos:string
 }
 
 interface CardLandingSoftwareProps {
@@ -14,12 +15,12 @@ export default function CardLandingSoftware({items}: CardLandingSoftwareProps) {
     <div className="mx-auto w-full max-w-246 px-10 relative">
         {
         items.map((item, index) => (
-        <div key={index} className="flex flex-col md:flex-row bg-bg-card-2 border border-border-ui md:h-105">
+        <div key={index} className="flex flex-col md:flex-row bg-bg-card-2 border border-border-ui md:h-85">
             <div className="md:max-w-11/12">
                 <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover brightness-50"
+                className="w-full h-full object-cover brightness-50 grayscale-90"
                 />
                 </div>
 
@@ -33,8 +34,11 @@ export default function CardLandingSoftware({items}: CardLandingSoftwareProps) {
                     {item.description}
                 </p>
 
-                <button className="text-brand-accent font-medium flex items-center gap-2 mt-2">
-                    Conoce el caso completo
+                <button className="text-text-body font-medium flex items-center gap-2 mt-2 hover:translate-x-1 hover:cursor-pointer">
+                    <span>{item.btnTextos}</span>
+                    <span className="text-brand-accent group-hover:translate-x-1">
+                        →
+                    </span>
                 </button>
             </div>
 
