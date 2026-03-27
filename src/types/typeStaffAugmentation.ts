@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 interface propInfoStaffArgumentation {
   fase?: string;
   indicador?: string;
-  title: string;
+  title: ReactNode;
   description: string;
 }
 
@@ -14,7 +14,7 @@ interface staffArgumentationProps {
 
 //INTERFACE PARA LA LINEA TIMELINE DE LA LANDING PRODUCTOS DE SOFTWARE
 interface TimeLineSoftware {
-  title: string
+  title: ReactNode
   description: ReactNode
   icon:ReactNode
 }

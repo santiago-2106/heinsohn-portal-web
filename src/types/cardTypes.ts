@@ -28,7 +28,7 @@ export interface Countries {
 
 export interface propsStaffArgumentationImg {
     title?: string
-    descripcion?:string
+    descripcion?:string | ReactNode;
     imgMap?:string
     paises: Countries[]
     showIcon?: boolean; // nuevo prop

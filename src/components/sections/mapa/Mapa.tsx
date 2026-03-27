@@ -1,23 +1,24 @@
-import { ShowChartOutlined } from "@mui/icons-material";
 import { propsStaffArgumentationImg } from "../../../types/cardTypes";
 
-
-//Mover Data a un archivo aparte
-
-export default function Mapa ({ title, descripcion,imgMap, paises, showIcon, showCoberturaTitle }: propsStaffArgumentationImg){
+export default function Mapa ({ title, descripcion, imgMap, paises, showIcon, showCoberturaTitle }: propsStaffArgumentationImg){
   return (
-    <section className="w-full bg-bg.main py-20">
+    <section className="w-full bg-bg-main py-20">
       
-      {showIcon && ( <div className="text-center">
-        <ShowChartOutlined sx={{fill:'red', fontSize:70}} />
-      </div>)}
+      {showIcon && ( 
+        <div className="text-center mb-6">
+          {/* Se insertó el icono table_chart_view que pediste */}
+          <span className="material-symbols-rounded text-brand-accent" style={{ fontSize: "70px" }}>
+            table_chart_view
+          </span>
+        </div>
+      )}
 
       <div className="max-w-5xl mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className=" text-text-title">
+          <h2 className="text-text-title">
             {title}
           </h2>
-          <p className="text-xl font-bold text-gray-900">
+          <p className="text-xl font-bold text-gray-900 mt-2">
             {descripcion}
           </p>
         </div>
@@ -37,7 +38,7 @@ export default function Mapa ({ title, descripcion,imgMap, paises, showIcon, sho
           <div>
             {
               showCoberturaTitle && (
-              <h6 className=" text-text-body text-3xl mb-12">
+              <h6 className="text-text-body text-3xl mb-12">
                 Cobertura
               </h6>
               )

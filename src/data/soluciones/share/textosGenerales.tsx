@@ -2,7 +2,7 @@ import { dataCard } from "@/src/types/cardTypes";
 import React from "react";
 
 export interface dataTextComponent {
-  title: string;
+  title: string | React.ReactNode;
   description: string | React.ReactNode;
 }
 
