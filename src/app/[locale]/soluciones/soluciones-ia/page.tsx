@@ -10,8 +10,8 @@ import CardIA from "@/src/components/ui/cards/CardIA";
 // Internacionalización
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
-import createNumberIcon from "@/src/data/soluciones/sap";
 import NumberIcon from "@/src/data/soluciones/ia";
+import mapRich from "@/src/hooks/mapRich";
 
 export default function SolucionesIAPage() {
 
@@ -22,6 +22,8 @@ export default function SolucionesIAPage() {
     ...card,
     icon: NumberIcon(card.number),
   }));
+
+  const cardsIA = mapRich(t, "dataIaCards") 
 
   return (
     <main className="bg-bg-main min-h-screen transition-colors duration-300">
@@ -43,7 +45,7 @@ export default function SolucionesIAPage() {
           align="left"
         />
         <div className="px-4 sm:px-6 lg:px-8 mt-12 max-w-7xl mx-auto">
-          {t.raw("dataIaCards").map((card: any) => (
+          {cardsIA.map((card: any) => (
             <CardIA key={card.id} {...card} />
           ))}
         </div>
@@ -52,7 +54,7 @@ export default function SolucionesIAPage() {
       {/* 3. CÓMO IMPLEMENTAMOS (Timeline) */}
       <section className="py-16">
         <TextComponent
-          title={t("dataIaSections.implementacion.title")}
+          title={t.rich("dataIaSections.implementacion.title", richText)}
           description={t.rich("dataIaSections.implementacion.description", richText)}
         />
         <SubcomponenteCardStaff information={t.raw("dataIaTimeline")} />

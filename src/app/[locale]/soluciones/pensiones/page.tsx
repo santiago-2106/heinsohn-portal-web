@@ -12,10 +12,13 @@ import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
 // 2. INTERNACIONALIZACIÓN
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
+import mapRich from "@/src/hooks/mapRich";
 
 export default function PagePensiones() {
 
   const t = useTranslations("pensiones")
+
+  const cardPensions3 = mapRich(t, "cardPensiones3")
 
   return (
     <main className="bg-bg-main min-h-screen transition-colors duration-300">
@@ -26,6 +29,7 @@ export default function PagePensiones() {
         description={t.rich("dataHeroPensiones.description", richText)}
         buttonText={t("dataHeroPensiones.buttonText")}
         breadcrumb={t.raw("dataHeroPensiones.breadcrumb")}
+        badges={t.raw("dataHeroPensiones.badges")}
         showImage={true} 
       />
       
@@ -54,7 +58,7 @@ export default function PagePensiones() {
       <CardAnuncies
         title={t.rich("titlesPensiones.titlePensiones3.title", richText)}
         description={t.rich("titlesPensiones.titlePensiones3.description", richText)}
-        cards={t.raw("cardPensiones3")}
+        cards={cardPensions3}
         cols={1}
         alignHeader="left"
       />
@@ -67,7 +71,7 @@ export default function PagePensiones() {
       />
 
       {/* 8. RESULTADOS 2 - TÍTULO */}
-      <TextComponent title={t("titlesPensiones.titlePensiones5.title")} />
+      <TextComponent title={t.rich("titlesPensiones.titlePensiones5.title", richText)} />
       
       {/* 9. MÉTRICAS 2 */}
       <CardResultados data={t.raw("infoPensiones6")} />
@@ -85,7 +89,7 @@ export default function PagePensiones() {
 
       {/* 12. CTA FINAL */}
       <TextComponent 
-        title={t("titlesPensiones.titlePensiones8.title")} 
+        title={t.rich("titlesPensiones.titlePensiones8.title", richText)} 
         description={t("titlesPensiones.titlePensiones8.description")} 
       /> 
       

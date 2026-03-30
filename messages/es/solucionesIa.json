@@ -20,7 +20,7 @@
         "description": "<bold>Cada empresa enfrenta retos distintos.</bold> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:"
       },
       "implementacion": {
-        "title": "Cómo implementamos la inteligencia artificial en tu empresa",
+        "title": "Cómo implementamos la <br></br> inteligencia artificial en tu empresa",
         "description": "Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento <br></br>continuo:",
         "buttonText": "Empieza tu hoja de ruta AI personalizada"
       },
@@ -39,7 +39,7 @@
         "id": 1,
         "icon": "palette",
         "title": "GenAI Canvas: IA generativa con diseño estratégico y viabilidad",
-        "description": "<bold>¿Quieres implementar IA generativa pero no sabes por dónde empezar?</bold> GenAI Canvas es el punto de partida ideal para trazar una ruta estratégica, identificar oportunidades reales y validar la viabilidad técnica antes de invertir.<br></br>De 3 a 4 semanas exploramos contigo el qué, cómo y cuándo de la inteligencia artificial en tu organización — y convertimos la visión en un plan de acción medible y sostenible.",
+        "description": "<bold>¿Quieres implementar IA generativa pero no sabes por dónde empezar?</bold> GenAI Canvas es el punto de partida ideal para trazar una ruta estratégica, identificar oportunidades reales y validar la viabilidad técnica antes de invertir.<br></br> <br></br> De 3 a 4 semanas exploramos contigo el qué, cómo y cuándo de la inteligencia artificial en tu organización — y convertimos la visión en un plan de acción medible y sostenible.",
         "lists": [
           {
             "title": "Beneficios clave",
@@ -69,7 +69,7 @@
         "id": 2,
         "icon": "deployed_code_account",
         "title": "GenAI Launchpad: Prototipado End-to-End",
-        "description": "<bold>¿Tienes un caso de uso de IA generativa y quieres validarlo rápidamente?</bold> GenAI Launchpad te lleva del concepto al prototipo funcional en solo 5 semanas. Creamos MVPs reales, listos para pruebas, iteración y escalamiento.<br></br><br></br>Diseñado para equipos que buscan agilidad sin comprometer calidad técnica, este programa combina ingeniería, orquestación y validación de resultados.",
+        "description": "<bold>¿Tienes un caso de uso de IA generativa y quieres validarlo rápidamente?</bold> GenAI Launchpad te lleva del concepto al prototipo funcional en solo 5 semanas. Creamos MVPs reales, listos para pruebas, iteración y escalamiento.<br></br><br></br> Diseñado para equipos que buscan agilidad sin comprometer calidad técnica, este programa combina ingeniería, orquestación y validación de resultados.",
         "lists": [
           {
             "title": "Nuestro proceso probado",
@@ -99,7 +99,7 @@
         "id": 3,
         "icon": "bolt",
         "title": "Agentes Inteligentes, la nueva fuerza laboral digital",
-        "description": "Nuestros AI Agents combinan <bold>capacidades de lenguaje, razonamiento y acción para ejecutar tareas autónomas</bold> en áreas críticas del negocio.",
+        "description": "Nuestros AI Agents combinan <bold>capacidades de lenguaje, razonamiento y acción para ejecutar tareas <br></br> autónomas</bold> en áreas críticas del negocio.",
         "lists": [
           {
             "title": "Tipos de agentes",
@@ -127,7 +127,7 @@
         "id": 4,
         "icon": "group_search",
         "title": "Executive AI Workshop: Prepara a tu equipo para adoptar la inteligencia artificial",
-        "description": "La adopción de inteligencia artificial comienza con las personas. <bold>Nuestro AI Workshop está diseñado para equipos directivos y líderes empresariales que buscan comprender el potencial real de la IA y aplicarlo estratégicamente en su día a día.</bold><br></br>En solo 4 horas, combinamos teoría práctica, demostraciones y ejercicios interactivos con herramientas como ChatGPT, Copilot y Azure OpenAI para activar una mentalidad data & AI-driven en tu organización.",
+        "description": "La adopción de inteligencia artificial comienza con las personas. <bold>Nuestro AI Workshop está diseñado para equipos directivos y líderes empresariales que buscan comprender el potencial real de la IA y aplicarlo estratégicamente en su día a día.</bold><br></br> <br></br>En solo 4 horas, combinamos teoría práctica, demostraciones y ejercicios interactivos con herramientas como ChatGPT, Copilot y Azure OpenAI para activar una mentalidad data & AI-driven en tu organización.",
         "lists": [
           {
             "title": "Objetivos del workshop",

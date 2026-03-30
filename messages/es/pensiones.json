@@ -7,26 +7,30 @@
       "breadcrumb": [
         { "label": "Pensiones" },
         { "label": "Soluciones para pensiones" }
+      ],
+      "badges": [
+        { "prefix": "+", "highlight": "40", "text": "años de experiencia" },
+        { "prefix": "+", "highlight": "7", "text": "millones de afiliados administrados" }
       ]
     },
 
     "titlesPensiones": {
       "titlePensiones1": {
-        "title": "Retos del sistema de pensiones en <br/>Latinoamérica y cómo puedes <br/>gestionarlo con nuestro software",
+        "title": "Retos del sistema de pensiones en <br></br>Latinoamérica y cómo puedes <br></br>gestionarlo con nuestro software",
         "description": "El sistema de pensiones en América Latina enfrenta transformaciones que requieren <bold>visión y tecnología:</bold>"
       },
       "titlePensiones2": {
         "description": "Con nuestras soluciones para pensiones obtienes software escalable y seguro, alineados a la regulación y pensadas para garantizar confianza y sostenibilidad."
       },
       "titlePensiones3": {
-        "title": "Una plataforma previsional única,<br/>modular y escalable",
-        "description": "Nuestro <bold>software previsional</bold> centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.<br/><br/><bold>Su diseño modular y parametrizable permite adaptarse a la regulación de cada país en LATAM,</bold> manejar altos volúmenes operativos y garantizar trazabilidad, control y consistencia de la información a lo largo de todo el ciclo previsional."
+        "title": "Una plataforma previsional única,<br></br>modular y escalable",
+        "description": "Nuestro <bold>software previsional</bold> centraliza la administración del sistema de pensiones en un único core tecnológico, desde el cual es posible gestionar de forma integrada pensiones obligatorias, pensiones voluntarias, cesantías y rentas vitalicias.<br></br><br></br><bold>Su diseño modular y parametrizable permite adaptarse a la regulación de cada país en LATAM,</bold> manejar altos volúmenes operativos y garantizar trazabilidad, control y consistencia de la información a lo largo de todo el ciclo previsional."
       },
       "titlePensiones4": {
-        "title": "Lo que nos hace diferentes en la <br/>gestión pensional"
+        "title": "Lo que nos hace diferentes en la <br></br>gestión pensional"
       },
       "titlePensiones5": {
-        "title": "Lo que nos hace diferentes en la gestión empresarial"
+        "title": "Lo que nos hace diferentes en la <br></br> gestión empresarial"
       },
       "titlePensiones6": {
         "title": "Certificaciones Internacionales"
@@ -35,7 +39,7 @@
         "description": "Sin compromiso | Respaldo en +7 Países | +12 millones de afiliados administrativos"
       },
       "titlePensiones8": {
-        "title": "Moderniza la gestión de tu sistema de pensiones",
+        "title": "Moderniza la gestión de tu sistema de <br></br>pensiones",
         "description": "Transforma la administración de pensiones en tu entidad y asegura cumplimiento en cada auditoría"
       },
       "PreguntasFrecuentes": {
@@ -63,7 +67,7 @@
           "description": "millones de afiliados administrados en Colombia y Latam"
         },
         {
-          "value": "Gestionamos <br/>+90.000 <bold>USD</bold>",
+          "value": "Gestionamos +90.000 USD",
           "description": "millones en pensiones"
         }
       ]
@@ -124,7 +128,7 @@
           { "textos": "Diseñado pensando en la experiencia del usuario para una mayor facilidad de uso." },
           { "textos": "Visión 360° del afiliado y empleadores, brindando acceso unificado a cuentas bancarias, relaciones y estado de las obligaciones." }
         ],
-        "textoFooter": "Administramos el 48% de las pensiones obligatorias en Colombia, que representan USD 63 billones",
+        "textoFooter": "Administramos el <red>48%</red> de las pensiones obligatorias en Colombia, que representan <bold>USD 63 billones</bold>",
         "btn": "Explora el módulo de pensiones obligatorias"
       },
       {
@@ -156,7 +160,7 @@
           { "textos": "Reportes regulatorios, contables y de aportes colectivos." },
           { "textos": "Cierre operativo y financiero de los fondos con trazabilidad total." }
         ],
-        "textoFooter": "Administramos el 43% del ahorro voluntario en Colombia, que representan USD 5 billones",
+        "textoFooter": "Administramos el <red>43%</red> del ahorro voluntario en Colombia, que representan <bold>USD 5  <br></br>billones</bold>",
         "btn": "Descubre el módulo de pensiones voluntarias"
       },
       {
@@ -176,18 +180,22 @@
 
     "informacionPensiones5": [
       {
+        "icon":"account_box",        
         "title": "Escala regional",
         "description": "Presencia en El Salvador, Bolivia, Perú, Colombia, Honduras y otros países."
       },
       {
+        "icon":"add_reaction",        
         "title": "Cumplimiento regulatorio",
         "description": "Actualizaciones continuas ante cambios normativos."
       },
       {
+        "icon":"digital_wellbeing",        
         "title": "Escala regional comprobada y en expansión",
         "description": "Plataforma que escala regionalmente en proceso de expansión hacia nuevos mercados como Chile, México, República Dominicana, entre otros. Acompañando el crecimiento y la evolución del negocio previsional de nuestros clientes."
       },
       {
+        "icon":"perm_contact_calendar",        
         "title": "Soporte Especializado",
         "description": "Acompañamiento en implementación y operación diaria, respaldada por un equipo de más de 200 profesionales con conocimiento del sector previsional, gestión de proyectos y procesos funcionales."
       }
@@ -195,15 +203,19 @@
 
     "infoPensiones6": {
       "highlight": {
+        "icon":"rocket_launch",
         "value": "40%",
         "description": "del mercado colombiano en pensiones obligatorias soportado con nuestras soluciones."
       },
       "metrics": [
         {
+          "suffix":"+",
           "value": "30",
           "description": "30 años de innovacion en el sector previsional"
         },
         {
+          "icon":"article_person",
+          "positionIcon":"left",
           "description": "Altos volúmenes con millones de transacciones mensuales en liquidación de nómina de pensionados."
         }
       ]

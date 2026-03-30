@@ -18,7 +18,7 @@ export default function PageLandingSoftware() {
       <Hero
         title={t("dataHeroLandingSoftware.title")}
         subtitle={t.rich("dataHeroLandingSoftware.subtitle", richText)}
-        description={t("dataHeroLandingSoftware.description")}
+        description={t.rich("dataHeroLandingSoftware.description", richText)}
         breadcrumb={t.raw("dataHeroLandingSoftware.breadcrumb")} // <-- Corregido a minúscula
         buttonText={t("dataHeroLandingSoftware.buttonText")}
         showImage={false} // <-- AQUÍ SE APAGA LA IMAGEN

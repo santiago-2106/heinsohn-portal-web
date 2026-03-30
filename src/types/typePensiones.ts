@@ -13,6 +13,7 @@ export interface MetricItem {
   value?: React.ReactNode;
   suffix?: string;
   description: React.ReactNode;
+  positionIcon: 'top'| 'left'
 }
 
 export interface ResultsCorporativoData {
@@ -25,10 +26,12 @@ export interface ResultsCorporativoProps {
   data: ResultsCorporativoData;
 }
 
+//Para Preguntas frecuentes, luego cambiarlo por algo mas generico para otras secciones
 export interface FaqAnswer {
   descriptions: string; //Luego quitarlo o dejarlo
   listsItems?: string[];
 }
+
 
 export interface FaqItem {
   question: string;

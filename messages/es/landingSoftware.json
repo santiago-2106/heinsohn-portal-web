@@ -3,7 +3,7 @@
     "dataHeroLandingSoftware": {
       "title": "Software de nómina y planilla para todos los sectores",
       "subtitle": "Reduce el error humano en un <red>40%</red>",
-      "description": "Con Heinsohn nómina encontrarás un software de nómina estratégico que brinda cumplimiento a la nómina electrónica frente a la DIAN.<br /><br />Nuestro software de nómina automatiza los cálculos salariales, genera reportes precisos, garantiza el cumplimiento de obligaciones legales y fiscales, y optimiza los procesos administrativos de gestión del personal.",
+      "description": "Con Heinsohn nómina encontrarás un software de nómina estratégico que brinda cumplimiento a la nómina electrónica frente a la DIAN.<br></br><br></br>Nuestro software de nómina automatiza los cálculos salariales, genera reportes precisos, garantiza el cumplimiento de obligaciones legales y fiscales, y optimiza los procesos administrativos de gestión del personal.",
       "buttonText": "Solicita una demo exclusiva",
       "breadcrumb": [
         { "label": "Landing Software" },
@@ -19,10 +19,10 @@
 
       "titleLandingSoftware2": {
         "title": "Evita errores por procesos manuales en la liquidación de nómina.",
-        "description": "<>Cerca del <red>60%</red> de las empresas pierden tiempo excesivo o reportan ineficiencias críticas debido a la gestión manual de la nómina. Estos procesos manuales son la fuente principal de errores en cálculos de salarios, deducciones e impuestos."
+        "description": "Cerca del <red>60%</red> de las empresas pierden tiempo excesivo o reportan ineficiencias críticas debido a la gestión manual de la nómina. Estos procesos manuales son la fuente principal de errores en cálculos de salarios, deducciones e impuestos."
       },
        "titleLandingSoftware3": {
-        "title": "Esto dicen nuestros clientes de software de nómina"
+        "title": "Esto dicen nuestros clientes de <br></br> software de nómina"
       },
       "titleLandingSoftware4": {
         "title": "Casos de estudio"
