@@ -7,26 +7,30 @@
       "breadcrumb": [
         { "label": "Pensions" },
         { "label": "Pension solutions" }
+      ],
+      "badges": [
+        { "prefix": "+", "highlight": "40","text": "years of experience"},
+        {"prefix": "+", "highlight": "7","text": "million managed members"}
       ]
     },
 
     "titlesPensiones": {
       "titlePensiones1": {
-        "title": "Pension system challenges in <br/>Latin America and how you can <br/>manage them with our software",
+        "title": "Pension system challenges in <br></br>Latin America and how you can <br></br>manage them with our software",
         "description": "The pension system in Latin America faces transformations that require <bold>vision and technology:</bold>"
       },
       "titlePensiones2": {
         "description": "With our pension solutions you get scalable and secure software, aligned with regulations and designed to guarantee trust and sustainability."
       },
       "titlePensiones3": {
-        "title": "A unique, modular and scalable<br/>pension platform",
-        "description": "Our <bold>pension software</bold> centralizes the administration of the pension system in a single core technology platform, enabling the integrated management of mandatory pensions, voluntary pensions, severance pay, and annuities.<br/><br/><bold>Its modular and customizable design allows it to adapt to the regulations of each country in Latin America,</bold> handle high operational volumes, and guarantee traceability, control, and consistency of information throughout the entire pension cycle."
+        "title": "A unique, modular and scalable<br></br>pension platform",
+        "description": "Our <bold>pension software</bold> centralizes the administration of the pension system in a single core technology platform, enabling the integrated management of mandatory pensions, voluntary pensions, severance pay, and annuities.<br></br><br></br><bold>Its modular and customizable design allows it to adapt to the regulations of each country in Latin America,</bold> handle high operational volumes, and guarantee traceability, control, and consistency of information throughout the entire pension cycle."
       },
       "titlePensiones4": {
-        "title": "What makes us different in <br/>pension management"
+        "title": "What makes us different in <br></br> pension management"
       },
       "titlePensiones5": {
-        "title": "What makes us different in business management"
+        "title": "What makes us different in <br></br> business management"
       },
       "titlePensiones6": {
         "title": "International Certifications"
@@ -35,7 +39,7 @@
         "description": "No commitment | Support in +7 Countries | +12 million managed affiliates"
       },
       "titlePensiones8": {
-        "title": "Modernize your pension system management",
+        "title": "Modernize your pension system <br></br>management",
         "description": "Transform your entity's pension administration and ensure compliance in every audit"
       },
       "PreguntasFrecuentes": {
@@ -123,7 +127,7 @@
           { "textos": "Designed with user experience in mind for greater ease of use." },
           { "textos": "360° view of the affiliate and employers, providing unified access to bank accounts, relationships, and obligation status." }
         ],
-        "textoFooter": "We manage 48% of mandatory pensions in Colombia, representing USD 63 billion",
+        "textoFooter": "We manage <red>48%</red> of mandatory pensions in Colombia, representing <bold>USD 63 billion</bold>",
         "btn": "Explore the mandatory pensions module"
       },
       {
@@ -155,7 +159,7 @@
           { "textos": "Regulatory, accounting, and collective contribution reports." },
           { "textos": "Operational and financial closing of the funds with full traceability." }
         ],
-        "textoFooter": "We manage 43% of voluntary savings in Colombia, representing USD 5 billion",
+        "textoFooter": "We manage <red>43%</red> of voluntary savings in Colombia, representing <bold>USD 5 <br></br>billion</bold>",
         "btn": "Discover the voluntary pensions module"
       },
       {
@@ -175,18 +179,22 @@
 
     "informacionPensiones5": [
       {
+        "icon":"account_box",        
         "title": "Regional Scale",
         "description": "Presence in El Salvador, Bolivia, Peru, Colombia, Honduras, and other countries."
       },
       {
+        "icon":"add_reaction",        
         "title": "Regulatory compliance",
         "description": "Continuous updates to regulatory changes."
       },
       {
+        "icon":"digital_wellbeing",        
         "title": "Proven and expanding regional scale",
         "description": "Platform scaling regionally, expanding into new markets such as Chile, Mexico, Dominican Republic, among others. Supporting the growth and evolution of our clients' pension business."
       },
       {
+        "icon":"perm_contact_calendar",        
         "title": "Specialized Support",
         "description": "Support in implementation and daily operation, backed by a team of over 200 professionals with knowledge of the pension sector, project management, and functional processes."
       }
@@ -194,6 +202,7 @@
 
     "infoPensiones6": {
       "highlight": {
+        "icon":"rocket_launch",
         "value": "40%",
         "description": "of the Colombian mandatory pension market supported by our solutions."
       },

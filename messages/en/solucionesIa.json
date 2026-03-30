@@ -39,7 +39,7 @@
         "id": 1,
         "icon": "palette",
         "title": "GenAI Canvas: Generative AI with strategic design and feasibility",
-        "description": "<bold>Want to implement generative AI but don't know where to start?</bold> GenAI Canvas is the ideal starting point to chart a strategic route, identify real opportunities, and validate technical feasibility before investing.<br/><br/>For 3 to 4 weeks we explore with you the what, how, and when of artificial intelligence in your organization — and we turn the vision into a measurable and sustainable action plan.",
+        "description": "<bold>Want to implement generative AI but don't know where to start?</bold> GenAI Canvas is the ideal starting point to chart a strategic route, identify real opportunities, and validate technical feasibility before investing.<br></br><br></br> For 3 to 4 weeks we explore with you the what, how, and when of artificial intelligence in your organization — and we turn the vision into a measurable and sustainable action plan.",
         "lists": [
           {
             "title": "Key benefits",
@@ -99,7 +99,7 @@
         "id": 3,
         "icon": "bolt",
         "title": "Intelligent Agents, the new digital workforce",
-        "description": "Our AI Agents combine <bold>language, reasoning, and action capabilities to execute autonomous tasks</bold> in critical business areas.",
+        "description": "Our AI Agents combine <bold>language, reasoning, and action capabilities to execute autonomous <br></br> tasks</bold> in critical business areas.",
         "lists": [
           {
             "title": "Types of agents",
@@ -127,7 +127,7 @@
         "id": 4,
         "icon": "group_search",
         "title": "Executive AI Workshop: Prepare your team to adopt artificial intelligence",
-        "description": "The adoption of artificial intelligence starts with people. <bold>Our AI Workshop is designed for management teams and business leaders who seek to understand the real potential of AI and apply it strategically in their daily lives.</bold><br></br>In just 4 hours, we combine practical theory, demonstrations, and interactive exercises with tools like ChatGPT, Copilot, and Azure OpenAI to activate a data & AI-driven mindset in your organization.",
+        "description": "The adoption of artificial intelligence starts with people. <bold>Our AI Workshop is designed for management teams and business leaders who seek to understand the real potential of AI and apply it strategically in their daily lives.</bold><br></br> <br></br> In just 4 hours, we combine practical theory, demonstrations, and interactive exercises with tools like ChatGPT, Copilot, and Azure OpenAI to activate a data & AI-driven mindset in your organization.",
         "lists": [
           {
             "title": "Workshop objectives",

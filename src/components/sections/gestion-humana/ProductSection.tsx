@@ -6,11 +6,12 @@ import { textoGestionHumana4 } from "../../../data/soluciones/share/textosGenera
 import CertificacionesInternacionales from "../shared/certificaciones/CertificacionesInternacionales";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
+import mapRich from "@/src/hooks/mapRich";
 
 export default function CardProductSection() {
   const t = useTranslations("gestionHumana")
 
-  const productosCards = t.raw("ProductosgestionHumana")
+  const productosCards = mapRich(t, "ProductosgestionHumana")
 
   return (
     <section className="py-20">

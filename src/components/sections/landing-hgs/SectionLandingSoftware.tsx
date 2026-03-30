@@ -1,14 +1,12 @@
-import React from 'react'
 import TextComponent from '../../ui/typography/TextComponent'
 import CardFeatures from '../../ui/cards/CardFeatures'
-import { dataCardCasosEstudio, dataCardLandingSoftware, dataLandignSoftwareTexts, heroSlidesLandingSoftware } from '@/src/data/soluciones/landing-software'
 import TextSections from '../../ui/typography/TextSections'
 import CardLandingSoftware from '../shared/sectioncard/CardLandingSoftware'
 import SliderHero from '../../sliders/SliderHero'
 import SliderTestimonial from '../../sliders/SliderTestimonial'
-import { testimonialsSlider } from '@/src/data/soluciones/landing-hgs'
 import { useTranslations } from 'next-intl'
 import { useCard } from '@/src/hooks/useCard'
+import { richText } from '@/src/hooks/helper/richText'
 
 export default function SectionLandingSoftware() {
 
@@ -28,7 +26,8 @@ export default function SectionLandingSoftware() {
                 key={item.id}
                 title={item.title}
                 icon={item.icon}
-                description={item.description} iconPosition='left'
+                description={item.description} 
+                iconPosition='left'
                 />    
               ))
             }
@@ -37,10 +36,13 @@ export default function SectionLandingSoftware() {
       <div >
 
         <TextSections items={t.raw("dataLandignSoftwareTexts")}/>
-        <TextComponent title={t("titlesLandingSoftware.titleLandingSoftware3.title")}/>
+        {/*TITULO Y SLIDER DE COORDINADORA Y FUNDACION SANTA-FE */}
+        <TextComponent title={t.rich("titlesLandingSoftware.titleLandingSoftware3.title", richText)}/>
         <SliderTestimonial items={t.raw("sliderLandingSoftware")}/>
+        {/*TITULO Y CARDS CASOS DE ESTUDIO */}
         <TextComponent title='Casos de estudio'/>
         <CardLandingSoftware items={t.raw("cardsCasosEstudio")}/>
+        {/*TITULO Y SLIDER DE INFORMACION DE INTERESES */}
         <TextComponent title={t("titlesLandingSoftware.titleLandingSoftware5.title")}/>
         <SliderHero items={t.raw("sliderLandingSoftware2")}/>
       </div>

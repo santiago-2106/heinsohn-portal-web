@@ -26,7 +26,10 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
           </div>
 
           <div className="grid grid-rows-2">
-            {data.metrics.map((item, index) => (
+            {data.metrics.map((item, index) => {
+              const isLeft = item.positionIcon === 'left'
+              
+              return(
               <div
                 key={item.id}
                 className={`p-10 ${
@@ -38,13 +41,13 @@ export default function CardResultados({ data }: ResultsCorporativoProps) {
 
                   <span className="text-6xl font-light">{item.value}</span>
                 </div>
-                <div className="flex flex-col gap-2">
-                  <span className="flex items-center">{item.icon}</span>
+                <div className={`flex gap-4 ${isLeft ? "flex-row items-center" : "flex-col"}`}>
+                  <span className="material-symbols-rounded text-text-title font-light text-2xl md:text-4xl lg:text-6xl shrink-0" style={{fontSize:'40px'}}>{item.icon}</span>
 
                   <p className="text-text-body font-light">{item.description}</p>
                 </div>
               </div>
-            ))}
+            )})}
           </div>
         </div>
       </div>
