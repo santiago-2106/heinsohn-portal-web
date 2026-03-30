@@ -6,6 +6,7 @@ interface CardFeaturesProps {
   description?: string;
   variant?: "large" | "compact"; 
   iconPosition?: 'top' | 'left'
+  iconColor: 'text-brand-accent' | 'black'
 }
 
 export default function CardFeatures({
@@ -13,10 +14,13 @@ export default function CardFeatures({
   title,
   description,
   variant = "large",
-  iconPosition ='top'
+  iconPosition ='top',
+  iconColor = 'text-brand-accent'
 }: CardFeaturesProps) {
   const isLarge = variant === "large";
   const isIconTop = iconPosition === 'top';
+
+  const colorIcon = iconColor === 'text-brand-accent' ? 'text-brand-accent' : 'text-text-title';
 
   return (
     <div
@@ -25,12 +29,12 @@ export default function CardFeatures({
         ${isLarge ? "p-8" : "p-6"}
       `}
     >
-      <div className={`flex ${isIconTop ? "flex-col items-center" : "flex-row items-center"} gap-5`}>
+      <div className={`flex ${isIconTop ? "flex-col items-start" : "flex-row items-center"} gap-5`}>
         
         {/* CONTENEDOR DEL ÍCONO CORREGIDO: Libre de restricciones de altura */}
         {icon && (
           <div className="flex shrink-0 text-text-title items-center justify-center py-4">
-            <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>{icon}</span>
+            <span className={`material-symbols-rounded font-light ${colorIcon}`} style={{ fontSize: "48px" }}>{icon}</span>
           </div>
         )}
 

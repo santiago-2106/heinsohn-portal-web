@@ -12,7 +12,7 @@ export default function CardLandingHgs({icon, title, description, items, btn} : 
       
       {
         icon && (
-            <div className="mb-6 w-full text-text-title">
+            <div className="material-symbols-rounded mb-6 w-full text-text-title" style={{fontSize:'40px'}}>
                 {icon}
             </div>
         )

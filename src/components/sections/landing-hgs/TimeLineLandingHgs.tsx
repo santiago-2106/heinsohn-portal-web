@@ -1,10 +1,10 @@
 import { IconsTimeLineProps } from "@/src/types/typeStaffAugmentation";
-import React from "react";
+
 
 export default function TimeLineLandingHgs({ informationLandingSoftware }: IconsTimeLineProps) {
   return (
     <section className="w-full py-12 bg-bg-main">
-      <div className="max-w-5xl mx-auto px-6">
+      <div className="max-w-214 mx-auto px-6">
         <div className="flex flex-col">
           {informationLandingSoftware.map((info, index) => {
             const isLast = index === informationLandingSoftware.length - 1;
@@ -13,7 +13,7 @@ export default function TimeLineLandingHgs({ informationLandingSoftware }: Icons
               <div key={index} className="flex gap-8">
                 <div className="flex flex-col items-center shrink-0">
                  <div className="z-10 flex items-center justify-center w-12 h-12 text-text-title">
-                    <div className="flex items-center justify-center text-[24px]">
+                    <div className="material-symbols-rounded flex items-center justify-center " style={{fontSize:'40px'}}>
                         {info.icon}
                     </div>
                 </div>

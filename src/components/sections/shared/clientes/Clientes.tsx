@@ -10,7 +10,7 @@ interface ClientesProps {
 
 export default function Clientes({ title, description }: ClientesProps) {
   return (
-    <section className="bg-bg-main pt-16 pb-8">
+    <section className="bg-bg-main pt-32 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {/* Título Dinámico */}
         <h2 className="text-3xl sm:text-4xl font-light text-text-title mb-6">

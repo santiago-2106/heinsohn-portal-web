@@ -6,12 +6,12 @@ import TextSections from "@/src/components/ui/typography/TextSections";
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 
 // Data Centralizada
-import {
-  HeroLandingSoftware,
-  dataLandignSoftwareTexts,
-  titleLandingSoftware,
-  dataCardLandingSoftware
-} from "@/src/data/soluciones/landing-software";
+
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
+
+import SectionLandingHgs from "@/src/components/sections/landing-hgs/SectionLandingHgs";
+import SectionLandingHgs2 from "@/src/components/sections/landing-hgs/SectionLandingHgs2";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -21,25 +21,22 @@ export const metadata: Metadata = {
 };
 
 export default function SolucionesLandignSoftware() {
+
+  const t = useTranslations("landingHgs")
+
   return (
     <>
       <Hero
-        title={HeroLandingSoftware.title}
-        subtitle={HeroLandingSoftware.subtitle}
-        description={HeroLandingSoftware.description}
-        buttonText={HeroLandingSoftware.buttonText}
-        breadcrumb={HeroLandingSoftware.breadcrumb}
+        title={t("dataHeroLandingHGS.title")}
+        subtitle={t.rich("dataHeroLandingHGS.subtitle", richText)}
+        description={t.rich("dataHeroLandingHGS.description", richText)}
         showImage={false} // <-- AQUÍ LE DECIMOS A ESTE HERO QUE NO PINTE LA IMAGEN
       />
       
-      <TextSections items={dataLandignSoftwareTexts} />
-
-      <CardAnuncies
-        title={titleLandingSoftware.title}
-        description={titleLandingSoftware.description}
-        cards={dataCardLandingSoftware}
-        cols={3}
-      />
+      <TextSections items={t.raw("dataLandingHGS")} />
+      
+      <SectionLandingHgs />
+      <SectionLandingHgs2 />
     </>
   );
 }
