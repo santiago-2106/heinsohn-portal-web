@@ -13,7 +13,7 @@ interface StatsSectionProps {
 export default function TextSections({ items }: StatsSectionProps) {
   return (
     <section className='bg-bg-main py-24 px-12'>
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-5xl px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
           {items.map((item, index) => (
             <div key={index} className="flex flex-col items-center">

@@ -1,6 +1,66 @@
 import React from "react";
 import { dataCard } from "@/src/types/cardTypes";
 
+
+
+
+export const paisesLandingHGS = [
+  {
+    id: 1,
+    nombre: (
+      <>
+        <span className="text-red-600">01.</span> Colombia
+      </>
+    ),
+    image: "/bandera-colombia.svg"
+  },
+  {
+    id: 2,
+    nombre: (
+      <>
+        <span className="text-red-600">02.</span> Costa Rica
+      </>
+    ),
+    image: "/bandera-costa-rica.svg"
+  },
+  {
+    id: 3,
+    nombre: (
+      <>
+        <span className="text-red-600">03.</span> Ecuador
+      </>
+    ),
+    image: "/bandera-ecuador.svg"
+  },
+  {
+    id: 4,
+    nombre: (
+      <>
+        <span className="text-red-600">04.</span> Guatemala
+      </>
+    ),
+    image: "/bandera-guatemala.svg"
+  },
+  {
+    id: 5,
+    nombre: (
+      <>
+        <span className="text-red-600">05.</span> Panamá
+      </>
+    ),
+    image: "/bandera-panama.svg"
+  },
+  {
+    id: 6,
+    nombre: (
+      <>
+        <span className="text-red-600">06.</span> Perú
+      </>
+    ),
+    image: "/bandera-peru.svg"
+  }
+];
+
 // ==========================================
 // 1. DATA DEL HERO (Landing HGS)
 // ==========================================

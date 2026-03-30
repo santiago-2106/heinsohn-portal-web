@@ -11,6 +11,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const officialMessagesForMoment = (await import(`../../messages/${locale}.json`)).default
 
+  //Soluciones TI, Contact Form, Strategic Consulting, Desarrollo a Medida, Desarrollo UX/UI, Soluciones Financieras, Soluciones SAP, Gestión Humana, Pensiones, Pensiones Voluntarias, Soluciones IA, Landing Software, Landing HGS y Footer
   const navbar = (await import(`../../messages/${locale}/navbar.json`)).default;
   const solucionesTI = (await import(`../../messages/${locale}/solucionesTi.json`)).default;
   const contactForm = (await import(`../../messages/${locale}/contactForm.json`)).default;
@@ -24,10 +25,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const pensionesVoluntarias= (await import(`../../messages/${locale}/pensionesVoluntarias.json`)).default;
   const solucionesIA= (await import(`../../messages/${locale}/solucionesIa.json`)).default;
   const landingSoftware= (await import(`../../messages/${locale}/landingSoftware.json`)).default;
+  const landingHgs= (await import(`../../messages/${locale}/landingHgs.json`)).default;
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
+
+
   return {
     locale,
     messages: {
+      //Soluciones Traducciones
       ... officialMessagesForMoment,
       ...solucionesTI,
       ...contactForm,
@@ -40,6 +45,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...pensiones,
       ...pensionesVoluntarias,
       ...solucionesIA,
+      ...landingHgs,
       ...landingSoftware,
       ...footer,
       ...navbar

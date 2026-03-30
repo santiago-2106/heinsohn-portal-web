@@ -6,20 +6,34 @@ import CardFeatures from '../../ui/cards/CardFeatures'
 import CardAnuncies from '../shared/sectioncard/SectionAnuncies'
 import SliderHero from '../../sliders/SliderHero'
 import Card from '../../ui/cards/Card'
+import { useTranslations } from 'next-intl'
+import mapRich from '@/src/hooks/mapRich'
+import { richText } from '@/src/hooks/helper/richText'
+import { useCard } from '@/src/hooks/useCard'
 
 export default function SectionLandingHgs2() {
+
+  const t = useTranslations("landingHgs")
+
+  const card1 = mapRich(t, "cardSoftwareNomina") 
+  const card2 = mapRich(t, "cardOutsorcingBPO") 
+
+  const card3 = useCard(t.raw("cardFeatureLandingHGS"))
+
+  const card4 = mapRich(t, "cardTransformacionDigital")
+
   return (
     <section >
         <div>
           {/*INFORMACION LANDING SOFTWARE NUESTRO PORTAFOLIO DE SOLUCIONES */}
         <TextComponent 
-        title="Nuestro portafolio de soluciones"
-        description= 'Heinsohn Human Global Solutions ofrece un ecosistema completo de soluciones para cubrir todas las necesidades de tu área de Gestión Humana:'
+        title={t("titleLandingHGS7.title")}
+        description={t("titleLandingHGS7.description")}
         />
 
         <CardGrid columns={2}>
           {
-            dataCardsLandingHGS2.map((item, index) => (
+            card1.map((item: any, index: number) => (
               <article key={index}>
                 <Card {...item} />
               </article>
@@ -30,12 +44,12 @@ export default function SectionLandingHgs2() {
       <div className='pt-28'>
         {/*INFORMACION Soluciones en Modalida Outsorcing (BPO) */}
         <TextComponent 
-        title={titleLandingHGS4.title}
-        description={titleLandingHGS4.description}
+        title={t("titleLandingHGS4.title")}
+        description={t.rich("titleLandingHGS4.description", richText)}
         />
         <CardGrid columns={1}>
           {
-            dataCardsLandingHGS3.map((item, index) =>(
+            card2.map((item: any, index: number) =>(
               <article key={index}>
                 <CardLandingHgs {...item}/>
               </article>
@@ -46,11 +60,11 @@ export default function SectionLandingHgs2() {
 
       <div className='pt-28'>
         {/*INFORMACION ¿Por que elegir Heinsohn HUman Global Solutions?*/}
-        <TextComponent title='¿Por que elegir Heinsohn HUman Global Solutions?'/>
+        <TextComponent title={t("titleLandingHGS8.title")}/>
         <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-4xl">
             {
-                dataCardsFeaturesLandingHGS.map((item, index) => (
-                    <CardFeatures key={index} {...item}/>    
+                card3.map((item, index) => (
+                    <CardFeatures key={index} {...item} iconColor='text-brand-accent'/>    
                 ))
             }
         </article>
@@ -59,17 +73,17 @@ export default function SectionLandingHgs2() {
       <div >
         {/*INFORMACION Comienza tu transformación digital en Gestión Humana */}
         <CardAnuncies 
-        title='Comienza tu transformación digital en Gestión Humana'
-        description='En Heinsohn Human Global Solutions entendemos que tu talento humano es el activo más valioso de tu organización. Por eso, ponemos a tu disposición nuestro ecosistema completo de soluciones tecnológicas y servicios especializados para que puedas:'
+        title={t("titleLandingHGS9.title")}
+        description={t("titleLandingHGS9.description")}
         cols={2}
-        cards={dataCardsLandingHGS4}
+        cards={card4}
         />
 
         <TextComponent 
-        title='Noticias de Interés'
-        description='Mantente actualizado con las ultimas tendencias y cambios normativos en gestion humana.'
+        title={t("titleLandingHGS10.title")}
+        description={t("titleLandingHGS10.description")}
         />
-        <SliderHero items={heroSlides}/>
+        <SliderHero items={t.raw("sliderLandingHGS")}/>
       </div>
 
       <div>

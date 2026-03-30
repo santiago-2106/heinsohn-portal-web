@@ -18,7 +18,7 @@ export default function Mapa ({ title, descripcion, imgMap, paises, showIcon, sh
           <h2 className="text-text-title">
             {title}
           </h2>
-          <p className="text-xl font-bold text-gray-900 mt-2">
+          <p className="text-xl text-text-body mt-2">
             {descripcion}
           </p>
         </div>

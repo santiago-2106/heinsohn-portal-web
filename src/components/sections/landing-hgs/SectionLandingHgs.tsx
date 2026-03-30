@@ -7,17 +7,28 @@ import Clientes from "../shared/clientes/Clientes";
 import CardAnuncies from "../shared/sectioncard/SectionAnuncies";
 import TimeLineLandingHgs from "./TimeLineLandingHgs";
 import { paisesLandingHgs } from "@/src/data/soluciones/mapa";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
+import mapRich from "@/src/hooks/mapRich";
+
 
 
 
 export default function SectionLandingHgs() {
+
+  const t = useTranslations("landingHgs")
+
+  const cardPymes = t.raw("cardSolucionesPymes")
+
+  const timeline = mapRich(t,"dataTimeLineAlianzas")
+
   return (
     <section>
       <div>
         {/*informacion Presencial regional */}
         <TextComponent
-        title={titleLandingHGS.title}
-        description={titleLandingHGS.description}
+        title={t("titlePresenciaRegional.title")}
+        description={t.rich("titlePresenciaRegional.descripcion", richText)}
         align="left" 
         />
 
@@ -32,28 +43,33 @@ export default function SectionLandingHgs() {
       <div>
         {/*informacion Soluciones para cada tipo de empresa */}
         <TextComponent
-        title={titleLandingHGS2.title}
-        description={titleLandingHGS2.description} 
+        title={t("titleLandingHGS2.title")}
+        description={t.rich("titleLandingHGS2.description", richText)} 
         />
         <CardGrid columns={2} >
           {
-            dataLandignHGS2.map((item, index) => (
-              <div key={index}>
-                <CardGestionHumana {...item}/>
-              </div>
+            cardPymes.map((info:any, index:number) => (
+              <CardGestionHumana 
+                key={index}
+                icon={info.icon}
+                contenedor={info.contenedor}
+                title={info.title}
+                description={info.description}
+                btnText={info.btnText} 
+              />
             ))
           }
         </CardGrid>
 
         <Clientes 
-        title={titleLandingHGS3.title}
-        description={titleLandingHGS3.description}
+        title={(t("titleLandingHGS3.title"))}
+        description={t.rich("titleLandingHGS3.description", richText)}
         />
         {/*Informacion Portafolio completo */}
         <CardAnuncies 
-        title="Portafolio completo"
-        description="Ofecemos una oferta integral que combina"
-        cards={dataCardsLandingHGS}
+        title={t("cardPotafolioCompleto.title")}
+        description={t("cardPotafolioCompleto.description")}
+        cards={t.raw("cardPotafolioCompleto.cardsPortafolio")}
         cols={3}
         />
       </div>
@@ -61,14 +77,14 @@ export default function SectionLandingHgs() {
       <div>
         {/*Informacion Alianzas estratégicas con líderes tecnológicos */}
         <TextComponent 
-        title={titleLandingHGS6.title}
-        description={titleLandingHGS6.description}
+        title={t("titleLandingHGS6.title")}
+        description={t.rich("titleLandingHGS6.description", richText)}
         />
         <div className="mx-auto max-w-7xl flex flex-col md:flex-row items-center justify-center gap-6 md:gap-10 mb-12">
           <img src="/img/ibm-logo.png" alt="logo ibm" className="h-16 md:h-14 lg:h-22 w-auto object-contain"/>
           <img src="/img/microsoft-logo.png" alt="logo microsoft" className="h-16 md:h-14 lg:h-18 w-auto object-contain"/>
         </div>
-        <TimeLineLandingHgs informationLandingSoftware={dataTimeLineAlianzas}/>
+        <TimeLineLandingHgs informationLandingSoftware={timeline} />
       </div>
       
     </section>
