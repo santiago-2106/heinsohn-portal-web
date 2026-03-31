@@ -1,0 +1,48 @@
+{
+    "FundacionHeinsohnConecta": {
+        "dataHeroFundacion": {
+            "title":"Fundación <br></br> Heinsohn Conecta",
+            "description":"En Heinsohn creemos que la tecnología transforma vidas cuando se convierte en una herramienta que abre oportunidades reales. Por eso, a través de Heinsohn Conecta, impulsamos programas de formación técnica gratuitos que permiten que jóvenes de comunidades vulnerables fortalezcan sus competencias y accedan a rutas reales hacia la educación y el empleo formal.",
+            "breadcrumb": [{"label": "Fundación Heinsohn Conecta"}]
+        },
+
+        "cardPropositoSostenible": {
+            "title": "Nuestro propósito sostenible",
+            "description": "En Heinsohn Conecta, nuestro propósito sostenible es transformar vidas a través de la tecnología, brindando oportunidades reales a jóvenes de comunidades vulnerables. Nos comprometemos a ofrecer programas de formación técnica gratuitos que fortalezcan sus competencias y les permitan acceder a rutas reales hacia la educación y el empleo formal. Creemos que la tecnología es una herramienta poderosa para abrir puertas y crear un futuro más inclusivo y equitativo para todos.",
+            "cardsInformation": [
+                {
+                    "icon": "eco",
+                    "title":"E (Ambiental)",
+                    "description":"Educación digital que reduce barreras de desplazamiento y fomenta prácticas sostenibles en los contenidos formativos. ",
+                    "alineacion":"center"
+                },
+                {
+                    "icon": "hub",
+                    "title":"S (Social)",
+                    "description":"Programas diseñados para reducir brechas, con enfoque en equidad, inclusión, talento femenino y acompañamiento integral hacia la inserción laboral. ",
+                    "alineacion":"center"
+                },
+                {
+                    "icon": "account_balance",
+                    "title":"G (Gobernanza)",
+                    "description":"Procesos transparentes, gestión responsable de recursos y alianzas formales con instituciones educativas certificadas. ",
+                    "alineacion":"center"
+                }
+            ],
+            "bottomText":"Este modelo nos permite generar impacto real y sostenible, alineado con nuestra visión de aportar al desarrollo del país a través del conocimiento, la tecnología y la movilidad social."
+
+        },
+        "seccionOportunidades": {
+            "icon": "diamond",
+            "title": "Oportunidades que conectan talento y futuro",
+            "descriptions": [
+            "Cada programa, alianza y proceso de acompañamiento refleja nuestro propósito: formar, orientar y abrir caminos para que más jóvenes construyan un proyecto de vida sólido, autónomo y con propósito.",
+            "Nuestro compromiso evoluciona junto a las necesidades del entorno, siempre guiado por la convicción de que el conocimiento transforma realidades y fortalece el tejido social."
+            ]
+        },
+
+        "descriptionFundacion":"Si deseas conocer en profundidad cómo impulsamos el desarrollo del talento joven a través de la educación y la tecnología, te invitamos a explorar la labor completa de la",
+
+        "textBtn":"Fundación Heinsohn Conecta"
+    }
+}

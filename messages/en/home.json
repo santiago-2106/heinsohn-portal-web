@@ -1,0 +1,31 @@
+{
+    "HomeHeinsohn": {
+        "dataHeroHome": {
+            "title":"Heinsohn sabe",
+            "subtitle":"Una visión <red>|</red> para resultados excepcionales",
+            "description":"Impulsamos a las organizaciones más visionarias de la región a ir más allá. Con décadas de experiencia y tecnología de vanguardia, escalamos negocios, conectamos ecosistemas y construimos el futuro hoy."
+        },
+
+        "cardsHeinsohnProfesional": {
+            "title":"Inteligencia artificial",
+            "description":"La Inteligencia Artificial se ha convertido en un referente del estado del arte de la transformación digital. En Heinsohn exploramos continuamente nuevas tecnologías y su aplicación estratégica en los negocios, desarrollando servicios de IA que generan ventajas competitivas reales.",
+            "cardsIA": [
+            {
+                "icon": "psychology",
+                "title": "Machine learning",
+                "description": "Algoritmos predictivos que transforman datos en insights accionables para optimizar procesos empresariales."
+            },
+            {
+                "icon": "bolt",
+                "title": "Automatización",
+                "description": "Procesos automatizados inteligentes que aumentan la eficiencia y reducen errores operacionales."
+            },
+            {
+                "icon": "bubbles",
+                "title": "Analítica avanzada",
+                "description": "Insights profundos de datos complejos para decisiones estratégicas basadas en evidencia científica."
+            }],
+            "bottomText":"Ver proyectos de IA en curso"
+        }
+    }
+}

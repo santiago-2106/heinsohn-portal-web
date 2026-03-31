@@ -12,5 +12,10 @@ export const richText = {
       {chunks}
     </span>
   ),
-  br: () => <br />
+  br: () => <br />,
+  dark: (chunks: React.ReactNode) => (
+    <span className="text-[#414158]">
+      {chunks}
+    </span>
+  ),
 };
