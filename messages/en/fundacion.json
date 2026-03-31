@@ -1,0 +1,45 @@
+{
+  "FundacionHeinsohnConecta": {
+    "dataHeroFundacion": {
+      "title": "Heinsohn Conecta <br></br> Foundation",
+      "description": "At Heinsohn, we believe that technology transforms lives when it becomes a tool that opens real opportunities. Therefore, through Heinsohn Conecta, we promote free technical training programs that allow young people from vulnerable communities to strengthen their skills and access real pathways to education and formal employment.",
+      "breadcrumb": [{"label": "Heinsohn Conecta Foundation"}
+      ]
+    },
+    "cardPropositoSostenible": {
+      "title": "Our sustainable purpose",
+      "description": "At Heinsohn Conecta, our sustainable purpose is to transform lives through technology, providing real opportunities to young people from vulnerable communities. We are committed to offering free technical training programs that strengthen their skills and allow them to access real pathways to education and formal employment. We believe that technology is a powerful tool to open doors and create a more inclusive and equitable future for all.",
+      "cardsInformation": [
+        {
+          "icon": "eco",
+          "title": "E (Environmental)",
+          "description": "Digital education that reduces displacement barriers and promotes sustainable practices in training content.",
+          "alineacion": "center"
+        },
+        {
+          "icon": "hub",
+          "title": "S (Social)",
+          "description": "Programs designed to bridge gaps, with a focus on equity, inclusion, female talent, and comprehensive support towards labor market insertion.",
+          "alineacion": "center"
+        },
+        {
+          "icon": "account_balance",
+          "title": "G (Governance)",
+          "description": "Transparent processes, responsible resource management, and formal alliances with certified educational institutions.",
+          "alineacion": "center"
+        }
+      ],
+      "bottomText": "This model allows us to generate a real and sustainable impact, aligned with our vision of contributing to the country's development through knowledge, technology, and social mobility."
+    },
+    "seccionOportunidades": {
+      "icon": "diamond",
+      "title": "Opportunities that connect talent and the future",
+      "descriptions": [
+        "Every program, alliance, and support process reflects our purpose: to train, guide, and open paths so that more young people can build a solid, autonomous, and purposeful life project.",
+        "Our commitment evolves alongside the needs of the environment, always guided by the conviction that knowledge transforms realities and strengthens the social fabric."
+      ]
+    },
+    "descriptionFundacion": "If you wish to learn in depth how we drive the development of young talent through education and technology, we invite you to explore the complete work of the",
+    "textBtn": "Heinsohn Conecta Foundation"
+  }
+}

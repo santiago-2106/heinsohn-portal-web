@@ -29,10 +29,22 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
 
 
+  //industrias
+  const industrias = (await import(`../../messages/${locale}/industrias.json`)).default;
+  const sectorAutomotriz = (await import(`../../messages/${locale}/sectorAutomotriz.json`)).default;
+
+  //Fundacion Heinsohn Conecta
+  const fundacionX = (await import(`../../messages/${locale}/fundacion.json`)).default;
+
+  //Traba con Nosotros
+  const trabajaConNosotros = (await import(`../../messages/${locale}/trabajaConNosotros.json`)).default;
+  const Home = (await import(`../../messages/${locale}/home.json`)).default;
   return {
     locale,
     messages: {
       //Soluciones Traducciones
+      ...footer,
+      ...navbar,
       ... officialMessagesForMoment,
       ...solucionesTI,
       ...contactForm,
@@ -47,9 +59,17 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...solucionesIA,
       ...landingHgs,
       ...landingSoftware,
-      ...footer,
-      ...navbar
+      
+
+      //Traduccion industrias
+      ...industrias,
+      ...sectorAutomotriz,
+
+      //Traduccion Fundacion Heinsohn Conecta
+      ...fundacionX,
+      ...trabajaConNosotros,
+      ...Home
     }
-    // ...
+    
   };
 });

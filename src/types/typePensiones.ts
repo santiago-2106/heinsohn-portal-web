@@ -26,13 +26,12 @@ export interface ResultsCorporativoProps {
   data: ResultsCorporativoData;
 }
 
-//Para Preguntas frecuentes, luego cambiarlo por algo mas generico para otras secciones
 export interface FaqAnswer {
   descriptions: string; //Luego quitarlo o dejarlo
   listsItems?: string[];
 }
 
-
+//Para Preguntas frecuentes, luego cambiarlo por algo mas generico para otras secciones
 export interface FaqItem {
   question: string;
   answer: FaqAnswer; //Mirar luego cambiar por string para algo

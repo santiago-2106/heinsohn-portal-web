@@ -1,0 +1,150 @@
+{
+  "sectorAutomotriz": {
+    "dataHeroSectorAutomotriz": {
+      "title": "Automotive Sector",
+      "subtitle": "Let's drive the mobility of the future together",
+      "breadcrumb": [
+        { "label": "Industries" },
+        { "label": "Automotive Sector" }
+      ]
+    },
+
+    "titlesSectorAutomotriz": {
+      "title1": {
+        "title": "Transforming the automotive industry with technology and expertise",
+        "description": "At Heinsohn, we support automotive companies in facing the challenges of digitalization and smart mobility. We design solutions that improve user experience, optimize operations, and enable new data-driven and connectivity-based business models."
+      },
+      "title2": {
+        "title": "Featured Blog"
+      },
+      "title3": {
+        "title": "Why Heinsohn?",
+        "description": "Because we understand the sector's challenges and turn them into opportunities. We combine technology, analytics, and engineering expertise so that automotive companies can drive new business models, optimize operations, and create digital experiences that truly connect with users."
+      },
+      "title4": {
+        "title": "Innovating mobility with Heinsohn"
+      },
+      "title5": {
+        "title": "Success stories in the automotive industry",
+        "description": "Working on automotive projects has allowed me to see how technology can transform mobility and safety for millions of people. At Heinsohn, we don't just develop software; we design experiences that make a difference on the road."
+      },
+      "title6": {
+        "title": "People who made this project possible"
+      },
+      "titleContactForm": {
+        "title": "Contact us"
+      }
+    },
+
+    "listaTecnologiaExperiencia": [
+      {
+        "question": "Customer experience design",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while simultaneously unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Connectivity",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while simultaneously unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Smart fleet management",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while simultaneously unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Digital ecosystems and shared mobility",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while simultaneously unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      },
+      {
+        "question": "Cybersecurity and compliance",
+        "answer": {
+          "descriptions": "We help you create seamless, secure, and personalized user experiences that connect drivers with their vehicles while simultaneously unlocking new business opportunities.",
+          "listsItems": [
+            "In-vehicle payments and commerce",
+            "Software-defined vehicle",
+            "Android Auto and embedded systems",
+            "Generative AI for personalization",
+            "Connected vehicles and infrastructure"
+          ]
+        }
+      }
+    ],
+
+    "sliderSectorAutomotriz": {
+      "title": "Featured Blog",
+      "items": [
+        {
+          "id": 1,
+          "img": "/img/slider-sectorAutomotriz.jpg",
+          "title": "Digital transformation accelerates the future of mobility",
+          "description": "The automotive industry is changing at high speed: from software-defined vehicles to total connectivity and shared mobility.",
+          "btn": "Read more"
+        },
+        {
+          "id": 2,
+          "img": "/img/imgWorkKnow.jpg",
+          "title": "Transformation of a healthcare services platform",
+          "description": "We designed a new digital experience for a healthcare platform, improving navigation and reorganizing workflows...",
+          "btn": "Discover how we did it"
+        }
+      ]
+    },
+
+    "videoSection": {
+      "textVideos": "Learn how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+      "textButtonVideo": "View success stories"
+    },
+
+    "cardProyectoPosible": [
+      {
+        "imgPersonas": "/img/img-persona1.jpg",
+        "namePersonas": "Laura Gutiérrez",
+        "cargoPersonas": "UX Lead"
+      },
+      {
+        "imgPersonas": "/img/img-persona2.jpg",
+        "namePersonas": "Mariana Torres",
+        "cargoPersonas": "Software Architect"
+      },
+      {
+        "imgPersonas": "/img/img-persona3.jpg",
+        "namePersonas": "Carlos Ramírez",
+        "cargoPersonas": "Automotive Project Manager"
+      }
+    ]
+  }
+}

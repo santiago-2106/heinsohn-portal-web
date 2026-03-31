@@ -1,0 +1,112 @@
+{
+    "HomeHeinsohn": {
+        "dataHeroHome": {
+            "title":"Heinsohn sabe",
+            "subtitle":"Una visión <red>|</red> para resultados excepcionales",
+            "description":"Impulsamos a las organizaciones más visionarias de la región a ir más allá. Con décadas de experiencia y tecnología de vanguardia, escalamos negocios, conectamos ecosistemas y construimos el futuro hoy."
+        },
+
+        "cardsHeinsohnProfesional": {
+            "title":"Inteligencia artificial",
+            "description":"La Inteligencia Artificial se ha convertido en un referente del estado del arte de la transformación digital. En Heinsohn exploramos continuamente nuevas tecnologías y su aplicación estratégica en los negocios, desarrollando servicios de IA que generan ventajas competitivas reales.",
+            
+            "cardsIA": [
+            {
+                "icon": "psychology",
+                "title": "Machine learning",
+                "description": "Algoritmos predictivos que transforman datos en insights accionables para optimizar procesos empresariales.",
+                "alineacion":"center"
+            },
+            {
+                "icon": "bolt",
+                "title": "Automatización",
+                "description": "Procesos automatizados inteligentes que aumentan la eficiencia y reducen errores operacionales.",
+                "alineacion":"center"
+            },
+            {
+                "icon": "bubbles",
+                "title": "Analítica avanzada",
+                "description": "Insights profundos de datos complejos para decisiones estratégicas basadas en evidencia científica.",
+                "alineacion":"center"
+            }],
+            "bottomText":"Ver proyectos de IA en curso"
+        },
+
+        "dataHome": [
+            { "titleLanding": "13", "descriptionLanding": "Presencia paises" },
+            { "titleLanding": "48","prefix": "+", "descriptionLanding": "Años de experiencia" },
+            { "titleLanding": "100","prefix": "%", "descriptionLanding": "Plataformas web" },
+            { "titleLanding": "95", "prefix": "%","descriptionLanding": "Satisfaccion" }
+        ],
+
+        "cardSolucionesHome": {
+            "title":"Soluciones",
+            "description":"Portafolio completo de servicios y soluciones diseñadas para impulsar la innovación y eficiencia en tu organización.",
+            "cardsHome": [
+                {
+                    "icon": "",
+                    "title": "",
+                    "description": "",
+                    "textoFooter": "",
+                    "btn": ""
+                },
+                {
+                    "icon": "",
+                    "title": "",
+                    "description": "",
+                    "btn": ""
+                },
+                {
+                    "icon": "",
+                    "title": "",
+                    "description": "",
+                    "textoFooter": "",
+                    "btn": ""
+                },
+                {
+                    "icon": "",
+                    "title": "",
+                    "description": "",
+                    "btn": ""
+                },
+                {
+                    "icon": "",
+                    "title": "",
+                    "description": "",
+                    "btn": ""
+                }]
+        },
+
+        "casosExito": {
+            "title": "Casos de éxito",
+            "description": "Transformaciones reales que han revolucionado industrias completas a través de soluciones tecnológicas innovadoras.",
+            "cardsCasosExito": [
+            {
+                "icon": "account_balance",
+                "title": "Transformación digital bancaria",
+                "description": "Modernización completa de la infraestructura tecnológica de un banco líder, resultando en 40% de mejora en eficiencia operacional.",
+                "btn": "Ver caso completo"
+            },
+            {
+                "icon": "monitoring",
+                "title": "Plataforma de gestión de riesgos",
+                "description": "Desarrollo de una plataforma inteligente para evaluación y gestión de riesgos en tiempo real para compañía aseguradora.",
+                "btn": "Ver caso completo"
+            },
+            {
+                "icon": "work",
+                "title": "Sistema ERP agroindustrial",
+                "description": "Implementación de SAP Business One personalizado para optimizar la cadena de suministro y trazabilidad de productos.",
+                "btn": "Ver caso completo"
+            }
+            ],
+            "bottomBtn": "Ver todos los casos de éxito"
+        },
+
+        "titlesHome":{
+            "titleContact":"Contáctanos",
+            "titleClientes":"Clientes",
+            "titleCertificacionesInternacionales":"Certificicaciones internacionales"
+        }
+    }
+}

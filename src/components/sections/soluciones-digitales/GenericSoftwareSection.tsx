@@ -31,6 +31,7 @@ export default function TrustSection() {
             icon={item.icon}
             iconPosition="left"
             variant="compact"
+            iconColor="black"
           />
         ))}
       </section>

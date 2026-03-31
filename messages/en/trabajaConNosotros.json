@@ -1,0 +1,56 @@
+{
+    "TrabajaConNosotros": {
+        "datHeroTrabajaConNosotros": {
+            "title": "Work with us",
+            "description": "When you join Heinsohn, you become part of more than 900 dedicated leaders in the software industry. You will be a member of a diverse team that includes the top 1% of IT talent in the world.",
+            "buttonText": "Contact us"
+        },
+
+        "titlesTrabajaConNosotros": {
+            "title1": {
+                "title": "Certified Talent, <br></br> <dark>Certified Success.</dark>",
+                "descripcion": "We firmly believe that knowledge and education play a crucial role in strengthening and developing our human capital.<br></br> <br></br> <dark>Our commitment to this vision is clear: Heinsohn holds 276 certifications in various technologies. We offer free training in different technological and business areas, including, among others, SCRUM, Microsoft, SAP, Oracle, and other professional certifications.</dark>"
+            },
+            "title2": {
+                "title": "Global Reach, <br></br> <dark>Local Impact.</dark>",
+                "description": "We firmly believe that knowledge and education play a crucial role in strengthening and developing our human capital.<br></br> <br></br> <dark>Our commitment to this vision is clear: Heinsohn holds 276 certifications in various technologies. We offer free training in different technological and business areas, including, among others, SCRUM, Microsoft, SAP, Oracle, and other professional certifications.</dark>"
+            }
+        },
+
+        "igualdadOportunidades": {
+            "icon": "diamond",
+            "title": "Equal Opportunity, Limitless Growth",
+            "descriptions": [
+                "Equal opportunity is a fundamental corporate value and the essence of all our activities and operations. At Heinsohn, what matters is not your origin, but the distinctive and innovative ideas you bring."
+            ]
+        },
+
+        "cardsHeinsohnProfesional": {
+            "title": "Why should Heinsohn be your next <br></br> professional step?",
+            "cards": [
+                {
+                    "icon": "cloud_sync",
+                    "title": "You will grow.",
+                    "description": "Technology advances exponentially, and so will you. Experience the excitement of working in an environment with high growth potential."
+                },
+                {
+                    "icon": "cloud_sync",
+                    "title": "You will follow your passion.",
+                    "description": "Technology is exciting, as is our motivation to code and contribute to a better world."
+                },
+                {
+                    "icon": "cloud_sync",
+                    "title": "You will create a vibrant culture.",
+                    "description": "Inspired by our Latin American heritage, our atmosphere is dynamic and stimulating. You will contribute to an environment of creativity and excellence."
+                },
+                {
+                    "icon": "cloud_sync",
+                    "title": "You will continuously improve.",
+                    "description": "We may not be perfect, but we always strive to improve through our initiatives, training programs, and organizational culture."
+                }
+            ]
+        },
+
+        "textBtn": "See Available Vacancies"
+    }
+}

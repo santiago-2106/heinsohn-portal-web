@@ -67,13 +67,13 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
 
                 <div className="w-full md:w-2/3 bg-bg-card-2 border border-border-ui flex flex-col">
                   {/* Imagen de la noticia */}
-                  <div className="relative h-56 md:h-80 w-full">
+                  <div className="relative h-56 md:h-112 w-full">
                     <Image
                       src={item.img || "/img/noticias-interes.jpg"}
                       alt={`Imagen destacada de ${item.title}`}
                       fill
                       sizes="(max-width: 768px) 100vw, 66vw"
-                      className="object-cover brightness-90 grayscale-[50%]"
+                      className="object-cover brightness-90 grayscale-90"
                     />
                   </div>
 
