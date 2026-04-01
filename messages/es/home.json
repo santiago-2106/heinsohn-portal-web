@@ -41,39 +41,48 @@
 
         "cardSolucionesHome": {
             "title":"Soluciones",
-            "description":"Portafolio completo de servicios y soluciones diseñadas para impulsar la innovación y eficiencia en tu organización.",
+            "description":"Portafolio completo de servicios y soluciones diseñadas para impulsar la innovación y <br></br>eficiencia en tu organización.",
             "cardsHome": [
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "textoFooter": "",
-                    "btn": ""
+                    "icon": "computer",
+                    "title": "Servicios digitales",
+                    "description": "Desarrollo de software a medida, transformación digital, aplicaciones web, móviles y multiplataforma, inteligencia artificial y analítica de datos, arquitectura cloud, modernización de aplicaciones y soluciones tecnológicas innovadoras para la era digital. Creamos experiencias digitales excepcionales que impulsan el crecimiento empresarial.",
+                    "textoFooter": "Transformación digital <br></br>Apps móviles & web, plataformas empresariales, inteligencia artificial, analítica de datos, consultoría y tecnologías emergentes. Equipos dedicados & Staff Augmentation.",
+                    "btn": "Explorar servicios",
+                    "btnPosition":"top"
+                    
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "monetization_on",
+                    "title": "Soluciones sector financiero",
+                    "description": "Sistemas especializados para banca, fintechs, aseguradoras y entidades no bancarizadas que buscan liderar la transformación digital del sector financiero. <br></br>Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo. Tecnología robusta y escalable que impulsa la innovación y optimiza la gestión financiera integral.",
+                    "textoFooter":"Fintech y gestión financiera<br></br> Software diseñado para la administración integral de créditos, libranzas, obligaciones financieras, fondos FICs, portafolios de inversión y gestión de riesgos. Nuestras plataformas permiten automatizar procesos, cumplir con las regulaciones y garantizar trazabilidad total en cada operación, potenciando la eficiencia y competitividad de las entidades financieras en LATAM.",
+                    "btn": "Descubre nuestras soluciones financieras",
+                    "btnPosition":"top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "textoFooter": "",
-                    "btn": ""
+                    "icon": "savings",
+                    "title": "Soluciones para el sector pensiones",
+                    "description": "Contamos con software especializado para la gestión integral de pensiones, cesantías y rentas vitalicias. Nuestras plataformas garantizan trazabilidad, eficiencia y cumplimiento normativo, permitiendo a fondos de pensiones, aseguradoras y entidades financieras optimizar sus operaciones, reducir costos y ofrecer una experiencia 100% digital a sus afiliados.",
+                    "textoFooter": "Gestión previsional & ahorro <br></br> Plataformas tecnológicas para la administración de pensiones obligatorias y voluntarias, cesantías y nómina de pensionados. Nuestras soluciones garantizan precisión en la liquidación, cumplimiento regulatorio y autogestión digital, impulsando la sostenibilidad y la confianza en los sistemas previsionales de la región.",
+                    "btn": "Explora nuestras soluciones en pensiones",
+                    "btnPosition":"top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "account_circle",
+                    "title": "HGS - Gestión humana",
+                    "description": "Human Global Solutions (HGS) es nuestra empresa especializada en la gestión integral del talento humano. Combinamos plataformas tecnológicas avanzadas con servicios especializados de outsourcing para automatizar procesos de RRHH, desde reclutamiento hasta nómina, evaluaciones de desempeño y desarrollo del talento. Potenciamos el capital humano de las organizaciones más exigentes.",
+                    "textoFooter":"Human Global Solutions<br></br>Empresa especializada en gestión integral del talento humano con plataformas tecnológicas avanzadas y servicios de outsourcing especializados. Más de 1.000 empresas latinoamericanas avalan la calidad y solidez de nuestras soluciones.",
+                    "btn": "Gestionar talento",
+                    "btnPosition":"top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "corporate_fare",
+                    "title": "Soluciones empresariales",
+                    "description": "Software empresarial personalizado que optimiza procesos, mejora la productividad y acelera el crecimiento de tu organización. Somos proveedores líderes en las soluciones de SAP Business One y SAP Grow, las mejores soluciones empresariales del mercado. Desarrollamos sistemas ERP, CRM y plataformas de gestión integral que se adaptan a las necesidades específicas de cada industria, desde pymes hasta grandes corporaciones.",
+                    "textoFooter":"SAP Business One & SAP Grow <br></br> Proveedores líderes de las mejores soluciones empresariales del mercado - ERP, CRM, Business Intelligence y gestión integral",
+                    "btn": "Ver soluciones",
+                    "btnPosition":"top"
                 }]
         },
 
@@ -105,7 +114,7 @@
 
         "titlesHome":{
             "titleContact":"Contáctanos",
-            "titleClientes":"Clientes",
+            "titleClientes":{"title":"Clientes", "description":"Organizaciones líderes que confían en nuestras soluciones para transformar sus operaciones y alcanzar nuevos niveles de excelencia."},
             "titleCertificacionesInternacionales":"Certificicaciones internacionales"
         }
     }

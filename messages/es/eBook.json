@@ -1,0 +1,38 @@
+{
+    "EBook": {
+        "dataHeroEBook":{
+            "title":"ABC para el cobro de incapacidades",
+            "buttonText":"Descargar E-book"
+        },
+
+        "textsFormBlog":{
+            "title":"Descarga el e-book",
+            "description":"Diligencia el siguiente formulario para obtener una copia"
+        },
+
+        "cardEbook":{
+            "title":"Ver más E-books",
+            "description":"Transformaciones reales que han revolucionado industrias completas a través de soluciones tecnológicas innovadoras.",
+            "cardsEbooks":[
+                {
+                    "icon":"account_balance",
+                    "title":"¿Estás cansado de tener un equipo que no alcanza sus metas? – Potencia el Rendimiento de tu Equipo",
+                    "description":"¿Estás cansado de tener un equipo que no alcanza sus...",
+                    "btn":"Leer más"
+                },
+                {
+                    "icon":"monitor_heart",
+                    "title":"Automatiza tus Procesos de Recursos Humanos",
+                    "description":"¿Quieres aumentar la eficacia en la liquidación de nómina y...",
+                    "btn":"Leer más"
+                },
+                {
+                    "icon":"Enterprise",
+                    "title":"Impulsa la Productividad y Motivación de tus Empleados",
+                    "description":"¿Quieres mejorar la productividad y motivación de tus empleados? ¡Descubre...",
+                    "btn":"Leer más"
+                }
+            ]
+        }
+    }
+}

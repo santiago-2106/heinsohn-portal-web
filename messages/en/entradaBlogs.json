@@ -1,0 +1,138 @@
+{
+  "EntradaBlogs": {
+    "dataHeroEntradaBlogs": {
+      "title": "Heinsohn Blog",
+      "subtitle": "Explore ideas, trends, and tips in <br></br>our blogs. Connect with the knowledge<br></br> that drives your growth."
+    },
+    "Search": {
+      "placeholder": "Search content",
+      "button": "Search"
+    },
+    "Filters": {
+      "analytics": "Data Analytics & Business Intelligence",
+      "software": "Software Development & Cloud",
+      "finance": "Finance, Pensions & Investments",
+      "ai": "Artificial Intelligence & Automation",
+      "nearshore": "Nearshore, Scaling & IT Services",
+      "hr": "Human Resources, Payroll & OSH"
+    },
+
+    "cardBlogReciente": {
+      "titlePrincipal": "Payroll & Human Capital Management",
+      "cards": [
+        {
+          "img": "/img/img-blog1.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog2.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog3.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        }
+      ]
+    },
+
+    "cardBlogReciente2": {
+      "titlePrincipal2": "Consultancy & Development",
+      "cards": [
+        {
+          "img": "/img/img-blog4.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog5.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog6.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        }
+      ]
+    },
+    "cardBlogReciente3": {
+      "titlePrincipal3": "Finance & Pensions",
+      "cards": [
+        {
+          "img": "/img/img-blog7.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog8.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        },
+        {
+          "img": "/img/img-blog9.jpg",
+          "titleCard": "GROW WITH SAP and SAP Business One",
+          "subtitle1": "June 17, 2025",
+          "description": "Facing the suspended Pension Reform: Solutions for CFOs with Heinsohn.",
+          "badge": "Logistics sector",
+          "btnText": "Read more"
+        }
+      ]
+    },
+    "cardBlogReciente4": {
+      "titlePrincipal4": "Business Management",
+      "cards": [
+        {
+          "img": "/img/img-blog10.jpg",
+          "titleCard": "Technological Innovations with SAP S/4HANA",
+          "subtitle1": "August 10, 2025",
+          "description": "Adapting to the new digital era: Effective strategies for evolving companies.",
+          "badge": "Logistics sector",
+          "btnText": "Discover more"
+        },
+        {
+          "img": "/img/img-blog11.jpg",
+          "titleCard": "Technological Innovations with SAP S/4HANA",
+          "subtitle1": "August 10, 2025",
+          "description": "Adapting to the new digital era: Effective strategies for evolving companies.",
+          "badge": "Logistics sector",
+          "btnText": "Discover more"
+        },
+        {
+          "img": "/img/img-blog12.jpg",
+          "titleCard": "Technological Innovations with SAP S/4HANA",
+          "subtitle1": "August 10, 2025",
+          "description": "Adapting to the new digital era: Effective strategies for evolving companies.",
+          "badge": "Logistics sector",
+          "btnText": "Discover more"
+        }
+      ]
+    }
+  }
+}

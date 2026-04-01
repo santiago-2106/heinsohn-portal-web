@@ -1,13 +1,13 @@
 import CardGrid from "@/src/components/layout/grids/CardGrid";
 
 interface CardImgProps {
-    imgPersonas: string;
-    namePersonas: string;
-    cargoPersonas?: string;
+  imgPersonas: string;
+  namePersonas: string;
+  cargoPersonas?: string;
 }
 
 interface dataCardImg {
-    dataCardsImgs: CardImgProps[];
+  dataCardsImgs: CardImgProps[];
 }
 
 export default function CardImg({ dataCardsImgs }: dataCardImg) {
