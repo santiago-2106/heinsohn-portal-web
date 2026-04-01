@@ -39,6 +39,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   //Traba con Nosotros
   const trabajaConNosotros = (await import(`../../messages/${locale}/trabajaConNosotros.json`)).default;
   const Home = (await import(`../../messages/${locale}/home.json`)).default;
+
+  const entradaBlogs = (await import(`../../messages/${locale}/entradaBlogs.json`)).default;
+  const eBook = (await import(`../../messages/${locale}/eBook.json`)).default;
   return {
     locale,
     messages: {
@@ -68,7 +71,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
       //Traduccion Fundacion Heinsohn Conecta
       ...fundacionX,
       ...trabajaConNosotros,
-      ...Home
+      ...Home,
+      ...entradaBlogs,
+      ...eBook
     }
     
   };

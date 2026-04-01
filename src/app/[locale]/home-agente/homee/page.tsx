@@ -11,13 +11,14 @@ import { useTranslations } from 'next-intl'
 export default function page() {
 
   const t = useTranslations("HomeHeinsohn")
-
+  
   return (
     <div>
       <Hero 
       title={t("dataHeroHome.title")}
       subtitle={t.rich("dataHeroHome.subtitle", richText)}
       description={t("dataHeroHome.description")}
+      showImage={false}
       />
       
       <CardAnuncies 
@@ -31,13 +32,12 @@ export default function page() {
 
       <CardAnuncies 
       title={t("cardSolucionesHome.title")}
-      description={t("cardSolucionesHome.description")}
+      description={t.rich("cardSolucionesHome.description", richText)}
       cards={t.raw("cardSolucionesHome.cardsHome")}
       cols={1}
       alignHeader='left'
       />
 
-      
       <BannerFiguras />
 
       <CardAnuncies 
@@ -48,7 +48,10 @@ export default function page() {
       bottomBtn={t("casosExito.bottomBtn")}
       />
 
-      <Clientes title={t("titlesHome.titleClientes")}/>
+      <Clientes 
+      title={t("titlesHome.titleClientes.title")}
+      description={t("titlesHome.titleClientes.description")}
+      />
 
       <CertificacionesInternacionales 
       title={t("titlesHome.titleCertificacionesInternacionales")}

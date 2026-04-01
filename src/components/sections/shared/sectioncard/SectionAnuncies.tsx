@@ -30,7 +30,7 @@ export default function CardAnuncies({
 
   return (
     <section className="bg-bg-main py-12 md:py-16 transition-colors duration-300">
-      <div className="mx-auto max-w-7xl px-6 md:px-12 xl:px-24">
+      <div className="mx-auto max-w-6xl px-6 md:px-12 xl:px-24">
         
         {/* ENCABEZADO DE LA SECCIÓN (Ahora es flexible) */}
         <div className={`mb-12 flex flex-col ${alignClass}`}>

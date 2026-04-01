@@ -1,3 +1,4 @@
+import CardLayout from '@/src/components/layout/grids/CardLayout'
 import CertificacionesInternacionales from '@/src/components/sections/shared/certificaciones/CertificacionesInternacionales'
 import Hero from '@/src/components/sections/shared/hero/Hero'
 import CardFuncaionShared from '@/src/components/sections/shared/sectioncard/CardFuncaionShared'
@@ -26,7 +27,9 @@ export default function page() {
       imagen='/img/certificados-ISOS.png'
       />
 
-      <CardFuncaionShared data={t.raw("igualdadOportunidades")}/>
+      <CardLayout>
+        <CardFuncaionShared data={t.raw("igualdadOportunidades")}/>
+      </CardLayout>
 
       <TextComponent 
       title={t.rich("titlesTrabajaConNosotros.title2.title", richText)}

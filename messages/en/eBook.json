@@ -1,0 +1,38 @@
+{
+    "EBook": {
+        "dataHeroEBook": {
+            "title": "ABC for Disability Benefits Collection",
+            "buttonText": "Download E-book"
+        },
+
+        "textsFormBlog": {
+            "title": "Download the e-book",
+            "description": "Fill out the following form to get a copy"
+        },
+
+        "cardEbook": {
+            "title": "View more E-books",
+            "description": "Real transformations that have revolutionized entire industries through innovative technological solutions.",
+            "cardsEbooks": [
+                {
+                    "icon": "account_balance",
+                    "title": "Tired of having a team that doesn't reach its goals? – Boost Your Team's Performance",
+                    "description": "Are you tired of having a team that doesn't reach its...",
+                    "btn": "Read more"
+                },
+                {
+                    "icon": "monitoring",
+                    "title": "Automate your Human Resources Processes",
+                    "description": "Do you want to increase efficiency in payroll processing and...",
+                    "btn": "Read more"
+                },
+                {
+                    "icon": "work",
+                    "title": "Boost Productivity and Motivation of your Employees",
+                    "description": "Do you want to improve the productivity and motivation of your employees? Discover...",
+                    "btn": "Read more"
+                }
+            ]
+        }
+    }
+}

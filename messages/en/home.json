@@ -42,39 +42,47 @@
 
         "cardSolucionesHome": {
             "title": "Solutions",
-            "description": "A complete portfolio of services and solutions designed to drive innovation and efficiency in your organization.",
+            "description": "Complete portfolio of services and solutions designed to drive innovation and <br></br>efficiency in your organization.",
             "cardsHome": [
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "textoFooter": "",
-                    "btn": ""
+                    "icon": "computer",
+                    "title": "Digital Services",
+                    "description": "Custom software development, digital transformation, web, mobile, and multi-platform applications, artificial intelligence and data analytics, cloud architecture, application modernization, and innovative technological solutions for the digital era. We create exceptional digital experiences that drive business growth.",
+                    "textoFooter": "Digital Transformation <br></br>Mobile & web apps, enterprise platforms, artificial intelligence, data analytics, consulting, and emerging technologies. Dedicated teams & Staff Augmentation.",
+                    "btn": "Explore services",
+                    "btnPosition": "top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "monetization_on",
+                    "title": "Financial Sector Solutions",
+                    "description": "Specialized systems for banking, fintechs, insurers, and non-bank entities seeking to lead the digital transformation of the financial sector. <br></br>Our solutions allow for the management of loans, financial obligations, investment funds, and portfolios with total efficiency, security, and regulatory compliance. Robust and scalable technology that drives innovation and optimizes comprehensive financial management.",
+                    "textoFooter": "Fintech and Financial Management<br></br> Software designed for the comprehensive administration of loans, payroll deductions, financial obligations, FICs (Investment Funds), investment portfolios, and risk management. Our platforms allow for process automation, regulatory compliance, and guarantee total traceability in every operation, boosting the efficiency and competitiveness of financial entities in LATAM.",
+                    "btn": "Discover our financial solutions",
+                    "btnPosition": "top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "textoFooter": "",
-                    "btn": ""
+                    "icon": "savings",
+                    "title": "Pension Sector Solutions",
+                    "description": "We offer specialized software for the comprehensive management of pensions, severance funds, and life annuities. Our platforms guarantee traceability, efficiency, and regulatory compliance, allowing pension funds, insurers, and financial entities to optimize their operations, reduce costs, and offer a 100% digital experience to their members.",
+                    "textoFooter": "Pension Management & Savings <br></br> Technological platforms for the administration of mandatory and voluntary pensions, severance funds, and pensioner payrolls. Our solutions guarantee precision in settlements, regulatory compliance, and digital self-service, driving sustainability and trust in the region's pension systems.",
+                    "btn": "Explore our pension solutions",
+                    "btnPosition": "top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "account_circle",
+                    "title": "HGS - Human Management",
+                    "description": "Human Global Solutions (HGS) is our company specialized in the comprehensive management of human talent. We combine advanced technological platforms with specialized outsourcing services to automate HR processes, from recruitment to payroll, performance evaluations, and talent development. We empower the human capital of the most demanding organizations.",
+                    "textoFooter": "Human Global Solutions<br></br>Company specialized in comprehensive human talent management with advanced technological platforms and specialized outsourcing services. More than 1,000 Latin American companies endorse the quality and reliability of our solutions.",
+                    "btn": "Manage talent",
+                    "btnPosition": "top"
                 },
                 {
-                    "icon": "",
-                    "title": "",
-                    "description": "",
-                    "btn": ""
+                    "icon": "corporate_fare",
+                    "title": "Enterprise Solutions",
+                    "description": "Custom enterprise software that optimizes processes, improves productivity, and accelerates your organization's growth. We are leading providers of SAP Business One and SAP Grow, the best business solutions on the market. We develop ERP systems, CRM, and comprehensive management platforms that adapt to the specific needs of each industry, from SMEs to large corporations.",
+                    "textoFooter": "SAP Business One & SAP Grow <br></br> Leading providers of the best business solutions on the market - ERP, CRM, Business Intelligence, and comprehensive management",
+                    "btn": "View solutions",
+                    "btnPosition": "top"
                 }
             ]
         },
@@ -107,7 +115,7 @@
 
         "titlesHome": {
             "titleContact": "Contact us",
-            "titleClientes": "Clients",
+            "titleClientes": {"title": "Clients", "description": "Leading organizations that trust our solutions to transform their operations and reach new levels of excellence."},
             "titleCertificacionesInternacionales": "International certifications"
         }
     }

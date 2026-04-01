@@ -17,6 +17,7 @@ export interface dataCard {
   items?: ItemsCard[];
   alineacion?: "left" | "center";
   textoFooter?: ReactNode;
+  btnPosition?: 'top' | 'bottom' ; 
   btnHasBorder?: boolean; 
 }
 //IMAGEN MAPA 

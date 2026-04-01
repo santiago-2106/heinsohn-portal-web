@@ -24,9 +24,9 @@ export default function BannerFiguras({ title, description }: BannerFigurasProps
             {description}
           </p>
         )}
-
-        {/* Imagen de Diseño de Figuras */}
-        <div className="w-full">
+      </div>
+      {/* Imagen de Diseño de Figuras */}
+      <div className="w-full">
           <Image
             src="/img/diseno-figuras.png"
             width={1920}
@@ -36,8 +36,6 @@ export default function BannerFiguras({ title, description }: BannerFigurasProps
             className="w-full h-48 md:h-[300px] object-cover object-bottom block"
           />
         </div>
-        
-      </div>
     </section>
   );
 }

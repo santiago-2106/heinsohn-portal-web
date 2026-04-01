@@ -1,3 +1,4 @@
+import CardLayout from '@/src/components/layout/grids/CardLayout'
 import Hero from '@/src/components/sections/shared/hero/Hero'
 import CardFuncaionShared from '@/src/components/sections/shared/sectioncard/CardFuncaionShared'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
@@ -26,10 +27,11 @@ export default function pageFundacion() {
       cols={3}
     />
 
-    <CardFuncaionShared 
-    img='/img/img-fundacion.png'
-    data={t.raw("seccionOportunidades")}
-    />
+    <CardLayout>
+      <CardFuncaionShared 
+      data={t.raw("seccionOportunidades")}
+      />
+    </CardLayout>
 
     <TextComponent 
     title={t("descriptionFundacion")}

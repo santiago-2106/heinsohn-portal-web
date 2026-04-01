@@ -8,10 +8,31 @@ export default function Card({
   items,
   alineacion = "left",
   textoFooter,
+  btnPosition= 'bottom',
   btnHasBorder
 }: dataCard) {
   const centrar = alineacion === "center";
   const cleanBtnText = btn ? btn.replace(/->|→/g, "").trim() : "";
+
+   {/* BOTÓN */}
+      const Button = btn && (
+        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : ""}>
+        <a
+          href="/"
+          className={`
+            mt-auto inline-flex gap-2 text-sm font-bold group
+            ${centrar ? "justify-center" : "items-center"}
+          `}
+        >
+          <span className="text-text-title group-hover:opacity-80 transition-colors">
+            {cleanBtnText}
+          </span>
+          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
+            →
+          </span>
+        </a>
+        </div>
+      )
 
   return (
     <div
@@ -46,6 +67,8 @@ export default function Card({
           {description}
         </p>
       )}
+
+      {btnPosition === "top" && Button}
 
       {/* LISTA DE ITEMS */}
       {items && items.length > 0 && (
@@ -87,23 +110,9 @@ export default function Card({
         )
       }
 
-      {/* BOTÓN */}
-      {btn && (
-        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : ""}>
-        <a
-          href="/"
-          className={`
-            mt-auto inline-flex gap-2 text-sm font-bold group
-            ${centrar ? "justify-center" : "items-center"}
-          `}
-        >
-          <span className="text-text-title group-hover:opacity-80 transition-colors">
-            {cleanBtnText}
-          </span>
-          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
-            →
-          </span>
-        </a>
+      {btnPosition === "bottom" && (
+        <div className="">
+          {Button}
         </div>
       )}
     </div>
