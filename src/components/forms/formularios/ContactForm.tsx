@@ -26,7 +26,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
         {/* Cambié a flex-col en móvil para garantizar que no se desborde, y grid en escritorio */}
         <div className="flex flex-col md:grid md:grid-cols-12 border border-gray-200 overflow-hidden">
           
-          <div className="relative hidden md:block md:col-span-5 h-full min-h-[400px]">
+          <div className="relative hidden md:block md:col-span-5 h-full min-h-100">
             <Image
               src="/img/contactimg.png"
               alt="contacto"

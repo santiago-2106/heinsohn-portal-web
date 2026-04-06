@@ -36,7 +36,7 @@ export default function CardBlog({ titlePrincipal,dataCards }: DataCardImgProps,
               
               {/* Imagen y Badge */}
               <div className="relative overflow-hidden">
-                <img src={item.img} alt={item.titleCard} className="object-cover brightness-90 grayscale-90 w-[288px] h-[155px] " />
+                <img src={item.img} alt={item.titleCard} className="object-cover brightness-90 grayscale-90 w-[288px] h-38.75 " />
                 {item.badge && (
                   <div className="absolute top-8 right-8 bg-black text-white text-[11px] uppercase tracking-wider px-2 py-2 font-medium">
                     {item.badge}

@@ -29,7 +29,7 @@ export default function CardAnuncies({
   const descClass = alignHeader === "left" ? "w-full" : "mx-auto max-w-3xl";
 
   return (
-    <section className="bg-bg-main py-12 md:py-16 transition-colors duration-300">
+    <section className="bg-bg-main py-6 md:py-16 transition-colors duration-300">
       <div className="mx-auto max-w-6xl px-6 md:px-12 xl:px-24">
         
         {/* ENCABEZADO DE LA SECCIÓN (Ahora es flexible) */}

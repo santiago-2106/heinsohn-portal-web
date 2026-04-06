@@ -4,8 +4,10 @@ import SearchSection from "@/src/components/sections/shared/buscador/SearchSecti
 import BannerFiguras from "@/src/components/sections/shared/figura/BannerFiguras";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import CardBlog from "@/src/components/sections/shared/sectioncard/CardBlog";
+import HeroSvg from "@/src/components/svgs/HeroSvg";
 import { richText } from "@/src/hooks/helper/richText";
 import { useTranslations } from "next-intl";
+import Carrusel from "../../../../components/carrusel/Carrusel";
 
 
 export default function page() {
@@ -21,7 +23,7 @@ export default function page() {
       />
 
       <SearchSection />
-      <BannerFiguras />
+      <HeroSvg />
 
       <CardBlog 
       titlePrincipal={t("cardBlogReciente.titlePrincipal")}

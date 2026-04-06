@@ -33,7 +33,7 @@ export default function BannerFiguras({ title, description }: BannerFigurasProps
             height={300}
             alt="Diseño de figuras decorativas"
             // Utilizamos object-cover y object-bottom para que se adapte bien como borde inferior
-            className="w-full h-48 md:h-[300px] object-cover object-bottom block"
+            className="w-full h-48 md:h-75 object-cover object-bottom block"
           />
         </div>
     </section>

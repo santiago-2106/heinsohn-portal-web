@@ -1,14 +1,14 @@
 import ContactForm from '@/src/components/forms/formularios/ContactForm'
 import CertificacionesInternacionales from '@/src/components/sections/shared/certificaciones/CertificacionesInternacionales'
 import Clientes from '@/src/components/sections/shared/clientes/Clientes'
-import BannerFiguras from '@/src/components/sections/shared/figura/BannerFiguras'
 import Hero from '@/src/components/sections/shared/hero/Hero'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
+import HeroSvg from '@/src/components/svgs/HeroSvg'
 import TextSections from '@/src/components/ui/typography/TextSections'
 import { richText } from '@/src/hooks/helper/richText'
 import { useTranslations } from 'next-intl'
 
-export default function page() {
+export default function pageHome() {
 
   const t = useTranslations("HomeHeinsohn")
   
@@ -20,7 +20,6 @@ export default function page() {
       description={t("dataHeroHome.description")}
       showImage={false}
       />
-      
       <CardAnuncies 
       title={t("cardsHeinsohnProfesional.title")}
       description={t("cardsHeinsohnProfesional.description")}
@@ -38,7 +37,7 @@ export default function page() {
       alignHeader='left'
       />
 
-      <BannerFiguras />
+      <HeroSvg />
 
       <CardAnuncies 
       title={t("casosExito.title")}
