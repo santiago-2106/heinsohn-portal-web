@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image"; 
+import HeroSvg from "@/src/components/svgs/HeroSvg";
 
 interface BreadcrumbItem {
   label?: string;
@@ -173,15 +174,7 @@ export default function Hero({
 
       {/* MAGIA: Si showImage es FALSE, este bloque simplemente no existe en el DOM */}
       {showImage && (
-        <div className="w-full relative h-48 md:h-[300px]">
-          <Image
-            src="/img/diseno-figuras.png"
-            alt="Diseño geométrico decorativo"
-            fill
-            priority 
-            className="object-cover object-bottom"
-          />
-        </div>
+        <HeroSvg />
       )}
     </section>
   );

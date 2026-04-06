@@ -77,12 +77,12 @@ const politicas = [
 
 export default function FooterBottom() {
   return (
-    <div className="border-t border-gray-200 ">
-      <div className="mx-auto max-w-6xl px-6">
+    <div className="border-t border-border-ui ">
+      <div className="mx-auto max-w-5xl px-6">
         <div className="py-8 ">
           <TextComponent title="Presencia Global"/>
 
-          <ul className="mb-8 grid grid-cols-2 gap-x-6 gap-y-3 sm:grid-cols-3 md:grid-cols-4">
+          <ul className="mb-8 grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 md:grid-cols-4">
             {paises.map((pais) => (
               <li key={pais.nombre} className="flex items-center gap-2">
                 <img
@@ -95,9 +95,9 @@ export default function FooterBottom() {
             ))}
           </ul>
 
-          <div className="grid grid-cols-1 gap-y-3 border-t border-gray-200 pt-6 text-text-body sm:grid-cols-3 sm:gap-x-8">
+          <div className="grid grid-cols-1 gap-y-3 border-t border-border-ui pt-8 pb-12 text-text-body sm:grid-cols-3 sm:gap-x-8">
             {politicas.map((column, index) => (
-              <div key={index} className="flex flex-col gap-1 sm:items-start">
+              <div key={index} className="flex flex-col gap-4 sm:items-start">
                 {column.map((item) => (
                   <Link key={item} href="/">
                     {item}
