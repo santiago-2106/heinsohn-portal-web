@@ -27,7 +27,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const landingSoftware= (await import(`../../messages/${locale}/landingSoftware.json`)).default;
   const landingHgs= (await import(`../../messages/${locale}/landingHgs.json`)).default;
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
-  const trabajaConNosotros = (await import(`../../messages/${locale}/trabajaConNosotros.json`)).default;
+  const pqrs = (await import(`../../messages/${locale}/pqrs.json`)).default;
+  const quinesSomos = (await import(`../../messages/${locale}/quienesSomos.json`)).default; 
+  const soporte = (await import(`../../messages/${locale}/soporte.json`)).default;
 
 
   //industrias
@@ -63,11 +65,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...solucionesIA,
       ...landingHgs,
       ...landingSoftware,
-<<<<<<< HEAD
-      ...footer,
-      ...navbar,
-      ...trabajaConNosotros
-=======
       
 
       //Traduccion industrias
@@ -79,8 +76,10 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...trabajaConNosotros,
       ...Home,
       ...entradaBlogs,
-      ...eBook
->>>>>>> origin/develop
+      ...eBook,
+      ...pqrs,
+      ...quinesSomos,
+      ...soporte
     }
     
   };

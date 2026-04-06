@@ -1,0 +1,32 @@
+{
+  "pqrs": {
+    "dataHero": {
+      "title": "PQRSF",
+      "subtitle": "At Heinsohn, we value your opinion",
+      "description": "We love knowing your perception of our services to continue improving every day.<br></br>If you want to send us a petition, complaint, claim, suggestion, or congratulation, we will show you how to do it:",
+      "breadcrumb": [
+        { "label": "PQRSF" }
+      ],
+      "badges": []
+    },
+    "instrucciones": {
+      "cards": [
+        {
+          "number": "01",
+          "title": "Send your request",
+          "description": "Send your message to the email <span class='text-red-500 font-medium'>pqrsf@heinsohn.com.co</span>. There you can share your comments, requests, or suggestions with us directly and easily."
+        },
+        {
+          "number": "02",
+          "title": "Attach necessary information",
+          "description": "Include the documents or data that support your request. By sending them, you will be authorizing our personal data protection policy, which guarantees the safe handling of your information."
+        },
+        {
+          "number": "03",
+          "title": "Indicate the type of request",
+          "description": "In the subject of the email, mention whether it is a petition, complaint, claim, suggestion, or congratulation. This will help us identify your request and provide you with a faster response."
+        }
+      ]
+    }
+  }
+}

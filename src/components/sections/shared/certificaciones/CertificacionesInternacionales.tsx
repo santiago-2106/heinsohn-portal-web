@@ -2,15 +2,10 @@ import Image from "next/image";
 import { ReactNode } from "react";
 
 interface propsCertificaciones {
-<<<<<<< HEAD
-  title: string|ReactNode;
-  descripcion?: string|ReactNode; 
-  imagen?: string|undefined;
-=======
+
   title: string | React.ReactNode; // Permite texto o elementos enriquecidos
   descripcion?: string | React.ReactNode; // Permite texto o elementos enriquecidos
   imagen?: string;
->>>>>>> origin/develop
 }
 
 export default function CertificacionesInternacionales({
