@@ -27,6 +27,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const landingSoftware= (await import(`../../messages/${locale}/landingSoftware.json`)).default;
   const landingHgs= (await import(`../../messages/${locale}/landingHgs.json`)).default;
   const footer = (await import(`../../messages/${locale}/footer.json`)).default;
+  const trabajaConNosotros = (await import(`../../messages/${locale}/trabajaConNosotros.json`)).default;
 
 
   return {
@@ -48,7 +49,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...landingHgs,
       ...landingSoftware,
       ...footer,
-      ...navbar
+      ...navbar,
+      ...trabajaConNosotros
     }
     // ...
   };

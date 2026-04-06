@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 
 interface propsCertificaciones {
-  title: string;
-  descripcion?: string;
-  imagen?: string;
+  title: string|ReactNode;
+  descripcion?: string|ReactNode; 
+  imagen?: string|undefined;
 }
 
 export default function CertificacionesInternacionales({
