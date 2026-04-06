@@ -1,0 +1,143 @@
+{
+    "sectorAutomotriz": {
+        "dataHeroSectorAutomotriz": {
+            "title": "Sector Automotriz",
+            "subtitle": "Impulsemos juntos la movilidad del futuro",
+            "breadcrumb": [{ "label": "Industrias" }, { "label": "Sector Automotriz" }]
+        },
+
+        "titlesSectorAutomotriz": {
+            "title1": {
+                "title":"Transformamos la industria automotriz con tecnología y experiencia",
+                "description":"En Heinsohn acompañamos a las empresas automotrices a enfrentar los retos de la digitalización y la movilidad inteligente. Diseñamos soluciones que mejoran la experiencia de los usuarios, optimizan operaciones, y habilitan nuevos modelos de negocio basados en datos y conectividad."
+            },
+            "title2": {
+                "title":"Blog destacado"
+            },
+            "title3": {
+                "title":"<red>¿</red>Por qué Heinsohn<red>?</red>",
+                "description":"Porque entendemos los desafíos del sector y los convertimos en oportunidades. Combinamos tecnología, analítica y experiencia en ingeniería para que las empresas automotrices impulsen nuevos modelos de negocio, optimicen operaciones y creen experiencias digitales que realmente conecten con los usuarios."
+            }
+            ,"title4": {
+                "title":"Innovando la movilidad con Heinsohn"
+            }
+            ,"title5": {
+                "title":"Casos de éxito en la industria automotriz",
+                "description":"Trabajar en proyectos automotrices me ha permitido ver cómo la tecnología puede transformar la movilidad y la seguridad de millones de personas. En Heinsohn, no solo desarrollamos software, diseñamos experiencias que marcan la diferencia en el camino."
+            },
+            "title6": {
+                "title":"Personas que hicieron posible este proyecto"
+            },
+            "titleContactForm": {
+                "title":"Contactanos"
+            }
+        },
+
+        "listaTecnologiaExperiencia": [
+            {
+            "question": "Diseño de la experiencia del cliente",
+            "answer": {
+                "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+                "listsItems": [
+                "Pagos y comercio en vehículos",
+                "Vehículo definido por software",
+                "Android Auto y sistemas embebidos",
+                "IA generativa para personalización",
+                "Vehículos e infraestructura conectados"
+                ]
+            }
+            },
+            {
+            "question": "Conectividad",
+            "answer": {
+                "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+                "listsItems": [
+                "Pagos y comercio en vehículos",
+                "Vehículo definido por software",
+                "Android Auto y sistemas embebidos",
+                "IA generativa para personalización",
+                "Vehículos e infraestructura conectados"
+                ]
+            }
+            },
+            {
+            "question": "Gestión de flotas inteligentes",
+            "answer": {
+                "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+                "listsItems": [
+                "Pagos y comercio en vehículos",
+                "Vehículo definido por software",
+                "Android Auto y sistemas embebidos",
+                "IA generativa para personalización",
+                "Vehículos e infraestructura conectados"
+                ]
+            }
+            },
+            {
+            "question": "Ecosistemas digitales y movilidad compartida",
+            "answer": {
+                "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+                "listsItems": [
+                "Pagos y comercio en vehículos",
+                "Vehículo definido por software",
+                "Android Auto y sistemas embebidos",
+                "IA generativa para personalización",
+                "Vehículos e infraestructura conectados"
+                ]
+            }
+            },
+            {
+            "question": "Ciberseguridad y cumplimiento",
+            "answer": {
+                "descriptions": "Te ayudamos a crear experiencias de usuario fluidas, seguras y personalizadas que conectan a los conductores con su vehículo y, al mismo tiempo, desbloquean nuevas oportunidades de negocio.",
+                "listsItems": [
+                "Pagos y comercio en vehículos",
+                "Vehículo definido por software",
+                "Android Auto y sistemas embebidos",
+                "IA generativa para personalización",
+                "Vehículos e infraestructura conectados"
+                ]
+            }
+            }
+        ],
+
+    "sliderSectorAutomotriz":{
+      "title":"Blog destacado",
+        "items":[{
+        "id":1,
+        "img": "/img/slider-sectorAutomotriz.jpg",
+        "title": "La transformación digital acelera el futuro de la movilidad",
+        "description": "La industria automotriz está cambiando a gran velocidad: desde los vehículos definidos por software hasta la conectividad total y la movilidad compartida. ",
+        "btn": "Leer más"
+        },
+        {
+        "id":2,
+        "img": "/img/imgWorkKnow.jpg",
+        "title": "Transformación de una plataforma de servicios de salud",
+        "description": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
+        "btn": "Descubre cómo lo hicimos"
+    }]},
+
+    "videoSection": {
+        "textVideos": "Conoce cómo ayudamos a una compañía automotriz a transformar su experiencia digital y conectar a miles de usuarios con sus vehículos en tiempo real.",
+        "textButtonVideo": "Ver casos de éxito"
+    },
+
+    "cardProyectoPosible": [
+        {
+            "imgPersonas":"/img/img-persona1.jpg",
+            "namePersonas":"Laura Gutiérrez",
+            "cargoPersonas":"Lider de UX"
+        },
+        {
+            "imgPersonas":"/img/img-persona2.jpg",
+            "namePersonas":"Mariana Torres",
+            "cargoPersonas":"Arquitecto de software"
+        },
+        {
+            "imgPersonas":"/img/img-persona3.jpg",
+            "namePersonas":"Carlos Ramírez",
+            "cargoPersonas":"Gerente de Proyecto Automotriz"
+        }
+    ]
+}}

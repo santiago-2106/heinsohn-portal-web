@@ -6,6 +6,7 @@ import { FaqItem } from "@/src/types/typePensiones";
 
 interface PreguntasFortProps {
   title: string;
+  description?:string;
   items: FaqItem[];
 }
 
@@ -60,13 +61,15 @@ const AccordionItem = ({ question, answer }: FaqItem) => {
   );
 };
 
-export default function PreguntForm({ title, items }: PreguntasFortProps) {
+export default function PreguntForm({ title, items, description }: PreguntasFortProps) {
   return (
     <section className="bg-bg-main py-16 sm:py-24 transition-colors duration-300">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-center text-text-title mb-16 leading-tight">
           {title}
         </h2>
+
+        <p className="text-text-body text-lg mb-8 mx-auto text-center pb-12">{description}</p>
 
         <div className="border-t border-border-ui">
           {items.map((item, index) => (

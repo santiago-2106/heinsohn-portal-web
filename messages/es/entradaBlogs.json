@@ -1,0 +1,140 @@
+{
+    "EntradaBlogs" : {
+        "dataHeroEntradaBlogs":{
+            "title":"Heinsohn Blog",
+            "subtitle":"Explora ideas, tendencias y consejos en <br></br>nuestros blogs. Conecta con el conocimiento<br></br> que impulsa tu crecimiento."
+        },
+        "Search": {
+            "placeholder": "Buscar contenidos",
+            "button": "Buscar"
+        },
+        "Filters": {
+            "analytics": "Analítica de Datos e Inteligencia de Negocio",
+            "software": "Desarrollo de Software y Cloud",
+            "finance": "Finanzas, Pensiones e Inversiones",
+            "ai": "Inteligencia artificial y automatización",
+            "nearshore": "Nearshore, Escalamiento y Servicios TI",
+            "hr": "Recursos Humanos, Nómina y SST"
+        
+        },
+
+        "cardBlogReciente": {
+            "titlePrincipal":"Nómina y Gestión Humana",
+            "cards":[
+                {
+                "img": "/img/img-blog1.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+                },
+            {
+                "img": "/img/img-blog2.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            },
+            {
+                "img": "/img/img-blog3.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            }
+        ]
+        },
+
+        "cardBlogReciente2": {
+            "titlePrincipal2":"Consultoría y desarrollo",
+            "cards":[
+                {
+                "img": "/img/img-blog4.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+                },
+            {
+                "img": "/img/img-blog5.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            },
+            {
+                "img": "/img/img-blog6.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            }
+        ]
+        },
+        "cardBlogReciente3": {
+            "titlePrincipal3":"Financiero y pensiones",
+            "cards":[
+                {
+                "img": "/img/img-blog7.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+                },
+            {
+                "img": "/img/img-blog8.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            },
+            {
+                "img": "/img/img-blog9.jpg",
+                "titleCard": "GROW WITH SAP y SAP Business One",
+                "subtitle1": "Junio 17, 2025",
+                "description": "One ante la Reforma Pensional suspendida: Soluciones para CFOs con Heinsohn.",
+                "badge": "Sector logístico",
+                "btnText": "Leer más"
+            }
+        ]
+        },
+        "cardBlogReciente4": {
+            "titlePrincipal4":"Gestión empresarial",
+            "cards":[
+                {
+                "img": "/img/img-blog10.jpg",
+                "titleCard": "Innovaciones tecnológicas con SAP S/4HANA",
+                "subtitle1": "Agosto 10, 2025",
+                "description": "Adaptación a la nueva era digital: Estrategias efectivas para empresas en evolución.",
+                "badge": "Sector logístico",
+                "btnText": "Descubre más"
+                },
+            {
+                "img": "/img/img-blog11.jpg",
+                "titleCard": "Innovaciones tecnológicas con SAP S/4HANA",
+                "subtitle1": "Agosto 10, 2025",
+                "description": "Adaptación a la nueva era digital: Estrategias efectivas para empresas en evolución.",
+                "badge": "Sector logístico",
+                "btnText": "Descubre más"
+            },
+            {
+                "img": "/img/img-blog12.jpg",
+                "titleCard": "Innovaciones tecnológicas con SAP S/4HANA",
+                "subtitle1": "Agosto 10, 2025",
+                "description": "Adaptación a la nueva era digital: Estrategias efectivas para empresas en evolución.",
+                "badge": "Sector logístico",
+                "btnText": "Descubre más"
+            }
+        ]
+        }
+           
+    }
+}

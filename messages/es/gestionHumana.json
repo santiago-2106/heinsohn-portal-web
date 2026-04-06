@@ -15,24 +15,21 @@
         "contenedor": "+500 Colaboradores",
         "title": "Grandes empresas",
         "description": "Nomina para grandes empresas",
-        "btnText": "Ampliar Informacion",
-        "btn": "Ampliar Informacion"
+        "btnText": "Ampliar Informacion"
       },
       {
         "icon":"warehouse",
         "contenedor": " 1 a 450 colaboradores",
         "title": "Pymes",
         "description": "Nomina para pequeña y mediana empresa",
-        "btnText": "Ampliar Informacion",
-        "btn": "Ampliar Informacion"
+        "btnText": "Ampliar Informacion"
       },
       {
         "icon":"things_to_do",
         "contenedor": "+100 colaboradores",
         "title": "Gobierno",
         "description": "Soluciones para la administracion publica",
-        "btnText": "Ampliar Informacion",
-        "btn": "Ampliar Informacion"
+        "btnText": "Ampliar Informacion"
       }
     ],
 

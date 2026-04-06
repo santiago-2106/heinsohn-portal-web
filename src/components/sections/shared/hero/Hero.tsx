@@ -15,7 +15,7 @@ export interface BadgeItem {
 
 interface HeroProps {
   title: string | React.ReactNode;
-  description: string | React.ReactNode;
+  description?: string | React.ReactNode;
   subtitle?: React.ReactNode;
   buttonText?: string;
   breadcrumb?: BreadcrumbItem[]; // Hacemos opcional la prop entera por seguridad

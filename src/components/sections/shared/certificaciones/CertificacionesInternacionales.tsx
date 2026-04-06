@@ -2,9 +2,15 @@ import Image from "next/image";
 import { ReactNode } from "react";
 
 interface propsCertificaciones {
+<<<<<<< HEAD
   title: string|ReactNode;
   descripcion?: string|ReactNode; 
   imagen?: string|undefined;
+=======
+  title: string | React.ReactNode; // Permite texto o elementos enriquecidos
+  descripcion?: string | React.ReactNode; // Permite texto o elementos enriquecidos
+  imagen?: string;
+>>>>>>> origin/develop
 }
 
 export default function CertificacionesInternacionales({
@@ -18,16 +24,16 @@ export default function CertificacionesInternacionales({
   const defaultImage = "/img/certificado-internacional.png"; 
 
   return (
-    <section className="bg-white pt-16 pb-8">
+    <section className="bg-bg-main pt-16 pb-8">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
         {/* Título Dinámico */}
-        <h2 className="text-3xl sm:text-4xl font-light text-gray-900 mb-6">
+        <h2 className="text-3xl sm:text-4xl font-light text-text-title mb-6">
           {title}
         </h2>
 
         {/* Descripción Dinámica (Opcional) */}
         {descripcion && (
-          <p className="mx-auto max-w-3xl text-lg text-gray-600 leading-relaxed mb-10">
+          <p className="mx-auto max-w-3xl text-lg text-text-body leading-relaxed mb-10">
             {descripcion}
           </p>
         )}

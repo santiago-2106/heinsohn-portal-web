@@ -1,0 +1,52 @@
+{
+    "industrias": {
+        "dataHeroIndustrias": {
+            "title": "Industries",
+            "subtitle": "Innovation that drives every <br></br>industry",
+            "breadcrumb": [{ "label": "Industries" }]
+        },
+
+        "titlesIndustrias": {
+            "title1": {
+                "title": "Sectors we transform with technology",
+                "description": "At Heinsohn, we understand that each sector faces unique challenges. That's why we develop solutions designed to meet the specific needs of each industry, optimizing processes, improving efficiency, and generating sustainable competitive advantages."
+            },
+            "title2":{
+                "title":"Contact Us"
+            }
+        },
+
+        "cardSectorQueTransforma": [
+            {
+            "icon": "cooking",
+            "title": "Food and Beverage Sector",
+            "description": "We digitalize the production and distribution chain, ensuring quality, traceability, and regulatory compliance.",
+            "btn": "Explore solutions"
+            },
+            {
+            "icon": "shopping_cart",
+            "title": "Agro-industrial Sector",
+            "description": "We provide innovation for crop management, processes, and logistics, boosting field productivity.",
+            "btn": "See more"
+            },
+            {
+            "icon": "pill",
+            "title": "Pharmaceutical Sector",
+            "description": "We strengthen quality management, traceability, and regulations, ensuring trust in every process.",
+            "btn": "Learn about solutions"
+            },
+            {
+            "icon": "package_2",
+            "title": "Logistics Sector",
+            "description": "We optimize operations, traceability, and delivery times with smart digital tools.",
+            "btn": "Discover more"
+            },
+            {
+            "icon": "directions_car",
+            "title": "Automotive Sector",
+            "description": "We drive innovation in manufacturing, supply chain, and customer experience.",
+            "btn": "Explore now"
+            }
+        ]
+        }
+}
