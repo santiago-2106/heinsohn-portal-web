@@ -31,11 +31,9 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
 
   return (
     <section className="py-12 md:py-16 transition-colors duration-300">
-      <div className="mx-auto max-w-7xl px-6">
-
-        {/* Título dinámico */}
+      {/* Título dinámico */}
         <TextComponent title={title} />
-        
+      <div className="w-full max-w-305 mr-auto px-4 sm:px-2 md:px-4">
         <Swiper
           modules={[Navigation, Pagination]}
           loop
