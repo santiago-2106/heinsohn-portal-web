@@ -7,10 +7,8 @@ type ExtendedProps = Omit<cardPropsInformation, "title" | "description"> & {
   title: string | React.ReactNode;
   description?: string | React.ReactNode;
   topBadge?: ReactNode;
-
-  // Añadimos esta propiedad opcional para controlar la alineación a futuro
   alignHeader?: "left" | "center"; 
-
+  badgeVariant?: "dark" | "outline"; 
 };
 
 export default function CardAnuncies({
@@ -21,31 +19,37 @@ export default function CardAnuncies({
   bottomText,
   bottomBtn,
   topBadge,
-  alignHeader = "center", // Si no se le pasa nada, por defecto centra (no rompe otras vistas)
+  alignHeader = "center",
+  badgeVariant = "dark", 
 }: ExtendedProps) {
   
-  // Condicionamos las clases dependiendo de lo que se elija
   const alignClass = alignHeader === "left" ? "text-left items-start" : "text-center items-center";
-  const descClass = alignHeader === "left" ? "w-full" : "mx-auto max-w-3xl";
+  const descClass = alignHeader === "left" ? "w-full" : "mx-auto max-w-4xl";
 
   return (
-    <section className="bg-bg-main py-6 md:py-16 transition-colors duration-300">
+    <section className="bg-bg-main py-12 md:py-20 transition-colors duration-300">
       <div className="mx-auto max-w-6xl px-6 md:px-12 xl:px-24">
         
-        {/* ENCABEZADO DE LA SECCIÓN (Ahora es flexible) */}
-        <div className={`mb-12 flex flex-col ${alignClass}`}>
+        {/* ENCABEZADO */}
+        <div className={`mb-16 flex flex-col ${alignClass}`}>
           {topBadge && (
-            <span className="block w-max bg-text-title text-bg-main text-[11px] font-bold px-4 py-1.5 tracking-wide mb-6">
+            <span 
+              className={`block w-max px-4 py-1.5 tracking-wide mb-6 ${
+                badgeVariant === "outline" 
+                  ? "border border-border-ui text-text-title text-xs font-medium" 
+                  : "bg-text-title text-bg-main text-[11px] font-bold" 
+              }`}
+            >
               {topBadge}
             </span>
           )}
 
-          <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6 w-full">
+          <h2 className="text-3xl md:text-5xl text-text-title font-light mb-8 w-full">
             {title}
           </h2>
 
           {description && (
-            <div className={`text-base text-text-body leading-relaxed ${descClass}`}>
+            <div className={`text-base md:text-lg text-text-body font-light leading-relaxed ${descClass}`}>
               {description}
             </div>
           )}
@@ -57,9 +61,13 @@ export default function CardAnuncies({
             return (
               <div key={index} className={`relative h-full ${card.colSpan || ""}`}>
                 
-                <Card {...card} />
+                {/* TRUCO: Si trae customContent pinta el diseño a medida, si no, usa la Card normal */}
+                {card.customContent ? (
+                  card.customContent
+                ) : (
+                  <Card {...card} />
+                )}
 
-                {/* Badge opcional superior derecho */}
                 {card.badgeRight && (
                   <div className="absolute top-6 right-6 border border-border-ui px-3 py-1 text-[11px] text-text-body font-medium bg-bg-card-2">
                     {card.badgeRight}

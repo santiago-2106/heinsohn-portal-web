@@ -1,0 +1,31 @@
+{
+  "pqrs": {
+    "dataHero": {
+      "title": "PQRSF",
+      "subtitle": "En Heinsohn valoramos tu opinión",
+      "description": "Nos encanta conocer tu percepción sobre nuestros servicios para seguir mejorando cada día.<br></br>Si quieres enviarnos una petición, queja, reclamo, sugerencia o felicitación, te enseñaremos cómo hacerlo:",
+      "breadcrumb": [        { "label": "PQRSF" }
+      ],
+      "badges": []
+    },
+    "instrucciones": {
+      "cards": [
+        {
+          "number": "01",
+          "title": "Envía tu solicitud",
+          "description": "Envía tu mensaje al correo <span class='text-red-500 font-medium'>pqrsf@heinsohn.com.co</span>. Allí podrás compartir con nosotros tus comentarios, solicitudes o sugerencias de manera directa y sencilla."
+        },
+        {
+          "number": "02",
+          "title": "Adjunta información necesaria",
+          "description": "Incluye los documentos o datos que respalden tu solicitud. Al enviarlos, estarás autorizando nuestra política de protección de datos personales, la cual garantiza el manejo seguro de tu información."
+        },
+        {
+          "number": "03",
+          "title": "Indica el tipo de solicitud",
+          "description": "En el asunto del correo, menciona si se trata de una petición, queja, reclamo, sugerencia o felicitación. Esto nos ayudará a identificar tu solicitud y brindarte una respuesta más ágil."
+        }
+      ]
+    }
+  }
+}

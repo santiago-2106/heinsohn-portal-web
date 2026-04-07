@@ -1,0 +1,103 @@
+{
+  "casoExito": {
+    "breadcrumb": [
+      { "label": "Home", "url": "/" },
+      { "label": "Casos de éxito", "url": "/casos-de-exito" }
+    ],
+    "title": "Optimización digital para la movilidad del futuro",
+    "industry": "Industria automotriz",
+    "secciones": [
+      {
+        "icon": "target",
+        "title": "Nuestra misión",
+        "description": "Nuestro cliente enfrentaba la necesidad de modernizar su ecosistema digital para ofrecer una experiencia conectada a sus usuarios y optimizar el rendimiento de su flota. El desafío estaba en integrar soluciones escalables y seguras que se adaptaran al crecimiento de la industria y a las demandas de los consumidores."
+      },
+      {
+        "icon": "editor_choice",
+        "title": "Resultado",
+        "description": "Logramos implementar una plataforma tecnológica que redujo costos operativos, mejoró la experiencia del cliente y abrió la puerta a nuevos modelos de negocio digitales. Gracias a la solución, la compañía pudo ofrecer servicios conectados en tiempo real, con un impacto positivo en la satisfacción y fidelización de sus clientes."
+      }
+    ],
+    "videoIntro": {
+      "title": "Conoce la historia completa en nuestro \n video destacado"
+    },
+    "videoSection": {
+      "textVideos": "Conoce cómo ayudamos a una compañía automotriz a transformar su experiencia digital y conectar a miles de usuarios con sus vehículos en tiempo real.",
+      "textButtonVideo": "Ver casos de éxito"
+    },
+    "testimonio": {
+      "title": "Casos de éxito en la industria \n automotriz",
+      "description": "El trabajo con Heinsohn nos permitió dar un salto en nuestra estrategia digital. Hoy contamos \n con soluciones innovadoras que nos acercan más a nuestros clientes y nos posicionan a la \n vanguardia de la movilidad conectada.",
+      "author": "Arnold Villareal",
+      "role": "Gerente de Innovación"
+    },
+    "comoAportamosValor": {
+      "badge": "Industria automotriz",
+      "title": "Cómo aportamos valor",
+      "description": "Multinacional líder en el sector automotriz con presencia en varios países de Latinoamérica, dedicada a la fabricación y comercialización de vehículos, con una estrategia enfocada en innovación y transformación digital.",
+      "cards": [
+        {
+          "icon": "route",
+          "description": "Implementación de telemetría para la gestión de flotas."
+        },
+        {
+          "icon": "tablet_mac",
+          "description": "Desarrollo de app móvil conectada al vehículo."
+        },
+        {
+          "icon": "cloud",
+          "description": "Integración de servicios cloud para escalabilidad."
+        },
+        {
+          "icon": "bubble_chart",
+          "description": "Análisis predictivo por mantenimiento de la flota comercial."
+        },
+        {
+          "icon": "display_settings",
+          "description": "Diseño de interfaces UX centradas en el conductor."
+        },
+        {
+          "icon": "car_repair",
+          "description": "Automatización de procesos en la cadena de valor automotriz"
+        }
+      ]
+    },
+    "solucionesRelacionadas": {
+      "title": "Soluciones relacionadas",
+      "description": "En Heinsohn entendemos que cada sector enfrenta desafíos únicos. Por eso, desarrollamos soluciones diseñadas para responder a las necesidades específicas de cada industria, optimizando procesos, mejorando la eficiencia y generando ventajas competitivas sostenibles.",
+      "cards": [
+        {
+          "icon": "insert_chart",
+          "title": "Soluciones SAP",
+          "description": "Implementamos y gestionamos SAP para impulsar la eficiencia, la integración de procesos y la toma de decisiones estratégicas.",
+          "linkText": "Explorar SAP",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "account_circle",
+          "title": "HGS - Gestión humana",
+          "description": "Optimizamos la administración del talento humano con nuestra plataforma HGS, garantizando procesos ágiles, precisos y centrados en las personas.",
+          "linkText": "Conocer HGS",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "sync_saved_locally",
+          "title": "Soluciones a medida",
+          "description": "Creamos experiencias únicas desarrollando software a la medida que impulse la transformación digital de tu negocio.",
+          "linkText": "Ver más",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "exploraIndustria": {
+      "icon": "directions_car",
+      "title": "Explora más sobre la industria automotriz",
+      "descriptions": [
+        "Descubre cómo estamos transformando la movilidad con tecnología de vanguardia y soluciones adaptadas a los retos del sector."
+      ],
+      "btnText": "Explorar Industria Automotriz",
+      "btnLink": "#"
+    },
+    "contactoTitle": "Contáctanos"
+  }
+}

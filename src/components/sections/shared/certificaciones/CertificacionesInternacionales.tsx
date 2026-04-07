@@ -1,8 +1,9 @@
 import Image from "next/image";
+import { ReactNode } from "react";
 
 interface propsCertificaciones {
-  title: string | React.ReactNode;
-  descripcion?: string | React.ReactNode;
+  title: string | React.ReactNode; // Permite texto o elementos enriquecidos
+  descripcion?: string | React.ReactNode; // Permite texto o elementos enriquecidos
   imagen?: string;
 }
 

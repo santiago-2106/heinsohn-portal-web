@@ -1,0 +1,45 @@
+{
+  "soporte": {
+    "dataHero": {
+      "title": "Heinsohn Support",
+      "description": "Find in one place the platforms that will help you manage your processes, report incidents, and access the support services we have available for you.",
+      "breadcrumb": [
+        { "label": "Home" },
+        { "label": "Support" }
+      ],
+      "badges": []
+    },
+    "plataformas": {
+      "items": [
+        {
+          "icon": "cloud_sync",
+          "title": "PSE",
+          "description": "Access the Business Services Portal to manage requests.",
+          "linkText": "Go to PSE portal",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "cloud_sync",
+          "title": "Service Desk",
+          "description": "Access the help desk to register requests, incidents, or technical requirements.",
+          "linkText": "Access Service Desk",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "cloud_sync",
+          "title": "Mantis",
+          "description": "Consult, manage, and track tickets or reports associated with your projects.",
+          "linkText": "Enter Mantis",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "cloud_sync",
+          "title": "Mantis Delivery",
+          "description": "Monitor the status and progress of active deliveries or developments in real time.",
+          "linkText": "View deliveries in Mantis",
+          "linkUrl": "#"
+        }
+      ]
+    }
+  }
+}

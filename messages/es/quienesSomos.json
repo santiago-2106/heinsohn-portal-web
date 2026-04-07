@@ -1,0 +1,14 @@
+{
+  "quienesSomos": {
+    "dataHero": {
+      "title": "Somos Heinsohn",
+      "subtitle": "Una empresa colombiana con más de 40 años de experiencia ofreciendo soluciones empresariales por medio de la tecnología.",
+      "description": "Nuestra experiencia en diferentes sectores y la calidad de nuestro trabajo nos convierten en el mejor aliado para apoyar tu negocio.",
+      "breadcrumb": [
+        { "label": "Home" },
+        { "label": "¿Quiénes somos?" }
+      ],
+      "badges": []
+    }
+  }
+}
