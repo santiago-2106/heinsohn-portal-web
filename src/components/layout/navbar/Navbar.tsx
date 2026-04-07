@@ -1,6 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
-import MenuIcon from "@mui/icons-material/Menu";
+import { useState } from "react";
 import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Link from "next/link";
@@ -8,10 +7,10 @@ import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useTheme } from "@/src/hooks/useTheme";
+import Sidebar from "../sidebar/Sidebar";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
-  
   const {isDark, toggleTheme} = useTheme()
 
 //INTERNACIALIZACION IDIOMAS
@@ -42,10 +41,10 @@ export default function Navbar() {
           <li className="flex items-center gap-4">
             <button 
               onClick={() => setOpenMenu(!openMenu)}
-              className="text-text-title flex items-center justify-center"
+              className="text-text-title flex items-center justify-center hover:cursor-pointer"
               aria-label={t("openMenu")}
             >
-              <span className="material-symbols-rounded" style={{fontSize: "38px" }}>
+              <span className="material-symbols-rounded" style={{fontSize: "40px" }}>
                 notes
               </span>
             </button>
@@ -70,7 +69,7 @@ export default function Navbar() {
             {/* Botón Contacto (Mantenemos tu diseño, pero con colores dinámicos) */}
             <Link 
               href="/" 
-              className="rounded-full bg-text-title text-bg-main px-4 py-2 sm:px-5 sm:text-sm font-medium hover:opacity-80 transition-opacity"
+              className="flex items-center justify-center rounded-full w-30 h-12.5 bg-text-title text-bg-main px-2 py-2 sm:px-5 sm:text-sm font-medium hover:opacity-80 transition-opacity"
             >
               {t("contact")}
             </Link>
@@ -85,7 +84,7 @@ export default function Navbar() {
             />
 
             {/* Selector de idioma */}
-            <select className="bg-transparent text-text-title rounded-lg text-sm font-medium outline-none cursor-pointer"
+            <select className="bg-bg-card-1 rounded-full text-text-body font-medium outline-none cursor-pointer"
             onChange={e => changeLanguaje(e.target.value)}
             value={currentLocale}
             >
@@ -106,48 +105,20 @@ export default function Navbar() {
         </ul>
 
         {/* MENÚ MÓVIL DESPLEGABLE */}
-        <div
-          className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out
-            ${openMenu ? "max-h-96 opacity-100 pb-4" : "max-h-0 opacity-0"}`}
-        >
-          <ul className="flex flex-col gap-4 text-sm mt-2 border-t border-border-ui pt-4">
-            <li>
-              <Link 
-                href="/" 
-                className="inline-block rounded-full bg-text-title text-bg-main px-6 py-2 font-medium"
-              >
-                {t("contact")}
-              </Link>
-            </li>
-
-            <li className="flex items-center gap-3">
-              <Image
-                src="/bandera-colombia.svg"
-                alt="img colombia"
-                width={40}
-                height={40}
-                className="inline-block  rounded-sm object-cover border border-border-ui shadow-sm"
-              />
-              <label>COL</label>
-              <select className="bg-transparent text-text-title font-medium outline-none">
-                <option className="text-text-body">ES</option>
-                <option className="text-text-body">EN</option>
-              </select>
-            </li>
-
-            <li>
-              <button 
-                onClick={toggleTheme}
-                className="flex items-center gap-2 text-text-title font-medium"
-                aria-label={isDark ? t("themeLight") : t("themeDark")}
-              >
-                {isDark ? <LightModeIcon /> : <ModeNightIcon />}
-                {isDark ? t("themeLight") : t("themeDark")}
-              </button>
-            </li>
-          </ul>
-        </div>
+       
       </nav>
+      <Sidebar titleSidebar="Consulta"
+      listSidebar={[
+      { sidebarHref: "#", sidebarList: "Que hacemos" },
+      { sidebarHref: "#", sidebarList: "Lo que pensamos" },
+      { sidebarHref: "#", sidebarList: "Quienes somos" },
+      { sidebarHref: "#", sidebarList: "Trabaja con nosotros" },
+      { sidebarHref: "#", sidebarList: "Zona Clientes" },
+      { sidebarHref: "#", sidebarList: "Contacto" },
+      ]}
+      isOpenSidebar={openMenu}
+      onClose={() => setOpenMenu(false)}
+      />
     </header>
   );
 }

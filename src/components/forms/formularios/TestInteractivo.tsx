@@ -61,10 +61,10 @@ export default function TestInteractivo({
 
           <div className="grid grid-cols-1 md:grid-cols-12 w-full">
             <div className="md:col-span-8 flex flex-col justify-center bg-bg-main py-16 px-8 md:py-20 md:pl-24 md:pr-12 lg:py-10 lg:pl-50 lg:pr-16">
-              <div className="w-full max-w-[560px]">
+              <div className="w-full max-w-140">
                 
                 {/* Barra de progreso dinámica */}
-                <div className="mb-10 w-full max-w-[280px]">
+                <div className="mb-10 w-full max-w-70">
                   <span className="text-[13px] md:text-[14px] font-medium text-text-title mb-2.5 block">
                     {progressText}
                   </span>
@@ -77,7 +77,7 @@ export default function TestInteractivo({
                 </div>
 
                 {/* Textos Principales */}
-                <h2 className="text-3xl md:text-[38px] lg:text-[44px] font-light text-text-title mb-5 leading-[1.15] max-w-[480px]">
+                <h2 className="text-3xl md:text-[38px] lg:text-[44px] font-light text-text-title mb-5 leading-[1.15] max-w-120">
                   {title}
                 </h2>
                 <p className="text-text-body text-[14px] md:text-[15px] mb-12">

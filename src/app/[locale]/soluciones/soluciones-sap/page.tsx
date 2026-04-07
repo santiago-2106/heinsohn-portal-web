@@ -15,6 +15,7 @@ import SectionCenteredText from "@/src/components/sections/shared/centertext/Sec
 import createNumberIcon, { dataSAP, dataPorQueSAP, dataFormularioTest } from "@/src/data/soluciones/sap";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
+import HeroSvg from "@/src/components/svgs/HeroSvg";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -87,7 +88,7 @@ export default function SolucionesSAP() {
       />
 
       {/* BANNER FIGURAS GEOMÉTRICAS */}
-      <BannerFiguras />
+      <HeroSvg />
 
       {/* SECCIÓN: DESPUÉS DEL TEST */}
       <CardAnuncies

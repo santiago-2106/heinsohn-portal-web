@@ -28,8 +28,8 @@ export default async function Footer() {
 
 
   return (
-    <footer className="border-t border-border-ui bg-bg-main">
-      <div className="mx-auto max-w-6xl px-6">
+    <footer className="border-t border-border-ui bg-bg-main pt-20 pb-10">
+      <div className="mx-auto max-w-5xl px-6">
         <div className="grid grid-cols-1 gap-10 py-12 md:grid-cols-[1fr_1.8fr_0.8fr]">
           <div>
             <div className="flex items-center gap-2 mb-4">
@@ -43,11 +43,11 @@ export default async function Footer() {
               <h3 className="text-sm font-bold text-text-body tracking-wider">HEINSOHN</h3>
             </div>
 
-            <p className="text-sm text-text-body leading-7.5">
+            <p className="text-sm text-text-body leading-7.5 w-50 h-39 gap-10">
               {t("description")}
             </p>
 
-            <div className="mt-4 flex gap-2">
+            <div className="p-0 flex gap-2">
               <IconButton sx={{ color: "text.primary" }}>
                 <LinkedIn />
               </IconButton>
@@ -66,8 +66,8 @@ export default async function Footer() {
           </div>
 
           <nav>
-            <h4 className="text-text-body mb-4">{t("solutionsTitle")}</h4>
-            <div className="grid grid-cols-2 gap-y-3 gap-x-12">
+            <h3 className="text-text-body mb-4">{t("solutionsTitle")}</h3>
+            <div className="grid grid-cols-2 gap-y-3 gap-x-8">
               {soluciones.map((column: string[], index: number) => (
                 <ul
                   key={index}

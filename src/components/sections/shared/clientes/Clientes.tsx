@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Carrusel from "@/src/components/carrusel/Carrusel";
 
 // ELIMINADO: import imgClientes from "@/src/img/clientes.png"; 
 
@@ -19,20 +20,14 @@ export default function Clientes({ title, description }: ClientesProps) {
 
         {/* Descripción Dinámica (Opcional) */}
         {description && (
-          <p className="mx-auto max-w-3xl text-lg text-text-body leading-relaxed mb-10">
+          <p className="mx-auto max-w-3xl text-lg text-text-body leading-relaxed ">
             {description}
           </p>
         )}
 
         {/* Imagen de Logos (Fija) */}
-        <div className="flex justify-center w-full">
-          <Image
-            src="/img/clientes.png" /* <-- RUTA CORREGIDA A PUBLIC */
-            width={1200} /* Al usar un string, Next.js requiere dimensiones o 'fill' */
-            height={400}
-            alt="Empresas que confían en nosotros"
-            className="w-full max-w-6xl h-auto object-contain opacity-90 hover:opacity-100 transition-opacity duration-300"
-          />
+         <div className="">
+          <Carrusel />
         </div>
       </div>
     </section>

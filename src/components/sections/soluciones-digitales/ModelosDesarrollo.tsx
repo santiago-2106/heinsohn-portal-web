@@ -24,11 +24,13 @@ export default function ModelosDesarrollo() {
           cards={t.raw("cardModeloDesarrollo1")}
           cols={3}
         />
+       <div className=" md:-mt-36">
         <CardAnuncies
           title=""
           cards={t.raw("cardModeloDesarrollo2")}
           cols={2}
         />
+      </div>
         <ButtonComponent textoBtn={t("textBtn.textoBtn3")} />
 
         {/*TITULO, DESCRIPCION, BUTTION DE: CARDS RESULTADOS MEDIBLES */}

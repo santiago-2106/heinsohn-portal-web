@@ -3,6 +3,7 @@ import CardLayout from '@/src/components/layout/grids/CardLayout'
 import BannerFiguras from '@/src/components/sections/shared/figura/BannerFiguras'
 import Hero from '@/src/components/sections/shared/hero/Hero'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
+import HeroSvg from '@/src/components/svgs/HeroSvg'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 
@@ -30,7 +31,7 @@ export default function page() {
       cols={3}
       />
 
-      <BannerFiguras />
+      <HeroSvg />
     </div>
   )
 }
