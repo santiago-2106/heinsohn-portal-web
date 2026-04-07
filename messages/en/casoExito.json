@@ -1,0 +1,103 @@
+{
+  "casoExito": {
+    "breadcrumb": [
+      { "label": "Home", "url": "/" },
+      { "label": "Success Stories", "url": "/casos-de-exito" }
+    ],
+    "title": "Digital optimization for the mobility of the future",
+    "industry": "Automotive industry",
+    "secciones": [
+      {
+        "icon": "target",
+        "title": "Our mission",
+        "description": "Our client faced the need to modernize their digital ecosystem to offer a connected experience to their users and optimize their fleet's performance. The challenge was to integrate scalable and secure solutions that adapted to industry growth and consumer demands."
+      },
+      {
+        "icon": "editor_choice",
+        "title": "Result",
+        "description": "We successfully implemented a technological platform that reduced operational costs, improved the customer experience, and opened the door to new digital business models. Thanks to the solution, the company was able to offer real-time connected services, positively impacting customer satisfaction and loyalty."
+      }
+    ],
+    "videoIntro": {
+      "title": "Learn the full story in our \n featured video"
+    },
+    "videoSection": {
+      "textVideos": "Discover how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+      "textButtonVideo": "View success stories"
+    },
+    "testimonio": {
+      "title": "Success stories in the \n automotive industry",
+      "description": "Working with Heinsohn allowed us to take a leap in our digital strategy. Today we have \n innovative solutions that bring us closer to our clients and position us at the \n forefront of connected mobility.",
+      "author": "Arnold Villareal",
+      "role": "Innovation Manager"
+    },
+    "comoAportamosValor": {
+      "badge": "Automotive industry",
+      "title": "How we add value",
+      "description": "A leading multinational in the automotive sector with a presence in several Latin American countries, dedicated to the manufacture and sale of vehicles, with a strategy focused on innovation and digital transformation.",
+      "cards": [
+        {
+          "icon": "route",
+          "description": "Implementation of telemetry for fleet management."
+        },
+        {
+          "icon": "tablet_mac",
+          "description": "Development of a mobile app connected to the vehicle."
+        },
+        {
+          "icon": "cloud",
+          "description": "Integration of cloud services for scalability."
+        },
+        {
+          "icon": "bubble_chart",
+          "description": "Predictive analysis for commercial fleet maintenance."
+        },
+        {
+          "icon": "display_settings",
+          "description": "Design of UX interfaces centered around the driver."
+        },
+        {
+          "icon": "car_repair",
+          "description": "Process automation in the automotive value chain."
+        }
+      ]
+    },
+    "solucionesRelacionadas": {
+      "title": "Related solutions",
+      "description": "At Heinsohn, we understand that every sector faces unique challenges. Therefore, we develop solutions designed to meet the specific needs of each industry, optimizing processes, improving efficiency, and generating sustainable competitive advantages.",
+      "cards": [
+        {
+          "icon": "insert_chart",
+          "title": "SAP Solutions",
+          "description": "We implement and manage SAP to boost efficiency, process integration, and strategic decision-making.",
+          "linkText": "Explore SAP",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "account_circle",
+          "title": "HGS - Human Resources",
+          "description": "We optimize human talent management with our HGS platform, guaranteeing agile, accurate, and people-centered processes.",
+          "linkText": "Discover HGS",
+          "linkUrl": "#"
+        },
+        {
+          "icon": "sync_saved_locally",
+          "title": "Custom solutions",
+          "description": "We create unique experiences by developing custom software that drives your business's digital transformation.",
+          "linkText": "See more",
+          "linkUrl": "#"
+        }
+      ]
+    },
+    "exploraIndustria": {
+      "icon": "directions_car",
+      "title": "Explore more about the automotive industry",
+      "descriptions": [
+        "Discover how we are transforming mobility with cutting-edge technology and solutions tailored to the sector's challenges."
+      ],
+      "btnText": "Explore Automotive Industry",
+      "btnLink": "#"
+    },
+    "contactoTitle": "Contact us"
+  }
+}

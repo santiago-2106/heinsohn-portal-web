@@ -44,4 +44,5 @@ export default function page() {
       <ButtonComponent textoBtn={t("textBtn")} />
     </div>
   )
+  
 }

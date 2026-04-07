@@ -30,21 +30,14 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const pqrs = (await import(`../../messages/${locale}/pqrs.json`)).default;
   const quinesSomos = (await import(`../../messages/${locale}/quienesSomos.json`)).default; 
   const soporte = (await import(`../../messages/${locale}/soporte.json`)).default;
-
-
-  //industrias
   const industrias = (await import(`../../messages/${locale}/industrias.json`)).default;
   const sectorAutomotriz = (await import(`../../messages/${locale}/sectorAutomotriz.json`)).default;
-
-  //Fundacion Heinsohn Conecta
   const fundacionX = (await import(`../../messages/${locale}/fundacion.json`)).default;
-
-  //Traba con Nosotros
   const trabajaConNosotros = (await import(`../../messages/${locale}/trabajaConNosotros.json`)).default;
   const Home = (await import(`../../messages/${locale}/home.json`)).default;
-
   const entradaBlogs = (await import(`../../messages/${locale}/entradaBlogs.json`)).default;
   const eBook = (await import(`../../messages/${locale}/eBook.json`)).default;
+  const casoExito = (await import(`../../messages/${locale}/casoExito.json`)).default;
   return {
     locale,
     messages: {
@@ -65,13 +58,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...solucionesIA,
       ...landingHgs,
       ...landingSoftware,
-      
-
-      //Traduccion industrias
       ...industrias,
       ...sectorAutomotriz,
-
-      //Traduccion Fundacion Heinsohn Conecta
       ...fundacionX,
       ...trabajaConNosotros,
       ...Home,
@@ -79,7 +67,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...eBook,
       ...pqrs,
       ...quinesSomos,
-      ...soporte
+      ...soporte, 
+      ...casoExito
     }
     
   };
