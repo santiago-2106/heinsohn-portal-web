@@ -12,6 +12,7 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 // 1. IMPORTAMOS LOS NUEVOS COMPONENTES
 import CardLayout from '@/src/components/layout/grids/CardLayout';
 import CardFuncaionShared from '@/src/components/sections/shared/sectioncard/CardFuncaionShared';
+import HeroSvg from "@/src/components/svgs/HeroSvg";
 
 export const metadata: Metadata = {
   title: "Caso de Éxito | Heinsohn",
@@ -42,7 +43,7 @@ export default function CasoExitoPage() {
   }));
 
   return (
-    <div className="bg-bg-main min-h-screen">
+    <div>
       
       <CasoExitoDetail 
         breadcrumb={breadcrumb}
@@ -51,9 +52,9 @@ export default function CasoExitoPage() {
         sections={secciones}
       />
 
-      <BannerFiguras />
+      <HeroSvg />
 
-      <div className="border-t border-border-ui">
+      <div >
         <CardAnuncies
           topBadge={t("comoAportamosValor.badge")}
           badgeVariant="outline" 
