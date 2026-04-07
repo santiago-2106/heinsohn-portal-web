@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image"; 
 import HeroSvg from "@/src/components/svgs/HeroSvg";
+import HeroGeometricSvg from "@/src/components/svgs/HeroGeometricSvg";
 
 interface BreadcrumbItem {
   label?: string;
@@ -23,6 +24,7 @@ interface HeroProps {
   badges?: BadgeItem[];
   isUppercase?: boolean;
   showImage?: boolean; 
+  booleanSVG?: boolean; 
 }
 
 export default function Hero({
@@ -34,12 +36,16 @@ export default function Hero({
   badges,
   isUppercase = false,
   showImage = true, 
+  booleanSVG=false
 }: HeroProps) {
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
         <div className="flex flex-col items-start w-full">
+          {booleanSVG && (
+            <div className="hidden xl:block"><HeroGeometricSvg /></div>
           
+          )}
           {/* BREADCRUMB */}
           <nav
             aria-label="Miga de pan"
@@ -87,7 +93,6 @@ export default function Hero({
               </React.Fragment>
             ))}
           </nav>
-
           {/* BADGES */}
           {badges && badges.length > 0 && (
             <div className="mb-8 flex flex-wrap items-center gap-3">

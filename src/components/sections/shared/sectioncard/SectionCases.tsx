@@ -28,7 +28,7 @@ export default function CardCases({
       <TextComponent title={title} />
       <div className=" w-full max-w-305 ml-auto px-4 sm:px-2 md:px-4">
 
-        <div className="flex flex-col md:flex-row gap-6">
+        <div className="flex flex-col md:flex-row items-start gap-6">
           <article className="w-full md:w-2/3 bg-bg-card-2 border border-border-ui flex flex-col">
             {imgKnowOurWork && (
               <div className="relative h-56 md:h-95 w-full">
