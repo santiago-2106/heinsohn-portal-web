@@ -26,6 +26,7 @@ export default function pageHome() {
       cards={t.raw("cardsHeinsohnProfesional.cardsIA")}
       cols={3}
       />
+      <HeroSvg />
       
       <TextSections items={t.raw("dataHome")}/>
 

@@ -1,0 +1,13 @@
+{
+  "chat": {
+    "chatIA": {
+      "title": "How does Heinsohn\nboost business\nproductivity\nwith AI?",
+      "greeting": "Hello! Thank you for contacting us. Heinsohn's payroll solution helps reduce rework and ensure regulatory compliance. Could you please accept the data processing policy to continue so an advisor can contact you?",
+      "termsPart1": "To continue I accept the",
+      "termsLink1": "privacy notice",
+      "termsPart2": "and",
+      "termsLink2": "data processing policy.",
+      "inputPlaceholder": "|"
+    }
+  }
+}

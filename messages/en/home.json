@@ -12,7 +12,7 @@
             
             "cardsIA": [
                 {
-                    "icon": "psychology",
+                    "icon": "neurology",
                     "title": "Machine learning",
                     "description": "Predictive algorithms that transform data into actionable insights to optimize business processes.",
                     "alineacion": "center"
@@ -24,7 +24,7 @@
                     "alineacion": "center"
                 },
                 {
-                    "icon": "bubbles",
+                    "icon": "scatter_plot",
                     "title": "Advanced analytics",
                     "description": "Deep insights from complex data for strategic decisions based on scientific evidence.",
                     "alineacion": "center"
@@ -45,7 +45,7 @@
             "description": "Complete portfolio of services and solutions designed to drive innovation and <br></br>efficiency in your organization.",
             "cardsHome": [
                 {
-                    "icon": "computer",
+                    "icon": "sync_saved_locally",
                     "title": "Digital Services",
                     "description": "Custom software development, digital transformation, web, mobile, and multi-platform applications, artificial intelligence and data analytics, cloud architecture, application modernization, and innovative technological solutions for the digital era. We create exceptional digital experiences that drive business growth.",
                     "textoFooter": "Digital Transformation <br></br>Mobile & web apps, enterprise platforms, artificial intelligence, data analytics, consulting, and emerging technologies. Dedicated teams & Staff Augmentation.",
@@ -77,7 +77,7 @@
                     "btnPosition": "top"
                 },
                 {
-                    "icon": "corporate_fare",
+                    "icon": "domain",
                     "title": "Enterprise Solutions",
                     "description": "Custom enterprise software that optimizes processes, improves productivity, and accelerates your organization's growth. We are leading providers of SAP Business One and SAP Grow, the best business solutions on the market. We develop ERP systems, CRM, and comprehensive management platforms that adapt to the specific needs of each industry, from SMEs to large corporations.",
                     "textoFooter": "SAP Business One & SAP Grow <br></br> Leading providers of the best business solutions on the market - ERP, CRM, Business Intelligence, and comprehensive management",
@@ -98,7 +98,7 @@
                     "btn": "View full case"
                 },
                 {
-                    "icon": "monitoring",
+                    "icon": "monitor_heart",
                     "title": "Risk management platform",
                     "description": "Development of an intelligent platform for real-time risk assessment and management for an insurance company.",
                     "btn": "View full case"

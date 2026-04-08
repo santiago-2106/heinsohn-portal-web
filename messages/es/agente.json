@@ -1,0 +1,97 @@
+{
+  "sidebar": {
+    "image": "/img/diseno-figuras.png",
+    "opacity": 100
+  },
+  "chat": {
+    "placeholder": "|",
+    "initialMessages": [
+      {
+        "id": 1,
+        "role": "ai",
+        "type": "title",
+        "content": "¿Cómo Heinsohn impulsa la\nproductividad\nempresarial con IA?"
+      },
+      {
+        "id": 2,
+        "role": "ai",
+        "type": "text",
+        "content": "En Heinsohn potenciamos la productividad de las organizaciones con un ecosistema de soluciones y agentes de IA creados para transformar procesos clave. Nuestras herramientas abarcan desde la automatización de tareas operativas hasta la optimización del ciclo completo de desarrollo de software.\nPor ejemplo, contamos con agentes que facilitan la definición de producto al construir historias de usuario más claras y accionables, mientras que otros aceleran el diseño de interfaces centradas en el usuario y apoyan en pruebas, despliegues y análisis, reduciendo tiempos y mejorando la calidad.\nCon este enfoque, logramos que las compañías no solo ganen eficiencia, sino también una ventaja competitiva en su sector.\n\nTe invitamos a conocer más sobre cómo aplicamos inteligencia artificial en nuestros proyectos en nuestro Blog de Innovación o explorar casos reales en nuestra sección de Casos de Éxito."
+      },
+      {
+        "id": 3,
+        "role": "ai",
+        "type": "card",
+        "content": "IA como aliada en transformación digital de hospitales",
+        "description": "Este artículo explica cómo soluciones basadas en IA pueden automatizar tareas administrativas, fortalecer el análisis de datos médicos y abrir nuevas oportunidades para una atención más eficiente y personalizada.",
+        "image": "/img/imgIAgestionHumana.jpg"
+      },
+      {
+        "id": 4,
+        "role": "user",
+        "content": "Deseo ampliar esta\ninformación."
+      },
+      {
+        "id": 5,
+        "role": "ai",
+        "type": "text",
+        "content": "Veo que te interesa conocer más sobre nuestro servicio. ¿Quieres que te conectemos con uno de nuestros expertos?\nPara hacerlo, necesitamos algunos datos básicos. En Heinsohn cuidamos tu información y la tratamos conforme a nuestra Política de Privacidad.\n¿Nos das tu consentimiento para continuar?"
+      },
+      {
+        "id": 6,
+        "role": "user",
+        "content": "Doy mi\nconsentimiento"
+      },
+      {
+        "id": 7,
+        "role": "ai",
+        "type": "text",
+        "content": "¡Gracias por tu consentimiento! 🙌\nPara continuar, necesitamos algunos datos básicos. Con esta información podremos brindarte una atención más personalizada.\n¿Podrías compartirnos tu nombre?"
+      },
+      {
+        "id": 8,
+        "role": "user",
+        "content": "Alejandro Sanchez"
+      },
+      {
+        "id": 9,
+        "role": "ai",
+        "type": "text",
+        "content": "Por favor ingresa tu correo electrónico corporativo para que podamos ponernos en contacto contigo y acompañarte mejor en el proceso."
+      },
+      {
+        "id": 10,
+        "role": "user",
+        "content": "asanchez@heinsohn.c\nom.co"
+      },
+      {
+        "id": 11,
+        "role": "ai",
+        "type": "text",
+        "content": "Gracias por tu interés en nuestras soluciones. Con los datos que nos diste ya podemos ponernos en contacto contigo.\n¿Quieres compartirnos un poco más de información para que la asesoría sea aún más personalizada?"
+      },
+      {
+        "id": 12,
+        "role": "user",
+        "content": "Claro, ¿qué tipo de\ninformación\nnecesitan?"
+      },
+      {
+        "id": 13,
+        "role": "ai",
+        "type": "text",
+        "content": "Excelente. Podrías contarnos, por ejemplo:\n- El sector en el que trabaja tu empresa.\n- Algún reto o necesidad puntual que estén buscando resolver...\nCon esto podremos conectarte con el experto adecuado y darte una asesoría más enfocada."
+      },
+      {
+        "id": 14,
+        "role": "user",
+        "content": "Perfecto, te comparto\nesos datos."
+      },
+      {
+        "id": 15,
+        "role": "ai",
+        "type": "text",
+        "content": "¡Genial! Muchas gracias. Con esta información ya podemos avanzar y asegurarnos de que recibas la orientación más útil para tu caso. Muy pronto tendrás noticias de nuestro equipo.\n\nHemos llegado al final del tiempo de esta sesión, pero puedes volver cuando quieras. Estaré aquí para seguir acompañándote y mostrarte todo lo que Heinsohn puede ofrecerte."
+      }
+    ]
+  }
+}
