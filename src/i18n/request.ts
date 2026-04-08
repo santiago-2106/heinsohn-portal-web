@@ -38,6 +38,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const entradaBlogs = (await import(`../../messages/${locale}/entradaBlogs.json`)).default;
   const eBook = (await import(`../../messages/${locale}/eBook.json`)).default;
   const casoExito = (await import(`../../messages/${locale}/casoExito.json`)).default;
+  const agenteAviso = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
+  const agente = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
   return {
     locale,
     messages: {
@@ -68,7 +70,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...pqrs,
       ...quinesSomos,
       ...soporte, 
-      ...casoExito
+      ...casoExito,
+      ...agenteAviso,
+      ...agente
     }
     
   };

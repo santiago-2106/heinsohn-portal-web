@@ -1,0 +1,13 @@
+{
+  "chat": {
+    "chatIA": {
+      "title": "¿Cómo Heinsohn\nimpulsa la\nproductividad\nempresarial con IA?",
+      "greeting": "¡Hola! Gracias por contactarnos. La solución de nómina en Heinsohn ayuda a reducir reprocesos y asegurar el cumplimiento normativo. ¿Podrías aceptar el tratamiento de datos para continuar y que un asesor te contacte?",
+      "termsPart1": "Para continuar acepto el",
+      "termsLink1": "aviso de privacidad",
+      "termsPart2": "y",
+      "termsLink2": "política de tratamiento de datos.",
+      "inputPlaceholder": "|"
+    }
+  }
+}

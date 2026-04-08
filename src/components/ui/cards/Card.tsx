@@ -16,11 +16,11 @@ export default function Card({
 
    {/* BOTÓN */}
       const Button = btn && (
-        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : ""}>
+        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : "w-full mb-6"}>
         <a
           href="/"
           className={`
-            mt-auto inline-flex gap-2 text-sm font-bold group
+            inline-flex gap-2 text-sm font-bold group
             ${centrar ? "justify-center" : "items-center"}
           `}
         >
@@ -46,9 +46,9 @@ export default function Card({
       {icon && (
         <div
           className={`
-          mb-6 w-full text-text-title
-          ${centrar ? "flex justify-center" : ""}
-        `}
+            mb-6 w-full text-text-title
+            ${centrar ? "flex justify-center" : ""}
+          `}
         >
           <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
             {icon}
@@ -63,9 +63,10 @@ export default function Card({
 
       {/* DESCRIPCIÓN */}
       {description && (
-        <p className="mb-6 text-sm md:text-base leading-relaxed text-text-body mt-2">
-          {description}
-        </p>
+        <p 
+          className="mb-6 text-sm md:text-base leading-relaxed text-text-body mt-2"
+          dangerouslySetInnerHTML={{ __html: description }}
+        />
       )}
 
       {btnPosition === "top" && Button}
@@ -101,17 +102,21 @@ export default function Card({
         </div>
       )}
 
-      {/*YA ESTABA REALIZAOD NO HABIA VISTO LA MANERA EN LLAMRLO PERO YA QUEDO */}
+      {/* FOOTER */}
       {
         textoFooter && (
-          <div className="border-t border-border-ui pt-8 mb-8 min-w-full">
-            <p className="text-text-body leading-relaxed">{textoFooter}</p>
+          /* Se agregó mt-auto aquí para empujar el footer siempre al fondo */
+          <div className="border-t border-border-ui pt-8 mt-auto min-w-full">
+            <p 
+              className="text-text-body leading-relaxed" 
+              dangerouslySetInnerHTML={{ __html: textoFooter }}
+            />
           </div>
         )
       }
 
       {btnPosition === "bottom" && (
-        <div className="">
+        <div className={!textoFooter ? "mt-auto" : ""}>
           {Button}
         </div>
       )}

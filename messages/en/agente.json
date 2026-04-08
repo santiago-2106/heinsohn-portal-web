@@ -1,0 +1,97 @@
+{
+  "sidebar": {
+    "image": "/img/diseno-figuras.png",
+    "opacity": 100
+  },
+  "chat": {
+    "placeholder": "|",
+    "initialMessages": [
+      {
+        "id": 1,
+        "role": "ai",
+        "type": "title",
+        "content": "How does Heinsohn boost\nbusiness\nproductivity with AI?"
+      },
+      {
+        "id": 2,
+        "role": "ai",
+        "type": "text",
+        "content": "At Heinsohn, we boost organizational productivity with an ecosystem of AI solutions and agents designed to transform key processes. Our tools range from automating operational tasks to optimizing the entire software development life cycle.\nFor instance, we have agents that facilitate product definition by building clearer, more actionable user stories, while others accelerate user-centric interface design and support testing, deployment, and analysis, reducing time and improving quality.\nWith this approach, we ensure that companies not only gain efficiency but also a competitive advantage in their sector.\n\nWe invite you to learn more about how we apply artificial intelligence in our projects on our Innovation Blog or explore real cases in our Success Stories section."
+      },
+      {
+        "id": 3,
+        "role": "ai",
+        "type": "card",
+        "content": "AI as an ally in the digital transformation of hospitals",
+        "description": "This article explains how AI-based solutions can automate administrative tasks, strengthen medical data analysis, and open up new opportunities for more efficient and personalized care.",
+        "image": "/img/imgIAgestionHumana.jpg"
+      },
+      {
+        "id": 4,
+        "role": "user",
+        "content": "I would like to expand on\nthis information."
+      },
+      {
+        "id": 5,
+        "role": "ai",
+        "type": "text",
+        "content": "I see you are interested in learning more about our service. Would you like us to connect you with one of our experts?\nTo do so, we need some basic details. At Heinsohn, we protect your information and treat it according to our Privacy Policy.\nDo you give us your consent to continue?"
+      },
+      {
+        "id": 6,
+        "role": "user",
+        "content": "I give my\nconsent"
+      },
+      {
+        "id": 7,
+        "role": "ai",
+        "type": "text",
+        "content": "Thank you for your consent! 🙌\nTo continue, we need some basic details. With this information, we will be able to provide you with more personalized attention.\nCould you share your name with us?"
+      },
+      {
+        "id": 8,
+        "role": "user",
+        "content": "Alejandro Sanchez"
+      },
+      {
+        "id": 9,
+        "role": "ai",
+        "type": "text",
+        "content": "Please enter your corporate email address so we can contact you and better assist you in the process."
+      },
+      {
+        "id": 10,
+        "role": "user",
+        "content": "asanchez@heinsohn.c\nom.co"
+      },
+      {
+        "id": 11,
+        "role": "ai",
+        "type": "text",
+        "content": "Thank you for your interest in our solutions. With the details you provided, we can now get in touch with you.\nWould you like to share a little more information so that the consultation can be even more personalized?"
+      },
+      {
+        "id": 12,
+        "role": "user",
+        "content": "Sure, what kind of\ninformation\ndo you need?"
+      },
+      {
+        "id": 13,
+        "role": "ai",
+        "type": "text",
+        "content": "Excellent. You could tell us, for example:\n- The sector your company operates in.\n- Any specific challenge or need you are looking to solve...\nWith this, we can connect you with the right expert and give you a more focused consultation."
+      },
+      {
+        "id": 14,
+        "role": "user",
+        "content": "Perfect, I will share\nthose details with you."
+      },
+      {
+        "id": 15,
+        "role": "ai",
+        "type": "text",
+        "content": "Great! Thank you very much. With this information, we can now move forward and ensure you receive the most useful guidance for your case. You will hear from our team very soon.\n\nWe have reached the end of the time for this session, but you can come back whenever you want. I will be here to continue assisting you and showing you everything Heinsohn has to offer."
+      }
+    ]
+  }
+}
