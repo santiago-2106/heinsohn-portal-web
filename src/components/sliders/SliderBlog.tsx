@@ -9,6 +9,7 @@ import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 
 import TextComponent from '../ui/typography/TextComponent'
+import SliderSvg from '../svgs/SliderSvg'
 
 // 1. Tipamos correctamente la data para no usar 'any'
 export interface BlogItem {
@@ -31,11 +32,9 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
 
   return (
     <section className="py-12 md:py-16 transition-colors duration-300">
-      <div className="mx-auto max-w-7xl px-6">
-
-        {/* Título dinámico */}
+      {/* Título dinámico */}
         <TextComponent title={title} />
-        
+      <div className="w-full max-w-305 mr-auto px-4 sm:px-2 md:px-4">
         <Swiper
           modules={[Navigation, Pagination]}
           loop
@@ -52,22 +51,18 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
         >
           {data.map((item, index) => (
             <SwiperSlide key={item.id || index}>
-              <div className="flex flex-col md:flex-row items-stretch">
+              <div className="flex flex-col md:flex-row items-start">
 
                 {/* Imagen decorativa lado izquierdo */}
-                <div className="hidden md:flex md:w-1/3 bg-bg-card-2 border border-border-ui items-center justify-center relative">
-                  <Image
-                    src="/img/slider-imgs.png"
-                    alt="Decoración abstracta blog"
-                    fill
-                    sizes="(max-width: 768px) 100vw, 33vw"
-                    className="object-cover"
-                  />
+                <div className="hidden md:flex md:w-1/3 bg-bg-card-2 border border-border-ui relative">
+                  <div className="">
+                    <SliderSvg />
+                  </div>
                 </div>
 
                 <div className="w-full md:w-2/3 bg-bg-card-2 border border-border-ui flex flex-col">
                   {/* Imagen de la noticia */}
-                  <div className="relative h-56 md:h-112 w-full">
+                  <div className="relative h-56 md:h-97 w-full">
                     <Image
                       src={item.img || "/img/noticias-interes.jpg"}
                       alt={`Imagen destacada de ${item.title}`}
