@@ -26,6 +26,7 @@ export default function CardSoftwreGeneric() {
             key={item.id}
             title={item.title}
             description={item.description}
+            iconColor="black"
           />
         ))}
       </section>

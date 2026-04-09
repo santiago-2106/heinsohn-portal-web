@@ -64,7 +64,7 @@ export default function SolucionesSAP() {
 
       {/* SECCIÓN: COMPARACIÓN DE ERP */}
       <CardAnuncies
-        title={t("cardsMejorErpPymes.title")}
+        title={t.rich("cardsMejorErpPymes.title", richText)}
         description={t("cardsMejorErpPymes.description")}
         cards={t.raw("cardsMejorErpPymes.cards")}
         cols={3}
@@ -83,7 +83,7 @@ export default function SolucionesSAP() {
 
       {/* SECCIÓN: CLIENTES */}
       <Clientes
-        title={t("TitleClientes.title")}
+        title={t.rich("TitleClientes.title", richText)}
         description={t.rich("TitleClientes.description", richText)}
       />
 
@@ -96,6 +96,7 @@ export default function SolucionesSAP() {
         description={t.rich("cardsErpSap.description", richText)}
         cards={cardsErpSap}
         cols={2}
+        alignHeader="left"
       />
 
       {/* FORMULARIO DE TEST */}
@@ -106,7 +107,7 @@ export default function SolucionesSAP() {
 
       {/* SECCIÓN DE TEXTO: ¿POR QUÉ SAP? */}
       <SectionCenteredText
-        title={t("titlePorqueSAP.title")}
+        title={t.rich("titlePorqueSAP.title",richText)}
         description={t.rich("titlePorqueSAP.description", richText)}
       />
     </>

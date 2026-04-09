@@ -1,11 +1,11 @@
-import React from "react";
+import React, { ReactNode } from "react";
 import Image from "next/image";
 import Carrusel from "@/src/components/carrusel/Carrusel";
 
 // ELIMINADO: import imgClientes from "@/src/img/clientes.png"; 
 
 interface ClientesProps {
-  title: string;
+  title: string | ReactNode;
   description?: string | React.ReactNode;
 }
 

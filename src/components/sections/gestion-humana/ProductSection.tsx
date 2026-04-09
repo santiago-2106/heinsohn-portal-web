@@ -15,7 +15,7 @@ export default function CardProductSection() {
 
   return (
     <section className="py-20">
-      <div className="mx-auto max-w-5xl px-10 space-y-32">
+      <div className="mx-auto max-w-5xl px-10 space-y-2">
         <TextComponent title={t("titlesGestionHumana.titleGestionHumana6.title")}/>
         {productosCards.map((item:any, index:number) => (
           <ProductRow key={index} product={item} reverse={index % 2 !== 0} />

@@ -26,7 +26,7 @@ export default function CertificacionesInternacionales({
 
         {/* DESCRIPCIÓN */}
         {descripcion && (
-          <p className="mx-auto max-w-3xl text-base md:text-lg text-text-body leading-relaxed mb-4">
+          <p className="mx-auto max-w-4xl text-base md:text-lg text-text-body leading-relaxed mb-4">
             {descripcion}
           </p>
         )}

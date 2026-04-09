@@ -2,7 +2,7 @@
   "solucionesTi": {
     "dataHeroSolucionesTI": {
       "title": "Soluciones TI",
-      "description": "Transformamos la tecnología en valor para tu negocio.",
+      "subtitle": "Transformamos la tecnología en valor para tu negocio.",
       "buttonText": "Solicita una asesoría gratuita",
       "breadcrumb": [
         {"label": "Soluciones"},
@@ -12,7 +12,7 @@
     
     "titlesSolucionesTi": {
       "title1": "Ingeniería de software y Desarrollo de productos Digitales",
-      "title2": "Analítica de datos e inteligencia artificial",
+      "title2": "Analítica de datos e inteligencia <br></br>artificial",
       "title3": "Ingeniería extendida y equipos dedicados",
       "title4": "Consultoria estratégica",
       "title5": "Conoce nuestro trabajo"

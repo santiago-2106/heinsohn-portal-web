@@ -1,31 +1,15 @@
-import { IconButton } from "@mui/material";
-import { LinkedIn, Instagram, Facebook, YouTube } from "@mui/icons-material";
 import Link from "next/link";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import { FaInstagram, FaFacebook, FaYoutube, FaSpotify, FaLinkedin } from "react-icons/fa";
+import { SiTiktok } from "react-icons/si";
 
-
-const soluciones = [
-  [
-    "Servicios de transformacion digital",
-    "Gestion humana y nómina",
-    "Soluciones para gobierno",
-    "Soluciones de outsourcing",
-  ],
-  [
-    "Soluciones sector pensiones",
-    "Soluciones sector financiero",
-    "Soluciones SAP",
-    "Soluciones en SST",
-  ],
-];
 
 export default async function Footer() {
   const t = await getTranslations("footer")
 
   const soluciones = t.raw("solutions")
   const company = t.raw("company")
-
 
   return (
     <footer className="border-t border-border-ui bg-bg-main pt-20 pb-10">
@@ -47,21 +31,13 @@ export default async function Footer() {
               {t("description")}
             </p>
 
-            <div className="p-0 flex gap-2">
-              <IconButton sx={{ color: "text.primary" }}>
-                <LinkedIn />
-              </IconButton>
-              <IconButton sx={{ color: "text.primary" }}>
-                <Instagram />
-              </IconButton>
-              <IconButton sx={{ color: "text.primary" }}>s</IconButton>
-              <IconButton sx={{ color: "text.primary" }}>
-                <YouTube />
-              </IconButton>
-              <IconButton sx={{ color: "text.primary" }}>Tk </IconButton>
-              <IconButton sx={{ color: "text.primary" }}>
-                <Facebook />
-              </IconButton>
+              <div style={{ display: "flex", gap: "16px", fontSize: "30px" }} className="hover:cursor-pointer text-text-body">
+                <FaLinkedin className="hover:active:scale-90 hover:text-blue-700"/>
+                <FaInstagram className="hover:active:scale-90 hover:text-pink-400" />
+                <FaSpotify className="hover:active:scale-90 hover:text-green-500"/>
+                <FaYoutube className="hover:active:scale-90 hover:text-brand-accent"/>
+                <SiTiktok className="hover:active:scale-90 hover:"/>
+                <FaFacebook className="hover:active:scale-90 hover:text-blue-500"/>
             </div>
           </div>
 
