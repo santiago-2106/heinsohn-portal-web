@@ -19,20 +19,20 @@ export default function SearchSection() {
 
   return (
     <section className="flex flex-col gap-8 p-4 items-center w-full">
-      <div className="w-full max-w-236 min-h-16 flex items-center justify-between rounded-[48px] border border-border-ui bg-bg-card-2 pl-6 pr-2 py-2 gap-4 shadow-sm">
+      <div className="w-full max-w-4xl min-h-14 md:min-h-16 flex items-center justify-between rounded-full border border-border-ui bg-bg-card-2 pl-6 pr-2 py-2 gap-4 shadow-sm">
         <input
           type="text"
           placeholder={tSearch('placeholder')}
-          className="flex-1 outline-none text-text-body bg-transparent placeholder:text-text-body"
+          className="flex-1 outline-none text-text-body bg-transparent placeholder:text-text-body ml-2"
         />
-        <button className="flex items-center gap-2 bg-black text-white px-8 py-3 rounded-[48px] hover:bg-zinc-800 transition-colors">
-          <span className="font-medium">{tSearch('button')}</span>
+        <button className="flex items-center gap-2 bg-black text-white px-4 md:px-8 py-3 rounded-full hover:bg-zinc-800 transition-colors active:scale-95">
+          <span className="hidden md:inline font-medium text-sm">{tSearch('button')}</span>
           <span className='material-symbols-rounded' style={{fontSize:'20px'}}>search</span>
         </button>
       </div>
 
       
-      <div className="flex flex-wrap gap-4 justify-center max-w-236">
+      <div className="flex flex-wrap gap-2 py-4 justify-center max-w-4xl">
         {filterKeys.map((key) => (
           <button
             key={key}

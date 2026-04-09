@@ -10,13 +10,12 @@ export default function TalentCloudSection() {
 
   const t = useTranslations("gestionHumana")
 
-
   const dataInfoGestionHumana = t.raw("cardInfoGestionHumana")
 
   return (
     <div>
       <section className="flex justify-center items-center w-full mt-28 mb-12">
-        <div className="bg-black px-2 py-2 md:px-4 md:py-4 w-fit border border-border-ui">
+        <div className="bg-black px-2 py-1 md:px-4 md:py-2 w-fit border border-border-ui">
           <p className="text-xl tracking-tight text-center text-white">Soluciones Modulares</p>
         </div>
       </section>

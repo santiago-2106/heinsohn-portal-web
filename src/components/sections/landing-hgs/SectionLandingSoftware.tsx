@@ -28,6 +28,7 @@ export default function SectionLandingSoftware() {
                 icon={item.icon}
                 description={item.description} 
                 iconPosition='left'
+                iconColor='black'
                 />    
               ))
             }

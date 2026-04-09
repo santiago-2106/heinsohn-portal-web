@@ -13,6 +13,7 @@ import ContactForm from "@/src/components/forms/formularios/ContactForm";
 // Internacionalización
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
+import ButtonComponent from "@/src/components/ui/buttons/Button";
 
 export default function PensionesVoluntarias() {
 
@@ -66,6 +67,7 @@ export default function PensionesVoluntarias() {
         title={t("cta.title")}
         description={t.rich("cta.description", richText)}
       />
+      <ButtonComponent textoBtn="Conoce más"/>
 
       {/* 8. PREGUNTAS FRECUENTES */}
       <PreguntForm

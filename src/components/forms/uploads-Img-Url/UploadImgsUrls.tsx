@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl"
 import ButtonComponent from "../../ui/buttons/Button"
 import { cargarImgUrl } from "./UxImgUrl"
-import AddPhotoAlternateIcon from '@mui/icons-material/AddPhotoAlternate'
 
 interface UplodadImgUrl {
     mode: cargarImgUrl
@@ -26,7 +25,7 @@ export default function UploadImgsUrls({mode}: UplodadImgUrl) {
            />
 
            <label htmlFor="fileInput" className="cursor-pointer flex flex-col items-center">
-                <  AddPhotoAlternateIcon sx={{fill:'white', stroke: 'black',fontSize: 150}}/>
+            <span className="material-symbols-rounded" style={{fontSize:150}}>add_photo_alternate</span>
                 <p className="text-text-body">
                   {
                     t.rich("uploadImgsUrl.upload.title", {

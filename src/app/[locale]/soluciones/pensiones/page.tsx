@@ -13,12 +13,19 @@ import PreguntForm from "@/src/components/forms/formularios/PreguntForm";
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
 import mapRich from "@/src/hooks/mapRich";
+import { mapResultados } from "@/src/components/sections/pensiones/mapResultados";
 
 export default function PagePensiones() {
 
   const t = useTranslations("pensiones")
 
   const cardPensions3 = mapRich(t, "cardPensiones3")
+
+
+  //CARD Resultados que nos respaldan
+  const dataPension1 = t.raw("cardsPensiones1")
+  const cardPensions1 = mapResultados(dataPension1)
+
 
   return (
     <main className="bg-bg-main min-h-screen transition-colors duration-300">
@@ -34,7 +41,7 @@ export default function PagePensiones() {
       />
       
       {/* 2. MÉTRICAS 1 */}
-      <CardResultados data={t.raw("cardsPensiones1")} />
+      <CardResultados data={cardPensions1} />
 
       {/* 3. RETOS DEL SISTEMA */}
       <CardAnuncies

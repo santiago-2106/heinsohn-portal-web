@@ -36,9 +36,9 @@ export default function CardBlog({ titlePrincipal,dataCards }: DataCardImgProps,
               
               {/* Imagen y Badge */}
               <div className="relative overflow-hidden">
-                <img src={item.img} alt={item.titleCard} className="object-cover brightness-90 grayscale-90 w-[288px] h-38.75 " />
+                <img src={item.img} alt={item.titleCard} className="w-full h-full md:h-38.75 object-cover brightness-90 grayscale-90 transition-transform duration-500 hover:scale-105" />
                 {item.badge && (
-                  <div className="absolute top-8 right-8 bg-black text-white text-[11px] uppercase tracking-wider px-2 py-2 font-medium">
+                  <div className="absolute top-6 right-6 bg-black text-white text-[10px] md:text-[11px] uppercase tracking-wider px-2.5 py-1.5 font-medium shadow-lg">
                     {item.badge}
                   </div>
                 )}

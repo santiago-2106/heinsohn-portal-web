@@ -2,7 +2,7 @@
   "desarrolloAMedida": {
     "dataHeroDesarrolloAMedida": {
       "title": "Desarrollo de software a la medida",
-      "description": "El desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad. Creamos soluciones únicas que se adaptan a tu negocio,<bold> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.</bold>",
+      "description": "El desarrollo de software a la medida es la clave para que las empresas avancen con agilidad, seguridad y escalabilidad. <bold>Creamos soluciones únicas que se adaptan a tu negocio,</bold> con la experiencia y el conocimiento que nos posiciona como una de las principales empresas de desarrollo de software en Colombia y LATAM.",
       "buttonText": "Solicita una asesoría gratuita",
       "breadcrumb": [
         { "label": "Soluciones" },
@@ -44,7 +44,7 @@
         "title":"Preguntas Frecuentes"
       },
       "titleContactForm":{
-        "title":"¿Tienes un proyecto en mente?"
+        "title":"Contáctanos"
       }
     },
 
@@ -178,9 +178,9 @@
       "title":"Blog destacado",
     "items":[{
       "id":1,
-      "img": "/img/edif.jpg",
-      "title": "Transformación digital en el sector financiero",
-      "description": "Implementamos una plataforma digital a la medida que mejoró la experiencia del cliente y redujo en un 40% los tiempos de operación.",
+      "img": "/img/slider2Blog.jpg",
+      "title": "Tendencias UX que marcan el futuro del diseño digital",
+      "description": "Explora cómo la personalización el diseño inclusivo y las microinteracciones están cambiando la forma en que las personas interactuán con las plataformas.",
       "btn": "Conoce el caso completo"
     },
     {

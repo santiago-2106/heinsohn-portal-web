@@ -12,20 +12,20 @@ interface CardLandingSoftwareProps {
 export default function CardLandingSoftware({items}: CardLandingSoftwareProps) {
   return (
     <section className="w-full py-8">
-    <div className="mx-auto w-full max-w-246 px-10 relative">
+    <div className="mx-auto w-full max-w-227 px-4 md:px-0 flex flex-col items-center relative">
         {
         items.map((item, index) => (
         <div key={index} className="flex flex-col md:flex-row bg-bg-card-2 border border-border-ui md:h-85">
-            <div className="md:max-w-11/12">
+            <div className="w-full md:w-145 shrink-0">
                 <img
                 src={item.image}
                 alt={item.title}
-                className="w-full h-full object-cover brightness-50 grayscale-90"
+                className="w-full h-62.5 md:h-84.25 object-cover brightness-50 md:brightness-90 transition-all duration-500"
                 />
                 </div>
 
                 
-            <div className="md:w-1/2 flex flex-col justify-center p-8 md:p-16 gap-6">
+            <div className="w-full md:w-82.5 md:h-84.25 flex flex-col justify-center gap-2.5 p-8 shrink-0">
                 <h2 className="font-light text-[32px] md:text-[40px] lg:text-[22px] leading-[100%] text-text-title">
                     {item.title}
                 </h2>

@@ -1,4 +1,5 @@
 import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
+import { richText } from "@/src/hooks/helper/richText";
 import { useTranslations } from "next-intl";
 
 
@@ -15,7 +16,7 @@ export default function CardFinal() {
       />
       {/*CARDS SOLUCIONES TI: Analítica de datos e inteligencia artificial  */}
       <CardAnuncies
-      title={t("titlesSolucionesTi.title2")}
+      title={t.rich("titlesSolucionesTi.title2", richText)}
       cards={t.raw("cardsAnalitycIA")}
       />
 

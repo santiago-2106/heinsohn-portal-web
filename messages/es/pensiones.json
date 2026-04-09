@@ -54,20 +54,26 @@
     },
 
     "cardsPensiones1": {
+      "title": "Resultados que nos respaldan",
       "highlight": {
         "icon": "rocket_launch",
-        "suffix": "+",
         "value": "30",
+        "prefix": "+",
         "description": "años de experiencia"
       },
       "metrics": [
         {
-          "suffix": "+",
+          "id": "compliance",
           "value": "12",
+          "prefix": "+",
           "description": "millones de afiliados administrados en Colombia y Latam"
         },
         {
-          "value": "Gestionamos +90.000 USD",
+          "id": "cost",
+          "value": "90.000",
+          "prefix": "+",
+          "extraLabel": "Gestionamos",
+          "suffix": "USD",
           "description": "millones en pensiones"
         }
       ]

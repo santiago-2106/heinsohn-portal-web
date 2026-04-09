@@ -1,66 +1,90 @@
 {
   "staffAugmentation": {
-    "infoStaffArgumentationHero": {
-      "title": "Staff Argumentation TI",
-      "description": "<>Fortalece tus operaciones con nuestro servicio de staff augmentation diseñado con base en experiencia, análisis y comprensión de tu negocio. En Heinsohn, contamos con equipos técnicos a la medida de tus objetivos, integrando expertos en desarrollo de software, QA, datos, arquitectura e inteligencia artificial. <br /><span className=\"font-semibold text-gary-800\">Optimiza costos, escala capacidades y acelera tus entregas con un modelo flexible, transparente y alineado a tus zonas horarias. </span><ul className=\"flex flex-col gap-3 mt-2\"><li className=\"flex items-start gap-2\"><strong className=\" font-bold\"><span className=\"text-brand-accent\">+</span>45</strong><span>años de experiencia en soluciones tecnológicas empresariales.</span></li><li className=\"flex items-start gap-2\"><span><span className=\"font-bold\">Equipos</span> multidisciplinarios para integrarse a tus operaciones</span></li></ul></>",
-      "buttonText": "Arma tu equipo ideal ahora",
+    "dataHeroStaffArgumentation": {
+      "title": "Desarrollo de software a la medida",
+      "subtitle":"Personal especializado para potenciar tus proyectos",
+      "description": "Fortalece tus operaciones con nuestro servicio de staff augmentation diseñado con base en experiencia, análisis y comprensión de tu negocio. En Heinsohn, contamos con equipos técnicos a la medida de tus objetivos, integrando expertos en desarrollo de software, QA, datos, arquitectura e inteligencia artificial.<br></br><br></br> <bold>Optimiza costos, escala capacidades y acelera tus entregas con un modelo flexible, transparente y alineado a tus zonas horarias.</bold> <br></br><br></br> <bold><red>+</red>45</bold> años de experiencia en soluciones tecnológicas empresariales. <br></br><br></br> <bold>Equipos</bold> multidisciplinarios listos para integrarse a tus operaciones.",
+      "buttonText":"Arma tu equipo ideal",
       "breadcrumb": [
-        {
-          "label": "staff argumentation"
-        },
-        {
-          "label": "soluciones staff argumentation"
-        }
+        { "label": "Soluciones" },
+        { "label": "Staff Augmentation" },
+        { "label": "Soluciones Staff Augmentation" }
       ]
     },
-    "infoStaffArgumentation": [
+
+    "StaffArgumentation1":{ 
+      "title":"Cuando tu equipo necesita crecer,<br></br> el Staff Augmentation TI es la <br></br>respuesta",
+      "description":"Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentation TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. <br></br><br></br><bold>Síntomas de una gestión sin staffing de TI eficiente:</bold>",
+      "cards1":[
       {
-        "title": "Procesos lentos por falta de recursos tecnicos especializados",
+        "icon":"ar_on_you",
+        "description": "Procesos lentos por falta de recursos tecnicos especializados",
         "alineacion": "center"
       },
       {
-        "title": "Dificultad para cubrir roles criticos o temporales",
+        "icon":"checked_bag",
+        "description": "Dificultad para cubrir roles criticos o temporales",
         "alineacion": "center"
       },
       {
-        "title": "Costos elevados en contratacion y retencion de talento",
+        "icon":"card_travel",
+        "description": "Costos elevados en contratacion y retencion de talento",
         "alineacion": "center"
       },
       {
-        "title": "Perdida de foco estrategico por tareas administrativa",
+        "icon":"money_bag",
+        "description": "Perdida de foco estrategico por tareas administrativa",
         "alineacion": "center"
       }
     ],
-    "titleStaffArgumentation1": {
-      "title": "El modelo de staffing que combina talento, agilidad y resultados medibles",
-      "description": "<>Nuestro servicio especializado de TI está diseñado para que accedas a los perfiles que necesitas con eficiencia y respaldo metodológico. <span className=\"font-semibold text-gray-800\">Nos encargamos de todo el ciclo:</span> desde la identificación y validación del talento hasta su integración y acompañamiento continuo en tus operaciones.</>"
+  "bottomText":"Con Heinsohn, optimizas costos, eliminas cuellos de botella y accedes a talento que acelera tus proyectos desde el primer día.",
+  "bottomBtn":"Agenda tu sesión de diagnóstico y conoce perfiles disponibles"
+  },
+
+  "titlesStaffArgumentation":{
+    "title1": {
+      "title": "El modelo de staffing que combina <br></br> talento, agilidad y resultados medibles",
+      "description": "Nuestro servicio especializado de TI está diseñado para que accedas a los perfiles que necesitas con eficiencia y respaldo metodológico. <bold>Nos encargamos de todo el ciclo:</bold> desde la identificación y validación del talento hasta su integración y acompañamiento continuo en tus operaciones."
     },
-    "titleStaffArgumentation2": {
+    "title2": {
       "title": "Cuando tu equipo necesita crecer, el Staff Augmentation TI es la respuesta",
-      "description": "<>Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentatio TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. <br /><br /><span className=\"font-bold mt-80\">Síntomas de una gestión sin staffing de TI eficiente:</span></>"
+      "description": "Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentatio TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. <br></br><bold>Síntomas de una gestión sin staffing de TI eficiente:</bold>"
     },
-    "titleStaffArgumentation3": {
+    "title3": {
+      "title": "Especialistas TI para cada etapa de tu <br></br> transformación tecnológica",
+      "description": "Nuestros equipos cubren todas las necesidades del ciclo de desarrollo tecnológico: "
+    },
+    "title4": {
       "title": "Tu aliado estratégico en Staff Augmentation",
-      "description": "<>Más de cuatro décadas de experiencia nos respaldan como uno de los aliados tecnológicos más sólidos en Latinoamérica. No solo te ofrecemos talento, sino un modelo de colaboración pensado para la continuidad, eficiencia y calidad.<br /><br /><span className=\"font-bold mt-80\">Nuestro diferencial</span></>"
-    },
-    "infoStaffArgumentation2": {
+      "description": "Más de cuatro décadas de experiencia nos respaldan como uno de los aliados tecnológicos más sólidos en Latinoamérica. No solo te ofrecemos talento, sino un modelo de colaboración pensado para la continuidad, eficiencia y calidad.<br></br><bold>Nuestro diferencial</bold>"
+    }
+  },
+
+    "cardStaffArgumentation2": {
       "highlight": {
+        "icon":"editor_choice",
         "value": "Staff Argumentation TI",
         "description": "incorporas talento especializado que trabaja bajo tu dirección y procesos, con soporte de selección, contratación y gestión administrativa por parte de Heinsohn."
       },
       "metrics": [
         {
+          "icon":"gavel",
+          "positionIcon":"top",
           "id": "compliance",
-          "description": "<>Nearshore <br />(LATAM, mismas zonas horaria).</>"
+          "description": "Nearshore <br></br>(LATAM, mismas zonas horaria)."
         },
         {
+          "icon":"error_outline",
+          "positionIcon":"top",
           "id": "cost",
           "description": "Remoto 100% o hibrido segun la ubicacion requerida."
         }
       ]
     },
-    "infoStaffArgumentation3": [
+
+    "cardStaffArgumentation3": [
       {
+        "icon":"",
         "title": "Desarrollo y modernización",
         "items": [
           {
@@ -82,6 +106,7 @@
         ]
       },
       {
+        "icon":"",
         "title": "Calidad y eficiencia",
         "items": [
           {
@@ -99,6 +124,7 @@
         ]
       },
       {
+        "icon":"",
         "title": "Infraestructura, nube y seguridad",
         "items": [
           {
@@ -116,6 +142,7 @@
         ]
       },
       {
+        "icon":"",
         "title": "Análisis, diseño y estrategia",
         "items": [
           {
@@ -133,6 +160,7 @@
         ]
       },
       {
+        "icon":"",
         "title": "Ingeniería de datos e inteligencia artificial",
         "items": [
           {
@@ -154,6 +182,7 @@
         ]
       },
       {
+        "icon":"",
         "title": "Liderazgo y arquitectura",
         "items": [
           {
@@ -167,16 +196,20 @@
         ]
       }
     ],
-    "infoStaffArgumentation4": [
+
+    "cardStaffArgumentation4": [
       {
+        "icon":"",
         "title": "Optimizacion de costos",
         "description": "Reduce gastos administrativos y operativos."
       },
       {
+        "icon":"",
         "title": "Contratacion agil",
         "description": "Perfiles disponibles en 2 a 3 semanas."
       },
       {
+        "icon":"",
         "title": "Talento de primer nivel",
         "description": "Especialistas validados técnica y culturalmente."
       },
@@ -185,14 +218,17 @@
         "description": "Talento en tu misma zona horaria."
       },
       {
+        "icon":"",
         "title": "Escalabilidad total:",
         "description": "Amplía o reduce tu equipo según las demandas del proyecto."
       },
       {
+        "icon":"",
         "title": "Transparencia",
         "description": "Seguimiento, métricas y reportes de productividad."
       }
     ],
+
     "infoStaffArgumentation5": [
       {
         "indicador": "01",

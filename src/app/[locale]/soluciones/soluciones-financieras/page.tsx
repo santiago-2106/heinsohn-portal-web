@@ -10,21 +10,9 @@ import CardCases from "@/src/components/sections/shared/sectioncard/SectionCases
 import Slider from "@/src/components/sliders/SliderBlog";
 import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
-import { dataResultadosFinanciera } from "@/src/data/soluciones/financiera";
-import { cardSlider1 } from "@/src/data/soluciones/share/slider";
 
 // Data Centralizada
 import {
-  financialChallengesCards,
-  financialSolutionsCards,
-  experienceStatsData,
-  financialFaqData,
-  dataFinanzas,
-  introRetos,
-  footerRetos,
-  btnRetos,
-  entitiesData,
-  dataCasosFinanciera,
   titlesFinanciera // <-- Importamos los nuevos títulos centralizados
 } from "@/src/data/soluciones/financiera";
 import { useTranslations } from "next-intl";
