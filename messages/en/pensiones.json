@@ -54,23 +54,30 @@
     },
 
     "cardsPensiones1": {
-      "highlight": {
-        "icon": "rocket_launch",
-        "suffix": "+",
-        "value": "30",
-        "description": "years of experience"
-      },
-      "metrics": [
-        {
-          "value": "12",
-          "description": "million affiliates managed in Colombia and LATAM"
-        },
-        {
-          "value": "We manage +90,000 USD",
-          "description": "millions in pensions"
-        }
-      ]
+    "title": "Results that support us",
+    "highlight": {
+      "icon": "rocket_launch",
+      "value": "30",
+      "prefix": "+",
+      "description": "years of experience"
     },
+    "metrics": [
+      {
+        "id": "compliance",
+        "value": "12",
+        "prefix": "+",
+        "description": "million members managed in Colombia and Latam"
+      },
+      {
+        "id": "cost",
+        "value": "90.000",
+        "prefix": "+",
+        "extraLabel": "We manage",
+        "suffix": "USD",
+        "description": "million in pensions"
+      }
+    ]
+  },
 
     "cardsPensiones2": [
       {

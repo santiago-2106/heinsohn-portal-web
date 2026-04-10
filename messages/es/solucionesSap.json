@@ -93,7 +93,7 @@
     },
 
     "cardsMejorErpPymes": {
-      "title": "¿Qué ERP es mejor para PYMEs,<br/> empresas medianas o en expansión?",
+      "title": "¿Qué ERP es mejor para PYMEs,<br></br> empresas medianas o en expansión?",
       "description": "Transformaciones reales que han revolucionado industrias completas a través de soluciones tecnológicas innovadoras.No es lo mismo operar con 20 empleados que con 200. Por eso, Heinsohn tiene 3 soluciones de ERP distintas para cada etapa del crecimiento:",
       "cards": [
         {
@@ -151,7 +151,7 @@
 
   "cardsErpSap": {
     "title": "¿Qué recibirás después del test de ERP SAP?",
-    "description": "Al completar nuestro test interactivo, obtienes acceso inmediato a recursos valiosos <bold>completamente gratis.</bold>",
+    "description": "Al completar nuestro test interactivo, obtienes acceso inmediato a recursos valiosos <br></br><bold>completamente gratis.</bold>",
     "cards": [
       {
         "number": "01",
@@ -212,12 +212,12 @@
   },
 
   "TitleClientes": {
-    "title": "Compañías que confían en SAP Y Heinsohn",
+    "title": "Compañías que confían en SAP y <br></br>Heinsohn",
     "description": "<bold>soluciones confiables</bold> para empresas que marcan la diferencia."
   },
 
   "titlePorqueSAP": {
-    "title": "¿Por qué SAP Business One con Heinsohn?",
+    "title": "¿Por qué SAP Business One con <br></br>Heinsohn?",
     "description": "Porque Heinsohn no solo implementa SAP Business One, sino que <bold>integra nómina, gestión humana y cumplimiento legal colombiano en un solo ecosistema</bold>, con experiencia probada y acompañamiento real. Además de ser Partner Gold de SAP Business One en Colombia, realiza personalizaciones según las necesidades de cada sector y empresa, con equipo propio de desarrollo y actualizaciones constantes basadas en inteligencia artificial. <bold>Con más de 1.300 implementaciones que nos respaldan</bold>, entregamos un sistema que no compite con el ecosistema de tu empresa, sino que lo optimiza."
   }
   }

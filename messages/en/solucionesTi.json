@@ -2,7 +2,7 @@
   "solucionesTi": {
     "dataHeroSolucionesTI": {
       "title": "IT Solutions",
-      "description": "We transform technology into value for your business.",
+      "subtitle": "We transform technology into value for your business.",
       "buttonText": "Request a free consultation",
       "breadcrumb": [
         { "label": "Solutions" },
@@ -12,7 +12,7 @@
    
     "titlesSolucionesTi": {
       "title1": "Software Engineering and Digital Product Development",
-      "title2": "Data Analytics and Artificial Intelligence",
+      "title2": "Data Analytics and Artificial <br></br>Intelligence",
       "title3": "Extended Engineering and Dedicated Teams",
       "title4": "Strategic Consulting",
       "title5": "Learn about our work"

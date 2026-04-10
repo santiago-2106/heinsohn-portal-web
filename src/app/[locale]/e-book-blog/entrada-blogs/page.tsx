@@ -1,13 +1,11 @@
 import EbookBlogs from "@/src/components/forms/formularios/EbookBlogs";
 import CardLayout from "@/src/components/layout/grids/CardLayout";
 import SearchSection from "@/src/components/sections/shared/buscador/SearchSection";
-import BannerFiguras from "@/src/components/sections/shared/figura/BannerFiguras";
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import CardBlog from "@/src/components/sections/shared/sectioncard/CardBlog";
 import HeroSvg from "@/src/components/svgs/HeroSvg";
 import { richText } from "@/src/hooks/helper/richText";
 import { useTranslations } from "next-intl";
-import Carrusel from "../../../../components/carrusel/Carrusel";
 
 
 export default function page() {

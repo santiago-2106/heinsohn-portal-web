@@ -61,12 +61,10 @@ export default function Card({
         {title}
       </h3>
 
-      {/* DESCRIPCIÓN */}
       {description && (
-        <p 
-          className="mb-6 text-sm md:text-base leading-relaxed text-text-body mt-2"
-          dangerouslySetInnerHTML={{ __html: description }}
-        />
+        <p className="mb-6 text-sm md:text-base leading-relaxed text-text-body mt-2">
+          {description}
+        </p>
       )}
 
       {btnPosition === "top" && Button}
@@ -102,24 +100,20 @@ export default function Card({
         </div>
       )}
 
-      {/* FOOTER */}
       {
         textoFooter && (
-          /* Se agregó mt-auto aquí para empujar el footer siempre al fondo */
-          <div className="border-t border-border-ui pt-8 mt-auto min-w-full">
-            <p 
-              className="text-text-body leading-relaxed" 
-              dangerouslySetInnerHTML={{ __html: textoFooter }}
-            />
+          <div className="border-t border-border-ui pt-8 mb-8 min-w-full">
+            <p className="text-text-body leading-relaxed">{textoFooter}</p>
           </div>
         )
       }
 
       {btnPosition === "bottom" && (
-        <div className={!textoFooter ? "mt-auto" : ""}>
+        <div className="">
           {Button}
         </div>
       )}
+
     </div>
   );
 }

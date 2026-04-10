@@ -24,34 +24,31 @@ import {
   infoStaffArgumentation6,
   dataPreguntasFrecuentesStaff
 } from "@/src/data/soluciones/staff-augmentation/index";
+import { useTranslations } from "next-intl";
+import { richText } from "@/src/hooks/helper/richText";
 
 export default function StaffAugmentationPage() {
+  const t = useTranslations("staffAugmentation")
+
   return (
     <main className="bg-bg-main min-h-screen transition-colors duration-300">
       
       {/* 1. HERO */}
       <Hero
-        title={dataStaffHero.title}
-        description={dataStaffHero.description}
-        buttonText={dataStaffHero.buttonText}
-        breadcrumb={dataStaffHero.breadcrumb}
-        showImage={true}
+        title={t("dataHeroStaffArgumentation.title")}
+        subtitle={t("dataHeroStaffArgumentation.subtitle")}
+        description={t.rich("dataHeroStaffArgumentation.description", richText)}
+        buttonText={t("dataHeroStaffArgumentation.buttonText")}
+        breadcrumb={t.raw("dataHeroStaffArgumentation.breadcrumb")}
       />
 
       {/* 2. SÍNTOMAS */}
       {/* Sin border-t border-border-ui para quitar las líneas separadoras */}
       <section className="py-16">
-        <div className="text-center mx-auto max-w-4xl px-4 mb-8">
-          {/* Título y texto pegados: quitamos mb-6 y le pusimos mt-2 al texto */}
-          <TextComponent
-            title={<div className="text-3xl md:text-4xl text-text-title font-light">{titleStaffArgumentation1.title}</div>}
-            description={<div className="text-base text-text-body leading-relaxed mt-2">{titleStaffArgumentation1.description}</div>}
-          />
-        </div>
         <SectionAnuncies 
-          title="" 
-          description="" 
-          cards={infoStaffArgumentation} 
+          title={t.rich("StaffArgumentation1.title", richText)} 
+          description={t.rich("StaffArgumentation1.description", richText)}
+          cards={t.raw("StaffArgumentation1.cards1")} 
           cols={2}
           bottomText="Con Heinsohn, optimizas costos, eliminas cuellos de botella y accedes a talento que acelera tus proyectos desde el primer día."
           bottomBtn="Agenda tu sesión de diagnóstico y conoce perfiles disponibles"
@@ -60,12 +57,11 @@ export default function StaffAugmentationPage() {
 
       {/* 3. EL MODELO DE STAFFING */}
       <section className="py-16">
-        <div className="text-center mx-auto max-w-2xl px-4 mb-12">
           <TextComponent
-            title={<div className="text-3xl md:text-4xl text-text-title font-light">{titleStaffArgumentation2.title}</div>}
-            description={<div className="text-base text-text-body leading-relaxed mt-2">{titleStaffArgumentation2.description}</div>}
+            title={t.rich("titlesStaffArgumentation.title1.title", richText)}
+            description={t.rich("titlesStaffArgumentation.title1.description", richText)}
           />
-        </div>
+
         
         <div className="mx-auto max-w-7xl px-6 md:px-12 xl:px-24">
           {/* LÍNEAS EXACTAS Y PEGADAS */}
@@ -82,22 +78,16 @@ export default function StaffAugmentationPage() {
             </div>
           </div>
           
-          <CardResultados data={infoStaffArgumentation2} />
+          <CardResultados data={t.raw("cardStaffArgumentation2")} />
         </div>
       </section>
 
       {/* 4. ESPECIALISTAS TI */}
       <section className="py-16">
-        <div className="text-center mx-auto max-w-4xl px-4 mb-8">
-          <TextComponent
-            title={<div className="text-3xl md:text-4xl text-text-title font-light">{titleStaffArgumentation3.title}</div>}
-            description={<div className="text-base text-text-body leading-relaxed mt-2">{titleStaffArgumentation3.description}</div>}
-          />
-        </div>
         <SectionAnuncies 
-          title="" 
-          description="" 
-          cards={infoStaffArgumentation3} 
+          title={t.rich("titlesStaffArgumentation.title3.title", richText)}
+          description={t("titlesStaffArgumentation.title3.description")} 
+          cards={t.raw("cardStaffArgumentation3")} 
           cols={2}
           bottomBtn="Contacta un especialista y encuentra el talento perfecto para tu equipo"
           alignHeader="center"

@@ -24,7 +24,7 @@ export default function ModelosDesarrollo() {
           cards={t.raw("cardModeloDesarrollo1")}
           cols={3}
         />
-       <div className=" md:-mt-36">
+       <div className="-mt-32 md:-mt-48">
         <CardAnuncies
           title=""
           cards={t.raw("cardModeloDesarrollo2")}

@@ -11,7 +11,7 @@ const imagesCarrusel = [
 
 export default function Carrusel() {
   return (
-    <div className="max-w-6xl overflow-hidden mask[linear-gradient(to_right,transparent,black,black,transparent)]">
+    <div className="max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,black,transparent)]">
 
       <div className="flex w-max animate-[scroll_20s_linear_infinite] [animation-delay:3s] [animation-fill-mode:forwards] hover:[animation-play-state:paused]">
         

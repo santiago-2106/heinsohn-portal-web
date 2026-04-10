@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 // Componentes
 import Hero from "@/src/components/sections/shared/hero/Hero";
 import TextSections from "@/src/components/ui/typography/TextSections";
-import CardAnuncies from "@/src/components/sections/shared/sectioncard/SectionAnuncies";
 
 // Data Centralizada
 
