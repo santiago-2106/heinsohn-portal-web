@@ -15,6 +15,7 @@ export default function pageIndustrias() {
       title={t("dataHeroIndustrias.title")}
       subtitle={t.rich("dataHeroIndustrias.subtitle", richText)}
       breadcrumb={ t.raw("dataHeroIndustrias.breadcrumb") }
+      booleanSVG={true}
       />
       <CardAnuncies 
       title={t("titlesIndustrias.title1.title")}

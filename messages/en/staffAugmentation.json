@@ -1,8 +1,8 @@
 {
   "staffAugmentation": {
-    "infoStaffArgumentationHero": {
+    "dataHeroStaffArgumentation": {
       "title": "IT Staff Augmentation",
-      "description": "<>Strengthen your operations with our staff augmentation service designed based on experience, analysis, and understanding of your business. At Heinsohn, we have technical teams customized to your goals, integrating experts in software development, QA, data, architecture, and artificial intelligence. <br /><span className=\"font-semibold text-gary-800\">Optimize costs, scale capabilities, and accelerate your deliveries with a flexible, transparent model aligned to your time zones. </span><ul className=\"flex flex-col gap-3 mt-2\"><li className=\"flex items-start gap-2\"><strong className=\" font-bold\"><span className=\"text-brand-accent\">+</span>45</strong><span>years of experience in enterprise technological solutions.</span></li><li className=\"flex items-start gap-2\"><span><span className=\"font-bold\">Multidisciplinary</span> teams to integrate into your operations</span></li></ul></>",
+      "description": "Strengthen your operations with our staff augmentation service designed based on experience, analysis,",
       "buttonText": "Build your ideal team now",
       "breadcrumb": [
         {

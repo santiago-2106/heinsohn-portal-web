@@ -11,8 +11,8 @@ const HeroSvg: React.FC = () => {
         viewBox="0 0 1920 398"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        stroke="gray"
-        className="w-full h-auto border border-border-ui"
+        stroke="currentColor"
+        className="w-full h-auto opacity-50"
         preserveAspectRatio="xMidYMid slice"
       >
         {/* RECTÁNGULOS BASE (IMAGEN 2) */}

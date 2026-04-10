@@ -5,7 +5,6 @@ import { Navigation } from "swiper/modules"
 import { dataCard } from "@/src/types/cardTypes" 
 import Card from "../ui/cards/Card"
 
-// Importaciones CSS de Swiper necesarias para que funcione bien
 import 'swiper/css'
 import 'swiper/css/navigation'
 
@@ -17,36 +16,32 @@ interface cardSilderSwiper {
 export default function SliderSolDigital({ title, cards = [] }: cardSilderSwiper) {
   return (
     <section className="py-8 sm:py-12 md:py-16 w-full bg-bg-main transition-colors duration-300">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 md:px-8 lg:px-12">
+      <div className="mx-auto max-w-7xl px-6 md:px-12 lg:px-20">
         
-        {/* Título de la sección */}
+        {/* Título alineado a la izquierda para mantener consistencia visual */}
         <div className="mb-10 text-center">
-          <h2 className="text-3xl md:text-4xl text-text-title font-semibold">{title}</h2>
+          <h2 className="text-3xl md:text-4xl text-text-title font-light">{title}</h2>
         </div>
         
-        {/* Carrusel */}
         <Swiper 
           modules={[Navigation]}
-          breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
-            1280: { slidesPerView: 3 },
-          }}
+          // slidesPerView: "auto" es vital para que respete el ancho fijo de 400px de la UX
+          slidesPerView={"auto"}
           navigation={{
             prevEl: '.prev-btn',
             nextEl: '.next-btn'
           }}
-          spaceBetween={24}
-          className="pb-4" // Un poco de padding abajo para que la sombra no se corte
+          spaceBetween={24} // Gap de 24px según UX
+          className="pb-4"
         >
           {
             cards.map((card, index) => (
-              // LA MAGIA ESTÁ AQUÍ: !h-auto y flex fuerzan a que todos los slides tengan la misma altura
               <SwiperSlide 
                 key={index} 
-                className="!h-auto flex border border-border-ui bg-bg-card-2 transition-shadow duration-300 hover:shadow-md"
+                // UX: Width Fixed (400px), Height Fixed/Fill (322px), Border 1px
+                className="w-100! !h-[322px] flex border border-border-ui bg-bg-card-2 transition-shadow duration-300 hover:shadow-md"
               >
-                {/* h-full asegura que la carta interna se estire completamente */}
+                {/* UX: Padding Top/Bottom 32px, Left/Right 24px, Gap 24px */}
                 <div className="w-full h-full flex flex-col">
                   <Card {...card}/>
                 </div>
@@ -55,7 +50,7 @@ export default function SliderSolDigital({ title, cards = [] }: cardSilderSwiper
           }
         </Swiper>
 
-        {/* CONTROLES DE NAVEGACIÓN (Corregidos a la izquierda) */}
+        {/* CONTROLES DE NAVEGACIÓN */}
         <div className="flex justify-start gap-4 mt-8">
           <button 
             aria-label="Ver tarjetas anteriores"

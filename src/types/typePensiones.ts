@@ -23,6 +23,7 @@ export interface ResultsCorporativoData {
 }
 
 export interface ResultsCorporativoProps {
+  t?:string
   data: ResultsCorporativoData;
 }
 

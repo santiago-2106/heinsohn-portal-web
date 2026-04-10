@@ -43,7 +43,7 @@
         "title":"Frequently Asked Questions"
       },
       "titleContactForm":{
-        "title":"Do you have a project in mind?"
+        "title":"Contact Us"
       }
     },
     "textBtn": { 
@@ -325,13 +325,13 @@
 
     "sliderDesarrolloAlaMedida":{
     "title": "Destacated Blogs",
-     "items":[
+     "items": [
       {
-        "id":1,
-        "img": "/img/edif.jpg",
-        "title": "Digital Transformation in the Financial Sector",
-        "description": "We implemented a custom digital platform that improved customer experience and reduced operation times by 40%.",
-        "btn": "Read the full case"
+      "id": 1,
+      "img": "/img/slider2Blog.jpg",
+      "title": "UX Trends Shaping the Future of Digital Design",
+      "description": "Explore how personalization, inclusive design, and micro-interactions are transforming the way people interact with digital platforms.",
+      "btn": "View the full case study"
       },
       {
         "id":2,

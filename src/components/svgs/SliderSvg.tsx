@@ -3,14 +3,12 @@ import React from 'react';
 const SliderSvg: React.FC = () =>{
   return (
     <svg
-      width="481"
-      height="582"
-      viewBox="0 0 481 582"
+      
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       preserveAspectRatio="xMinYMin meet"
-      className=""
-      stroke="gray"
+      className="w-[390px] h-[582px]"
+      stroke="currentColor"
     >
       {/* Rectángulos de estructura */}
       <rect 

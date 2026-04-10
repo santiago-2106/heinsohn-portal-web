@@ -40,6 +40,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const casoExito = (await import(`../../messages/${locale}/casoExito.json`)).default;
   const agenteAviso = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
   const agente = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
+  const staffAugmentation = (await import(`../../messages/${locale}/staffAugmentation.json`)).default;
   return {
     locale,
     messages: {
@@ -72,7 +73,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...soporte, 
       ...casoExito,
       ...agenteAviso,
-      ...agente
+      ...agente,
+      ...staffAugmentation
     }
     
   };

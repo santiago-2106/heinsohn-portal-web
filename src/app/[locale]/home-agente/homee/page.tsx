@@ -6,12 +6,14 @@ import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAn
 import HeroSvg from '@/src/components/svgs/HeroSvg'
 import TextSections from '@/src/components/ui/typography/TextSections'
 import { richText } from '@/src/hooks/helper/richText'
+import mapRich from '@/src/hooks/mapRich'
 import { useTranslations } from 'next-intl'
 
 export default function pageHome() {
 
   const t = useTranslations("HomeHeinsohn")
-  
+  //Cards Soluciones del Home ajuste para estilos segun la ux
+  const cardSoluciones = mapRich(t, "cardSolucionesHome.cardsHome")
   return (
     <div>
       <Hero 
@@ -33,7 +35,7 @@ export default function pageHome() {
       <CardAnuncies 
       title={t("cardSolucionesHome.title")}
       description={t.rich("cardSolucionesHome.description", richText)}
-      cards={t.raw("cardSolucionesHome.cardsHome")}
+      cards={cardSoluciones}
       cols={1}
       alignHeader='left'
       />

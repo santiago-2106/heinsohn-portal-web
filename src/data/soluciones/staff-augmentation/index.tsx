@@ -95,6 +95,7 @@ export const infoStaffArgumentation2: ResultsCorporativoData = {
   metrics: [
     {
       id: "compliance",
+      positionIcon:"top",
       icon: (
         <span className="material-symbols-rounded text-brand-accent font-light" style={{ fontSize: "40px" }}>gavel</span>
       ),
@@ -107,6 +108,7 @@ export const infoStaffArgumentation2: ResultsCorporativoData = {
     },
     {
       id: "cost",
+      positionIcon:"top",
       icon: (
         <span className="material-symbols-rounded text-brand-accent font-light" style={{ fontSize: "40px" }}>error_outline</span>
       ),
