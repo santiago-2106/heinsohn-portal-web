@@ -54,9 +54,27 @@
       "title": "Especialistas TI para cada etapa de tu <br></br> transformación tecnológica",
       "description": "Nuestros equipos cubren todas las necesidades del ciclo de desarrollo tecnológico: "
     },
-    "title4": {
-      "title": "Tu aliado estratégico en Staff Augmentation",
-      "description": "Más de cuatro décadas de experiencia nos respaldan como uno de los aliados tecnológicos más sólidos en Latinoamérica. No solo te ofrecemos talento, sino un modelo de colaboración pensado para la continuidad, eficiencia y calidad.<br></br><bold>Nuestro diferencial</bold>"
+     "title4": {
+      "title": "Por qué el Staff Augmentation TI<br></br> impulsa tu negocio desde el primer día ",
+      "description": "Implementar un modelo de staffing te permite concentrarte hacer crecer tu negocio mientras <br></br> nosotros gestionamos el talento."
+    },
+    "title5": {
+      "title": "Tu aliado estratégico en <br></br> Staff Augmentation",
+      "description": "Más de cuatro décadas de experiencia nos respaldan como uno de los aliados tecnológicos más sólidos en Latinoamérica. No solo te ofrecemos talento, sino un modelo de colaboración pensado para la continuidad, eficiencia y calidad.<br></br><br></br><bold>Nuestro diferencial</bold>"
+    },
+    "title6":{
+      "title":"Así construimos tu equipo de TI ideal,<br></br> paso a paso"
+    },
+     "title7":{
+      "title":"Tiempo promedio de vinculación",
+      "description":"<bold>2 a 3 semanas</bold>"
+    },
+
+    "description1":{
+      "description":"Modelos disponibles"
+    },
+    "description2":{
+      "description":"Modalidades"
     }
   },
 
@@ -82,189 +100,195 @@
       ]
     },
 
-    "cardStaffArgumentation3": [
+    "cardStaffArgumentation3": {
+      "cards3":[
       {
-        "icon":"",
+        "icon":"devices_other",
         "title": "Desarrollo y modernización",
         "items": [
           {
             "titulo": "Frontend",
-            "textos": "Implementación de interfaces modernas con React, Angular, Vue.js y Next.js."
+            "textos": "React, Angular, Vue.js y Next.js."
           },
           {
-            "titulo": "Desarrollo backend",
-            "textos": "Construcción de servicios y APIs con Java (Spring Boot), Node.js, Python (FastAPI/Django) y .NET Core."
+            "titulo": "Backend",
+            "textos": "Java (Spring Boot), Node.js, Python (FastAPI/Django) y .NET Core."
           },
           {
-            "titulo": "Desarrollo full stack",
-            "textos": "Implementación integral con stacks como MERN, MEAN y combinaciones Java + React/Angular."
+            "titulo": "FullStack",
+            "textos": "MERN, MEAN y combinaciones Java + React/Angular."
           },
           {
-            "titulo": "Desarrollo móvil",
-            "textos": "Aplicaciones móviles nativas e híbridas con Swift, Kotlin, React Native y Flutter."
+            "titulo": "Mobile",
+            "textos": "Swift, Kotlin, React Native y Flutter."
           }
         ]
       },
       {
-        "icon":"",
-        "title": "Calidad y eficiencia",
+        "icon":"diamond_shine",
+        "title": "Calidad y eficiencia (QA & SDET)",
         "items": [
           {
-            "titulo": "Automatización de pruebas",
-            "textos": "Diseño y ejecución de pruebas automatizadas con Playwright, Cypress, Selenium y Appium."
+            "titulo": "Automation",
+            "textos": "Playwright, Cypress, Selenium y Appium."
           },
           {
-            "titulo": "Ingeniería de pruebas",
-            "textos": "Construcción de frameworks de pruebas robustos, escalables y mantenibles."
+            "titulo": "SDET (Software Development Engineer in Test)",
+            "textos": "Creación de frameworks de pruebas robustos y escalables."
           },
           {
-            "titulo": "Pruebas funcionales y técnicas",
-            "textos": "Pruebas funcionales, de regresión, rendimiento (JMeter) y seguridad."
+            "titulo": "Testing ",
+            "textos": "Funcional, regresión, performance (JMeter) y pruebas de seguridad iniciales. "
           }
         ]
       },
       {
-        "icon":"",
+        "icon":"cloud_sync",
         "title": "Infraestructura, nube y seguridad",
         "items": [
           {
-            "titulo": "Servicios en la nube",
-            "textos": "Implementación y gestión en AWS, Azure y Google Cloud."
+            "titulo": "Cloud & Platform",
+            "textos": "AWS, Azure, Google Cloud (GCP)."
           },
           {
-            "titulo": "Automatización y operaciones",
-            "textos": "Orquestación y despliegue continuo con Kubernetes, Terraform, Docker e integración continua."
+            "titulo": "DevOps & SRE",
+            "textos": "Kubernetes (K8s), Terraform, Docker, CI/CD Pipelines (GitHub Actions, Jenkins)."
           },
           {
-            "titulo": "Ciberseguridad",
-            "textos": "Seguridad integrada al desarrollo, gestión de accesos, cumplimiento normativo y pruebas de penetración."
+            "titulo": "Cybersecurity",
+            "textos": "DevSecOps, IAM, cumplimiento (SOC2/HIPAA compliance support Pentesting."
           }
         ]
       },
       {
-        "icon":"",
+        "icon":"palette",
         "title": "Análisis, diseño y estrategia",
         "items": [
           {
-            "titulo": "Diseño de producto y experiencia",
-            "textos": "Definición de productos digitales y experiencias centradas en el usuario con Figma y Adobe XD."
+            "titulo": "Product & UX/UI",
+            "textos": "Product Designers, UX Researchers, Service Design (Figma, Adobe XD).."
           },
           {
-            "titulo": "Gestión ágil de proyectos",
-            "textos": "Dirección de proyectos con metodologías ágiles y marcos de trabajo colaborativos."
+            "titulo": "Agile Management",
+            "textos": "Project Managers, Scrum Masters, Delivery Managers. "
           },
           {
-            "titulo": "Análisis de negocio",
-            "textos": "Levantamiento, documentación y validación de requerimientos técnicos y funcionales."
+            "titulo": "Business Analysis",
+            "textos": "Analistas funcionales y de negocio con enfoque en requerimientos técnicos. "
           }
         ]
       },
       {
-        "icon":"",
-        "title": "Ingeniería de datos e inteligencia artificial",
+        "icon":"auto_awesome",
+        "title": "Ingeniería de datos e IA",
         "items": [
           {
-            "titulo": "Ingeniería de datos",
-            "textos": "Diseño de arquitecturas y procesamiento de datos con Snowflake, Databricks, dbt, Apache Airflow y Spark."
+            "titulo": "Data Engineering",
+            "textos": "Snowflake, Databricks, dbt, Apache Airflow, Spark."
           },
           {
-            "titulo": "Inteligencia artificial y modelos generativos",
-            "textos": "Desarrollo de soluciones con modelos de lenguaje, bases de datos vectoriales y arquitecturas RAG."
+            "titulo": "AI & GenAI",
+            "textos": "LLM Engineering (LangChain, OpenAI API), Vector Databases (Pinecone), RAG Architecture."
           },
           {
-            "titulo": "Aprendizaje automático",
-            "textos": "Construcción, entrenamiento y despliegue de modelos con MLOps, PyTorch, TensorFlow y Scikit-learn."
+            "titulo": "Machine Learning",
+            "textos": "MLOps, PyTorch, TensorFlow, Scikit-learn. "
           },
           {
-            "titulo": "Analítica y visualización",
-            "textos": "Inteligencia de negocio y análisis avanzado con Power BI y Tableau."
+            "titulo": "Analytics",
+            "textos": "BusinessIntelligence(Power BI, Tableau), AnalyticsEngineering."
           }
         ]
       },
       {
-        "icon":"",
+        "icon":"architecture",
         "title": "Liderazgo y arquitectura",
         "items": [
           {
-            "titulo": "Arquitectura tecnológica",
-            "textos": "Definición de arquitecturas de software, nube y datos para soluciones empresariales."
+            "titulo": "Arquitectura",
+            "textos": "Software, Cloud, Datos y Soluciones Enterprise."
           },
           {
-            "titulo": "Búsqueda de liderazgo tecnológico",
-            "textos": "Incorporación de líderes técnicos en roles estratégicos de dirección tecnológica."
+            "titulo": "Executive Search",
+            "textos": "Tech Leads, VP of Engineering, CTOS fraccionados o permantes"
           }
         ]
-      }
-    ],
+      }],
+      "bottomBtn":"Contacta un especialista y encuentra el talento perfecto para tu equipo"
+    },
 
-    "cardStaffArgumentation4": [
+    "cardStaffArgumentation4": {
+      
+      "cards4":[
       {
-        "icon":"",
+        "icon":"portrait",
         "title": "Optimizacion de costos",
         "description": "Reduce gastos administrativos y operativos."
       },
       {
-        "icon":"",
+        "icon":"add_reaction",
         "title": "Contratacion agil",
         "description": "Perfiles disponibles en 2 a 3 semanas."
       },
       {
-        "icon":"",
+        "icon":"digital_wellbeing",
         "title": "Talento de primer nivel",
         "description": "Especialistas validados técnica y culturalmente."
       },
       {
+        "icon":"portrait",
         "title": "Cercania y colaboracion",
         "description": "Talento en tu misma zona horaria."
       },
       {
-        "icon":"",
+        "icon":"portrait",
         "title": "Escalabilidad total:",
         "description": "Amplía o reduce tu equipo según las demandas del proyecto."
       },
       {
-        "icon":"",
+        "icon":"portrait",
         "title": "Transparencia",
         "description": "Seguimiento, métricas y reportes de productividad."
-      }
+      }],
+      "bottomBtn":"Descubre cómo reducir costos con staffing especializado "
+    },
+
+    "textoBtnMapa":"Empieza tu hoja de ruta AI personalizada",
+
+    "cardStaffArgumentation5": [
+      {"icon":"sync_saved_locally", "description": "Metodología Data-Driven 360°." },
+      {"icon":"diamond_shine", "description": "Certificación CMMI Nivel 5 y metodologías ágiles (Scrum,OKR, Lean)." },
+      {"icon":"language", "description": "Cobertura regional con sedes en LATAM y Norteamérica." },
+      {"icon":"contact_support", "description": "Soporte continuo y acompañamiento operativo." }
     ],
 
-    "infoStaffArgumentation5": [
-      {
-        "indicador": "01",
-        "title": "Evaluación de necesidades",
-        "description": "Entendemos tu contexto y los perfiles requeridos."
-      },
-      {
-        "indicador": "02",
-        "title": "Selección y validación",
-        "description": "Preseleccionamos y evaluamos técnicamente a los candidatos."
-      },
-      {
-        "indicador": "03",
-        "title": "Formalización",
-        "description": "Acuerdos transparentes y soporte completo en contratación."
-      },
-      {
-        "indicador": "04",
-        "title": "Ejecución",
-        "description": "El equipo se integra a tus operaciones con seguimiento constante."
-      }
-    ],
-    "infoStaffArgumentation6": [
-      {
-        "description": "Metodología Data-Driven 360°."
-      },
-      {
-        "description": "Certificación CMMI Nivel 5 y metodologías ágiles (Scrum, OKR, Lean)."
-      },
-      {
-        "description": "Cobertura regional con sedes en LATAM y Norteamérica."
-      },
-      {
-        "description": "Soporte continuo y acompañamiento operativo."
-      }
-    ],
+    "staffArgumentationTimeline": [
+    {
+      
+      "indicador": "01.",
+      "title": "Evaluación de necesidades",
+      "description": "Entendemos tu contexto y los perfiles requeridos."
+    },
+    {
+      
+      "indicador": "02.",
+      "title": "Selección y validación",
+      "description": "Preseleccionamos y evaluamos técnicamente a los candidatos. "
+    },
+    {
+      
+      "indicador": "03.",
+      "title": "Formalización",
+      "description": "Acuerdos transparentes y soporte completo en contratación"
+    },
+    {
+      
+      "indicador": "04.",
+      "title": "Ejecución",
+      "description": "El equipo se integra a tus operaciones con seguimiento constante."
+    }
+  ],
+
     "dataPreguntasFrecuentesStaff": [
       {
         "question": "¿Se trata de un solo software o de varias soluciones diferentes?",
