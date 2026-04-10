@@ -1,0 +1,343 @@
+{
+  "TerminosCondiciones": {
+    "title": "Términos y condiciones de Heinsohn Business Technology S.A. BIC",
+    "download": "Descargar",
+    "readingTime": "15m de lectura",
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Términos y condiciones"
+    },
+    "sections": [
+      {
+        "id": "identificacion-partes",
+        "number": "01",
+        "title": "Identificación de las partes",
+        "subsections": [
+          {
+            "subNumber": "1.1",
+            "subtitle": "Proveedor de servicios de nube – contratista",
+            "content": "Heinsohn Business Technology S.A. BIC, identificada con NIT 800.046.226-8, constituida en la ciudad de Bogotá y registrada en la Cámara de Comercio de Bogotá."
+          },
+          {
+            "subNumber": "1.2",
+            "subtitle": "Consumidor de servicios de nube – contratante",
+            "content": "Para todos los efectos, representa una persona natural o jurídica que contrata los servicios que presta proveedor de servicios de nube – contratista, a cambio de un valor acordado, manteniendo una relación contractual con éste. Se identificará claramente en las órdenes de servicios."
+          },
+          {
+            "subNumber": "1.3",
+            "subtitle": "Denominación en conjunto",
+            "content": "Cuando en los presentes términos y condiciones se haga referencia en conjunto al proveedor de servicios de nube – contratista y al consumidor de servicios de nube – contratante se denominará “las partes”."
+          }
+        ]
+      },
+      {
+        "id": "objetos-terminos",
+        "number": "02",
+        "title": "Objeto de los términos y condiciones",
+        "paragraphs": [
+          "El objeto de los presentes términos y condiciones es regular los aspectos jurídicos de la relación de negocios entre las partes, de manera que cada servicio que acuerden se formalice mediante una orden de servicio.",
+          "Las órdenes de servicios incluirán las condiciones particulares de cada negocio, las cuales constituirán la regulación contractual aplicable entre las partes y que se interpretará en conjunto y de manera complementaria con lo aquí dispuesto.",
+          "Es claro y aceptado por las partes que solo será obligación para ellas lo que de manera expresa incluyan en la orden de servicio correspondiente y en lo no regulado de manera expresa en las órdenes de servicio se deberán regir por lo dispuesto en los presentes términos y condiciones, siendo estos accesorios a la orden de servicio."
+        ]
+      },
+      {
+        "id": "condiciones-pago",
+        "number": "03",
+        "title": "Condiciones de pago",
+        "paragraphs": [
+          "El consumidor de servicios de nube - contratante pagará al proveedor de servicios de nube - contratista las sumas que se establezcan en las respectivas órdenes de servicios, en los tiempos y con las condiciones acordadas entre las partes. Las facturas que se generen por las órdenes de servicios se radicarán según lo indicado en aquellas y, salvo que la orden de servicio indique otra cosa, las sumas serán pagaderas transcurridos treinta (30) días calendario posteriores a la radicación de la factura en la dirección y/o correo electrónico indicado por el consumidor de servicios de nube - contratante.",
+          "El proveedor de servicios de nube - contratista presentará las facturas en cumplimiento con la normatividad aplicable, por lo que éstas deberán incluir, al menos, la siguiente información: (i) nombre del proveedor de servicios de nube - contratista; (ii) dirección física y/o electrónica del proveedor de servicios de nube - contratista; (iii) fecha; (iv) concepto del pago y descripción de los servicios efectivamente prestados y (v) monto a pagar.",
+          "El consumidor de servicios de nube - contratante deberá entregar al proveedor de servicios de nube - contratista la información del correo electrónico y dirección de domicilio donde se remitirá la facturación electrónica.",
+          "<b>Parágrafo primero:</b> Cualquier cambio o modificación en el correo especificado deberá ser comunicado al proveedor de servicios de nube - contratista al correo electrónico cartera@heinsohn.com.co. La solicitud de cambio o modificación no surtirá efecto hasta que el proveedor de servicios de nube - contratista acuse recibo de dicho cambio o modificación. Por lo anterior, el proveedor de servicios de nube - contratista no aceptará devolución de la facturación si el documento es rechazado por cambio de correo electrónico de radicación sin cumplimiento de lo aquí contemplado.",
+          "<b>Parágrafo segundo:</b> En caso de incumplimiento en el pago de cualquiera de los valores estipulados en la orden de servicios correspondiente, el consumidor de servicios de nube - contratante reconocerá a favor del proveedor de servicios de nube - contratista los intereses de mora, a la máxima tasa del mercado establecida por las autoridades nacionales competentes, para el período correspondiente, aunado a la indemnización de perjuicios que se pudiere causar en cabeza del proveedor de servicios de nube – contratista tales como gastos o costos ocasionados como consecuencia del incumplimiento, sin perjuicio de las acciones legales a las que haya lugar.",
+          "<b>Parágrafo tercero:</b> El incumplimiento en cualquiera de los pagos por parte del consumidor de servicios de nube - contratante faculta al proveedor de servicios de nube - contratista para que, a su elección, suspenda o dé por terminada la prestación del servicio, sin que estas acciones realizadas por el proveedor de servicios de nube - contratista constituyan incumplimiento contractual, por lo que el consumidor de servicios de nube – contratante no podrá exigir la prestación de los servicios objeto de la orden de servicios incumplida así como tampoco podrá reclamar indemnización, compensación o sanción alguna a su favor. En los casos donde el proveedor de servicios de nube – contratista opte por la suspensión del servicio deberá requerir el pago debido y notificar a su vez la consecuencia del incumplimiento con un término no menor a cinco (5) días calendario previos a la ejecución de la suspensión. Por otro lado, en los casos en que el proveedor de servicios de nube – contratista opte por la terminación del contrato, deberá requerir el pago debido y notificar a su vez la consecuencia del incumplimiento con un término de por lo menos quince (15) días calendario previos a la ejecución de la respectiva acción.",
+          "<b>Parágrafo cuarto:</b> Bajo ningún concepto se realizarán devoluciones sobre los valores pagados por el consumidor de servicios de nube – contratante al proveedor de servicios de nube - contratista con ocasión a los servicios efectivamente prestados en virtud de las órdenes de servicios.",
+          "<b>Parágrafo quinto:</b> A los valores estipulados en las órdenes de servicio se les adicionará el monto correspondiente de impuestos, el cual se liquidará según la legislación vigente en el territorio aplicable en el momento de emisión de la factura correspondiente.",
+          "<b>Parágrafo sexto:</b> Cuando el valor descrito en la órdenes de servicio se establezca en pesos colombianos, éste se incrementará a partir del primero (1) de enero de cada año, de conformidad con la forma establecida en las órdenes de servicio."
+        ]
+      },
+      {
+        "id": "limitacion-responsabilidad",
+        "number": "04",
+        "title": "Limitación de responsabilidad del proveedor",
+        "paragraphs": [
+          "La responsabilidad del proveedor de servicios de nube - contratista se limitará a prestar los servicios de conformidad con las propuestas aceptadas por el consumidor de servicios de nube – contratante y con el alcance especificado en las órdenes de servicio bajo los estándares contemplados en los niveles de servicio o en los criterios de aceptación que se anexen a las respectivas órdenes de servicio. El cumplimiento de las obligaciones del proveedor de servicios de nube - contratista en la prestación del servicio está sujeto al cumplimiento por parte del consumidor de servicios de nube – contratante de las obligaciones a su cargo.",
+          "El proveedor de servicios de nube - contratista no garantiza servicios con operation ininterrumpida ni libre de toda falla. En caso de que se llegue a presentar alguna falla del servicio contratado, éste deberá ser reportado por el consumidor de servicios de nube – contratante al proveedor de servicios de nube - contratista con el fin de que sea atendido bajo lo contemplado en los acuerdos de niveles de servicio. Se excluyen de la garantía del servicio las fallas asociadas directamente a su uso por parte del consumidor de servicios de nube – contratante o terceros no administrados por el proveedor de servicios de nube - contratista y que no están vinculadas a un defecto comprobado del mismo servicio.",
+          "En materia contractual, el proveedor de servicios de nube - contratista responderá sin límite de cuantía y por los daños debidamente probados en juicio únicamente en los casos donde quede demostrado el dolo o la culpa grave del proveedor de servicios de nube – contratista, así como en los casos donde se acredite la revelación de información confidencial de propiedad del consumidor de servicios de nube – contratante sin mediar autorización de este o sin que medie un requerimiento de autoridad judicial.",
+          "Para los demás casos, el proveedor de servicios de nube - contratista no será responsable por riesgos propios del negocio del consumidor de servicios de nube – contratante, ni por daños o perjuicios indirectos o consecuenciales, ni por lucro cesante, ni por daños o pérdidas de datos, salvo que dicha pérdida de datos se deba exclusivamente a acciones u omisiones atribuibles al proveedor de servicios de nube - contratista y, en caso de que el proveedor de servicios de nube - contratista llegare a tener que asumir responsabilidad y/o pago de indemnizaciones de perjuicios, supeditado a que legalmente se determine dicha responsabilidad, el monto máximo total posible de la indemnización será una suma equivalente al valor total de la orden de servicios correspondiente si se trata de un servicio de un pago único (con independencia de si se divide en cuotas o instalamentos) o, en el evento de que sea un servicio de pagos por mensualidades, el valor máximo que se reconocerá como indemnización será la suma de las últimas seis (6) mensualidades efectivamente pagadas por el consumidor de servicios de nube – contratante.",
+          "En materia extracontractual la responsabilidad del proveedor de servicios de nube - contratista será en los términos de la ley aplicable."
+        ]
+      },
+      {
+        "id": "indemnidad",
+        "number": "05",
+        "title": "Indemnidad",
+        "paragraphs": [
+          "Cada parte se compromete a cumplir con sus respectivas obligaciones y responsabilidades según estos términos y condiciones y las órdenes de servicio suscritas. En caso de incumplimiento, la parte responsable indemnizará y mantendrá indemne a la otra parte por los daños y perjuicios directamente atribuibles a dicho incumplimiento, en la medida en que estos sean comprobables y estén dentro de las previsiones contractuales.",
+          "De acuerdo con la ley, en materia extracontractual las partes se obligan a mantenerse indemnes de toda obligación, daños y responsabilidades que se generen debido al presente contrato. En este sentido, las partes se obligan a proteger, indemnizar y a mantenerse indemnes con respecto a cualquier perjuicio que puedan sufrir, en especial y sin limitarse a ello, se obligan a defender, indemnizar y salvaguardar a la parte contraria, sus afiliadas, accionistas, funcionarios, directores, cesionarios y trabajadores en general frente a toda demanda, acción, y/o gastos en general (incluyendo costas y costos procesales y gastos razonables de abogados) en la medida que resulten de, surjan de o se relacionen con cualquier litigio o demanda relacionada con responsabilidad extracontractual en la ejecución del presente contrato, entre ellas, las laborales de los empleados de una u otra o reclamaciones de cualquier otra índole.",
+          "Ambas partes acuerdan colaborar mutuamente y proporcionar la información y los elementos necesarios para una defensa efectiva ante cualquier reclamación relacionada con la ejecución de estos términos y las órdenes de servicio. Asimismo, cada parte asume la responsabilidad de gestionar y cubrir los costos de su propia defensa, incluyendo honorarios legales y gastos procesales, en caso de litigios que involucren a terceros."
+        ]
+      },
+      {
+        "id": "confidencialidad",
+        "number": "06",
+        "title": "Confidencialidad",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Cada una de las partes se obliga a no divulgar a terceras partes la información confidencial que reciba de la otra parte, y a darle a dicha información el mismo tratamiento que le darían a la información confidencial de su propiedad. Queda expresamente convenido que cada una de las partes se abstendrá de divulgar, publicar, comunicar o transmitir la información confidencial a terceros, sin el previo consentimiento por escrito de la otra parte y, así mismo, se obligan a tomar las precauciones necesarias y apropiadas para mantener en estricta reserva la información confidencial de propiedad de la otra parte, para lo cual deberán, entre otras actuaciones, informar sobre el carácter de la información y las consecuencias de su divulgación a sus empleados, aprendices, practicantes, contratistas o visitantes, que conozcan o tengan acceso a la información confidencial, en virtud de la ejecución de las órdenes de servicio o por cualquier otra causa, indicando expresamente que la misma no deberá ser divulgada a terceras partes, ni utilizada para provecho de los mismos. La obligación de confidencialidad se mantendrá por cinco (5) años contados a partir de la terminación de la vigencia de las respectivas órdenes de servicio." },
+          { "type": "paragraph", "text": "Información confidencial comprende, sin limitarse, a las órdenes de servicio que se celebren y demás documentos que las integren, la totalidad del o los softwares que se utilicen para la prestación de los servicios, así como todos y cada uno de los códigos que lo componen, manuales, versiones subsiguientes, parametrizaciones, desarrollos y, en general, toda la información divulgada por cualquiera de las partes, ya sea en forma oral, visual, escrita, grabada en medios magnéticos, digitales o en cualquier otra forma tangible con independencia de si se encuentra marcada como tal al ser entregada a la otra parte. Así mismo, será confidencial toda aquella información que se encuentre incluida en todos los sistemas informáticos de las partes, tales como bases de datos, programas y licencias y, en general, toda aquella información compartida entre las partes en virtud de su relación y que no sea del dominio público, así como aquella que constituya secreto industrial." },
+          { "type": "paragraph", "text": "De igual forma, esta obligación de confidencialidad se acentuará cuando la información recibida se relacione con, pero sin limitarse a, know how, técnicas, procedimientos, metodologías, productos, nuevas tecnologías, modelos de negocios, información técnica, financiera, comercial, de mercadeo y estratégica, entre otras, junto con notas, análisis, hojas de trabajo, compilaciones, comparaciones, estudios o cualquier otro documento preparado por las partes, en conjunto o individualmente, que contenga, refleje, esté basado en o sea generado por tal información confidencial. En este sentido, también será confidencial la información claramente marcada como “de propiedad”, “confidencial” o cualquier otra marca similar, sin limitarse a dichas marcas, junto con notas, análisis, hojas de trabajo, compilaciones, comparaciones, estudios o cualquier otro documento preparado por las partes el cual contenga, refleje, esté basado en o sea generado por tal información confidencial. Así mismo, será información confidencial todos los documentos, materiales, información, ideas de o acerca de las partes o de cualquiera de sus clientes o proveedores pasados, presentes o eventuales. En general, se tendrá como información confidencial todo dato cuya revelación, sin autorización de su titular, propietario o tenedor legítimo, implique una afectación, la generación de perjuicios o el menoscabo patrimonial, reputacional o extrapatrimonial a alguna de las partes." },
+          { "type": "paragraph", "text": "El suministro de información confidencial entre las partes no se podrá entender como la cesión y/o transferencia de derecho alguno sobre la información entregada ni sobre los activos tangibles o intangibles sobre los cuales haga referencia directa o indirectamente la información. La información confidencial sólo será revelada a aquellos empleados, funcionarios o contratistas indispensables para la ejecución de las respectivas órdenes de servicio y, en todo caso, estas personas se abstendrán igualmente de utilizar esta información para cualquier fin diferente a la ejecución de las órdenes de servicio que celebren las partes." },
+          { "type": "paragraph", "text": "La obligación de confidencialidad sobre la información confidencial no se extenderá en ningún caso a:" },
+          { "type": "numbered_list", "items": [
+            "Información que sea del dominio público con anterioridad a la fecha en la cual hubiere sido suministrada o que se haga pública, lícitamente, durante la existencia de la relación contractual.",
+            "Información que haya sido previa y legítimamente conocida por cualquiera de las partes sin la obligación de mantenerla bajo confidencialidad.",
+            "Información que haya sido conocida a través de terceros sin que exista la obligación sobre éstos de mantenerla bajo confidencialidad. Esta disposición no aplicará cuando se tenga pleno conocimiento de que dichos terceros no están autorizados para revelar o divulgar dicha información.",
+            "Información desarrollada por separado por alguna de las partes, que genere el mismo resultado, sin utilizar la información confidencial de la contraparte.",
+            "Información sobre la cual sea aprobada su divulgación por medio de autorización escrita de la parte y sólo hasta el límite de dicha autorización."
+          ]},
+          { "type": "paragraph", "text": "Si se le solicitare o exigiere a alguna de las partes o a sus representantes revelar la información confidencial mediante una orden judicial, requerimiento administrativo u otro mecanismo similar, se deberá:" },
+          { "type": "numbered_list", "items": [
+            "Notificar a la contraparte de tal solicitud o requerimiento de manera inmediata y con anterioridad a la divulgación, de tal forma que la contraparte pueda adelantar la acción judicial o administrativa tendiente a la protección de la información confidencial y mitigación de la medida.",
+            "Cooperar en el caso que la contraparte presente cualquier acción para la protección de la información confidencial.",
+            "Revelar estrictamente la información que sea solicitada."
+          ]},
+          { "type": "paragraph", "text": "El incumplimiento del deber de reserva por cualquiera de las partes, sus socios, representantes, empleados y/o contratistas de éstas, así como el uso inadecuado que de la información confidencial se realice, podrá dar lugar a la terminación de las órdenes de servicio vigentes por la parte afectada, aunado a la facultad de reclamar la indemnización de la totalidad de los perjuicios debidamente probados, sin límite de cuantía, la ejecución de la cláusula penal estipulada en la orden de servicio respectiva, si la hubiere, así como la posibilidad de instaurar las acciones penales a las que haya lugar por la violación del deber de reserva." }
+        ]
+      },
+      {
+        "id": "propiedad-intelectual",
+        "number": "07",
+        "title": "Propiedad intelectual",
+        "paragraphs": [
+          "El software, los servicios y todo el contenido de los sitios web, incluidos, entre otros, los códigos, sus desarrollos actuales, así como los que se generen o utilicen en la ejecución de las órdenes de servicio o por fuera de éstas, generando como resultado nuevas versiones, el diseño, los gráficos, los textos, los sonidos, las imágenes, los signos distintivos, los nombres comerciales y en general todos los activos intangibles que se utilicen para la prestación de los servicios están protegidos por derechos de propiedad intelectual (derechos de autor y propiedad industrial) y son propiedad exclusiva del proveedor de servicios de nube – contratista o de un tercero que ha facultado legítimamente al proveedor de servicios de nube – contratista para explotarlos económicamente y utilizarlos para la prestación de los servicios.",
+          "El consumidor de servicios de nube – contratante se compromete a reconocer y respetar todos los derechos de propiedad intelectual asociados con los activos intangibles para la prestación de los servicios, por lo que acepta expresamente que, salvo disposición expresa en contrario dentro de las órdenes de servicio, la prestación de los servicios que se ejecuten en desarrollo de las órdenes de servicio no transfiere aquellos activos intangibles de propiedad industrial y/o de derechos de autor, actuales, eventuales o futuros, que incluyen, sin limitarse, a los códigos, signos distintivos, dibujos, creaciones, contenidos audiovisuales, invenciones, metodologías, patentes, modelos de utilidad, know-how, secretos industriales y documentación que se relacionen o asocien a la operación del proveedor de servicios de nube – contratista (los “activos de propiedad intelectual”), estén ellos registrados o no ante las autoridades competentes.",
+          "El proveedor de servicios de nube – contratista reconoce que no buscará reconocer derecho alguno sobre los activos intangibles que sean de titularidad del consumidor de servicios de nube – contratante y que no tengan relación con las órdenes de servicio que se celebren entre las partes.",
+          "El consumidor de servicios de nube – contratante se compromete a utilizar los activos de propiedad industrial adecuadamente y en concordancia con la finalidad prevista y autorizada por el proveedor de servicios de nube – contratista.",
+          "Salvo disposición expresa en contrario contenida en las órdenes de servicio, el consumidor de servicios de nube – contratante únicamente tendrá el derecho de uso de los softwares que se utilicen para la prestación de los servicios, y en general se obliga a:<br/><br/>(i) Utilizar activos de propiedad intelectual, exclusivamente para fines internos.<br/>(ii) No comercializar a ningún título, ni permitir el uso de los activos de propiedad intelectual por terceros no autorizados expresamente por el proveedor de servicios de nube – contratista.<br/>(iii) No copiar o reproducir, descompilar, desensamblar, traducir o modificar el código o cualquier porción, característica, función o interfaz de usuario de los softwares que se utilicen para la prestación de los servicios, ni a acceder al conocimiento del servicio para crear un producto o servicio competitivo, que represente competencia desleal.<br/>(iv) Tomar todas las precauciones y medidas de seguridad razonables y necesarias para impedir que terceros reproduzcan, descompilen, desensamblen, traduzcan o modifiquen los softwares que se utilicen para la prestación de los servicios.<br/>(v) No podrá usar los servicios para subir, enviar o almacenar datos que sean obscenos, intimidatorios, difamatorios o, en general, no podrá usar los servicios para realizar cualquier actividad de naturaleza ilegal o delictiva, violar los derechos de privacidad de algún tercero, infringir o malversar derechos de propiedad intelectual, etc.<br/>(vi) No podrá realizar, por sí mismo o por medio de terceros, ingeniería inversa a los códigos fuente de los softwares que se utilicen para la prestación de los servicios.",
+          "El incumplimiento de la presente cláusula dará lugar a la terminación inmediata de las órdenes de servicio vigentes, aunado a la indemnización de la totalidad de los perjuicios debidamente probados, sin límite de cuantía, la ejecución de la cláusula penal estipulada en la orden de servicio respectiva, si la hubiere, así como la posibilidad de instaurar las acciones penales a las que haya lugar por la violación de los derechos de propiedad intelectual (derechos de autor y/o propiedad industrial)."
+        ]
+      },
+      {
+        "id": "responsabilidades-generales",
+        "number": "08",
+        "title": "Responsabilidades generales de las partes",
+        "subsections": [
+          {
+            "subNumber": "8.1",
+            "subtitle": "Responsabilidades generales del consumidor de servicios de nube – contratante",
+            "letter_list": [
+              { "prefix": "a)", "text": "Nombramiento de responsable. Asignar un responsable del servicio con capacidad de decisión, encargado de supervisar y coordinar la prestación de los servicios." },
+              { "prefix": "b)", "text": "Disponibilidad de recursos humanos. Asegurar la disponibilidad de personal idóneo para apoyar la gestión y correcta prestación de los servicios." },
+              { "prefix": "c)", "text": "Entrega oportuna de información. Proveer al proveedor de servicios la información requerida de manera oportuna y en el formato acordado para la correcta ejecución de los servicios." },
+              { "prefix": "d)", "text": "Acatar indicaciones. Seguir las instrucciones proporcionadas por el proveedor de servicios para la adecuada prestación de los servicios." },
+              { "prefix": "e)", "text": "Reporte de inconvenientes. Informar por escrito y de manera oportuna cualquier inconveniente relacionado con el uso o la prestación de los servicios." },
+              { "prefix": "f)", "text": "Información a empleados y contratistas. Comunicar a sus socios, empleados y/o contratistas los términos y condiciones aplicables, garantizando el cumplimiento de las obligaciones contractuales." },
+              { "prefix": "g)", "text": "Cumplimiento de políticas antifraude. Respetar y hacer cumplir las políticas antifraude establecidas por ambas partes, e informar de inmediato cualquier conducta contraria a dichas políticas. La política de gestión del fraude del proveedor se encuentra disponible en: https://www.heinsohn.co/politica-de-gestion/" },
+              { "prefix": "h)", "text": "Cumplimiento de políticas de seguridad de la información. Asegurar el cumplimiento de las políticas de seguridad de la información establecidas por el proveedor, e informar cualquier incumplimiento detectado. La política de seguridad de la información del proveedor se encuentra disponible en: https://www.heinsohn.co/politica-seguridad-informacion/" },
+              { "prefix": "i)", "text": "Pago oportuno. Cancelar los montos establecidos en las órdenes de servicio en los plazos y términos acordados." },
+              { "prefix": "j)", "text": "Uso legítimo de los servicios. Utilizar los servicios de manera legítima y legal, tomando medidas para evitar usos abusivos o ilícitos, e informar de inmediato cualquier irregularidad." },
+              { "prefix": "k)", "text": "Participación en reuniones. Asistir a las reuniones acordadas y suscribir las actas correspondientes." },
+              { "prefix": "l)", "text": "Cumplimiento de infraestructura. Cumplir con los requisitos de infraestructura necesarios para la correcta prestación de los servicios, según lo especificado por el proveedor." },
+              { "prefix": "m)", "text": "Custodia de la información. Mantener la custodia de la información y resultados generados durante la vigencia del contrato y posteriormente." },
+              { "prefix": "n)", "text": "Identificación y autenticación de usuarios. Identificar y autenticar a todos los usuarios del servicio, y mantener la confidencialidad de las claves y cuentas de acceso, siendo responsable de la seguridad de las mismas y de la información procesada." },
+              { "prefix": "o)", "text": "Recepción de productos y servicios. Recibir los productos y/o servicios con base en los niveles de servicio y criterios de aceptación previamente acordados." },
+              { "prefix": "p)", "text": "Supervisión del uso del servicio. Supervisar, administrar y controlar el uso del servicio o producto de manera eficiente y en línea con los acuerdos establecidos." }
+            ]
+          },
+          {
+            "subNumber": "8.2",
+            "subtitle": "Responsabilidades generales del proveedor de servicios de nube - contratista",
+            "letter_list": [
+              { "prefix": "a)", "text": "Prestación del servicio en las condiciones definidas. Procurar que los servicios sean prestados y utilizados por el contratante en las condiciones definidas en los términos y condiciones, en las órdenes de servicio y en las condiciones anexas a la especificación del servicio. Esto incluye velar por que se cumplan los niveles de servicio y los criterios de aceptación establecidos, promoviendo un uso adecuado y en conformidad con los acuerdos." },
+              { "prefix": "b)", "text": "Asignación de responsable. Nombrar un responsable para la prestación de los servicios con capacidad de supervisión, organización y coordinación de su correcta ejecución." },
+              { "prefix": "c)", "text": "Disponibilidad de recursos humanos. Garantizar la disponibilidad de personal calificado para asegurar la adecuada prestación de los servicios." },
+              { "prefix": "d)", "text": "Cumplimiento de políticas antifraude. Cumplir y hacer cumplir las políticas antifraude acordadas, notificando de inmediato cualquier irregularidad que se detecte. La política antifraude está disponible en: https://www.heinsohn.co/politica-de-gestion." },
+              { "prefix": "e)", "text": "Cumplimiento de políticas de seguridad de la información. Implementar y respetar las políticas de seguridad de la información acordadas con el contratante, informando de inmediato cualquier incidente de seguridad detectado." },
+              { "prefix": "f)", "text": "Comunicación de eventualidades. Notificar al contratante cualquier eventualidad que pueda afectar la correcta prestación de los servicios." },
+              { "prefix": "g)", "text": "Participación en reuniones. Asistir a las reuniones acordadas entre las partes y firmar las actas correspondientes." },
+              { "prefix": "h)", "text": "Garantía de derechos de propiedad intelectual. Asegurar la titularidad o autorización de los derechos de propiedad intelectual sobre los activos utilizados en la prestación de los servicios." },
+              { "prefix": "i)", "text": "Mecanismos de comunicación. Proporcionar mecanismos claros para la comunicación con el contratante, informando oportunamente cualquier cambio en los protocolos o mecanismos definidos para este propósito." }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tratamiento-datos",
+        "number": "09",
+        "title": "Tratamiento de datos personales",
+        "subsections": [
+          {
+            "subNumber": "9.1",
+            "subtitle": "Tratamiento de datos personales provistos por el consumidor de servicios de nube – el contratante",
+            "content": "Las partes acuerdan que para efectos de los presentes términos y condiciones y de las órdenes de servicio que se suscriban, el consumidor de servicios de nube – contratante se entenderá como responsable del tratamiento de los datos personales de sus empleados, dependientes, clientes, proveedores, contratistas, etc., mientras que el proveedor de servicios de nube – contratista se entenderá como encargado del tratamiento de los datos personales que sean suministrados por el consumidor de servicios de nube – contratante para la ejecución de las órdenes de servicio.<br/><br/>Por esta razón, el consumidor posee todo derecho, título, interés, responsabilidad y obligaciones en y sobre los datos personales que suministre, y el proveedor utilizará estos datos únicamente en la medida necesaria para prestar los servicios contemplados en las órdenes de servicios y bajo las finalidades estrictamente indicadas.<br/><br/>En consecuencia, el consumidor de servicios de nube – contratante es el legalmente responsable de la obtención de la correspondiente autorización de los titulares de los datos, así como del mantenimiento, actualización y cumplimiento permanente de todas y cada una de las exigencias legales vigentes en temas de protección de datos personales, en los términos previstos en la Ley de Protección de Datos Personales (Ley 1581 de 2012) y sus decretos reglamentarios o en cualquier otra norma que las modifique, adicione, sustituya o sea concordante, por lo que mantendrá indemne al proveedor por cualquier concepto como consecuencia del incumplimiento de estas obligaciones legales en materia de tratamiento de datos."
+          },
+          {
+            "subNumber": "9.2",
+            "subtitle": "Tratamiento de los datos personales del consumidor de servicios de nube – el contratante",
+            "content": "Con la aceptación de los presentes términos y condiciones, así como con la suscripción de las órdenes de servicio, el consumidor de servicios de nube – contratante autoriza expresamente al proveedor de servicios de nube – contratista al tratamiento de los datos personales que sean necesarios para la prestación y ejecución de los servicios.<br/><br/>La finalidad del tratamiento de datos será la contemplada en la política de tratamiento de datos que se encuentra publicada en el siguiente enlace: https://heinsohn.co/politica-proteccion-de-datos-personales/"
+          }
+        ]
+      },
+      {
+        "id": "causales-terminacion",
+        "number": "10",
+        "title": "Causales de terminación de la relación contractual",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "La materialización de cualquiera de las siguientes causales podrá dar lugar a la terminación de las órdenes de servicios en donde se presente la situación:" },
+          { "type": "letter_list", "items": [
+            { "prefix": "a)", "text": "Por cumplimiento de la vigencia inicial o de las prórrogas de las órdenes de servicio." },
+            { "prefix": "b)", "text": "Por mutuo acuerdo entre las partes pactado por escrito." },
+            { "prefix": "c)", "text": "Por ceder o traspasar, en todo o en parte, los derechos u obligaciones derivadas de las órdenes de servicios, sin el consentimiento previo y escrito de las partes." },
+            { "prefix": "d)", "text": "Por fuerza mayor o caso fortuito que impida la ejecución de los servicios contratados por más de treinta (30) días calendario." },
+            { "prefix": "e)", "text": "Por el incumplimiento de las obligaciones consagradas en los presentes términos y condiciones o en las órdenes de servicios por cualquiera de las partes. En caso de que cualquiera de las partes incumpla las obligaciones que deriven de los presentes términos y condiciones o de cada orden de servicios, y previo a la terminación de la misma, la parte afectada dará aviso escrito a la otra parte, indicándole de manera precisa el incumplimiento invocado, con el propósito de que la presunta parte incumplida tenga oportunidad de dar solución al incumplimiento con acción correctiva. De ser imposible emplear una acción correctiva, o en caso de no responder el aviso de incumplimiento dentro de un plazo máximo de quince (15) días hábiles siguientes a la radicación de notificación de incumplimiento, la parte que reporta el incumplimiento podrá dar por terminada la respectiva orden de servicios y solicitar el pago de la indemnización de perjuicios correspondiente." },
+            { "prefix": "f)", "text": "Las causales que se contemplen y regulen expresamente dentro de las órdenes de servicio." },
+            { "prefix": "g)", "text": "Por el incumplimiento de la política antifraude de cualquiera de las partes." },
+            { "prefix": "h)", "text": "Por vinculación de cualquiera de las partes, sus socios, administradores o empleados con actividades delictivas, incluyendo, pero sin limitarse a corrupción, narcotráfico, lavado de activos y financiación del terrorismo, así como por su inclusión en listas restrictivas tales como la Specially Designated Nationals and Blocked Persons List." },
+            { "prefix": "i)", "text": "Por las demás causales que se indiquen en los presentes términos y condiciones, en las órdenes de servicio o en la ley." }
+          ]},
+          { "type": "paragraph", "text": "<b>Parágrafo primero:</b> Cada orden de servicios se dará por terminada, de manera independiente a otras órdenes de servicios, por lo que, salvo que las partes pacten lo contrario, la terminación de una orden de servicios no afectará las otras órdenes de servicio que se encuentren vigentes." },
+          { "type": "paragraph", "text": "<b>Parágrafo segundo:</b> La terminación de cualquiera de las órdenes de servicios por las causales contempladas en los literales c, e, g y h facultará al proveedor de servicios de nube – contratista para suspender inmediatamente la prestación del servicio en el estado en que se encuentre, proceder a la liquidación de todas las órdenes de servicio y al cobro de las sumas que el consumidor de servicios de nube – contratante le adeude a la fecha de terminación." },
+          { "type": "paragraph", "text": "<b>Parágrafo tercero:</b> La terminación anticipada de cada orden de servicio se regulará en la misma." }
+        ]
+      },
+      {
+        "id": "renuncia-derechos",
+        "number": "11",
+        "title": "Renuncia a derechos",
+        "paragraphs": [
+          "Ninguna demora u omisión por cualquiera de las partes en el ejercicio de un derecho o facultad que tenga afectará dicho derecho o facultad, ni se interpretará como una renuncia a dicho derecho o facultad. La renuncia por cualquiera de las partes a exigir el cumplimiento de cualquiera de los compromisos u obligaciones asumidos por la otra parte no será interpretada como una renuncia de reclamar por cualquier incumplimiento posterior o de requerir el cumplimiento de cualquier compromiso u obligación. Ninguna renuncia o exención de responsabilidad será válida a menos que conste por escrito y esté firmada por los representantes legales de cada una de las partes."
+        ]
+      },
+      {
+        "id": "origen-ingresos",
+        "number": "12",
+        "title": "Origen de ingresos",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Las partes manifiestan bajo la gravedad de juramento que sus ingresos provienen de actividades lícitas y que no admiten que terceros efectúen depósitos o transacciones en su nombre, con fondos provenientes de las actividades ilícitas contempladas en el Código Penal Colombiano o en cualquier norma que lo modifique o adicione, así como tampoco efectúan transacciones destinadas a tales actividades o a favor de personas relacionadas con las mismas. Igualmente, declaran que no se encuentran con registro negativo en listados de prevención de lavado de activos ni financiación del terrorismo en las listas nacionales o internacionales correspondientes ni dentro de una de las dos categorías de lavado de activos (conversión o movimiento), y que, en consecuencia, se obligan a responder, frente a la contraparte, por todos los perjuicios que se llegaren a causar como consecuencia de esta afirmación." },
+          { "type": "paragraph", "text": "Declaran también, que sus conductas, las de sus socios, directivos, empleados y contratistas se ajustan a la ley y a la ética. En el mismo sentido, las partes se comprometen a actuar dentro del marco legal vigente en Colombia, dando cumplimiento a todos los procedimientos, trámites y obligaciones contemplados en la ley y demás normas pertinentes." },
+          { "type": "paragraph", "text": "Igualmente, declaran que, en función a prevenir, gestionar, controlar y mitigar los riesgos de lavado de activos, financiación del terrorismo, financiación de la proliferación de armas de destrucción masiva y de filtración de dineros de origen o que financian, facilitan, permiten, favorecen, proveen, apoyan, etc. actividades ilícitas y/o delictivas; cuentan con mecanismos, sistemáticos, armónicos, idóneos y efectivos, para la gestión, prevención, control y mitigación de dichos riesgos, de conformidad a la normativa legal y reglamentaria vigente, en caso de aplicarle, y/o como buena práctica corporativa." },
+          { "type": "paragraph", "text": "En consecuencia, las partes se obligan a responder frente a la otra parte por todos los perjuicios que se llegaren a causar, una a la otra, como consecuencia de la falsedad, imprecisión, ocultamiento o mala comunicación de la anterior afirmación, la cual puede estar sujeta a verificación en cualquier momento. Declaran igualmente que sus conductas se ajustan a la ley y a la ética y, en consecuencia, se obligan a implementar las medidas tendientes a evitar que sus operaciones puedan ser utilizadas con o sin su consentimiento y conocimiento como instrumentos para el ocultamiento, manejo, inversión o aprovechamiento en cualquier forma de dinero u otros bienes provenientes de actividades delictivas, o para dar apariencia de legalidad a estas actividades." },
+          { "type": "paragraph", "text": "Las partes se comprometen a entregar toda la información que le sea solicitada por la otra parte (siempre que tenga conexión o con el cumplimiento de las Órdenes de Servicio o para desarrollar los procesos de debida diligencia pertinentes) para dar cumplimiento a las normas nacionales o internacionales, sobre prevención del lavado de activos y financiación del terrorismo." },
+          { "type": "paragraph", "text": "En el evento en que alguna de las partes no cumpla con algunas de las obligaciones establecidas en la presente cláusula o con la veracidad de las declaraciones realizadas, la otra parte podrá dar por terminado de manera inmediata las Órdenes de Servicio vigentes al momento del incumplimiento sin lugar al pago de indemnización o suma alguna." },
+          { "type": "paragraph", "text": "De igual forma, las partes se obligan a:" },
+          { "type": "numbered_list", "items": [
+            "Actualizar la documentación e información aportada que exija una de las partes para el conocimiento de la otra parte, dando cumplimiento a las disposiciones contenidas tanto en el Manual SAGRILAFT respectivo o su(s) documentación(es) equivalente(s) y las Circulares de la Superintendencia de Sociedades de Colombia expedidas al respecto; así como, todos los demás documentos e información que la parte solicitante estime pertinente para dar cumplimiento a dichas obligaciones de orden legal o reglamentario.",
+            "Suministrar los soportes documentales en los que se verifique la veracidad de la información suministrada.",
+            "Implementar las medidas tendientes a evitar que sus operaciones, ordinarias o extraordinarias, puedan ser utilizadas con o sin su conocimiento o consentimiento como instrumentos para el ocultamiento, manejo, inversión o aprovechamiento en cualquier forma de dinero u otros bienes provenientes de actividades delictivas o para dar apariencia de legalidad a estas actividades, a tomar las medidas para prevenir el lavado de activos, financiación del terrorismo, la financiación de la proliferación de armas de destrucción masiva, contrabando, narcotráfico y cualquier actividad ilícita y/o delictuosa según las normas legales vigentes y que le apliquen, en sus asociados de negocio, socios personal propio y/o contratistas."
+          ]},
+          { "type": "paragraph", "text": "Las partes manifiestan que ni ellas, ni sus accionistas, directivos, empleados o contratistas se han visto involucrados o vinculados en trámites o procesos relacionados con actividades de lavado de activos y/o financiación del terrorismo. Las partes quedan recíprocamente obligadas a notificarse entre sí sobre cualquier irregularidad o sospecha de lavado de activos y/o financiación del terrorismo detectados que puedan afectar la ejecución de las Órdenes de Servicio." },
+          { "type": "paragraph", "text": "En atención a lo anterior, desde ahora las partes acuerdan que constituye justa causa para dar por terminado de manera unilateral e inmediata el presente contrato, sin lugar a indemnización alguna, el hecho que alguna de las partes y/o sus socios mayoritarios, administradores, y/o filiales, durante el desarrollo de cualquier relación contractual, aparezcan en listas de control o de riesgo de agencias internacionales (Interpol, Europol, ONU, OFAC, DEA, FBI, etc.) y/u organismos de control nacional (Procuraduría, Contraloría, Fiscalía, Policía, CTI, GAULA, etc.), por hechos relacionados con lavado de activos y/o financiación del terrorismo." }
+        ]
+      },
+      {
+        "id": "gestion-corrupcion",
+        "number": "13",
+        "title": "Gestión, prevención y control de riesgos de corrupción, fraude y soborno",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "El soborno, el fraude y la corrupción son consideradas una amenaza para la libre actuación de las partes, por lo que, para efectos de los presentes términos y condiciones y las respectivas Órdenes de Servicios, las partes se obligan a cumplir con las normas y regulaciones en relación con el soborno, el fraude y la corrupción y a no realizar las siguientes acciones:" },
+          { "type": "numbered_list", "items": [
+            "Ofrecer a los empleados, contratistas, socios, subordinados y colaboradores de la otra parte beneficios y/o regalos por cuenta propia o a través de terceros para comprometer su objetividad o rectitud en la ejecución de sus actividades.",
+            "Ofrecer a cualquier autoridad o dependencia de los poderes ejecutivo, legislativo y judicial, a sus empleados o cualquier otro órgano relacionado beneficios y/o regalos por cuenta propia o a través de terceros para comprometer su objetividad o rectitud en la ejecución de sus actividades.",
+            "Recibir de cualquier persona beneficios diferentes a los derivados de este contrato."
+          ]},
+          { "type": "paragraph", "text": "Las partes consideran de manera enunciativa, más no limitativa, como beneficios y/o regalos las siguientes conductas: a) pagos en efectivo; b) pagos en especie; c) servicios gratuitos; d) descuentos especiales; e) viajes y estadías; f) cualquier prestación con fines de entretenimiento; g) cualquier regalo ostentoso." },
+          { "type": "paragraph", "text": "Las partes se obligan a evitar que en nombre propio o por intermedio de sus empleados y/o agentes se proporcione u ofrezca cualquier tipo de dádiva o beneficio a algún empleado o miembro directivo de la contraparte o de agentes estatales nacionales y/o extranjeros. Así mismo se obligan a informar de cualquier solicitud que les sea realizada en estos mismos términos, con ocasión a su contratación, ya sea en provecho de un empleado, directivo o de un tercero." },
+          { "type": "paragraph", "text": "En el mismo sentido, con la aceptación de los presentes términos y condiciones, las partes, en virtud de su compromiso anticorrupción, se obligan a:" },
+          { "type": "numbered_list", "items": [
+            "Impartir instrucciones a todos sus empleados, agentes, asesores y a cualquier otro representative suyo, exigiéndoles el cumplimiento en todo momento del presente compromiso y de las leyes del país donde se haya acordado la prestación del servicio atinentes al estatuto anticorrupción.",
+            "No efectuar acuerdos o realizar actos o conductas que tengan por objeto perjudicar a un tercero en el proceso de contratación, ejecución y liquidación.",
+            "Suministrar información completa, verdadera y exacta, donde toda la información suministrada por las partes en conexión con los presentes términos y condiciones y las Órdenes de Servicio será verdadera, completa y exacta en todos sus aspectos materiales, por lo cual las partes manifiestan que no tienen conocimiento de ningún hecho material o dato que no hayan divulgado entre sí."
+          ]},
+          { "type": "paragraph", "text": "Si las partes tienen conocimiento de un incumplimiento de las garantías y declaraciones de estos términos y condiciones relacionadas con el cumplimiento de sus políticas internas y de leyes de anticorrupción por parte de cualquiera de las partes, la parte cumplida podrá dar por terminada la relación contractual, sin que ello genere indemnización alguna en favor de la otra parte." },
+          { "type": "paragraph", "text": "La parte que incumpla las declaraciones previstas en estos términos y condiciones, mantendrá indemne a la otra parte contra reclamaciones, pérdidas o daños que surjan de o en relación con tal incumplimiento." }
+        ]
+      },
+      {
+        "id": "registro",
+        "number": "14",
+        "title": "Registro",
+        "paragraphs": [
+          "Si alguna de las Órdenes de Servicio llegase a estar sujeta al impuesto de timbre o a cualquier otro gravamen u obligación de registro, el importe será asumido por quien indica la ley y, en caso de que no se indique, será asumido por partes iguales, salvo pacto expreso en contrario."
+        ]
+      },
+      {
+        "id": "cesion",
+        "number": "15",
+        "title": "Cesión",
+        "paragraphs": [
+          "Ninguna de las partes podrá ceder el uso del servicio, ni los derechos u obligaciones que se derivan del mismo, sin la autorización previa y por escrito firmada por el representante legal de la otra parte, debidamente facultado para ello. Cualquier intento de cesión que se realice sin dicha autorización será considerado nulo."
+        ]
+      },
+      {
+        "id": "autonomia",
+        "number": "16",
+        "title": "Autonomía de las partes y subcontratación",
+        "paragraphs": [
+          "Queda claramente entendido que no existirá relación laboral entre proveedor de servicios de nube – contratista, sus socios, sus dependientes, sus empleados y/o contratistas y el consumidor de servicios de nube – contratante; así mismo, no se generará ningún tipo societario entre las partes, ni se generará ningún tipo de joint venture, consorcio, unión temporal, agencia u operación conjunta. El proveedor de servicios de nube – contratista cumplirá con el objeto de las Órdenes de Servicio en su propio name y por su propia cuenta, dedicándole el tiempo que considere oportuno, sin quedar sometido a horario alguno. El proveedor de servicios de nube – contratista, actuando por su propia cuenta y en su name, puede emplear cualquier medio que elija y asume en forma exclusiva la plena y entera responsabilidad de su administración, de la explotación de sus negocios y de sus resultados. El proveedor de servicios de nube – contratista desempeñará las gestiones relacionadas con las Órdenes de Servicio en forma autónoma e independiente, de acuerdo con sus propios criterios corporativos internos, con su saber y entender, y con su propia organización, materiales, personal y demás elementos. Por lo tanto, el proveedor de servicios de nube – contratista cumplirá sus obligaciones para con sus socios, sus dependientes, sus empleados y/o contratistas. Si eventualmente el consumidor de servicios de nube – contratante se viera obligado a asumir cualquiera de dichas obligaciones, estará facultado para repetir contra el proveedor de servicios de nube – contratista las sumas que les hubiere cancelado en virtud de las Órdenes de Servicio, o para descontarlas de los saldos a favor del proveedor de servicios de nube – contratista. Ninguna de las partes tendrá derecho a incurrir en cualquier obligación o responsabilidad a no ser en su propio name. El proveedor de servicios de nube – contratista tendrá derecho a subcontratar o delegar todas o cualquiera de sus obligaciones en virtud de las Órdenes de Servicio que se ejecuten, para lo cual bastará la notificación sobre esta situación."
+        ]
+      },
+      {
+        "id": "independencia-clausulas",
+        "number": "17",
+        "title": "Independencia de las cláusulas (divisibilidad)",
+        "paragraphs": [
+          "Si se llegare a declarar la nulidad o ineficacia de cualquiera de las disposiciones o cláusulas de estos términos y condiciones o de las Órdenes de Servicio que se suscriban entre las partes, no afectarán las demás cláusulas las cuales conservarán su validez y eficacia."
+        ]
+      },
+      {
+        "id": "integralidad",
+        "number": "18",
+        "title": "Integralidad del contrato",
+        "paragraphs": [
+          "La aceptación de los presentes términos y condiciones junto con las Órdenes de Servicio que se suscriban entre las partes constituyen el acuerdo integral y único sobre la materia en éste regulada, y prevalece sobre cualquier otro acuerdo, convenio y/o comunicación, verbal o escrita, que las partes hubieren celebrado con anterioridad sobre el mismo objeto."
+        ]
+      },
+      {
+        "id": "modificaciones",
+        "number": "19",
+        "title": "Modificaciones",
+        "paragraphs": [
+          "El proveedor de servicios de nube – contratista tiene la facultad de modificar o actualizar estos términos y condiciones en cualquier momento sin previo aviso. La versión más reciente de estos términos y condiciones estará disponible en el sitio web. Al continuar utilizando los servicios después de cualquier modificación o actualización de los términos y condiciones, se entenderá que el consumidor de servicios de nube – contratante acepta los términos y condiciones modificados."
+        ]
+      },
+      {
+        "id": "actualizaciones-servicios",
+        "number": "20",
+        "title": "Actualizaciones a los servicios",
+        "paragraphs": [
+          "El proveedor de servicios de nube – contratista tiene la facultad de cambiar los aspectos técnicos y funcionales que se relacionen o deriven de la prestación del servicio en cualquier momento, notificándole al consumidor de servicios de nube – contratante cuando lo realice. En caso de que el consumidor de servicios de nube – contratante no acepte los cambios, podrá darse por terminado el presente contrato, sin que esta terminación genere indemnización a las partes. Si el consumidor de servicios de nube – contratante no hace manifestación alguna dentro de los cinco (5) días hábiles siguientes a la notificación del proveedor de servicios de nube – contratista, se entenderá la aceptación tácita de los cambios incorporados."
+        ]
+      },
+      {
+        "id": "ley-aplicable",
+        "number": "21",
+        "title": "Ley aplicable",
+        "paragraphs": [
+          "La formación, ejecución e interpretación de estos términos y condiciones, así como de las Órdenes de Servicio que se suscriban entre las partes y cualquier controversia o reclamación (incluyendo disputas y reclamaciones no contractuales) que surjan de o se relacionen en cualquier forma la prestación de los servicios contratados, ya sea contractual, extracontractualmente o de otro modo, se regirán por y se interpretarán de acuerdo con las leyes vigentes de la República de Colombia, salvo que la Orden de Servicio indique expresamente algo distinto."
+        ]
+      },
+      {
+        "id": "titulos",
+        "number": "22",
+        "title": "Títulos",
+        "paragraphs": [
+          "Las partes coinciden en que los encabezados de cada una de las cláusulas de los presentes términos y condiciones o de las Órdenes de Servicio no deberán alterar en forma alguna la interpretación que de las mismas se desprenda, estando así obligadas en todo momento a lo expresado en el texto de cada una de las cláusulas."
+        ]
+      },
+      {
+        "id": "clausula-compromisoria",
+        "number": "23",
+        "title": "Cláusula compromisoria",
+        "contentBlocks": [
+          { "type": "paragraph", "text": "Cualquier disputa con ocasión de los presentes términos y condiciones o de las Órdenes de Servicios que se suscriban entre las partes serán arregladas en lo posible mediante la negociación y la conciliación directa entre las partes, para lo cual se contará con un período de treinta (30) días calendario para llegar a un acuerdo. Toda controversia o diferencia relativa a los presentes términos y condiciones o de las Órdenes de Servicios que se suscriban entre las partes, relacionada con la interpretación, celebración, ejecución, terminación, liquidación o por razón o con ocasión de los presentes términos y condiciones o de las Órdenes de Servicios que se suscriban entre las partes, será resuelta por un tribunal de arbitramento presentado ante el Centro de Arbitraje y Conciliación de la Cámara de Comercio de Bogotá, el cual estará sujeto a sus reglamentos y tarifas establecidas en el mismo, de acuerdo con las siguientes reglas:" },
+          { "type": "numbered_list", "items": [
+            "El tribunal estará integrado por (1) árbitro, el cual será designado por acuerdo entre las partes dentro de un término de diez (10) días hábiles contados a partir del día en que una de las partes notifique a la otra de su intención de elegir árbitro. Si pasados los diez (10) días hábiles dentro de las cuales debieran elegir el árbitro, esto no fuere posible, el árbitro será designado por el Centro de Arbitraje y Conciliación de la Cámara de Comercio de Bogotá mediante sorteo de la Lista A de Árbitros de dicho Centro con especialidad en derecho comercial y propiedad intelectual, a solicitud de cualquiera de las partes.",
+            "El tribunal decidirá en derecho.",
+            "El tribunal tendrá como sede de funcionamiento el Centro de Arbitraje y Conciliación de la Cámara de Comercio de Bogotá.",
+            "Todas las presentaciones y laudos en relación con el arbitramento aquí previsto se harán en el idioma español y todos los procesos arbitrales se adelantarán en español."
+          ]}
+        ]
+      }
+    ]
+  }
+}
