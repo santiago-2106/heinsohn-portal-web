@@ -3,7 +3,6 @@ import { hasLocale } from 'next-intl';
 import { routing } from './routing';
 
 export default getRequestConfig(async ({ requestLocale }) => {
-  // Typically corresponds to the `[locale]` segment
   const requested = await requestLocale;
   const locale = hasLocale(routing.locales, requested)
     ? requested
@@ -11,7 +10,6 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   const officialMessagesForMoment = (await import(`../../messages/${locale}.json`)).default
 
-  //Soluciones TI, Contact Form, Strategic Consulting, Desarrollo a Medida, Desarrollo UX/UI, Soluciones Financieras, Soluciones SAP, Gestión Humana, Pensiones, Pensiones Voluntarias, Soluciones IA, Landing Software, Landing HGS y Footer
   const navbar = (await import(`../../messages/${locale}/navbar.json`)).default;
   const solucionesTI = (await import(`../../messages/${locale}/solucionesTi.json`)).default;
   const contactForm = (await import(`../../messages/${locale}/contactForm.json`)).default;
@@ -39,15 +37,18 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const eBook = (await import(`../../messages/${locale}/eBook.json`)).default;
   const casoExito = (await import(`../../messages/${locale}/casoExito.json`)).default;
   const agenteAviso = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
-  const agente = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
+  const agente = (await import(`../../messages/${locale}/agente.json`)).default;
   const staffAugmentation = (await import(`../../messages/${locale}/staffAugmentation.json`)).default;
+  
+  // AQUÍ ESTÁ LA CORRECCIÓN CLAVE:
+  const terminosYCondiciones = (await import(`../../messages/${locale}/terminos-condiciones.json`)).default;
+  
   return {
     locale,
     messages: {
-      //Soluciones Traducciones
       ...footer,
       ...navbar,
-      ... officialMessagesForMoment,
+      ...officialMessagesForMoment,
       ...solucionesTI,
       ...contactForm,
       ...strategicConsulting,
@@ -74,8 +75,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...casoExito,
       ...agenteAviso,
       ...agente,
-      ...staffAugmentation
+      ...staffAugmentation,
+      ...terminosYCondiciones
     }
-    
   };
 });
