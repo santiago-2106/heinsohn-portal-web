@@ -51,12 +51,12 @@
       "description": "Las empresas necesitan escalar con agilidad y precisión, pero el reclutamiento tradicional suele ser lento y costoso. Nuestro modelo de Staff Augmentatio TI te permite reforzar tu equipo sin recurrir a esquemas de outsourcing tradicional. <br></br><bold>Síntomas de una gestión sin staffing de TI eficiente:</bold>"
     },
     "title3": {
-      "title": "Especialistas TI para cada etapa de tu <br></br> transformación tecnológica",
-      "description": "Nuestros equipos cubren todas las necesidades del ciclo de desarrollo tecnológico: "
+      "title": "Especialistas TI para cada etapa de tu <br></br> transformación tecnológica",
+      "description": "Nuestros equipos cubren todas las necesidades del ciclo de desarrollo tecnológico:"
     },
      "title4": {
-      "title": "Por qué el Staff Augmentation TI<br></br> impulsa tu negocio desde el primer día ",
-      "description": "Implementar un modelo de staffing te permite concentrarte hacer crecer tu negocio mientras <br></br> nosotros gestionamos el talento."
+      "title": "Por qué el Staff Augmentation TI<br></br> impulsa tu negocio desde el primer día",
+      "description": "Implementar un modelo de staffing te permite concentrarte hacer crecer tu negocio mientras <br></br> nosotros gestionamos el talento."
     },
     "title5": {
       "title": "Tu aliado estratégico en <br></br> Staff Augmentation",
@@ -133,12 +133,12 @@
             "textos": "Playwright, Cypress, Selenium y Appium."
           },
           {
-            "titulo": "SDET (Software Development Engineer in Test)",
-            "textos": "Creación de frameworks de pruebas robustos y escalables."
+            "titulo": "SDET (Software Development Engineer in Test)",
+            "textos": "Creación de frameworks de pruebas robustos y escalables."
           },
           {
             "titulo": "Testing ",
-            "textos": "Funcional, regresión, performance (JMeter) y pruebas de seguridad iniciales. "
+            "textos": "Funcional, regresión, performance (JMeter) y pruebas de seguridad iniciales."
           }
         ]
       },
@@ -147,12 +147,12 @@
         "title": "Infraestructura, nube y seguridad",
         "items": [
           {
-            "titulo": "Cloud & Platform",
+            "titulo": "Cloud & Platform",
             "textos": "AWS, Azure, Google Cloud (GCP)."
           },
           {
             "titulo": "DevOps & SRE",
-            "textos": "Kubernetes (K8s), Terraform, Docker, CI/CD Pipelines (GitHub Actions, Jenkins)."
+            "textos": "Kubernetes (K8s), Terraform, Docker, CI/CD Pipelines (GitHub Actions, Jenkins)."
           },
           {
             "titulo": "Cybersecurity",
@@ -165,16 +165,16 @@
         "title": "Análisis, diseño y estrategia",
         "items": [
           {
-            "titulo": "Product & UX/UI",
-            "textos": "Product Designers, UX Researchers, Service Design (Figma, Adobe XD).."
+            "titulo": "Product & UX/UI",
+            "textos": "Product Designers, UX Researchers, Service Design(Figma, Adobe XD).."
           },
           {
             "titulo": "Agile Management",
-            "textos": "Project Managers, Scrum Masters, Delivery Managers. "
+            "textos": "Project Managers, Scrum Masters, Delivery Managers."
           },
           {
-            "titulo": "Business Analysis",
-            "textos": "Analistas funcionales y de negocio con enfoque en requerimientos técnicos. "
+            "titulo": "Business Analysis",
+            "textos": "Analistas funcionales y de negocio con enfoque en requerimientos técnicos."
           }
         ]
       },
@@ -183,16 +183,16 @@
         "title": "Ingeniería de datos e IA",
         "items": [
           {
-            "titulo": "Data Engineering",
-            "textos": "Snowflake, Databricks, dbt, Apache Airflow, Spark."
+            "titulo": "Data Engineering",
+            "textos": "Snowflake, Databricks, dbt, Apache Airflow, Spark."
           },
           {
             "titulo": "AI & GenAI",
-            "textos": "LLM Engineering (LangChain, OpenAI API), Vector Databases (Pinecone), RAG Architecture."
+            "textos": "LLM Engineering (LangChain, OpenAI API), Vector Databases(Pinecone), RAG Architecture."
           },
           {
-            "titulo": "Machine Learning",
-            "textos": "MLOps, PyTorch, TensorFlow, Scikit-learn. "
+            "titulo": "Machine Learning",
+            "textos": "MLOps, PyTorch, TensorFlow, Scikit-learn."
           },
           {
             "titulo": "Analytics",
