@@ -20,7 +20,6 @@ export default function TrustSection() {
         description={t.rich("titles.softwareGenerico.description", richText)}
       />
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 py-8 md:py-5 px-10 mx-auto max-w-5xl ">
-        {" "}
         {/*ESTILOS ESTILOS */}
         {/*Corregir name aqui de feautrcard {/*VER SI MEJOR USAR ITEM O INDEX */}{" "}
         {cards.map((item) => (

@@ -2,7 +2,7 @@ import type { ResultsCorporativoProps } from "@/src/types/typePensiones";
 
 export default function CardResultados({ data }: ResultsCorporativoProps) {
   return (
-    <section className="bg-bg-card-2 py-12 md:py-16 lg:py-20">
+    <section className="bg-bg-main py-12 md:py-16 lg:py-20">
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light mb-6 md:mb-8">
           {data.title}
