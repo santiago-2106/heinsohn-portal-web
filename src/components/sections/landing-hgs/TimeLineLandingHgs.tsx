@@ -24,7 +24,7 @@ export default function TimeLineLandingHgs({ informationLandingSoftware }: Icons
                 </div>
 
                 <div className={`${!isLast ? 'pb-16' : 'pb-4'}`}>
-                  <h3 className="text-2xl md:text-3xl lg:text-5xl font-medium text-text-title mb-3 leading-tight">
+                  <h3 className="text-1xl md:text-2xl lg:text-4xl mb-3 font-light">
                     {info.title}
                   </h3>
                   <p className="text-text-body leading-relaxed text-sm md:text-base lg:text-[18px] font-light">

@@ -125,26 +125,30 @@
         {
           "badgeRight": "Certificación oficial",
           "icon":"diamond_shine",
+          "iconColor":"text-brand-accent",
           "title": "SAP Gold Partner",
-          "description": "Certificación oficial que garantiza expertise y mejores prácticas en implementaciones SAP."
+          "description": "Certificación oficial que garantiza expertise y mejores prácticas en <bold>implementaciones SAP.</bold>"
         },
         {
           "badgeRight": "Atención en español",
           "icon":"contact_support",
+          "iconColor":"text-brand-accent",
           "title": "Soporte local",
-          "description": "Equipo especializado en Colombia y LatAm</strong> con soporte en español y conocimiento del mercado local."
+          "description": "Equipo especializado en <bold>Colombia y LatAm</bold> con soporte en español y conocimiento del mercado local."
         },
         {
           "badgeRight": "Experiencia sectorial",
           "icon":"eco",
+          "iconColor":"text-brand-accent",
           "title": "+15 industrias",
-          "description": "Experiencia</strong> comprobada en manufactura, retail, servicios, salud, educación y más sectores."
+          "description": "<bold>Experiencia</bold> comprobada en manufactura, retail, servicios, salud, educación y más sectores."
         },
         {
           "badgeRight": "Desde 1979",
           "icon":"language",
+          "iconColor":"text-brand-accent",
           "title": "Aliado estratégico",
-          "description": "Trayectoria sólida acompañando la transformación digital de empresas en toda Latinoamérica."
+          "description": "Trayectoria sólida acompañando la transformación digital de empresas en <bold>toda Latinoamérica.</bold>"
         }
       ]
     },

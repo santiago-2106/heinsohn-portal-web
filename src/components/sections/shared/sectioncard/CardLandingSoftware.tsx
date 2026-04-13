@@ -1,3 +1,6 @@
+import TextComponent from "@/src/components/ui/typography/TextComponent"
+import React from "react"
+
 interface CardLandingSoftwareItem {
     title: string
     description: string
@@ -6,12 +9,14 @@ interface CardLandingSoftwareItem {
 }
 
 interface CardLandingSoftwareProps {
+    title: React.ReactNode
     items: CardLandingSoftwareItem[]
 }
 
-export default function CardLandingSoftware({items}: CardLandingSoftwareProps) {
+export default function CardLandingSoftware({title,items}: CardLandingSoftwareProps) {
   return (
     <section className="w-full py-8">
+        <TextComponent title={title} />
     <div className="mx-auto w-full max-w-227 px-4 md:px-0 flex flex-col items-center relative">
         {
         items.map((item, index) => (

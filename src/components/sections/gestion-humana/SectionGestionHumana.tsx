@@ -15,7 +15,7 @@ export default function SectionGestionHumana({
 }: SectionProps) {
   return (
     <section className="bg-bg-main py-20 px-4 transition-colors duration-300">
-      <div className="max-w-7xl mx-auto text-center">
+      <div className="max-w-5xl mx-auto text-center">
         
         {/* Encabezado de la sección */}
         <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6 max-w-3xl mx-auto">

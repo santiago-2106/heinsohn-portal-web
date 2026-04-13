@@ -75,18 +75,21 @@
       "description": "Ofrecemos una oferta integral que combina: ",
       "cardsPortafolio":[ {
           "icon": "data_object",
+          "iconColor":"text-brand-accent",
           "title": "Software como servicio (SaaS)",
           "description": "Plataformas cloud modernas, seguras y siempre actualizadas.",
           "alineacion": "center"
         },
         {
           "icon": "display_settings",
+          "iconColor":"text-brand-accent",
           "title": "Outsourcing (BPO)",
           "description": "Gestión completa de nómina, administración de personal y recobro de incapacidades",
           "alineacion": "center"
         },
         {
           "icon": "head_mounted_device",
+          "iconColor":"text-brand-accent",
           "title": "Desarrollos de tecnología",
           "description": "Soluciones personalizadas e integraciones con sistemas empresariales",
           "alineacion": "center"
@@ -196,14 +199,14 @@
       }
     ],
     "cardFeatureLandingHGS": [
-      { "icon":"rocket_launch","title": "Experiencia comprobada", "description": "Más de 40 años liderando el mercado de soluciones de nómina y gestión humana " },
-      { "icon":"captive_portal","title": "Alcance regional", "description": "Presencia en más de 6 países con conocimiento local profundo" },
-      { "icon":"amp_stories","title": "Versatilidad", "description": "Soluciones para PyMEs y Grandes Empresas, sector privado y público " },
-      { "icon":"work","title": "Confianza", "description": "Más de 1,000 clientes y 500,000 usuarios diarios respaldan nuestra calidad " },
-      { "icon":"route","title": "Flexibilidad", "description": "Modalidades SaaS, Outsourcing o híbridas según tus necesidades " },
-      { "icon":"monitoring","title": "Innovación", "description": "Tecnología de última generación con alianzas estratégicas (IBM, Microsoft) " },
-      { "icon":"show_chart","title": "Cumplimiento", "description": "Garantía de cumplimiento normativo en todos los países donde operamos " },
-      { "icon":"add_task","title": "Especialización", "description": "Soluciones verticales por industria y tipo de organización" }
+      { "icon":"rocket_launch","iconColor":"text-brand-accent", "title": "Experiencia comprobada", "description": "Más de 40 años liderando el mercado de soluciones de nómina y gestión humana " },
+      { "icon":"captive_portal", "iconColor":"text-brand-accent","title": "Alcance regional", "description": "Presencia en más de 6 países con conocimiento local profundo" },
+      { "icon":"amp_stories", "iconColor":"text-brand-accent","title": "Versatilidad", "description": "Soluciones para PyMEs y Grandes Empresas, sector privado y público " },
+      { "icon":"work", "iconColor":"text-brand-accent","title": "Confianza", "description": "Más de 1,000 clientes y 500,000 usuarios diarios respaldan nuestra calidad " },
+      { "icon":"route", "iconColor":"text-brand-accent","title": "Flexibilidad", "description": "Modalidades SaaS, Outsourcing o híbridas según tus necesidades " },
+      { "icon":"monitoring", "iconColor":"text-brand-accent","title": "Innovación", "description": "Tecnología de última generación con alianzas estratégicas (IBM, Microsoft) " },
+      { "icon":"show_chart", "iconColor":"text-brand-accent","title": "Cumplimiento", "description": "Garantía de cumplimiento normativo en todos los países donde operamos " },
+      { "icon":"add_task", "iconColor":"text-brand-accent","title": "Especialización", "description": "Soluciones verticales por industria y tipo de organización" }
     ],
     "cardTransformacionDigital": [
       { "description": "<bold>Optimizar procesos</bold> y reducir tiempos <br></br> operativos" },

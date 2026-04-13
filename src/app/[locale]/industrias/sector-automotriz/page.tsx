@@ -43,9 +43,12 @@ export default function pageSectorAutomotriz() {
 
       <TextComponent 
       title={t("titlesSectorAutomotriz.title5.title")}
-      description={t("titlesSectorAutomotriz.title5.description")}
+      description={t.rich("titlesSectorAutomotriz.title5.description", richText)}
       />
 
+    <TextComponent 
+      title={t.rich("titlesSectorAutomotriz.title6.title", richText)}
+      />
       <CardImg 
       dataCardsImgs={t.raw("cardProyectoPosible")}
       />

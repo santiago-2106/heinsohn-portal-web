@@ -76,12 +76,9 @@ export default function PagePensiones() {
         cards={t.raw("informacionPensiones5")}
         cols={2}
       />
-
-      {/* 8. RESULTADOS 2 - TÍTULO */}
-      <TextComponent title={t.rich("titlesPensiones.titlePensiones5.title", richText)} />
       
-      {/* 9. MÉTRICAS 2 */}
-      <CardResultados data={t.raw("infoPensiones6")} />
+      {/*  8. RESULTADOS 2 - TÍTULO, Y MÉTRICAS 2 */}
+      <CardResultados titlePrincipals={t.rich("titlesPensiones.titlePensiones5.title", richText)} data={t.raw("infoPensiones6")} />
 
       {/* 10. CERTIFICACIONES */}
       <CertificacionesInternacionales 

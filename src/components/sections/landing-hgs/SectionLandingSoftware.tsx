@@ -19,7 +19,7 @@ export default function SectionLandingSoftware() {
     <section>
       <div >
         <TextComponent title='Beneficios del software de nómina'/>
-          <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-4xl">
+          <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-5xl">
             {
               cardsLandingSoftware.map((item, index) => (
                 <CardFeatures 
@@ -38,11 +38,11 @@ export default function SectionLandingSoftware() {
 
         <TextSections items={t.raw("dataLandignSoftwareTexts")}/>
         {/*TITULO Y SLIDER DE COORDINADORA Y FUNDACION SANTA-FE */}
-        <TextComponent title={t.rich("titlesLandingSoftware.titleLandingSoftware3.title", richText)}/>
-        <SliderTestimonial items={t.raw("sliderLandingSoftware")}/>
+        
+        <SliderTestimonial title={t.rich("titlesLandingSoftware.titleLandingSoftware3.title", richText)} items={t.raw("sliderLandingSoftware")}/>
         {/*TITULO Y CARDS CASOS DE ESTUDIO */}
-        <TextComponent title='Casos de estudio'/>
-        <CardLandingSoftware items={t.raw("cardsCasosEstudio")}/>
+
+        <CardLandingSoftware title='Casos de estudio' items={t.raw("cardsCasosEstudio")}/>
         {/*TITULO Y SLIDER DE INFORMACION DE INTERESES */}
         <TextComponent title={t("titlesLandingSoftware.titleLandingSoftware5.title")}/>
         <SliderHero items={t.raw("sliderLandingSoftware2")}/>

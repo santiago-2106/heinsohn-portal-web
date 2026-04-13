@@ -7,10 +7,10 @@ import { title } from "process";
 // ==========================================
 const createNumberIcon = (number: string, badgeText?: string) => (
   <div className="flex flex-col">
-    <span className="text-[64px] font-light text-brand-accent leading-none mb-3">
+    <span className="text-[60px] font-light text-brand-accent mb-3">
       {number}
     </span>
-    <span className="inline-block border border-border-ui px-3 py-1 text-[11px] text-text-body font-medium bg-bg-card-2 w-max">
+    <span className="inline-block border border-border-ui px-3 py-1 text-[10px] bg-bg-card-2 ">
       {badgeText}
     </span>
   </div>

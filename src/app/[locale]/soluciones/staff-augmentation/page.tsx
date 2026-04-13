@@ -55,19 +55,22 @@ export default function StaffAugmentationPage() {
         <div className="mx-auto max-w-7xl px-6 md:px-12 xl:px-24">
           {/* LÍNEAS EXACTAS Y PEGADAS */}
           <div className="flex flex-col md:flex-row gap-8 items-center text-text-body font-light text-base md:text-lg w-full mb-4 px-2">
-            <div className="flex items-center gap-4 w-full">
+            <div className="flex items-center gap-2 w-full">
               <span className="whitespace-nowrap">{t("titlesStaffArgumentation.description1.description")}</span>
               <div className="h-[1px] bg-border-ui flex-1"></div>
               <span>↓</span>
             </div>
-            <div className="flex items-center gap-4 w-full">
+            <div className="flex items-center gap-2 w-full">
               <span className="whitespace-nowrap">{t("titlesStaffArgumentation.description2.description")}</span>
               <div className="h-[1px] bg-border-ui flex-1"></div>
               <span>↓</span>
             </div>
           </div>
           
-          <CardResultados data={t.raw("cardStaffArgumentation2")} />
+          <div className="-mt-32 md:-mt-48">
+          <CardResultados data={t.raw("cardStaffArgumentation2")} />  
+          </div>
+          
         </div>
       </section>
 

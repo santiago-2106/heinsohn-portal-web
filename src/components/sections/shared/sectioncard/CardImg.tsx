@@ -12,26 +12,28 @@ interface dataCardImg {
 
 export default function CardImg({ dataCardsImgs }: dataCardImg) {
   return (
-    <section>
-      <div className='mx-auto max-w-5xl p-4'>
+    <section className="px-10">
+      <div className='mx-auto max-w-5xl'>
         <CardGrid columns={3}>
           {dataCardsImgs.map((persona, index) => (
-            <div key={index} className='flex flex-col border border-border-ui bg-bg-card-2 '>
+            <div 
+              key={index} 
+              className='flex flex-col border border-border-ui bg-bg-card-2 gap-6 ' 
+            >
               <img
                 src={persona.imgPersonas}
                 alt={persona.namePersonas}
-                className='object-cover w-[315px] h-[315px] grayscale-50 '
+                className='w-full aspect-square object-cover grayscale-50' 
               />
-              <div className=" py-2 px-4">
-                <p className='text-text-body'>{persona.namePersonas}</p>
+              <div className="px-6 gap-2 flex flex-col pb-6">
+                <p className='text-1xl md:text-2xl lg:text-[18px]'>{persona.namePersonas}</p>
                 {persona.cargoPersonas && (
-                    <p className='text-brand-accent'>{persona.cargoPersonas}</p>
+                  <p className='text-brand-accent text-1xl md:text-2xl lg:text-[16px]'>{persona.cargoPersonas}</p>
                 )}
               </div>
             </div>
           ))}
-          </CardGrid>
-        
+        </CardGrid>
       </div>
     </section>
   );

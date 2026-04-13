@@ -186,22 +186,26 @@
 
     "informacionPensiones5": [
       {
-        "icon":"account_box",        
+        "icon":"account_box",
+        "iconColor":"text-brand-accent",        
         "title": "Escala regional",
         "description": "Presencia en El Salvador, Bolivia, Perú, Colombia, Honduras y otros países."
       },
       {
-        "icon":"add_reaction",        
+        "icon":"add_reaction", 
+        "iconColor":"text-brand-accent",       
         "title": "Cumplimiento regulatorio",
         "description": "Actualizaciones continuas ante cambios normativos."
       },
       {
-        "icon":"digital_wellbeing",        
+        "icon":"digital_wellbeing",
+        "iconColor":"text-brand-accent",        
         "title": "Escala regional comprobada y en expansión",
         "description": "Plataforma que escala regionalmente en proceso de expansión hacia nuevos mercados como Chile, México, República Dominicana, entre otros. Acompañando el crecimiento y la evolución del negocio previsional de nuestros clientes."
       },
       {
-        "icon":"perm_contact_calendar",        
+        "icon":"perm_contact_calendar",       
+        "iconColor":"text-brand-accent", 
         "title": "Soporte Especializado",
         "description": "Acompañamiento en implementación y operación diaria, respaldada por un equipo de más de 200 profesionales con conocimiento del sector previsional, gestión de proyectos y procesos funcionales."
       }

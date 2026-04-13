@@ -23,7 +23,7 @@ export default function Sidebar({
     {
         isOpenSidebar && (
             <div onClick={onClose}>
-                <aside className="w-95 min-h-screen border-r border-border-ui bg-bg-main p-6 flex flex-col justify-between" onClick={(e) => e.stopPropagation()}>
+                <aside className="w-95 min-h-screen border-r border-border-ui bg-bg-card-2 p-6 flex flex-col justify-between" onClick={(e) => e.stopPropagation()}>
                     <div className="">
                         <h2 className="text-2xl font-light mb-6">{titleSidebar}</h2>
                         {

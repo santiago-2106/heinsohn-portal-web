@@ -16,6 +16,7 @@ import createNumberIcon, { dataSAP, dataPorQueSAP, dataFormularioTest } from "@/
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
 import HeroSvg from "@/src/components/svgs/HeroSvg";
+import mapRich from "@/src/hooks/mapRich";
 
 // Optimización SEO
 export const metadata: Metadata = {
@@ -35,6 +36,9 @@ export default function SolucionesSAP() {
     ...card,
     icon: createNumberIcon(card.number, card.badgeText),
   }));
+
+  //CARDS PORQUE ELEGIR HEINSON TEXTO CON NEGRITA
+  const cardsPorqueHeinsohn2 = mapRich(t, "cardsPorqueElegirHeinsohn.cards")
 
   return (
     <>
@@ -75,7 +79,7 @@ export default function SolucionesSAP() {
         <CardAnuncies
           title={t("cardsPorqueElegirHeinsohn.title")}
           description={t("cardsPorqueElegirHeinsohn.description")}
-          cards={t.raw("cardsPorqueElegirHeinsohn.cards")}
+          cards={cardsPorqueHeinsohn2}
           topBadge={t("cardsPorqueElegirHeinsohn.topBadge")}
           cols={2}
         />

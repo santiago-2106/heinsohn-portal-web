@@ -222,31 +222,37 @@
       "cards4":[
       {
         "icon":"portrait",
+        "iconColor":"text-brand-accent",
         "title": "Optimizacion de costos",
         "description": "Reduce gastos administrativos y operativos."
       },
       {
         "icon":"add_reaction",
+        "iconColor":"text-brand-accent",
         "title": "Contratacion agil",
         "description": "Perfiles disponibles en 2 a 3 semanas."
       },
       {
         "icon":"digital_wellbeing",
+        "iconColor":"text-brand-accent",
         "title": "Talento de primer nivel",
         "description": "Especialistas validados técnica y culturalmente."
       },
       {
         "icon":"portrait",
+        "iconColor":"text-brand-accent",
         "title": "Cercania y colaboracion",
         "description": "Talento en tu misma zona horaria."
       },
       {
         "icon":"portrait",
+        "iconColor":"text-brand-accent",
         "title": "Escalabilidad total:",
         "description": "Amplía o reduce tu equipo según las demandas del proyecto."
       },
       {
         "icon":"portrait",
+        "iconColor":"text-brand-accent",
         "title": "Transparencia",
         "description": "Seguimiento, métricas y reportes de productividad."
       }],

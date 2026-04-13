@@ -36,7 +36,7 @@ export default function SearchSection() {
         {filterKeys.map((key) => (
           <button
             key={key}
-            className="w-fit h-fit px-4 py-2 rounded-[25px] border border-border-ui text-[14px] text-text-body whitespace-nowrap bg-bg-card-2 hover:cursor-pointer hover:border-gray-400 transition-all active:scale-95">
+            className="w-fit h-fit px-4 py-2 rounded-full border border-border-ui text-[14px] text-text-body whitespace-nowrap bg-bg-card-2 hover:cursor-pointer hover:border-gray-400 transition-all active:scale-95">
             {tFilters(key)}
           </button>
         ))}
