@@ -61,7 +61,7 @@ export default function SectionLandingHgs2() {
       <div className='pt-28'>
         {/*INFORMACION ¿Por que elegir Heinsohn HUman Global Solutions?*/}
         <TextComponent title={t("titleLandingHGS8.title")}/>
-        <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-6xl">
+        <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-5xl">
             {
                 card3.map((item, index) => (
                     <CardFeatures key={index} {...item} iconColor='text-brand-accent'/>    

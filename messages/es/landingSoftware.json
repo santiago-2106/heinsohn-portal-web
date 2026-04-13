@@ -40,7 +40,7 @@
     },
 
     "cardsBeneficionLandignSoftware": [
-      {"icon":"monitoring", "description": "Información en tableros Power BI" },
+      {"icon":"monitoring","description": "Información en tableros Power BI" },
       {"icon":"article_person", "description": "Nomina electrónica Dian" },
       {"icon":"devices_other", "description": "Soluciones de nómina 100% Web" },
       {"icon":"person_raised_hand", "description": "Autogestión para los colaboradores" },

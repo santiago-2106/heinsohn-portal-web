@@ -7,6 +7,7 @@ import CardTestiomanialLandingS from "../sections/shared/sectioncard/CardTestiom
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
+import TextComponent from "../ui/typography/TextComponent"
 
 interface TestimonialItem {
   companyLogo: string
@@ -17,14 +18,16 @@ interface TestimonialItem {
 }
 
 interface TestimonialSliderProps {
+  title?: React.ReactNode
   items: TestimonialItem[]
 }
 
-export default function SliderTestimonial({ items }: TestimonialSliderProps) {
+export default function SliderTestimonial({ title,items }: TestimonialSliderProps) {
   if (!items || items.length === 0) return null;
 
   return (
     <section className="py-8 sm:py-12 md:py-16 w-full">
+      <TextComponent title={title} />
       <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
 
         <Swiper

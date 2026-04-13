@@ -23,6 +23,7 @@ export interface ResultsCorporativoData {
 }
 
 export interface ResultsCorporativoProps {
+  titlePrincipals?: string | React.ReactNode;
   t?:string
   data: ResultsCorporativoData;
 }

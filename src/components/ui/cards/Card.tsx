@@ -2,6 +2,7 @@ import { dataCard } from "@/src/types/cardTypes";
 
 export default function Card({
   icon,
+  iconColor,
   title,
   description,
   btn,
@@ -12,11 +13,12 @@ export default function Card({
   btnHasBorder
 }: dataCard) {
   const centrar = alineacion === "center";
+  const colorIcon = iconColor === 'text-brand-accent' ? 'text-brand-accent' : 'text-text-title';
   const cleanBtnText = btn ? btn.replace(/->|→/g, "").trim() : "";
 
    {/* BOTÓN */}
       const Button = btn && (
-        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : "w-full mb-6"}>
+        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : "w-full"}>
         <a
           href="/"
           className={`
@@ -50,14 +52,14 @@ export default function Card({
             ${centrar ? "flex justify-center" : ""}
           `}
         >
-          <span className="material-symbols-rounded text-text-title font-light" style={{ fontSize: "48px" }}>
+          <span className={`material-symbols-rounded font-light ${colorIcon}`} style={{ fontSize: "48px" }}>
             {icon}
           </span>
         </div>
       )}
 
       {/* TÍTULO */}
-      <h3 className="mb-4 text-lg md:text-xl font-medium text-text-title">
+      <h3 className="mb-4 text-lg md:text-2xl font-light ">
         {title}
       </h3>
 

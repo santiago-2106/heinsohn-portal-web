@@ -107,18 +107,20 @@ export default function Navbar() {
         {/* MENÚ MÓVIL DESPLEGABLE */}
        
       </nav>
-      <Sidebar titleSidebar="Consulta"
-      listSidebar={[
-      { sidebarHref: "#", sidebarList: "Que hacemos" },
-      { sidebarHref: "#", sidebarList: "Lo que pensamos" },
-      { sidebarHref: "#", sidebarList: "Quienes somos" },
-      { sidebarHref: "#", sidebarList: "Trabaja con nosotros" },
-      { sidebarHref: "#", sidebarList: "Zona Clientes" },
-      { sidebarHref: "#", sidebarList: "Contacto" },
-      ]}
-      isOpenSidebar={openMenu}
-      onClose={() => setOpenMenu(false)}
-      />
+      <div className="border border-border-ui">
+        <Sidebar titleSidebar="Consulta"
+        listSidebar={[
+        { sidebarHref: "#", sidebarList: "Que hacemos" },
+        { sidebarHref: "#", sidebarList: "Lo que pensamos" },
+        { sidebarHref: "#", sidebarList: "Quienes somos" },
+        { sidebarHref: "#", sidebarList: "Trabaja con nosotros" },
+        { sidebarHref: "#", sidebarList: "Zona Clientes" },
+        { sidebarHref: "#", sidebarList: "Contacto" },
+        ]}
+        isOpenSidebar={openMenu}
+        onClose={() => setOpenMenu(false)}
+        />
+      </div>
     </header>
   );
 }
