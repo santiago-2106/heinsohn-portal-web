@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import {Link} from '@/src/i18n/navigation';
 import Image from "next/image"; 
 import HeroSvg from "@/src/components/svgs/HeroSvg";
 import HeroGeometricSvg from "@/src/components/svgs/HeroGeometricSvg";
@@ -20,6 +20,7 @@ interface HeroProps {
   description?: string | React.ReactNode;
   subtitle?: React.ReactNode;
   buttonText?: string;
+  buttonHref?:string;
   breadcrumb?: BreadcrumbItem[]; // Hacemos opcional la prop entera por seguridad
   badges?: BadgeItem[];
   isUppercase?: boolean;
@@ -32,6 +33,7 @@ export default function Hero({
   description,
   subtitle,
   buttonText,
+  buttonHref,
   breadcrumb = [], // Si no viene, es un array vacío (evita el error .map)
   badges,
   isUppercase = false,
@@ -146,9 +148,10 @@ export default function Hero({
           </div>
 
           {/* BOTONES */}
-          {buttonText && (
+          {buttonText && buttonHref && (
             <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
-              <button
+              <Link
+                href={buttonHref}
                 className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md cursor-pointer"
                 aria-label={buttonText}
               >
@@ -159,7 +162,7 @@ export default function Hero({
                 >
                   arrow_forward
                 </span>
-              </button>
+              </Link>
 
               <button
                 aria-label="Más opciones"

@@ -1,19 +1,27 @@
 "use client";
 
 const imagesCarrusel = [
-  "/img/allianz.png",
-  "/img/decatlon.png",
-  "/img/fna.png",
-  "/img/priceSmart.png",
-  "/img/dhl.png",
-  "/img/universidad.png",
+  "/img/allianz.webp",
+  "/img/decatlon.webp",
+  "/img/fna.webp",
+  "/img/priceSmart.webp",
+  "/img/dhl.webp",
+  "/img/universidad.webp",
+  "/img/Asopagos.webp",
+  "/img/AseoInternacional.webp",
+  "/img/AseguradoraColombia.webp",
+  "/img/GobernacionAntioquia.webp",
+  "/img/Lyncus.webp",
+  "/img/Merck.webp",
+  "/img/Positiva.webp",
+  "/img/Procolombia.webp"
 ];
 
 export default function Carrusel() {
   return (
     <div className="max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,black,transparent)]">
 
-      <div className="flex w-max animate-[scroll_20s_linear_infinite] [animation-delay:3s] [animation-fill-mode:forwards] hover:[animation-play-state:paused]">
+      <div className="flex w-max animate-[scroll_8s_linear_infinite] [animation-delay:3s] [animation-fill-mode:forwards] hover:[animation-play-state:paused]">
         
         {[...imagesCarrusel, ...imagesCarrusel].map((img, i) => (
           <div
