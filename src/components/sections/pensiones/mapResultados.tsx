@@ -74,7 +74,7 @@ export const mapResultados = (data: any): ResultsCorporativoData => {
       ),
 
       description: (
-        <span className="text-sm md:text-base text-text-body font-light">
+        <span className="text-xs sm:text-sm md:text-lg text-text-body font-light leading-snug">
           {item.description}
         </span>
       ),

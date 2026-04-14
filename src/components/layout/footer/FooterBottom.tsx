@@ -6,54 +6,67 @@ const paises = [
   {
     nombre: "Bolivia",
     image:"/bandera-bolivia.svg",
+    href:"",
   },
   {
     nombre: "Canada",
     image:"/bandera-canada.svg",
+    href:"",
   },
   {
     nombre: "Colombia",
     image:"/bandera-colombia.svg",
+    href:"",
   },
   {
     nombre: "Costa Rica",
     image:"/bandera-costa-rica.svg",
+    href:"https://www.cr.heinsohn.co/",
   },
   {
     nombre: "El Salvador",
     image:"/bandera-salvador.svg",
+    href:"",
   },
   {
     nombre: "Ecuador",
     image:"/bandera-ecuador.svg",
+    href:"https://www.ec.heinsohn.co/",
   },
   {
     nombre: "Estados Unidos",
-    image:"/bandera-eeu.svg"
+    image:"/bandera-eeu.svg",
+    href:"https://www.us.heinsohn.co/",
   },
   {
     nombre: "Guatemala",
-    image:"/bandera-guatemala.svg"
+    image:"/bandera-guatemala.svg",
+    href:"https://gt.heinsohn.co/",
   },
   {
     nombre: "Honduras",
-    image:"/bandera-honduras.svg"
+    image:"/bandera-honduras.svg",
+    href:"",
   },
   {
     nombre: "Mexico",
-    image:"/bandera-mexico.svg"
+    image:"/bandera-mexico.svg",
+    href:"",
   },
   {
     nombre: "Panama",
-    image:"/bandera-panama.svg"
+    image:"/bandera-panama.svg",
+    href:"about:blank",
   },
   {
     nombre: "Peru",
-    image:"/bandera-peru.svg"
+    image:"/bandera-peru.svg",
+    href:"",
   },
   {
     nombre: "Republica Dominicana",
-    image:"/bandera-republicaD.svg"
+    image:"/bandera-republicaD.svg",
+    href:"",
   },
 ];
 
@@ -79,18 +92,24 @@ export default function FooterBottom() {
   return (
     <div className="border-t border-border-ui ">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="py-8 ">
-          <TextComponent title="Presencia Global"/>
+        <div className="py-8 px-16 ">
+          <h3 className="mb-4 text-lg md:text-2xl leading-[110%] font-light text-center">
+            Presencia Global
+          </h3>
 
           <ul className="mb-8 grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 md:grid-cols-4">
             {paises.map((pais) => (
-              <li key={pais.nombre} className="flex items-center gap-2">
+              <li key={pais.nombre} className=" mt-2 flex items-center gap-2">
                 <img
                   src={pais.image}
                   alt={pais.nombre}
                   className="inline-block h-6 w-8 rounded-md"
                 />
-                <div>{pais.nombre}</div>
+                <Link href={pais.href} 
+                target="__blank"
+                >
+                  {pais.nombre}
+                </Link>
               </li>
             ))}
           </ul>

@@ -43,14 +43,14 @@ const AccordionItem = ({ question, answer }: FaqItem) => {
           isOpen ? "max-h-96 opacity-100 pb-6" : "max-h-0 opacity-0"
         }`}
       >
-        <p className="text-text-body text-base leading-relaxed">
+        <h5 className="font-light text-sm leading-5 md:text-base md:leading-6.5 text-text-body">
           {answer.descriptions}
-        </p>
+        </h5>
 
         {answer.listsItems && (
           <ul className="mt-4 space-y-2 list-disc list-outside pl-5 marker:text-brand-accent">
             {answer.listsItems.map((item, index) => (
-              <li key={index} className="text-text-body text-base">
+              <li key={index} className="font-light text-sm leading-5 md:text-base md:leading-6.5 text-text-body">
                 {item}
               </li>
             ))}
@@ -65,7 +65,7 @@ export default function PreguntForm({ title, items, description }: PreguntasFort
   return (
     <section className="bg-bg-main py-16 sm:py-24 transition-colors duration-300">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-light text-center text-text-title mb-16 leading-tight">
+        <h2 className="text-[32px] sm:text-4xl md:text-5xl font-light text-center text-text-title leading-tight">
           {title}
         </h2>
 

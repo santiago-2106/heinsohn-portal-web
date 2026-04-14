@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { UrlObject } from "url";
 
 /**
  * Interface base para las Cards presentacionales.
@@ -15,6 +16,7 @@ export interface dataCard {
   title?: ReactNode;
   description?: string | ReactNode;
   btn?: string;
+  linkNavigation?:string | UrlObject;
   items?: ItemsCard[];
   alineacion?: "left" | "center";
   textoFooter?: ReactNode;

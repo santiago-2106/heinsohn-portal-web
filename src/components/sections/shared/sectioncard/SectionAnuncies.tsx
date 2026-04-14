@@ -31,7 +31,8 @@ export default function CardAnuncies({
       <div className="mx-auto max-w-6xl px-6 md:px-12 xl:px-24">
         
         {/* ENCABEZADO */}
-        <div className={`mb-16 flex flex-col ${alignClass}`}>
+        <div className="mb-10 w-full max-w-4xl mx-auto">
+        <div className={`flex flex-col ${alignClass}`}>
           {topBadge && (
             <span 
               className={`block w-max px-4 py-1.5 tracking-wide mb-6 ${
@@ -44,7 +45,7 @@ export default function CardAnuncies({
             </span>
           )}
 
-          <h2 className="text-3xl md:text-5xl text-text-title font-light mb-8 w-full">
+          <h2 className="text-3xl md:text-5xl text-text-title font-light mb-6 w-full">
             {title}
           </h2>
 
@@ -53,6 +54,7 @@ export default function CardAnuncies({
               {description}
             </div>
           )}
+        </div>
         </div>
 
         {/* GRILLA DE TARJETAS */}

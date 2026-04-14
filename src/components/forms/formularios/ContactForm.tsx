@@ -20,7 +20,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
 
 
   return (
-    <section className="bg-bg-main py-12 md:py-20">
+    <section id="contacto" className="bg-bg-main py-12 md:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         
         {/* Cambié a flex-col en móvil para garantizar que no se desborde, y grid en escritorio */}

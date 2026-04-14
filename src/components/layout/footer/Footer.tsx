@@ -27,7 +27,7 @@ export default async function Footer() {
               <h3 className="text-sm font-bold text-text-body tracking-wider">HEINSOHN</h3>
             </div>
 
-            <p className="text-sm text-text-body leading-7.5 w-50 h-39 gap-10">
+            <p className="text-sm text-text-body leading-loose w-50 h-39 gap-10">
               {t("description")}
             </p>
 
@@ -42,7 +42,7 @@ export default async function Footer() {
           </div>
 
           <nav>
-            <h3 className="text-text-body mb-4">{t("solutionsTitle")}</h3>
+            <h3 className="text-text-body mb-4 text-lg md:text-2xl leading-[110%] font-light">{t("solutionsTitle")}</h3>
             <div className="grid grid-cols-2 gap-y-3 gap-x-8">
               {soluciones.map((column: string[], index: number) => (
                 <ul
@@ -60,7 +60,7 @@ export default async function Footer() {
           </nav>
 
           <nav>
-            <h4 className="text-text-body mb-4">{t("companyTitle")}</h4>
+            <h4 className="text-text-body mb-4 text-lg md:text-2xl leading-[110%] font-light">{t("companyTitle")}</h4>
             <ul className="flex flex-col gap-2 text-sm text-text-body">
               {
                 company.map((item: string) => (

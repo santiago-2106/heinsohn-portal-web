@@ -4,6 +4,7 @@
       "title": "HGS - Gestión Humana",
       "description": "Una compañía de <bold>servicios en gestión del talento humano,</bold> que crea impacto positivo con soluciones tecnológicas, <bold>servicios de asesoría y operación.</bold>",
       "buttonText": "solicita una asesoria gratuita",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "soluciones" },
         { "label": "HGS - Gestión Humana" }
@@ -160,6 +161,7 @@
     },
     
     "buttonGestionHumana": "Habla con un experto",
+    "href":"#contacto",
 
     "cardInfoGestionHumana": [
     { "description": "Organizaciones" },

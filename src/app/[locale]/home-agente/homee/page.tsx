@@ -15,7 +15,7 @@ export default function pageHome() {
   //Cards Soluciones del Home ajuste para estilos segun la ux
   const cardSoluciones = mapRich(t, "cardSolucionesHome.cardsHome")
   return (
-    <div>
+    <div id='home'>
       <Hero 
       title={t("dataHeroHome.title")}
       subtitle={t.rich("dataHeroHome.subtitle", richText)}
