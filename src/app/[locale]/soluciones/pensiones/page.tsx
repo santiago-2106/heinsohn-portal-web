@@ -41,25 +41,18 @@ export default function PagePensiones() {
       />
       
       {/* 2. MÉTRICAS 1 */}
-      <CardResultados data={cardPensions1} />
+      <CardResultados title="Resultados Corporativos" data={cardPensions1} />
 
       {/* 3. RETOS DEL SISTEMA */}
       <CardAnuncies
         title={t.rich("titlesPensiones.titlePensiones1.title", richText)}
         description={t.rich("titlesPensiones.titlePensiones1.description", richText)}
-        cards={t.raw("cardsPensiones2")}
+        cards={t.raw("cardsPensiones2.cards")}
         cols={2}
-      />
-
-      {/* 4. TEXTO COMPLEMENTARIO */}
-      <TextComponent 
-        description={t("titlesPensiones.titlePensiones2.description")}
+        bottomText={t.raw("cardsPensiones2.bottomText")}
+        bottomBtn={t.raw("cardsPensiones2.bottomBtn")}
       />
       
-      {/* 5. BOTÓN CTA */}
-      <center className="mb-12">
-        <ButtonComponent textoBtn={t("buttonsPensiones.buttonPensiones1")} />
-      </center>
 
       {/* 6. MÓDULOS DE SOLUCIONES */}
       <CardAnuncies
@@ -78,7 +71,7 @@ export default function PagePensiones() {
       />
       
       {/*  8. RESULTADOS 2 - TÍTULO, Y MÉTRICAS 2 */}
-      <CardResultados titlePrincipals={t.rich("titlesPensiones.titlePensiones5.title", richText)} data={t.raw("infoPensiones6")} />
+      <CardResultados title={t.rich("titlesPensiones.titlePensiones5.title", richText)} data={t.raw("infoPensiones6")} />
 
       {/* 10. CERTIFICACIONES */}
       <CertificacionesInternacionales 

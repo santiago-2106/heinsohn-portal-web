@@ -1,4 +1,5 @@
 import { dataCard } from "@/src/types/cardTypes";
+import { Link } from "@/src/i18n/navigation";
 
 export default function Card({
   icon,
@@ -6,6 +7,7 @@ export default function Card({
   title,
   description,
   btn,
+  linkNavigation,
   items,
   alineacion = "left",
   textoFooter,
@@ -19,8 +21,9 @@ export default function Card({
    {/* BOTÓN */}
       const Button = btn && (
         <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : "w-full"}>
-        <a
-          href="/"
+        {linkNavigation &&(
+          <Link
+          href={linkNavigation}
           className={`
             inline-flex gap-2 text-sm font-bold group
             ${centrar ? "justify-center" : "items-center"}
@@ -32,14 +35,16 @@ export default function Card({
           <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
             →
           </span>
-        </a>
+        </Link>
+        )}
         </div>
       )
 
   return (
     <div
       className={`
-        flex flex-col border border-border-ui bg-bg-card-2 p-8 md:p-10 
+        group
+        flex flex-col border border-border-ui bg-bg-card-2 p-4 md:p-8
         shadow-sm h-full hover:shadow-md transition-shadow duration-300
         ${centrar ? "items-center text-center" : "items-start text-left"}
       `}
@@ -52,14 +57,14 @@ export default function Card({
             ${centrar ? "flex justify-center" : ""}
           `}
         >
-          <span className={`material-symbols-rounded font-light ${colorIcon}`} style={{ fontSize: "48px" }}>
+          <span className={`material-symbols-rounded font-light ${colorIcon} inline-block transition-transform duration-300 group-hover:scale-125 group-hover:-translate-y-1`} style={{ fontSize: "48px" }}>
             {icon}
           </span>
         </div>
       )}
 
       {/* TÍTULO */}
-      <h3 className="mb-4 text-lg md:text-2xl font-light ">
+      <h3 className="mb-4 text-lg md:text-2xl leading-[110%] font-light ">
         {title}
       </h3>
 
@@ -105,7 +110,7 @@ export default function Card({
       {
         textoFooter && (
           <div className="border-t border-border-ui pt-8 mb-8 min-w-full">
-            <p className="text-text-body leading-relaxed">{textoFooter}</p>
+            <p className="text-sm md:text-base leading-relaxed text-text-body">{textoFooter}</p>
           </div>
         )
       }

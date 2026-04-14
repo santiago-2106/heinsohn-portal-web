@@ -20,13 +20,13 @@ export default function CertificacionesInternacionales({
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
 
         {/* TÍTULO */}
-        <h2 className="text-3xl sm:text-4xl font-light text-text-title mb-3">
+        <h2 className="text-3xl md:text-5xl text-text-title font-light  w-full">
           {title}
         </h2>
 
         {/* DESCRIPCIÓN */}
         {descripcion && (
-          <p className="mx-auto max-w-4xl text-base md:text-lg text-text-body leading-relaxed mb-4">
+          <p className="mx-auto max-w-4xl text-base md:text-lg text-text-body leading-relaxed ">
             {descripcion}
           </p>
         )}

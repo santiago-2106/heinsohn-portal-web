@@ -30,7 +30,7 @@
         "title": "Lo que nos hace diferentes en la <br></br>gestión pensional"
       },
       "titlePensiones5": {
-        "title": "Lo que nos hace diferentes en la <br></br> gestión empresarial"
+        "title": "Lo que nos hace diferentes en la  gestión empresarial"
       },
       "titlePensiones6": {
         "title": "Certificaciones Internacionales"
@@ -39,7 +39,7 @@
         "description": "Sin compromiso | Respaldo en +7 Países | +12 millones de afiliados administrativos"
       },
       "titlePensiones8": {
-        "title": "Moderniza la gestión de tu sistema de <br></br>pensiones",
+        "title": "Moderniza la gestión de tu sistema de pensiones",
         "description": "Transforma la administración de pensiones en tu entidad y asegura cumplimiento en cada auditoría"
       },
       "PreguntasFrecuentes": {
@@ -79,8 +79,10 @@
       ]
     },
 
-    "cardsPensiones2": [
-      {
+    "cardsPensiones2": {
+      "title":"",
+      "description":"",
+      "cards":[{
         "icon": "ar_on_you",
         "title": "Envejecimiento poblacional",
         "description": "Mas jubilados demandan procesos ágiles y sostenibles.",
@@ -115,8 +117,10 @@
         "title": "Nuevos actores",
         "description": "Aseguradoras y multifondos intensifican la competencia y elevan los estándares de servicio.",
         "alineacion": "center"
-      }
-    ],
+      }],
+      "bottomText":"Con nuestras soluciones para pensiones obtienes software escalable y seguro, alineados a la regulación y pensadas para garantizar confianza y sostenibilidad.",
+      "bottomBtn":"Explora nuestras soluciones en pensiones"
+    },
 
     "cardPensiones3": [
       {

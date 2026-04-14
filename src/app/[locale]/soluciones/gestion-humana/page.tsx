@@ -29,6 +29,8 @@ export default function GestionHumanaPage() {
         title={t("dataHeroGestionHumana.title")}
         description={t.rich("dataHeroGestionHumana.description", richText)}
         buttonText={t("dataHeroGestionHumana.buttonText")}
+        buttonHref={t("dataHeroGestionHumana.buttonHref")}
+        arrowHref="#cards1"
         breadcrumb={t.raw("dataHeroGestionHumana.breadcrumb")}
         showImage={false}
       />

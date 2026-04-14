@@ -1,20 +1,19 @@
-import TextComponent from "@/src/components/ui/typography/TextComponent";
+
 import type { ResultsCorporativoProps } from "@/src/types/typePensiones";
 
-export default function CardResultados({ titlePrincipals,data }: ResultsCorporativoProps) {
+export default function CardResultados({ title,data }: ResultsCorporativoProps) {
   return (
     <section className="bg-bg-main py-12 md:py-16 lg:py-20">
-      <TextComponent title={titlePrincipals}/>
       <div className="mx-auto max-w-6xl px-4 md:px-6">
-        <h2 className="text-center text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light mb-6 md:mb-8">
-          {data.title}
+        <h2 className="text-3xl md:text-5xl text-text-title font-light mb-8 w-full text-center">
+          {title}
         </h2>
 
         <div className="grid lg:grid-cols-2 border border-border-ui">
           <div className="p-5 sm:p-6 md:p-10 lg:p-12 border-b lg:border-b-0 lg:border-r border-border-ui flex flex-col justify-center">
             
             {/* ICON */}
-            <div className="material-symbols-rounded text-text-title font-light text-5xl sm:text-6xl md:text-7xl lg:text-[80px]" style={{fontSize:"48px"}}>
+            <div className="material-symbols-rounded text-text-title font-light text-5xl sm:text-6xl md:text-7xl lg:text-[80px]" style={{fontSize:"58px"}}>
               {data.highlight.icon}
             </div>
 
@@ -30,7 +29,7 @@ export default function CardResultados({ titlePrincipals,data }: ResultsCorporat
             </div>
 
             {/* DESCRIPTION */}
-            <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-[25px] leading-snug">
+            <div className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-[25px] font-light text-text-body leading-snug">
               {data.highlight.description}
             </div>
           </div>
@@ -67,12 +66,12 @@ export default function CardResultados({ titlePrincipals,data }: ResultsCorporat
                     }`}
                   >
                     {/* ICON Interno */}
-                    <span className="material-symbols-rounded text-text-title font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl shrink-0" style={{fontSize:"48px"}}>
+                    <span className="material-symbols-rounded text-text-title font-light text-3xl sm:text-4xl md:text-5xl lg:text-6xl shrink-0" style={{fontSize:"58px"}}>
                       {item.icon}
                     </span>
 
                     {/* DESCRIPTION INTERNO */}
-                    <p className="text-xs sm:text-sm md:text-base text-text-body font-light leading-snug">
+                    <p className="text-xs sm:text-sm md:text-lg text-text-body font-light leading-snug">
                       {item.description}
                     </p>
                   </div>

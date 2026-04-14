@@ -24,7 +24,7 @@ export default function SolucionesGestionH() {
 
   return (
     <section className="">
-      <article className="max-w-5xl mx-auto px-6 py-8">
+      <article id="cards1" className="max-w-5xl mx-auto px-6 py-8 mt-24">
         <TextComponent
           title={t("titlesGestionHumana.titleGestionHumana1.title")}
           description={t.rich("titlesGestionHumana.titleGestionHumana1.description", richText)}
@@ -56,7 +56,7 @@ export default function SolucionesGestionH() {
           title={t("titlesGestionHumana.titleGestionHumana3.title")}
           description={t.rich("titlesGestionHumana.titleGestionHumana3.description", richText)}
         />
-        <ButtonComponent textoBtn={t("buttonGestionHumana")} />
+        <ButtonComponent textoBtn={t("buttonGestionHumana")} href="#contacto"/>
       </div>
     </section>
   );

@@ -18,12 +18,12 @@ export default function CardIA({
       <div className="material-symbols-rounded mb-6 text-text-title" style={{fontSize:"48px"}}>{icon}</div>
 
       {/* Título principal de la carta */}
-      <h1 className="mb-6 text-2xl md:text-3xl font-light text-text-title">
+      <h3 className="mb-6 text-lg md:text-2xl font-light">
         {title}
-      </h1>
+      </h3>
 
       {/* Descripción principal */}
-      <div className="mb-8 text-text-body leading-relaxed">
+      <div className="mb-8 text-sm md:text-base leading-relaxed text-text-body">
         {description}
       </div>
 
@@ -86,7 +86,7 @@ export default function CardIA({
       {/* Texto de cierre (Footer de la carta) */}
       {footerText && (
         <div className="border-t border-border-ui pt-8 mb-8">
-          <p className="text-text-body leading-relaxed">
+          <p className="mb-4 text-sm md:text-base leading-relaxed text-text-body mt-2">
             {footerText}
           </p>
         </div>
@@ -96,14 +96,15 @@ export default function CardIA({
       <div className={btnHasBorder ? "border-t border-border-ui pt-8" : ""}>
         <a
           href={btnHref}
-          className="inline-flex items-center gap-3 text-sm font-bold group text-text-title hover:opacity-80 transition-opacity w-max"
+          className="inline-flex items-start md:items-center gap-3 text-sm font-bold group text-text-title hover:opacity-80 transition-opacity w-full whitespace-normal break-words"
         >
           <span>{btnText}</span>
-          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
+
+          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1 shrink-0">
             →
           </span>
         </a>
-      </div>
+    </div>
     </article>
   );
 }

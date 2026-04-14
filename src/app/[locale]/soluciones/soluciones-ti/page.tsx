@@ -26,6 +26,7 @@ export default function PageSolucionesTI() {
 
   return (
     <>
+    <div id="solucionesTi">
       <Hero {...t.raw("dataHeroSolucionesTI")}/>
       <CardFinal />
       <CardCases 
@@ -37,6 +38,7 @@ export default function PageSolucionesTI() {
       data={t.raw("sliderSolucionesTi.items")}
       />
       <ContactForm title={tContacto("title")} />
+    </div>
     </>
   );
 }

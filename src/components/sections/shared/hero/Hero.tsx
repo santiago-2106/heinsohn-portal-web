@@ -1,32 +1,12 @@
+"use client"
+
 import React from "react";
 import {Link} from '@/src/i18n/navigation';
-import Image from "next/image"; 
+import { scrollHero } from "@/src/utils/scrollHero";
 import HeroSvg from "@/src/components/svgs/HeroSvg";
 import HeroGeometricSvg from "@/src/components/svgs/HeroGeometricSvg";
+import { HeroProps } from "@/src/types/typeHero";
 
-interface BreadcrumbItem {
-  label?: string;
-  href?: string;
-}
-
-export interface BadgeItem {
-  prefix?: string;
-  highlight?: string;
-  text: string;
-}
-
-interface HeroProps {
-  title: string | React.ReactNode;
-  description?: string | React.ReactNode;
-  subtitle?: React.ReactNode;
-  buttonText?: string;
-  buttonHref?:string;
-  breadcrumb?: BreadcrumbItem[]; // Hacemos opcional la prop entera por seguridad
-  badges?: BadgeItem[];
-  isUppercase?: boolean;
-  showImage?: boolean; 
-  booleanSVG?: boolean; 
-}
 
 export default function Hero({
   title,
@@ -34,12 +14,17 @@ export default function Hero({
   subtitle,
   buttonText,
   buttonHref,
+  arrowHref,
   breadcrumb = [], // Si no viene, es un array vacío (evita el error .map)
   badges,
   isUppercase = false,
   showImage = true, 
   booleanSVG=false
 }: HeroProps) {
+
+  const ancla = buttonHref?.startsWith("#")
+  const isAnchorArrow = arrowHref?.startsWith("#");
+
   return (
     <section className="bg-bg-main pt-12 md:pt-20 transition-colors duration-300">
       <div className="mx-auto max-w-5xl px-8 md:px-12 pb-12 md:pb-20">
@@ -54,7 +39,7 @@ export default function Hero({
             className="flex items-center gap-2 text-sm text-text-body mb-8"
           >
             <Link
-              href="/"
+              href="/home-agente/homee"
               className="flex items-center gap-1 hover:text-brand-accent transition-colors"
               aria-label="Ir a la página de inicio"
             >
@@ -150,31 +135,43 @@ export default function Hero({
           {/* BOTONES */}
           {buttonText && buttonHref && (
             <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4">
-              <Link
-                href={buttonHref}
-                className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md cursor-pointer"
-                aria-label={buttonText}
-              >
-                <span className="font-medium">{buttonText}</span>
-                <span
-                  aria-hidden="true"
-                  className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1 hover:opacity-0"
+               {ancla ? (
+                /* SCROLL INTERNO */
+                <a
+                  href={buttonHref}
+                  onClick={(e) => scrollHero(e, ancla, buttonHref)}
+                  className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md cursor-pointer"
                 >
-                  arrow_forward
-                </span>
-              </Link>
+                  <span className="font-medium">{buttonText}</span>
+                  <span className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1">
+                    arrow_forward
+                  </span>
+                </a>
+              ) : (
+                /* NAVEGACIÓN NORMAL */
+                <Link
+                  href={buttonHref}
+                  className="group flex items-center gap-3 bg-text-title text-bg-main px-8 py-4 rounded-full transition-all hover:opacity-80 shadow-sm hover:shadow-md cursor-pointer"
+                >
+                  <span className="font-medium">{buttonText}</span>
+                  <span className="material-symbols-rounded text-lg transition-transform duration-300 group-hover:translate-x-1">
+                    arrow_forward
+                  </span>
+                </Link>
+              )}
 
-              <button
-                aria-label="Más opciones"
-                className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main hover:opacity-80 transition-colors shadow-sm hover:shadow-md cursor-pointer"
-              >
-                <span
-                  aria-hidden="true"
-                  className="material-symbols-rounded text-lg hover:translate-y-6"
+
+              {isAnchorArrow && (
+                <button
+                  aria-label="scroll"
+                  onClick={(e) => scrollHero(e, isAnchorArrow, arrowHref)}
+                  className="flex items-center justify-center w-12 h-12 rounded-full bg-text-title text-bg-main"
                 >
-                  arrow_downward
-                </span>
-              </button>
+                  <span className="material-symbols-rounded">
+                    arrow_downward
+                  </span>
+                </button>
+              )}
             </div>
           )}
         </div>
