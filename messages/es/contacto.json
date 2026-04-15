@@ -1,0 +1,13 @@
+{
+  "ContactoPage": {
+    "breadcrumb": {
+      "home": "Home",
+      "current": "Contacto"
+    },
+    "hero": {
+      "title": "Contáctanos",
+      "description": "¿Quieres saber más sobre todo lo que podemos hacer por tu empresa? Escríbenos y pronto nos pondremos en contacto.",
+      "button": "Contáctanos"
+    }
+  }
+}

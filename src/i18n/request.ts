@@ -39,6 +39,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const agenteAviso = (await import(`../../messages/${locale}/agenteAvisoPrivacidad.json`)).default;
   const agente = (await import(`../../messages/${locale}/agente.json`)).default;
   const staffAugmentation = (await import(`../../messages/${locale}/staffAugmentation.json`)).default;
+  const contacto = (await import(`../../messages/${locale}/contacto.json`)).default;
   
   // AQUÍ ESTÁ LA CORRECCIÓN CLAVE:
   const terminosYCondiciones = (await import(`../../messages/${locale}/terminos-condiciones.json`)).default;
@@ -78,7 +79,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...agente,
       ...staffAugmentation,
       ...terminosYCondiciones,
-      ...blogs
+      ...blogs,
+      ...contacto,
     }
   };
 });

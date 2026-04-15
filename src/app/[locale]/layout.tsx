@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
