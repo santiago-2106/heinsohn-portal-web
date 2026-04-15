@@ -12,6 +12,7 @@
       "title": "Soluciones para el sector financiero ",
       "description": "Contamos con un <bold>portafolio de software especializado para banca, fintechs, aseguradoras y entidades no bancarizadas</bold> que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo. ",
       "buttonText": "Solicita una asesoría gratuita",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Soluciones para el sector financiero" }

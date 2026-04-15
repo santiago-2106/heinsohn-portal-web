@@ -35,6 +35,8 @@ export default function PagePensiones() {
         title={t("dataHeroPensiones.title")}
         description={t.rich("dataHeroPensiones.description", richText)}
         buttonText={t("dataHeroPensiones.buttonText")}
+        buttonHref="#"
+        arrowHref="#"
         breadcrumb={t.raw("dataHeroPensiones.breadcrumb")}
         badges={t.raw("dataHeroPensiones.badges")}
         showImage={true} 

@@ -1,46 +1,46 @@
 {
   "pensiones": {
     "dataHeroPensiones": {
-      "title": "Pension solutions",
-      "description": "Our software <bold>is designed for pension funds, insurers, and financial institutions looking to transform their management.</bold> With our platforms, you can manage severance, mandatory and voluntary pensions, and settle life annuities with full traceability, efficiency, and regulatory compliance.",
+      "title": "Pension Solutions",
+      "description": "Our software <bold>is designed for pension funds, insurance companies, and financial institutions seeking to transform their management.</bold> With our platforms, you can manage severance pay, mandatory and voluntary pensions, and annuity settlements with full traceability, efficiency, and regulatory compliance.",
       "buttonText": "Talk to a pension expert",
       "breadcrumb": [
         { "label": "Pensions" },
-        { "label": "Pension solutions" }
+        { "label": "Pension Solutions" }
       ],
       "badges": [
-        { "prefix": "+", "highlight": "40","text": "years of experience"},
-        {"prefix": "+", "highlight": "7","text": "million managed members"}
+        { "prefix": "+", "highlight": "40", "text": "years of experience" },
+        { "prefix": "+", "highlight": "7", "text": "million affiliates managed" }
       ]
     },
 
     "titlesPensiones": {
       "titlePensiones1": {
-        "title": "Pension system challenges in <br></br>Latin America and how you can <br></br>manage them with our software",
-        "description": "The pension system in Latin America faces transformations that require <bold>vision and technology:</bold>"
+        "title": "Challenges of the pension system in<br></br>Latin America and how you can<br></br>manage it with our software",
+        "description": "The pension system in Latin America is undergoing transformations that require <bold>vision and technology:</bold>"
       },
       "titlePensiones2": {
-        "description": "With our pension solutions you get scalable and secure software, aligned with regulations and designed to guarantee trust and sustainability."
+        "description": "With our pension solutions, you get scalable and secure software, aligned with regulations and designed to ensure trust and sustainability."
       },
       "titlePensiones3": {
-        "title": "A unique, modular and scalable<br></br>pension platform",
-        "description": "Our <bold>pension software</bold> centralizes the administration of the pension system in a single core technology platform, enabling the integrated management of mandatory pensions, voluntary pensions, severance pay, and annuities.<br></br><br></br><bold>Its modular and customizable design allows it to adapt to the regulations of each country in Latin America,</bold> handle high operational volumes, and guarantee traceability, control, and consistency of information throughout the entire pension cycle."
+        "title": "A unique, modular, and scalable<br></br>pension platform",
+        "description": "Our <bold>pension software</bold> centralizes the administration of the pension system in a single technological core, from which it is possible to manage mandatory pensions, voluntary pensions, severance pay, and life annuities in an integrated way.<br></br><br></br><bold>Its modular and parameterizable design allows it to adapt to the regulations of each country in LATAM,</bold> handle high operational volumes, and ensure traceability, control, and consistency of information throughout the entire pension cycle."
       },
       "titlePensiones4": {
-        "title": "What makes us different in <br></br> pension management"
+        "title": "What makes us different in<br></br>pension management"
       },
       "titlePensiones5": {
-        "title": "What makes us different in <br></br> business management"
+        "title": "What makes us different in<br></br>business management"
       },
       "titlePensiones6": {
         "title": "International Certifications"
       },
       "titlePensiones7": {
-        "description": "No commitment | Support in +7 Countries | +12 million managed affiliates"
+        "description": "No commitment | Support in +7 countries | +12 million managed affiliates"
       },
       "titlePensiones8": {
-        "title": "Modernize your pension system <br></br>management",
-        "description": "Transform your entity's pension administration and ensure compliance in every audit"
+        "title": "Modernize your pension system management",
+        "description": "Transform the administration of pensions in your entity and ensure compliance in every audit"
       },
       "PreguntasFrecuentes": {
         "title": "Frequently Asked Questions"
@@ -54,33 +54,35 @@
     },
 
     "cardsPensiones1": {
-    "title": "Results that support us",
-    "highlight": {
-      "icon": "rocket_launch",
-      "value": "30",
-      "prefix": "+",
-      "description": "years of experience"
-    },
-    "metrics": [
-      {
-        "id": "compliance",
-        "value": "12",
+      "title": "Results that back us up",
+      "highlight": {
+        "icon": "rocket_launch",
+        "value": "30",
         "prefix": "+",
-        "description": "million members managed in Colombia and Latam"
+        "description": "years of experience"
       },
-      {
-        "id": "cost",
-        "value": "90.000",
-        "prefix": "+",
-        "extraLabel": "We manage",
-        "suffix": "USD",
-        "description": "million in pensions"
-      }
-    ]
-  },
+      "metrics": [
+        {
+          "id": "compliance",
+          "value": "12",
+          "prefix": "+",
+          "description": "million affiliates managed in Colombia and Latam"
+        },
+        {
+          "id": "cost",
+          "value": "90,000",
+          "prefix": "+",
+          "extraLabel": "We manage",
+          "suffix": "USD",
+          "description": "million in pensions"
+        }
+      ]
+    },
 
-    "cardsPensiones2": [
-      {
+    "cardsPensiones2": {
+      "title":"",
+      "description":"",
+      "cards":[{
         "icon": "ar_on_you",
         "title": "Aging population",
         "description": "More retirees demand agile and sustainable processes.",
@@ -89,121 +91,131 @@
       {
         "icon": "trip",
         "title": "Financial sustainability",
-        "description": "Deficits in pay-as-you-go systems drive diversification into capitalization funds.",
+        "description": "Deficits in pay-as-you-go systems drive diversification in capitalization funds.",
         "alineacion": "center"
       },
       {
         "icon": "card_travel",
-        "title": "Process digitalization",
+        "title": "Digitization of procedures",
         "description": "Affiliates expect self-management, traceability, and a 100% digital experience.",
         "alineacion": "center"
       },
       {
         "icon": "money_bag",
         "title": "Regulatory pressure",
-        "description": "Changing regulations require reliable and updated reports.",
+        "description": "Changing regulations require reliable and up-to-date reports.",
         "alineacion": "center"
       },
       {
         "icon": "article_person",
         "title": "Pensioner payroll",
-        "description": "Mass payments require transparent and error-free settlement.",
+        "description": "Mass payment requires transparent and error-free settlement.",
         "alineacion": "center"
       },
       {
         "icon": "nest_found_savings",
-        "title": "New actors",
-        "description": "Insurers and multi-funds intensify competition and raise service standards.",
+        "title": "New players",
+        "description": "Insurers and multifunds intensify competition and raise service standards.",
         "alineacion": "center"
-      }
-    ],
+      }],
+      "bottomText":"With our pension solutions, you get scalable and secure software, aligned with regulations and designed to ensure trust and sustainability.",
+      "bottomBtn":"Explore our pension solutions"
+    },
 
     "cardPensiones3": [
       {
         "icon": "savings",
         "title": "Mandatory Pensions Module",
-        "description": "Manages the complete cycle of the affiliate, from design, affiliation to recognition and payment of the pension, <bold>Under different regimes and regulatory frameworks.</bold>",
+        "description": "Manage the complete affiliate cycle, from design and affiliation to recognition and pension payment, <bold>under different regimes and regulatory frameworks.</bold>",
         "items": [
-          { "textos": "Administration of affiliations, employment history, and contributions" },
-          { "textos": "Settlement of pensions in capitalization, pay-as-you-go, or mixed schemes." },
-          { "textos": "Management of news, transfers, withdrawals, and status changes." },
-          { "textos": "Integrated pensioner payroll, with massive processes and total control." },
-          { "textos": "Regulatory parameterization per country and continuous update to regulatory changes." },
+          { "textos": "Management of affiliations, work history, and contributions" },
+          { "textos": "Pension settlement in capitalization, pay-as-you-go, or mixed schemes." },
+          { "textos": "Management of updates, transfers, withdrawals, and status changes." },
+          { "textos": "Integrated pensioner payroll, with mass processes and total control." },
+          { "textos": "Regulatory parameterization by country and continuous updates in response to regulatory changes." },
           { "textos": "Integration with regulatory, accounting, and collection systems." },
           { "textos": "Generation of executive and detailed reports" },
-          { "textos": "Designed with user experience in mind for greater ease of use." },
-          { "textos": "360° view of the affiliate and employers, providing unified access to bank accounts, relationships, and obligation status." }
+          { "textos": "Designed with the user experience in mind for ease of use." },
+          { "textos": "360° view of affiliates and employers, providing unified access to bank accounts, relationships, and obligation status." }
         ],
-        "textoFooter": "We manage <red>48%</red> of mandatory pensions in Colombia, representing <bold>USD 63 billion</bold>",
-        "btn": "Explore the mandatory pensions module"
+        "textoFooter": "We manage <red>48%</red> of mandatory pensions in Colombia, representing <bold>USD 63 trillion</bold>",
+        "btn": "Explore the mandatory pensions module",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "account_circle",
         "title": "Life Annuities and Pensioner Payroll Module",
-        "description": "Manages the settlement and periodic payment of life annuities and pensioner payroll from a <bold>100% web and highly automated platform.</bold>",
+        "description": "Manage the settlement and periodic payment of life annuities and pensioner payroll from a <bold>100% web-based and highly automated platform.</bold>",
         "items": [
           { "textos": "Automatic settlement of life annuities." },
-          { "textos": "Management of survivorships, substitutions, and temporalities." },
-          { "textos": "Mass processes for calculation and dispersion of payments." },
-          { "textos": "Notifications to the pensioner about payments and adjustments." },
+          { "textos": "Management of survivorship, substitutions, and temporary benefits." },
+          { "textos": "Mass processes for calculation and payment disbursement." },
+          { "textos": "Notifications to pensioners about payments and adjustments." },
           { "textos": "Integrated document manager for auditing and traceability." },
-          { "textos": "Electronic dossier, notifications, integration with document manager, upload component, and file generation." },
-          { "textos": "Adapts to pension funds, insurers, and occupational risk companies, allowing you to manage both pensioner payrolls and life annuities in one place." }
+          { "textos": "Electronic file, notifications, integration with document manager, upload and file generation component." },
+          { "textos": "Adapts to pension funds, insurance companies, and occupational risk companies, allowing you to manage both pensioner payrolls and life annuities in one place." }
         ],
-        "btn": "Discover the life annuities module"
+        "btn": "Learn about the life annuities module",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "savings",
         "title": "Voluntary Pensions Module",
-        "description": "Manages voluntary pension savings schemes from a multi-fund logic, flexible and aimed at affiliate self-management, with a complete set of processes that <bold>Cover financial, operational, and risk management</bold>",
+        "description": "Manage voluntary pension savings schemes from a multifund logic, flexible and oriented towards affiliate self-management, with a complete set of processes that <bold>cover financial, operational, and risk management</bold>",
         "items": [
-          { "textos": "Administration of periodic and extraordinary contributions." },
+          { "textos": "Management of periodic and extraordinary contributions." },
           { "textos": "Mobility between funds according to the affiliate's risk profile." },
-          { "textos": "Comprehensive management of affiliates, people, and accounts." },
-          { "textos": "Financial management, valuation, and risk control associated with the funds." },
+          { "textos": "Comprehensive management of affiliates, individuals, and accounts." },
+          { "textos": "Financial management, valuation, and control of risks associated with funds." },
           { "textos": "Management of tax benefits in accordance with local regulations." },
           { "textos": "Self-management portals for affiliates and employers." },
           { "textos": "Regulatory, accounting, and collective contribution reports." },
-          { "textos": "Operational and financial closing of the funds with full traceability." }
+          { "textos": "Operational and financial closing of funds with full traceability." }
         ],
-        "textoFooter": "We manage <red>43%</red> of voluntary savings in Colombia, representing <bold>USD 5 <br></br>billion</bold>",
-        "btn": "Discover the voluntary pensions module"
+        "textoFooter": "We manage <red>43%</red> of voluntary savings in Colombia, representing <bold>USD 5 trillion</bold>",
+        "btn": "Discover the voluntary pensions module",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "account_circle",
-        "title": "Severance Module",
-        "description": "<bold>Manages comprehensive severance administration</bold> with high operational volumes and strict regulatory controls, from the same pension core covering affiliate management to fund calculations and legally permitted withdrawals.",
+        "title": "Severance Pay Module",
+        "description": "<bold>Manage the comprehensive administration of severance pay</bold> with high operational volumes and strict regulatory controls, from the same pension core, covering everything from affiliate management to fund calculation and legally permitted withdrawals.",
         "items": [
-          { "textos": "Management of partial and total withdrawals according to legal causals." },
-          { "textos": "Massive settlement, transfer, and payment processes." },
-          { "textos": "Multi-fund administration with additional benefits." },
-          { "textos": "Integration with payroll, collection systems, and accounting." },
+          { "textos": "Management of partial and total withdrawals according to legal causes." },
+          { "textos": "Mass processes for settlement, transfers, and payments." },
+          { "textos": "Multifund administration with additional benefits." },
+          { "textos": "Integration with payroll, collection, and accounting systems." },
           { "textos": "Reduction of operational costs and improvement in contribution traceability." }
         ],
-        "btn": "Explore the severance module"
+        "btn": "Explore the severance pay module",
+        "linkNavigation":"/soluciones"
       }
     ],
 
     "informacionPensiones5": [
       {
-        "icon":"account_box",        
-        "title": "Regional Scale",
+        "icon":"account_box",
+        "iconColor":"text-brand-accent",
+        "title": "Regional scale",
         "description": "Presence in El Salvador, Bolivia, Peru, Colombia, Honduras, and other countries."
       },
       {
-        "icon":"add_reaction",        
+        "icon":"add_reaction",
+        "iconColor":"text-brand-accent",
         "title": "Regulatory compliance",
-        "description": "Continuous updates to regulatory changes."
+        "description": "Continuous updates in response to regulatory changes."
       },
       {
-        "icon":"digital_wellbeing",        
-        "title": "Proven and expanding regional scale",
-        "description": "Platform scaling regionally, expanding into new markets such as Chile, Mexico, Dominican Republic, among others. Supporting the growth and evolution of our clients' pension business."
+        "icon":"digital_wellbeing",
+        "iconColor":"text-brand-accent",
+        "title": "Proven regional scale and expansion",
+        "description": "Platform that scales regionally, expanding into new markets such as Chile, Mexico, Dominican Republic, and others. Supporting the growth and evolution of our clients' pension business."
       },
       {
-        "icon":"perm_contact_calendar",        
-        "title": "Specialized Support",
-        "description": "Support in implementation and daily operation, backed by a team of over 200 professionals with knowledge of the pension sector, project management, and functional processes."
+        "icon":"perm_contact_calendar",
+        "iconColor":"text-brand-accent",
+        "title": "Specialized support",
+        "description": "Support in implementation and daily operation, backed by a team of more than 200 professionals with knowledge of the pension sector, project management, and functional processes."
       }
     ],
 
@@ -211,14 +223,17 @@
       "highlight": {
         "icon":"rocket_launch",
         "value": "40%",
-        "description": "of the Colombian mandatory pension market supported by our solutions."
+        "description": "of the Colombian market in mandatory pensions supported by our solutions."
       },
       "metrics": [
         {
+          "suffix":"+",
           "value": "30",
           "description": "30 years of innovation in the pension sector"
         },
         {
+          "icon":"article_person",
+          "positionIcon":"left",
           "description": "High volumes with millions of monthly transactions in pensioner payroll settlement."
         }
       ]
@@ -226,9 +241,9 @@
 
     "dataPreguntasFrecuentesPensiones": [
       {
-        "question": "Is it a single software or multiple different solutions?",
+        "question": "Is this a single software or several different solutions?",
         "answer": {
-          "descriptions": "Our platform is comprehensive and modular. This means that, although it operates on a single technological core, you can implement only the modules your entity needs (e.g., only Severance or only Mandatory Pensions) and scale them in the future."
+          "descriptions": "Our platform is integral and modular. This means that, although it operates on a single technological core, you can implement only the modules your entity needs (e.g., only Severance Pay or only Mandatory Pensions) and scale them in the future."
         }
       },
       {
@@ -239,19 +254,19 @@
             "Public and private Pension Fund Administrators (AFP).",
             "Life Insurance Companies (Life Annuities).",
             "Government social security entities.",
-            "Severance Funds.",
+            "Severance Pay Funds.",
             "Companies with their own or special pension regimes."
           ]
         }
       },
       {
-        "question": "Does the software adapt to the regulation of each LATAM country?",
+        "question": "Does the software adapt to the regulations of each country in LATAM?",
         "answer": {
-          "descriptions": "Yes. The system is highly customizable. We have experience in multiple LATAM countries, allowing us to configure business rules, settlement formulas, and regulatory reports specific to each jurisdiction."
+          "descriptions": "Yes. The system is highly parameterizable. We have experience in multiple LATAM countries, allowing us to configure business rules, settlement formulas, and specific regulatory reports for each jurisdiction."
         }
       },
       {
-        "question": "Can I implement only a few modules and scale later?",
+        "question": "Can I implement only some modules and scale later?",
         "answer": {
           "descriptions": "Yes. The modular architecture allows you to activate only the necessary modules and incorporate new ones as your operation requires, without the need to migrate or redesign."
         }
@@ -259,37 +274,37 @@
       {
         "question": "Does the software cover pensioner payroll and mass payments?",
         "answer": {
-          "descriptions": "Yes. The Life Annuities and Pensioner Payroll module allows you to settle, calculate, and disburse mass payments in an automated manner, with total control and traceability."
+          "descriptions": "Yes. The Life Annuities and Pensioner Payroll module allows you to settle, calculate, and disburse mass payments in an automated way, with total control and traceability."
         }
       },
       {
-        "question": "Does it also work to manage voluntary pension savings or APV?",
+        "question": "Can it also be used to manage voluntary pension savings or APV?",
         "answer": {
-          "descriptions": "Yes. The Voluntary Pensions module manages voluntary pension savings schemes with multi-fund logic, fund mobility, tax benefits, and self-management portals."
+          "descriptions": "Yes. The Voluntary Pensions module manages voluntary pension savings schemes with multifund logic, mobility between funds, tax benefits, and self-management portals."
         }
       },
       {
         "question": "Can it be used to manage severance pay from the same system?",
         "answer": {
-          "descriptions": "Yes. The Severance module operates on the same pension core, allowing you to manage withdrawals, massive settlements, transfers, and integration with payroll and accounting."
+          "descriptions": "Yes. The Severance Pay module operates on the same pension core, allowing you to manage withdrawals, mass settlements, transfers, and integration with payroll and accounting."
         }
       },
       {
         "question": "Is the software multi-country and multi-currency?",
         "answer": {
-          "descriptions": "Yes. The platform is designed to operate in multiple LATAM countries with regulatory parameterization per jurisdiction and multi-currency support."
+          "descriptions": "Yes. The platform is designed to operate in multiple LATAM countries with regulatory parameterization by jurisdiction and multi-currency support."
         }
       },
       {
         "question": "What kind of support does Heinsohn offer?",
         "answer": {
-          "descriptions": "We offer comprehensive support: from initial consulting and implementation to daily operational support, backed by a team of over 200 professionals specialized in the pension sector."
+          "descriptions": "We offer comprehensive support: from initial consulting and implementation to daily operational support, backed by a team of more than 200 professionals specialized in the pension sector."
         }
       },
       {
         "question": "How to start implementing the pension software?",
         "answer": {
-          "descriptions": "You can schedule a session with our expert team to evaluate your needs, define the project scope, and plan the implementation step by step."
+          "descriptions": "You can schedule a session with our team of experts to assess your needs, define the project scope, and plan the implementation step by step."
         }
       }
     ]

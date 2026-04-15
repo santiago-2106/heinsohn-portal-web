@@ -4,6 +4,8 @@
       "title": "Soluciones TI",
       "subtitle": "Transformamos la tecnología en valor para tu negocio.",
       "buttonText": "Solicita una asesoría gratuita",
+      "buttonHref":"#contacto",
+      "arrowHref":"#cards1",
       "breadcrumb": [
         {"label": "Soluciones"},
         {"label": "Soluciones TI"}
@@ -31,14 +33,14 @@
         "title": "Diseño y Desarrollo UX/UI",
         "description": "interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversion",
         "btn": "Ver experiencias",
-        "linkNavigation":"/soluciones/soluciones-ti"
+        "linkNavigation":"/soluciones/desarrollo-ux-ui"
       },
       {
         "icon":"data_object",
         "title": "Desarollo de software",
         "description": "productos a la medida de cada necesidad empresarial",
         "btn": "Solicitar desarrollo",
-        "linkNavigation":"/soluciones/soluciones-ti"
+        "linkNavigation":"/soluciones/desarrollo-a-medida"
       },
       {
         "icon":"cloud_queue",
@@ -82,7 +84,7 @@
         "title": "Soluciones de Inteligencia Artificial y Copilot",
         "description": "Soluciones de IA y Copilot que potencian la eficiencia y la automatización inteligente.",
         "btn": "Ver soluciones IA",
-        "linkNavigation":"/soluciones/soluciones-ti"
+        "linkNavigation":"/soluciones/soluciones-ia"
       },
       {
         "icon":"bubble_chart",
@@ -98,7 +100,7 @@
         "title": "Staff Augmentation",
         "description": "Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.",
         "btn": "Ampliar equipo",
-        "linkNavigation":"/soluciones/soluciones-ti"
+        "linkNavigation":"/soluciones/staff-augmentation"
       },
       {
         "icon":"person_raised_hand",

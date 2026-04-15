@@ -29,6 +29,8 @@ export default function StaffAugmentationPage() {
         subtitle={t("dataHeroStaffArgumentation.subtitle")}
         description={t.rich("dataHeroStaffArgumentation.description", richText)}
         buttonText={t("dataHeroStaffArgumentation.buttonText")}
+        buttonHref="#"
+        arrowHref="#"
         breadcrumb={t.raw("dataHeroStaffArgumentation.breadcrumb")}
       />
 
@@ -67,7 +69,7 @@ export default function StaffAugmentationPage() {
             </div>
           </div>
           
-          <div className="-mt-32 md:-mt-48">
+          <div className="-mt-18 md:-mt-28">
           <CardResultados data={t.raw("cardStaffArgumentation2")} />  
           </div>
           
@@ -89,7 +91,7 @@ export default function StaffAugmentationPage() {
       {/* 5. POR QUÉ EL STAFF AUGMENTATION */}
       <section className="py-1">
         <SectionAnuncies 
-          title={t.rich("titlesStaffArgumentation.title4.title", richText)}
+          title={t("titlesStaffArgumentation.title4.title")}
           description={t.rich("titlesStaffArgumentation.title4.description", richText)}
           cards={t.raw("cardStaffArgumentation4.cards4")} 
           cols={2}

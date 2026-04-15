@@ -4,6 +4,7 @@
       "title": "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario",
       "description": "<bold>Creamos experiencias digitales</bold> centradas en las personas, con interfaces funcionales, atractivas y accesibles.",
       "buttonText": "Solicita una asesoría gratuita",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Consultoría UX-UI Diseño y desarrollo de experiencias de usuario" }

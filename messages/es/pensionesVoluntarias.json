@@ -4,6 +4,7 @@
       "title": "Software para Gestión de Pensiones Voluntarias",
       "description": "Nuestro software de gestión de pensiones voluntarias es una <bold>solución integral</bold> diseñada para operadoras de fondos de pensiones voluntarias y/o ahorro voluntario en <bold>Latinoamérica.</bold> <br></br> <br></br>Con un enfoque centrado en la experiencia del cliente y la sostenibilidad, ofrecemos una plataforma robusta que facilita la <bold>administración eficiente de los fondos</bold> y proporciona transparencia y trazabilidad en todas las operaciones.",
       "buttonText": "Conoce más",
+      "buttonHref":"/",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Soluciones para pensiones" }
@@ -45,7 +46,7 @@
     "contactFormTitle": "Contáctanos",
 
     "servicios": {
-      "title": "Servicios de gestión para los Fondos de <br></br>Pensiones que nos diferencia de la <br></br>competencia",
+      "title": "Servicios de gestión para los Fondos de Pensiones que nos diferencia de la competencia",
       "cards": [
         {
           "icon": "linked_services",
@@ -75,7 +76,7 @@
       "mainCard": {
         "icon": "rocket_launch",
         "title": "Líderes en el sector",
-        "description": "Somos la <bold>empresa número 1</bold> en Colombia, Sur y Centro América como proveedor de soluciones tecnológicas de clase mundial."
+        "description": "Somos la empresa número 1 en Colombia, Sur y Centro América como proveedor de soluciones tecnológicas de clase mundial."
       },
       "gridCards": [
         {

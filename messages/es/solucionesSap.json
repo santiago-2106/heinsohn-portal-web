@@ -4,6 +4,7 @@
       "title": "Soluciones SAP",
       "description": "SAP Bussines One centraliza finanzas, inventarios, producción y ventas en un ERP flexible y escalaable, apoyado por un ecosistema conpleto de nómina, gestión humana y cumplimiento legal, que i,pulsa la eficiencia operativa y el crecimiento del negocio. <bold>Miles de empresas en más de 170 países confían en SAP Bussines One</bold>",
       "buttonText": "Solicita una asesoría gratuita",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Soluciones SAP" }

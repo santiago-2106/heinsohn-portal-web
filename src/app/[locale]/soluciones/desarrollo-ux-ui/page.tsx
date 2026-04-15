@@ -43,6 +43,8 @@ export default function SolucionDigital() {
           title={t("dataHeroDesarrolloUX.title")}
           description={t.rich("dataHeroDesarrolloUX.description", richText)}
           buttonText={t("dataHeroDesarrolloUX.buttonText")}
+          buttonHref={t("dataHeroDesarrolloUX.buttonHref")}
+          arrowHref="#"
           breadcrumb={t.raw("dataHeroDesarrolloUX.breadcrumb")}
         />
         

@@ -28,6 +28,7 @@ export default function TecnologiaConfiable() {
               description={item.description}
               icon={item.icon}
               iconPosition="left"
+              iconColor='black'
               variant="compact"/>
               ))
             }

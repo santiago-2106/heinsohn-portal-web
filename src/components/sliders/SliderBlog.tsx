@@ -10,6 +10,7 @@ import 'swiper/css/pagination'
 
 import TextComponent from '../ui/typography/TextComponent'
 import SliderSvg from '../svgs/SliderSvg'
+import ButtonCard from '../ui/buttons/ButtonCard'
 
 // 1. Tipamos correctamente la data para no usar 'any'
 export interface BlogItem {
@@ -82,16 +83,13 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
                       {item.description}
                     </p>
 
-                    <a
-                      href="#"
-                      aria-label={`Leer artículo completo sobre: ${item.title}`}
-                      className="mt-auto inline-flex w-max items-center gap-2 text-sm font-medium text-text-body transition-colors hover:text-brand-accent group"
-                    >
-                      {item.btn || "Leer mas"}
-                      <span aria-hidden="true" className="material-symbols-rounded text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
-                        arrow_forward
-                      </span>
-                    </a>
+                    <div className="mt-auto w-max">
+                      <ButtonCard
+                        text={item.btn || "Leer más"}
+                        hrefButton="#"
+                        alineacion="left"
+                      />
+                  </div>
                   </div>
 
                 </div>

@@ -2,12 +2,13 @@
   "solucionesIa": {
     "dataIaHero": {
       "title": "Soluciones de Inteligencia Artificial para empresas",
-      "description": "Creamos soluciones de inteligencia artificial diseñadas para acelerar la transformación digital de tu negocio. <bold>A través de IA generativa</bold>, procesamiento de lenguaje natural (PLN), visión por computadora y aprendizaje automático, <bold>ayudamos a las empresas a automatizar procesos, mejorar la eficiencia operativa y generar valor sostenible.</bold>",
+      "description": "Creamos soluciones de inteligencia artificial diseñadas para acelerar la transformación digital de tu negocio. <bold>A través de IA generativa</bold>, procesamiento de lenguaje natural (PLN), visión por computadora y aprendizaje automático, <bold>ayudamos a las empresas a automatizar procesos, mejorar la eficiencia operativa y generar valor sostenible.</bold> <br></br> <br></br> <bold><red>+</red>45</bold> años de experiencia en ingeniería y tecnología empresarial <br></br> <br></br> <bold><red>+</red>200</bold> proyectos de innovación impulsados por IA y automatización",
       "heroStats": [
         { "prefix": "+", "value": "45", "text": "años de experiencia en ingeniería y tecnología empresarial" },
         { "prefix": "+", "value": "200", "text": "proyectos de innovación impulsados por IA y automatización" }
       ],
       "buttonText": "Comienza ahora con una sesión de descubrimiento AI",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Soluciones de Inteligencia Artificial para empresas" }
@@ -20,7 +21,7 @@
         "description": "<bold>Cada empresa enfrenta retos distintos.</bold> Nuestras soluciones de IA combinan personalización, escalabilidad y automatización para resolver los problemas específicos de tu operación:"
       },
       "implementacion": {
-        "title": "Cómo implementamos la <br></br> inteligencia artificial en tu empresa",
+        "title": "Cómo implementamos la inteligencia artificial en tu empresa",
         "description": "Nuestro enfoque combina visión estratégica, desarrollo técnico y acompañamiento <br></br>continuo:",
         "buttonText": "Empieza tu hoja de ruta AI personalizada"
       },
