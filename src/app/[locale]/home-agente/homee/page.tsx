@@ -4,6 +4,7 @@ import Clientes from '@/src/components/sections/shared/clientes/Clientes'
 import Hero from '@/src/components/sections/shared/hero/Hero'
 import CardAnuncies from '@/src/components/sections/shared/sectioncard/SectionAnuncies'
 import HeroSvg from '@/src/components/svgs/HeroSvg'
+import ButtonComponent from '@/src/components/ui/buttons/Button'
 import TextSections from '@/src/components/ui/typography/TextSections'
 import { richText } from '@/src/hooks/helper/richText'
 import mapRich from '@/src/hooks/mapRich'
@@ -47,8 +48,8 @@ export default function pageHome() {
       description={t("casosExito.description")}
       cards={t.raw("casosExito.cardsCasosExito")}
       cols={3}
-      bottomBtn={t("casosExito.bottomBtn")}
       />
+      <ButtonComponent textoBtn={t("textoBtn")} href='/es/casos-exito'/>
 
       <Clientes 
       title={t("titlesHome.titleClientes.title")}

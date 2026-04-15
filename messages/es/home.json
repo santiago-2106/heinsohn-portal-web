@@ -102,23 +102,27 @@
                 "icon": "account_balance",
                 "title": "Transformación digital bancaria",
                 "description": "Modernización completa de la infraestructura tecnológica de un banco líder, resultando en 40% de mejora en eficiencia operacional.",
-                "btn": "Ver caso completo"
+                "btn": "Ver caso completo",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "monitor_heart",
                 "title": "Plataforma de gestión de riesgos",
                 "description": "Desarrollo de una plataforma inteligente para evaluación y gestión de riesgos en tiempo real para compañía aseguradora.",
-                "btn": "Ver caso completo"
+                "btn": "Ver caso completo",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "work",
                 "title": "Sistema ERP agroindustrial",
                 "description": "Implementación de SAP Business One personalizado para optimizar la cadena de suministro y trazabilidad de productos.",
-                "btn": "Ver caso completo"
+                "btn": "Ver caso completo",
+                "linkNavigation":"/soluciones/soluciones-sap"
             }
             ],
             "bottomBtn": "Ver todos los casos de éxito"
         },
+        "textoBtn":"Ver todos los casos de éxito",
 
         "titlesHome": {
             "titleContact": "Contáctanos",

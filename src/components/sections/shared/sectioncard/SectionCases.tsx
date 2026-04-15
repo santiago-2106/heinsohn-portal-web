@@ -1,4 +1,5 @@
 import SliderSvg from "@/src/components/svgs/SliderSvg";
+import ButtonCard from "@/src/components/ui/buttons/ButtonCard";
 import TextComponent from "@/src/components/ui/typography/TextComponent";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -59,16 +60,13 @@ export default function CardCases({
               </p>
               
               {/* Botón con Google Symbols */}
-              <a
-                href="#"
-                aria-label={`Leer más sobre: ${titleWork}`}
-                className="mt-auto inline-flex items-center gap-2 text-sm font-bold text-text-title transition-colors hover:text-brand-accent group"
-              >
-                {textBtn}
-                <span aria-hidden="true" className="material-symbols-rounded text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
-                  arrow_forward
-                </span>
-              </a>
+              <div className="mt-auto">
+                <ButtonCard
+                  text={textBtn}
+                  hrefButton="#"
+                  alineacion="left"
+                />
+            </div>
             </div>
           </article>
 

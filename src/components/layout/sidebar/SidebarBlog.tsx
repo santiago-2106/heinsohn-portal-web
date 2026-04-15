@@ -18,8 +18,8 @@ export default function SidebarBlog() {
       <div className="h-px bg-bg-main w-full" />
 
       {/* Tabla de Contenidos */}
-      <nav className="flex flex-col gap-6">
-        <h4 className="text-text-body ">Tabla de contenidos</h4>
+      <nav className="flex flex-col gap-6 border-t border-border-ui" >
+        <h4 className="text-[18px] mt-4">Tabla de contenidos</h4>
         <ul className="flex flex-col gap-4 border-l border-border-ui">
           {BLOG_CONTENT.map((item:any) => (
             <li key={item.id}>

@@ -92,14 +92,14 @@ export default function FooterBottom() {
   return (
     <div className="border-t border-border-ui ">
       <div className="mx-auto max-w-5xl px-6">
-        <div className="py-8 px-16 ">
+        <div className="py-8 ">
           <h3 className="mb-4 text-lg md:text-2xl leading-[110%] font-light text-center">
             Presencia Global
           </h3>
 
           <ul className="mb-8 grid grid-cols-2 gap-x-6 gap-y-6 sm:grid-cols-3 md:grid-cols-4">
             {paises.map((pais) => (
-              <li key={pais.nombre} className=" mt-2 flex items-center gap-2">
+              <li key={pais.nombre} className="mt-4 flex items-center gap-2">
                 <img
                   src={pais.image}
                   alt={pais.nombre}

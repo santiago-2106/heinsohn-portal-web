@@ -42,6 +42,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
   
   // AQUÍ ESTÁ LA CORRECCIÓN CLAVE:
   const terminosYCondiciones = (await import(`../../messages/${locale}/terminos-condiciones.json`)).default;
+  const blogs = (await import(`../../messages/${locale}/blogs.json`)).default;
   
   return {
     locale,
@@ -76,7 +77,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...agenteAviso,
       ...agente,
       ...staffAugmentation,
-      ...terminosYCondiciones
+      ...terminosYCondiciones,
+      ...blogs
     }
   };
 });

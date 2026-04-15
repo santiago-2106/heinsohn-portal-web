@@ -33,6 +33,8 @@ export default function SolucionesIAPage() {
         title={t("dataIaHero.title")}
         description={t.rich("dataIaHero.description", richText)}
         buttonText={t("dataIaHero.buttonText")}
+        buttonHref={t("dataIaHero.buttonHref")}
+        arrowHref="#cards1"
         breadcrumb={t.raw("dataIaHero.breadcrumb")}
         showImage={true} 
       />

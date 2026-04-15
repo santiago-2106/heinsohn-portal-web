@@ -3,8 +3,12 @@
 import { BLOG_CONTENT } from "@/src/data/BLOG_CONTENT";
 import SidebarBlog from "./SidebarBlog";
 import EbookBlogs from "../../forms/formularios/EbookBlogs";
+import { useTranslations } from "next-intl";
 
 export default function BlogDetail() {
+  const t = useTranslations("blog")
+  const blogTraduction = t.raw("sections")
+
   return (
     <div className="min-h-screen bg-white">
       {/* Contenedor Padre Principal (1440px) */}
@@ -42,26 +46,34 @@ export default function BlogDetail() {
             </div>
           </header>
 
-            <div className="py-6 m-1 border border-border-ui">
+            <div className="w-full border border-border-ui py-6 px-4 md:px-6 lg:px-8 my-8 md:my-10">
             <EbookBlogs
             title="¡Suscríbete a nuestra Newsletter!"
-            description="Y recibe en tu correo, todo nuestro contenido y así potenciar el crecimiento de colaboradores y el de tu empresa."
+            description="Y recibe en tu correo, todo nuestro contenido y así potenciar el crecimiento de colaboradores y el de tu empresa."
             />
             </div>
           {/* Cuerpo del Blog (Secciones dinámicas) */}
           <div className="flex flex-col gap-10">
-            {BLOG_CONTENT.map((section) => (
+            {blogTraduction.map((section:any) => (
               <section 
                 key={section.id} 
                 id={section.id} 
-                className="scroll-mt-10 flex flex-col gap-6"
+                className="scroll-mt-24 flex flex-col gap-6"
               >
-                <h2 className="text-3xl font-light text-text-title leading-snug">
+                <h2 className="font-light text-text-title leading-snug">
                   {section.title}
                 </h2>
-                <p className="text-text-body leading-relaxed text-lg">
-                  {section.content}
-                </p>
+                <div className="flex flex-col gap-4 md:gap-6">
+                  {/*INTERNO DESCRIPCIONES */}
+                {section.content.map((paragraph: string, i: number) => (
+                  <p
+                    key={i}
+                    className="text-text-body leading-relaxed text-base md:text-lg max-w-prose"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
               </section>
             ))}
           </div>

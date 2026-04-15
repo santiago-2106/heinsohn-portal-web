@@ -109,7 +109,8 @@
           { "textos": "Repostes y consultas en tiempo real" },
           { "textos": "Portal empleado con autogestión" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       },
       {
         "icon": "things_to_do",
@@ -122,7 +123,8 @@
           { "textos": "Integración con sistemas de contratación estatal" },
           { "textos": "Reportes para órganos de control" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       },
       {
         "icon": "add_reaction",
@@ -137,7 +139,8 @@
           { "textos": "Gestión de tiempo y asistencia" },
           { "textos": "Analitycs de talento e indicadores de RRHH" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       },
       {
         "icon": "digital_wellbeing",
@@ -152,7 +155,8 @@
           { "textos": "Indicadores y reportes de gestión" },
           { "textos": "Auditorias y cumplimineto normativo" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       }
     ],
     "cardOutsorcingBPO": [
@@ -168,7 +172,8 @@
           { "textos": "Cumplimiento normativo garantizado" },
           { "textos": "Reportes gerenciales y operativos" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       },
       {
         "icon":"admin_meds",
@@ -181,7 +186,8 @@
           { "textos": "Reducción de cartera de recobro" },
           { "textos": "Reportes de gestión y recuperación" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       },
       {
         "icon":"article_person",
@@ -195,7 +201,8 @@
           { "textos": "Cumplimiento normativo del sector pensiones" },
           { "textos": "Integración con sistemas actuariales" }
         ],
-        "btn": "Conoce más"
+        "btn": "Conoce más",
+        "linkNavigation":"/soluciones/soluciones-ti"
       }
     ],
     "cardFeatureLandingHGS": [

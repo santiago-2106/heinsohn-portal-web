@@ -21,8 +21,8 @@ export default function TalentCloudSection() {
       </section>
       <TextComponent title={t("titlesGestionHumana.titleGestionHumana4.title")} />
 
-      <section className="max-w-3xl mx-auto mt-4 py-5">
-        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 py-5 ">
+      <section className="max-w-3xl mx-auto px-4 sm:px-6 md:px-8 lg:px-0 py-4 sm:py-1 md:py-2">
+        <article className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
           {dataInfoGestionHumana.map((item:any, index:number) => (
             <div
               key={index}

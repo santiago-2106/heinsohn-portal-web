@@ -1,5 +1,6 @@
 import { dataCard } from "@/src/types/cardTypes";
 import { Link } from "@/src/i18n/navigation";
+import ButtonCard from "../buttons/ButtonCard";
 
 export default function Card({
   icon,
@@ -16,39 +17,10 @@ export default function Card({
 }: dataCard) {
   const centrar = alineacion === "center";
   const colorIcon = iconColor === 'text-brand-accent' ? 'text-brand-accent' : 'text-text-title';
-  const cleanBtnText = btn ? btn.replace(/->|→/g, "").trim() : "";
-
-   {/* BOTÓN */}
-      const Button = btn && (
-        <div className={btnHasBorder ? "border-t border-border-ui pt-8 w-full" : "w-full"}>
-        {linkNavigation &&(
-          <Link
-          href={linkNavigation}
-          className={`
-            inline-flex gap-2 text-sm font-bold group
-            ${centrar ? "justify-center" : "items-center"}
-          `}
-        >
-          <span className="text-text-title group-hover:opacity-80 transition-colors">
-            {cleanBtnText}
-          </span>
-          <span className="text-brand-accent text-lg transition-transform duration-300 group-hover:translate-x-1">
-            →
-          </span>
-        </Link>
-        )}
-        </div>
-      )
 
   return (
     <div
-      className={`
-        group
-        flex flex-col border border-border-ui bg-bg-card-2 p-4 md:p-8
-        shadow-sm h-full hover:shadow-md transition-shadow duration-300
-        ${centrar ? "items-center text-center" : "items-start text-left"}
-      `}
-    >
+      className={`group flex flex-col border border-border-ui bg-bg-card-2 p-4 md:p-8 shadow-sm h-full hover:shadow-md transition-shadow duration-300 ${centrar ? "items-center text-center" : "items-start text-left"}`}>
       {/* ICONO / NÚMERO */}
       {icon && (
         <div
@@ -74,7 +46,14 @@ export default function Card({
         </p>
       )}
 
-      {btnPosition === "top" && Button}
+      {btnPosition === "top" && btn && (
+        <ButtonCard 
+        text={btn}
+        hrefButton={linkNavigation}
+        alineacion={alineacion}
+        hasBorder={btnHasBorder}
+        />
+      )}
 
       {/* LISTA DE ITEMS */}
       {items && items.length > 0 && (
@@ -115,12 +94,14 @@ export default function Card({
         )
       }
 
-      {btnPosition === "bottom" && (
-        <div className="">
-          {Button}
-        </div>
-      )}
-
+      {btnPosition === "bottom" && btn && (
+      <ButtonCard
+        text={btn}
+        hrefButton={linkNavigation}
+        alineacion={alineacion}
+        hasBorder={btnHasBorder}
+      />
+    )}
     </div>
   );
 }

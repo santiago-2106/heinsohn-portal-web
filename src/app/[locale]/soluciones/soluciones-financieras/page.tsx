@@ -38,6 +38,8 @@ export default function SolucionesFinanciero() {
         title={t("dataHeroFinanzas.title")}
         description={t.rich("dataHeroFinanzas.description", richText)}
         buttonText={t("dataHeroFinanzas.buttonText")}
+        buttonHref={t("dataHeroFinanzas.buttonHref")}
+        arrowHref="#"
         breadcrumb={t.raw("dataHeroFinanzas.breadcrumb")}
         badges={t.raw("dataHeroFinanzas.badges")} //PENDIENTE A UN CAMBIO IGUAL QUE LAS CARDS
         isUppercase={false}          

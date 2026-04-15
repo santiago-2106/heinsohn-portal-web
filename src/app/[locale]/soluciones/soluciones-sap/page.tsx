@@ -47,6 +47,8 @@ export default function SolucionesSAP() {
         title={t("dataHeroSolucionesSap.title")}
         description={dataSAP.hero.description}
         buttonText={t("dataHeroSolucionesSap.buttonText")}
+        buttonHref={t("dataHeroSolucionesSap.buttonHref")}
+        arrowHref="#cards1"
         breadcrumb={t.raw("dataHeroSolucionesSap.breadcrumb")}
         badges={t.raw("dataHeroSolucionesSap.badges")}
         isUppercase={false}

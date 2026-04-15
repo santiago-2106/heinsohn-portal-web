@@ -77,14 +77,14 @@ export default function SliderHero({ items }: CarouselSplitHeroProps) {
         </Swiper>
 
         <div className="flex items-center justify-end w-full gap-4 mt-8">
-          <button className="hero-prev h-12 w-12 flex items-center justify-center rounded-full border border-border-ui bg-bg-card-2 hover:bg-black hover:text-white transition-all cursor-pointer">
-            <ArrowCircleLeftIcon />
+          <button className="material-symbols-rounded hero-prev h-12 w-12 flex items-center justify-center rounded-full border border-border-ui bg-bg-card-2 transition-all cursor-pointer">
+            arrow_back
           </button>
 
           <div className="custom-pagination w-fit! flex gap-2" />
 
-          <button className="hero-next h-12 w-12 flex items-center justify-center rounded-full border border-border-ui bg-bg-card-2 hover:bg-black hover:text-white transition-all cursor-pointer">
-            <ArrowCircleRightIcon />
+          <button className="material-symbols-rounded hero-next h-12 w-12 flex items-center justify-center rounded-full border border-border-ui bg-bg-card-2 transition-all cursor-pointer">
+            arrow_forward
           </button>
         </div>
 

@@ -27,9 +27,11 @@ export default function PensionesVoluntarias() {
         title={t.rich("hero.title", richText)}
         description={t.rich("hero.description", richText)}
         buttonText={t("hero.buttonText")}
+        buttonHref="#contacto"
+        arrowHref="#contacto"
         breadcrumb={t.raw("hero.breadcrumb")}
         isUppercase={false}
-        showImage={false}
+        
       />
 
       {/* 2. VENTAJAS */}

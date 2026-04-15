@@ -33,6 +33,7 @@ export default function DesarrolloAMedidaPage() {
         description={t.rich("dataHeroDesarrolloAMedida.description", richText)}
         buttonText={t("dataHeroDesarrolloAMedida.buttonText")}
         buttonHref={t("dataHeroDesarrolloAMedida.buttonHref")}
+        arrowHref="#"
         breadcrumb={t.raw("dataHeroDesarrolloAMedida.breadcrumb")}
         />
         

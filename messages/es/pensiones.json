@@ -139,7 +139,8 @@
           { "textos": "Visión 360° del afiliado y empleadores, brindando acceso unificado a cuentas bancarias, relaciones y estado de las obligaciones." }
         ],
         "textoFooter": "Administramos el <red>48%</red> de las pensiones obligatorias en Colombia, que representan <bold>USD 63 billones</bold>",
-        "btn": "Explora el módulo de pensiones obligatorias"
+        "btn": "Explora el módulo de pensiones obligatorias",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "account_circle",
@@ -154,7 +155,8 @@
           { "textos": "Expediente electrónico, notificaciones, integración con gestor documental, componente de cargue y generación de archivos." },
           { "textos": "Se adapta a fondos de pensiones, aseguradoras y empresas de riesgos laborales, permitiéndote gestionar tanto nóminas de pensionados como rentas vitalicias en un solo lugar." }
         ],
-        "btn": "Conoce el módulo de rentas vitalicias"
+        "btn": "Conoce el módulo de rentas vitalicias",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "savings",
@@ -171,7 +173,8 @@
           { "textos": "Cierre operativo y financiero de los fondos con trazabilidad total." }
         ],
         "textoFooter": "Administramos el <red>43%</red> del ahorro voluntario en Colombia, que representan <bold>USD 5  <br></br>billones</bold>",
-        "btn": "Descubre el módulo de pensiones voluntarias"
+        "btn": "Descubre el módulo de pensiones voluntarias",
+        "linkNavigation":"/soluciones"
       },
       {
         "icon": "account_circle",
@@ -184,7 +187,8 @@
           { "textos": "Integración con nómina, sistemas de recaudo y contabilidad." },
           { "textos": "Reducción de costos operativos y mejora en la trazabilidad de aportes." }
         ],
-        "btn": "Explora el módulo de cesantías"
+        "btn": "Explora el módulo de cesantías",
+        "linkNavigation":"/soluciones"
       }
     ],
 
