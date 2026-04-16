@@ -126,9 +126,15 @@
       ]
     },
 
-    "videoSection": {
-      "textVideos": "Learn how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
-      "textButtonVideo": "View success stories"
+    "videoSectorAutomotriz": {
+      "textVideos": "Discover how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+      "textButtonVideo": "View success stories",
+      "video": {
+        "title": "Heinsohn Automotive Sector",
+        "description": "Discover how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+        "youtubeId": "e8c9CKYfbLU",
+        "thumbnail": "/img/sector-Automotriz2.jpg"
+      }
     },
 
     "cardProyectoPosible": [
