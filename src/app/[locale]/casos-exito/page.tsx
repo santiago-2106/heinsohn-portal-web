@@ -76,9 +76,9 @@ export default function CasoExitoPage() {
 
         <div className="mx-auto max-w-5xl px-6 md:px-0 my-8">
           <Videos 
-            imgVideos='/img/sector-Automotriz2.jpg'
+            video={t.raw("videoSection2.video")}
             textVideos={t("videoSection.textVideos")}
-            textButtonVideo={t("videoSection.textButtonVideo")}
+            textButtonVideo={t("videoSection2.textButtonVideo")}
           />
         </div>
 

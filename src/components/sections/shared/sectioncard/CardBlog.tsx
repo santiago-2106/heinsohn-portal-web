@@ -1,4 +1,5 @@
 import CardGrid from "@/src/components/layout/grids/CardGrid";
+import { filterCards } from "@/src/utils/search";
 import { ReactNode } from "react";
 
 interface CardImgProps {
@@ -14,9 +15,15 @@ interface CardImgProps {
 interface DataCardImgProps {
     dataCards: CardImgProps[];
     titlePrincipal:string
+    search:string
 }
 
-export default function CardBlog({ titlePrincipal,dataCards }: DataCardImgProps,) {
+export default function CardBlog({ titlePrincipal,dataCards, search }: DataCardImgProps,) {
+
+  const filtradoCards = filterCards(dataCards, search)
+
+  if(search && filtradoCards.length === 0) return null
+
   return (
     <section className="w-full">
       <div className='mx-auto max-w-5xl p-4'>
@@ -31,7 +38,7 @@ export default function CardBlog({ titlePrincipal,dataCards }: DataCardImgProps,
         }
         
         <CardGrid columns={3}>
-          {dataCards.map((item, index) => (
+          {(search ? filtradoCards : dataCards).map((item, index) => (
             <div key={index} className='flex flex-col border border-border-ui bg-bg-card-2 h-full transition-all hover:shadow-md'>
               
               {/* Imagen y Badge */}

@@ -25,6 +25,17 @@
       "textVideos": "Conoce cómo ayudamos a una compañía automotriz a transformar su experiencia digital y conectar a miles de usuarios con sus vehículos en tiempo real.",
       "textButtonVideo": "Ver casos de éxito"
     },
+
+    "videoSection2": {
+      "textVideos": "Conoce cómo ayudamos...",
+      "textButtonVideo": "Ver casos de éxito",
+      "video": {
+        "title": "Casos de exito",
+        "description": "¡Conoce el impacto positivo que puede tener en tu empresa!",
+        "youtubeId": "G1zmDcXH_iM",
+        "thumbnail": "/img/sector-Automotriz2.jpg"}
+      },
+
     "testimonio": {
       "title": "Casos de éxito en la industria \n automotriz",
       "description": "El trabajo con Heinsohn nos permitió dar un salto en nuestra estrategia digital. Hoy contamos \n con soluciones innovadoras que nos acercan más a nuestros clientes y nos posicionan a la \n vanguardia de la movilidad conectada.",

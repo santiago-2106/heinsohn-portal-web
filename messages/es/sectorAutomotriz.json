@@ -123,6 +123,16 @@
         "textButtonVideo": "Ver casos de éxito"
     },
 
+    "videoSectorAutomotriz": {
+      "textVideos": "Conoce cómo ayudamos a una compañía automotriz a transformar su experiencia digital y conectar a miles de usuarios con sus vehículos en tiempo real.",
+      "textButtonVideo": "Ver casos de éxito",
+      "video": {
+        "title": "Sector Automotriz Heinsohn",
+        "description": "Conoce cómo ayudamos a una compañía automotriz a transformar su experiencia digital y conectar a miles de usuarios con sus vehículos en tiempo real.",
+        "youtubeId": "e8c9CKYfbLU",
+        "thumbnail": "/img/sector-Automotriz2.jpg"}
+      },
+
     "cardProyectoPosible": [
         {
             "imgPersonas":"/img/img-persona1.jpg",
