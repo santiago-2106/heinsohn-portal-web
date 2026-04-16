@@ -4,7 +4,7 @@ const HeroSvg: React.FC = () => {
   const id = useId().replace(/:/g, ""); // Generamos un ID único para evitar conflictos de SSR
 
   return (
-    <section className="w-full relative overflow-hidden pt-16 pb-8">
+    <section className="w-full relative overflow-hidden ">
       <svg
         width="1920"
         height="398"

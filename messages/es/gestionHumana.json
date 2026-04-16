@@ -159,6 +159,16 @@
       "title": "Certificaciones Internacionales"
     }
     },
+
+    "videoGestionHumana": {
+      "textVideos": "¡Conoce el impacto positivo que puede tener en tu empresa!",
+      "textButtonVideo": "Descubre más",
+      "video": {
+        "title": "IA en Recursos Humanos",
+        "description": "¡Conoce el impacto positivo que puede tener en tu empresa!",
+        "youtubeId": "J71e5mCW85Q",
+        "thumbnail": "/img/imgIAgestionHumana.jpg"}
+      },
     
     "buttonGestionHumana": "Habla con un experto",
     "href":"#contacto",

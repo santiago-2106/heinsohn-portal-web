@@ -6,6 +6,7 @@ import { scrollHero } from "@/src/utils/scrollHero";
 import HeroSvg from "@/src/components/svgs/HeroSvg";
 import HeroGeometricSvg from "@/src/components/svgs/HeroGeometricSvg";
 import { HeroProps } from "@/src/types/typeHero";
+import Breadcrumb from "./BreadCrumb";
 
 
 export default function Hero({
@@ -15,7 +16,7 @@ export default function Hero({
   buttonText,
   buttonHref,
   arrowHref,
-  breadcrumb = [], // Si no viene, es un array vacío (evita el error .map)
+  breadcrumb, // Si no viene, es un array vacío (evita el error .map)
   badges,
   isUppercase = false,
   showImage = true, 
@@ -34,52 +35,7 @@ export default function Hero({
           
           )}
           {/* BREADCRUMB */}
-          <nav
-            aria-label="Miga de pan"
-            className="flex items-center gap-2 text-sm text-text-body mb-8"
-          >
-            <Link
-              href="/home-agente/homee"
-              className="flex items-center gap-1 hover:text-brand-accent transition-colors"
-              aria-label="Ir a la página de inicio"
-            >
-              <svg
-                aria-hidden="true"
-                width="18"
-                height="18"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-              <span>Home</span>
-            </Link>
-            {breadcrumb.map((item, index) => (
-              <React.Fragment key={index}>
-                <ChevronRight />
-                {item.href ? (
-                  <Link
-                    href={item.href}
-                    className="hover:text-brand-accent transition-colors"
-                  >
-                    {item.label}
-                  </Link>
-                ) : (
-                  <span
-                    className="font-medium text-text-title"
-                    aria-current="page"
-                  >
-                    {item.label}
-                  </span>
-                )}
-              </React.Fragment>
-            ))}
-          </nav>
+         <Breadcrumb items={breadcrumb || []}/>
           {/* BADGES */}
           {badges && badges.length > 0 && (
             <div className="mb-8 flex flex-wrap items-center gap-3">

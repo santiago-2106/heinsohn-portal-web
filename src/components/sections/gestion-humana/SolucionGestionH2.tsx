@@ -5,6 +5,7 @@ import {
   PlayCircleOutlineRounded,
 } from "@mui/icons-material";
 import { useTranslations } from "next-intl";
+import Videos from "../../layout/videos/Videos";
 
 export default function TalentCloudSection() {
 
@@ -34,39 +35,13 @@ export default function TalentCloudSection() {
         </article>
       </section>
 
-      <section>
-        <article className="mt-10 mb-10 w-full max-w-4xl mx-auto px-4 group-hover:scale-110 transition-transform duration-300">
-          <TextComponent title={t("titlesGestionHumana.titleGestionHumana5.title")} />
-
-          <div className="relative overflow-hidden cursor-pointer group">
-            <div className="relative aspect-video w-full">
-              <Image
-                src="/img/imgIAgestionHumana.jpg"
-                alt="IA en Recursos Humanos"
-                fill
-                className="object-cover brightness-50 grayscale-100"
-              />
-
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-brand-accent opacity-90 group-hover:scale-110 transition-transform duration-300">
-                  <PlayCircleOutlineOutlined sx={{ fontSize: 80 }}/>
-                </div>
-              </div>
-            </div>
-            <div className="bg-text-title text-bg-main py-12 px-6 text-center">
-              <p className="text-lg md:text-xl font-light mb-4 opacity-80 text-white">
-                ¡Conoce el impacto positivo que puede tener en tu empresa!
-              </p>
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 text-sm font-semibold hover:underline decoration-brand-accent underline-offset-4"
-              >
-                <PlayCircleOutlineRounded sx={{ fontSize: 20}}/>
-                <span className="uppercase tracking-widest">Descubre más</span>
-              </a>
-            </div>
-          </div>
-        </article>
+      <section className="mt-10 mb-10">
+        <TextComponent title={t("titlesGestionHumana.titleGestionHumana5.title")} />
+        <Videos 
+        video={t.raw("videoGestionHumana.video")}
+        textButtonVideo={t("videoGestionHumana.textButtonVideo")}
+        textVideos={t("videoGestionHumana.textVideos")}
+        />
       </section>
     </div>
   );

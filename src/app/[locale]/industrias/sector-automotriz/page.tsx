@@ -36,9 +36,9 @@ export default function pageSectorAutomotriz() {
       />
 
       <Videos 
-      imgVideos='/img/sector-Automotriz2.jpg'
-      textVideos={t("videoSection.textVideos")}
-      textButtonVideo={t("videoSection.textButtonVideo")}
+      video={t.raw("videoSectorAutomotriz.video")}
+      textVideos={t("videoSectorAutomotriz.textVideos")}
+      textButtonVideo={t("videoSectorAutomotriz.textButtonVideo")}
       />
 
       <TextComponent 
