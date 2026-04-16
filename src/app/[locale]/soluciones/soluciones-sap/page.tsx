@@ -34,7 +34,7 @@ export default function SolucionesSAP() {
   const rawCards = t.raw("cardsErpSap.cards");
   const cardsErpSap = rawCards.map((card: any) => ({
     ...card,
-    icon: createNumberIcon(card.number, card.badgeText),
+    number: createNumberIcon(card.number, card.badgeText),
   }));
 
   //CARDS PORQUE ELEGIR HEINSON TEXTO CON NEGRITA

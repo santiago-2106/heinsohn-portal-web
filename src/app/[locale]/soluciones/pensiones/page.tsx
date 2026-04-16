@@ -43,7 +43,7 @@ export default function PagePensiones() {
       />
       
       {/* 2. MÉTRICAS 1 */}
-      <CardResultados title="Resultados Corporativos" data={cardPensions1} />
+      <CardResultados data={cardPensions1} />
 
       {/* 3. RETOS DEL SISTEMA */}
       <CardAnuncies
@@ -78,19 +78,23 @@ export default function PagePensiones() {
       {/* 10. CERTIFICACIONES */}
       <CertificacionesInternacionales 
         title={t("titlesPensiones.titlePensiones6.title")} 
-        imagen="/img/certificacionInternacional2.png" 
+        imagen="/img/internacional.png" 
       />
 
       {/* 11. TEXTO RESPALDO */}
-      <TextComponent 
-        description={t("titlesPensiones.titlePensiones7.description")} 
+      <div className="-mt-18 md:-mt-36">
+        <TextComponent 
+        description={t.rich("titlesPensiones.titlePensiones7.description", richText)} 
       />
+      </div>
 
       {/* 12. CTA FINAL */}
+      <div className="-mt-16 md:-mt-28">
       <TextComponent 
         title={t.rich("titlesPensiones.titlePensiones8.title", richText)} 
         description={t("titlesPensiones.titlePensiones8.description")} 
       /> 
+      </div>
       
       <center className="mb-12">
         <ButtonComponent textoBtn={t("buttonsPensiones.buttonPensiones2")} /> 

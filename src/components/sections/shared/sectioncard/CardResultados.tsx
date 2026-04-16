@@ -71,7 +71,7 @@ export default function CardResultados({ title,data }: ResultsCorporativoProps) 
                     </span>
 
                     {/* DESCRIPTION INTERNO */}
-                    <p className="text-xs sm:text-sm md:text-lg text-text-body font-light leading-snug">
+                    <p className="text-xs sm:text-sm md:text-2xl text-text-body font-light leading-snug">
                       {item.description}
                     </p>
                   </div>

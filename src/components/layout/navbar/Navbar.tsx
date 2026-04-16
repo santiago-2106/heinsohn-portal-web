@@ -30,7 +30,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 left-0 z-40 border-b border-border-ui bg-bg-main transition-colors duration-300">
-      <nav className="mx-auto max-w-[1440px] px-4 sm:px-6 lg:px-8">
+      <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <ul className="relative flex h-20 items-center justify-between">
           
           {/* LADO IZQUIERDO: Menú y Logo */}

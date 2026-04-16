@@ -18,7 +18,9 @@ export default function SectionLandingSoftware() {
   return (
     <section>
       <div >
-        <TextComponent title='Beneficios del software de nómina'/>
+        <div className="-mb-10 md:-mb-18 ">
+            <TextComponent title="Beneficios del software de nomina" />
+        </div>
           <article className="grid grid-cols-1 sm:grid-cols-2 p-5 md:grid-cols-2 mx-auto max-w-5xl">
             {
               cardsLandingSoftware.map((item, index) => (
@@ -42,10 +44,13 @@ export default function SectionLandingSoftware() {
         <SliderTestimonial title={t.rich("titlesLandingSoftware.titleLandingSoftware3.title", richText)} items={t.raw("sliderLandingSoftware")}/>
         {/*TITULO Y CARDS CASOS DE ESTUDIO */}
 
-        <CardLandingSoftware title='Casos de estudio' items={t.raw("cardsCasosEstudio")}/>
+        <div className='pt-20'>
+          <CardLandingSoftware title='Casos de estudio' items={t.raw("cardsCasosEstudio")}/>
+        </div>
         {/*TITULO Y SLIDER DE INFORMACION DE INTERESES */}
-        <TextComponent title={t("titlesLandingSoftware.titleLandingSoftware5.title")}/>
-        <SliderHero items={t.raw("sliderLandingSoftware2")}/>
+        <div className='pt-20'>
+        <SliderHero titleHero={t("titlesLandingSoftware.titleLandingSoftware5.title")} items={t.raw("sliderLandingSoftware2")}/>
+        </div>
       </div>
     </section>
   )

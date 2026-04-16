@@ -12,6 +12,7 @@ export default function CardIA({
   btnHref = "#",
 }: IACardProps) {
   return (
+    <div className="grid-cols-1 max-w-5xl mx-auto gap-10 p-4 ">
     <article className="flex flex-col border border-border-ui bg-bg-card-2 p-8 md:p-12 shadow-sm mb-8 w-full max-w-5xl mx-auto transition-colors duration-300 h-full">
       
       {/* Icono */}
@@ -106,5 +107,6 @@ export default function CardIA({
         </a>
     </div>
     </article>
+    </div>
   );
 }

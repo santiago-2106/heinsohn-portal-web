@@ -13,6 +13,7 @@ export interface ItemsCard {
 export interface dataCard {
   icon?: ReactNode;
   iconColor: 'text-brand-accent' | 'black'
+  number?:string
   title?: ReactNode;
   description?: string | ReactNode;
   btn?: string;

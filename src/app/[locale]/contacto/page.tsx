@@ -49,8 +49,8 @@ export default function ContactoPage() {
       </div>
 
       {/* 3. FORMULARIO DE CONTACTO */}
-      <section className="w-full max-w-[1440px] mx-auto pt-16 pb-24 px-6 md:px-12 lg:px-24">
-        <ContactForm />
+      <section >
+        <ContactForm  title="Contactanos"/>
       </section>
       
     </div>
