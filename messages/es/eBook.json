@@ -18,19 +18,22 @@
                     "icon":"account_balance",
                     "title":"¿Estás cansado de tener un equipo que no alcanza sus metas? - Potencia el Rendimiento de tu Equipo",
                     "description":"¿Estás cansado de tener un equipo que no alcanza sus...",
-                    "btn":"Leer más"
+                    "btn":"Leer más",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 },
                 {
                     "icon":"monitor_heart",
                     "title":"Automatiza tus Procesos de Recursos Humanos",
                     "description":"¿Quieres aumentar la eficacia en la liquidación de nómina y...",
-                    "btn":"Leer más"
+                    "btn":"Leer más",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 },
                 {
                     "icon":"Enterprise",
                     "title":"Impulsa la Productividad y Motivación de tus Empleados",
                     "description":"¿Quieres mejorar la productividad y motivación de tus empleados? ¡Descubre...",
-                    "btn":"Leer más"
+                    "btn":"Leer más",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 }
             ]
         }

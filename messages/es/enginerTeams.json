@@ -5,12 +5,14 @@
       {
         "title": "Staff Augmentation",
         "description": "Amplía tu equipo con expertos en tecnología, integrándolos de forma flexible a tus proyectos.",
-        "btn": "Ampliar equipo"
+        "btn": "Ampliar equipo",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Equipos dedicados",
         "description": "Talento experto, enfocado en tus objetivos de negocio.",
-        "btn": "Ver talento experto"
+        "btn": "Ver talento experto",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ]
   }

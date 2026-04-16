@@ -5,32 +5,38 @@
       {
         "title": "Desarrollo de aplicaciones móviles y web",
         "description": "Soluciones intuitivas para todo tipo de dispositivos",
-        "btn": "Ver soluciones"
+        "btn": "Ver soluciones",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Diseño y desarrollo UX/UI",
         "description": "Interfaces centradas en el usuario, pensadas para mejorar la experiencia y la conversión",
-        "btn": "Ver experiencias"
+        "btn": "Ver experiencias",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Desarrollo de software",
         "description": "Productos a la medida de cada necesidad empresarial",
-        "btn": "Solicitar desarrollo"
+        "btn": "Solicitar desarrollo",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Desarrollo de software cloud",
         "description": "Aplicaciones seguras, flexibles y con alto rendimiento en la nube",
-        "btn": "Ver más"
+        "btn": "Ver más",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Desarrollo de plataformas escalables",
         "description": "Arquitecturas preparadas para el crecimiento del negocio",
-        "btn": "Explorar"
+        "btn": "Explorar",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "title": "Modernización de aplicaciones de software",
         "description": "Actualización tecnológica que prolonga la vida útil y aumenta la eficiencia",
-        "btn": "Actualizar ahora"
+        "btn": "Actualizar ahora",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ]
   }

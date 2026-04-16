@@ -21,31 +21,36 @@
                 "icon": "cooking",
                 "title": "Sector alimentos y bebidas",
                 "description": "Digitalizamos la cadena de producción y distribución, garantizando calidad, trazabilidad y cumplimiento normativo.",
-                "btn": "Explorar soluciones"
+                "btn": "Explorar soluciones",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "shopping_cart",
                 "title": "Sector agroindustrial",
                 "description": "Aportamos innovación para la gestión de cultivos, procesos y logística, potenciando la productividad del campo.",
-                "btn": "Ver más"
+                "btn": "Ver más",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "pill",
                 "title": "Sector farmacéutico",
                 "description": "Fortalecemos la gestión de calidad, trazabilidad y regulaciones, asegurando confianza en cada proceso.",
-                "btn": "Conocer soluciones"
+                "btn": "Conocer soluciones",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "package_2",
                 "title": "Sector logístico",
                 "description": "Optimizamos la operación, trazabilidad y tiempos de entrega con herramientas digitales inteligentes.",
-                "btn": "Descubrir más"
+                "btn": "Descubrir más",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "directions_car",
                 "title": "Sector automotriz",
                 "description": "Impulsamos la innovación en manufactura, cadena de suministro y experiencia del cliente.",
-                "btn": "Explorar ahora"
+                "btn": "Explorar ahora",
+                "linkNavigation":"/soluciones/soluciones-sap"
             }
         ]
         }

@@ -95,7 +95,8 @@
           { "textos": "Scalable and parameterizable according to portfolio." },
           { "textos": "Reduction in training and support times." }
         ],
-        "btn": "Get to know the Credit and Payroll Loans solution ->"
+        "btn": "Get to know the Credit and Payroll Loans solution ->",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "finance_chip",
@@ -106,7 +107,8 @@
           { "textos": "Integration with accounting and financial systems." },
           { "textos": "Management and regulatory reports in PDF and Excel." }
         ],
-        "btn": "Explore the Financial Obligations solution ->"
+        "btn": "Explore the Financial Obligations solution ->",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "folder_code",
@@ -117,7 +119,8 @@
           { "textos": "Automation of massive processes." },
           { "textos": "Mobility and 360° vision for investors." }
         ],
-        "btn": "Discover our solution for FICs ->"
+        "btn": "Discover our solution for FICs ->",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "price_change",
@@ -128,7 +131,8 @@
           { "textos": "Multi-currency, multi-portfolio, and with statutory regulatory reports." },
           { "textos": "More than 25 years backing funds, insurers, and banking in LATAM." }
         ],
-        "btn": "Learn how to optimize your portfolios ->"
+        "btn": "Learn how to optimize your portfolios ->",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ],
 
