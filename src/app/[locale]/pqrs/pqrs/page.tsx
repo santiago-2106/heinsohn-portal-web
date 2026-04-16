@@ -19,7 +19,7 @@ export default function PqrsfPage() {
   
   const processedCards = rawCards.map((card: any) => ({
     ...card,
-    icon: (
+    number: (
       <span className="block text-[42px] lg:text-[30px] font-light text-[#D90036] mb-4 leading-none">
         {card.number}
       </span>

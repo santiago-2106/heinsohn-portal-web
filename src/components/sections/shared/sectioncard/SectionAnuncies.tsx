@@ -45,7 +45,7 @@ export default function CardAnuncies({
             </span>
           )}
 
-          <h2 className="text-3xl md:text-5xl text-text-title font-light mb-6 w-full">
+          <h2 className="text-text-title font-light mb-6 w-full">
             {title}
           </h2>
 

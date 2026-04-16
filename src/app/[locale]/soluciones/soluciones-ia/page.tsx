@@ -20,7 +20,7 @@ export default function SolucionesIAPage() {
   const rawCards = t.raw("dataIaBeneficios");
   const cardsbeneficioIa = rawCards.map((card: any) => ({
     ...card,
-    icon: NumberIcon(card.number),
+    number: NumberIcon(card.number),
   }));
 
   const cardsIA = mapRich(t, "dataIaCards") 
@@ -40,13 +40,13 @@ export default function SolucionesIAPage() {
       />
 
       {/* 2. SOLUCIONES Y DESAFÍOS */}
-      <section className="py-16 border-t border-border-ui">
+      <section className="py-12">
         <TextComponent
           title={t.rich("dataIaSections.soluciones.title", richText)}
           description={t.rich("dataIaSections.soluciones.description", richText)}
           align="left"
         />
-        <div className="px-4 sm:px-6 lg:px-8 mt-12 max-w-7xl mx-auto">
+        <div>
           {cardsIA.map((card: any) => (
             <CardIA key={card.id} {...card} />
           ))}

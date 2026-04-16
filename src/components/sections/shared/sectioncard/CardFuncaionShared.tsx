@@ -7,7 +7,7 @@ export default function CardFuncaionShared({data}: {data: any}) {
         {data.icon}
       </span>
       <div className="flex flex-col gap-2 md:gap-6">
-        <h2 className="text-2xl md:text-5xl text-text-title font-light leading-tight">
+        <h2 className="text-2xl md:text-4xl text-text-title font-light leading-tight">
           {data.title}
         </h2>
       {data.descriptions.map((desc:any, index:number) => (

@@ -24,11 +24,11 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
       <div className="mx-auto max-w-7xl px-4 sm:px-6">
         
         {/* Cambié a flex-col en móvil para garantizar que no se desborde, y grid en escritorio */}
-        <div className="flex flex-col md:grid md:grid-cols-12 border border-gray-200 overflow-hidden">
+        <div className="flex flex-col md:grid md:grid-cols-12 border border-border-ui overflow-hidden">
           
           <div className="relative hidden md:block md:col-span-5 h-full min-h-100">
             <Image
-              src="/img/contactimg.png"
+              src="/img/contacto-img.png"
               alt="contacto"
               fill
               className="object-cover"
@@ -36,7 +36,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
             />
           </div>
 
-          <div className="w-full md:col-span-7 bg-bg-card-2 p-6 sm:p-8 md:p-14">
+          <div className="w-full md:col-span-7 border border-border-ui bg-bg-card-2 p-6 sm:p-8 md:p-14">
             {/* 3. REEMPLAZAMOS EL TEXTO QUEMADO POR LA PROP */}
             <h2 className="text-3xl md:text-4xl font-light text-gray-400 mb-10">
               {title}

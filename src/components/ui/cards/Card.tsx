@@ -4,6 +4,7 @@ import ButtonCard from "../buttons/ButtonCard";
 
 export default function Card({
   icon,
+  number,
   iconColor,
   title,
   description,
@@ -22,6 +23,14 @@ export default function Card({
     <div
       className={`group flex flex-col border border-border-ui bg-bg-card-2 p-4 md:p-8 shadow-sm h-full hover:shadow-md transition-shadow duration-300 ${centrar ? "items-center text-center" : "items-start text-left"}`}>
       {/* ICONO / NÚMERO */}
+      {number && (
+        <div className="">
+          <span className="text-base md:text-lg text-text-body font-light leading-relaxed">
+            {number}
+          </span>
+        </div>
+      )}
+
       {icon && (
         <div
           className={`

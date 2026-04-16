@@ -55,7 +55,7 @@ export default function Slider({ title = "Blog Destacado", data }: SliderBlogPro
               <div className="flex flex-col md:flex-row items-start">
 
                 {/* Imagen decorativa lado izquierdo */}
-                <div className="hidden md:flex md:w-1/3 bg-bg-card-2 border border-border-ui relative">
+                <div className="hidden md:flex md:w-1/3 bg-bg-card-2  relative">
                   <div className="">
                     <SliderSvg />
                   </div>

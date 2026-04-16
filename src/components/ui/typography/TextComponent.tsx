@@ -14,9 +14,9 @@ export default function TextComponent({
 }: propsTextComponent) {
   return (
     <>
-      <section className="py-8 px-16">
-        <div className={`mx-auto max-w-4xl px-4 ${align === "center" ? "text-center" : "text-left"}`}>
-          <h2 className="text-3xl md:text-4xl text-text-title font-light mb-6 "> {/*CAMBIARLOS Y DEJARLOS GLOBALMENTE */}
+      <section className="py-6 sm:py-8 md:py-10 lg:py-12">
+        <div className={`mx-auto max-w-4xl px-2 ${align === "center" ? "text-center" : "text-left"}`}>
+          <h2 className="text-text-title font-light mb-6 "> {/*CAMBIARLOS Y DEJARLOS GLOBALMENTE */}
             {title}
           </h2>
           <p className="text-text-body text-lg mb-8 mx-auto">{description}</p>

@@ -9,6 +9,7 @@ import "swiper/css/pagination"
 
 import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft'
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight'
+import TextComponent from "../ui/typography/TextComponent"
 
 interface CarouselSplitItem {
   title: string
@@ -19,12 +20,17 @@ interface CarouselSplitItem {
 }
 
 interface CarouselSplitHeroProps {
+  titleHero?:string
   items: CarouselSplitItem[]
 }
 
-export default function SliderHero({ items }: CarouselSplitHeroProps) {
+export default function SliderHero({ titleHero,items }: CarouselSplitHeroProps) {
   return (
-    <section className="w-full py-12 flex justify-center"> 
+    <div>
+      <div className="-mb-10 md:-mb-18 ">
+        <TextComponent title={titleHero} />
+      </div>
+    <section className="w-full py-2 flex justify-center"> 
       
       <div className="w-full max-w-227 px-4 md:px-0 flex flex-col items-center relative">
         <Swiper
@@ -51,16 +57,16 @@ export default function SliderHero({ items }: CarouselSplitHeroProps) {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-62.5 md:h-84.25 object-cover brightness-50 md:brightness-90 transition-all duration-500"
+                    className="w-full h-62.5 md:h-84.25 object-cover brightness-50 md:brightness-90 grayscale-75 transition-all duration-500"
                   />
                 </div>
 
                 <div className="w-full md:w-82.5 md:h-84.25 flex flex-col justify-center gap-2.5 p-8 shrink-0">
-                  <h2 className="font-light text-[28px] md:text-[40px] lg:text-[22px] leading-[110%] md:leading-[100%] text-text-title">
+                  <h3 className="font-light text-[30px] md:text-lg lg:text-2xl leading-[110%] md:leading-[100%] text-text-title">
                     {item.title}
-                  </h2>
+                  </h3>
 
-                  <p className="font-light text-[15px] md:text-[18px] lg:text-[16px] leading-relaxed md:leading-7.5 text-text-body">
+                  <p className="font-light text-lg md:text-[18px] lg:text-[16px] leading-relaxed md:leading-7.5 text-text-body">
                     {item.description}
                   </p>
 
@@ -90,5 +96,6 @@ export default function SliderHero({ items }: CarouselSplitHeroProps) {
 
       </div>
     </section>
+    </div>
   )
 }

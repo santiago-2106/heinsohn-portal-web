@@ -28,7 +28,7 @@ export default function SliderTestimonial({ title,items }: TestimonialSliderProp
   return (
     <section className="py-8 sm:py-12 md:py-16 w-full">
       <TextComponent title={title} />
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
+      <div className="mx-auto max-w-7xl px-8 sm:px-6 md:px-8 lg:px-12">
 
         <Swiper
           modules={[Navigation, Pagination]}

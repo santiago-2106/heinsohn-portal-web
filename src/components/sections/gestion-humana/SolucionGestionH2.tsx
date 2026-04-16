@@ -38,7 +38,7 @@ export default function TalentCloudSection() {
         <article className="mt-10 mb-10 w-full max-w-4xl mx-auto px-4 group-hover:scale-110 transition-transform duration-300">
           <TextComponent title={t("titlesGestionHumana.titleGestionHumana5.title")} />
 
-          <div className="relative mt-12 overflow-hidden cursor-pointer group">
+          <div className="relative overflow-hidden cursor-pointer group">
             <div className="relative aspect-video w-full">
               <Image
                 src="/img/imgIAgestionHumana.jpg"
