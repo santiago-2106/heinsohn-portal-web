@@ -60,7 +60,8 @@
         "title": "SMEs",
         "description": "Payroll for small and medium-sized enterprises",
         "btnText": "Expand Information",
-        "btn": "Expand Information"
+        "btn": "Expand Information",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon":"business",
@@ -68,7 +69,8 @@
         "title": "Large companies",
         "description": "Payroll for large companies",
         "btnText": "Expand Information",
-        "btn": "Expand Information"
+        "btn": "Expand Information",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ],
 
@@ -108,7 +110,8 @@
           { "textos": "Real-time reports and queries" },
           { "textos": "Employee portal with self-management" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "things_to_do",
@@ -121,7 +124,8 @@
           { "textos": "Integration with state contracting systems" },
           { "textos": "Reports for control agencies" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "add_reaction",
@@ -136,7 +140,8 @@
           { "textos": "Time and attendance management" },
           { "textos": "Talent analytics and HR indicators" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon": "digital_wellbeing",
@@ -151,7 +156,8 @@
           { "textos": "Management indicators and reports" },
           { "textos": "Auditing and regulatory compliance" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ],
     "cardOutsorcingBPO": [
@@ -167,7 +173,8 @@
           { "textos": "Guaranteed regulatory compliance" },
           { "textos": "Management and operational reports" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon":"admin_meds",
@@ -180,7 +187,8 @@
           { "textos": "Reduction of recovery portfolio" },
           { "textos": "Management and recovery reports" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon":"article_person",
@@ -194,7 +202,8 @@
           { "textos": "Regulatory compliance in the pension sector" },
           { "textos": "Integration with actuarial systems" }
         ],
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ],
     "cardFeatureLandingHGS": [

@@ -112,21 +112,29 @@
           "img": "/img/slider-sectorAutomotriz.jpg",
           "title": "Digital transformation accelerates the future of mobility",
           "description": "The automotive industry is changing at high speed: from software-defined vehicles to total connectivity and shared mobility.",
-          "btn": "Read more"
+          "btn": "Read more",
+          "linkNavigation":"/soluciones/soluciones-sap"
         },
         {
           "id": 2,
           "img": "/img/imgWorkKnow.jpg",
           "title": "Transformation of a healthcare services platform",
           "description": "We designed a new digital experience for a healthcare platform, improving navigation and reorganizing workflows...",
-          "btn": "Discover how we did it"
+          "btn": "Discover how we did it",
+          "linkNavigation":"/soluciones/soluciones-sap"
         }
       ]
     },
 
-    "videoSection": {
-      "textVideos": "Learn how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
-      "textButtonVideo": "View success stories"
+    "videoSectorAutomotriz": {
+      "textVideos": "Discover how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+      "textButtonVideo": "View success stories",
+      "video": {
+        "title": "Heinsohn Automotive Sector",
+        "description": "Discover how we helped an automotive company transform its digital experience and connect thousands of users with their vehicles in real time.",
+        "youtubeId": "e8c9CKYfbLU",
+        "thumbnail": "/img/sector-Automotriz2.jpg"
+      }
     },
 
     "cardProyectoPosible": [

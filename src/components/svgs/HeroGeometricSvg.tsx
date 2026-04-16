@@ -7,7 +7,7 @@ export default function HeroGeometricSvg() {
         viewBox="0 0 400 600"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-150 h-[692px] opacity-50" // Ajusta la opacidad según tu diseño
+        className="w-150 h-[628px] opacity-50" // Ajusta la opacidad según tu diseño
       >
         {/* Línea divisoria vertical principal */}
         <line x1="0" y1="0" x2="0" y2="600" stroke="currentColor" strokeWidth="1" />

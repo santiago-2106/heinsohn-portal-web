@@ -47,9 +47,10 @@
                     "icon": "sync_saved_locally",
                     "title": "Digital Services",
                     "description": "Custom software development, digital transformation, web, mobile and cross-platform applications, artificial intelligence and data analytics, cloud architecture, application modernization, and innovative technological solutions for the digital age. We create exceptional digital experiences that drive business growth.",
-                    "textoFooter": "Digital transformation<br/><br/>Mobile & web apps, enterprise platforms, artificial intelligence, data analytics, consulting, and emerging technologies. Dedicated teams & Staff Augmentation.",
+                    "textoFooter": "Digital transformation <br></br> Mobile & web apps, enterprise platforms, artificial intelligence, data analytics, consulting, and emerging technologies. Dedicated teams & Staff Augmentation.",
                     "btn": "Explore services",
-                    "btnPosition": "top"
+                    "btnPosition": "top",
+                    "linkNavigation":"/soluciones/soluciones-ti"
                 },
                 {
                     "icon": "monetization_on",
@@ -57,7 +58,8 @@
                     "description": "Specialized systems for banking, fintechs, insurers, and non-bank entities seeking to lead the digital transformation of the financial sector. <br></br>Our solutions allow for the management of loans, financial obligations, investment funds, and portfolios with total efficiency, security, and regulatory compliance. Robust and scalable technology that drives innovation and optimizes comprehensive financial management.",
                     "textoFooter": "Fintech and Financial Management<br></br> Software designed for the comprehensive administration of loans, payroll deductions, financial obligations, FICs (Investment Funds), investment portfolios, and risk management. Our platforms allow for process automation, regulatory compliance, and guarantee total traceability in every operation, boosting the efficiency and competitiveness of financial entities in LATAM.",
                     "btn": "Discover our financial solutions",
-                    "btnPosition": "top"
+                    "btnPosition": "top",
+                    "linkNavigation":"/soluciones/soluciones-financieras"
                 },
                 {
                     "icon": "savings",
@@ -65,7 +67,8 @@
                     "description": "We have specialized software for the comprehensive management of pensions, severance pay, and life annuities. Our platforms guarantee traceability, efficiency, and regulatory compliance, allowing pension funds, insurance companies, and financial entities to optimize operations, reduce costs, and offer a 100% digital experience to their affiliates.",
                     "textoFooter": "Pension management & savings<br/><br/>Technological platforms for the administration of mandatory and voluntary pensions, severance pay, and pensioner payroll. Our solutions guarantee accuracy in liquidation, regulatory compliance, and digital self-management, driving sustainability and trust in the region's pension systems.",
                     "btn": "Explore our pension solutions",
-                    "btnPosition": "top"
+                    "btnPosition": "top",
+                    "linkNavigation":"/soluciones/pensiones"
                 },
                 {
                     "icon": "account_circle",
@@ -73,7 +76,8 @@
                     "description": "Human Global Solutions (HGS) is our company specialized in comprehensive human talent management. We combine advanced technological platforms with specialized outsourcing services to automate HR processes, from recruitment to payroll, performance evaluations, and talent development. We empower the human capital of the most demanding organizations.",
                     "textoFooter": "Human Global Solutions<br/><br/>Company specialized in comprehensive human talent management with advanced technological platforms and specialized outsourcing services. More than 1,000 Latin American companies endorse the quality and reliability of our solutions.",
                     "btn": "Manage talent",
-                    "btnPosition": "top"
+                    "btnPosition": "top",
+                    "linkNavigation":"/soluciones/gestion-humana"
                 },
                 {
                     "icon": "domain",
@@ -81,7 +85,8 @@
                     "description": "Custom enterprise software that optimizes processes, improves productivity, and accelerates your organization's growth. We are leading providers of SAP Business One and SAP Grow, the best enterprise solutions on the market. We develop ERP, CRM systems, and comprehensive management platforms adapted to the specific needs of each industry, from SMEs to large corporations.",
                     "textoFooter": "SAP Business One & SAP Grow<br/><br/>Leading providers of the best enterprise solutions on the market - ERP, CRM, Business Intelligence, and comprehensive management",
                     "btn": "View solutions",
-                    "btnPosition": "top"
+                    "btnPosition": "top",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 }
             ]
         },
@@ -94,23 +99,27 @@
                 "icon": "account_balance",
                 "title": "Banking digital transformation",
                 "description": "Complete modernization of the technological infrastructure of a leading bank, resulting in a 40% improvement in operational efficiency.",
-                "btn": "View full case study"
+                "btn": "View full case study",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "monitor_heart",
                 "title": "Risk management platform",
                 "description": "Development of an intelligent platform for real-time risk assessment and management for an insurance company.",
-                "btn": "View full case study"
+                "btn": "View full case study",
+                "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
                 "icon": "work",
                 "title": "Agro-industrial ERP system",
                 "description": "Implementation of customized SAP Business One to optimize the supply chain and product traceability.",
-                "btn": "View full case study"
+                "btn": "View full case study",
+                "linkNavigation":"/soluciones/soluciones-sap"
             }
             ],
             "bottomBtn": "View all success stories"
         },
+        "textoBtn":"View all success stories",
 
         "titlesHome": {
             "titleContact": "Contact Us",

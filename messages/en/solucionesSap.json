@@ -55,7 +55,8 @@
             "Local support in Spanish",
             "Accessible price for SMEs"
           ],
-          "btnText": "Meet Heinsohn..."
+          "btnText": "Meet Heinsohn...",
+          "linkNavigation":"/soluciones/soluciones-sap"
         },
         {
           "badge": "More popular",
@@ -71,7 +72,8 @@
             "Guaranteed scalability",
             "Integration with SAP ecosystem"
           ],
-          "btnText": "Meet Heinsohn..."
+          "btnText": "Meet Heinsohn...",
+          "linkNavigation":"/soluciones/soluciones-sap"
         },
         {
           "icon":"garden_cart",
@@ -86,7 +88,8 @@
             "Advanced automation",
             "Complete digital transformation"
           ],
-          "btnText": "Meet Heinsohn..."
+          "btnText": "Meet Heinsohn...",
+          "linkNavigation":"/soluciones/soluciones-sap"
         }
       ]
     },

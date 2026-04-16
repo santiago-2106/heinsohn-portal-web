@@ -18,19 +18,22 @@
                     "icon": "account_balance",
                     "title": "Tired of having a team that doesn't reach its goals? – Boost Your Team's Performance",
                     "description": "Are you tired of having a team that doesn't reach its...",
-                    "btn": "Read more"
+                    "btn": "Read more",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 },
                 {
                     "icon": "monitoring",
                     "title": "Automate your Human Resources Processes",
                     "description": "Do you want to increase efficiency in payroll processing and...",
-                    "btn": "Read more"
+                    "btn": "Read more",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 },
                 {
                     "icon": "work",
                     "title": "Boost Productivity and Motivation of your Employees",
                     "description": "Do you want to improve the productivity and motivation of your employees? Discover...",
-                    "btn": "Read more"
+                    "btn": "Read more",
+                    "linkNavigation":"/soluciones/soluciones-sap"
                 }
             ]
         }

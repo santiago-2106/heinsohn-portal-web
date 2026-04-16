@@ -21,31 +21,36 @@
             "icon": "cooking",
             "title": "Food and Beverage Sector",
             "description": "We digitalize the production and distribution chain, ensuring quality, traceability, and regulatory compliance.",
-            "btn": "Explore solutions"
+            "btn": "Explore solutions",
+            "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
             "icon": "shopping_cart",
             "title": "Agro-industrial Sector",
             "description": "We provide innovation for crop management, processes, and logistics, boosting field productivity.",
-            "btn": "See more"
+            "btn": "See more",
+            "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
             "icon": "pill",
             "title": "Pharmaceutical Sector",
             "description": "We strengthen quality management, traceability, and regulations, ensuring trust in every process.",
-            "btn": "Learn about solutions"
+            "btn": "Learn about solutions",
+            "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
             "icon": "package_2",
             "title": "Logistics Sector",
             "description": "We optimize operations, traceability, and delivery times with smart digital tools.",
-            "btn": "Discover more"
+            "btn": "Discover more",
+            "linkNavigation":"/soluciones/soluciones-sap"
             },
             {
             "icon": "directions_car",
             "title": "Automotive Sector",
             "description": "We drive innovation in manufacturing, supply chain, and customer experience.",
-            "btn": "Explore now"
+            "btn": "Explore now",
+            "linkNavigation":"/soluciones/soluciones-sap"
             }
         ]
         }

@@ -108,14 +108,16 @@
         "img": "/img/slider-sectorAutomotriz.jpg",
         "title": "La transformación digital acelera el futuro de la movilidad",
         "description": "La industria automotriz está cambiando a gran velocidad: desde los vehículos definidos por software hasta la conectividad total y la movilidad compartida. ",
-        "btn": "Leer más"
+        "btn": "Leer más",
+        "linkNavigation":"/soluciones/soluciones-sap"
         },
         {
         "id":2,
         "img": "/img/imgWorkKnow.jpg",
         "title": "Transformación de una plataforma de servicios de salud",
         "description": "Diseñamos una nueva experiencia digital para una plataforma de salud, mejorando la navegación, reorganizando los flujos...",
-        "btn": "Descubre cómo lo hicimos"
+        "btn": "Descubre cómo lo hicimos",
+        "linkNavigation":"/soluciones/soluciones-sap"
     }]},
 
     "videoSection": {

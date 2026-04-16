@@ -4,6 +4,7 @@
       "title": "HGS - Human Management",
       "description": "A company providing <bold>human talent management services,</bold> that creates positive impact with technological solutions, <bold>consulting and operations services.</bold>",
       "buttonText": "request a free consultation",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "solutions" },
         { "label": "HGS - Human Management" }
@@ -16,7 +17,8 @@
         "title": "Large enterprises",
         "description": "Payroll for large enterprises",
         "btnText": "More Information",
-        "btn": "More Information"
+        "btn": "More Information",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon":"warehouse",
@@ -24,7 +26,8 @@
         "title": "SMEs",
         "description": "Payroll for small and medium-sized enterprises",
         "btnText": "More Information",
-        "btn": "More Information"
+        "btn": "More Information",
+        "linkNavigation":"/soluciones/soluciones-sap"
       },
       {
         "icon":"things_to_do",
@@ -32,7 +35,8 @@
         "title": "Government",
         "description": "Solutions for public administration",
         "btnText": "More Information",
-        "btn": "More Information"
+        "btn": "More Information",
+        "linkNavigation":"/soluciones/soluciones-sap"
       }
     ],
 
@@ -161,6 +165,17 @@
     }
     },
     "buttonGestionHumana":"Talk to an expert",
+
+     "videoGestionHumana": {
+      "textVideos": "Discover the positive impact it can have on your company!",
+      "textButtonVideo": "Learn more",
+      "video": {
+        "title": "AI in Human Resources",
+        "description": "Discover the positive impact it can have on your company!",
+        "youtubeId": "J71e5mCW85Q",
+        "thumbnail": "/img/imgIAgestionHumana.jpg"
+      }
+    },
 
     "cardInfoGestionHumana": [
     { "description": "Organizations" },
