@@ -4,14 +4,14 @@ import ModeNightIcon from "@mui/icons-material/ModeNight";
 import LightModeIcon from "@mui/icons-material/LightMode";
 import Link from "next/link";
 import Image from "next/image";
-import { useLocale, useTranslations } from "next-intl"; 
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useTheme } from "@/src/hooks/useTheme";
 import Sidebar from "../sidebar/Sidebar";
 
 export default function Navbar() {
   const [openMenu, setOpenMenu] = useState(false);
-  const {isDark, toggleTheme} = useTheme();
+  const { isDark, toggleTheme } = useTheme();
 
   // INTERNACIONALIZACIÓN IDIOMAS
   const t = useTranslations('navbar');
@@ -25,23 +25,23 @@ export default function Navbar() {
     const segments = pathName.split("/");
     segments[1] = newLocale; // reemplaza solo el locale
     const newPath = segments.join("/");
-    router.push(newPath, {scroll:false});
+    router.push(newPath, { scroll: false });
   };
 
   return (
     <header className="sticky top-0 left-0 z-40 border-b border-border-ui bg-bg-main transition-colors duration-300">
       <nav className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
         <ul className="relative flex h-20 items-center justify-between">
-          
+
           {/* LADO IZQUIERDO: Menú y Logo */}
           <li className="flex items-center gap-4">
             {/* CORRECCIÓN: Forzamos a que siempre abra el menú al darle clic */}
-            <button 
+            <button
               onClick={() => setOpenMenu(true)}
               className="text-text-title flex items-center justify-center hover:cursor-pointer"
               aria-label={t("openMenu")}
             >
-              <span className="material-symbols-rounded" style={{fontSize: "40px" }}>
+              <span className="material-symbols-rounded" style={{ fontSize: "40px" }}>
                 notes
               </span>
             </button>
@@ -62,8 +62,8 @@ export default function Navbar() {
 
           {/* LADO DERECHO: Botón, Bandera, Idioma y Luna */}
           <li className="hidden md:flex items-center gap-3 sm:gap-4">
-            <Link 
-              href="/contacto" 
+            <Link
+              href="/contacto"
               className="flex items-center justify-center rounded-full w-30 h-12.5 bg-text-title text-bg-main px-2 py-2 sm:px-5 sm:text-sm font-medium hover:opacity-80 transition-opacity"
             >
               {t("contact")}
@@ -76,41 +76,44 @@ export default function Navbar() {
               height={40}
               className="inline-block rounded-sm object-cover border border-border-ui shadow-sm"
             />
+            <div>
 
-            <select 
-              className="bg-bg-card-1 rounded-full text-text-body font-medium outline-none cursor-pointer py-2 px-3"
-              onChange={e => changeLanguaje(e.target.value)}
-              value={currentLocale}
-            >
-              <option value="col">COL</option>
-              <option value='es'>ES</option>
-              <option value='en'>EN</option>
-            </select>
-            
-            <button 
-              onClick={toggleTheme} 
+              <select
+                className="bg-bg-card-1 rounded-full text-text-body font-medium outline-none cursor-pointer py-2 px-3"
+                aria-label="Seleccionador de idiomas"
+                onChange={e => changeLanguaje(e.target.value)}
+                value={currentLocale}
+              >
+                <option value="col">COL</option>
+                <option value='es'>ES</option>
+                <option value='en'>EN</option>
+              </select>
+            </div>
+
+            <button
+              onClick={toggleTheme}
               className="flex items-center justify-center text-text-title hover:text-brand-accent hover:cursor-pointer transition-colors ml-4"
               aria-label="Cambiar modo luz"
             >
-              {isDark ? <LightModeIcon sx={{color: "#F4E6A1"}}/> : <ModeNightIcon sx={{fill:'white', stroke:'black'}}/>}
+              {isDark ? <LightModeIcon sx={{ color: "#F4E6A1" }} /> : <ModeNightIcon sx={{ fill: 'white', stroke: 'black' }} />}
             </button>
           </li>
         </ul>
       </nav>
 
       {/* RENDERIZADO DEL SIDEBAR */}
-      <Sidebar 
+      <Sidebar
         titleSidebar="Consulta"
         isOpenSidebar={openMenu}
         onClose={() => setOpenMenu(false)}
         data={[
-          { 
-            id: "que-hacemos", 
-            title: "Que hacemos", 
+          {
+            id: "que-hacemos",
+            title: "Que hacemos",
             children: [
-              { 
-                id: "soluciones", 
-                title: "Soluciones", 
+              {
+                id: "soluciones",
+                title: "Soluciones",
                 children: [
                   { id: "ti", title: "Servicios TI", href: "/soluciones/soluciones-ti" },
                   { id: "nomina", title: "Gestión Humana y Nómina", href: "/soluciones/gestion-humana" },
@@ -122,11 +125,11 @@ export default function Navbar() {
                   { id: "staff", title: "Staff Augmentation", href: "/soluciones/staff-augmentation" }
                 ]
               }
-            ] 
+            ]
           },
-          { 
-            id: "pensamos", 
-            title: "Lo que pensamos", 
+          {
+            id: "pensamos",
+            title: "Lo que pensamos",
             children: [
               { id: "blog", title: "Blog", href: "/e-book-blog/blogs" }
             ]

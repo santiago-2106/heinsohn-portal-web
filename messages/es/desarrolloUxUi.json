@@ -160,27 +160,32 @@
           "icon": "devices",
           "title": "Desarrollo de aplicaciones móviles y web",
           "description": "Soluciones intuitivas para todo tipo de dispositivos",
-          "btn": "Ver soluciones"
+          "btn": "Ver soluciones",
+          "linkNavigation":"/soluciones/"
         },
         {
           "icon": "data_object",
           "title": "Desarrollo de software",
           "description": "Productos personalizados adaptados a cada necesidad del negocio",
-          "btn": "Solicitar desarrollo"
+          "btn": "Solicitar desarrollo",
+          "linkNavigation":"/soluciones/"
         },
         {
           "icon": "cloud_queue",
           "title": "Desarrollo de software en la nube",
           "description": "Aplicaciones seguras, flexibles y de alto rendimiento en la nube",
-          "btn": "Saber más"
+          "btn": "Saber más",
+          "linkNavigation":"/soluciones/"
         },
         {
           "icon": "developer_mode",
           "title": "Modernización de aplicaciones de software",
           "description": "Actualización tecnológica que extiende la vida útil y mejora la eficiencia",
-          "btn": "Actualizar ahora"
+          "btn": "Actualizar ahora",
+          "linkNavigation":"/soluciones/"
         }
       ]
-    }
+    },
+    "titleContacto":"Contáctanos"
   }
 }

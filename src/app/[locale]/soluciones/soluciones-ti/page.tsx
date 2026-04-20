@@ -8,10 +8,7 @@ import Slider from "@/src/components/sliders/SliderBlog";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
 
 // Importación de Datos
-import { dataHeroSolucionesTi1,} from "@/src/data/soluciones/ti/index"; // <- Asegúrate de que apunte a tu nueva ruta
-import { dataCardKnowOurWork } from "@/src/data/soluciones/desarrollo-a-medida"; // O donde lo hayas dejado
-import { cardSlider1 } from "@/src/data/soluciones/share/slider";
-import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 
 // Optimización SEO y Web Vitals
 export const metadata: Metadata = {
@@ -20,25 +17,25 @@ export const metadata: Metadata = {
   robots: "index, follow",
 };
 
-export default function PageSolucionesTI() {
-  const t = useTranslations("solucionesTi")
-  const tContacto = useTranslations("contactForm")
+export default async function PageSolucionesTI() {
+  const t = await getTranslations("solucionesTi")
+  const tContacto = await getTranslations("contactForm")
 
   return (
     <>
-    <div id="solucionesTi">
-      <Hero {...t.raw("dataHeroSolucionesTI")}/>
-      <CardFinal />
-      <CardCases 
-      title={t("titlesSolucionesTi.title5")}
-      {...t.raw("cardConoceNuestroTrabajo")}
-      />
-      <Slider 
-      title={t("sliderSolucionesTi.title")}
-      data={t.raw("sliderSolucionesTi.items")}
-      />
-      <ContactForm title={tContacto("title")} />
-    </div>
+      <div id="solucionesTi">
+        <Hero {...t.raw("dataHeroSolucionesTI")} />
+        <CardFinal />
+        <CardCases
+          title={t("titlesSolucionesTi.title5")}
+          {...t.raw("cardConoceNuestroTrabajo")}
+        />
+        <Slider
+          title={t("sliderSolucionesTi.title")}
+          data={t.raw("sliderSolucionesTi.items")}
+        />
+        <ContactForm title={tContacto("title")} />
+      </div>
     </>
   );
 }

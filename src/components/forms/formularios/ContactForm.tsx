@@ -21,7 +21,7 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
 
   return (
     <section id="contacto" className="bg-bg-main py-12 md:py-20">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="mx-auto max-w-7xl px-2 sm:px-4">
         
         {/* Cambié a flex-col en móvil para garantizar que no se desborde, y grid en escritorio */}
         <div className="flex flex-col md:grid md:grid-cols-12 border border-border-ui overflow-hidden">
@@ -31,8 +31,9 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
               src="/img/contacto-img.png"
               alt="contacto"
               fill
-              className="object-cover"
+              sizes="100vw"
               priority
+              className="object-cover"
             />
           </div>
 
@@ -93,11 +94,13 @@ export default function ContactForm({ title = "" }: ContactFormProps) {
                   <select
                     {...register("employees")}
                     className="w-full bg-transparent text-gray-500 focus:outline-none appearance-none cursor-pointer"
+                    aria-label="Numero de empleados"
                     defaultValue=""
                   >
                     <option value="" disabled>
                       {t("fields.employees")}
                     </option>
+             
                     {/* Puedes agregar las opciones de número de empleados aquí */}
                   </select>
                 </div>
