@@ -4,6 +4,7 @@
       "title": "UX-UI Consulting Design and development of user experiences",
       "description": "<bold>We create digital experiences</bold> centered on people, with functional, attractive, and accessible interfaces.",
       "buttonText": "Request a free consultation",
+      "buttonHref":"#contacto",
       "breadcrumb": [
         { "label": "Solutions" },
         { "label": "UX-UI Consulting Design and development of user experiences" }
@@ -157,27 +158,32 @@
         "icon":"devices",
         "title": "Mobile and Web Application Development",
         "description": "Intuitive solutions for all types of devices",
-        "btn": "View solutions"
+        "btn": "View solutions",
+        "linkNavigation":"/soluciones/"
       },
       {
         "icon":"data_object",
         "title": "Software Development",
         "description": "Custom products tailored to each business need",
-        "btn": "Request development"
+        "btn": "Request development",
+        "linkNavigation":"/soluciones/"
       },
       {
         "icon":"cloud_queue",
         "title": "Cloud Software Development",
         "description": "Secure, flexible, high-performance applications in the cloud.",
-        "btn": "Learn more"
+        "btn": "Learn more",
+        "linkNavigation":"/soluciones/"
       },
       {
         "icon":"developer_mode",
         "title": "Software Application Modernization",
         "description": "Technological update that extends the useful life and increases efficiency.",
-        "btn": "Update now"
+        "btn": "Update now",
+        "linkNavigation":"/soluciones/"
       }
     ]
-    }
+    },
+    "titleContacto":"Contact Us"
   }
 }

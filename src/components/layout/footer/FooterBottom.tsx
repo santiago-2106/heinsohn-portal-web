@@ -5,68 +5,68 @@ import TextComponent from "../../ui/typography/TextComponent";
 const paises = [
   {
     nombre: "Bolivia",
-    image:"/bandera-bolivia.svg",
-    href:"",
+    image: "/bandera-bolivia.svg",
+    href: "",
   },
   {
     nombre: "Canada",
-    image:"/bandera-canada.svg",
-    href:"",
+    image: "/bandera-canada.svg",
+    href: "",
   },
   {
     nombre: "Colombia",
-    image:"/bandera-colombia.svg",
-    href:"",
+    image: "/bandera-colombia.svg",
+    href: "",
   },
   {
     nombre: "Costa Rica",
-    image:"/bandera-costa-rica.svg",
-    href:"https://www.cr.heinsohn.co/",
+    image: "/bandera-costa-rica.svg",
+    href: "https://www.cr.heinsohn.co/",
   },
   {
     nombre: "El Salvador",
-    image:"/bandera-salvador.svg",
-    href:"",
+    image: "/bandera-salvador.svg",
+    href: "",
   },
   {
     nombre: "Ecuador",
-    image:"/bandera-ecuador.svg",
-    href:"https://www.ec.heinsohn.co/",
+    image: "/bandera-ecuador.svg",
+    href: "https://www.ec.heinsohn.co/",
   },
   {
     nombre: "Estados Unidos",
-    image:"/bandera-eeu.svg",
-    href:"https://www.us.heinsohn.co/",
+    image: "/bandera-eeu.svg",
+    href: "https://www.us.heinsohn.co/",
   },
   {
     nombre: "Guatemala",
-    image:"/bandera-guatemala.svg",
-    href:"https://gt.heinsohn.co/",
+    image: "/bandera-guatemala.svg",
+    href: "https://gt.heinsohn.co/",
   },
   {
     nombre: "Honduras",
-    image:"/bandera-honduras.svg",
-    href:"",
+    image: "/bandera-honduras.svg",
+    href: "",
   },
   {
     nombre: "Mexico",
-    image:"/bandera-mexico.svg",
-    href:"",
+    image: "/bandera-mexico.svg",
+    href: "",
   },
   {
     nombre: "Panama",
-    image:"/bandera-panama.svg",
-    href:"about:blank",
+    image: "/bandera-panama.svg",
+    href: "about:blank",
   },
   {
     nombre: "Peru",
-    image:"/bandera-peru.svg",
-    href:"",
+    image: "/bandera-peru.svg",
+    href: "",
   },
   {
     nombre: "Republica Dominicana",
-    image:"/bandera-republicaD.svg",
-    href:"",
+    image: "/bandera-republicaD.svg",
+    href: "",
   },
 ];
 
@@ -105,8 +105,8 @@ export default function FooterBottom() {
                   alt={pais.nombre}
                   className="inline-block h-6 w-8 rounded-md"
                 />
-                <Link href={pais.href} 
-                target="__blank"
+                <Link href={pais.href}
+                  target="__blank"
                 >
                   {pais.nombre}
                 </Link>

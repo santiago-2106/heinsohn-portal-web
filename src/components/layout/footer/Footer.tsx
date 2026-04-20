@@ -22,7 +22,7 @@ export default async function Footer() {
                 alt="icon heinsohn"
                 width={30}
                 height={30}
-                
+
               />
               <h3 className="text-sm font-bold text-text-body tracking-wider">HEINSOHN</h3>
             </div>
@@ -31,13 +31,13 @@ export default async function Footer() {
               {t("description")}
             </p>
 
-              <div style={{ display: "flex", gap: "16px", fontSize: "30px" }} className="hover:cursor-pointer text-text-body">
-                <FaLinkedin className="hover:active:scale-90 hover:text-blue-700"/>
-                <FaInstagram className="hover:active:scale-90 hover:text-pink-400" />
-                <FaSpotify className="hover:active:scale-90 hover:text-green-500"/>
-                <FaYoutube className="hover:active:scale-90 hover:text-brand-accent"/>
-                <SiTiktok className="hover:active:scale-90 hover:"/>
-                <FaFacebook className="hover:active:scale-90 hover:text-blue-500"/>
+            <div style={{ display: "flex", gap: "16px", fontSize: "30px" }} className="hover:cursor-pointer text-text-body">
+              <FaLinkedin className="hover:active:scale-90 hover:text-blue-700" />
+              <FaInstagram className="hover:active:scale-90 hover:text-pink-400" />
+              <FaSpotify className="hover:active:scale-90 hover:text-green-500" />
+              <FaYoutube className="hover:active:scale-90 hover:text-brand-accent" />
+              <SiTiktok className="hover:active:scale-90 hover:" />
+              <FaFacebook className="hover:active:scale-90 hover:text-blue-500" />
             </div>
           </div>
 

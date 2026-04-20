@@ -37,7 +37,7 @@ export default function CardCases({
                   src={imgKnowOurWork}
                   alt={titleWork || "Caso de éxito"}
                   fill
-                  priority
+                  sizes="(max-width: 768px) 100vw, 66vw"
                   className="object-cover brightness-90 grayscale-100"
                 />
               </div>
