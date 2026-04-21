@@ -11,10 +11,7 @@ import Slider from "@/src/components/sliders/SliderBlog";
 import PreguntasFort from "@/src/components/forms/formularios/PreguntForm";
 import ContactForm from "@/src/components/forms/formularios/ContactForm";
 
-// Data Centralizada
-import {
-  titlesFinanciera // <-- Importamos los nuevos títulos centralizados
-} from "@/src/data/soluciones/financiera";
+// next-intl (Todo desde el JSON, ya no usamos importaciones locales de data)
 import { useTranslations } from "next-intl";
 import { richText } from "@/src/hooks/helper/richText";
 import mapRich from "@/src/hooks/mapRich";
@@ -27,10 +24,8 @@ export const metadata: Metadata = {
 };
 
 export default function SolucionesFinanciero() {
-
-  const t = useTranslations("financiera")
-
-  const cardsFinanzas = mapRich(t,"cardsExperienciaCifras")
+  const t = useTranslations("financiera");
+  const cardsFinanzas = mapRich(t, "cardsExperienciaCifras");
 
   return (
     <>
@@ -41,7 +36,7 @@ export default function SolucionesFinanciero() {
         buttonHref={t("dataHeroFinanzas.buttonHref")}
         arrowHref="#"
         breadcrumb={t.raw("dataHeroFinanzas.breadcrumb")}
-        badges={t.raw("dataHeroFinanzas.badges")} //PENDIENTE A UN CAMBIO IGUAL QUE LAS CARDS
+        badges={t.raw("dataHeroFinanzas.badges")}
         isUppercase={false}          
       />
 
@@ -60,13 +55,12 @@ export default function SolucionesFinanciero() {
         cols={2}
       />
 
-      {/* Si CardResult lleva data, deberías pasarla igual, por ahora lo dejamos como está */}
-     <CardResult {...t.raw("cardResultados")} />
+      <CardResult {...t.raw("cardResultados")} />
 
       <Clientes title={t("titlesFinanciera.ExperienciaCifras.title")} />
 
       <CardAnuncies 
-        title={titlesFinanciera.statsVacio} 
+        title={t("titlesFinanciera.statsVacio")} 
         cards={cardsFinanzas} 
         cols={2} 
       />
@@ -76,7 +70,7 @@ export default function SolucionesFinanciero() {
       <CardCases {...t.raw("cardConoceNuestroTrabajo")} />
       
       <Slider 
-       title={t("sliderBlogDestacadoFinanciera.title")}
+        title={t("sliderBlogDestacadoFinanciera.title")}
         data={t.raw("sliderBlogDestacadoFinanciera.items")}
       />
 
@@ -85,7 +79,7 @@ export default function SolucionesFinanciero() {
         items={t.raw("preguntasFrecuentesLista")} 
       />
 
-      <ContactForm title={t("titlesFinanciera.ContactForm.title")}/>
+      <ContactForm title={t("titlesFinanciera.ContactForm.title")} />
     </>
   );
 }

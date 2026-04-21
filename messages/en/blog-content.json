@@ -1,0 +1,37 @@
+[
+  {
+    "id": "signals",
+    "title": "Demand Growth: More Credits, More Problems",
+    "content": "When the volume of credit applications increases, manual processes or outdated systems often fail to handle it efficiently. This creates bottlenecks that slow down credit approvals and delay disbursements, affecting both customer satisfaction and your company's reputation. Scalable credit management software allows you to handle a higher volume of applications without losing efficiency. It automates repetitive tasks and reduces response times, facilitating growth without compromising service quality."
+  },
+  {
+    "id": "processes",
+    "title": "Slow and Manual Operating Processes",
+    "content": "Using manual processes for data verification, approval, and payment tracking can be inefficient and error-prone. This not only increases the risk of human error but also slows down the entire credit cycle, which can affect daily operations. Automating these processes through software reduces the time spent on repetitive tasks and minimizes errors. This allows your team to focus on more strategic activities and improves the customer experience by speeding up response times."
+  },
+  {
+    "id": "traceability",
+    "title": "Lack of Traceability and Control in the Credit Cycle",
+    "content": "If your company lacks visibility over the full credit cycle, from application to final payment, it is difficult to identify issues early and make informed decisions. The lack of real-time data can create financial risks and hinder effective portfolio management. Specialized software provides full traceability and control over the credit lifecycle, giving you access to real-time reports and enabling data-driven decisions. This improves strategic decision-making and helps prevent problems before they escalate."
+  },
+  {
+    "id": "errors",
+    "title": "Errors in Data Verification and Credit Approval",
+    "content": "Human errors in verifying information or calculating installments can have a significant impact on your company's operations, especially when approving or rejecting credit applications. These errors not only hurt your finances but also damage customer trust in your service. Credit management software includes automated tools for data verification and risk analysis, ensuring decisions are well-founded and accurate. This minimizes errors and reduces the risks of granting non-viable credits."
+  },
+  {
+    "id": "problems",
+    "title": "Difficulties Managing Multiple Credit Products",
+    "content": "If your company handles various credit lines with specific conditions for each, management can become complex. Using manual or inflexible systems to manage products with variable rates, different terms, or customized conditions can lead to confusion and errors in calculations or reports. A good credit manager allows you to configure multiple credit products, adapting to your company's specific needs. You can manage everything from consumer loans to customized credit lines with complete control and flexibility."
+  },
+  {
+    "id": "difficulty",
+    "title": "Difficulty Integrating Systems and Managing Data",
+    "content": "In a digital environment, different business systems, such as your CRM or accounting software, must be integrated. If information doesn't flow between these platforms, efforts are likely duplicated, errors occur, or valuable data is lost. Modern credit management software integrates easily with other systems, allowing a constant, real-time flow of information. This not only improves operational efficiency but also ensures data consistency across all platforms."
+  },
+  {
+    "id": "visibility",
+    "title": "No Visibility or Real-Time Reporting",
+    "content": "A lack of visibility regarding the status of your credit portfolio can jeopardize strategic decision-making. Without real-time reports, you cannot accurately evaluate delinquency, cash flows, or default risks, which can affect your company's financial health. Credit management software provides access to detailed, real-time reporting, allowing you to accurately assess your portfolio's status, foresee risks, and adjust your strategies based on up-to-date data."
+  }
+]

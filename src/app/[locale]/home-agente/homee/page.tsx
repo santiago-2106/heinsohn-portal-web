@@ -1,3 +1,6 @@
+// 1. AÑADES ESTA IMPORTACIÓN PARA EL SEO
+import { Metadata } from 'next'; 
+
 import ContactForm from '@/src/components/forms/formularios/ContactForm'
 import CertificacionesInternacionales from '@/src/components/sections/shared/certificaciones/CertificacionesInternacionales'
 import Clientes from '@/src/components/sections/shared/clientes/Clientes'
@@ -10,11 +13,20 @@ import { richText } from '@/src/hooks/helper/richText'
 import mapRich from '@/src/hooks/mapRich'
 import { useTranslations } from 'next-intl'
 
+//  AQUÍ ES DONDE SE IMPLEMENTA LA CONFIGURACIÓN DEL SEO 
+// Se exporta esta constante llamada 'metadata' siempre por fuera y 
+// antes de la función de tu componente visual.
+export const metadata: Metadata = {
+  title: 'Inicio | Portal Web Heinsohn',
+  description: 'Plataforma integral para la gestión de soluciones financieras y tecnológicas.',
+};
+
 export default function pageHome() {
 
   const t = useTranslations("HomeHeinsohn")
   //Cards Soluciones del Home ajuste para estilos segun la ux
   const cardSoluciones = mapRich(t, "cardSolucionesHome.cardsHome")
+  
   return (
     <div id='home'>
       <Hero 

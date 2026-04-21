@@ -40,10 +40,9 @@ export default getRequestConfig(async ({ requestLocale }) => {
   const agente = (await import(`../../messages/${locale}/agente.json`)).default;
   const staffAugmentation = (await import(`../../messages/${locale}/staffAugmentation.json`)).default;
   const contacto = (await import(`../../messages/${locale}/contacto.json`)).default;
-  
-  // AQUÍ ESTÁ LA CORRECCIÓN CLAVE:
   const terminosYCondiciones = (await import(`../../messages/${locale}/terminos-condiciones.json`)).default;
   const blogs = (await import(`../../messages/${locale}/blogs.json`)).default;
+  const blogcontent = (await import(`../../messages/${locale}/blog-content.json`)).default;
   
   return {
     locale,
@@ -81,6 +80,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...terminosYCondiciones,
       ...blogs,
       ...contacto,
+      ...blogcontent
     }
   };
 });

@@ -1,25 +1,25 @@
 {
   "financiera": {
     "pageStrings": {
-      "solucionesTitulo": "<>Soluciones tecnológicas para créditos,<br className=\"hidden md:block\" />fondos e inversiones</>",
+      "solucionesTitulo": "Soluciones tecnológicas para créditos,<br/>fondos e inversiones",
       "experienciaTitulo": "Nuestra experiencia en cifras",
       "certificacionesTitulo": "Certificaciones internacionales",
       "faqTitulo": "Preguntas frecuentes sobre software financiero",
-      "contactoTitulo": "<>Transforma la gestion<br className=\"hidden md:block\" />financiera de tu empresa</>"
+      "contactoTitulo": "Transforma la gestion<br/>financiera de tu empresa"
     },
 
     "dataHeroFinanzas": {
       "title": "Soluciones para el sector financiero ",
       "description": "Contamos con un <bold>portafolio de software especializado para banca, fintechs, aseguradoras y entidades no bancarizadas</bold> que buscan liderar la transformación digital del sector financiero en LATAM. Nuestras soluciones permiten administrar créditos, obligaciones financieras, fondos de inversión y portafolios con total eficiencia, seguridad y cumplimiento normativo. ",
       "buttonText": "Solicita una asesoría gratuita",
-      "buttonHref":"#contacto",
+      "buttonHref": "#contacto",
       "breadcrumb": [
         { "label": "Soluciones" },
         { "label": "Soluciones para el sector financiero" }
       ],
       "badges": [
         { "prefix": "+", "highlight": "40", "text": "años de experiencia" },
-        { "prefix": "+", "highlight": "40", "text": "clientes en LATAM" }
+        { "prefix": "+", "highlight": "1.200", "text": "clientes en LATAM" }
       ]
     },
 
@@ -36,7 +36,7 @@
       "ExperienciaCifras": {
         "title": "Nuestra experiencia en cifras"
       },
-      
+      "statsVacio": "",
       "CertificacionesInternacionales": {
         "title": "Certificaciones internacionales"
       },
@@ -48,43 +48,42 @@
       }
     },
 
-    
     "cardsEntidadesFinancieras": [
       {
-        "icon":"credit_card",
+        "icon": "credit_card",
         "title": "Pagos digitales en auge",
         "description": "Más de 650 millones de transacciones al mes con billeteras y pagos sin contacto.",
-        "alineacion":"center"
+        "alineacion": "center"
       },
       {
-        "icon":"add_shopping_cart",
+        "icon": "add_shopping_cart",
         "title": "Open Finance en expansión",
         "description": "Brasil supera 9 millones de usuarios bajo este modelo, abriendo camino en personalización y transparencia.",
-        "alineacion":"center"
+        "alineacion": "center"
       },
       {
-        "icon":"card_travel",
+        "icon": "card_travel",
         "title": "Digitalización en Colombia",
         "description": "Más de 20 millones de usuarios en Transfiya y 299 millones de transferencias inmediatas en 2024 (+294% vs. 2023).",
-        "alineacion":"center"
+        "alineacion": "center"
       },
       {
-        "icon":"add_moderator",
+        "icon": "add_moderator",
         "title": "Ciberseguridad en primer plano",
         "description": "El 67,5% de las organizaciones la identifica como su mayor riesgo.",
-        "alineacion":"center"
+        "alineacion": "center"
       },
       {
-        "icon":"robot_2",
+        "icon": "robot_2",
         "title": "IA y automatización",
         "description": "Desde la detección de fraudes hasta la atención al cliente, elevan las expectativas de inmediatez.",
-        "alineacion":"center"
+        "alineacion": "center"
       },
       {
-        "icon":"price_change",
+        "icon": "price_change",
         "title": "Competencias fintech",
         "description": "México ya supera las 700 fintech activas, intensificando la innovación y la presión competitiva.",
-        "alineacion":"center"
+        "alineacion": "center"
       }
     ],
 
@@ -99,7 +98,7 @@
           { "textos": "Reducción de tiempos de capacitación y soporte." }
         ],
         "btn": "Conoce la solución de Créditos y Libranzas ->",
-        "linkNavigation":"/soluciones/soluciones-sap"
+        "linkNavigation": "/soluciones/soluciones-sap"
       },
       {
         "icon": "finance_chip",
@@ -111,7 +110,7 @@
           { "textos": "Reportes gerenciales y normativos en PDF y Excel." }
         ],
         "btn": "Explora la solución de Obligaciones Financieras ->",
-        "linkNavigation":"/soluciones/soluciones-sap"
+        "linkNavigation": "/soluciones/soluciones-sap"
       },
       {
         "icon": "folder_code",
@@ -123,7 +122,7 @@
           { "textos": "Movilidad y visión 360° para inversionistas." }
         ],
         "btn": "Descubre nuestra solución para FICs ->",
-        "linkNavigation":"/soluciones/soluciones-sap"
+        "linkNavigation": "/soluciones/soluciones-sap"
       },
       {
         "icon": "price_change",
@@ -135,11 +134,10 @@
           { "textos": "Más de 25 años respaldando a fondos, aseguradoras y banca en LATAM." }
         ],
         "btn": "Conoce cómo optimizar tus portafolios ->",
-        "linkNavigation":"/soluciones/soluciones-sap"
+        "linkNavigation": "/soluciones/soluciones-sap"
       }
     ],
 
-    
     "cardResultados": {
       "title": "Resultados que demuestran nuestra experiencia en el sector financiero",
       "mainStat": {
@@ -197,14 +195,13 @@
     ],
 
     "cardConoceNuestroTrabajo": {
-      "imgKnowOurWork":"/img/edif.jpg",
-      "title":"Conoce nuestro trabajo",
+      "imgKnowOurWork": "/img/edif.jpg",
+      "title": "Conoce nuestro trabajo",
       "titleWork": "Caso de Éxito en Banca",
       "descriptionWork": "Implementamos una solución integral que redujo los tiempos de respuesta en un 40%.",
       "textBtn": "Leer caso completo"
     },
 
-    
     "sliderBlogDestacadoFinanciera": {
       "title": "Blog Destacado",
       "items": [
@@ -215,7 +212,7 @@
           "description": "Descubre como las organizaciones estan utilizando nuestras soluciones para lograr mayor eficiencia, competividad y crecimiento sostenible.",
           "btn": "Leer más"
         },
-         {
+        {
           "id": 2,
           "img": "/img/slider2Blog.jpg",
           "title": "Tendencias UX que marca el futuro del diseño digital",
